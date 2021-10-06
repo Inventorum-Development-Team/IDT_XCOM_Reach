@@ -1,0 +1,755 @@
+#Halo Wars style mod - Created in 2014 by Diemaco for no good reason.
+#v3 Alpha for openXcom.
+
+#Items
+items:
+  - type: STR_PISTOL          #DELETE STARTING WEAPONS
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_PISTOL_CLIP
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_RIFLE
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_RIFLE_CLIP
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_HEAVY_CANNON
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_HC_AP_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_HC_HE_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_HC_I_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_AUTO_CANNON
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_AC_AP_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_AC_HE_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_AC_I_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_WPN_T25P       #Type25 Plasma Pistol
+    listOrder: 2201   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 99200
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 5
+    bulletSprite: 5   # t25p bullet sprites
+    compatibleAmmo:         #Battle Stats
+      - STR_AMO_T25P        #
+    accuracySnap: 40        #
+    accuracyAimed: 75       #
+    tuSnap: 18              #
+    tuAimed: 45             #
+    maxRange: 100           #
+    aimRange: 20            #
+    snapRange: 8            #
+    dropoff: 5              #
+    fireSound: 407          #
+    bigSprite: 407    #inventory sprite
+    floorSprite: 407  #battlescape floor sprite
+    handSprite: 96
+  - type: STR_AMO_T25P         #M6C Magazine
+    listOrder: 2202
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1200
+    weight: 2
+    bigSprite: 402
+    floorSprite: 402
+    hitSound: 22
+    hitAnimation: 26
+    power: 60
+    damageType: 5
+    clipSize: 10
+    battleType: 2
+    armor: 12
+  - type: STR_WPN_T25       #Type25 Plasma Rifle
+    listOrder: 2301   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 125000
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 9
+    bulletSprite: 5   # t25p bullet sprites
+    compatibleAmmo:         #Battle Stats
+      - STR_AMO_T25_RIFLES  #
+    accuracySnap: 25        #
+    accuracyAimed: 65       #
+    accuracyAuto: 20
+    tuSnap: 18              #
+    tuAimed: 45             #
+    tuAuto: 25
+    autoShots: 4
+    maxRange: 100           #
+    aimRange: 25            #
+    snapRange: 10           #
+    dropoff: 5              #
+    fireSound: 409          #
+    bigSprite: 409    #inventory sprite
+    floorSprite: 409  #battlescape floor sprite
+    handSprite: 96
+  - type: STR_AMO_T25_RIFLES         #T25 Rifle-class heatsinks
+    listOrder: 2302
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1550
+    weight: 4
+    bigSprite: 402
+    floorSprite: 402
+    hitSound: 22
+    hitAnimation: 26
+    power: 65
+    damageType: 5
+    clipSize: 14
+    battleType: 2
+    armor: 12
+  - type: STR_WPN_T25B       #Type25 Plasma Rifle/I
+    listOrder: 2401   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 144500
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 8
+    bulletSprite: 5   # t25p bullet sprites
+    compatibleAmmo:         #Battle Stats
+      - STR_AMO_T25_RIFLES  #
+    accuracySnap: 23        #
+    accuracyAimed: 60       #
+    accuracyAuto: 18
+    tuSnap: 15              #
+    tuAimed: 40             #
+    tuAuto: 35
+    autoShots: 8
+    maxRange: 100           #
+    aimRange: 25            #
+    snapRange: 10           #
+    dropoff: 5              #
+    fireSound: 411          #
+    bigSprite: 411    #inventory sprite
+    floorSprite: 411  #battlescape floor sprite
+    handSprite: 96
+  - type: STR_WPN_T51       #Type51 Repeater
+    listOrder: 2401   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 125000
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 9
+    bulletSprite: 5   # t25p bullet sprites
+    compatibleAmmo:         #Battle Stats
+      - STR_AMO_T51
+    accuracySnap: 30        #
+    accuracyAimed: 70       #
+    accuracyAuto: 25
+    tuSnap: 30              #
+    tuAimed: 55             #
+    tuAuto: 40
+    autoShots: 6
+    maxRange: 100           #
+    aimRange: 30            #
+    snapRange: 13           #
+    dropoff: 6              #
+    fireSound: 407          #
+    bigSprite: 413    #inventory sprite
+    floorSprite: 413  #battlescape floor sprite
+    handSprite: 96
+  - type: STR_AMO_T51         #T25 Rifle-class heatsinks
+    listOrder: 2402
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1780
+    weight: 6
+    bigSprite: 402
+    floorSprite: 402
+    hitSound: 22
+    hitAnimation: 26
+    power: 80
+    damageType: 5
+    clipSize: 22
+    battleType: 2
+    armor: 12
+  - type: STR_WPN_M6C_BASIC       #M6C Basic
+    listOrder: 1901   # 1900 = default pistol
+    costBuy: 1215     # buy/sell data
+    costSell: 911
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 3
+    bulletSprite: 1   # pistol bullet sprites
+    compatibleAmmo:         #Battle Stats
+      - STR_AMO_M6C_ANY     #
+    accuracySnap: 50        #
+    accuracyAimed: 80       #
+    tuSnap: 13              #
+    tuAimed: 40             #
+    maxRange: 100           #
+    aimRange: 25            #
+    snapRange: 10           #
+    dropoff: 5              #
+    fireSound: 400          #
+    bigSprite: 400    #inventory sprite
+    floorSprite: 400  #battlescape floor sprite
+    handSprite: 96
+  - type: STR_AMO_M6C_ANY         #M6C Magazine
+    listOrder: 1902
+    size: 0.1
+    costBuy: 50
+    costSell: 38
+    weight: 2
+    bigSprite: 402
+    floorSprite: 402
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 12
+  - type: STR_WPN_M6C_ODST       #M6C SOCOM
+    listOrder: 1903   # 1900 = default pistol
+    costBuy: 1615     # buy/sell data
+    costSell: 1211
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 4
+    bulletSprite: 1   # pistol bullet sprites
+    compatibleAmmo:         #Battle Stats
+      - STR_AMO_M6C_ANY     #
+    accuracySnap: 50        #
+    accuracyAimed: 80       #
+    tuSnap: 13              #
+    tuAimed: 40             #
+    maxRange: 100           #
+    aimRange: 30            #
+    snapRange: 15           #
+    dropoff: 4              #
+    fireSound: 401          #
+    bigSprite: 401    #inventory sprite
+    floorSprite: 401  #battlescape floor sprite
+    handSprite: 96
+  - type: STR_WPN_SRS99       #SRS99 Sniper Rifle
+    listOrder: 2000   # 1900 = default pistol
+    costBuy: 8141     # buy/sell data
+    costSell: 6106
+    size: 0.3         # size in gen. stores
+    invWidth: 1       # 1x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 12
+    bulletSprite: 3   # AC bullet sprites
+    compatibleAmmo:         #Battle Stats
+      - STR_AMO_SRS99       #
+    twoHanded: true         #
+    accuracySnap: 50        #
+    accuracyAimed: 110      #
+    tuSnap: 30              #
+    tuAimed: 75             #
+    maxRange: 200           #
+    aimRange: 90            #
+    snapRange: 45           #
+    dropoff: 6              #
+    fireSound: 403          #
+    bigSprite: 403    #inventory sprite
+    floorSprite: 403  #battlescape floor sprite
+    handSprite: 96
+  - type: STR_AMO_SRS99        #SRS99 Magazine
+    listOrder: 2001
+    size: 0.1
+    costBuy: 120
+    costSell: 90
+    weight: 3
+    bigSprite: 404
+    floorSprite: 404
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 1
+    clipSize: 4
+    battleType: 2
+    armor: 12
+  - type: STR_WPN_MA37
+    listOrder: 2100
+    size: 0.2
+    costBuy: 1686
+    costSell: 1265
+    weight: 6
+    bigSprite: 405
+    floorSprite: 405
+    handSprite: 0
+    bulletSprite: 2
+    fireSound: 405
+    compatibleAmmo:
+      - STR_AMO_MA37
+    accuracyAuto: 35
+    accuracySnap: 50
+    accuracyAimed: 65
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 50
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 100
+    snapRange: 25
+    autoRange: 22
+    minRange: 3
+    dropoff: 3
+    autoShots: 3
+  - type: STR_AMO_MA37         #MA37 magazine
+    listOrder: 2101
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 2
+    bigSprite: 406
+    floorSprite: 406
+    hitSound: 22
+    hitAnimation: 26
+    power: 24
+    damageType: 1
+    clipSize: 32
+    battleType: 2
+    armor: 12
+alienDeployments:
+  - type: STR_SMALL_SCOUT
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_AMO_T25P
+            - STR_MIND_PROBE
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_AMO_T25P
+            - STR_MIND_PROBE
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+            - STR_MIND_PROBE
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_MEDIUM_SCOUT
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_AMO_T25P
+          -
+            - STR_WPN_T25B
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+          -
+            - STR_WPN_T51
+            - STR_AMO_T51
+            - STR_AMO_T51
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_MIND_PROBE
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_LARGE_SCOUT
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_AMO_T25P
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+          -
+            - STR_WPN_T51
+            - STR_AMO_T51
+            - STR_AMO_T51
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_MIND_PROBE
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+          -
+            - STR_WPN_T25B
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_MIND_PROBE
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+            - STR_MIND_PROBE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+    width: 50
+    length: 50
+    height: 4
+  - type: STR_HARVESTER
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+          -
+            - STR_WPN_T25B
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_ALIEN_GRENADE
+          -
+            - STR_WPN_T51
+            - STR_AMO_T51
+            - STR_AMO_T51
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_AMO_T25P
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+          -
+            - STR_WPN_T25B
+            - STR_AMO_T25_RIFLES
+            - STR_AMO_T25_RIFLES
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_WPN_T25P
+            - STR_AMO_T25P
+            - STR_AMO_T25P
+            - STR_ALIEN_GRENADE
+          -
+            - STR_WPN_T25
+            - STR_AMO_T25_RIFLES
+            - STR_ALIEN_GRENADE
+          -
+            - STR_WPN_T51
+            - STR_AMO_T51
+            - STR_AMO_T51
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 4
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      400: Resources/Halo/GfxInventory/M6C.gif
+      401: Resources/Halo/GfxInventory/M6CSOCOM.gif
+      402: Resources/Halo/GfxInventory/M6C_AMMO.gif
+      403: Resources/Halo/GfxInventory/SR99.gif
+      404: Resources/Halo/GfxInventory/SR99_AMMO.gif
+      405: Resources/Halo/GfxInventory/MA37.gif
+      406: Resources/Halo/GfxInventory/MA37_AMMO.gif
+      407: Resources/Halo/GfxInventory/T25P.gif
+      409: Resources/Halo/GfxInventory/T25.gif
+      411: Resources/Halo/GfxInventory/T25B.gif
+      413: Resources/Halo/GfxInventory/T51.gif
+  - type: FLOOROB.PCK
+    files:
+      400: Resources/Halo/GfxFloor/M6C.png
+      401: Resources/Halo/GfxFloor/M6CSOCOM.png
+      402: Resources/Halo/GfxFloor/M6C_AMMO.png
+      403: Resources/Halo/GfxFloor/SR99.png
+      404: Resources/Halo/GfxFloor/SR99_AMMO.png
+      405: Resources/Halo/GfxFloor/MA37.png
+      406: Resources/Halo/GfxFloor/MA37_AMMO.png
+      407: Resources/Halo/GfxFloor/T25P.png
+      409: Resources/Halo/GfxFloor/T25.png
+      411: Resources/Halo/GfxFloor/T25B.png
+      413: Resources/Halo/GfxFloor/T51.png
+  - type: Projectiles
+    height: 3
+    width: 45
+    subX: 3
+    subY: 3
+    files:
+      407: Resources/Halo/BulletSprites/bulletsprites_t25p.png
+  - type: Projectiles
+    height: 3
+    width: 54
+    subX: 3
+    subY: 3
+    files:
+      409: Resources/Halo/BulletSprites/bulletsprites_t25.png   #T51 also uses these
+      411: Resources/Halo/BulletSprites/bulletsprites_t25b.png
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      400: Resources/Halo/SndWeapon/M6CFire.wav
+      401: Resources/Halo/SndWeapon/M6CSOCOMFire.wav
+      403: Resources/Halo/SndWeapon/SR99Fire.wav
+      405: Resources/Halo/SndWeapon/MA37Fire.wav
+      407: Resources/Halo/SndWeapon/T25PFire.wav  #T51 also uses this sound
+      409: Resources/Halo/SndWeapon/T25Fire.wav
+      411: Resources/Halo/SndWeapon/T25BFire.wav
+startingBase:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 2
+      y: 2
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_HANGAR
+      x: 0
+      y: 4
+    - type: STR_HANGAR
+      x: 4
+      y: 4
+    - type: STR_LIVING_QUARTERS
+      x: 3
+      y: 2
+    - type: STR_GENERAL_STORES
+      x: 2
+      y: 3
+    - type: STR_LABORATORY
+      x: 3
+      y: 3
+    - type: STR_WORKSHOP
+      x: 4
+      y: 3
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 1
+      y: 3
+  randomSoldiers: 8
+  crafts:
+    - type: STR_SKYRANGER
+      id: 1
+      fuel: 1500
+      damage: 0
+      items:
+        STR_GRENADE: 8
+        STR_WPN_M6C_BASIC: 5
+        STR_AMO_M6C_ANY: 15
+        STR_WPN_MA37: 8
+        STR_AMO_MA37: 24
+      status: STR_READY
+    - type: STR_INTERCEPTOR
+      id: 1
+      fuel: 1000
+      damage: 0
+      weapons:
+        - type: STR_STINGRAY
+          ammo: 6
+        - type: STR_CANNON_UC
+          ammo: 200
+      status: STR_READY
+    - type: STR_INTERCEPTOR
+      id: 2
+      fuel: 1000
+      damage: 0
+      weapons:
+        - type: STR_STINGRAY
+          ammo: 6
+        - type: STR_CANNON_UC
+          ammo: 200
+  items:
+    STR_AVALANCHE_LAUNCHER: 1
+    STR_AVALANCHE_MISSILES: 10
+    STR_CANNON: 2
+    STR_CANNON_ROUNDS_X50: 1
+    STR_GRENADE: 5
+    STR_WPN_M6C_BASIC: 4
+    STR_AMO_M6C_ANY: 12
+    STR_WPN_MA37: 2
+    STR_AMO_MA37: 6
+    STR_ROCKET_LAUNCHER: 1
+    STR_SMALL_ROCKET: 4
+    STR_SMOKE_GRENADE: 5
+    STR_INCENDIARY_GRENADE: 2
+    STR_STINGRAY_LAUNCHER: 1
+    STR_STINGRAY_MISSILES: 25
+  scientists: 10
+  engineers: 10
+ufopaedia:
+  - id: STR_WPN_M6C_BASIC
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    listOrder: 2006
+    text: STR_WPN_M6C_BASIC_HP
+  - id: STR_WPN_M6C_ODST
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    listOrder: 2106
+    text: STR_WPN_M6C_ODST_HP
+  - id: STR_PISTOL              #disabled default weapons
+    section: STR_NOT_AVAILABLE
+  - id: STR_RIFLE
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEAVY_CANNON
+    section: STR_NOT_AVAILABLE
+  - id: STR_AUTO_CANNON
+    section: STR_NOT_AVAILABLE
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ARMOR_MARINE: UNSC Marine Armor
+      STR_ARMOR_MARINE_HP: Not available yet!
+      STR_ARMOR_ODST: ODST Battle Armor
+      STR_ARMOR_ODST_HP: Not available yet!
+      STR_WPN_M6C_BASIC: M6C PDWS
+      STR_WPN_M6C_BASIC_HP: Not available yet!
+      #STR_WPN_M6C_BASIC_HP: The M6 has been in service for over 140 years and seen combat across the universe, and it's remarkable how little the design has changed since then. It fires the 12.7x40mm SAP-HP round from a 12-round magazine.
+      STR_WPN_M6C_ODST: M6C/SOCOM
+      STR_WPN_M6C_ODST_HP: Not available yet!
+      #STR_WPN_M6C_ODST_HP: This is a development on the M6C PDWS. This variant comes with an integral suppressor, a combination laser sight and flashlight, and is SMARTLINK capable. It is typically issued to UNSC special forces, such as ODSTs.
+      STR_AMO_M6C_ANY: .50 SAP-HP M6 Magazine
+      STR_WPN_M7_BASIC: M7 SMG
+      STR_WPN_M7S_ODST: M7S SMG
+      STR_AMO_M7_ANY: 5x39mm SMG Magazine
+      STR_WPN_M45_BASIC: M45 Tactical Shotgun
+      STR_WPN_M90_ODST: M90 Close Assault Shotgun
+      STR_AMO_SHOTTY_ANY: 8-Gauge Shotgun Speedloader
+      STR_WPN_BR55: BR55HB-SR Battle Rifle
+      STR_WPN_BR55S: BR55HB-SR/SOCOM
+      STR_AMO_BR55_ANY: 9.5x40mm BR55 Magazine
+      STR_WPN_M392: M392 DMR
+      STR_WPN_M392S: M392/S DMR
+      STR_AMO_M392_ANY: 7.62x51mm DMR Magazine
+      STR_WPN_SRS99: SRS99 Sniper Rifle
+      STR_AMO_SRS99: 14.5x114mm SRS99 Magazine
+      STR_WPN_MA37: MA37 ICWS
+      STR_AMO_MA37: 7.62x51mm MA37 Magazine
+      STR_WPN_T25P: Type 25 Pistol
+      STR_AMO_T25P: Type 25/P Heatsink
+      STR_WPN_T25: Type 25 Plasma Rifle
+      STR_WPN_T25B: Type 25/I Plasma Rifle
+      STR_AMO_T25_RIFLES: Type 25/R+I Heatsink
+      STR_WPN_T51: Type 51 Plasma Repeater
+      STR_AMO_T51: Type 51 Heatsink
