@@ -8,7 +8,7 @@ items:
     #costBuy: 1     #--DEBUG--
     costSell: 99200
     size: 0.1         # size in gen. stores
-    invWidth: 1       # 1x2 in inventory.
+    invWidth: 2       # 2x2 in inventory.
     invHeight: 2
     battleType: 1     # 1 = firearm
     weight: 5
