@@ -3,6 +3,42 @@
 
 #Items
 items:
+  - type: STR_PISTOL          #DELETE STARTING WEAPONS
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_PISTOL_CLIP
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_RIFLE
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_RIFLE_CLIP
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_HEAVY_CANNON
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_HC_AP_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_HC_HE_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_HC_I_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_AUTO_CANNON
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_AC_AP_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_AC_HE_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
+  - type: STR_AC_I_AMMO
+    require: STR_ALIENS_ONLY
+    costBuy: 0
   - type: STR_WPN_T25P       #Type25 Plasma Pistol
     listOrder: 2201   # 1900 = default pistol
     #costBuy: 1     #--DEBUG--
