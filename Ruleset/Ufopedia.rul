@@ -23,11 +23,13 @@ extraStrings:
     strings:
       STR_SPECSUIT_UC: SPI ARMOR
       STR_SPECSUIT: SPI Armor
-      STR_SPECSUIT_P: "Semi-Powered Infiltration armor is a UNSC combat armor system designed with an emphasis on stealth through the use of special photoreactive panels, issued to SPARTAN-III teams."
-      STR_ARMOR_MARINE: UNSC Marine Armor
-      STR_ARMOR_MARINE_HP: Not available yet!
+      STR_SPECSUIT_UFOPEDIA: "Semi-Powered Infiltration armor is a UNSC combat armor system designed with an emphasis on stealth through the use of special photoreactive panels, issued to SPARTAN-III teams."
+      STR_ARMOR_MARINE_UC: UNSC MARINE BDU
+      STR_ARMOR_MARINE: UNSC Marine BDU
+      STR_ARMOR_MARINE_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet."
+      STR_ARMOR_ODST_UC: ODST BATTLE ARMOR
       STR_ARMOR_ODST: ODST Battle Armor
-      STR_ARMOR_ODST_HP: Not available yet!
+      STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with HUD tech."
       STR_WPN_M6C_BASIC: M6C PDWS
       STR_WPN_M6C_BASIC_HP: Not available yet!
       #STR_WPN_M6C_BASIC_HP: The M6 has been in service for over 140 years and seen combat across the universe, and it's remarkable how little the design has changed since then. It fires the 12.7x40mm SAP-HP round from a 12-round magazine.
