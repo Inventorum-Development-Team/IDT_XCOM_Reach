@@ -3,8 +3,6 @@ ufopaedia:
     type_id: 5
     listOrder: 2000
     section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_SPECSUIT
     text: STR_SPECSUIT_P
 
   - id: STR_M6C
@@ -12,6 +10,9 @@ ufopaedia:
     type_id: 4
     listOrder: 2006
     text: STR_M6C_HP
+  - id: STR_M6C_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_M6C_SOCOM
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4

@@ -1,0 +1,9 @@
+name: "XCOM: Reach"
+version: "0.1"
+author: "Ikhanad, efrenespartano + IDT"
+description: "The year is 2552. You're part of the defenders of Reach, the last human fortress among the stars... now under siege."
+id: Halo_Mod
+master: xcom1
+reservedSpace: 3
+requiredExtendedVersion: "7.0"
+resourceConfig: transparency.rul

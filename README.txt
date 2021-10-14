@@ -6,7 +6,7 @@ Credits:
 *Ikhanad: lead design
 *efrenespartano: lead design
 
-*Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, MA37 ICWS, SRS99, M6C and M6C/SOCOM sprites and rulesets
+*Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (now modified)
 *Nadir: MJOLNIR Mark V(B) armor basis
 
 ==================================================
@@ -14,4 +14,4 @@ Credits:
 ###### LICENSE: ######
 ######################
 
-Halo Reach © Microsoft Corporation. "XCOM Reach" was created under Microsoft's "Game Content Usage Rules" using assets from Halo Reach and Halo 3, and it is not endorsed by or affiliated with Microsoft.  
+Halo Reach & Halo 3 © Microsoft Corporation. "XCOM Reach" was created under Microsoft's "Game Content Usage Rules" using assets from Halo Reach and Halo 3, and it is not endorsed by or affiliated with Microsoft.  
