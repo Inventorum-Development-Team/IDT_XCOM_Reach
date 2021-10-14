@@ -7,16 +7,16 @@ ufopaedia:
       - STR_SPECSUIT
     text: STR_SPECSUIT_P
 
-  - id: STR_WPN_M6C_BASIC
+  - id: STR_M6C
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
     listOrder: 2006
-    text: STR_WPN_M6C_BASIC_HP
-  - id: STR_WPN_M6C_ODST
+    text: STR_M6C_HP
+  - id: STR_M6C_SOCOM
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
     listOrder: 2106
-    text: STR_WPN_M6C_ODST_HP
+    text: STR_M6C_SOCOM_HP
 
 extraStrings:
   - type: en-US
@@ -30,33 +30,33 @@ extraStrings:
       STR_ARMOR_ODST_UC: ODST BATTLE ARMOR
       STR_ARMOR_ODST: ODST Battle Armor
       STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with HUD tech."
-      STR_WPN_M6C_BASIC: M6C PDWS
-      STR_WPN_M6C_BASIC_HP: Not available yet!
-      #STR_WPN_M6C_BASIC_HP: The M6 has been in service for over 140 years and seen combat across the universe, and it's remarkable how little the design has changed since then. It fires the 12.7x40mm SAP-HP round from a 12-round magazine.
-      STR_WPN_M6C_ODST: M6C/SOCOM
-      STR_WPN_M6C_ODST_HP: Not available yet!
-      #STR_WPN_M6C_ODST_HP: This is a development on the M6C PDWS. This variant comes with an integral suppressor, a combination laser sight and flashlight, and is SMARTLINK capable. It is typically issued to UNSC special forces, such as ODSTs.
-      STR_AMO_M6C_ANY: .50 SAP-HP M6 Magazine
-      STR_WPN_M7_BASIC: M7 SMG
-      STR_WPN_M7S_ODST: M7S SMG
-      STR_AMO_M7_ANY: 5x39mm SMG Magazine
-      STR_WPN_M45_BASIC: M45 Tactical Shotgun
-      STR_WPN_M90_ODST: M90 Close Assault Shotgun
-      STR_AMO_SHOTTY_ANY: 8-Gauge Shotgun Speedloader
-      STR_WPN_BR55: BR55HB-SR Battle Rifle
-      STR_WPN_BR55S: BR55HB-SR/SOCOM
-      STR_AMO_BR55_ANY: 9.5x40mm BR55 Magazine
-      STR_WPN_M392: M392 DMR
-      STR_WPN_M392S: M392/S DMR
-      STR_AMO_M392_ANY: 7.62x51mm DMR Magazine
-      STR_WPN_SRS99: SRS99 Sniper Rifle
-      STR_AMO_SRS99: 14.5x114mm SRS99 Magazine
-      STR_WPN_MA37: MA37 ICWS
-      STR_AMO_MA37: 7.62x51mm MA37 Magazine
-      STR_WPN_T25P: Type 25 Pistol
-      STR_AMO_T25P: Type 25/P Heatsink
-      STR_WPN_T25: Type 25 Plasma Rifle
-      STR_WPN_T25B: Type 25/I Plasma Rifle
-      STR_AMO_T25_RIFLES: Type 25/R+I Heatsink
-      STR_WPN_T51: Type 51 Plasma Repeater
-      STR_AMO_T51: Type 51 Heatsink
+      STR_M6C: M6C PDWS
+      STR_M6C_HP: Not available yet!
+      #STR_M6C_HP: The M6 has been in service for over 140 years and seen combat across the universe, and it's remarkable how little the design has changed since then. It fires the 12.7x40mm SAP-HP round from a 12-round magazine.
+      STR_M6C_SOCOM: M6C/SOCOM
+      STR_M6C_SOCOM_HP: Not available yet!
+      #STR_M6C_SOCOM_HP: This is a development on the M6C PDWS. This variant comes with an integral suppressor, a combination laser sight and flashlight, and is SMARTLINK capable. It is typically issued to UNSC special forces, such as ODSTs.
+      STR_M6C_MAG: .50 SAP-HP M6 Magazine
+      STR_M7: M7 SMG
+      STR_M7S: M7S SMG
+      STR_M7_MAG: 5x39mm SMG Magazine
+      STR_M45_SHOTGUN: M45 Tactical Shotgun
+      STR_M90_SHOTGUN: M90 Close Assault Shotgun
+      STR_8GAUGE_SHELLS: 8-Gauge Shotgun Speedloader
+      STR_BR55: BR55HB-SR Battle Rifle
+      STR_BR55S: BR55HB-SR/SOCOM
+      STR_BR55_MAG: 9.5x40mm BR55 Magazine
+      STR_M392: M392 DMR
+      STR_M392S: M392/S DMR
+      STR_M392_MAG: 7.62x51mm DMR Magazine
+      STR_SRS99: SRS99 Sniper Rifle
+      STR_SRS99_MAG: 14.5x114mm SRS99 Magazine
+      STR_MA37: MA37 ICWS
+      STR_MA37_MAG: 7.62x51mm MA37 Magazine
+      STR_PLASMA_PISTOL: Type 25 Pistol
+      STR_PLASMA_PISTOL_CELL: Type 25/P Heatsink
+      STR_PLASMA_RIFLE: Type 25 Plasma Rifle
+      STR_PLASMA_RIFLE_BRUTE: Type 25/I Plasma Rifle
+      STR_PLASMA_RIFLE_CELL: Type 25/R+I Heatsink
+      STR_PLASMA_REPEATER: Type 51 Plasma Repeater
+      STR_PLASMA_REPEATER_CELL: Type 51 Heatsink

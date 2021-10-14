@@ -3,7 +3,7 @@
 
 #Items
 items:
-  - type: STR_WPN_T25P       #Type25 Plasma Pistol
+  - type: STR_PLASMA_PISTOL       #Type25 Plasma Pistol
     listOrder: 2201   # 1900 = default pistol
     #costBuy: 1     #--DEBUG--
     costSell: 99200
@@ -14,7 +14,7 @@ items:
     weight: 5
     bulletSprite: 5   # t25p bullet sprites
     compatibleAmmo:         #Battle Stats
-      - STR_AMO_T25P        #
+      - STR_PLASMA_PISTOL_CELL        #
     accuracySnap: 40        #
     accuracyAimed: 75       #
     tuSnap: 18              #
@@ -27,7 +27,7 @@ items:
     bigSprite: 407    #inventory sprite
     floorSprite: 407  #battlescape floor sprite
     handSprite: 96
-  - type: STR_AMO_T25P         #M6C Magazine
+  - type: STR_PLASMA_PISTOL_CELL         #M6C Magazine
     listOrder: 2202
     size: 0.1
     #costBuy: 1      #--DEBUG--
@@ -42,7 +42,7 @@ items:
     clipSize: 10
     battleType: 2
     armor: 12
-  - type: STR_WPN_T25       #Type25 Plasma Rifle
+  - type: STR_PLASMA_RIFLE       #Type25 Plasma Rifle
     listOrder: 2301   # 1900 = default pistol
     #costBuy: 1     #--DEBUG--
     costSell: 125000
@@ -53,7 +53,7 @@ items:
     weight: 9
     bulletSprite: 5   # t25p bullet sprites
     compatibleAmmo:         #Battle Stats
-      - STR_AMO_T25_RIFLES  #
+      - STR_PLASMA_RIFLE_CELL  #
     accuracySnap: 25        #
     accuracyAimed: 65       #
     accuracyAuto: 20
@@ -69,7 +69,7 @@ items:
     bigSprite: 409    #inventory sprite
     floorSprite: 409  #battlescape floor sprite
     handSprite: 96
-  - type: STR_AMO_T25_RIFLES         #T25 Rifle-class heatsinks
+  - type: STR_PLASMA_RIFLE_CELL         #T25 Rifle-class heatsinks
     listOrder: 2302
     size: 0.1
     #costBuy: 1      #--DEBUG--
@@ -84,7 +84,7 @@ items:
     clipSize: 14
     battleType: 2
     armor: 12
-  - type: STR_WPN_T25B       #Type25 Plasma Rifle/I
+  - type: STR_PLASMA_RIFLE_BRUTE       #Type25 Plasma Rifle/I
     listOrder: 2401   # 1900 = default pistol
     #costBuy: 1     #--DEBUG--
     costSell: 144500
@@ -95,7 +95,7 @@ items:
     weight: 8
     bulletSprite: 5   # t25p bullet sprites
     compatibleAmmo:         #Battle Stats
-      - STR_AMO_T25_RIFLES  #
+      - STR_PLASMA_RIFLE_CELL  #
     accuracySnap: 23        #
     accuracyAimed: 60       #
     accuracyAuto: 18
@@ -111,7 +111,7 @@ items:
     bigSprite: 411    #inventory sprite
     floorSprite: 411  #battlescape floor sprite
     handSprite: 96
-  - type: STR_WPN_T51       #Type51 Repeater
+  - type: STR_PLASMA_REPEATER       #Type51 Repeater
     listOrder: 2401   # 1900 = default pistol
     #costBuy: 1     #--DEBUG--
     costSell: 125000
@@ -122,7 +122,7 @@ items:
     weight: 9
     bulletSprite: 5   # t25p bullet sprites
     compatibleAmmo:         #Battle Stats
-      - STR_AMO_T51
+      - STR_PLASMA_REPEATER_CELL
     accuracySnap: 30        #
     accuracyAimed: 70       #
     accuracyAuto: 25
@@ -138,7 +138,7 @@ items:
     bigSprite: 413    #inventory sprite
     floorSprite: 413  #battlescape floor sprite
     handSprite: 96
-  - type: STR_AMO_T51         #T25 Rifle-class heatsinks
+  - type: STR_PLASMA_REPEATER_CELL         #T25 Rifle-class heatsinks
     listOrder: 2402
     size: 0.1
     #costBuy: 1      #--DEBUG--
@@ -153,7 +153,7 @@ items:
     clipSize: 22
     battleType: 2
     armor: 12
-  - type: STR_WPN_M6C_BASIC       #M6C Basic
+  - type: STR_M6C       #M6C Basic
     listOrder: 1901   # 1900 = default pistol
     costBuy: 1215     # buy/sell data
     costSell: 911
@@ -164,7 +164,7 @@ items:
     weight: 3
     bulletSprite: 1   # pistol bullet sprites
     compatibleAmmo:         #Battle Stats
-      - STR_AMO_M6C_ANY     #
+      - STR_M6C_MAG     #
     accuracySnap: 50        #
     accuracyAimed: 80       #
     tuSnap: 13              #
@@ -177,7 +177,7 @@ items:
     bigSprite: 400    #inventory sprite
     floorSprite: 400  #battlescape floor sprite
     handSprite: 96
-  - type: STR_AMO_M6C_ANY         #M6C Magazine
+  - type: STR_M6C_MAG         #M6C Magazine
     listOrder: 1902
     size: 0.1
     costBuy: 50
@@ -192,7 +192,7 @@ items:
     clipSize: 12
     battleType: 2
     armor: 12
-  - type: STR_WPN_M6C_ODST       #M6C SOCOM
+  - type: STR_M6C_SOCOM       #M6C SOCOM
     listOrder: 1903   # 1900 = default pistol
     costBuy: 1615     # buy/sell data
     costSell: 1211
@@ -203,7 +203,7 @@ items:
     weight: 4
     bulletSprite: 1   # pistol bullet sprites
     compatibleAmmo:         #Battle Stats
-      - STR_AMO_M6C_ANY     #
+      - STR_M6C_MAG     #
     accuracySnap: 50        #
     accuracyAimed: 80       #
     tuSnap: 13              #
@@ -216,7 +216,7 @@ items:
     bigSprite: 401    #inventory sprite
     floorSprite: 401  #battlescape floor sprite
     handSprite: 96
-  - type: STR_WPN_SRS99       #SRS99 Sniper Rifle
+  - type: STR_SRS99       #SRS99 Sniper Rifle
     listOrder: 2000   # 1900 = default pistol
     costBuy: 8141     # buy/sell data
     costSell: 6106
@@ -227,7 +227,7 @@ items:
     weight: 12
     bulletSprite: 3   # AC bullet sprites
     compatibleAmmo:         #Battle Stats
-      - STR_AMO_SRS99       #
+      - STR_SRS99_MAG       #
     twoHanded: true         #
     accuracySnap: 50        #
     accuracyAimed: 110      #
@@ -241,7 +241,7 @@ items:
     bigSprite: 403    #inventory sprite
     floorSprite: 403  #battlescape floor sprite
     handSprite: 96
-  - type: STR_AMO_SRS99        #SRS99 Magazine
+  - type: STR_SRS99_MAG        #SRS99 Magazine
     listOrder: 2001
     size: 0.1
     costBuy: 120
@@ -256,7 +256,7 @@ items:
     clipSize: 4
     battleType: 2
     armor: 12
-  - type: STR_WPN_MA37
+  - type: STR_MA37
     listOrder: 2100
     size: 0.2
     costBuy: 1686
@@ -268,7 +268,7 @@ items:
     bulletSprite: 2
     fireSound: 405
     compatibleAmmo:
-      - STR_AMO_MA37
+      - STR_MA37_MAG
     accuracyAuto: 35
     accuracySnap: 50
     accuracyAimed: 65
@@ -286,7 +286,7 @@ items:
     minRange: 3
     dropoff: 3
     autoShots: 3
-  - type: STR_AMO_MA37         #MA37 magazine
+  - type: STR_MA37_MAG         #MA37 magazine
     listOrder: 2101
     size: 0.1
     costBuy: 60
@@ -391,10 +391,10 @@ startingBase:
       damage: 0
       items:
         STR_GRENADE: 8
-        STR_WPN_M6C_BASIC: 5
-        STR_AMO_M6C_ANY: 15
-        STR_WPN_MA37: 8
-        STR_AMO_MA37: 24
+        STR_M6C: 5
+        STR_M6C_MAG: 15
+        STR_MA37: 8
+        STR_MA37_MAG: 24
       status: STR_READY
     - type: STR_INTERCEPTOR
       id: 1
@@ -421,10 +421,10 @@ startingBase:
     STR_CANNON: 2
     STR_CANNON_ROUNDS_X50: 1
     STR_GRENADE: 5
-    STR_WPN_M6C_BASIC: 4
-    STR_AMO_M6C_ANY: 12
-    STR_WPN_MA37: 2
-    STR_AMO_MA37: 6
+    STR_M6C: 4
+    STR_M6C_MAG: 12
+    STR_MA37: 2
+    STR_MA37_MAG: 6
     STR_ROCKET_LAUNCHER: 1
     STR_SMALL_ROCKET: 4
     STR_SMOKE_GRENADE: 5

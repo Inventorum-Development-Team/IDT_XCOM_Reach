@@ -8,19 +8,19 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
+            - STR_PLASMA_PISTOL_CELL
             - STR_MIND_PROBE
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
+            - STR_PLASMA_PISTOL_CELL
             - STR_MIND_PROBE
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
             - STR_MIND_PROBE
     width: 40
     length: 40
@@ -34,17 +34,17 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
+            - STR_PLASMA_PISTOL_CELL
           -
-            - STR_WPN_T25B
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE_BRUTE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
           -
-            - STR_WPN_T51
-            - STR_AMO_T51
-            - STR_AMO_T51
+            - STR_PLASMA_REPEATER
+            - STR_PLASMA_REPEATER_CELL
+            - STR_PLASMA_REPEATER_CELL
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -52,16 +52,16 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
             - STR_MIND_PROBE
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
     width: 40
     length: 40
     height: 4
@@ -74,17 +74,17 @@ alienDeployments:
         percentageOutsideUfo: 65
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
+            - STR_PLASMA_PISTOL_CELL
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
           -
-            - STR_WPN_T51
-            - STR_AMO_T51
-            - STR_AMO_T51
+            - STR_PLASMA_REPEATER
+            - STR_PLASMA_REPEATER_CELL
+            - STR_PLASMA_REPEATER_CELL
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -92,17 +92,17 @@ alienDeployments:
         percentageOutsideUfo: 25
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
             - STR_MIND_PROBE
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
           -
-            - STR_WPN_T25B
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE_BRUTE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
             - STR_ALIEN_GRENADE
       - alienRank: 2
         lowQty: 1
@@ -111,13 +111,13 @@ alienDeployments:
         percentageOutsideUfo: 35
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
             - STR_MIND_PROBE
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
             - STR_MIND_PROBE
           -
             - STR_SMALL_LAUNCHER
@@ -136,16 +136,16 @@ alienDeployments:
         percentageOutsideUfo: 70
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
           -
-            - STR_WPN_T25B
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE_BRUTE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -153,16 +153,16 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
             - STR_ALIEN_GRENADE
           -
-            - STR_WPN_T51
-            - STR_AMO_T51
-            - STR_AMO_T51
+            - STR_PLASMA_REPEATER
+            - STR_PLASMA_REPEATER_CELL
+            - STR_PLASMA_REPEATER_CELL
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -192,17 +192,17 @@ alienDeployments:
         percentageOutsideUfo: 30
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
+            - STR_PLASMA_PISTOL_CELL
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
           -
-            - STR_WPN_T25B
-            - STR_AMO_T25_RIFLES
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE_BRUTE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -210,18 +210,18 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_WPN_T25P
-            - STR_AMO_T25P
-            - STR_AMO_T25P
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CELL
+            - STR_PLASMA_PISTOL_CELL
             - STR_ALIEN_GRENADE
           -
-            - STR_WPN_T25
-            - STR_AMO_T25_RIFLES
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
             - STR_ALIEN_GRENADE
           -
-            - STR_WPN_T51
-            - STR_AMO_T51
-            - STR_AMO_T51
+            - STR_PLASMA_REPEATER
+            - STR_PLASMA_REPEATER_CELL
+            - STR_PLASMA_REPEATER_CELL
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 50
