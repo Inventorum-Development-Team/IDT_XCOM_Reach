@@ -32,12 +32,10 @@ extraStrings:
       STR_ARMOR_ODST: ODST Battle Armor
       STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with HUD tech."
       STR_M6C: M6C PDWS
-      STR_M6C_HP: Not available yet!
-      #STR_M6C_HP: The M6 has been in service for over 140 years and seen combat across the universe, and it's remarkable how little the design has changed since then. It fires the 12.7x40mm SAP-HP round from a 12-round magazine.
+      STR_M6C_UFOPEDIA: "Marine Corps' variant of the M6 PDWS, sporting a higher fire rate and velocity, using SAP-HP instead of SAP-HE." 
       STR_M6C_SOCOM: M6C/SOCOM
-      STR_M6C_SOCOM_HP: Not available yet!
-      #STR_M6C_SOCOM_HP: This is a development on the M6C PDWS. This variant comes with an integral suppressor, a combination laser sight and flashlight, and is SMARTLINK capable. It is typically issued to UNSC special forces, such as ODSTs.
-      STR_M6C_MAG: .50 SAP-HP M6 Magazine
+      STR_M6C_SOCOM_UFOPEDIA: "Variant with an integrated suppressor, muzzle brake and a 4x SMARTLINK scope. Typically issued to UNSC units like ODSTs."
+      STR_M6C_MAG: .50 SAP-HP M6C Magazine
       STR_M7: M7 SMG
       STR_M7S: M7S SMG
       STR_M7_MAG: 5x39mm SMG Magazine
