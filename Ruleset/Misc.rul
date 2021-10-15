@@ -72,6 +72,12 @@ manufacture:
   - delete: STR_BLASTER_BOMB
   - delete: STR_SMALL_LAUNCHER
 
+armors:
+  - delete: STR_NONE_UC
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+
 items:
   - delete: STR_ROCKET_LAUNCHER
   - delete: STR_SMALL_ROCKET
@@ -243,3 +249,4 @@ extraStrings:
   - type: en-US
     strings:
       STR_OPENXCOM: "XCOM Reach"
+      STR_SPARTAN_III: "SPARTAN-III"

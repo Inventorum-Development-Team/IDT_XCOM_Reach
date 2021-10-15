@@ -1,9 +1,9 @@
 ufopaedia:
-  - id: STR_SPECSUIT_UC
+  - id: STR_SPI_ARMOR_UC
     type_id: 5
     listOrder: 2000
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SPECSUIT_P
+    text: STR_SPI_ARMOR_P
 
   - id: STR_M6C
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -22,9 +22,9 @@ ufopaedia:
 extraStrings:
   - type: en-US
     strings:
-      STR_SPECSUIT_UC: SPI ARMOR
-      STR_SPECSUIT: SPI Armor
-      STR_SPECSUIT_UFOPEDIA: "Semi-Powered Infiltration armor is a UNSC combat armor system designed with an emphasis on stealth through the use of special photoreactive panels, issued to SPARTAN-III teams."
+      STR_SPI_ARMOR_UC: SPI ARMOR
+      STR_SPI_ARMOR: SPI Armor
+      STR_SPI_ARMOR_UFOPEDIA: "Semi-Powered Infiltration armor is a UNSC combat armor system designed with an emphasis on stealth through the use of special photoreactive panels, issued to SPARTAN-III teams."
       STR_ARMOR_MARINE_UC: UNSC MARINE BDU
       STR_ARMOR_MARINE: UNSC Marine BDU
       STR_ARMOR_MARINE_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet."

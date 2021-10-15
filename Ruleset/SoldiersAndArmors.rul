@@ -1,10 +1,59 @@
+soldiers:
+  - delete: STR_SOLDIER
+  - type: STR_SPARTAN_III
+    costBuy: 500000
+    transferTime: 24
+    minStats:
+      tu: 70
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 70
+      throwing: 60
+      strength: 55
+      psiStrength: 10
+      psiSkill: 10
+      melee: 70
+    maxStats:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 70
+      reactions: 70
+      firing: 80
+      throwing: 70
+      strength: 65
+      psiStrength: 10
+      psiSkill: 10
+      melee: 80
+    statCaps:
+      tu: 100
+      stamina: 110
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 110
+      throwing: 80
+      strength: 120
+      psiStrength: 75
+      psiSkill: 100
+      melee: 100
+    armor: STR_SPI_ARMOR_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 100
+    femaleFrequency: 50
+    soldierNames:
+      - NamesSpartan/
+
 armors:
-  - type: STR_SPECSUIT_UC
+  - type: STR_SPI_ARMOR_UC
     spriteSheet: XCOM_20.PCK
     spriteInv: MAN_20
     corpseBattle:
-      - STR_CORPSE_SPECSUIT
-    storeItem: STR_SPECSUIT_UC
+      - STR_CORPSE_SPI_ARMOR
+    storeItem: STR_SPI_ARMOR_UC
     frontArmor: 130
     sideArmor: 115
     rearArmor: 100
@@ -28,11 +77,11 @@ armors:
         reactions: 10
         firing: 12
 items:
-    - type: STR_SPECSUIT_UC
-      name: STR_SPECSUIT_UC
+    - type: STR_SPI_ARMOR_UC
+      name: STR_SPI_ARMOR_UC
       size: 0.8
       costSell: 200000
-    - type: STR_CORPSE_SPECSUIT
+    - type: STR_CORPSE_SPI_ARMOR
       name: STR_CORPSE
       weight: 22
       bigSprite: 100
