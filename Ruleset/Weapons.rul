@@ -3,269 +3,61 @@
 
 #Items
 items:
-  - type: STR_PLASMA_PISTOL       #Type25 Plasma Pistol
-    listOrder: 2201   # 1900 = default pistol
-    #costBuy: 1     #--DEBUG--
-    costSell: 99200
-    size: 0.1         # size in gen. stores
-    invWidth: 2       # 2x2 in inventory.
-    invHeight: 2
-    battleType: 1     # 1 = firearm
-    weight: 5
-    bulletSprite: 5   # t25p bullet sprites
-    compatibleAmmo:         #Battle Stats
-      - STR_PLASMA_PISTOL_CELL        #
-    accuracySnap: 40        #
-    accuracyAimed: 75       #
-    tuSnap: 18              #
-    tuAimed: 45             #
-    maxRange: 100           #
-    aimRange: 20            #
-    snapRange: 8            #
-    dropoff: 5              #
-    fireSound: 407          #
-    bigSprite: 407    #inventory sprite
-    floorSprite: 407  #battlescape floor sprite
-    handSprite: 96
-  - type: STR_PLASMA_PISTOL_CELL         #M6C Magazine
-    listOrder: 2202
-    size: 0.1
-    #costBuy: 1      #--DEBUG--
-    costSell: 1200
-    weight: 2
-    bigSprite: 402
-    floorSprite: 402
-    hitSound: 22
-    hitAnimation: 26
-    power: 60
-    damageType: 5
-    clipSize: 10
-    battleType: 2
-    armor: 12
-  - type: STR_PLASMA_RIFLE       #Type25 Plasma Rifle
-    listOrder: 2301   # 1900 = default pistol
-    #costBuy: 1     #--DEBUG--
-    costSell: 125000
-    size: 0.1         # size in gen. stores
-    invWidth: 1       # 1x2 in inventory.
-    invHeight: 2
-    battleType: 1     # 1 = firearm
-    weight: 9
-    bulletSprite: 5   # t25p bullet sprites
-    compatibleAmmo:         #Battle Stats
-      - STR_PLASMA_RIFLE_CELL  #
-    accuracySnap: 25        #
-    accuracyAimed: 65       #
-    accuracyAuto: 20
-    tuSnap: 18              #
-    tuAimed: 45             #
-    tuAuto: 25
-    autoShots: 4
-    maxRange: 100           #
-    aimRange: 25            #
-    snapRange: 10           #
-    dropoff: 5              #
-    fireSound: 409          #
-    bigSprite: 409    #inventory sprite
-    floorSprite: 409  #battlescape floor sprite
-    handSprite: 96
-  - type: STR_PLASMA_RIFLE_CELL         #T25 Rifle-class heatsinks
-    listOrder: 2302
-    size: 0.1
-    #costBuy: 1      #--DEBUG--
-    costSell: 1550
-    weight: 4
-    bigSprite: 402
-    floorSprite: 402
-    hitSound: 22
-    hitAnimation: 26
-    power: 65
-    damageType: 5
-    clipSize: 14
-    battleType: 2
-    armor: 12
-  - type: STR_PLASMA_RIFLE_BRUTE       #Type25 Plasma Rifle/I
-    listOrder: 2401   # 1900 = default pistol
-    #costBuy: 1     #--DEBUG--
-    costSell: 144500
-    size: 0.1         # size in gen. stores
-    invWidth: 1       # 1x2 in inventory.
-    invHeight: 2
-    battleType: 1     # 1 = firearm
-    weight: 8
-    bulletSprite: 5   # t25p bullet sprites
-    compatibleAmmo:         #Battle Stats
-      - STR_PLASMA_RIFLE_CELL  #
-    accuracySnap: 23        #
-    accuracyAimed: 60       #
-    accuracyAuto: 18
-    tuSnap: 15              #
-    tuAimed: 40             #
-    tuAuto: 35
-    autoShots: 8
-    maxRange: 100           #
-    aimRange: 25            #
-    snapRange: 10           #
-    dropoff: 5              #
-    fireSound: 411          #
-    bigSprite: 411    #inventory sprite
-    floorSprite: 411  #battlescape floor sprite
-    handSprite: 96
-  - type: STR_PLASMA_REPEATER       #Type51 Repeater
-    listOrder: 2401   # 1900 = default pistol
-    #costBuy: 1     #--DEBUG--
-    costSell: 125000
-    size: 0.1         # size in gen. stores
-    invWidth: 1       # 1x2 in inventory.
-    invHeight: 2
-    battleType: 1     # 1 = firearm
-    weight: 9
-    bulletSprite: 5   # t25p bullet sprites
-    compatibleAmmo:         #Battle Stats
-      - STR_PLASMA_REPEATER_CELL
-    accuracySnap: 30        #
-    accuracyAimed: 70       #
-    accuracyAuto: 25
-    tuSnap: 30              #
-    tuAimed: 55             #
-    tuAuto: 40
-    autoShots: 6
-    maxRange: 100           #
-    aimRange: 30            #
-    snapRange: 13           #
-    dropoff: 6              #
-    fireSound: 407          #
-    bigSprite: 413    #inventory sprite
-    floorSprite: 413  #battlescape floor sprite
-    handSprite: 96
-  - type: STR_PLASMA_REPEATER_CELL         #T25 Rifle-class heatsinks
-    listOrder: 2402
-    size: 0.1
-    #costBuy: 1      #--DEBUG--
-    costSell: 1780
+  - type: STR_MA5B
+    listOrder: 2100
+    size: 0.2
+    costBuy: 1686
+    costSell: 1265
     weight: 6
-    bigSprite: 402
-    floorSprite: 402
-    hitSound: 22
-    hitAnimation: 26
-    power: 80
-    damageType: 5
-    clipSize: 22
-    battleType: 2
-    armor: 12
-  - type: STR_M6C       #M6C Basic
-    listOrder: 1901   # 1900 = default pistol
-    costBuy: 1215     # buy/sell data
-    costSell: 911
-    size: 0.1         # size in gen. stores
-    invWidth: 1       # 1x2 in inventory.
-    invHeight: 2
-    battleType: 1     # 1 = firearm
-    weight: 3
-    bulletSprite: 1   # pistol bullet sprites
-    compatibleAmmo:         #Battle Stats
-      - STR_M6C_MAG     #
-    accuracySnap: 50        #
-    accuracyAimed: 80       #
-    tuSnap: 13              #
-    tuAimed: 40             #
-    maxRange: 100           #
-    aimRange: 25            #
-    snapRange: 10           #
-    dropoff: 5              #
-    fireSound: 400          #
-    bigSprite: 400    #inventory sprite
-    floorSprite: 400  #battlescape floor sprite
-    handSprite: 96
-  - type: STR_M6C_MAG         #M6C Magazine
-    listOrder: 1902
-    size: 0.1
-    costBuy: 50
-    costSell: 38
-    weight: 2
-    bigSprite: 402
-    floorSprite: 402
-    hitSound: 22
-    hitAnimation: 26
-    power: 45
-    damageType: 1
-    clipSize: 12
-    battleType: 2
-    armor: 12
-  - type: STR_M6C_SOCOM       #M6C SOCOM
-    listOrder: 1903   # 1900 = default pistol
-    costBuy: 1615     # buy/sell data
-    costSell: 1211
-    size: 0.1         # size in gen. stores
-    invWidth: 1       # 1x2 in inventory.
-    invHeight: 2
-    battleType: 1     # 1 = firearm
-    weight: 4
-    bulletSprite: 1   # pistol bullet sprites
-    compatibleAmmo:         #Battle Stats
-      - STR_M6C_MAG     #
-    accuracySnap: 50        #
-    accuracyAimed: 80       #
-    tuSnap: 13              #
-    tuAimed: 40             #
-    maxRange: 100           #
-    aimRange: 30            #
-    snapRange: 15           #
-    dropoff: 4              #
-    fireSound: 401          #
-    bigSprite: 401    #inventory sprite
-    floorSprite: 401  #battlescape floor sprite
-    handSprite: 96
-  - type: STR_SRS99       #SRS99 Sniper Rifle
-    listOrder: 2000   # 1900 = default pistol
-    costBuy: 8141     # buy/sell data
-    costSell: 6106
-    size: 0.3         # size in gen. stores
-    invWidth: 1       # 1x3 in inventory.
+    bigSprite: 200
+    floorSprite: 200
+    handSprite: 200
+    fireSound: 405
+    compatibleAmmo:
+      - STR_MA5B_MAG
+    accuracyAuto: 35
+    accuracySnap: 50
+    accuracyAimed: 65
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 50
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
     invHeight: 3
-    battleType: 1     # 1 = firearm
-    weight: 12
-    bulletSprite: 3   # AC bullet sprites
-    compatibleAmmo:         #Battle Stats
-      - STR_SRS99_MAG       #
-    twoHanded: true         #
-    accuracySnap: 50        #
-    accuracyAimed: 110      #
-    tuSnap: 30              #
-    tuAimed: 75             #
-    maxRange: 200           #
-    aimRange: 90            #
-    snapRange: 45           #
-    dropoff: 6              #
-    fireSound: 403          #
-    bigSprite: 403    #inventory sprite
-    floorSprite: 403  #battlescape floor sprite
-    handSprite: 96
-  - type: STR_SRS99_MAG        #SRS99 Magazine
-    listOrder: 2001
+    maxRange: 200
+    aimRange: 100
+    snapRange: 25
+    autoRange: 22
+    minRange: 3
+    dropoff: 3
+    autoShots: 3
+  - type: STR_MA5B_MAG         #MA5B magazine
+    listOrder: 2101
     size: 0.1
-    costBuy: 120
-    costSell: 90
-    weight: 3
-    bigSprite: 404
-    floorSprite: 404
+    costBuy: 60
+    costSell: 48
+    weight: 2
+    bigSprite: 216
+    floorSprite: 216
     hitSound: 22
     hitAnimation: 26
-    power: 45
+    bulletSprite: 11
+    power: 24
     damageType: 1
-    clipSize: 4
+    clipSize: 60
     battleType: 2
     armor: 12
+
   - type: STR_MA37
     listOrder: 2100
     size: 0.2
     costBuy: 1686
     costSell: 1265
     weight: 6
-    bigSprite: 405
-    floorSprite: 405
-    handSprite: 0
-    bulletSprite: 2
+    bigSprite: 224
+    floorSprite: 224
+    handSprite: 224
     fireSound: 405
     compatibleAmmo:
       - STR_MA37_MAG
@@ -292,58 +84,694 @@ items:
     costBuy: 60
     costSell: 48
     weight: 2
-    bigSprite: 406
-    floorSprite: 406
+    bigSprite: 256
+    floorSprite: 256
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 11
     power: 24
     damageType: 1
     clipSize: 32
     battleType: 2
     armor: 12
 
+  - type: STR_SRS99       #SRS99 Sniper Rifle
+    listOrder: 2000   # 1900 = default pistol
+    costBuy: 8141     # buy/sell data
+    costSell: 6106
+    size: 0.3         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 12
+    compatibleAmmo:         #Battle Stats
+      - STR_SRS99_MAG       #
+    twoHanded: true         #
+    accuracySnap: 50        #
+    accuracyAimed: 110      #
+    tuSnap: 30              #
+    tuAimed: 75             #
+    maxRange: 200           #
+    aimRange: 90            #
+    snapRange: 45           #
+    dropoff: 6              #
+    fireSound: 403          #
+    bigSprite: 312    #inventory sprite
+    floorSprite: 312  #battlescape floor sprite
+    handSprite: 312
+  - type: STR_SRS99_MAG        #SRS99 Magazine
+    listOrder: 2001
+    size: 0.1
+    costBuy: 120
+    costSell: 90
+    weight: 3
+    bigSprite: 328
+    floorSprite: 328
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 14
+    power: 45
+    damageType: 1
+    clipSize: 4
+    battleType: 2
+    armor: 12
+
+  - type: STR_M6C       #M6C Basic
+    listOrder: 1901   # 1900 = default pistol
+    costBuy: 1215     # buy/sell data
+    costSell: 911
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 3
+    compatibleAmmo:         #Battle Stats
+      - STR_M6C_MAG     #
+    accuracySnap: 50        #
+    accuracyAimed: 80       #
+    tuSnap: 13              #
+    tuAimed: 40             #
+    maxRange: 100           #
+    aimRange: 25            #
+    snapRange: 10           #
+    dropoff: 5              #
+    fireSound: 400          #
+    bigSprite: 336    #inventory sprite
+    floorSprite: 336  #battlescape floor sprite
+    handSprite: 336
+  - type: STR_M6C_SOCOM       #M6C SOCOM
+    listOrder: 1903   # 1900 = default pistol
+    costBuy: 1615     # buy/sell data
+    costSell: 1211
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 4
+    compatibleAmmo:         #Battle Stats
+      - STR_M6C_MAG     #
+    accuracySnap: 50        #
+    accuracyAimed: 80       #
+    tuSnap: 13              #
+    tuAimed: 40             #
+    maxRange: 100           #
+    aimRange: 30            #
+    snapRange: 15           #
+    dropoff: 4              #
+    fireSound: 401          #
+    bigSprite: 352    #inventory sprite
+    floorSprite: 352  #battlescape floor sprite
+    handSprite: 352
+  - type: STR_M6C_MAG         #M6C Magazine
+    listOrder: 1902
+    size: 0.1
+    costBuy: 50
+    costSell: 38
+    weight: 2
+    bigSprite: 368
+    floorSprite: 368
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 13
+    power: 45
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 12
+  - type: STR_M6G       #M6G Army
+    listOrder: 1901   # 1900 = default pistol
+    costBuy: 1215     # buy/sell data
+    costSell: 911
+    size: 0.1         # size in gen. stores
+    invWidth: 1       # 1x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 3
+    compatibleAmmo:         #Battle Stats
+      - STR_M6G_MAG     #
+    accuracySnap: 50        #
+    accuracyAimed: 80       #
+    tuSnap: 13              #
+    tuAimed: 40             #
+    maxRange: 100           #
+    aimRange: 25            #
+    snapRange: 10           #
+    dropoff: 5              #
+    fireSound: 400          #
+    bigSprite: 376    #inventory sprite
+    floorSprite: 376  #battlescape floor sprite
+    handSprite: 376
+  - type: STR_M6G_MAG         #M6g Magazine
+    listOrder: 1902
+    size: 0.1
+    costBuy: 50
+    costSell: 38
+    weight: 2
+    bigSprite: 392
+    floorSprite: 392
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 13
+    power: 45
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    armor: 12
+
+  - type: STR_PLASMA_RIFLE       #Type25 Plasma Rifle
+    listOrder: 2301   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 125000
+    size: 0.1         # size in gen. stores
+    invWidth: 2       # 2x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 9
+    compatibleAmmo:         #Battle Stats
+      - STR_PLASMA_RIFLE_CELL  #
+    accuracySnap: 25        #
+    accuracyAimed: 65       #
+    accuracyAuto: 20
+    tuSnap: 18              #
+    tuAimed: 45             #
+    tuAuto: 25
+    autoShots: 4
+    maxRange: 100           #
+    aimRange: 25            #
+    snapRange: 10           #
+    dropoff: 5              #
+    fireSound: 409          #
+    bigSprite: 608    #inventory sprite
+    floorSprite: 608  #battlescape floor sprite
+    handSprite: 608
+  - type: STR_PLASMA_RIFLE_CELL         #T25 Rifle-class heatsinks
+    listOrder: 2302
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1550
+    weight: 4
+    bigSprite: 624
+    floorSprite: 624
+    hitSound: 22
+    hitAnimation: 90
+    bulletSprite: 21
+    power: 65
+    damageType: 5
+    clipSize: 14
+    battleType: 2
+    armor: 12
+  - type: STR_PLASMA_RIFLE_BRUTE       #Type25 Plasma Rifle/I
+    listOrder: 2401   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 144500
+    size: 0.1         # size in gen. stores
+    invWidth: 2       # 2x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 8
+    compatibleAmmo:         #Battle Stats
+      - STR_PLASMA_RIFLE_BRUTE_CELL  #
+    accuracySnap: 23        #
+    accuracyAimed: 60       #
+    accuracyAuto: 18
+    tuSnap: 15              #
+    tuAimed: 40             #
+    tuAuto: 35
+    autoShots: 8
+    maxRange: 100           #
+    aimRange: 25            #
+    snapRange: 10           #
+    dropoff: 5              #
+    fireSound: 409          #
+    bigSprite: 632    #inventory sprite
+    floorSprite: 632  #battlescape floor sprite
+    handSprite: 632
+  - type: STR_PLASMA_RIFLE_BRUTE_CELL         #T25 Rifle-class heatsinks
+    listOrder: 2302
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1550
+    weight: 4
+    bigSprite: 648
+    floorSprite: 648
+    hitSound: 22
+    hitAnimation: 100
+    bulletSprite: 22
+    power: 65
+    damageType: 5
+    clipSize: 14
+    battleType: 2
+    armor: 12
+
+  - type: STR_PLASMA_REPEATER       #Type51 Repeater
+    listOrder: 2401   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 125000
+    size: 0.1         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 9
+    compatibleAmmo:         #Battle Stats
+      - STR_PLASMA_REPEATER_CELL
+    accuracySnap: 30        #
+    accuracyAimed: 70       #
+    accuracyAuto: 25
+    tuSnap: 30              #
+    tuAimed: 55             #
+    tuAuto: 40
+    autoShots: 6
+    maxRange: 100           #
+    aimRange: 30            #
+    snapRange: 13           #
+    dropoff: 6              #
+    fireSound: 407          #
+    bigSprite: 656    #inventory sprite
+    floorSprite: 656  #battlescape floor sprite
+    handSprite: 656
+  - type: STR_PLASMA_REPEATER_CELL         #T25 Rifle-class heatsinks
+    listOrder: 2402
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1780
+    weight: 6
+    bigSprite: 672
+    floorSprite: 672
+    hitSound: 22
+    hitAnimation: 120
+    bulletSprite: 23
+    power: 80
+    damageType: 5
+    clipSize: 22
+    battleType: 2
+    armor: 12
+
+  - type: STR_NEEDLER       #Type-33 Needler
+    listOrder: 2301   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 125000
+    size: 0.1         # size in gen. stores
+    invWidth: 2       # 2x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 9
+    compatibleAmmo:         #Battle Stats
+      - STR_NEEDLER_CANISTER  #
+    accuracySnap: 25        #
+    accuracyAimed: 65       #
+    accuracyAuto: 20
+    tuSnap: 18              #
+    tuAimed: 45             #
+    tuAuto: 25
+    autoShots: 4
+    maxRange: 100           #
+    aimRange: 25            #
+    snapRange: 10           #
+    dropoff: 5              #
+    fireSound: 409          #
+    waypoints: 2
+    bigSprite: 704    #inventory sprite
+    floorSprite: 704  #battlescape floor sprite
+    handSprite: 704
+  - type: STR_NEEDLER_CANISTER         #T33 Needler heatsinks
+    listOrder: 2302
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1550
+    weight: 4
+    bigSprite: 720
+    floorSprite: 720
+    hitSound: 22
+    hitAnimation: 130
+    bulletSprite: 19
+    power: 65
+    damageType: 5
+    clipSize: 14
+    battleType: 2
+    armor: 12
+
+  - type: STR_PLASMA_PISTOL       #Type25 Plasma Pistol
+    listOrder: 2201   # 1900 = default pistol
+    #costBuy: 1     #--DEBUG--
+    costSell: 99200
+    size: 0.1         # size in gen. stores
+    invWidth: 2       # 2x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 5
+    compatibleAmmo:         #Battle Stats
+      - STR_PLASMA_PISTOL_CELL        #
+    accuracySnap: 40        #
+    accuracyAimed: 75       #
+    tuSnap: 18              #
+    tuAimed: 45             #
+    maxRange: 100           #
+    aimRange: 20            #
+    snapRange: 8            #
+    dropoff: 5              #
+    fireSound: 407          #
+    bigSprite: 776    #inventory sprite
+    floorSprite: 776  #battlescape floor sprite
+    handSprite: 776
+  - type: STR_PLASMA_PISTOL_CELL         #M6C Magazine
+    listOrder: 2202
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1200
+    weight: 2
+    bigSprite: 792
+    floorSprite: 792
+    hitSound: 22
+    hitAnimation: 110
+    bulletSprite: 20
+    power: 60
+    damageType: 5
+    clipSize: 10
+    battleType: 2
+    armor: 12
+
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
-      400: Resources/Halo/GfxInventory/M6C.gif
-      401: Resources/Halo/GfxInventory/M6CSOCOM.gif
-      402: Resources/Halo/GfxInventory/M6C_AMMO.gif
-      403: Resources/Halo/GfxInventory/SR99.gif
-      404: Resources/Halo/GfxInventory/SR99_AMMO.gif
-      405: Resources/Halo/GfxInventory/MA37.gif
-      406: Resources/Halo/GfxInventory/MA37_AMMO.gif
-      407: Resources/Halo/GfxInventory/T25P.gif
-      409: Resources/Halo/GfxInventory/T25.gif
-      411: Resources/Halo/GfxInventory/T25B.gif
-      413: Resources/Halo/GfxInventory/T51.gif
+      200: Resources/HumanEquipment/BigMA5B_noammo.png
+      208: Resources/HumanEquipment/BigMA5B_ammo.png
+      216: Resources/HumanEquipment/BigMA5BAmmo.png
+      224: Resources/HumanEquipment/BigMA37_noammo.png
+      232: Resources/HumanEquipment/BigMA37_ammo.png
+#      240: Resources/HumanEquipment/BigMA5K_noammo.png
+#      248: Resources/HumanEquipment/BigMA5K_ammo.png
+      256: Resources/HumanEquipment/BigMA37Ammo.png
+#      264: Resources/HumanEquipment/Big45PistolAmmo_x7.png
+#      272: Resources/HumanEquipment/Big45Ammo_x12.png
+#      280: Resources/HumanEquipment/BigG11Clip.png
+#      288: Resources/HumanEquipment/Big545RifleAmmo_x30.png
+#      296: Resources/HumanEquipment/Big545RifleAmmo_x45.png
+#      304: Resources/HumanEquipment/Big545RifleAmmo_x60.png
+      312: Resources/HumanEquipment/BigSRS99_noammo.png
+      320: Resources/HumanEquipment/BigSRS99_ammo.png
+      328: Resources/HumanEquipment/BigSRS99Ammo.png
+      336: Resources/HumanEquipment/BigM6C_noammo.png
+      344: Resources/HumanEquipment/BigM6C_ammo.png
+      352: Resources/HumanEquipment/BigM6CSOCOM_noammo.png
+      360: Resources/HumanEquipment/BigM6CSOCOM_ammo.png
+      368: Resources/HumanEquipment/BigM6CAmmo.png
+      376: Resources/HumanEquipment/BigM6G_noammo.png
+      384: Resources/HumanEquipment/BigM6G_ammo.png
+      392: Resources/HumanEquipment/BigM6GAmmo.png
+#      400: Resources/HumanEquipment/Big762NATOLMGAmmo_x100.png
+#      408: Resources/HumanEquipment/Big762mmRAmmo_x50.png
+#      416: Resources/HumanEquipment/Big762mmRAmmo_x100.png
+#      424: Resources/HumanEquipment/Big9mmRifleAmmo_x10.png
+#      432: Resources/HumanEquipment/Big9mmRifleAmmo_x20.png
+#      440: Resources/HumanEquipment/Big338Ammo.png
+#      448: Resources/HumanEquipment/Big50BMGAmmo_x5.png
+#      456: Resources/HumanEquipment/Big50BMGAmmo_x10.png
+#      464: Resources/HumanEquipment/Big12gaugex5.png
+#      472: Resources/HumanEquipment/Big12GaugeMag_x8.png
+#      480: Resources/HumanEquipment/Big23gauge_x20.png
+#      488: Resources/HumanEquipment/Big12GaugeDrum_x30.png
+#      496: Resources/HumanEquipment/Big12GaugeSlug_x8.png
+#      504: Resources/HumanEquipment/Big12GaugeNonLethalAmmo_x8.png
+#      512: Resources/HumanEquipment/BigKS23Sharpnel25Ammo_x3.png
+#      520: Resources/HumanEquipment/BigKS23BarrikadeAmmo_x3.png
+#      528: Resources/HumanEquipment/BigKS23VolnaAmmo_x3.png
+#      536: Resources/HumanEquipment/BigKS23ZevadaAmmo_x3.png
+#      544: Resources/HumanEquipment/Big40mmFragAmmo.png
+#      552: Resources/HumanEquipment/Big40mmFragAmmo6.png
+#      560: Resources/HumanEquipment/Big40mmSmokeAmmo.png
+#      568: Resources/HumanEquipment/Big40mmNonLethalAmmo.png
+#      576: Resources/HumanEquipment/BigCarlGustafM2HEATRound.png
+#      584: Resources/HumanEquipment/BigCarlGustafM2HERound.png
+#      592: Resources/HumanEquipment/BigRPGRocket.png
+#      600: Resources/HumanEquipment/BigFN57mm_x20.png
+######################
+      608: Resources/CovenantEquipment/BigPlasmaRifle_noammo.png
+      616: Resources/CovenantEquipment/BigPlasmaRifle_ammo.png
+      624: Resources/CovenantEquipment/BigPlasmaRifleBattery.png
+      632: Resources/CovenantEquipment/BigBrutePlasmaRifle_noammo.png
+      640: Resources/CovenantEquipment/BigBrutePlasmaRifle_ammo.png
+      648: Resources/CovenantEquipment/BigBrutePlasmaRifleBattery.png
+      656: Resources/CovenantEquipment/BigPlasmaRepeater_noammo.png
+      664: Resources/CovenantEquipment/BigPlasmaRepeater_ammo.png
+      672: Resources/CovenantEquipment/BigPlasmaRepeaterBattery.png
+#      680: Resources/CovenantEquipment/BigMK23SOCOMnomag.png
+#      688: Resources/CovenantEquipment/BigMK23SOCOM.png
+#      696: Resources/CovenantEquipment/BigMakarovnomag.png
+      704: Resources/CovenantEquipment/BigNeedler_noammo.png
+      712: Resources/CovenantEquipment/BigNeedler_ammo.png
+      720: Resources/CovenantEquipment/BigNeedlerCanister.png
+#      728: Resources/CovenantEquipment/BigTec920.png
+#      736: Resources/CovenantEquipment/BigTec9.png
+#      744: Resources/CovenantEquipment/BigTec940.png
+#      752: Resources/CovenantEquipment/BigMP5SDnomag.png
+#      760: Resources/CovenantEquipment/BigMP5SD10.png
+#      768: Resources/CovenantEquipment/BigMP5SD20.png
+      776: Resources/CovenantEquipment/BigPlasmaPistol_noammo.png
+      784: Resources/CovenantEquipment/BigPlasmaPistol_ammo.png
+      792: Resources/CovenantEquipment/BigPlasmaPistolBattery.png
+#      800: Resources/CovenantEquipment/BigMPX10.png
+#      808: Resources/CovenantEquipment/BigMPX20.png
+#      816: Resources/CovenantEquipment/BigMPX.png
+#      824: Resources/CovenantEquipment/BigMPXFoldednomag.png
+#      832: Resources/CovenantEquipment/BigMPXFolded10.png
+#      840: Resources/CovenantEquipment/BigMPXFolded20.png
+#      848: Resources/CovenantEquipment/BigMPXFolded.png
+#      856: Resources/CovenantEquipment/BigP90nomag.png
+#      864: Resources/CovenantEquipment/BigP90.png
+#      872: Resources/CovenantEquipment/BigSkorpionnomag.png
+#      880: Resources/CovenantEquipment/BigSkorpion10.png
+#      888: Resources/CovenantEquipment/BigSkorpion20.png
+#      896: Resources/CovenantEquipment/BigSkorpion.png
+#      904: Resources/CovenantEquipment/BigSkorpionFoldednomag.png
+#      912: Resources/CovenantEquipment/BigSkorpionFolded10.png
+#      920: Resources/CovenantEquipment/BigSkorpionFolded20.png
+#      928: Resources/CovenantEquipment/BigSkorpionFolded.png
+
   - type: FLOOROB.PCK
     files:
-      400: Resources/Halo/GfxFloor/M6C.png
-      401: Resources/Halo/GfxFloor/M6CSOCOM.png
-      402: Resources/Halo/GfxFloor/M6C_AMMO.png
-      403: Resources/Halo/GfxFloor/SR99.png
-      404: Resources/Halo/GfxFloor/SR99_AMMO.png
-      405: Resources/Halo/GfxFloor/MA37.png
-      406: Resources/Halo/GfxFloor/MA37_AMMO.png
-      407: Resources/Halo/GfxFloor/T25P.png
-      409: Resources/Halo/GfxFloor/T25.png
-      411: Resources/Halo/GfxFloor/T25B.png
-      413: Resources/Halo/GfxFloor/T51.png
+      200: Resources/HumanEquipment/FloorMA5B_noammo.png
+      208: Resources/HumanEquipment/FloorMA5B_ammo.png
+      216: Resources/HumanEquipment/FloorMA5BAmmo.png
+      224: Resources/HumanEquipment/FloorMA37_noammo.png
+      232: Resources/HumanEquipment/FloorMA37_ammo.png
+#      240: Resources/HumanEquipment/FloorMA5K_noammo.png
+#      248: Resources/HumanEquipment/FloorMA5K_ammo.png
+      256: Resources/HumanEquipment/FloorMA37Ammo.png
+#      264: Resources/HumanEquipment/Floor45PistolAmmo_x7.png
+#      272: Resources/HumanEquipment/Floor45Ammo_x12.png
+#      280: Resources/HumanEquipment/FloorG11Clip.png
+#      288: Resources/HumanEquipment/Floor545RifleAmmo_x30.png
+#      296: Resources/HumanEquipment/Floor545RifleAmmo_x45.png
+#      304: Resources/HumanEquipment/Floor545RifleAmmo_x60.png
+      312: Resources/HumanEquipment/FloorSRS99_noammo.png
+      320: Resources/HumanEquipment/FloorSRS99_ammo.png
+      328: Resources/HumanEquipment/FloorSRS99Ammo.png
+      336: Resources/HumanEquipment/FloorM6C_noammo.png
+      344: Resources/HumanEquipment/FloorM6C_ammo.png
+      352: Resources/HumanEquipment/FloorM6CSOCOM_noammo.png
+      360: Resources/HumanEquipment/FloorM6CSOCOM_ammo.png
+      368: Resources/HumanEquipment/FloorM6CAmmo.png
+      376: Resources/HumanEquipment/FloorM6G_noammo.png
+      384: Resources/HumanEquipment/FloorM6G_ammo.png
+      392: Resources/HumanEquipment/FloorM6GAmmo.png
+#      400: Resources/HumanEquipment/Floor762NATOLMGAmmo_x100.png
+#      408: Resources/HumanEquipment/Floor762mmRAmmo_x50.png
+#      416: Resources/HumanEquipment/Floor762mmRAmmo_x100.png
+#      424: Resources/HumanEquipment/Floor9mmRifleAmmo_x10.png
+#      432: Resources/HumanEquipment/Floor9mmRifleAmmo_x20.png
+#      440: Resources/HumanEquipment/Floor338Ammo.png
+#      448: Resources/HumanEquipment/Floor50BMGAmmo_x5.png
+#      456: Resources/HumanEquipment/Floor50BMGAmmo_x10.png
+#      464: Resources/HumanEquipment/Floor12gaugex5.png
+#      472: Resources/HumanEquipment/Floor12GaugeMag_x8.png
+#      480: Resources/HumanEquipment/Floor23gauge_x20.png
+#      488: Resources/HumanEquipment/Floor12GaugeDrum_x30.png
+#      496: Resources/HumanEquipment/Floor12GaugeSlug_x8.png
+#      504: Resources/HumanEquipment/Floor12GaugeNonLethalAmmo_x8.png
+#      512: Resources/HumanEquipment/FloorKS23Sharpnel25Ammo_x3.png
+#      520: Resources/HumanEquipment/FloorKS23BarrikadeAmmo_x3.png
+#      528: Resources/HumanEquipment/FloorKS23VolnaAmmo_x3.png
+#      536: Resources/HumanEquipment/FloorKS23ZevadaAmmo_x3.png
+#      544: Resources/HumanEquipment/Floor40mmFragAmmo.png
+#      552: Resources/HumanEquipment/Floor40mmFragAmmo6.png
+#      560: Resources/HumanEquipment/Floor40mmSmokeAmmo.png
+#      568: Resources/HumanEquipment/Floor40mmNonLethalAmmo.png
+#      576: Resources/HumanEquipment/FloorCarlGustafM2HEATRound.png
+#      584: Resources/HumanEquipment/FloorCarlGustafM2HERound.png
+#      592: Resources/HumanEquipment/FloorRPGRocket.png
+#      600: Resources/HumanEquipment/FloorFN57mm_x20.png
+######################
+      608: Resources/CovenantEquipment/FloorPlasmaRifle_noammo.png
+      616: Resources/CovenantEquipment/FloorPlasmaRifle_ammo.png
+      624: Resources/CovenantEquipment/FloorPlasmaRifleBattery.png
+      632: Resources/CovenantEquipment/FloorBrutePlasmaRifle_noammo.png
+      640: Resources/CovenantEquipment/FloorBrutePlasmaRifle_ammo.png
+      648: Resources/CovenantEquipment/FloorBrutePlasmaRifleBattery.png
+      656: Resources/CovenantEquipment/FloorPlasmaRepeater_noammo.png
+      664: Resources/CovenantEquipment/FloorPlasmaRepeater_ammo.png
+      672: Resources/CovenantEquipment/FloorPlasmaRepeaterBattery.png
+#      680: Resources/CovenantEquipment/FloorMK23SOCOMnomag.png
+#      688: Resources/CovenantEquipment/FloorMK23SOCOM.png
+#      696: Resources/CovenantEquipment/FloorMakarovnomag.png
+      704: Resources/CovenantEquipment/FloorNeedler_noammo.png
+      712: Resources/CovenantEquipment/FloorNeedler_ammo.png
+      720: Resources/CovenantEquipment/FloorNeedlerCanister.png
+#      728: Resources/CovenantEquipment/FloorTec920.png
+#      736: Resources/CovenantEquipment/FloorTec9.png
+#      744: Resources/CovenantEquipment/FloorTec940.png
+#      752: Resources/CovenantEquipment/FloorMP5SDnomag.png
+#      760: Resources/CovenantEquipment/FloorMP5SD10.png
+#      768: Resources/CovenantEquipment/FloorMP5SD20.png
+      776: Resources/CovenantEquipment/FloorPlasmaPistol_noammo.png
+      784: Resources/CovenantEquipment/FloorPlasmaPistol_ammo.png
+      792: Resources/CovenantEquipment/FloorPlasmaPistolBattery.png
+#      800: Resources/CovenantEquipment/FloorMPX10.png
+#      808: Resources/CovenantEquipment/FloorMPX20.png
+#      816: Resources/CovenantEquipment/FloorMPX.png
+#      824: Resources/CovenantEquipment/FloorMPXFoldednomag.png
+#      832: Resources/CovenantEquipment/FloorMPXFolded10.png
+#      840: Resources/CovenantEquipment/FloorMPXFolded20.png
+#      848: Resources/CovenantEquipment/FloorMPXFolded.png
+#      856: Resources/CovenantEquipment/FloorP90nomag.png
+#      864: Resources/CovenantEquipment/FloorP90.png
+#      872: Resources/CovenantEquipment/FloorSkorpionnomag.png
+#      880: Resources/CovenantEquipment/FloorSkorpion10.png
+#      888: Resources/CovenantEquipment/FloorSkorpion20.png
+#      896: Resources/CovenantEquipment/FloorSkorpion.png
+#      904: Resources/CovenantEquipment/FloorSkorpionFoldednomag.png
+#      912: Resources/CovenantEquipment/FloorSkorpionFolded10.png
+#      920: Resources/CovenantEquipment/FloorSkorpionFolded20.png
+#      928: Resources/CovenantEquipment/FloorSkorpionFolded.png
+
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      200: Resources/HumanEquipment/HandMA5B_noammo.png
+      208: Resources/HumanEquipment/HandMA5B_ammo.png
+      224: Resources/HumanEquipment/HandMA37_noammo.png
+      232: Resources/HumanEquipment/HandMA37_ammo.png
+#      240: Resources/HumanEquipment/HandMA5K_noammo.png
+#      248: Resources/HumanEquipment/HandMA5K_ammo.png
+#      264: Resources/HumanEquipment/Hand45PistolAmmo_x7.png
+#      272: Resources/HumanEquipment/Hand45Ammo_x12.png
+#      280: Resources/HumanEquipment/HandG11Clip.png
+#      288: Resources/HumanEquipment/Hand545RifleAmmo_x30.png
+#      296: Resources/HumanEquipment/Hand545RifleAmmo_x45.png
+#      304: Resources/HumanEquipment/Hand545RifleAmmo_x60.png
+      312: Resources/HumanEquipment/HandSRS99_noammo.png
+      320: Resources/HumanEquipment/HandSRS99_ammo.png
+      336: Resources/HumanEquipment/HandM6C_noammo.png
+      344: Resources/HumanEquipment/HandM6C_ammo.png
+      352: Resources/HumanEquipment/HandM6CSOCOM_noammo.png
+      360: Resources/HumanEquipment/HandM6CSOCOM_ammo.png
+      376: Resources/HumanEquipment/HandM6G_noammo.png
+      384: Resources/HumanEquipment/HandM6G_ammo.png
+#      400: Resources/HumanEquipment/Hand762NATOLMGAmmo_x100.png
+#      408: Resources/HumanEquipment/Hand762mmRAmmo_x50.png
+#      416: Resources/HumanEquipment/Hand762mmRAmmo_x100.png
+#      424: Resources/HumanEquipment/Hand9mmRifleAmmo_x10.png
+#      432: Resources/HumanEquipment/Hand9mmRifleAmmo_x20.png
+#      440: Resources/HumanEquipment/Hand338Ammo.png
+#      448: Resources/HumanEquipment/Hand50BMGAmmo_x5.png
+#      456: Resources/HumanEquipment/Hand50BMGAmmo_x10.png
+#      464: Resources/HumanEquipment/Hand12gaugex5.png
+#      472: Resources/HumanEquipment/Hand12GaugeMag_x8.png
+#      480: Resources/HumanEquipment/Hand23gauge_x20.png
+#      488: Resources/HumanEquipment/Hand12GaugeDrum_x30.png
+#      496: Resources/HumanEquipment/Hand12GaugeSlug_x8.png
+#      504: Resources/HumanEquipment/Hand12GaugeNonLethalAmmo_x8.png
+#      512: Resources/HumanEquipment/HandKS23Sharpnel25Ammo_x3.png
+#      520: Resources/HumanEquipment/HandKS23BarrikadeAmmo_x3.png
+#      528: Resources/HumanEquipment/HandKS23VolnaAmmo_x3.png
+#      536: Resources/HumanEquipment/HandKS23ZevadaAmmo_x3.png
+#      544: Resources/HumanEquipment/Hand40mmFragAmmo.png
+#      552: Resources/HumanEquipment/Hand40mmFragAmmo6.png
+#      560: Resources/HumanEquipment/Hand40mmSmokeAmmo.png
+#      568: Resources/HumanEquipment/Hand40mmNonLethalAmmo.png
+#      576: Resources/HumanEquipment/HandCarlGustafM2HEATRound.png
+#      584: Resources/HumanEquipment/HandCarlGustafM2HERound.png
+#      592: Resources/HumanEquipment/HandRPGRocket.png
+#      600: Resources/HumanEquipment/HandFN57mm_x20.png
+######################
+      608: Resources/CovenantEquipment/HandPlasmaRifle_noammo.png
+      616: Resources/CovenantEquipment/HandPlasmaRifle_ammo.png
+      632: Resources/CovenantEquipment/HandBrutePlasmaRifle_noammo.png
+      640: Resources/CovenantEquipment/HandBrutePlasmaRifle_ammo.png
+      656: Resources/CovenantEquipment/HandPlasmaRepeater_noammo.png
+      664: Resources/CovenantEquipment/HandPlasmaRepeater_ammo.png
+#      680: Resources/CovenantEquipment/HandMK23SOCOMnomag.png
+#      688: Resources/CovenantEquipment/HandMK23SOCOM.png
+#      696: Resources/CovenantEquipment/HandMakarovnomag.png
+      704: Resources/CovenantEquipment/HandNeedler_noammo.png
+      712: Resources/CovenantEquipment/HandNeedler_ammo.png
+#      728: Resources/CovenantEquipment/HandTec920.png
+#      736: Resources/CovenantEquipment/HandTec9.png
+#      744: Resources/CovenantEquipment/HandTec940.png
+#      752: Resources/CovenantEquipment/HandMP5SDnomag.png
+#      760: Resources/CovenantEquipment/HandMP5SD10.png
+#      768: Resources/CovenantEquipment/HandMP5SD20.png
+      776: Resources/CovenantEquipment/HandPlasmaPistol_noammo.png
+      784: Resources/CovenantEquipment/HandPlasmaPistol_ammo.png
+#      800: Resources/CovenantEquipment/HandMPX10.png
+#      808: Resources/CovenantEquipment/HandMPX20.png
+#      816: Resources/CovenantEquipment/HandMPX.png
+#      824: Resources/CovenantEquipment/HandMPXFoldednomag.png
+#      832: Resources/CovenantEquipment/HandMPXFolded10.png
+#      840: Resources/CovenantEquipment/HandMPXFolded20.png
+#      848: Resources/CovenantEquipment/HandMPXFolded.png
+#      856: Resources/CovenantEquipment/HandP90nomag.png
+#      864: Resources/CovenantEquipment/HandP90.png
+#      872: Resources/CovenantEquipment/HandSkorpionnomag.png
+#      880: Resources/CovenantEquipment/HandSkorpion10.png
+#      888: Resources/CovenantEquipment/HandSkorpion20.png
+#      896: Resources/CovenantEquipment/HandSkorpion.png
+#      904: Resources/CovenantEquipment/HandSkorpionFoldednomag.png
+#      912: Resources/CovenantEquipment/HandSkorpionFolded10.png
+#      920: Resources/CovenantEquipment/HandSkorpionFolded20.png
+#      928: Resources/CovenantEquipment/HandSkorpionFolded.png
+
+
+  - type: SMOKE.PCK
+    height: 40
+    width: 320
+    subX: 32
+    subY: 40
+    files:
+      90: Resources/hitAnimation/BluePlasmaHit.png
+      100: Resources/hitAnimation/RedPlasmaHit.png
+      110: Resources/hitAnimation/GreenPlasmaHit.png
+      120: Resources/hitAnimation/PurplePlasmaHit.png
+      130: Resources/hitAnimation/NeedlerHit.png
+      140: Resources/hitAnimation/GreenCarbineHit.png
   - type: Projectiles
     height: 3
-    width: 45
+    width: 105
     subX: 3
     subY: 3
     files:
-      407: Resources/Halo/BulletSprites/bulletsprites_t25p.png
-  - type: Projectiles
-    height: 3
-    width: 54
-    subX: 3
-    subY: 3
-    files:
-      409: Resources/Halo/BulletSprites/bulletsprites_t25.png   #T51 also uses these
-      411: Resources/Halo/BulletSprites/bulletsprites_t25b.png
+      350: Resources/bulletSprites/5mmPistolBullet.png #10
+      385: Resources/bulletSprites/7_62mmRifleBullet.png #11
+      420: Resources/bulletSprites/9_5mmRifleBullet.png #12
+      455: Resources/bulletSprites/12_7mmPistolBullet.png #13
+      490: Resources/bulletSprites/14_5mmRifleBullet.png #14
+      525: Resources/bulletSprites/40mmGrenadeBullet.png #15
+      560: Resources/bulletSprites/FocusRifleBullet.png #16
+      595: Resources/bulletSprites/FuelCannonBullet.png #17
+      630: Resources/bulletSprites/CarbineBullet.png #18
+      665: Resources/bulletSprites/NeedleBullet.png #19
+      700: Resources/bulletSprites/PlasmaPistolBullet.png #20
+      735: Resources/bulletSprites/PlasmaRifleBullet.png #21
+      770: Resources/bulletSprites/PlasmaRifleRedBullet.png #22
+      805: Resources/bulletSprites/RepeaterBullet.png #23
+      840: Resources/bulletSprites/Rocket.png #24
+      875: Resources/bulletSprites/SpartanLaserBullet.png #25
+      910: Resources/bulletSprites/SpikerBullet.png #26
+
 extraSounds:
   - type: BATTLE.CAT
     files:
@@ -354,79 +782,4 @@ extraSounds:
       407: Resources/Halo/SndWeapon/T25PFire.wav  #T51 also uses this sound
       409: Resources/Halo/SndWeapon/T25Fire.wav
       411: Resources/Halo/SndWeapon/T25BFire.wav
-startingBase:
-  facilities:
-    - type: STR_ACCESS_LIFT
-      x: 2
-      y: 2
-    - type: STR_HANGAR
-      x: 2
-      y: 0
-    - type: STR_HANGAR
-      x: 0
-      y: 4
-    - type: STR_HANGAR
-      x: 4
-      y: 4
-    - type: STR_LIVING_QUARTERS
-      x: 3
-      y: 2
-    - type: STR_GENERAL_STORES
-      x: 2
-      y: 3
-    - type: STR_LABORATORY
-      x: 3
-      y: 3
-    - type: STR_WORKSHOP
-      x: 4
-      y: 3
-    - type: STR_SMALL_RADAR_SYSTEM
-      x: 1
-      y: 3
-  randomSoldiers: 8
-  crafts:
-    - type: STR_SKYRANGER
-      id: 1
-      fuel: 1500
-      damage: 0
-      items:
-        STR_GRENADE: 8
-        STR_M6C: 5
-        STR_M6C_MAG: 15
-        STR_MA37: 8
-        STR_MA37_MAG: 24
-      status: STR_READY
-    - type: STR_INTERCEPTOR
-      id: 1
-      fuel: 1000
-      damage: 0
-      weapons:
-        - type: STR_STINGRAY
-          ammo: 6
-        - type: STR_CANNON_UC
-          ammo: 200
-      status: STR_READY
-    - type: STR_INTERCEPTOR
-      id: 2
-      fuel: 1000
-      damage: 0
-      weapons:
-        - type: STR_STINGRAY
-          ammo: 6
-        - type: STR_CANNON_UC
-          ammo: 200
-  items:
-    STR_AVALANCHE_LAUNCHER: 1
-    STR_AVALANCHE_MISSILES: 10
-    STR_CANNON: 2
-    STR_CANNON_ROUNDS_X50: 1
-    STR_GRENADE: 5
-    STR_M6C: 4
-    STR_M6C_MAG: 12
-    STR_MA37: 2
-    STR_MA37_MAG: 6
-    STR_SMOKE_GRENADE: 5
-    STR_STINGRAY_LAUNCHER: 1
-    STR_STINGRAY_MISSILES: 25
-  scientists: 10
-  engineers: 10
+

@@ -1,0 +1,46 @@
+crafts:
+  - delete: STR_SKYRANGER
+  - delete: STR_FIRESTORM
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+
+  - type: STR_SKYRANGER
+    sprite: 0
+    fuelMax: 999
+    damageMax: 320
+    speedMax: 270
+    accel: 4
+    soldiers: 8
+    vehicles: 0
+    costBuy: 600000
+    costSell: 450000
+    refuelRate: 20
+    sightRange: 0
+    radarRange: 0
+    transferTime: 72
+    score: 400
+    keepCraftAfterFailedMission: true
+    battlescapeTerrainData:
+      name: FALCON_DROPSHIP
+      mapDataSets:
+        - BLANKS
+        - BD_PLANE
+        - BD_OSPREY_ROTOR
+      mapBlocks:
+        - name: FALCON_DROPSHIP
+          width: 20
+          length: 20
+    craftInventoryTile: [10, 12, 1]
+    deployment:
+      - [11, 11, 1, 2]
+      - [11, 12, 1, 2]
+      - [11, 13, 1, 3]
+      - [9, 11, 1, 5]
+      - [9, 12, 1, 6]
+      - [9, 13, 1, 5]
+      - [10, 11, 1, 4]
+      - [10, 13, 1, 0]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2

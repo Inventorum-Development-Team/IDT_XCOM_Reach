@@ -26,6 +26,9 @@ missionScripts:
   - delete: recurringTerror
 
 manufacture:
+  - delete: STR_FIRESTORM
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
   - delete: STR_TANK_CANNON
   - delete: STR_TANK_ROCKET_LAUNCHER
   - delete: STR_TANK_LASER_CANNON
@@ -250,3 +253,11 @@ extraStrings:
     strings:
       STR_OPENXCOM: "XCOM Reach"
       STR_SPARTAN_III: "SPARTAN-III"
+
+extraSprites:
+  - type: BACK01.SCR #Main
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK01.PNG
