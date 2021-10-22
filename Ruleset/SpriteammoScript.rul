@@ -72,6 +72,18 @@ items:
   - type: STR_MA37_MAG
     tags:
       AmmoNo: 1
+  - type: STR_BR55
+    tags:
+      AmmoReSprite: 1
+  - type: STR_BR55_MAG
+    tags:
+      AmmoNo: 1
+  - type: STR_M392
+    tags:
+      AmmoReSprite: 1
+  - type: STR_M392_MAG
+    tags:
+      AmmoNo: 1
   - type: STR_SRS99
     tags:
       AmmoReSprite: 1
@@ -91,6 +103,16 @@ items:
     tags:
       AmmoReSprite: 1
   - type: STR_M6G_MAG
+    tags:
+      AmmoNo: 1
+  - type: STR_M7 #ignoreDuplicate
+    tags:
+     FoldStock: 1
+     AmmoReSprite: 1
+  - type: STR_M7S
+    tags:
+      AmmoReSprite: 1
+  - type: STR_M7_MAG
     tags:
       AmmoNo: 1
   - type: STR_PLASMA_RIFLE
@@ -121,6 +143,12 @@ items:
     tags:
       AmmoReSprite: 1
   - type: STR_PLASMA_PISTOL_CELL
+    tags:
+      AmmoNo: 1
+  - type: STR_PLASMA_CARBINE
+    tags:
+      AmmoReSprite: 1
+  - type: STR_PLASMA_CARBINE_MAG
     tags:
       AmmoNo: 1
 

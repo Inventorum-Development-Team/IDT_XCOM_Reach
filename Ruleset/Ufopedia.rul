@@ -36,6 +36,8 @@ extraStrings:
       STR_M6C_SOCOM: M6C/SOCOM
       STR_M6C_SOCOM_UFOPEDIA: "Variant with an integrated suppressor, muzzle brake and a 4x SMARTLINK scope. Typically issued to UNSC units like ODSTs."
       STR_M6C_MAG: .50 SAP-HP M6C Magazine
+      STR_M6G: M6G Magnum
+      STR_M6G_MAG: "12.7mm M6G Magnum Mag"
       STR_M7: M7 SMG
       STR_M7S: M7S SMG
       STR_M7_MAG: 5x39mm SMG Magazine
@@ -52,10 +54,17 @@ extraStrings:
       STR_SRS99_MAG: 14.5x114mm SRS99 Magazine
       STR_MA37: MA37 ICWS
       STR_MA37_MAG: 7.62x51mm MA37 Magazine
+      STR_MA5B: MA5B Assault Rifle
+      STR_MA5B_MAG: 7.62x51mm MA5B Magazine
       STR_PLASMA_PISTOL: Type 25 Pistol
-      STR_PLASMA_PISTOL_CELL: Type 25/P Heatsink
-      STR_PLASMA_RIFLE: Type 25 Plasma Rifle
-      STR_PLASMA_RIFLE_BRUTE: Type 25/I Plasma Rifle
-      STR_PLASMA_RIFLE_CELL: Type 25/R+I Heatsink
+      STR_PLASMA_PISTOL_CELL: Type 25 Pistol Battery
+      STR_PLASMA_RIFLE: Type 25 Plasma Rifle/Elite-pattern
+      STR_PLASMA_RIFLE_BRUTE: Type 25 Plasma Rifle/Brute-pattern
+      STR_PLASMA_RIFLE_BRUTE_CELL: Type 25 Rifle Battery/Brute
+      STR_PLASMA_RIFLE_CELL: Type 25 Rifle Battery/Elite
       STR_PLASMA_REPEATER: Type 51 Plasma Repeater
-      STR_PLASMA_REPEATER_CELL: Type 51 Heatsink
+      STR_PLASMA_REPEATER_CELL: Type 51 Repeater Battery
+      STR_NEEDLER: Type-33 'Needler' GLM
+      STR_NEEDLER_CANISTER: Type-33 'Needler' Canister
+      STR_PLASMA_CARBINE: Type-51 Carbine
+      STR_PLASMA_CARBINE_MAG: 8.7x60mm Caseless Carbine Magazine
