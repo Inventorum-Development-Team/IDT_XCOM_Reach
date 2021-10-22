@@ -68,9 +68,9 @@ items:
     accuracyAuto: 35
     accuracySnap: 50
     accuracyAimed: 65
-    tuAuto: 35
-    tuSnap: 25
-    tuAimed: 50
+    tuAuto: 10
+    tuSnap: 15
+    tuAimed: 20
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -112,9 +112,9 @@ items:
     accuracyAuto: 35
     accuracySnap: 50
     accuracyAimed: 65
-    tuAuto: 35
-    tuSnap: 25
-    tuAimed: 50
+    tuAuto: 10
+    tuSnap: 10
+    tuAimed: 15
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -153,12 +153,16 @@ items:
     fireSound: 405
     compatibleAmmo:
       - STR_BR55_MAG
-    accuracyAuto: 35
+    confAimed:
+      shots: 3
+      name: STR_AIMED_BURST
+    confSnap:
+      shots: 3
+      name: STR_BURST
     accuracySnap: 50
-    accuracyAimed: 65
-    tuAuto: 35
+    accuracyAimed: 70
     tuSnap: 25
-    tuAimed: 50
+    tuAimed: 20
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -459,7 +463,7 @@ items:
     power: 4
     damageType: 1
     invWidth: 1
-    invHeight: 3
+    invHeight: 2
     clipSize: 60
     battleType: 2
     armor: 12
