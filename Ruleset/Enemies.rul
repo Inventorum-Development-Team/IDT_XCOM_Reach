@@ -1,0 +1,184 @@
+items:
+  - type: STR_SANGHEILI_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 1000
+    floorSprite: 1000
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+
+  - type: STR_SANGHEILI_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 1001
+    floorSprite: 1001
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+
+armors:
+  - type: STR_SANGHEILI_MINOR_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    heatVision: 15
+    spriteSheet: SANGHEILI_MINOR_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_MINOR_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_MINOR_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 10 #Muton
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_SANGHEILI_MAJOR_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    heatVision: 15
+    spriteSheet: SANGHEILI_MAJOR_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_MAJOR_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_MAJOR_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 10 #Muton
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+units:
+  - type: STR_SANGHEILI_MINOR
+    race: STR_SANGHEILI
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 95
+      health: 45
+      bravery: 90
+      reactions: 45
+      firing: 60
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_MINOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    intelligence: 8
+    aggression: 2
+  - type: STR_SANGHEILI_MAJOR
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 80
+      stamina: 95
+      health: 45
+      bravery: 100
+      reactions: 45
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_MAJOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    intelligence: 8
+    aggression: 2
+
+extraSprites:
+  - type: SANGHEILI_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_SPRITESHEET.png
+  - type: SANGHEILI_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_SPRITESHEET.png
+
+  - type: SANGHEILI_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_INVENTORY.png
+  - type: SANGHEILI_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_INVENTORY.png
+  - type: BIGOBS.PCK
+    files:
+      1000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_BIGOB.png
+      1001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_BIGOB.png
+ #     1002: Resources/CovenantArmors/Sangheili/D17OfficerCorpseBigob.png
+  - type: FLOOROB.PCK
+    files:
+      1000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_FLOOROB.png
+      1001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_FLOOROB.png
+#      1002: Resources/Enemies/CovenantArmors/Sangheili/D17OfficerCorpseFloorob.png
+
+
+
+alienRaces:
+  - delete: STR_FLOATER
+  - delete: STR_SNAKEMAN
+  - delete: STR_MUTON
+  - delete: STR_ETHEREAL
+  - delete: STR_MIXED
+
+  - id: STR_SANGHEILI_SQUAD
+    members:
+      - STR_SANGHEILI_MAJOR
+      - STR_SANGHEILI_MAJOR
+      - STR_SANGHEILI_MINOR
+      - STR_SANGHEILI_MINOR
+      - STR_SANGHEILI_MINOR
+      - STR_SANGHEILI_MINOR
+      - STR_SANGHEILI_MINOR
+      - STR_SANGHEILI_MINOR
