@@ -11,17 +11,17 @@ alienDeployments:
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CELL
             - STR_PLASMA_PISTOL_CELL
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CELL
             - STR_PLASMA_PISTOL_CELL
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CELL
             - STR_PLASMA_RIFLE_CELL
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
     width: 40
     length: 40
     height: 4
@@ -38,9 +38,9 @@ alienDeployments:
             - STR_PLASMA_PISTOL_CELL
             - STR_PLASMA_PISTOL_CELL
           -
-            - STR_PLASMA_RIFLE_BRUTE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_CARBINE_MAG
+            - STR_PLASMA_CARBINE_MAG
           -
             - STR_PLASMA_REPEATER
             - STR_PLASMA_REPEATER_CELL
@@ -54,10 +54,11 @@ alienDeployments:
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CELL
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_RIFLE_CELL
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CELL
@@ -94,15 +95,15 @@ alienDeployments:
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CELL
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CELL
             - STR_PLASMA_RIFLE_CELL
           -
-            - STR_PLASMA_RIFLE_BRUTE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_CARBINE_MAG
+            - STR_PLASMA_CARBINE_MAG
             - STR_ALIEN_GRENADE
       - alienRank: 2
         lowQty: 1
@@ -113,17 +114,17 @@ alienDeployments:
           -
             - STR_PLASMA_PISTOL
             - STR_PLASMA_PISTOL_CELL
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
             - STR_PLASMA_RIFLE
             - STR_PLASMA_RIFLE_CELL
             - STR_PLASMA_RIFLE_CELL
-            - STR_MIND_PROBE
+            - STR_ALIEN_GRENADE
           -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+            - STR_NEEDLER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
     width: 50
     length: 50
     height: 4
@@ -143,9 +144,9 @@ alienDeployments:
             - STR_PLASMA_RIFLE_CELL
             - STR_PLASMA_RIFLE_CELL
           -
-            - STR_PLASMA_RIFLE_BRUTE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_CARBINE_MAG
+            - STR_PLASMA_CARBINE_MAG
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -170,21 +171,21 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+            - STR_NEEDLER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
           -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+            - STR_NEEDLER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
           -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+            - STR_NEEDLER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
+            - STR_NEEDLER_CANISTER
       - alienRank: 2
         lowQty: 2
         highQty: 2
@@ -200,9 +201,9 @@ alienDeployments:
             - STR_PLASMA_RIFLE_CELL
             - STR_PLASMA_RIFLE_CELL
           -
-            - STR_PLASMA_RIFLE_BRUTE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_CARBINE_MAG
+            - STR_PLASMA_CARBINE_MAG
       - alienRank: 1
         lowQty: 1
         highQty: 1

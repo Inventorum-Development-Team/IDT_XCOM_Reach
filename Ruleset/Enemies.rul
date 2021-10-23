@@ -25,6 +25,19 @@ items:
     armor: 40
     listOrder: 1000
 
+  - type: STR_KIG_YAR_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 1011
+    floorSprite: 1011
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+
 armors:
   - type: STR_SANGHEILI_MINOR_ARMOR
     visibilityAtDay: 25
@@ -80,6 +93,34 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
 
+  - type: STR_KIG_YAR_MINOR_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    heatVision: 15
+    spriteSheet: KIG_YAR_MINOR_SPRITESHEET.PCK
+    spriteInv: KIG_YAR_MINOR_INVENTORY
+    corpseBattle:
+      - STR_KIG_YAR_MINOR_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 10 #Muton
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+
 units:
   - type: STR_SANGHEILI_MINOR
     race: STR_SANGHEILI
@@ -99,11 +140,11 @@ units:
     armor: STR_SANGHEILI_MINOR_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 16
+    value: 20
     deathSound: 10
     spotter: 2
     intelligence: 8
-    aggression: 2
+    aggression: 5
   - type: STR_SANGHEILI_MAJOR
     race: STR_SANGHEILI
     rank: STR_LIVE_LEADER
@@ -122,10 +163,35 @@ units:
     armor: STR_SANGHEILI_MAJOR_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 16
+    value: 30
     deathSound: 10
     spotter: 2
     intelligence: 8
+    aggression: 5
+
+  - type: STR_KIG_YAR_MINOR
+    race: STR_KIG_YAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 90
+      stamina: 120
+      health: 30
+      bravery: 60
+      reactions: 90
+      firing: 70
+      throwing: 30
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_KIG_YAR_MINOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    sniper: 8
+    intelligence: 6
     aggression: 2
 
 extraSprites:
@@ -144,6 +210,15 @@ extraSprites:
     files:
       0: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_SPRITESHEET.png
 
+  - type: KIG_YAR_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_SPRITESHEET.png
+
+
   - type: SANGHEILI_MINOR_INVENTORY
     singleImage: true
     files:
@@ -152,16 +227,44 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_INVENTORY.png
+
+  - type: KIG_YAR_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_INVENTORY.png
+
   - type: BIGOBS.PCK
     files:
       1000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_BIGOB.png
       1001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_BIGOB.png
- #     1002: Resources/CovenantArmors/Sangheili/D17OfficerCorpseBigob.png
+#      1002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_BIGOB.png
+#      1003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.png
+#      1004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_BIGOB.png
+#      1005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_BIGOB.png
+#      1006: Resources/CovenantArmors/Sangheili/SANGHEILI_GENERAL_CORPSE_BIGOB.png
+#      1007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_BIGOB.png
+#      1008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_BIGOB.png
+#      1009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_BIGOB.png
+#      1010: Resources/CovenantArmors/Unggoy/UNGGOY_SPECOPS_CORPSE_BIGOB.png
+      1011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_BIGOB.png
+#      1012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_BIGOB.png
+#      1013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
       1000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_FLOOROB.png
       1001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_FLOOROB.png
-#      1002: Resources/Enemies/CovenantArmors/Sangheili/D17OfficerCorpseFloorob.png
+#      1002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_FLOOROB.png
+#      1003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png
+#      1004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_FLOOROB.png
+#      1005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
+#      1006: Resources/CovenantArmors/Sangheili/SANGHEILI_GENERAL_CORPSE_FLOOROB.png
+#      1007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_FLOOROB.png
+#      1008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_FLOOROB.png
+#      1009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_FLOOROB.png
+#      1010: Resources/CovenantArmors/Unggoy/UNGGOY_SPECOPS_CORPSE_FLOOROB.png
+      1011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_FLOOROB.png
+#      1012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_FLOOROB.png
+#      1013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_FLOOROB.png
 
 
 
@@ -182,3 +285,14 @@ alienRaces:
       - STR_SANGHEILI_MINOR
       - STR_SANGHEILI_MINOR
       - STR_SANGHEILI_MINOR
+
+  - id: STR_EARLY_INVASION_SQUAD
+    members:
+      - STR_SANGHEILI_MINOR
+      - STR_SANGHEILI_MINOR
+      - STR_KIG_YAR_MINOR
+      - STR_KIG_YAR_MINOR
+      - STR_KIG_YAR_MINOR
+      - STR_KIG_YAR_MINOR
+      - STR_KIG_YAR_MINOR
+      - STR_KIG_YAR_MINOR
