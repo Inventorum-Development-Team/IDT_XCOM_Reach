@@ -92,7 +92,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11
-    power: 7
+    power: 37
     damageAlter:
       RandomType: 3
     damageType: 1
@@ -138,7 +138,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11
-    power: 7
+    power: 37
     damageAlter:
       RandomType: 3
     damageType: 1
@@ -188,7 +188,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12
-    power: 9
+    power: 39
     damageAlter:
       RandomType: 3
     damageType: 1
@@ -231,7 +231,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11
-    power: 14
+    power: 44
     damageAlter:
       RandomType: 3
     damageType: 1
@@ -337,7 +337,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 13
-    power: 12
+    power: 42
     damageAlter:
       RandomType: 3
     damageType: 1
@@ -376,7 +376,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 13
-    power: 15
+    power: 45
     damageAlter:
       RandomType: 3
     damageType: 1
@@ -437,15 +437,17 @@ items:
     compatibleAmmo:
       - STR_M7_MAG
     confAuto:
-      shots: 7
+      shots: 10
       name: STR_FULL_AUTO
       ammoSlot: 0
       arcing: false
+      followProjectiles: false
     confSnap:
-      shots: 3
+      shots: 6
       name: STR_BURST
       ammoSlot: 0
       arcing: false
+      followProjectiles: false
     autoRange: 8
     accuracyAuto: 50
     accuracySnap: 60
@@ -474,7 +476,7 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 10
-    power: 4
+    power: 20
     damageAlter:
       RandomType: 3
     damageType: 1
@@ -522,10 +524,10 @@ items:
     weight: 4
     bigSprite: 624
     floorSprite: 624
-    hitSound: 22
+    hitSound: 19
     hitAnimation: 90
     bulletSprite: 21
-    power: 4
+    power: 34
     damageAlter:
       RandomType: 3
     damageType: 5
@@ -570,10 +572,10 @@ items:
     weight: 4
     bigSprite: 648
     floorSprite: 648
-    hitSound: 22
+    hitSound: 19
     hitAnimation: 100
     bulletSprite: 22
-    power: 4
+    power: 34
     damageAlter:
       RandomType: 3
     damageType: 5
@@ -613,10 +615,10 @@ items:
     weight: 2
     bigSprite: 696
     floorSprite: 696
-    hitSound: 22
+    hitSound: 19
     hitAnimation: 140
     bulletSprite: 18
-    power: 10
+    power: 40
     damageAlter:
       RandomType: 3
     damageType: 4
@@ -662,10 +664,10 @@ items:
     weight: 6
     bigSprite: 672
     floorSprite: 672
-    hitSound: 22
+    hitSound: 19
     hitAnimation: 120
     bulletSprite: 23
-    power: 5
+    power: 35
     damageAlter:
       RandomType: 3
     damageType: 5
@@ -709,10 +711,10 @@ items:
     weight: 4
     bigSprite: 720
     floorSprite: 720
-    hitSound: 22
+    hitSound: 19
     hitAnimation: 130
     bulletSprite: 19
-    power: 5
+    power: 35
     damageType: 4
     damageAlter:
       RandomType: 3
@@ -757,10 +759,10 @@ items:
     weight: 2
     bigSprite: 792
     floorSprite: 792
-    hitSound: 22
+    hitSound: 19
     hitAnimation: 110
     bulletSprite: 20
-    power: 3
+    power: 23
     damageAlter:
       RandomType: 3
     damageType: 5
