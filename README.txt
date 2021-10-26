@@ -10,6 +10,8 @@ Credits:
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (now modified)
 *Drages: hitAnimations
 *Nadir: MJOLNIR Mark V(B) armor basis
+*Leflair: Kig-Yar, Sangheili, Unggoy spritesheet basis
+*Wallz2296: Sangheili paperdolls
 
 
 ==================================================
