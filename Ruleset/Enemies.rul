@@ -145,6 +145,23 @@ units:
     spotter: 2
     intelligence: 8
     aggression: 5
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+ 
   - type: STR_SANGHEILI_MAJOR
     race: STR_SANGHEILI
     rank: STR_LIVE_LEADER
@@ -168,6 +185,23 @@ units:
     spotter: 2
     intelligence: 8
     aggression: 5
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_REPEATER
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_REPEATER_CELL
+       - STR_ALIEN_GRENADE
 
   - type: STR_KIG_YAR_MINOR
     race: STR_KIG_YAR
@@ -193,6 +227,60 @@ units:
     sniper: 8
     intelligence: 6
     aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+
+  - type: STR_KIG_YAR_SNIPER
+    race: STR_KIG_YAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 90
+      stamina: 120
+      health: 30
+      bravery: 60
+      reactions: 90
+      firing: 70
+      throwing: 30
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_KIG_YAR_MINOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_CARBINE
+       - STR_PLASMA_CARBINE_MAG
+       - STR_PLASMA_CARBINE_MAG
+     -
+       - STR_PLASMA_CARBINE
+       - STR_PLASMA_CARBINE_MAG
+       - STR_PLASMA_CARBINE_MAG
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
 
 extraSprites:
   - type: SANGHEILI_MINOR_SPRITESHEET.PCK
@@ -290,8 +378,8 @@ alienRaces:
     members:
       - STR_SANGHEILI_MINOR
       - STR_SANGHEILI_MINOR
-      - STR_KIG_YAR_MINOR
-      - STR_KIG_YAR_MINOR
+      - STR_KIG_YAR_SNIPER
+      - STR_KIG_YAR_SNIPER
       - STR_KIG_YAR_MINOR
       - STR_KIG_YAR_MINOR
       - STR_KIG_YAR_MINOR
