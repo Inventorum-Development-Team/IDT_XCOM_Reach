@@ -248,12 +248,6 @@ ufopaedia:
   - delete: STR_ALIEN_ALLOYS
 
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_OPENXCOM: "XCOM Reach"
-      STR_SPARTAN_III: "SPARTAN-III"
-
 extraSprites:
   - type: BACK01.SCR #Main
     singleImage: true
