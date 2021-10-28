@@ -8,19 +8,11 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
-            - STR_PLASMA_PISTOL_CELL
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
-            - STR_PLASMA_PISTOL_CELL
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 40
     length: 40
@@ -34,17 +26,11 @@ alienDeployments:
         percentageOutsideUfo: 60
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
-            - STR_PLASMA_PISTOL_CELL
+            - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_CARBINE
-            - STR_PLASMA_CARBINE_MAG
-            - STR_PLASMA_CARBINE_MAG
+            - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_REPEATER
-            - STR_PLASMA_REPEATER_CELL
-            - STR_PLASMA_REPEATER_CELL
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -52,17 +38,12 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
+            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_ALIEN_GRENADE
     width: 40
     length: 40
     height: 4
@@ -75,17 +56,12 @@ alienDeployments:
         percentageOutsideUfo: 65
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
+            - STR_ALIEN_GRENADE
             - STR_PLASMA_PISTOL_CELL
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_REPEATER
-            - STR_PLASMA_REPEATER_CELL
-            - STR_PLASMA_REPEATER_CELL
+            - STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -93,17 +69,12 @@ alienDeployments:
         percentageOutsideUfo: 25
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
+            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_CARBINE
-            - STR_PLASMA_CARBINE_MAG
-            - STR_PLASMA_CARBINE_MAG
+            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 2
         lowQty: 1
@@ -112,118 +83,12 @@ alienDeployments:
         percentageOutsideUfo: 35
         itemSets:
           -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
+            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
+            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
-            - STR_NEEDLER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-    width: 50
-    length: 50
-    height: 4
-  - type: STR_HARVESTER
-    data:
-      - alienRank: 5
-        lowQty: 5
-        highQty: 9
-        dQty: 4
-        percentageOutsideUfo: 70
-        itemSets:
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
-          -
-            - STR_PLASMA_CARBINE
-            - STR_PLASMA_CARBINE_MAG
-            - STR_PLASMA_CARBINE_MAG
-      - alienRank: 4
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_REPEATER
-            - STR_PLASMA_REPEATER_CELL
-            - STR_PLASMA_REPEATER_CELL
-      - alienRank: 3
-        lowQty: 1
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 20
-        itemSets:
-          -
-            - STR_NEEDLER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-          -
-            - STR_NEEDLER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-          -
-            - STR_NEEDLER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-            - STR_NEEDLER_CANISTER
-      - alienRank: 2
-        lowQty: 2
-        highQty: 2
-        dQty: 0
-        percentageOutsideUfo: 30
-        itemSets:
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
-            - STR_PLASMA_PISTOL_CELL
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_PLASMA_RIFLE_CELL
-          -
-            - STR_PLASMA_CARBINE
-            - STR_PLASMA_CARBINE_MAG
-            - STR_PLASMA_CARBINE_MAG
-      - alienRank: 1
-        lowQty: 1
-        highQty: 1
-        dQty: 1
-        percentageOutsideUfo: 0
-        itemSets:
-          -
-            - STR_PLASMA_PISTOL
-            - STR_PLASMA_PISTOL_CELL
-            - STR_PLASMA_PISTOL_CELL
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_RIFLE
-            - STR_PLASMA_RIFLE_CELL
-            - STR_ALIEN_GRENADE
-          -
-            - STR_PLASMA_REPEATER
-            - STR_PLASMA_REPEATER_CELL
-            - STR_PLASMA_REPEATER_CELL
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 50
     length: 50

@@ -6,11 +6,12 @@ Credits:
 *Ikhanad: lead design
 *efrenespartano: lead design
 
-*bulletdesigner: original Falco tileset (BD_PLANE, DB_ROTOR_BLADES)
-*Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (now modified)
+*bulletdesigner: original Falcon tileset (BD_PLANE, DB_ROTOR_BLADES)
+*Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
-*Nadir: MJOLNIR Mark V(B) armor basis
+*Hans Woofington: inspiration for armor parts used in SPI paperdoll
 *Leflair: Kig-Yar, Sangheili, Unggoy spritesheet basis
+*Solarius Sorch: SPI spritesheet basis (modified)
 *Wallz2296: Sangheili paperdolls
 
 
