@@ -73,6 +73,10 @@ es-419:
   STR_KIG_YAR_MINOR_ARMOR: "Arnés de combate Jackal"
   STR_KIG_YAR_MINOR_CORPSE: "Cadáver de Jackal Menor"
 ######################
+  STR_BANSHEE_FIGHTER: "Escuadrón de Cazas Banshee"
+  STR_SERAPH_FIGHTER: "Caza Seraph"
+  STR_SPIRIT_DROPSHIP: "Transporte Spirit"
+######################
   STR_CENTER_ON_SITE_TIME_5_SECONDS: "CENTRAR EN SITIO - TIEMPO = 5 Seg"
   STR_CANCEL_UC: "CANCELAR"
   STR_NONE: "Ninguno"

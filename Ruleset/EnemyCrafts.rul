@@ -1,0 +1,95 @@
+ufos:
+  - type: STR_SERAPH_FIGHTER
+    modSprite: Seraph_Interwin
+    size: STR_SMALL
+    damageMax: 500
+    speedMax: 650
+    power: 20
+    range: 30
+    score: 30
+    reload: 50
+    shieldCapacity: 100
+    shieldBleedThrough: 100
+    shieldRecharge: 50
+    breakOffTime: 50
+    battlescapeTerrainData:
+      name: SERAPH_FIGHTER
+      mapDataSets:
+        - BLANKS
+        - U_EXT02_PURPLE
+        - U_WALL02_PURPLE
+        - COVENANT_SHIP_PURPLE
+        - UFO1
+      mapBlocks:
+        - name: SERAPH_FIGHTER
+          width: 10
+          length: 20
+
+  - type: STR_BANSHEE_FIGHTER
+    modSprite: Banshee_Interwin
+    size: STR_VERY_SMALL
+    damageMax: 300
+    speedMax: 500
+    power: 20
+    range: 30
+    score: 30
+    reload: 50
+    breakOffTime: 50
+    battlescapeTerrainData:
+      name: SERAPH_FIGHTER
+      mapDataSets:
+        - BLANKS
+        - U_EXT02_PURPLE
+        - U_WALL02_PURPLE
+        - COVENANT_SHIP_PURPLE
+        - UFO1
+      mapBlocks:
+        - name: SERAPH_FIGHTER
+          width: 10
+          length: 20
+
+  - type: STR_SPIRIT_DROPSHIP
+    modSprite: Spirit_Interwin
+    size: STR_SMALL
+    damageMax: 800
+    speedMax: 450
+    power: 100
+    range: 40
+    score: 100
+    reload: 30
+    breakOffTime: 80
+    battlescapeTerrainData:
+      name: SPIRIT_DROPSHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT02_PURPLE
+        - U_WALL02_PURPLE
+        - U_BITS
+        - COVENANT_SHIP_PURPLE
+      mapBlocks:
+        - name: SPIRIT_DROPSHIP00
+          width: 20
+          length: 20
+        - name: SPIRIT_DROPSHIP01
+          width: 20
+          length: 20
+
+extraSprites:
+  - type: Seraph_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/Seraph_Interwin.png
+  - type: Banshee_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/Banshee_Interwin.png
+  - type: Spirit_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/Spirit_Interwin.png

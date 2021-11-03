@@ -73,6 +73,10 @@ en-US:
   STR_KIG_YAR_MINOR_ARMOR: "Jackal Combat Harness"
   STR_KIG_YAR_MINOR_CORPSE: "Jackal Minor Corpse"
 #####################
+  STR_BANSHEE_FIGHTER: "Banshee Fighter Wing"
+  STR_SERAPH_FIGHTER: "Seraph Fighter"
+  STR_SPIRIT_DROPSHIP: "Spirit Dropship"
+#####################
   STR_CENTER_ON_SITE_TIME_5_SECONDS: "CENTER ON SITE-TIME=5 Secs"
   STR_CANCEL_UC: "CANCEL"
   STR_NONE: "None"
