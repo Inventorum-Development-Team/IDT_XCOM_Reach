@@ -3,21 +3,44 @@ items:
     size: 0.4
     costSell: 30000
     weight: 25
-    bigSprite: 1000
-    floorSprite: 1000
+    bigSprite: 2000
+    floorSprite: 2000
     invWidth: 2
     invHeight: 2
     recoveryPoints: 10
     battleType: 11
     armor: 40
     listOrder: 1000
-
   - type: STR_SANGHEILI_MAJOR_CORPSE
     size: 0.4
     costSell: 30000
     weight: 25
-    bigSprite: 1001
-    floorSprite: 1001
+    bigSprite: 2001
+    floorSprite: 2001
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_ULTRA_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2001
+    floorSprite: 2001
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_ZEALOT_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2001
+    floorSprite: 2001
     invWidth: 2
     invHeight: 2
     recoveryPoints: 10
@@ -29,8 +52,69 @@ items:
     size: 0.4
     costSell: 30000
     weight: 25
-    bigSprite: 1011
-    floorSprite: 1011
+    bigSprite: 2011
+    floorSprite: 2011
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+  - type: STR_KIG_YAR_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2012
+    floorSprite: 2012
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+
+  - type: STR_UNGGOY_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2007
+    floorSprite: 2007
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+  - type: STR_UNGGOY_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2008
+    floorSprite: 2008
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+  - type: STR_UNGGOY_HEAVY_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2010
+    floorSprite: 2010
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1000
+  - type: STR_UNGGOY_ULTRA_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2009
+    floorSprite: 2009
     invWidth: 2
     invHeight: 2
     recoveryPoints: 10
@@ -42,7 +126,6 @@ armors:
   - type: STR_SANGHEILI_MINOR_ARMOR
     visibilityAtDay: 25
     visibilityAtDark: 20
-    heatVision: 15
     spriteSheet: SANGHEILI_MINOR_SPRITESHEET.PCK
     spriteInv: SANGHEILI_MINOR_INVENTORY
     corpseBattle:
@@ -51,7 +134,7 @@ armors:
     sideArmor: 50
     rearArmor: 30
     underArmor: 20
-    drawingRoutine: 0 #Muton
+    drawingRoutine: 0 #Human/Sectoid
     movementType: 0 #default walking
     damageModifier: # ARMOR
       - 1.0 #none
@@ -69,7 +152,6 @@ armors:
   - type: STR_SANGHEILI_MAJOR_ARMOR
     visibilityAtDay: 25
     visibilityAtDark: 20
-    heatVision: 15
     spriteSheet: SANGHEILI_MAJOR_SPRITESHEET.PCK
     spriteInv: SANGHEILI_MAJOR_INVENTORY
     corpseBattle:
@@ -93,17 +175,68 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
 
+  - type: STR_SANGHEILI_ULTRA_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_ULTRA_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_ULTRA_CORPSE
+    frontArmor: 80
+    sideArmor: 60
+    rearArmor: 40
+    underArmor: 30
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_SANGHEILI_ZEALOT_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_ZEALOT_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_ZEALOT_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_ZEALOT_CORPSE
+    frontArmor: 100
+    sideArmor: 60
+    rearArmor: 50
+    underArmor: 20
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
   - type: STR_KIG_YAR_MINOR_ARMOR
     visibilityAtDay: 25
     visibilityAtDark: 20
-    heatVision: 15
     spriteSheet: KIG_YAR_MINOR_SPRITESHEET.PCK
     spriteInv: KIG_YAR_MINOR_INVENTORY
     corpseBattle:
       - STR_KIG_YAR_MINOR_CORPSE
-    frontArmor: 10
-    sideArmor: 10
-    rearArmor: 10
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
     underArmor: 10
     drawingRoutine: 10 #Muton
     movementType: 0 #default walking
@@ -120,6 +253,132 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
 
+  - type: STR_KIG_YAR_MAJOR_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: KIG_YAR_MAJOR_SPRITESHEET.PCK
+    spriteInv: KIG_YAR_MINOR_INVENTORY
+    corpseBattle:
+      - STR_KIG_YAR_MAJOR_CORPSE
+    frontArmor: 30
+    sideArmor: 30
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 10 #Muton
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_UNGGOY_MINOR_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: UNGGOY_MINOR_SPRITESHEET.PCK
+    spriteInv: UNGGOY_MINOR_INVENTORY
+    corpseBattle:
+      - STR_UNGGOY_MINOR_CORPSE
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_UNGGOY_MAJOR_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: UNGGOY_MAJOR_SPRITESHEET.PCK
+    spriteInv: UNGGOY_MAJOR_INVENTORY
+    corpseBattle:
+      - STR_UNGGOY_MAJOR_CORPSE
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 20
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_UNGGOY_HEAVY_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: UNGGOY_HEAVY_SPRITESHEET.PCK
+    spriteInv: UNGGOY_HEAVY_INVENTORY
+    corpseBattle:
+      - STR_UNGGOY_HEAVY_CORPSE
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_UNGGOY_ULTRA_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: UNGGOY_ULTRA_SPRITESHEET.PCK
+    spriteInv: UNGGOY_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_UNGGOY_ULTRA_CORPSE
+    frontArmor: 60
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 20
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
 
 units:
   - type: STR_SANGHEILI_MINOR
@@ -202,6 +461,86 @@ units:
        - STR_PLASMA_REPEATER_CELL
        - STR_ALIEN_GRENADE
 
+  - type: STR_SANGHEILI_ULTRA
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 80
+      stamina: 95
+      health: 45
+      bravery: 100
+      reactions: 45
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_ULTRA_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 30
+    deathSound: 10
+    spotter: 2
+    intelligence: 10
+    aggression: 5
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_REPEATER
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_REPEATER_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_REPEATER
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_REPEATER_CELL
+       - STR_ALIEN_GRENADE
+
+  - type: STR_SANGHEILI_ZEALOT
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 80
+      stamina: 95
+      health: 45
+      bravery: 100
+      reactions: 45
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_ZEALOT_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 30
+    deathSound: 10
+    spotter: 2
+    intelligence: 10
+    aggression: 10
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_REPEATER
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_REPEATER_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_REPEATER
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_REPEATER_CELL
+       - STR_ALIEN_GRENADE
+
   - type: STR_KIG_YAR_MINOR
     race: STR_KIG_YAR
     rank: STR_LIVE_SOLDIER
@@ -218,6 +557,47 @@ units:
       psiSkill: 0
       melee: 25
     armor: STR_KIG_YAR_MINOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+
+  - type: STR_KIG_YAR_MAJOR
+    race: STR_KIG_YAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 90
+      stamina: 120
+      health: 30
+      bravery: 60
+      reactions: 90
+      firing: 70
+      throwing: 30
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_KIG_YAR_MAJOR_ARMOR
     standHeight: 19
     kneelHeight: 15
     value: 16
@@ -281,6 +661,168 @@ units:
        - STR_PLASMA_CARBINE_MAG
        - STR_PLASMA_CARBINE_MAG
 
+  - type: STR_UNGGOY_MINOR
+    race: STR_UNGGOY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 20
+      reactions: 50
+      firing: 50
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_UNGGOY_MINOR_ARMOR
+    standHeight: 16
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    intelligence: 3
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+
+  - type: STR_UNGGOY_MAJOR
+    race: STR_UNGGOY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 50
+      health: 40
+      bravery: 30
+      reactions: 55
+      firing: 55
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_UNGGOY_MAJOR_ARMOR
+    standHeight: 16
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    intelligence: 4
+    aggression: 3
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+
+  - type: STR_UNGGOY_HEAVY
+    race: STR_UNGGOY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 50
+      health: 50
+      bravery: 40
+      reactions: 50
+      firing: 60
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_UNGGOY_HEAVY_ARMOR
+    standHeight: 16
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    sniper: 8
+    intelligence: 4
+    aggression: 4
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_ALIEN_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+
+  - type: STR_UNGGOY_ULTRA
+    race: STR_UNGGOY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 50
+      health: 90
+      bravery: 60
+      reactions: 50
+      firing: 70
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_UNGGOY_ULTRA_ARMOR
+    standHeight: 16
+    kneelHeight: 15
+    value: 16
+    deathSound: 10
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 4
+    builtInWeaponSets:
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_ALIEN_GRENADE
+
 extraSprites:
   - type: SANGHEILI_MINOR_SPRITESHEET.PCK
     subX: 32
@@ -296,6 +838,20 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_SPRITESHEET.png
+  - type: SANGHEILI_ULTRA_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_SPRITESHEET.png
+  - type: SANGHEILI_ZEALOT_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_SPRITESHEET.png
 
   - type: KIG_YAR_MINOR_SPRITESHEET.PCK
     subX: 32
@@ -304,7 +860,42 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_SPRITESHEET.png
+  - type: KIG_YAR_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_SPRITESHEET.png
 
+  - type: UNGGOY_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_SPRITESHEET.png
+  - type: UNGGOY_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_SPRITESHEET.png
+  - type: UNGGOY_HEAVY_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_SPRITESHEET.png
+  - type: UNGGOY_ULTRA_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_SPRITESHEET.png
 
   - type: SANGHEILI_MINOR_INVENTORY
     singleImage: true
@@ -314,44 +905,69 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_INVENTORY.png
+  - type: SANGHEILI_ULTRA_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_INVENTORY.png
+  - type: SANGHEILI_ZEALOT_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_INVENTORY.png
 
   - type: KIG_YAR_MINOR_INVENTORY
     singleImage: true
     files:
       0: Resources/CovenantArmors/KigYar/KIG_YAR_INVENTORY.png
 
+  - type: UNGGOY_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_INVENTORY.png
+  - type: UNGGOY_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_INVENTORY.png
+  - type: UNGGOY_HEAVY_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_INVENTORY.png
+  - type: UNGGOY_ULTRA_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_INVENTORY.png
+
   - type: BIGOBS.PCK
     files:
-      1000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_BIGOB.png
-      1001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_BIGOB.png
-#      1002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_BIGOB.png
-#      1003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.png
-#      1004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_BIGOB.png
-#      1005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_BIGOB.png
-#      1006: Resources/CovenantArmors/Sangheili/SANGHEILI_GENERAL_CORPSE_BIGOB.png
-#      1007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_BIGOB.png
-#      1008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_BIGOB.png
-#      1009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_BIGOB.png
-#      1010: Resources/CovenantArmors/Unggoy/UNGGOY_SPECOPS_CORPSE_BIGOB.png
-      1011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_BIGOB.png
-#      1012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_BIGOB.png
-#      1013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_BIGOB.png
+      2000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_BIGOB.png
+      2001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_BIGOB.png
+      2002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_BIGOB.png
+      2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.png
+#      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_BIGOB.png
+#      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_BIGOB.png
+#      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_GENERAL_CORPSE_BIGOB.png
+      2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_BIGOB.png
+      2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_BIGOB.png
+      2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_BIGOB.png
+      2010: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_CORPSE_BIGOB.png
+      2011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_BIGOB.png
+      2012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_BIGOB.png
+#      2013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
-      1000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_FLOOROB.png
-      1001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_FLOOROB.png
-#      1002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_FLOOROB.png
-#      1003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png
-#      1004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_FLOOROB.png
-#      1005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
-#      1006: Resources/CovenantArmors/Sangheili/SANGHEILI_GENERAL_CORPSE_FLOOROB.png
-#      1007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_FLOOROB.png
-#      1008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_FLOOROB.png
-#      1009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_FLOOROB.png
-#      1010: Resources/CovenantArmors/Unggoy/UNGGOY_SPECOPS_CORPSE_FLOOROB.png
-      1011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_FLOOROB.png
-#      1012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_FLOOROB.png
-#      1013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_FLOOROB.png
+      2000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_FLOOROB.png
+      2001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_FLOOROB.png
+      2002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_FLOOROB.png
+      2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png
+#      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_FLOOROB.png
+#      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
+#      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_GENERAL_CORPSE_FLOOROB.png
+      2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_FLOOROB.png
+      2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_FLOOROB.png
+      2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_FLOOROB.png
+      2010: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_CORPSE_FLOOROB.png
+      2011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_FLOOROB.png
+      2012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_FLOOROB.png
+#      2013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_FLOOROB.png
 
 
 
@@ -364,22 +980,33 @@ alienRaces:
 
   - id: STR_SANGHEILI_LANCE
     members:
+      - STR_SANGHEILI_ZEALOT
+      - STR_SANGHEILI_ULTRA
       - STR_SANGHEILI_MAJOR
-      - STR_SANGHEILI_MAJOR
       - STR_SANGHEILI_MINOR
+      - STR_KIG_YAR_SNIPER
       - STR_SANGHEILI_MINOR
-      - STR_SANGHEILI_MINOR
-      - STR_SANGHEILI_MINOR
-      - STR_SANGHEILI_MINOR
+      - STR_UNGGOY_MINOR
       - STR_SANGHEILI_MINOR
 
   - id: STR_STANDARD_LANCE
     members:
-      - STR_SANGHEILI_MINOR
+      - STR_SANGHEILI_MAJOR
       - STR_SANGHEILI_MINOR
       - STR_KIG_YAR_MINOR
       - STR_KIG_YAR_SNIPER
       - STR_KIG_YAR_SNIPER
+      - STR_UNGGOY_MINOR
       - STR_KIG_YAR_MINOR
+      - STR_KIG_YAR_MINOR
+
+  - id: STR_UNGGOY_LANCE
+    members:
+      - STR_SANGHEILI_MAJOR
+      - STR_SANGHEILI_MINOR
+      - STR_UNGGOY_ULTRA
+      - STR_UNGGOY_HEAVY
+      - STR_UNGGOY_MAJOR
+      - STR_UNGGOY_MINOR
       - STR_KIG_YAR_MINOR
       - STR_KIG_YAR_MINOR
