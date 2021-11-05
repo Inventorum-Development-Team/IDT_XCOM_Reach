@@ -336,7 +336,7 @@ armors:
     spriteInv: UNGGOY_HEAVY_INVENTORY
     corpseBattle:
       - STR_UNGGOY_HEAVY_CORPSE
-    frontArmor: 40
+    frontArmor: 30
     sideArmor: 30
     rearArmor: 10
     underArmor: 10
@@ -361,8 +361,8 @@ armors:
     spriteInv: UNGGOY_ULTRA_INVENTORY
     corpseBattle:
       - STR_UNGGOY_ULTRA_CORPSE
-    frontArmor: 60
-    sideArmor: 40
+    frontArmor: 40
+    sideArmor: 20
     rearArmor: 20
     underArmor: 20
     drawingRoutine: 0 #Human/Sectoid
@@ -985,7 +985,7 @@ alienRaces:
       - STR_SANGHEILI_MAJOR
       - STR_SANGHEILI_MINOR
       - STR_KIG_YAR_SNIPER
-      - STR_SANGHEILI_MINOR
+      - STR_KIG_YAR_MAJOR
       - STR_UNGGOY_MINOR
       - STR_SANGHEILI_MINOR
 
