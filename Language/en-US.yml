@@ -23,15 +23,20 @@ en-US:
   STR_M6C: M6C PDWS
   STR_M6C_UFOPEDIA: "Marine Corps' variant of the M6 PDWS, sporting a higher fire rate and velocity, using SAP-HP instead of SAP-HE." 
   STR_M6C_SOCOM: M6C/SOCOM
-  STR_M6C_SOCOM_UFOPEDIA: "Variant with an integrated suppressor, muzzle brake and a 4x SMARTLINK scope. Typically issued to UNSC units like ODSTs."
+  STR_M6C_SOCOM_UFOPEDIA: "Variant with an integrated suppressor, muzzle brake and a 4x SMARTLINK scope. Typically issued to Spec-Ops units like ODSTs."
   STR_M6C_MAG: .50 SAP-HP M6C Magazine
   STR_M6G: M6G Magnum
-  STR_M6G_MAG: "12.7mm M6G Magnum Mag"
+  STR_M6G_UFOPEDIA: "2546 model, variant of the M6 used by the UNSC Army. Outfitted with a 2x scope and a laser attachment. Fires high caliber High Explosive, Semi-Armor Piercing rounds."
+  STR_M6G_MAG: "12.7x40 SAP-HE M6G Magazine"
   STR_M7: M7 SMG
+  STR_M7_UFOPEDIA: "Fully automatic, compact firearm firing caseless Full Metal Jacket munitions at 900 RPM from a 60-round magazine. "
   STR_M7S: M7S SMG
-  STR_M7_MAG: 5x39mm SMG Magazine
+  STR_M7S_UFOPEDIA: "Variant of the M7 Caseless SMG attached with an M49 suppressor, flashlight, and SLS/V 5B smart scope, issued to Spec-Ops units."
+  STR_M7_MAG: 5x23mm SMG Magazine
   STR_M45_SHOTGUN: M45 Tactical Shotgun
-  STR_M90_SHOTGUN: M90 Close Assault Shotgun
+  STR_M45_SHOTGUN_UFOPEDIA: "CQC firearm used for boarding action and urban combat. Has a dual-tubular magazine chambered in 8 gauge magnum."
+  STR_M90_SHOTGUN: M90 CAWS
+  STR_M90_SHOTGUN_UFOPEDIA: "A functionally identical and cheaper clone of the M45E model. Fires up to 12 shots of 8 gauge magnum."
   STR_8GAUGE_SHELLS: 8-Gauge Shotgun Speedloader
   STR_BR55: BR55HB-SR Battle Rifle
   STR_BR55S: BR55HB-SR/SOCOM
