@@ -2,7 +2,7 @@ ufos:
   - type: STR_SERAPH_FIGHTER
     modSprite: Seraph_Interwin
     size: STR_SMALL
-    damageMax: 500
+    damageMax: 200
     speedMax: 650
     power: 20
     range: 30
@@ -28,7 +28,7 @@ ufos:
   - type: STR_BANSHEE_FIGHTER
     modSprite: Banshee_Interwin
     size: STR_VERY_SMALL
-    damageMax: 300
+    damageMax: 210 #Each separate Space Banshee has 70 HP
     speedMax: 500
     power: 20
     range: 30
@@ -51,8 +51,124 @@ ufos:
   - type: STR_SPIRIT_DROPSHIP
     modSprite: Spirit_Interwin
     size: STR_SMALL
-    damageMax: 800
+    damageMax: 300
     speedMax: 450
+    power: 100
+    range: 40
+    score: 100
+    reload: 30
+    breakOffTime: 80
+    battlescapeTerrainData:
+      name: SPIRIT_DROPSHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT02_PURPLE
+        - U_WALL02_PURPLE
+        - U_BITS
+        - COVENANT_SHIP_PURPLE
+      mapBlocks:
+        - name: SPIRIT_DROPSHIP00
+          width: 20
+          length: 20
+        - name: SPIRIT_DROPSHIP01
+          width: 20
+          length: 20
+
+#Capital Ships
+  - type: STR_SDV_CLASS_HEAVY_CORVETTE
+    modSprite: HeavyCorvette_Interwin
+    size: STR_MEDIUM_UC
+    damageMax: 800
+    shieldCapacity: 300
+    shieldRecharge: 250
+    shieldBleedThrough: 50
+    speedMax: 450
+    power: 100
+    range: 40
+    score: 100
+    reload: 30
+    breakOffTime: 80
+    battlescapeTerrainData:
+      name: SPIRIT_DROPSHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT02_PURPLE
+        - U_WALL02_PURPLE
+        - U_BITS
+        - COVENANT_SHIP_PURPLE
+      mapBlocks:
+        - name: SPIRIT_DROPSHIP00
+          width: 20
+          length: 20
+        - name: SPIRIT_DROPSHIP01
+          width: 20
+          length: 20
+
+  - type: STR_CPV_CLASS_HEAVY_DESTROYER
+    modSprite: HeavyDestroyer_Interwin
+    size: STR_MEDIUM_UC
+    damageMax: 1200
+    shieldCapacity: 500
+    shieldRecharge: 250
+    shieldBleedThrough: 50
+    speedMax: 450
+    power: 100
+    range: 40
+    score: 100
+    reload: 30
+    breakOffTime: 80
+    battlescapeTerrainData:
+      name: SPIRIT_DROPSHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT02_PURPLE
+        - U_WALL02_PURPLE
+        - U_BITS
+        - COVENANT_SHIP_PURPLE
+      mapBlocks:
+        - name: SPIRIT_DROPSHIP00
+          width: 20
+          length: 20
+        - name: SPIRIT_DROPSHIP01
+          width: 20
+          length: 20
+
+  - type: STR_CCS_CLASS_BATTLECRUISER
+    modSprite: BattleCruiser_Interwin
+    size: STR_LARGE
+    damageMax: 1500
+    shieldCapacity: 800
+    shieldRecharge: 250
+    shieldBleedThrough: 50
+    speedMax: 250
+    power: 100
+    range: 40
+    score: 100
+    reload: 30
+    breakOffTime: 80
+    battlescapeTerrainData:
+      name: SPIRIT_DROPSHIP
+      mapDataSets:
+        - BLANKS
+        - U_EXT02_PURPLE
+        - U_WALL02_PURPLE
+        - U_BITS
+        - COVENANT_SHIP_PURPLE
+      mapBlocks:
+        - name: SPIRIT_DROPSHIP00
+          width: 20
+          length: 20
+        - name: SPIRIT_DROPSHIP01
+          width: 20
+          length: 20
+  - type: STR_CAS_CLASS_ASSAULT_CARRIER
+    modSprite: AssaultCarrier_Interwin
+    size: STR_VERY_LARGE
+    damageMax: 2500
+    shieldCapacity: 1500
+    shieldRecharge: 250
+    shieldBleedThrough: 50
+    speedMax: 250
     power: 100
     range: 40
     score: 100

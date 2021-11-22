@@ -1,0 +1,60 @@
+extraSprites:
+  - delete: GlobeMarkers
+  - type: GlobeMarkers
+    width: 63
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/GlobeMarkers/BaseGlobeMarkers.png
+  - type: GlobeMarkers
+    width: 280
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      9: Resources/GlobeMarkers/CraftGlobeMarkersHalo.png
+crafts:
+  - type: STR_PARIS_CLASS_HEAVY_FRIGATE
+    marker: 9
+  - type: STR_CHARON_CLASS_LIGHT_FRIGATE
+    marker: 10
+  - type: STR_SABRE_FIGHTER
+    marker: 11
+  - type: STR_LONGSWORD_FIGHTER
+    marker: 12
+  - type: STR_PELICAN_DROPSHIP
+    marker: 15
+  - type: STR_FALCON_DROPSHIP
+    marker: 16
+  - type: STR_FALCON_GUNSHIP
+    marker: 17
+ufos:
+  - type: STR_BANSHEE_FIGHTER
+    marker: 22
+    markerLand: 31
+    markerCrash: 40
+  - type: STR_SERAPH_FIGHTER
+    marker: 23
+    markerLand: 32
+    markerCrash: 41
+  - type: STR_SPIRIT_DROPSHIP
+    marker: 24
+    markerLand: 33
+    markerCrash: 42
+  - type: STR_SDV_CLASS_HEAVY_CORVETTE
+    marker: 26
+    markerLand: 35
+    markerCrash: 44
+  - type: STR_CPV_CLASS_HEAVY_DESTROYER
+    marker: 27
+    markerLand: 36
+    markerCrash: 45
+  - type: STR_CCS_CLASS_BATTLECRUISER
+    marker: 28
+    markerLand: 37
+    markerCrash: 46
+  - type: STR_CAS_CLASS_ASSAULT_CARRIER
+    marker: 29
+    markerLand: 38
+    markerCrash: 47
