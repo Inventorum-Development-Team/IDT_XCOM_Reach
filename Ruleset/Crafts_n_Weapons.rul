@@ -28,12 +28,12 @@ crafts:
       name: PARIS_FRIGATE_DROPPODS
       mapDataSets:
         - BLANKS
-        - HEV_DROPPOD
+        - SOEIV_DROPPOD
+        - SOEIV_DROPPOD_BITS
       mapBlocks:
         - name: PARIS_FRIGATE_DROPPODS
           width: 10
           length: 20
-    craftInventoryTile: [5, 4, 0]
     deployment:
       - [1, 4, 0, 4]
       - [4, 1, 0, 4]
@@ -75,12 +75,12 @@ crafts:
       name: CHARON_FRIGATE_DROPPODS
       mapDataSets:
         - BLANKS
-        - HEV_DROPPOD
+        - SOEIV_DROPPOD
+        - SOEIV_DROPPOD_BITS
       mapBlocks:
         - name: CHARON_FRIGATE_DROPPODS
           width: 20
           length: 20
-    craftInventoryTile: [5, 4, 0]
     deployment:
       - [1, 2, 0, 2]
       - [6, 1, 0, 2]
