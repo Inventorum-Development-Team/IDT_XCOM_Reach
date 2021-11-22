@@ -56,7 +56,7 @@ crafts:
 #    listOrder: 800
 
   - type: STR_CHARON_CLASS_LIGHT_FRIGATE
-    sprite: 100
+    sprite: 101
     fuelMax: 1000
     damageMax: 1000
     speedMax: 90
@@ -111,7 +111,7 @@ crafts:
 #################################
 
   - type: STR_SABRE_FIGHTER
-    sprite: 201
+    sprite: 102
     fuelMax: 300
     damageMax: 130
     speedMax: 500
@@ -138,7 +138,7 @@ crafts:
     score: 400
 
   - type: STR_LONGSWORD_FIGHTER
-    sprite: 201
+    sprite: 103
     fuelMax: 300
     damageMax: 130
     speedMax: 500
@@ -222,7 +222,7 @@ crafts:
 #    listOrder: 800
 
   - type: STR_FALCON_DROPSHIP
-#    sprite: 0
+    sprite: 156
     maxSkinIndex: 3            # default 0
     skinSprites: [156,157,158] # default empty, contains all sprites except for the first (index zero)
     fuelMax: 999
@@ -271,7 +271,7 @@ crafts:
 # 4 3 2
 
   - type: STR_FALCON_GUNSHIP
-#    sprite: 0
+    sprite: 159
     maxSkinIndex: 3            # default 0
     skinSprites: [159,160,161] # default empty, contains all sprites except for the first (index zero)
     fuelMax: 999
@@ -329,7 +329,7 @@ craftWeapons:
 
 #Magnetic Acceleration Cannon
   - type: STR_MAC
-    sprite: 202
+    sprite: 300
     sound: 4
     damage: 200
     shieldDamageModifier: 80
@@ -346,7 +346,7 @@ craftWeapons:
 
 #Machine-linked Autocannon (MLA)
   - type: STR_30MM_CANNON_UC
-    sprite: 200
+    sprite: 301
     sound: 4
     damage: 30
     shieldDamageModifier: 50
@@ -361,7 +361,7 @@ craftWeapons:
     projectileType: 2
     projectileSpeed: 7
   - type: STR_50MM_CANNON_UC
-    sprite: 201
+    sprite: 302
     sound: 4
     damage: 40
     shieldDamageModifier: 50
@@ -378,7 +378,7 @@ craftWeapons:
 
 #Defensive Machine Guns
   - type: STR_AA_BATTERY_UC
-    sprite: 201
+    sprite: 303
     sound: 4
     damage: 30
     shieldDamageModifier: 50
@@ -393,7 +393,7 @@ craftWeapons:
     projectileType: 2
     projectileSpeed: 10
   - type: STR_70MM_CHAINGUN_UC
-    sprite: 201
+    sprite: 304
     sound: 4
     damage: 35
     shieldDamageModifier: 50
@@ -410,7 +410,7 @@ craftWeapons:
 
 #Missiles
   - type: STR_SHIVA_NUKE_UC
-    sprite: 1
+    sprite: 305
     sound: 5
     damage: 300
     shieldDamageModifier: 60
@@ -425,7 +425,7 @@ craftWeapons:
     projectileSpeed: 8
 
   - type: STR_ARCHER_MISSILE_UC
-    sprite: 1
+    sprite: 306
     sound: 5
     damage: 150
     shieldDamageModifier: 20
@@ -440,7 +440,7 @@ craftWeapons:
     projectileSpeed: 12
 
   - type: STR_MEDUSA_MISSILE_UC
-    sprite: 0
+    sprite: 307
     sound: 5
     damage: 80
     shieldDamageModifier: 30
@@ -454,7 +454,7 @@ craftWeapons:
     projectileType: 0
     projectileSpeed: 14
   - type: STR_ASGM10_MISSILE_UC
-    sprite: 0
+    sprite: 308
     sound: 5
     damage: 130
     shieldDamageModifier: 40
