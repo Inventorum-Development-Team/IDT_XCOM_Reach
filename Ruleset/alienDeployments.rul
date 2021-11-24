@@ -37,8 +37,8 @@ alienDeployments:
   - type: STR_SPIRIT_DROPSHIP
     data:
       - alienRank: 5
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -49,8 +49,8 @@ alienDeployments:
           -
             - STR_ALIEN_GRENADE
       - alienRank: 4
-        lowQty: 5
-        highQty: 10
+        lowQty: 2
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -63,8 +63,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
-        lowQty: 5
-        highQty: 10
+        lowQty: 2
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -77,8 +77,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 2
-        lowQty: 5
-        highQty: 10
+        lowQty: 2
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -91,7 +91,7 @@ alienDeployments:
           -
             - STR_ALIEN_GRENADE
       - alienRank: 1
-        lowQty: 2
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
@@ -122,8 +122,8 @@ alienDeployments:
           -
             - STR_ALIEN_GRENADE
       - alienRank: 4
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -136,8 +136,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -150,8 +150,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 2
-        lowQty: 5
-        highQty: 10
+        lowQty: 2
+        highQty: 8
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -164,7 +164,7 @@ alienDeployments:
           -
             - STR_ALIEN_GRENADE
       - alienRank: 1
-        lowQty: 2
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
@@ -195,8 +195,8 @@ alienDeployments:
           -
             - STR_ALIEN_GRENADE
       - alienRank: 4
-        lowQty: 5
-        highQty: 10
+        lowQty: 4
+        highQty: 8
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -209,8 +209,8 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 8
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -223,7 +223,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 2
-        lowQty: 5
+        lowQty: 4
         highQty: 10
         dQty: 1
         percentageOutsideUfo: 0
@@ -384,7 +384,7 @@ alienDeployments:
             - STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 2
-        highQty: 2
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:

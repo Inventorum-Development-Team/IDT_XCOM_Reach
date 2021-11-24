@@ -96,6 +96,9 @@ armors:
   - delete: STR_FLYING_SUIT_UC
 
 items:
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
   - delete: STR_ROCKET_LAUNCHER
   - delete: STR_SMALL_ROCKET
   - delete: STR_TANK_CANNON

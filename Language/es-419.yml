@@ -56,6 +56,15 @@ es-419:
   STR_ARMOR_ODST_UC: ODST BATTLE ARMOR
   STR_ARMOR_ODST: ODST Battle Armor
   STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with HUD tech."
+######################
+  STR_SHIELD_S: "Escudo resistiendo!"
+  STR_SHIELD_DOWN: "Escudo caído!"
+  STR_AIMED_BURST: "Ráfaga apuntando"
+  STR_BURST: "Ráfaga"
+  STR_FULL_AUTO: "Automático"
+  STR_SUPERCOMBINED: "Supercombinado"
+  STR_SINGLE_SHOT: "Semiautomático"
+######################
   STR_M6C: M6C PDWS
   STR_M6C_UFOPEDIA: "Marine Corps' variant of the M6 PDWS, sporting a higher fire rate and velocity, using SAP-HP instead of SAP-HE." 
   STR_M6C_SOCOM: M6C/SOCOM
@@ -135,7 +144,9 @@ es-419:
   STR_COVENANT_AIR_SUPERIORITY_1: "Superioridad aérea I"
   STR_COVENANT_AIR_SUPERIORITY_2: "Superioridad aérea II"
   STR_COVENANT_CITY_ATTACK: "Incursión a ciudad"
-  STR_COVENANT_SECTOR_INVASION: "Invasión de sector"
+  STR_COVENANT_SECTOR_INVASION_EARLY: "Invasión temprana de sector"
+  STR_COVENANT_SECTOR_INVASION_LATE: "Invasión tardía de sector"
+  STR_COVENANT_QUICK_SECTOR_INVASION: "Infiltración"
 ######################
   STR_CENTER_ON_SITE_TIME_5_SECONDS: "CENTRAR EN SITIO - TIEMPO = 5 Seg"
   STR_CANCEL_UC: "CANCELAR"

@@ -6,9 +6,10 @@ crafts:
   - type: STR_PARIS_CLASS_HEAVY_FRIGATE
     sprite: 100
     fuelMax: 9999
-    damageMax: 1000
+    damageMax: 1200
     speedMax: 600
     accel: 2
+    avoidBonus: 10
     weapons: 4
     weaponStrings:
       - STR_MAC_STRING
@@ -56,6 +57,7 @@ crafts:
     damageMax: 1000
     speedMax: 700
     accel: 2
+    avoidBonus: 20
     weapons: 4
     weaponStrings:
       - STR_MAC_STRING
@@ -113,6 +115,7 @@ crafts:
     shieldRechargedAtBase: 100
     shieldRecharge: 50
     speedMax: 700
+    avoidBonus: 50
     accel: 8
     weapons: 4
     weaponStrings:
@@ -139,6 +142,7 @@ crafts:
     fuelMax: 1000
     damageMax: 450
     speedMax: 600
+    avoidBonus: 40
     accel: 6
     weapons: 4
     weaponStrings:
@@ -172,6 +176,7 @@ crafts:
     damageMax: 5000
     speedMax: 500
     accel: 4
+    avoidBonus: 15
     weapons: 1
     weaponStrings:
       - STR_70MM_CHAINGUN_STRING
@@ -225,6 +230,7 @@ crafts:
     damageMax: 320
     speedMax: 400
     accel: 4
+    avoidBonus: 15
     weapons: 1
     weaponStrings:
       - STR_70MM_CHAINGUN_STRING
@@ -275,6 +281,7 @@ crafts:
     speedMax: 470
     accel: 4
     weapons: 2
+    avoidBonus: 25
     weaponStrings:
       - STR_70MM_CHAINGUN_STRING
       - STR_70MM_CHAINGUN_STRING
@@ -345,14 +352,14 @@ craftWeapons:
     sprite: 301
     sound: 4
     damage: 30
-    shieldDamageModifier: 50
+    shieldDamageModifier: 90
     range: 10
     accuracy: 25
     reloadCautious: 6
     reloadStandard: 6
     reloadAggressive: 5
     ammoMax: 200
-    rearmRate: 50
+    rearmRate: 100
     launcher: STR_30MM_CANNON_LAUNCHER
     projectileType: 2
     projectileSpeed: 7
@@ -360,14 +367,14 @@ craftWeapons:
     sprite: 302
     sound: 4
     damage: 40
-    shieldDamageModifier: 50
+    shieldDamageModifier: 90
     range: 15
     accuracy: 35
     reloadCautious: 8
     reloadStandard: 8
     reloadAggressive: 7
     ammoMax: 200
-    rearmRate: 50
+    rearmRate: 100
     launcher: STR_50MM_CANNON_LAUNCHER
     projectileType: 2
     projectileSpeed: 15
@@ -377,14 +384,14 @@ craftWeapons:
     sprite: 303
     sound: 4
     damage: 30
-    shieldDamageModifier: 50
+    shieldDamageModifier: 90
     range: 10
     accuracy: 35
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
     ammoMax: 200
-    rearmRate: 50
+    rearmRate: 100
     launcher: STR_AA_BATTERY_LAUNCHER
     projectileType: 2
     projectileSpeed: 10
@@ -392,14 +399,14 @@ craftWeapons:
     sprite: 304
     sound: 4
     damage: 35
-    shieldDamageModifier: 50
+    shieldDamageModifier: 90
     range: 10
     accuracy: 35
     reloadCautious: 8
     reloadStandard: 8
     reloadAggressive: 7
     ammoMax: 200
-    rearmRate: 50
+    rearmRate: 100
     launcher: STR_70MM_CHAINGUN_LAUNCHER
     projectileType: 2
     projectileSpeed: 7
@@ -423,7 +430,7 @@ craftWeapons:
   - type: STR_ARCHER_MISSILE_UC
     sprite: 306
     sound: 5
-    damage: 150
+    damage: 200
     shieldDamageModifier: 30
     range: 60
     accuracy: 50
@@ -431,6 +438,7 @@ craftWeapons:
     reloadStandard: 48
     reloadAggressive: 32
     ammoMax: 26
+    rearmRate: 13
     launcher: STR_ARCHER_MISSILE_LAUNCHER
     projectileType: 1
     projectileSpeed: 12
@@ -446,6 +454,7 @@ craftWeapons:
     reloadStandard: 48
     reloadAggressive: 32
     ammoMax: 8
+    rearmRate: 4
     launcher: STR_MEDUSA_MISSILE_LAUNCHER
     projectileType: 0
     projectileSpeed: 14
@@ -460,6 +469,7 @@ craftWeapons:
     reloadStandard: 64
     reloadAggressive: 48
     ammoMax: 2
+    rearmRate: 2
     launcher: STR_ASGM10_MISSILE_LAUNCHER
     projectileType: 1
     projectileSpeed: 8

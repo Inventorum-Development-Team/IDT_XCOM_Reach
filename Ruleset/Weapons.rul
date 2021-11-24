@@ -1,5 +1,4 @@
-#Halo Wars style mod - Created in 2014 by Diemaco for no good reason.
-#v3 Alpha for openXcom.
+#Halo Wars style mod - Created in 2014 by Diemaco for no good reason, improved and expanded in 2021 by IDT efrenespartano & Ikhanad 'cause we love Halo
 itemCategories:
   - type: STR_WEAPONS
     listOrder: 1
@@ -535,6 +534,7 @@ items:
     hitSound: 19
     hitAnimation: 90
     bulletSprite: 21
+    bulletSpeed: 10
     power: 34
     damageAlter:
       RandomType: 3
@@ -583,6 +583,7 @@ items:
     hitSound: 19
     hitAnimation: 100
     bulletSprite: 22
+    bulletSpeed: 10
     power: 34
     damageAlter:
       RandomType: 3
@@ -626,6 +627,7 @@ items:
     hitSound: 19
     hitAnimation: 140
     bulletSprite: 18
+    bulletSpeed: 10
     power: 40
     damageAlter:
       RandomType: 3
@@ -675,6 +677,7 @@ items:
     hitSound: 19
     hitAnimation: 120
     bulletSprite: 23
+    bulletSpeed: 10
     power: 35
     damageAlter:
       RandomType: 3
@@ -722,6 +725,7 @@ items:
     hitSound: 19
     hitAnimation: 130
     bulletSprite: 19
+    bulletSpeed: 10
     power: 35
     damageType: 4
     damageAlter:
@@ -771,6 +775,7 @@ items:
     hitAnimation: 110
     bulletSprite: 20
     power: 23
+    bulletSpeed: 10
     damageAlter:
       RandomType: 3
     damageType: 5
