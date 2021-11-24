@@ -95,7 +95,7 @@ items:
     bulletSpeed: 15
     power: 37
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 1
     clipSize: 60
     battleType: 2
@@ -142,7 +142,7 @@ items:
     power: 37
     bulletSpeed: 15
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 1
     clipSize: 32
     battleType: 2
@@ -193,7 +193,7 @@ items:
     power: 39
     bulletSpeed: 15
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 1
     clipSize: 36
     battleType: 2
@@ -237,7 +237,7 @@ items:
     power: 44
     bulletSpeed: 15
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 1
     clipSize: 15
     battleType: 2
@@ -276,9 +276,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14
+    bulletSpeed: 15
     power: 80
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 1
     clipSize: 4
     battleType: 2
@@ -344,7 +345,7 @@ items:
     power: 42
     bulletSpeed: 15
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 1
     clipSize: 12
     battleType: 2
@@ -384,7 +385,7 @@ items:
     power: 45
     bulletSpeed: 15
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 1
     clipSize: 8
     battleType: 2
@@ -485,7 +486,7 @@ items:
     power: 20
     bulletSpeed: 15
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 1
     invWidth: 1
     invHeight: 2
@@ -536,7 +537,7 @@ items:
     bulletSprite: 21
     power: 34
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -584,7 +585,7 @@ items:
     bulletSprite: 22
     power: 34
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -627,7 +628,7 @@ items:
     bulletSprite: 18
     power: 40
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 4
     clipSize: 15
     battleType: 2
@@ -676,7 +677,7 @@ items:
     bulletSprite: 23
     power: 35
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -724,7 +725,7 @@ items:
     power: 35
     damageType: 4
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     clipSize: 16
     battleType: 2
     armor: 12
@@ -771,7 +772,7 @@ items:
     bulletSprite: 20
     power: 23
     damageAlter:
-      RandomType: 2
+      RandomType: 3
     damageType: 5
     clipSize: 100
     battleType: 2
