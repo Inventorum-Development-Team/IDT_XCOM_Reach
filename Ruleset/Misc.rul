@@ -82,6 +82,13 @@ manufacture:
   - delete: STR_SMALL_LAUNCHER
   - delete: STR_STUN_BOMB
 
+crafts:
+  - delete: STR_AVENGER
+  - delete: STR_LIGHTNING
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+  - delete: STR_SKYRANGER
+
 armors:
   - delete: STR_NONE_UC
   - delete: STR_PERSONAL_ARMOR_UC

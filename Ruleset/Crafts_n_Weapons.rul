@@ -107,10 +107,13 @@ crafts:
 
   - type: STR_SABRE_FIGHTER
     sprite: 102
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    accel: 4
+    fuelMax: 1000
+    damageMax: 250
+    shieldCapacity: 100
+    shieldRechargedAtBase: 100
+    shieldRecharge: 250
+    speedMax: 700
+    accel: 8
     weapons: 4
     weaponStrings:
       - STR_30MM_CANNON_STRING
@@ -133,10 +136,10 @@ crafts:
 
   - type: STR_LONGSWORD_FIGHTER
     sprite: 103
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    accel: 4
+    fuelMax: 1000
+    damageMax: 450
+    speedMax: 600
+    accel: 6
     weapons: 4
     weaponStrings:
       - STR_50MM_CANNON_STRING
@@ -166,9 +169,9 @@ crafts:
     maxSkinIndex: 2            # default 0
     skinSprites: [121,122] # default empty, contains all sprites except for the first (index zero)
     fuelMax: 1000
-    damageMax: 1000
+    damageMax: 5000
     speedMax: 500
-    accel: 2
+    accel: 4
     weapons: 1
     weaponStrings:
       - STR_70MM_CHAINGUN_STRING
@@ -218,7 +221,7 @@ crafts:
     sprite: 123
     maxSkinIndex: 2           # default 0
     skinSprites: [124,125] # default empty, contains all sprites except for the first (index zero)
-    fuelMax: 999
+    fuelMax: 1000
     damageMax: 320
     speedMax: 400
     accel: 4
@@ -267,11 +270,11 @@ crafts:
     sprite: 126
     maxSkinIndex: 2            # default 0
     skinSprites: [127,128] # default empty, contains all sprites except for the first (index zero)
-    fuelMax: 999
-    damageMax: 320
+    fuelMax: 1000
+    damageMax: 4000
     speedMax: 470
     accel: 4
-    weapons: 1
+    weapons: 2
     weaponStrings:
       - STR_70MM_CHAINGUN_STRING
       - STR_70MM_CHAINGUN_STRING
