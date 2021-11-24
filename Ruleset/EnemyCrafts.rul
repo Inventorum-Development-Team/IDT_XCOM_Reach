@@ -8,6 +8,8 @@ ufos:
     range: 30
     score: 30
     reload: 50
+    huntBehavior: 1
+    hunterKillerPercentage: 60
     shieldCapacity: 100
     shieldBleedThrough: 100
     shieldRecharge: 50
@@ -34,6 +36,8 @@ ufos:
     range: 30
     score: 30
     reload: 50
+    huntBehavior: 1
+    hunterKillerPercentage: 100
     breakOffTime: 50
     battlescapeTerrainData:
       name: SERAPH_FIGHTER
@@ -80,13 +84,15 @@ ufos:
     size: STR_MEDIUM_UC
     damageMax: 800
     shieldCapacity: 300
-    shieldRecharge: 250
-    shieldBleedThrough: 50
+    shieldRecharge: 50
+    shieldBleedThrough: 100
     speedMax: 450
     power: 100
     range: 40
     score: 100
     reload: 30
+    huntBehavior: 0
+    hunterKillerPercentage: 50
     breakOffTime: 80
     battlescapeTerrainData:
       name: SPIRIT_DROPSHIP
@@ -107,16 +113,17 @@ ufos:
   - type: STR_CPV_CLASS_HEAVY_DESTROYER
     modSprite: HeavyDestroyer_Interwin
     size: STR_MEDIUM_UC
-    damageMax: 1200
+    damageMax: 1000
     shieldCapacity: 500
-    shieldRecharge: 250
-    shieldBleedThrough: 50
+    shieldRecharge: 50
+    shieldBleedThrough: 100
     speedMax: 450
-    power: 100
+    power: 200
     range: 40
     score: 100
     reload: 30
     breakOffTime: 80
+    huntBehavior: 0
     battlescapeTerrainData:
       name: SPIRIT_DROPSHIP
       mapDataSets:
@@ -138,14 +145,15 @@ ufos:
     size: STR_LARGE
     damageMax: 1500
     shieldCapacity: 800
-    shieldRecharge: 250
-    shieldBleedThrough: 50
+    shieldRecharge: 50
+    shieldBleedThrough: 100
     speedMax: 250
     power: 100
     range: 40
     score: 100
     reload: 30
     breakOffTime: 80
+    huntBehavior: 0
     battlescapeTerrainData:
       name: SPIRIT_DROPSHIP
       mapDataSets:
@@ -166,14 +174,15 @@ ufos:
     size: STR_VERY_LARGE
     damageMax: 2500
     shieldCapacity: 1500
-    shieldRecharge: 250
-    shieldBleedThrough: 50
+    shieldRecharge: 50
+    shieldBleedThrough: 100
     speedMax: 250
     power: 100
     range: 40
     score: 100
     reload: 30
     breakOffTime: 80
+    huntBehavior: 0
     battlescapeTerrainData:
       name: SPIRIT_DROPSHIP
       mapDataSets:

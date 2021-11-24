@@ -131,6 +131,12 @@ es-419:
   STR_CCS_CLASS_BATTLECRUISER: "Crucero de Batalla Clase-CCS"
   STR_CAS_CLASS_ASSAULT_CARRIER: "Carguero de Asalto Clase-CAS"
 ######################
+  STR_COVENANT_RECON: "Sobrevuelo de reconocimiento"
+  STR_COVENANT_AIR_SUPERIORITY_1: "Superioridad aérea I"
+  STR_COVENANT_AIR_SUPERIORITY_2: "Superioridad aérea II"
+  STR_COVENANT_CITY_ATTACK: "Incursión a ciudad"
+  STR_COVENANT_SECTOR_INVASION: "Invasión de sector"
+######################
   STR_CENTER_ON_SITE_TIME_5_SECONDS: "CENTRAR EN SITIO - TIEMPO = 5 Seg"
   STR_CANCEL_UC: "CANCELAR"
   STR_NONE: "Ninguno"

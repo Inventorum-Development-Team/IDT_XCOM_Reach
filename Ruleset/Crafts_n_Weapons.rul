@@ -5,7 +5,7 @@ crafts:
 #################################
   - type: STR_PARIS_CLASS_HEAVY_FRIGATE
     sprite: 100
-    fuelMax: 1000
+    fuelMax: 9999
     damageMax: 1000
     speedMax: 600
     accel: 2
@@ -52,7 +52,7 @@ crafts:
 
   - type: STR_CHARON_CLASS_LIGHT_FRIGATE
     sprite: 101
-    fuelMax: 1000
+    fuelMax: 9999
     damageMax: 1000
     speedMax: 700
     accel: 2
@@ -111,7 +111,7 @@ crafts:
     damageMax: 250
     shieldCapacity: 100
     shieldRechargedAtBase: 100
-    shieldRecharge: 250
+    shieldRecharge: 50
     speedMax: 700
     accel: 8
     weapons: 4
@@ -328,7 +328,7 @@ craftWeapons:
     sprite: 300
     sound: 4
     damage: 200
-    shieldDamageModifier: 80
+    shieldDamageModifier: 100
     range: 65
     accuracy: 90
     reloadCautious: 64
@@ -398,7 +398,7 @@ craftWeapons:
     reloadCautious: 8
     reloadStandard: 8
     reloadAggressive: 7
-    ammoMax: 100
+    ammoMax: 200
     rearmRate: 50
     launcher: STR_70MM_CHAINGUN_LAUNCHER
     projectileType: 2
@@ -408,7 +408,7 @@ craftWeapons:
   - type: STR_SHIVA_NUKE_UC
     sprite: 305
     sound: 5
-    damage: 300
+    damage: 400
     shieldDamageModifier: 60
     range: 60
     accuracy: 80
@@ -424,7 +424,7 @@ craftWeapons:
     sprite: 306
     sound: 5
     damage: 150
-    shieldDamageModifier: 20
+    shieldDamageModifier: 30
     range: 60
     accuracy: 50
     reloadCautious: 48
@@ -445,14 +445,14 @@ craftWeapons:
     reloadCautious: 48
     reloadStandard: 48
     reloadAggressive: 32
-    ammoMax: 6
+    ammoMax: 8
     launcher: STR_MEDUSA_MISSILE_LAUNCHER
     projectileType: 0
     projectileSpeed: 14
   - type: STR_ASGM10_MISSILE_UC
     sprite: 308
     sound: 5
-    damage: 130
+    damage: 200
     shieldDamageModifier: 40
     range: 30
     accuracy: 70

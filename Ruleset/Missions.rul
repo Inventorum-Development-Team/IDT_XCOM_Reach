@@ -56,8 +56,8 @@ missionScripts:
     missionWeights:
       0:
         STR_COVENANT_SECTOR_INVASION: 100
-    firstMonth: 1
-    startDelay: 1000
+    firstMonth: 0
+    startDelay: 50
     maxRuns: 6
     varName: sectorInvasion
     executionOdds: 100
@@ -76,12 +76,12 @@ alienMissions:
         STR_UNGGOY_LANCE: 40
     waves:
       - ufo: STR_SPIRIT_DROPSHIP
-        count: 2
+        count: 1
         trajectory: P1
         timer: 1440
         escort: false
       - ufo: STR_BANSHEE_FIGHTER
-        count: 3
+        count: 1
         trajectory: P1
         timer: 1440
         escort: true
@@ -89,11 +89,6 @@ alienMissions:
         count: 1
         trajectory: P2
         timer: 1440
-      - ufo: STR_SERAPH_FIGHTER
-        count: 3
-        trajectory: P5
-        timer: 1440
-        escort: true
       - ufo: STR_CCS_CLASS_BATTLECRUISER
         count: 1
         trajectory: P7
@@ -111,7 +106,7 @@ alienMissions:
         STR_UNGGOY_LANCE: 40
     waves: 
       - ufo: STR_SPIRIT_DROPSHIP
-        count: 2
+        count: 1
         trajectory: P1
         timer: 1440
         escort: false
@@ -145,7 +140,7 @@ alienMissions:
         escort: true
 
   - type: STR_COVENANT_AIR_SUPERIORITY_1
-    points: 10
+    points: 1
     objective: 0
     raceWeights:
       0:
@@ -163,7 +158,7 @@ alienMissions:
         huntMode: 1
 
   - type: STR_COVENANT_AIR_SUPERIORITY_2
-    points: 10
+    points: 1
     objective: 0
     raceWeights:
       0:

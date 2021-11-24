@@ -27,12 +27,39 @@ startingBase:
     - type: STR_SMALL_RADAR_SYSTEM
       x: 1
       y: 3
-  randomSoldiers: 6
+  randomSoldiers:
+    STR_SPARTAN_III: 6
+#    STR_PILOT: 8
   crafts:
+    - type: STR_PARIS_CLASS_HEAVY_FRIGATE
+      id: 1
+      fuel: 9999
+      damage: 0
+      weapons:
+        - type: STR_MAC
+          ammo: 10
+        - type: STR_ARCHER_MISSILE_UC
+          ammo: 26
+        - type: STR_AA_BATTERY_UC
+          ammo: 200
+        - type: STR_SHIVA_NUKE_UC
+          ammo: 3
+      items:
+        STR_GRENADE: 8
+        STR_M7S: 5
+        STR_M7_MAG: 15
+        STR_M6C_SOCOM: 8
+        STR_M6C_MAG: 24
+      status: STR_READY
     - type: STR_FALCON_GUNSHIP
       id: 1
-      fuel: 1500
+      fuel: 1000
       damage: 0
+      weapons:
+        - type: STR_70MM_CHAINGUN_UC
+          ammo: 200
+        - type: STR_70MM_CHAINGUN_UC
+          ammo: 200
       items:
         STR_GRENADE: 8
         STR_M7S: 5
@@ -44,11 +71,57 @@ startingBase:
       id: 1
       fuel: 1000
       damage: 0
+      weapons:
+        - type: STR_30MM_CANNON_UC
+          ammo: 200
+        - type: STR_30MM_CANNON_UC
+          ammo: 200
+        - type: STR_MEDUSA_MISSILE_UC
+          ammo: 8
+        - type: STR_MEDUSA_MISSILE_UC
+          ammo: 8
+      status: STR_READY
+    - type: STR_SABRE_FIGHTER
+      id: 2
+      fuel: 1000
+      damage: 0
+      weapons:
+        - type: STR_30MM_CANNON_UC
+          ammo: 200
+        - type: STR_30MM_CANNON_UC
+          ammo: 200
+        - type: STR_MEDUSA_MISSILE_UC
+          ammo: 8
+        - type: STR_MEDUSA_MISSILE_UC
+          ammo: 8
       status: STR_READY
     - type: STR_LONGSWORD_FIGHTER
       id: 1
       fuel: 1000
       damage: 0
+      weapons:
+        - type: STR_50MM_CANNON_UC
+          ammo: 200
+        - type: STR_50MM_CANNON_UC
+          ammo: 200
+        - type: STR_ASGM10_MISSILE_UC
+          ammo: 2
+        - type: STR_ASGM10_MISSILE_UC
+          ammo: 2
+      status: STR_READY
+    - type: STR_LONGSWORD_FIGHTER
+      id: 2
+      fuel: 1000
+      damage: 0
+      weapons:
+        - type: STR_50MM_CANNON_UC
+          ammo: 200
+        - type: STR_50MM_CANNON_UC
+          ammo: 200
+        - type: STR_ASGM10_MISSILE_UC
+          ammo: 2
+        - type: STR_ASGM10_MISSILE_UC
+          ammo: 2
       status: STR_READY
   items:
     STR_GRENADE: 5
