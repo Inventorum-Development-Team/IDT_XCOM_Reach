@@ -140,10 +140,10 @@ armors:
     spriteInv: SANGHEILI_MINOR_INVENTORY
     corpseBattle:
       - STR_SANGHEILI_MINOR_CORPSE
-    frontArmor: 50
-    sideArmor: 50
-    rearArmor: 30
-    underArmor: 20
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 10
     drawingRoutine: 0 #Human/Sectoid
     movementType: 0 #default walking
     damageModifier: # ARMOR
@@ -166,10 +166,10 @@ armors:
     spriteInv: SANGHEILI_MAJOR_INVENTORY
     corpseBattle:
       - STR_SANGHEILI_MAJOR_CORPSE
-    frontArmor: 70
-    sideArmor: 70
-    rearArmor: 40
-    underArmor: 20
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 10
     drawingRoutine: 0 #Muton
     movementType: 0 #default walking
     damageModifier: # ARMOR
@@ -192,10 +192,10 @@ armors:
     spriteInv: SANGHEILI_ULTRA_INVENTORY
     corpseBattle:
       - STR_SANGHEILI_ULTRA_CORPSE
-    frontArmor: 80
-    sideArmor: 60
-    rearArmor: 40
-    underArmor: 30
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10 
     drawingRoutine: 0 #Human/Sectoid
     movementType: 0 #default walking
     damageModifier: # ARMOR
@@ -218,10 +218,10 @@ armors:
     spriteInv: SANGHEILI_ZEALOT_INVENTORY
     corpseBattle:
       - STR_SANGHEILI_ZEALOT_CORPSE
-    frontArmor: 100
-    sideArmor: 60
-    rearArmor: 50
-    underArmor: 20
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
     drawingRoutine: 0 #Human/Sectoid
     movementType: 0 #default walking
     damageModifier: # ARMOR
@@ -244,9 +244,9 @@ armors:
     spriteInv: KIG_YAR_MINOR_INVENTORY
     corpseBattle:
       - STR_KIG_YAR_MINOR_CORPSE
-    frontArmor: 20
-    sideArmor: 20
-    rearArmor: 20
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 10
     underArmor: 10
     drawingRoutine: 10 #Muton
     movementType: 0 #default walking
@@ -270,9 +270,9 @@ armors:
     spriteInv: KIG_YAR_MINOR_INVENTORY
     corpseBattle:
       - STR_KIG_YAR_MAJOR_CORPSE
-    frontArmor: 30
-    sideArmor: 30
-    rearArmor: 20
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
     underArmor: 10
     drawingRoutine: 10 #Muton
     movementType: 0 #default walking
@@ -296,7 +296,7 @@ armors:
     spriteInv: UNGGOY_MINOR_INVENTORY
     corpseBattle:
       - STR_UNGGOY_MINOR_CORPSE
-    frontArmor: 15
+    frontArmor: 10
     sideArmor: 10
     rearArmor: 10
     underArmor: 10
@@ -321,10 +321,10 @@ armors:
     spriteInv: UNGGOY_MAJOR_INVENTORY
     corpseBattle:
       - STR_UNGGOY_MAJOR_CORPSE
-    frontArmor: 25
-    sideArmor: 20
+    frontArmor: 15
+    sideArmor: 10
     rearArmor: 10
-    underArmor: 20
+    underArmor: 10
     drawingRoutine: 0 #Human/Sectoid
     movementType: 0 #default walking
     damageModifier: # ARMOR
@@ -347,7 +347,7 @@ armors:
     corpseBattle:
       - STR_UNGGOY_HEAVY_CORPSE
     frontArmor: 30
-    sideArmor: 30
+    sideArmor: 20
     rearArmor: 10
     underArmor: 10
     drawingRoutine: 0 #Human/Sectoid
