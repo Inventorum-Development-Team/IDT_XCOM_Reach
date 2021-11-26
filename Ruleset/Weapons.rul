@@ -95,6 +95,10 @@ items:
     power: 37
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
     damageType: 1
     clipSize: 60
     battleType: 2
@@ -142,6 +146,10 @@ items:
     bulletSpeed: 15
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
     damageType: 1
     clipSize: 32
     battleType: 2
@@ -189,10 +197,14 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12
-    power: 39
+    power: 44
     bulletSpeed: 15
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
     damageType: 1
     clipSize: 36
     battleType: 2
@@ -233,10 +245,14 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11
-    power: 44
+    power: 55
     bulletSpeed: 15
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
     damageType: 1
     clipSize: 15
     battleType: 2
@@ -276,9 +292,13 @@ items:
     hitAnimation: 26
     bulletSprite: 14
     bulletSpeed: 15
-    power: 80
+    power: 100
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
     damageType: 1
     clipSize: 4
     battleType: 2
@@ -319,8 +339,8 @@ items:
     weight: 4
     compatibleAmmo:         #Battle Stats
       - STR_M6C_MAG     #
-    accuracySnap: 50        #
-    accuracyAimed: 80       #
+    accuracySnap: 80       #
+    accuracyAimed: 110       #
     tuSnap: 10              #
     tuAimed: 10             #
     maxRange: 100           #
@@ -345,6 +365,10 @@ items:
     bulletSpeed: 15
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
     damageType: 1
     clipSize: 12
     battleType: 2
@@ -359,10 +383,10 @@ items:
     weight: 3
     compatibleAmmo:         #Battle Stats
       - STR_M6G_MAG     #
-    accuracySnap: 50        #
-    accuracyAimed: 80       #
-    tuSnap: 13              #
-    tuAimed: 15             #
+    accuracySnap: 70        #
+    accuracyAimed: 100      #
+    tuSnap: 15              #
+    tuAimed: 20             #
     maxRange: 100           #
     aimRange: 25            #
     snapRange: 10           #
@@ -385,6 +409,10 @@ items:
     bulletSpeed: 15
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
     damageType: 1
     clipSize: 8
     battleType: 2
@@ -486,6 +514,10 @@ items:
     bulletSpeed: 15
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
     damageType: 1
     invWidth: 1
     invHeight: 2
@@ -538,6 +570,9 @@ items:
     power: 34
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -587,6 +622,9 @@ items:
     power: 34
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -631,6 +669,9 @@ items:
     power: 40
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
     damageType: 4
     clipSize: 15
     battleType: 2
@@ -681,6 +722,9 @@ items:
     power: 35
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -730,6 +774,9 @@ items:
     damageType: 4
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
     clipSize: 16
     battleType: 2
     armor: 12
@@ -778,6 +825,9 @@ items:
     bulletSpeed: 10
     damageAlter:
       RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
     damageType: 5
     clipSize: 100
     battleType: 2
