@@ -1,0 +1,71 @@
+﻿lookWeights:
+  - 25
+  - 40
+  - 30
+  - 5
+maleFirst:
+  - ODST Tom
+  - ODST David
+  - ODST Danny
+  - ODST Ben
+  - ODST Matan
+  - ODST Nick
+  - ODST Daniel
+  - ODST Dor
+  - ODST Dvir
+  - ODST Roni
+  - ODST Shizaf
+  - ODST Idan
+  - ODST Ariel
+  - ODST Jacob
+  - ODST Omer
+  - ODST Son
+  - ODST Itay
+  - ODST Aviv
+  - ODST Liran
+  - ODST Adam
+  - ODST Yahav
+  - ODST Erez
+  - ODST Gilad
+  - ODST Gal
+femaleFirst:
+  - ODST Hadar
+  - ODST Kinneret
+  - ODST Inbar
+  - ODST Sapir
+  - ODST Aya
+  - ODST Danielle
+  - ODST Ziva
+  - ODST Lihi
+  - ODST Joanna
+  - ODST Lia
+  - ODST Shiran
+  - ODST Michal
+  - ODST Noga
+  - ODST Noam
+  - ODST Yuval
+  - ODST Ziv
+  - ODST Neta
+  - ODST Roni
+  - ODST Karina
+  - ODST Zehavit
+  - ODST Adi
+  - ODST Rotem
+  - ODST Noa
+  - ODST Maya
+maleLast:
+  - Cohen
+  - Levy
+  - Mizrahi
+  - Peretz
+  - Biton
+  - Dahan
+  - Avraham
+  - Friedman
+  - Agbaria
+  - Malka
+  - Azulay
+  - Jabarin
+  - Katz
+  - Yosef
+  - Mahmid

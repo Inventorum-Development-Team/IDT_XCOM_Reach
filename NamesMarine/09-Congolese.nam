@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Marine Aimé Dorian
+  - Marine Alban
+  - Marine Ange
+  - Marine Annoud Prestige
+  - Marine Appollinaire
+  - Marine Arcel
+  - Marine Archange
+  - Marine Aristide
+  - Marine Armand
+  - Marine Arthur
+  - Marine Awax
+  - Marine Baurion
+  - Marine Ben
+  - Marine Benjamin
+  - Marine Bensadaa
+  - Marine Bonte
+  - Marine Boris
+  - Marine Bouse
+  - Marine Calice
+  - Marine Céléstin
+  - Marine Chatel
+  - Marine Cherald
+  - Marine Cherubin
+  - Marine Chriss
+  - Marine Christian
+  - Marine Claude
+  - Marine Davy
+  - Marine Dbacom
+  - Marine Donnel
+  - Marine Dorian
+  - Marine Dos
+  - Marine Dulcine
+  - Marine Eden
+  - Marine Edvin
+  - Marine Elyse
+  - Marine Eudes
+  - Marine Evrard
+  - Marine Fred
+  - Marine Fresnel
+  - Marine Gata
+  - Marine Geslin
+  - Marine Giordani
+  - Marine Guychel
+  - Marine Harold
+  - Marine Heldora
+  - Marine Hilde
+  - Marine Japhet
+  - Marine Joad Louad
+  - Marine Jules
+  - Marine Julle
+  - Marine Karome
+  - Marine Leonce
+  - Marine Lima
+  - Marine Lionel
+  - Marine Lucien
+  - Marine Mack
+  - Marine Marzin
+  - Marine Mbayo
+  - Marine Milan
+  - Marine Murphy
+  - Marine Oudry
+  - Marine Pascal
+  - Marine Paterne
+  - Marine Patrick
+  - Marine Prevner
+  - Marine Prince
+  - Marine Ray
+  - Marine Régis
+  - Marine Resnik
+  - Marine Rishi
+  - Marine Rodrigue
+  - Marine Rudolf
+  - Marine Sajila
+  - Marine Severin
+  - Marine Shabani
+  - Marine Stanis
+  - Marine Stephane
+  - Marine Sylvio
+  - Marine Thierry
+  - Marine Van Carrel
+  - Marine Yohan
+femaleFirst:
+  - Marine Arich
+  - Marine Arrielle
+  - Marine Ashley
+  - Marine Aubierge
+  - Marine Aude
+  - Marine Belcha
+  - Marine Belvie
+  - Marine Brunelle
+  - Marine Capricia
+  - Marine Carole
+  - Marine Cecile
+  - Marine Celvie
+  - Marine Chanfrelle
+  - Marine Christelle
+  - Marine Christiane
+  - Marine Clavidia
+  - Marine Darlène
+  - Marine Deborah
+  - Marine Diche
+  - Marine Dina
+  - Marine Docile
+  - Marine Djany
+  - Marine Emmanuelle
+  - Marine Estelle
+  - Marine Fallone
+  - Marine Fernande
+  - Marine Florèse
+  - Marine Gaelle
+  - Marine Garcia
+  - Marine Geanna
+  - Marine Giovanna
+  - Marine Gloire
+  - Marine Grace
+  - Marine Granie
+  - Marine Jaelle
+  - Marine Jannie
+  - Marine Jeanny
+  - Marine Jelvie
+  - Marine Jessica
+  - Marine Jen
+  - Marine Jodrey
+  - Marine Jolienne
+  - Marine Judith
+  - Marine Julie
+  - Marine Jupsie
+  - Marine Keicha
+  - Marine Liu
+  - Marine Lys
+  - Marine Melaine
+  - Marine Merveille
+  - Marine Michelle
+  - Marine Parfaite
+  - Marine Patrique
+  - Marine Polly
+  - Marine Privel
+  - Marine Lirna
+  - Marine Madelenne
+  - Marine Manu
+  - Marine Mary
+  - Marine Mbeko
+  - Marine Milyne
+  - Marine Monia
+  - Marine Nardelie
+  - Marine Nathalie
+  - Marine Nel
+  - Marine Nicia
+  - Marine Nuptia
+  - Marine Opportune
+  - Marine Patricia
+  - Marine Pitchou
+  - Marine Raan-sady
+  - Marine Reine
+  - Marine Rose
+  - Marine Rosa
+  - Marine Rudelle
+  - Marine Sabrina
+  - Marine Sagely
+  - Marine Sidorelle
+  - Marine Sony
+  - Marine Staelle
+  - Marine Synthyche
+  - Marine Tan
+  - Marine Vanessa
+  - Marine Winnie
+  - Marine Yornella
+maleLast:
+  - Akindele
+  - Alphonse
+  - Anaclet
+  - Augustin
+  - Aurelie
+  - Axele
+  - Badibanga
+  - Bakaji
+  - Bakwamba
+  - Bangamba
+  - Bantu
+  - Biampata
+  - Bilenga
+  - Bilenge
+  - Bilengi
+  - Bilonda
+  - Bilumbu
+  - Bitala
+  - Bitelu
+  - Biumba
+  - Buabu
+  - Buikalu
+  - Bukaka
+  - Buluba
+  - Busasa
+  - Buta
+  - Dikembe
+  - Dikengu
+  - Dikiyu
+  - Dishi
+  - Diyoka
+  - Evariste
+  - Felicien
+  - Francky
+  - Francois
+  - Gabriel
+  - Ganeramba
+  - Gaston
+  - Gilbert
+  - Gourmand
+  - Henri
+  - Honore
+  - Ilunga
+  - Jean
+  - Joseph
+  - Justin
+  - Kabala
+  - Kabamba
+  - Kabanda
+  - Kabanga
+  - Kabasela
+  - Kabemba
+  - Kabeya
+  - Kaboka
+  - Kabombo
+  - Kabongo
+  - Kabukala
+  - Kabunda
+  - Kabundangoji
+  - Kabungama
+  - Kabwa
+  - Kabwaya
+  - Kadilu
+  - Kadimu
+  - Kajangala
+  - Kajila
+  - Kajimba
+  - Kakokopo
+  - Kalala
+  - Kalanga
+  - Kalawanda
+  - Kalengedi
+  - Kaleuka
+  - Kalombo
+  - Kalonji
+  - Kalubi
+  - Kalunguji
+  - Kamanga
+  - Kambaja
+  - Kambala
+  - Kamulete
+  - Kamwania
+  - Kanda
+  - Kankolongo
+  - Kankonda
+  - Kanku
+  - Kanungu
+  - Kanyandu
+  - Kanyinda
+  - Kapinga
+  - Kapongo
+  - Kasala
+  - Kasampu
+  - Kasenga
+  - Kasongo
+  - Kasuku
+  - Kasulu
+  - Kaswaswa
+  - Katamba
+  - Katanda
+  - Katanga
+  - Katekelayi
+  - Katuku
+  - Katundu
+  - Kayemba
+  - Kayembe
+  - Kayowa
+  - Kilunsila
+  - Kimba
+  - Kishi
+  - Koloyi
+  - Komba
+  - Konji
+  - Kulondi
+  - Kutemba
+  - Lala
+  - Lemba
+  - Lengela
+  - Leonard
+  - Lisa
+  - Londa
+  - Longa
+  - Luadia
+  - Luamba
+  - Luangoyi
+  - Lubanga
+  - Lubanza
+  - Lubuya
+  - Lukodi
+  - Lukoji
+  - Lukusa
+  - Luluabourg
+  - Lumbala
+  - Lumbombo
+  - Lupenzu
+  - Lusamba
+  - Lutexa
+  - Lutonga
+  - Lutundula
+  - Mabele
+  - Mabixa
+  - Malumba
+  - Mampuya
+  - Manyangana
+  - Martin
+  - Matamba
+  - Matembela
+  - Mayi
+  - Mbayi
+  - Mbimbi
+  - Mbiya
+  - Mbiyamuenza
+  - Mbiye
+  - Mbombo
+  - Mbuyamba
+  - Mbuyangudi
+  - Mbuyi
+  - Mbwaya
+  - Meso
+  - Meta
+  - Mfunyi
+  - Miabi
+  - Mianbabu
+  - Milabi
+  - Misenga
+  - Moise
+  - Mokola
+  - Moyo
+  - Mpala
+  - Mpanda
+  - Mpoloto
+  - Mpoyi
+  - Mpuka
+  - Mpunga
+  - Mpungapoyi
+  - Muadi
+  - Muamba
+  - Muanza
+  - Mubenga
+  - Mubiayi
+  - Mubimalu
+  - Mubitende
+  - Mudiayi
+  - Mudipuekesha
+  - Mufika
+  - Mufonkola
+  - Mufuansanyi
+  - Mujinga
+  - Mukadi
+  - Mukala
+  - Mukanda
+  - Mukanya
+  - Mukendi
+  - Mukenga
+  - Mukinda
+  - Mukuma
+  - Mulaja
+  - Mulanga
+  - Mulelalupu
+  - Mulenda
+  - Mulombo
+  - Mulopo
+  - Mulopue
+  - Mulowaluendu
+  - Muluila
+  - Mulumba
+  - Mundamunya
+  - Munsense
+  - Muntshiamba
+  - Munyampala
+  - Mupompa
+  - Mupoyi
+  - Musalu
+  - Musebela
+  - Mushikila
+  - Mushiya
+  - Musuamba
+  - Mutombo
+  - Muya
+  - Mvita
+  - Mwamba
+  - Mwanankesa
+  - Mwenza
+  - Mwepu
+  - Ndanda
+  - Ndaya
+  - Ndelela
+  - Ngalula
+  - Ngandu
+  - Ngeleka
+  - Ngelema
+  - Ngomba
+  - Ngonga
+  - Ngoyi
+  - Ninette
+  - Nkanda
+  - Nkitabungi
+  - Nkomo
+  - Nkongolo
+  - Noel
+  - Norbert
+  - Nseya
+  - Nshila
+  - Nshinga
+  - Nsombamanya
+  - Nsudila
+  - Ntalaja
+  - Ntambwe
+  - Ntita
+  - Ntombolo
+  - Ntondolo
+  - Ntumba
+  - Nyanzala
+  - Nyenyempa
+  - Nyoka
+  - Nzambi
+  - Nzangula
+  - Nzemba
+  - Odia
+  - Phillipe
+  - Pierre
+  - Rachelle
+  - Samuela
+  - Shaddai
+  - Stella
+  - Talatala
+  - Thomas
+  - Tshanda
+  - Tshiabu
+  - Tshialu
+  - Tshiamanina
+  - Tshiambi
+  - Tshiambula
+  - Tshiambwaya
+  - Tshianzambonga
+  - Tshibaka
+  - Tshibala
+  - Tshibalabala
+  - Tshibangu
+  - Tshibelu
+  - Tshibola
+  - Tshibwabwa
+  - Tshidibi
+  - Tshidindu
+  - Tshidingi
+  - Tshiebelela
+  - Tshiepela
+  - Tshifunka
+  - Tshikondo
+  - Tshikulu
+  - Tshikumini
+  - Tshilenga
+  - Tshimanga
+  - Tshimbi
+  - Tshimbombo
+  - Tshimini
+  - Tshiminyi
+  - Tshimowa
+  - Tshimpaka
+  - Tshimwena
+  - Tshipanda
+  - Tshipayayi
+  - Tshisekedi
+  - Tshiswaka
+  - Tshitambala
+  - Tshitoko
+  - Tshiula
+  - Tshiyola
+  - Tuendela
+  - Yabukalanga
+  - Yamba
+  - Yampanya
+  - Yowa

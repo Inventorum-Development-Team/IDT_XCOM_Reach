@@ -1,0 +1,1006 @@
+# Note: "first" names here are family names, "last" names are given names.
+lookWeights:
+  - 1
+  - 1
+  - 93
+  - 5
+maleFirst:
+  - Trooper An
+  - Trooper Ang
+  - Trooper Ao
+  - Trooper Au
+  - Trooper Au Yeung
+  - Trooper Bai
+  - Trooper Ban
+  - Trooper Bao
+  - Trooper Bau
+  - Trooper Bi
+  - Trooper Bo
+  - Trooper Bu
+  - Trooper Cai
+  - Trooper Cao
+  - Trooper Cha
+  - Trooper Chai
+  - Trooper Cham
+  - Trooper Chan
+  - Trooper Chang
+  - Trooper Chao
+  - Trooper Chau
+  - Trooper Che
+  - Trooper Cheah
+  - Trooper Chee
+  - Trooper Chen
+  - Trooper Cheng
+  - Trooper Cheong
+  - Trooper Chern
+  - Trooper Cheung
+  - Trooper Chew
+  - Trooper Chi
+  - Trooper Chia
+  - Trooper Chiang
+  - Trooper Chiao
+  - Trooper Chien
+  - Trooper Chim
+  - Trooper Chin
+  - Trooper Ching
+  - Trooper Chiong
+  - Trooper Chiou
+  - Trooper Chiu
+  - Trooper Cho
+  - Trooper Choi
+  - Trooper Chong
+  - Trooper Choo
+  - Trooper Chou
+  - Trooper Chow
+  - Trooper Choy
+  - Trooper Chu
+  - Trooper Chua
+  - Trooper Cheang
+  - Trooper Chui
+  - Trooper Chun
+  - Trooper Chung
+  - Trooper Cong
+  - Trooper Cui
+  - Trooper Dai
+  - Trooper Dang
+  - Trooper Dea
+  - Trooper Deng
+  - Trooper Ding
+  - Trooper Do
+  - Trooper Dong
+  - Trooper Doo
+  - Trooper Du
+  - Trooper Duan
+  - Trooper Dung
+  - Trooper Eng
+  - Trooper Fan
+  - Trooper Fang
+  - Trooper Fei
+  - Trooper Feng
+  - Trooper Fok
+  - Trooper Fong
+  - Trooper Foo
+  - Trooper Fu
+  - Trooper Fung
+  - Trooper Gan
+  - Trooper Gang
+  - Trooper Gao
+  - Trooper Gau
+  - Trooper Ge
+  - Trooper Geng
+  - Trooper Go
+  - Trooper Goh
+  - Trooper Gong
+  - Trooper Gu
+  - Trooper Guan
+  - Trooper Guo
+  - Trooper Ha
+  - Trooper Hai
+  - Trooper Han
+  - Trooper Hang
+  - Trooper Hao
+  - Trooper Hau
+  - Trooper He
+  - Trooper Ho
+  - Trooper Hoh
+  - Trooper Hom
+  - Trooper Hon
+  - Trooper Hong
+  - Trooper Hoo
+  - Trooper Hou
+  - Trooper Hsi
+  - Trooper Hsia
+  - Trooper Hsiao
+  - Trooper Hsieh
+  - Trooper Hsiung
+  - Trooper Hsu
+  - Trooper Hsueh
+  - Trooper Hu
+  - Trooper Hua
+  - Trooper Huang
+  - Trooper Hui
+  - Trooper Huie
+  - Trooper Hum
+  - Trooper Hung
+  - Trooper Huo
+  - Trooper Hwang
+  - Trooper Hy
+  - Trooper Ing
+  - Trooper Ip
+  - Trooper Jan
+  - Trooper Jang
+  - Trooper Jen
+  - Trooper Jeng
+  - Trooper Jeung
+  - Trooper Jew
+  - Trooper Ji
+  - Trooper Jia
+  - Trooper Jian
+  - Trooper Jiang
+  - Trooper Jiao
+  - Trooper Jim
+  - Trooper Jin
+  - Trooper Jing
+  - Trooper Jo
+  - Trooper Joe
+  - Trooper Jong
+  - Trooper Joo
+  - Trooper Jou
+  - Trooper Jow
+  - Trooper Ju
+  - Trooper Jue
+  - Trooper Jung
+  - Trooper Kam
+  - Trooper Kan
+  - Trooper Kang
+  - Trooper Kao
+  - Trooper Kau
+  - Trooper Ke
+  - Trooper Keng
+  - Trooper Kho
+  - Trooper Khoo
+  - Trooper Kiang
+  - Trooper King
+  - Trooper Ko
+  - Trooper Koh
+  - Trooper Kong
+  - Trooper Koo
+  - Trooper Kook
+  - Trooper Kou
+  - Trooper Ku
+  - Trooper Kuan
+  - Trooper Kuang
+  - Trooper Kuk
+  - Trooper Kung
+  - Trooper Kuang
+  - Trooper Kuo
+  - Trooper Kwan
+  - Trooper Kwock
+  - Trooper Kwok
+  - Trooper Kwon
+  - Trooper Kwong
+  - Trooper Lai
+  - Trooper Lam
+  - Trooper Lan
+  - Trooper Lang
+  - Trooper Lao
+  - Trooper Lau
+  - Trooper Lee
+  - Trooper Lei
+  - Trooper Leng
+  - Trooper Leong
+  - Trooper Leung
+  - Trooper Lew
+  - Trooper Li
+  - Trooper Lian
+  - Trooper Liang
+  - Trooper Liao
+  - Trooper Liaw
+  - Trooper Lien
+  - Trooper Liew
+  - Trooper Lim
+  - Trooper Lin
+  - Trooper Ling
+  - Trooper Liou
+  - Trooper Liu
+  - Trooper Lo
+  - Trooper Loh
+  - Trooper Lok
+  - Trooper Long
+  - Trooper Loo
+  - Trooper Lou
+  - Trooper Louie
+  - Trooper Lu
+  - Trooper Lua
+  - Trooper Lui
+  - Trooper Luk
+  - Trooper Lum
+  - Trooper Lung
+  - Trooper Luo
+  - Trooper Ma
+  - Trooper Mah
+  - Trooper Mai
+  - Trooper Mak
+  - Trooper Man
+  - Trooper Mao
+  - Trooper Mar
+  - Trooper Mau
+  - Trooper May
+  - Trooper Mei
+  - Trooper Meng
+  - Trooper Miao
+  - Trooper Min
+  - Trooper Ming
+  - Trooper Miu
+  - Trooper Mo
+  - Trooper Mok
+  - Trooper Mon
+  - Trooper Mou
+  - Trooper Moy
+  - Trooper Mu
+  - Trooper Mui
+  - Trooper Na
+  - Trooper Ng
+  - Trooper Ngai
+  - Trooper Ngan
+  - Trooper Ngo
+  - Trooper Ni
+  - Trooper Nie
+  - Trooper Ning
+  - Trooper Niu
+  - Trooper On
+  - Trooper Ong
+  - Trooper Ou
+  - Trooper Ou Yang
+  - Trooper Ow
+  - Trooper Owyang
+  - Trooper Pan
+  - Trooper Pang
+  - Trooper Pao
+  - Trooper Pei
+  - Trooper Peng
+  - Trooper Pi
+  - Trooper Ping
+  - Trooper Po
+  - Trooper Pon
+  - Trooper Pong
+  - Trooper Poon
+  - Trooper Pu
+  - Trooper Pun
+  - Trooper Qi
+  - Trooper Qian
+  - Trooper Qiao
+  - Trooper Qin
+  - Trooper Qiu
+  - Trooper Qu
+  - Trooper Quan
+  - Trooper Que
+  - Trooper Rao
+  - Trooper Ren
+  - Trooper Rong
+  - Trooper Ruan
+  - Trooper Sam
+  - Trooper San
+  - Trooper Sang
+  - Trooper Seto
+  - Trooper Sha
+  - Trooper Sham
+  - Trooper Shan
+  - Trooper Shang
+  - Trooper Shao
+  - Trooper Shaw
+  - Trooper Shek
+  - Trooper Shen
+  - Trooper Sheng
+  - Trooper Sheu
+  - Trooper Shi
+  - Trooper Shiau
+  - Trooper Shieh
+  - Trooper Shih
+  - Trooper Shing
+  - Trooper Shiu
+  - Trooper Shu
+  - Trooper Shum
+  - Trooper Shy
+  - Trooper Shyu
+  - Trooper Si
+  - Trooper Sieh
+  - Trooper Sin
+  - Trooper Sing
+  - Trooper Sit
+  - Trooper Situ
+  - Trooper Siu
+  - Trooper So
+  - Trooper Soh
+  - Trooper Song
+  - Trooper Soo
+  - Trooper Soo Hoo
+  - Trooper Soon
+  - Trooper Soong
+  - Trooper Su
+  - Trooper Suen
+  - Trooper Sui
+  - Trooper Sum
+  - Trooper Sun
+  - Trooper Sung
+  - Trooper Sze
+  - Trooper Szeto
+  - Trooper Tai
+  - Trooper Tam
+  - Trooper Tan
+  - Trooper Tang
+  - Trooper Tao
+  - Trooper Tay
+  - Trooper Te
+  - Trooper Teh
+  - Trooper Teng
+  - Trooper Teo
+  - Trooper Tian
+  - Trooper Tien
+  - Trooper Tin
+  - Trooper Ting
+  - Trooper Tiu
+  - Trooper To
+  - Trooper Toh
+  - Trooper Tom
+  - Trooper Tong
+  - Trooper Tsai
+  - Trooper Tsang
+  - Trooper Tsao
+  - Trooper Tsay
+  - Trooper Tse
+  - Trooper Tseng
+  - Trooper Tso
+  - Trooper Tsoi
+  - Trooper Tsou
+  - Trooper Tsu
+  - Trooper Tsui
+  - Trooper Tu
+  - Trooper Tuan
+  - Trooper Tung
+  - Trooper Tzeng
+  - Trooper U
+  - Trooper Un
+  - Trooper Ung
+  - Trooper Wah
+  - Trooper Wai
+  - Trooper Wan
+  - Trooper Wang
+  - Trooper Wee
+  - Trooper Wei
+  - Trooper Wen
+  - Trooper Weng
+  - Trooper Wing
+  - Trooper Wong
+  - Trooper Woo
+  - Trooper Woon
+  - Trooper Wu
+  - Trooper Xi
+  - Trooper Xia
+  - Trooper Xiang
+  - Trooper Xiao
+  - Trooper Xie
+  - Trooper Xin
+  - Trooper Xing
+  - Trooper Xiong
+  - Trooper Xu
+  - Trooper Xue
+  - Trooper Yam
+  - Trooper Yan
+  - Trooper Yang
+  - Trooper Yao
+  - Trooper Yap
+  - Trooper Yau
+  - Trooper Yaw
+  - Trooper Ye
+  - Trooper Yee
+  - Trooper Yeh
+  - Trooper Yen
+  - Trooper Yep
+  - Trooper Yeung
+  - Trooper Yi
+  - Trooper Yim
+  - Trooper Yin
+  - Trooper Ying
+  - Trooper Yip
+  - Trooper Yiu
+  - Trooper Yong
+  - Trooper Yoo
+  - Trooper Yoon
+  - Trooper You
+  - Trooper Young
+  - Trooper Yu
+  - Trooper Yuan
+  - Trooper Yue
+  - Trooper Yuen
+  - Trooper Yun
+  - Trooper Yung
+  - Trooper Zang
+  - Trooper Zeng
+  - Trooper Zha
+  - Trooper Zhan
+  - Trooper Zhang
+  - Trooper Zhao
+  - Trooper Zhen
+  - Trooper Zheng
+  - Trooper Zhong
+  - Trooper Zhou
+  - Trooper Zhu
+  - Trooper Zhuang
+  - Trooper Zhuo
+  - Trooper Zong
+  - Trooper Zou
+femaleFirst:
+  - Trooper An
+  - Trooper Ang
+  - Trooper Ao
+  - Trooper Au
+  - Trooper Au Yeung
+  - Trooper Bai
+  - Trooper Ban
+  - Trooper Bao
+  - Trooper Bau
+  - Trooper Bi
+  - Trooper Bo
+  - Trooper Bu
+  - Trooper Cai
+  - Trooper Cao
+  - Trooper Cha
+  - Trooper Chai
+  - Trooper Cham
+  - Trooper Chan
+  - Trooper Chang
+  - Trooper Chao
+  - Trooper Chau
+  - Trooper Che
+  - Trooper Cheah
+  - Trooper Chee
+  - Trooper Chen
+  - Trooper Cheng
+  - Trooper Cheong
+  - Trooper Chern
+  - Trooper Cheung
+  - Trooper Chew
+  - Trooper Chi
+  - Trooper Chia
+  - Trooper Chiang
+  - Trooper Chiao
+  - Trooper Chien
+  - Trooper Chim
+  - Trooper Chin
+  - Trooper Ching
+  - Trooper Chiong
+  - Trooper Chiou
+  - Trooper Chiu
+  - Trooper Cho
+  - Trooper Choi
+  - Trooper Chong
+  - Trooper Choo
+  - Trooper Chou
+  - Trooper Chow
+  - Trooper Choy
+  - Trooper Chu
+  - Trooper Chua
+  - Trooper Cheang
+  - Trooper Chui
+  - Trooper Chun
+  - Trooper Chung
+  - Trooper Cong
+  - Trooper Cui
+  - Trooper Dai
+  - Trooper Dang
+  - Trooper Dea
+  - Trooper Deng
+  - Trooper Ding
+  - Trooper Do
+  - Trooper Dong
+  - Trooper Doo
+  - Trooper Du
+  - Trooper Duan
+  - Trooper Dung
+  - Trooper Eng
+  - Trooper Fan
+  - Trooper Fang
+  - Trooper Fei
+  - Trooper Feng
+  - Trooper Fok
+  - Trooper Fong
+  - Trooper Foo
+  - Trooper Fu
+  - Trooper Fung
+  - Trooper Gan
+  - Trooper Gang
+  - Trooper Gao
+  - Trooper Gau
+  - Trooper Ge
+  - Trooper Geng
+  - Trooper Go
+  - Trooper Goh
+  - Trooper Gong
+  - Trooper Gu
+  - Trooper Guan
+  - Trooper Guo
+  - Trooper Ha
+  - Trooper Hai
+  - Trooper Han
+  - Trooper Hang
+  - Trooper Hao
+  - Trooper Hau
+  - Trooper He
+  - Trooper Ho
+  - Trooper Hoh
+  - Trooper Hom
+  - Trooper Hon
+  - Trooper Hong
+  - Trooper Hoo
+  - Trooper Hou
+  - Trooper Hsi
+  - Trooper Hsia
+  - Trooper Hsiao
+  - Trooper Hsieh
+  - Trooper Hsiung
+  - Trooper Hsu
+  - Trooper Hsueh
+  - Trooper Hu
+  - Trooper Hua
+  - Trooper Huang
+  - Trooper Hui
+  - Trooper Huie
+  - Trooper Hum
+  - Trooper Hung
+  - Trooper Huo
+  - Trooper Hwang
+  - Trooper Hy
+  - Trooper Ing
+  - Trooper Ip
+  - Trooper Jan
+  - Trooper Jang
+  - Trooper Jen
+  - Trooper Jeng
+  - Trooper Jeung
+  - Trooper Jew
+  - Trooper Ji
+  - Trooper Jia
+  - Trooper Jian
+  - Trooper Jiang
+  - Trooper Jiao
+  - Trooper Jim
+  - Trooper Jin
+  - Trooper Jing
+  - Trooper Jo
+  - Trooper Joe
+  - Trooper Jong
+  - Trooper Joo
+  - Trooper Jou
+  - Trooper Jow
+  - Trooper Ju
+  - Trooper Jue
+  - Trooper Jung
+  - Trooper Kam
+  - Trooper Kan
+  - Trooper Kang
+  - Trooper Kao
+  - Trooper Kau
+  - Trooper Ke
+  - Trooper Keng
+  - Trooper Kho
+  - Trooper Khoo
+  - Trooper Kiang
+  - Trooper King
+  - Trooper Ko
+  - Trooper Koh
+  - Trooper Kong
+  - Trooper Koo
+  - Trooper Kook
+  - Trooper Kou
+  - Trooper Ku
+  - Trooper Kuan
+  - Trooper Kuang
+  - Trooper Kuk
+  - Trooper Kung
+  - Trooper Kuang
+  - Trooper Kuo
+  - Trooper Kwan
+  - Trooper Kwock
+  - Trooper Kwok
+  - Trooper Kwon
+  - Trooper Kwong
+  - Trooper Lai
+  - Trooper Lam
+  - Trooper Lan
+  - Trooper Lang
+  - Trooper Lao
+  - Trooper Lau
+  - Trooper Lee
+  - Trooper Lei
+  - Trooper Leng
+  - Trooper Leong
+  - Trooper Leung
+  - Trooper Lew
+  - Trooper Li
+  - Trooper Lian
+  - Trooper Liang
+  - Trooper Liao
+  - Trooper Liaw
+  - Trooper Lien
+  - Trooper Liew
+  - Trooper Lim
+  - Trooper Lin
+  - Trooper Ling
+  - Trooper Liou
+  - Trooper Liu
+  - Trooper Lo
+  - Trooper Loh
+  - Trooper Lok
+  - Trooper Long
+  - Trooper Loo
+  - Trooper Lou
+  - Trooper Louie
+  - Trooper Lu
+  - Trooper Lua
+  - Trooper Lui
+  - Trooper Luk
+  - Trooper Lum
+  - Trooper Lung
+  - Trooper Luo
+  - Trooper Ma
+  - Trooper Mah
+  - Trooper Mai
+  - Trooper Mak
+  - Trooper Man
+  - Trooper Mao
+  - Trooper Mar
+  - Trooper Mau
+  - Trooper May
+  - Trooper Mei
+  - Trooper Meng
+  - Trooper Miao
+  - Trooper Min
+  - Trooper Ming
+  - Trooper Miu
+  - Trooper Mo
+  - Trooper Mok
+  - Trooper Mon
+  - Trooper Mou
+  - Trooper Moy
+  - Trooper Mu
+  - Trooper Mui
+  - Trooper Na
+  - Trooper Ng
+  - Trooper Ngai
+  - Trooper Ngan
+  - Trooper Ngo
+  - Trooper Ni
+  - Trooper Nie
+  - Trooper Ning
+  - Trooper Niu
+  - Trooper On
+  - Trooper Ong
+  - Trooper Ou
+  - Trooper Ou Yang
+  - Trooper Ow
+  - Trooper Owyang
+  - Trooper Pan
+  - Trooper Pang
+  - Trooper Pao
+  - Trooper Pei
+  - Trooper Peng
+  - Trooper Pi
+  - Trooper Ping
+  - Trooper Po
+  - Trooper Pon
+  - Trooper Pong
+  - Trooper Poon
+  - Trooper Pu
+  - Trooper Pun
+  - Trooper Qi
+  - Trooper Qian
+  - Trooper Qiao
+  - Trooper Qin
+  - Trooper Qiu
+  - Trooper Qu
+  - Trooper Quan
+  - Trooper Que
+  - Trooper Rao
+  - Trooper Ren
+  - Trooper Rong
+  - Trooper Ruan
+  - Trooper Sam
+  - Trooper San
+  - Trooper Sang
+  - Trooper Seto
+  - Trooper Sha
+  - Trooper Sham
+  - Trooper Shan
+  - Trooper Shang
+  - Trooper Shao
+  - Trooper Shaw
+  - Trooper Shek
+  - Trooper Shen
+  - Trooper Sheng
+  - Trooper Sheu
+  - Trooper Shi
+  - Trooper Shiau
+  - Trooper Shieh
+  - Trooper Shih
+  - Trooper Shing
+  - Trooper Shiu
+  - Trooper Shu
+  - Trooper Shum
+  - Trooper Shy
+  - Trooper Shyu
+  - Trooper Si
+  - Trooper Sieh
+  - Trooper Sin
+  - Trooper Sing
+  - Trooper Sit
+  - Trooper Situ
+  - Trooper Siu
+  - Trooper So
+  - Trooper Soh
+  - Trooper Song
+  - Trooper Soo
+  - Trooper Soo Hoo
+  - Trooper Soon
+  - Trooper Soong
+  - Trooper Su
+  - Trooper Suen
+  - Trooper Sui
+  - Trooper Sum
+  - Trooper Sun
+  - Trooper Sung
+  - Trooper Sze
+  - Trooper Szeto
+  - Trooper Tai
+  - Trooper Tam
+  - Trooper Tan
+  - Trooper Tang
+  - Trooper Tao
+  - Trooper Tay
+  - Trooper Te
+  - Trooper Teh
+  - Trooper Teng
+  - Trooper Teo
+  - Trooper Tian
+  - Trooper Tien
+  - Trooper Tin
+  - Trooper Ting
+  - Trooper Tiu
+  - Trooper To
+  - Trooper Toh
+  - Trooper Tom
+  - Trooper Tong
+  - Trooper Tsai
+  - Trooper Tsang
+  - Trooper Tsao
+  - Trooper Tsay
+  - Trooper Tse
+  - Trooper Tseng
+  - Trooper Tso
+  - Trooper Tsoi
+  - Trooper Tsou
+  - Trooper Tsu
+  - Trooper Tsui
+  - Trooper Tu
+  - Trooper Tuan
+  - Trooper Tung
+  - Trooper Tzeng
+  - Trooper U
+  - Trooper Un
+  - Trooper Ung
+  - Trooper Wah
+  - Trooper Wai
+  - Trooper Wan
+  - Trooper Wang
+  - Trooper Wee
+  - Trooper Wei
+  - Trooper Wen
+  - Trooper Weng
+  - Trooper Wing
+  - Trooper Wong
+  - Trooper Woo
+  - Trooper Woon
+  - Trooper Wu
+  - Trooper Xi
+  - Trooper Xia
+  - Trooper Xiang
+  - Trooper Xiao
+  - Trooper Xie
+  - Trooper Xin
+  - Trooper Xing
+  - Trooper Xiong
+  - Trooper Xu
+  - Trooper Xue
+  - Trooper Yam
+  - Trooper Yan
+  - Trooper Yang
+  - Trooper Yao
+  - Trooper Yap
+  - Trooper Yau
+  - Trooper Yaw
+  - Trooper Ye
+  - Trooper Yee
+  - Trooper Yeh
+  - Trooper Yen
+  - Trooper Yep
+  - Trooper Yeung
+  - Trooper Yi
+  - Trooper Yim
+  - Trooper Yin
+  - Trooper Ying
+  - Trooper Yip
+  - Trooper Yiu
+  - Trooper Yong
+  - Trooper Yoo
+  - Trooper Yoon
+  - Trooper You
+  - Trooper Young
+  - Trooper Yu
+  - Trooper Yuan
+  - Trooper Yue
+  - Trooper Yuen
+  - Trooper Yun
+  - Trooper Yung
+  - Trooper Zang
+  - Trooper Zeng
+  - Trooper Zha
+  - Trooper Zhan
+  - Trooper Zhang
+  - Trooper Zhao
+  - Trooper Zhen
+  - Trooper Zheng
+  - Trooper Zhong
+  - Trooper Zhou
+  - Trooper Zhu
+  - Trooper Zhuang
+  - Trooper Zhuo
+  - Trooper Zong
+  - Trooper Zou
+maleLast:
+  - An
+  - Bao
+  - Bo
+  - Bing
+  - Cai
+  - Chen
+  - Cheng
+  - Chung
+  - Confucius
+  - Cong
+  - De
+  - Deshi
+  - Dewei
+  - Dong
+  - Feng
+  - Fo-hai
+  - Fo-hsing
+  - Gan
+  - Gan
+  - Gao
+  - Genjo
+  - Guo
+  - Ho
+  - Hsin
+  - Hu
+  - Hui
+  - Hui-chao
+  - Huik'o
+  - Jian
+  - Jiang
+  - Jie
+  - Jin
+  - Jing
+  - Jun
+  - Kang
+  - Kong
+  - Lao-Tzu
+  - Lee
+  - Lei
+  - Li
+  - Liang
+  - Liko
+  - Li-liang
+  - Long
+  - Manchu
+  - Meng
+  - Ming
+  - Niao-ka
+  - Ning
+  - On
+  - Peng
+  - Qiang
+  - Qing-Nan
+  - Quon
+  - Shen
+  - Shi
+  - Shing
+  - Song
+  - Sun
+  - Tao
+  - Tian
+  - Tung
+  - Uang
+  - Wang
+  - Wei
+  - Wen
+  - Woo
+  - Wu-pen
+  - Xiaoping
+  - Yao
+  - Ye
+  - Yo
+  - Yong
+  - Yu
+  - Yuan
+  - Zong
+  - Zhu
+  - Zhuang
+femaleLast:
+  - Ah lam
+  - Ai
+  - An
+  - Bao
+  - Bi
+  - Cai
+  - Chan
+  - Chen
+  - Chen-chio
+  - Chen-tao
+  - Chow
+  - Chu hua
+  - Chun
+  - Chyou
+  - Cui
+  - Dai
+  - Da-Shin
+  - Dan
+  - Da-xia
+  - E
+  - Fai
+  - Fang
+  - Fang hua
+  - Feng
+  - Genji
+  - Guanyin
+  - Hong
+  - Hua
+  - Huan
+  - Hui
+  - Hui fang
+  - Jiao
+  - Jing Wei
+  - Ju
+  - Juan
+  - Jun
+  - Kimora
+  - Lan
+  - Le
+  - Lee
+  - Lei
+  - Lian
+  - Lien
+  - Li Hua
+  - Li Mei
+  - Li Ming
+  - Lin
+  - Ling
+  - Lixue
+  - Mee
+  - Mei
+  - Mingmei
+  - Quan
+  - Shu Fang
+  - Ting
+  - Ushi
+  - Xiang
+  - Xiao-Niao
+  - Xiao-Xing
+  - Xin
+  - Xiu Mei
+  - Yin
+  - Yu
+  - Zan
+  - Zhengqiu
+  - Zhi
+  - Zhijuan
+  - Zi

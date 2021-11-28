@@ -1,0 +1,128 @@
+lookWeights:
+  - 49
+  - 50
+  - 1
+  - 0
+maleFirst:
+  - Marine Adrian
+  - Marine Alexandru
+  - Marine Andrei
+  - Marine Bogdan
+  - Marine Catalin
+  - Marine Claudiu
+  - Marine Constantin
+  - Marine Cornel
+  - Marine Cosmin
+  - Marine Daniel
+  - Marine Dragos
+  - Marine Dumitru
+  - Marine Emil
+  - Marine Eugen
+  - Marine Florin
+  - Marine Gabriel
+  - Marine George
+  - Marine Gheorghe
+  - Marine Ilie
+  - Marine Ion
+  - Marine Liviu
+  - Marine Lucian
+  - Marine Marian
+  - Marine Marius
+  - Marine Mihai
+  - Marine Nicu
+  - Marine Octavian
+  - Marine Ovidiu
+  - Marine Petre
+  - Marine Radu
+  - Marine Robert
+  - Marine Sergiu
+  - Marine Silviu
+  - Marine Sorin
+  - Marine Stefan
+  - Marine Tiberiu
+  - Marine Tudor
+  - Marine Vasile
+  - Marine Viorel
+  - Marine Vlad
+femaleFirst:
+  - Marine Adelina
+  - Marine Alexandra
+  - Marine Alina
+  - Marine Ana
+  - Marine Andreea
+  - Marine Angela
+  - Marine Carmen
+  - Marine Catalina
+  - Marine Claudia
+  - Marine Corina
+  - Marine Dana
+  - Marine Daniela
+  - Marine Doina
+  - Marine Elena
+  - Marine Elisabeta
+  - Marine Felicia
+  - Marine Florentina
+  - Marine Gabriela
+  - Marine Georgiana
+  - Marine Gina
+  - Marine Ileana
+  - Marine Ioana
+  - Marine Irina
+  - Marine Iulia
+  - Marine Laura
+  - Marine Magda
+  - Marine Maria
+  - Marine Mariana
+  - Marine Mihaela
+  - Marine Mirela
+  - Marine Monica
+  - Marine Nadia
+  - Marine Nicoleta
+  - Marine Oana
+  - Marine Rodica
+  - Marine Roxana
+  - Marine Simona
+  - Marine Stefania
+  - Marine Violeta
+  - Marine Viorica
+maleLast:
+  - Anton
+  - Banica
+  - Barbu
+  - Cojocaru
+  - Constantin
+  - Cristea
+  - Dobre
+  - Dragomir
+  - Dumitru
+  - Ene
+  - Florea
+  - Georgescu
+  - Iancu
+  - Ilie
+  - Ionescu
+  - Iordan
+  - Lazar
+  - Luca
+  - Marinescu
+  - Mihalcea
+  - Munteanu
+  - Nastase
+  - Nicolae
+  - Nistor
+  - Olaru
+  - Olteanu
+  - Parvu
+  - Petre
+  - Popescu
+  - Preda
+  - Radu
+  - Sabau
+  - Savu
+  - Serban
+  - Stanciu
+  - Stanescu
+  - Tanase
+  - Tudor
+  - Ungureanu
+  - Voinea

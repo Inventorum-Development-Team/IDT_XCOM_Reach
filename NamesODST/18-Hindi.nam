@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - ODST Abhijay
+  - ODST Adil
+  - ODST Chandresh
+  - ODST Dev
+  - ODST Dinesh
+  - ODST Govinda
+  - ODST Jaideep
+  - ODST Kanak
+  - ODST Mahesh
+  - ODST Neelam
+  - ODST Om
+  - ODST Pallav
+  - ODST Parmesh
+  - ODST Rajesh
+  - ODST Ranjit
+  - ODST Samir
+  - ODST Sanjiv
+  - ODST Sudeep
+  - ODST Vihaan
+  - ODST Yogendra
+  - ODST Sachin
+  - ODST Rahul
+  - ODST Anil
+  - ODST Virender
+  - ODST Kapil
+  - ODST Sourav
+  - ODST Harbhajan
+femaleFirst:
+  - ODST Ajita
+  - ODST Amma
+  - ODST Avinashi
+  - ODST Deepti
+  - ODST Gulab
+  - ODST Hina
+  - ODST Indira
+  - ODST Jasweer
+  - ODST Kalinda
+  - ODST Keva
+  - ODST Madhuri
+  - ODST Meera
+  - ODST Neela
+  - ODST Parvati
+  - ODST Priti
+  - ODST Ranhita
+  - ODST Roshan
+  - ODST Savitri
+  - ODST Sitesh
+  - ODST Ushma
+  - ODST Vritika
+  - ODST Zahra
+maleLast:
+  - Sharma
+  - Verma
+  - Chowdhury
+  - Singh
+  - Misra
+  - Kumar
+  - Gupta
+  - Malik
+  - Chopra
+  - Prasad
+  - Acharya
+  - Agarwal
+  - Malhotra
+  - Jain
+  - Saini
+  - Khan
+  - Shah
+  - Narayan
+  - Mistry
+  - Joshi
+  - Goyal
+  - Roy
+  - Tendulkar
+  - Dravid
+  - Kumble
+  - Sehwag
+  - Dev
+  - Ganguly

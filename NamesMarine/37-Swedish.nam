@@ -1,0 +1,96 @@
+lookWeights:
+  - 60
+  - 40
+  - 0
+  - 0
+maleFirst:
+  - Marine Johan
+  - Marine Fredrik
+  - Marine Sten
+  - Marine Olof
+  - Marine Anders
+  - Marine Sven
+  - Marine Mattias
+  - Marine Jesper
+  - Marine David
+  - Marine Henrik
+  - Marine Lars
+  - Marine Mikael
+  - Marine Andreas
+  - Marine Robin
+  - Marine Christian
+  - Marine Joakim
+  - Marine John
+  - Marine Linus
+  - Marine Mats
+  - Marine Tommy
+  - Marine Per
+  - Marine Sebastian
+  - Marine Edvin
+  - Marine Bo
+  - Marine Leif
+  - Marine Jens
+  - Marine Jonas  
+  - Marine Peter
+  - Marine Thomas
+  - Marine Erik
+femaleFirst:
+  - Marine Christine
+  - Marine Annika
+  - Marine Isabel
+  - Marine Anna
+  - Marine Lena
+  - Marine Mia
+  - Marine Pia
+  - Marine Petra
+  - Marine Madeleine
+  - Marine Johanna
+  - Marine Gunilla
+  - Marine Eva
+  - Marine Ellinor
+  - Marine Elisabet
+  - Marine Amanda
+  - Marine Carin
+  - Marine Mikaela
+  - Marine Magdalena
+  - Marine Ellen
+  - Marine Ingrid
+  - Marine Inger
+  - Marine Linda
+  - Marine Karin
+  - Marine Maria  
+  - Marine Sara
+  - Marine Emma  
+  - Marine Marie
+maleLast:
+  - Linder
+  - Olofsson
+  - Holmqvist
+  - Andersson
+  - Lindberg
+  - Lindqvist
+  - Gustafsson
+  - Larsson
+  - Lindgren
+  - Lind
+  - Eklund
+  - Holm
+  - Claesson
+  - Viklund
+  - Lund
+  - Falk
+  - Blom
+  - Ek
+  - Norberg
+  - Sundqvist
+  - Sjoborg
+  - Ivarsson
+  - Hedlund
+  - Holmgren
+  - Hedlund
+  - Nordin
+  - Berggren
+  - Svensson
+  - Lindgren
+  - Eklund
+  - Axelsson

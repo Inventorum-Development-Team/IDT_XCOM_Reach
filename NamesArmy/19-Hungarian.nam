@@ -1,0 +1,491 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Trooper Abel
+  - Trooper Adam
+  - Trooper Adrian
+  - Trooper Akos
+  - Trooper Albert
+  - Trooper Alex
+  - Trooper Andor
+  - Trooper Andras
+  - Trooper Antal
+  - Trooper Arnold
+  - Trooper Aron
+  - Trooper Arpad
+  - Trooper Attila
+  - Trooper Balazs
+  - Trooper Balint
+  - Trooper Barna
+  - Trooper Barnabas
+  - Trooper Bela
+  - Trooper Bence
+  - Trooper Bendeguz
+  - Trooper Benedek
+  - Trooper Benjamin
+  - Trooper Bertalan
+  - Trooper Botond
+  - Trooper Csaba
+  - Trooper Csongor
+  - Trooper Daniel
+  - Trooper David
+  - Trooper Denes
+  - Trooper Dezso
+  - Trooper Dominik
+  - Trooper Elemer
+  - Trooper Emil
+  - Trooper Endre
+  - Trooper Erik
+  - Trooper Erno
+  - Trooper Ervin
+  - Trooper Ferenc
+  - Trooper Gabor
+  - Trooper Gergely
+  - Trooper Gergo
+  - Trooper Geza
+  - Trooper Gusztav
+  - Trooper Gyorgy
+  - Trooper Gyozo
+  - Trooper Gyula
+  - Trooper Henrik
+  - Trooper Imre
+  - Trooper Istvan
+  - Trooper Ivan
+  - Trooper Janos
+  - Trooper Jeno
+  - Trooper Jozsef
+  - Trooper Kalman
+  - Trooper Karoly
+  - Trooper Kevin
+  - Trooper Kornel
+  - Trooper Kristof
+  - Trooper Krisztian
+  - Trooper Krisztofer
+  - Trooper Lajos
+  - Trooper Laszlo
+  - Trooper Levente
+  - Trooper Lorant
+  - Trooper Marcell
+  - Trooper Mark
+  - Trooper Martin
+  - Trooper Marton
+  - Trooper Mate
+  - Trooper Matyas
+  - Trooper Mihaly
+  - Trooper Miklos
+  - Trooper Milan
+  - Trooper Nandor
+  - Trooper Noel
+  - Trooper Norbert
+  - Trooper Oliver
+  - Trooper Otto
+  - Trooper Pal
+  - Trooper Patrik
+  - Trooper Peter
+  - Trooper Richard
+  - Trooper Robert
+  - Trooper Roland
+  - Trooper Rudolf
+  - Trooper Sandor
+  - Trooper Szabolcs
+  - Trooper Szilard
+  - Trooper Szilveszter
+  - Trooper Tamas
+  - Trooper Tibor
+  - Trooper Tivadar
+  - Trooper Viktor
+  - Trooper Vilmos
+  - Trooper Vince
+  - Trooper Zalan
+  - Trooper Zoltan
+  - Trooper Zsigmond
+  - Trooper Zsolt
+  - Trooper Zsombor
+femaleFirst:
+  - Trooper Adrienn
+  - Trooper Agi
+  - Trooper Agnes
+  - Trooper Agota
+  - Trooper Alberta
+  - Trooper Alexa
+  - Trooper Alexandra
+  - Trooper Aliz
+  - Trooper Anasztazia
+  - Trooper Andrea
+  - Trooper Anett
+  - Trooper Angyalka
+  - Trooper Aniko
+  - Trooper Anita
+  - Trooper Anna
+  - Trooper Annamaria
+  - Trooper Aranka
+  - Trooper Aurelia
+  - Trooper Barbara
+  - Trooper Beata
+  - Trooper Beatrix
+  - Trooper Bella
+  - Trooper Bernadett
+  - Trooper Berta
+  - Trooper Bettina
+  - Trooper Bianka
+  - Trooper Boglarka
+  - Trooper Bora
+  - Trooper Borbala
+  - Trooper Boriska
+  - Trooper Borka
+  - Trooper Brigitta
+  - Trooper Cili
+  - Trooper Csilla
+  - Trooper Dia
+  - Trooper Diana
+  - Trooper Dora
+  - Trooper Dorina
+  - Trooper Dorottya
+  - Trooper Edina
+  - Trooper Edit
+  - Trooper Emese
+  - Trooper Emma
+  - Trooper Eniko
+  - Trooper Erika
+  - Trooper Ernesztina
+  - Trooper Erzsebet
+  - Trooper Erzsi
+  - Trooper Eszter
+  - Trooper Etel
+  - Trooper Etelka
+  - Trooper Eva
+  - Trooper Evelin
+  - Trooper Fanni
+  - Trooper Franciska
+  - Trooper Gabriella
+  - Trooper Gitta
+  - Trooper Gizella
+  - Trooper Gyongyi
+  - Trooper Gyorgyi
+  - Trooper Hajna
+  - Trooper Hajnalka
+  - Trooper Hanna
+  - Trooper Henrietta
+  - Trooper Ibolya
+  - Trooper Ica
+  - Trooper Ildiko
+  - Trooper Ilka
+  - Trooper Ilona
+  - Trooper Iren
+  - Trooper Irenke
+  - Trooper Irma
+  - Trooper Janka
+  - Trooper Jolan
+  - Trooper Judit
+  - Trooper Julia
+  - Trooper Julianna
+  - Trooper Juliska
+  - Trooper Karola
+  - Trooper Karolina
+  - Trooper Katalin
+  - Trooper Katarina
+  - Trooper Kati
+  - Trooper Katinka
+  - Trooper Kinga
+  - Trooper Kitti
+  - Trooper Klara
+  - Trooper Klaudia
+  - Trooper Kriszta
+  - Trooper Krisztina
+  - Trooper Laura
+  - Trooper Lili
+  - Trooper Lilla
+  - Trooper Linka
+  - Trooper Liza
+  - Trooper Magdolna
+  - Trooper Mara
+  - Trooper Margit
+  - Trooper Margo
+  - Trooper Maria
+  - Trooper Mariann
+  - Trooper Marianna
+  - Trooper Marika
+  - Trooper Marta
+  - Trooper Melinda
+  - Trooper Monika
+  - Trooper Nikolett
+  - Trooper Nikoletta
+  - Trooper Noemi
+  - Trooper Nora
+  - Trooper Olga
+  - Trooper Orsolya
+  - Trooper Petra
+  - Trooper Piroska
+  - Trooper Reka
+  - Trooper Renata
+  - Trooper Rita
+  - Trooper Roza
+  - Trooper Rozalia
+  - Trooper Rozsa
+  - Trooper Sara
+  - Trooper Sarolta
+  - Trooper Szabina
+  - Trooper Szilvia
+  - Trooper Terez
+  - Trooper Terezia
+  - Trooper Timea
+  - Trooper Tunde
+  - Trooper Valeria
+  - Trooper Veronika
+  - Trooper Viktoria
+  - Trooper Virag
+  - Trooper Vivien
+  - Trooper Zita
+  - Trooper ZsaZsa
+  - Trooper Zsanett
+  - Trooper Zsofia
+  - Trooper Zsuzska
+  - Trooper Zsuzsanna
+  - Trooper Zsuzsi
+maleLast:
+  - Alfoldi
+  - Andrassy
+  - Annus
+  - Antal
+  - Arany
+  - Bakos
+  - Balassa
+  - Balazs
+  - Balint
+  - Balla
+  - Balog
+  - Balogh
+  - Barati
+  - Barna
+  - Barsony
+  - Barta
+  - Bartok
+  - Bathory
+  - Berzevicky
+  - Biro
+  - Bocskay
+  - Bodnar
+  - Bogdan
+  - Bognar
+  - Borbely
+  - Bori
+  - Boros
+  - Budai
+  - Csillag
+  - Csollany
+  - Csonka
+  - Csurgo
+  - Czako
+  - Czene
+  - Czobor
+  - Dardai
+  - Daroczy
+  - Deak
+  - Dobos
+  - Doczi
+  - Dombi
+  - Dozsa
+  - Dudas
+  - Egerszegi
+  - Eotvos
+  - Fabian
+  - Farago
+  - Farkas
+  - Fazekas
+  - Feher
+  - Fekete
+  - Ferenczy
+  - Fodor
+  - Forgach
+  - Forgacs
+  - Fulop
+  - Gal
+  - Gaspar
+  - Gazdag
+  - Gero
+  - Guba
+  - Gulyas
+  - Gyorffy
+  - Gyulai
+  - Hajdu
+  - Halasz
+  - Halmai
+  - Hamori
+  - Hankiss
+  - Hedervary
+  - Hegedus
+  - Hollo
+  - Horanszky
+  - Horthy
+  - Horvath
+  - Hrutka
+  - Hunyadi
+  - Illes
+  - Illeshazy
+  - Ilyes
+  - Istvanffy
+  - Jagadics
+  - Jakab
+  - Jaszi
+  - Jokai
+  - Jonas
+  - Joo
+  - Juhasz
+  - Kalanyos
+  - Kaldi
+  - Kallay
+  - Kammerer
+  - Karolyi
+  - Katona
+  - Kazinczy
+  - Kelemen
+  - Kemeny
+  - Kerekes
+  - Kertes
+  - Kiraly
+  - Kis
+  - Kiss
+  - Knesevich
+  - Koban
+  - Kocsis
+  - Kodaly
+  - Koranyi
+  - Kortosi
+  - Kossuth
+  - Kovacs
+  - Kovago
+  - Kozma
+  - Kulcsar
+  - Kun
+  - Kurti
+  - Kurtosi
+  - Kurutz
+  - Kuti
+  - Kutsera
+  - Lajtos
+  - Lakatos
+  - Laszlo
+  - Lehotka
+  - Lengyel
+  - Ligeti
+  - Liptak
+  - Lisztes
+  - Lugosi
+  - Lukacs
+  - Madar
+  - Magyar
+  - Major
+  - Malek
+  - Mandula
+  - Markovits
+  - Mate
+  - Matyus
+  - Mecs
+  - Meszaros
+  - Mindszenty
+  - Molnar
+  - Munkacsy
+  - Nadasdy
+  - Nagy
+  - Nemes
+  - Nemeth
+  - Noszaly
+  - Novak
+  - Nyilas
+  - Nyilasi
+  - Olah
+  - Onodi
+  - Orban
+  - Orczy
+  - Orosz
+  - Orsos
+  - Pal
+  - Palagyi
+  - Pandy
+  - Pap
+  - Papp
+  - Partos
+  - Pasztor
+  - Pataki
+  - Pazmany
+  - Pecely
+  - Perneky
+  - Peter
+  - Petofi
+  - Pinter
+  - Pongratz
+  - Pulszky
+  - Racz
+  - Rakosi
+  - Redik
+  - Revay
+  - Rezessy
+  - Ronay
+  - Rosner
+  - Rosza
+  - Rubik
+  - Safar
+  - Sandor
+  - Sebok
+  - Sereny
+  - Simon
+  - Sipos
+  - Soltesz
+  - Solti
+  - Solymosi
+  - Somogyi
+  - Soos
+  - Supola
+  - Suto
+  - Svarcz
+  - Szabo
+  - Szalai
+  - Szalay
+  - Szatmary
+  - Szechenyi
+  - Szekely
+  - Szekeres
+  - Szelepcsenyi
+  - Szeman
+  - Szemere
+  - Szilagyi
+  - Szoke
+  - Szucs
+  - Szuhay
+  - Tabory
+  - Takacs
+  - Tamas
+  - Teleki
+  - Temesvari
+  - Tessedik
+  - Thurzo
+  - Tisza
+  - Tokes
+  - Tokody
+  - Tolgyesi
+  - Torok
+  - Toth
+  - Ujlaky
+  - Urbanik
+  - Vajda
+  - Vamosi
+  - Varadi
+  - Varga
+  - Varkonyi
+  - Vass
+  - Vegh
+  - Verboczy
+  - Veres
+  - Vidrai
+  - Vincze
+  - Virag
+  - Voros
+  - Wessely
+  - Zatony
+  - Zavadszky
+  - Zrinyi
+  - Zsivozky
+  - Zsoldos

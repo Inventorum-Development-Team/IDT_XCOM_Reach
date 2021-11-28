@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - Trooper Alain
+  - Trooper Alban
+  - Trooper Armand
+  - Trooper Benoit
+  - Trooper Bruno
+  - Trooper Calvin
+  - Trooper Christian
+  - Trooper Claude
+  - Trooper Corentin
+  - Trooper Damien
+  - Trooper Denis
+  - Trooper Emile
+  - Trooper Etienne
+  - Trooper Ethan
+  - Trooper Fabien
+  - Trooper Francis
+  - Trooper Frederic
+  - Trooper Gaston
+  - Trooper Gerard
+  - Trooper Guillaume
+  - Trooper Henri
+  - Trooper Hugo
+  - Trooper Jacques
+  - Trooper Jean
+  - Trooper Jules
+  - Trooper Leon
+  - Trooper Lionel
+  - Trooper Louis
+  - Trooper Lucas
+  - Trooper Mathis
+  - Trooper Marc
+  - Trooper Marcel
+  - Trooper Michel
+  - Trooper Nathan
+  - Trooper Nicolas
+  - Trooper Olivier
+  - Trooper Pascal
+  - Trooper Paul
+  - Trooper Pierre
+  - Trooper Philippe
+  - Trooper Quentin
+  - Trooper Raphael
+  - Trooper Remi
+  - Trooper Rene
+  - Trooper Robert
+  - Trooper Roger
+  - Trooper Sebastien
+  - Trooper Simon
+  - Trooper Sylvain
+  - Trooper Thibault
+  - Trooper Victor
+  - Trooper Vincent
+  - Trooper Yves
+femaleFirst:
+  - Trooper Anne
+  - Trooper Audrey
+  - Trooper Brigitte
+  - Trooper Camille
+  - Trooper Catherine
+  - Trooper Chantal
+  - Trooper Claire
+  - Trooper Clara
+  - Trooper Cloe
+  - Trooper Danielle
+  - Trooper Dominique
+  - Trooper Elisabeth
+  - Trooper Eva
+  - Trooper Florence
+  - Trooper Francoise
+  - Trooper Gaelle
+  - Trooper Geraldine
+  - Trooper Helene
+  - Trooper Isabelle
+  - Trooper Ludivine
+  - Trooper Lydia
+  - Trooper Jacqueline
+  - Trooper Jeanne
+  - Trooper Julie
+  - Trooper Laure
+  - Trooper Lina
+  - Trooper Lilou
+  - Trooper Maelys
+  - Trooper Marie
+  - Trooper Marion
+  - Trooper Marguerite
+  - Trooper Maud
+  - Trooper Murielle
+  - Trooper Nathalie
+  - Trooper Odile
+  - Trooper Rachel
+  - Trooper Rose
+  - Trooper Sabine
+  - Trooper Sandrine
+  - Trooper Stephanie
+  - Trooper Sonia
+  - Trooper Sylvie
+  - Trooper Valerie
+  - Trooper Veronique
+  - Trooper Zoe
+maleLast:
+  - Andre
+  - Berger
+  - Bernard
+  - Bertrand
+  - Bonnet
+  - Bouissou
+  - Bourgeois
+  - Bouton
+  - Bouvier
+  - Blanc
+  - Blondel
+  - Buchard
+  - Caron
+  - Chevalier
+  - Coicard
+  - Collet
+  - Collignon
+  - Coste
+  - Couturier
+  - Clement
+  - Cuvelier
+  - Dagallier
+  - Delorme
+  - Dreyfus
+  - Dubois
+  - Ducourtioux
+  - Dujardin
+  - Dumont
+  - Dupuis
+  - Dupre
+  - Duval
+  - Fabre
+  - Faure
+  - Fontaine
+  - Fournier
+  - Gaillard
+  - Garcia
+  - Gaudrin
+  - Gautier
+  - Gressier
+  - Guerin
+  - Guillot
+  - Girard
+  - Giraudon
+  - Heroin
+  - Lacroix
+  - Laroyenne
+  - Lambert
+  - Laroche
+  - Larue
+  - Laurent
+  - Leclerc
+  - Lecointe
+  - Lecomte
+  - Leduc
+  - Lefevre
+  - Legrand
+  - Leroy
+  - Luget
+  - Marcelle
+  - Martin
+  - Menardier
+  - Mercier
+  - Meunier
+  - Moreau
+  - Morel
+  - Morin
+  - Mathieu
+  - Muller
+  - Pecheux
+  - Pelletier
+  - Perrin
+  - Perrot
+  - Petit
+  - Picar
+  - Roussel
+  - Revenu
+  - Roux
+  - Richard
+  - Simon
+  - Thomas
+  - Verdier

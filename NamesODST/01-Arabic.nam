@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - ODST Abdullah
+  - ODST Abu
+  - ODST Ahmed
+  - ODST Ali
+  - ODST Bilal
+  - ODST Fadil
+  - ODST Farid
+  - ODST Faysal
+  - ODST Ghassan
+  - ODST Habib
+  - ODST Hakim
+  - ODST Hassan
+  - ODST Ibrahim
+  - ODST Khalid
+  - ODST Mahmoud
+  - ODST Muhammad
+  - ODST Najib
+  - ODST Nasir
+  - ODST Omar
+  - ODST Rashid
+  - ODST Tariq
+  - ODST Yusuf
+femaleFirst:
+  - ODST Alia
+  - ODST Amirah
+  - ODST Asma
+  - ODST Farah
+  - ODST Fatima
+  - ODST Ghaliya
+  - ODST Hafsa
+  - ODST Haniya
+  - ODST Iman
+  - ODST Jalila
+  - ODST Jawahir
+  - ODST Karima
+  - ODST Laila
+  - ODST Latifa
+  - ODST Malaika
+  - ODST Maryam
+  - ODST Mona
+  - ODST Nadia
+  - ODST Noor
+  - ODST Rafiqa
+  - ODST Samira
+  - ODST Sumayya
+maleLast:
+  - Abdullah
+  - Ahmed
+  - El-Amin
+  - Hakim
+  - Hussain
+  - Karim
+  - Muhammad
+  - Sultan
+  - Qureshi
+  - Malouf
+  - Hajjar
+  - Asaf
+  - Khouri
+  - Tahan
+  - Wasem
+  - Mustafa
+  - Hadad
+  - Kanaan
+  - Islam
+  - Nasri
+  - Kassab
+  - Ibrahim

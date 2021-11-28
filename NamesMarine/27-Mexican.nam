@@ -1,0 +1,248 @@
+﻿lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - Marine Aaron
+  - Marine Adan
+  - Marine Alberto
+  - Marine Alejandro
+  - Marine Alfonso
+  - Marine Andres
+  - Marine Angel
+  - Marine Antonio
+  - Marine Augusto
+  - Marine Benedicto
+  - Marine Benjamin
+  - Marine Carlos
+  - Marine Daniel
+  - Marine David
+  - Marine Diego
+  - Marine Eduardo
+  - Marine Efren
+  - Marine Elias
+  - Marine Eliseo
+  - Marine Enrique
+  - Marine Emanuel
+  - Marine Eric
+  - Marine Ernesto
+  - Marine Esteban
+  - Marine Fabio
+  - Marine Felipe
+  - Marine Felix
+  - Marine Fernando
+  - Marine Fidel
+  - Marine Fortunato
+  - Marine Francisco
+  - Marine Gabriel
+  - Marine Gerardo
+  - Marine Hugo
+  - Marine Humberto
+  - Marine Ismael
+  - Marine Ivan
+  - Marine Jacobo
+  - Marine Jaime
+  - Marine Javier
+  - Marine Jesus
+  - Marine Joel
+  - Marine Jorge
+  - Marine Jose
+  - Marine Juan
+  - Marine Julian
+  - Marine Leo
+  - Marine Leonardo
+  - Marine Lucas
+  - Marine Luis
+  - Marine Manuel
+  - Marine Marco
+  - Marine Marcos
+  - Marine Martin
+  - Marine Matias
+  - Marine Mateo
+  - Marine Maximiliano
+  - Marine Miguel
+  - Marine Nataniel
+  - Marine Nicolas
+  - Marine Noe
+  - Marine Octavio
+  - Marine Orlando
+  - Marine Oscar
+  - Marine Pablo
+  - Marine Pedro
+  - Marine Rafael
+  - Marine Ramon
+  - Marine Raul
+  - Marine Rene
+  - Marine Ricardo
+  - Marine Roberto
+  - Marine Rolando
+  - Marine Salvador
+  - Marine Santiago
+  - Marine Sebastian
+  - Marine Sergio
+  - Marine Silvestre
+  - Marine Stefano
+  - Marine Teodoro
+  - Marine Tito
+  - Marine Tomas
+  - Marine Valentin
+  - Marine Vicente
+  - Marine Victor
+  - Marine Xavier
+femaleFirst:
+  - Marine Adriana
+  - Marine Aida
+  - Marine Alejandra
+  - Marine Alexia
+  - Marine Alma
+  - Marine Ana
+  - Marine Angela
+  - Marine Angelica
+  - Marine Aurora
+  - Marine Barbara
+  - Marine Bianca
+  - Marine Brenda
+  - Marine Carina
+  - Marine Carla
+  - Marine Carolina
+  - Marine Casandra
+  - Marine Catalina
+  - Marine Claudia
+  - Marine Cristina
+  - Marine Dolores
+  - Marine Dora
+  - Marine Elena
+  - Marine Eliana
+  - Marine Elvira
+  - Marine Ema
+  - Marine Esmeralda
+  - Marine Eva
+  - Marine Felicia
+  - Marine Fiona
+  - Marine Gabriela
+  - Marine Gloria
+  - Marine Guadalupe
+  - Marine Ines
+  - Marine Isabel
+  - Marine Jesica
+  - Marine Juana
+  - Marine Laura
+  - Marine Lidia
+  - Marine Liliana
+  - Marine Linda
+  - Marine Lisa
+  - Marine Lorena
+  - Marine Magdalena
+  - Marine Marcela
+  - Marine Margarita
+  - Marine Maria
+  - Marine Mariana
+  - Marine Marisol
+  - Marine Monica
+  - Marine Nadia
+  - Marine Nancy
+  - Marine Natalia
+  - Marine Noemi
+  - Marine Olivia
+  - Marine Patricia
+  - Marine Paulina
+  - Marine Raquel
+  - Marine Rosa
+  - Marine Selena
+  - Marine Sofia
+  - Marine Sonia
+  - Marine Talia
+  - Marine Tatiana
+  - Marine Teresa
+  - Marine Vanesa
+  - Marine Veronica
+  - Marine Victoria
+  - Marine Yolanda
+maleLast:
+  - Aguilar
+  - Alba
+  - Alonso
+  - Alvarado
+  - Alvarez
+  - Avila
+  - Calderon
+  - Campos
+  - Cardenas
+  - Castilla
+  - Cervantes
+  - Chavez
+  - Cortez
+  - Cruz
+  - De La Cruz
+  - De La Rosa
+  - De Soto
+  - Diaz
+  - Dominguez
+  - Estrada
+  - Falcon
+  - Fernandez
+  - Figueroa
+  - Flores
+  - Fuentes
+  - Garcia
+  - Garza
+  - Gomez
+  - Gonzalez
+  - Guerrero
+  - Gutierrez
+  - Guzman
+  - Hernandez
+  - Herrera
+  - Jimenez
+  - Juarez
+  - Leon
+  - Lima
+  - Lopez
+  - Loya
+  - Lucio
+  - Luna
+  - Martinez
+  - Medina
+  - Mejia
+  - Mendez
+  - Mendoza
+  - Miranda
+  - Montero
+  - Montes
+  - Morales
+  - Moreno
+  - Munoz
+  - Navarro
+  - Nunez
+  - Ortega
+  - Ortiz
+  - Pacheco
+  - Pascual
+  - Perez
+  - Ramirez
+  - Ramos
+  - Reyes
+  - Rios
+  - Rivera
+  - Rodriguez
+  - Romero
+  - Rosa
+  - Ruiz
+  - Sanchez
+  - Sandoval
+  - Santa Cruz
+  - Santana
+  - Santiago
+  - Santos
+  - Sosa
+  - Suarez
+  - Tapia
+  - Torres
+  - Trejo
+  - Trevino
+  - Trujillo
+  - Valdez
+  - Vasquez
+  - Vega
+  - Velasquez

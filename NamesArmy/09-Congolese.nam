@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Trooper Aimé Dorian
+  - Trooper Alban
+  - Trooper Ange
+  - Trooper Annoud Prestige
+  - Trooper Appollinaire
+  - Trooper Arcel
+  - Trooper Archange
+  - Trooper Aristide
+  - Trooper Armand
+  - Trooper Arthur
+  - Trooper Awax
+  - Trooper Baurion
+  - Trooper Ben
+  - Trooper Benjamin
+  - Trooper Bensadaa
+  - Trooper Bonte
+  - Trooper Boris
+  - Trooper Bouse
+  - Trooper Calice
+  - Trooper Céléstin
+  - Trooper Chatel
+  - Trooper Cherald
+  - Trooper Cherubin
+  - Trooper Chriss
+  - Trooper Christian
+  - Trooper Claude
+  - Trooper Davy
+  - Trooper Dbacom
+  - Trooper Donnel
+  - Trooper Dorian
+  - Trooper Dos
+  - Trooper Dulcine
+  - Trooper Eden
+  - Trooper Edvin
+  - Trooper Elyse
+  - Trooper Eudes
+  - Trooper Evrard
+  - Trooper Fred
+  - Trooper Fresnel
+  - Trooper Gata
+  - Trooper Geslin
+  - Trooper Giordani
+  - Trooper Guychel
+  - Trooper Harold
+  - Trooper Heldora
+  - Trooper Hilde
+  - Trooper Japhet
+  - Trooper Joad Louad
+  - Trooper Jules
+  - Trooper Julle
+  - Trooper Karome
+  - Trooper Leonce
+  - Trooper Lima
+  - Trooper Lionel
+  - Trooper Lucien
+  - Trooper Mack
+  - Trooper Marzin
+  - Trooper Mbayo
+  - Trooper Milan
+  - Trooper Murphy
+  - Trooper Oudry
+  - Trooper Pascal
+  - Trooper Paterne
+  - Trooper Patrick
+  - Trooper Prevner
+  - Trooper Prince
+  - Trooper Ray
+  - Trooper Régis
+  - Trooper Resnik
+  - Trooper Rishi
+  - Trooper Rodrigue
+  - Trooper Rudolf
+  - Trooper Sajila
+  - Trooper Severin
+  - Trooper Shabani
+  - Trooper Stanis
+  - Trooper Stephane
+  - Trooper Sylvio
+  - Trooper Thierry
+  - Trooper Van Carrel
+  - Trooper Yohan
+femaleFirst:
+  - Trooper Arich
+  - Trooper Arrielle
+  - Trooper Ashley
+  - Trooper Aubierge
+  - Trooper Aude
+  - Trooper Belcha
+  - Trooper Belvie
+  - Trooper Brunelle
+  - Trooper Capricia
+  - Trooper Carole
+  - Trooper Cecile
+  - Trooper Celvie
+  - Trooper Chanfrelle
+  - Trooper Christelle
+  - Trooper Christiane
+  - Trooper Clavidia
+  - Trooper Darlène
+  - Trooper Deborah
+  - Trooper Diche
+  - Trooper Dina
+  - Trooper Docile
+  - Trooper Djany
+  - Trooper Emmanuelle
+  - Trooper Estelle
+  - Trooper Fallone
+  - Trooper Fernande
+  - Trooper Florèse
+  - Trooper Gaelle
+  - Trooper Garcia
+  - Trooper Geanna
+  - Trooper Giovanna
+  - Trooper Gloire
+  - Trooper Grace
+  - Trooper Granie
+  - Trooper Jaelle
+  - Trooper Jannie
+  - Trooper Jeanny
+  - Trooper Jelvie
+  - Trooper Jessica
+  - Trooper Jen
+  - Trooper Jodrey
+  - Trooper Jolienne
+  - Trooper Judith
+  - Trooper Julie
+  - Trooper Jupsie
+  - Trooper Keicha
+  - Trooper Liu
+  - Trooper Lys
+  - Trooper Melaine
+  - Trooper Merveille
+  - Trooper Michelle
+  - Trooper Parfaite
+  - Trooper Patrique
+  - Trooper Polly
+  - Trooper Privel
+  - Trooper Lirna
+  - Trooper Madelenne
+  - Trooper Manu
+  - Trooper Mary
+  - Trooper Mbeko
+  - Trooper Milyne
+  - Trooper Monia
+  - Trooper Nardelie
+  - Trooper Nathalie
+  - Trooper Nel
+  - Trooper Nicia
+  - Trooper Nuptia
+  - Trooper Opportune
+  - Trooper Patricia
+  - Trooper Pitchou
+  - Trooper Raan-sady
+  - Trooper Reine
+  - Trooper Rose
+  - Trooper Rosa
+  - Trooper Rudelle
+  - Trooper Sabrina
+  - Trooper Sagely
+  - Trooper Sidorelle
+  - Trooper Sony
+  - Trooper Staelle
+  - Trooper Synthyche
+  - Trooper Tan
+  - Trooper Vanessa
+  - Trooper Winnie
+  - Trooper Yornella
+maleLast:
+  - Akindele
+  - Alphonse
+  - Anaclet
+  - Augustin
+  - Aurelie
+  - Axele
+  - Badibanga
+  - Bakaji
+  - Bakwamba
+  - Bangamba
+  - Bantu
+  - Biampata
+  - Bilenga
+  - Bilenge
+  - Bilengi
+  - Bilonda
+  - Bilumbu
+  - Bitala
+  - Bitelu
+  - Biumba
+  - Buabu
+  - Buikalu
+  - Bukaka
+  - Buluba
+  - Busasa
+  - Buta
+  - Dikembe
+  - Dikengu
+  - Dikiyu
+  - Dishi
+  - Diyoka
+  - Evariste
+  - Felicien
+  - Francky
+  - Francois
+  - Gabriel
+  - Ganeramba
+  - Gaston
+  - Gilbert
+  - Gourmand
+  - Henri
+  - Honore
+  - Ilunga
+  - Jean
+  - Joseph
+  - Justin
+  - Kabala
+  - Kabamba
+  - Kabanda
+  - Kabanga
+  - Kabasela
+  - Kabemba
+  - Kabeya
+  - Kaboka
+  - Kabombo
+  - Kabongo
+  - Kabukala
+  - Kabunda
+  - Kabundangoji
+  - Kabungama
+  - Kabwa
+  - Kabwaya
+  - Kadilu
+  - Kadimu
+  - Kajangala
+  - Kajila
+  - Kajimba
+  - Kakokopo
+  - Kalala
+  - Kalanga
+  - Kalawanda
+  - Kalengedi
+  - Kaleuka
+  - Kalombo
+  - Kalonji
+  - Kalubi
+  - Kalunguji
+  - Kamanga
+  - Kambaja
+  - Kambala
+  - Kamulete
+  - Kamwania
+  - Kanda
+  - Kankolongo
+  - Kankonda
+  - Kanku
+  - Kanungu
+  - Kanyandu
+  - Kanyinda
+  - Kapinga
+  - Kapongo
+  - Kasala
+  - Kasampu
+  - Kasenga
+  - Kasongo
+  - Kasuku
+  - Kasulu
+  - Kaswaswa
+  - Katamba
+  - Katanda
+  - Katanga
+  - Katekelayi
+  - Katuku
+  - Katundu
+  - Kayemba
+  - Kayembe
+  - Kayowa
+  - Kilunsila
+  - Kimba
+  - Kishi
+  - Koloyi
+  - Komba
+  - Konji
+  - Kulondi
+  - Kutemba
+  - Lala
+  - Lemba
+  - Lengela
+  - Leonard
+  - Lisa
+  - Londa
+  - Longa
+  - Luadia
+  - Luamba
+  - Luangoyi
+  - Lubanga
+  - Lubanza
+  - Lubuya
+  - Lukodi
+  - Lukoji
+  - Lukusa
+  - Luluabourg
+  - Lumbala
+  - Lumbombo
+  - Lupenzu
+  - Lusamba
+  - Lutexa
+  - Lutonga
+  - Lutundula
+  - Mabele
+  - Mabixa
+  - Malumba
+  - Mampuya
+  - Manyangana
+  - Martin
+  - Matamba
+  - Matembela
+  - Mayi
+  - Mbayi
+  - Mbimbi
+  - Mbiya
+  - Mbiyamuenza
+  - Mbiye
+  - Mbombo
+  - Mbuyamba
+  - Mbuyangudi
+  - Mbuyi
+  - Mbwaya
+  - Meso
+  - Meta
+  - Mfunyi
+  - Miabi
+  - Mianbabu
+  - Milabi
+  - Misenga
+  - Moise
+  - Mokola
+  - Moyo
+  - Mpala
+  - Mpanda
+  - Mpoloto
+  - Mpoyi
+  - Mpuka
+  - Mpunga
+  - Mpungapoyi
+  - Muadi
+  - Muamba
+  - Muanza
+  - Mubenga
+  - Mubiayi
+  - Mubimalu
+  - Mubitende
+  - Mudiayi
+  - Mudipuekesha
+  - Mufika
+  - Mufonkola
+  - Mufuansanyi
+  - Mujinga
+  - Mukadi
+  - Mukala
+  - Mukanda
+  - Mukanya
+  - Mukendi
+  - Mukenga
+  - Mukinda
+  - Mukuma
+  - Mulaja
+  - Mulanga
+  - Mulelalupu
+  - Mulenda
+  - Mulombo
+  - Mulopo
+  - Mulopue
+  - Mulowaluendu
+  - Muluila
+  - Mulumba
+  - Mundamunya
+  - Munsense
+  - Muntshiamba
+  - Munyampala
+  - Mupompa
+  - Mupoyi
+  - Musalu
+  - Musebela
+  - Mushikila
+  - Mushiya
+  - Musuamba
+  - Mutombo
+  - Muya
+  - Mvita
+  - Mwamba
+  - Mwanankesa
+  - Mwenza
+  - Mwepu
+  - Ndanda
+  - Ndaya
+  - Ndelela
+  - Ngalula
+  - Ngandu
+  - Ngeleka
+  - Ngelema
+  - Ngomba
+  - Ngonga
+  - Ngoyi
+  - Ninette
+  - Nkanda
+  - Nkitabungi
+  - Nkomo
+  - Nkongolo
+  - Noel
+  - Norbert
+  - Nseya
+  - Nshila
+  - Nshinga
+  - Nsombamanya
+  - Nsudila
+  - Ntalaja
+  - Ntambwe
+  - Ntita
+  - Ntombolo
+  - Ntondolo
+  - Ntumba
+  - Nyanzala
+  - Nyenyempa
+  - Nyoka
+  - Nzambi
+  - Nzangula
+  - Nzemba
+  - Odia
+  - Phillipe
+  - Pierre
+  - Rachelle
+  - Samuela
+  - Shaddai
+  - Stella
+  - Talatala
+  - Thomas
+  - Tshanda
+  - Tshiabu
+  - Tshialu
+  - Tshiamanina
+  - Tshiambi
+  - Tshiambula
+  - Tshiambwaya
+  - Tshianzambonga
+  - Tshibaka
+  - Tshibala
+  - Tshibalabala
+  - Tshibangu
+  - Tshibelu
+  - Tshibola
+  - Tshibwabwa
+  - Tshidibi
+  - Tshidindu
+  - Tshidingi
+  - Tshiebelela
+  - Tshiepela
+  - Tshifunka
+  - Tshikondo
+  - Tshikulu
+  - Tshikumini
+  - Tshilenga
+  - Tshimanga
+  - Tshimbi
+  - Tshimbombo
+  - Tshimini
+  - Tshiminyi
+  - Tshimowa
+  - Tshimpaka
+  - Tshimwena
+  - Tshipanda
+  - Tshipayayi
+  - Tshisekedi
+  - Tshiswaka
+  - Tshitambala
+  - Tshitoko
+  - Tshiula
+  - Tshiyola
+  - Tuendela
+  - Yabukalanga
+  - Yamba
+  - Yampanya
+  - Yowa

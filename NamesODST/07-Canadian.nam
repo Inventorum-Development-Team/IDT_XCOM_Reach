@@ -1,0 +1,81 @@
+﻿lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - ODST Adam
+  - ODST Alexander
+  - ODST Alexis
+  - ODST Benjamin
+  - ODST Carter
+  - ODST Daniel
+  - ODST Ethan
+  - ODST Felix
+  - ODST Gabriel
+  - ODST Jack
+  - ODST Jaxon
+  - ODST Jacob
+  - ODST Jayden
+  - ODST James
+  - ODST Liam
+  - ODST Logan
+  - ODST Lucas
+  - ODST Mason
+  - ODST Nathan
+  - ODST Noah
+  - ODST Oliver
+  - ODST Owen
+  - ODST Ryan
+  - ODST Samuel
+  - ODST William
+  - ODST Zachary
+femaleFirst:
+  - ODST Abigail
+  - ODST Alice
+  - ODST Amelia
+  - ODST Ava
+  - ODST Avery
+  - ODST Brooklyn
+  - ODST Béatrice
+  - ODST Charlotte
+  - ODST Elizabeth
+  - ODST Ella
+  - ODST Florence
+  - ODST Grace
+  - ODST Hailey
+  - ODST Hannah
+  - ODST Isabella
+  - ODST Lea
+  - ODST Lily
+  - ODST Madison
+  - ODST Mila
+  - ODST Rosalie
+  - ODST Chloe
+  - ODST Emily
+  - ODST Emma
+  - ODST Maya
+  - ODST Mia
+  - ODST Olivia
+  - ODST Sarah
+  - ODST Sophia
+  - ODST Victoria
+  - ODST Zoe
+maleLast:
+  - Anderson
+  - Brown
+  - Chan
+  - Gagnon
+  - Hall
+  - Hill
+  - Kim
+  - Lam
+  - Lee
+  - Martin
+  - Morris
+  - Murphy
+  - Roy
+  - Smith
+  - Tremblay
+  - Wilson
+  - Wong

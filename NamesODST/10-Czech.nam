@@ -1,0 +1,467 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - ODST Jan
+  - ODST Tomas
+  - ODST Zbysek
+  - ODST Zdenik
+  - ODST Michal
+  - ODST Martin
+  - ODST Jioi
+  - ODST Ivo
+  - ODST Pavel
+  - ODST Karel
+  - ODST Frantisek
+  - ODST Ctirad
+  - ODST Zbynik
+  - ODST Vladimir
+  - ODST Jaroslav
+  - ODST Petr
+  - ODST Josef
+  - ODST Vaclav
+  - ODST Miroslav
+  - ODST Mila
+  - ODST Lukas
+  - ODST David
+  - ODST Jakub
+  - ODST Stanislav
+  - ODST Roman
+  - ODST Ondoej
+  - ODST Radek
+  - ODST Antonin
+  - ODST Jozef
+  - ODST Emil
+  - ODST Filip
+  - ODST Ales  
+  - ODST Alexandr
+  - ODST Alexej
+  - ODST Ambroz	
+  - ODST Andrej
+  - ODST Arnost
+  - ODST Artur
+  - ODST Augustyn
+  - ODST Bartolomej	
+  - ODST Bedrich
+  - ODST Benedikt
+  - ODST Bernard
+  - ODST Blahoslav
+  - ODST Blazej
+  - ODST Bohdan
+  - ODST Bohumil
+  - ODST Bohumir	
+  - ODST Bohuslav
+  - ODST Boleslav
+  - ODST Bonifac
+  - ODST Borek
+  - ODST Boris
+  - ODST Borivoj
+  - ODST Bretislav
+  - ODST Bronislav
+  - ODST Bruno
+  - ODST Ctibor
+  - ODST Cenek
+  - ODST Cestmir	
+  - ODST Dalibor
+  - ODST Dalimil
+  - ODST Dobroslav
+  - ODST Dominik
+  - ODST Drahoslav
+  - ODST Dusan
+  - ODST Eduard
+  - ODST Erik
+  - ODST Evzen
+  - ODST Felix
+  - ODST Ferdinand
+  - ODST Gustav
+  - ODST Hanus	
+  - ODST Havel
+  - ODST Herman
+  - ODST Hubert
+  - ODST Hugo
+  - ODST Hynek
+  - ODST Ignac
+  - ODST Igor
+  - ODST Ilja
+  - ODST Ivan
+  - ODST Jachym
+  - ODST Jarmil
+  - ODST Jaromir
+  - ODST Jeronym
+  - ODST Jindrich
+  - ODST Jiri	
+  - ODST Jonas	
+  - ODST Julius
+  - ODST Kamil
+  - ODST Kazimir
+  - ODST Klement
+  - ODST Kristian
+  - ODST Krystof
+  - ODST Kvetoslav
+  - ODST Kvido
+  - ODST Ladislav
+  - ODST Leopold
+  - ODST Leos	
+  - ODST Libor
+  - ODST Lubomir
+  - ODST Lubor
+  - ODST Lubos	
+  - ODST Ludek
+  - ODST Ludvik
+  - ODST Lukas	
+  - ODST Lumir
+  - ODST Marcel
+  - ODST Marek
+  - ODST Marian
+  - ODST Matej	
+  - ODST Matous	
+  - ODST Maxmilian	
+  - ODST Medard
+  - ODST Mikulas	
+  - ODST Milan
+  - ODST Milos	
+  - ODST Miloslav
+  - ODST Mojmir
+  - ODST Oldrich
+  - ODST Oleg
+  - ODST Oliver
+  - ODST Ondrej	
+  - ODST Oskar
+  - ODST Otakar
+  - ODST Otmar
+  - ODST Oto
+  - ODST Pankrac	
+  - ODST Patrik
+  - ODST Pravoslav
+  - ODST Prokop
+  - ODST Premysl
+  - ODST Radim
+  - ODST Radomir
+  - ODST Radoslav
+  - ODST Radovan
+  - ODST Rostislav
+  - ODST Rudolf
+  - ODST Rehor	
+  - ODST Samuel
+  - ODST Servac
+  - ODST Silvestr
+  - ODST Slavomir
+  - ODST Sobeslav
+  - ODST Svatopluk
+  - ODST Svatoslav
+  - ODST Simon
+  - ODST Stefan
+  - ODST Stepan	
+  - ODST Tadeas	
+  - ODST Teodor
+  - ODST Tibor
+  - ODST Tomas	
+  - ODST Valdemar
+  - ODST Valentyn
+  - ODST Vavrinec
+  - ODST Venceslav
+  - ODST Vendelin
+  - ODST Veroslav
+  - ODST Viktor
+  - ODST Vilem
+  - ODST Vincenc
+  - ODST Vit
+  - ODST Vitezslav
+  - ODST Vladan
+  - ODST Vladislav
+  - ODST Vlastimil
+  - ODST Vlastislav
+  - ODST Vojtech
+  - ODST Vratislav
+  - ODST Zbynek
+  - ODST Zdenek
+  - ODST Zikmund
+femaleFirst:
+  - ODST Anna
+  - ODST Marie
+  - ODST Jana
+  - ODST Iva
+  - ODST Irina
+  - ODST Ludmila
+  - ODST Pavla
+  - ODST Kateoina
+  - ODST Simona
+  - ODST Lucie
+  - ODST Lenka
+  - ODST Alena
+  - ODST Gabina
+  - ODST Jioina
+  - ODST Michaela
+  - ODST Ivana
+  - ODST Monika
+  - ODST Veronika
+  - ODST Jarmila
+  - ODST Zdeoka
+  - ODST Jitka
+  - ODST Helena
+  - ODST Petra
+  - ODST Eva
+  - ODST Hana
+  - ODST Vira
+  - ODST Tereza
+  - ODST Adela
+  - ODST Adele
+  - ODST Adriena
+  - ODST Agata
+  - ODST Alica
+  - ODST Alzbeta
+  - ODST Ana
+  - ODST Ancika
+  - ODST Andel
+  - ODST Andela
+  - ODST Aneta
+  - ODST Anezka
+  - ODST Anichka
+  - ODST Antoinetta
+  - ODST Antonie
+  - ODST Bara
+  - ODST Barbora
+  - ODST Barcinka
+  - ODST Barunka
+  - ODST Baruska
+  - ODST Blanka
+  - ODST Bohdana
+  - ODST Bohumila
+  - ODST Bohuslava
+  - ODST Bora
+  - ODST Bozena
+  - ODST Branislava
+  - ODST Dagmar
+  - ODST Daleka
+  - ODST Dalibora
+  - ODST Dominika
+  - ODST Drahomira
+  - ODST Drahoslava
+  - ODST Dusa
+  - ODST Dusana
+  - ODST Dusanka
+  - ODST Duska
+  - ODST Edita
+  - ODST Eliska
+  - ODST Elita
+  - ODST Emilia
+  - ODST Frantiska
+  - ODST Hedvika
+  - ODST Irena
+  - ODST Izabela
+  - ODST Jaromila
+  - ODST Jaroslava
+  - ODST Jindriska
+  - ODST Jirina
+  - ODST Johana
+  - ODST Jolana
+  - ODST Josefa
+  - ODST Judita
+  - ODST Julia
+  - ODST Kamila
+  - ODST Karina
+  - ODST Karolina
+  - ODST Katarina
+  - ODST Katerina
+  - ODST Katica
+  - ODST Kristyna
+  - ODST Kunigunde
+  - ODST Kveta
+  - ODST Ladislava
+  - ODST Leona
+  - ODST Libena
+  - ODST Libuse
+  - ODST Lida
+  - ODST Lidmila
+  - ODST Lubomira
+  - ODST Lucina
+  - ODST Lydie
+  - ODST Madlenka
+  - ODST Magdalena
+  - ODST Maria
+  - ODST Marketa
+  - ODST Matylda
+  - ODST Milada
+  - ODST Milana
+  - ODST Milena
+  - ODST Miloslava
+  - ODST Nada
+  - ODST Nadezda
+  - ODST Otilie
+  - ODST Pavlina
+  - ODST Radka
+  - ODST Radomila
+  - ODST Radomira
+  - ODST Radoslava
+  - ODST Ruzena
+  - ODST Sara
+  - ODST Sobeska
+  - ODST Sobeslava
+  - ODST Stanislava
+  - ODST Stefanija
+  - ODST Stepanka
+  - ODST Svetla
+  - ODST Svetlana
+  - ODST Tatana
+  - ODST Ursula
+  - ODST Vaclava
+  - ODST Vendula
+  - ODST Vera
+  - ODST Vladimira
+  - ODST Vlasta
+  - ODST Zdenka
+  - ODST Zofie
+  - ODST Zoja
+  - ODST Zuzana
+maleLast:
+  - Bartos
+  - Benda
+  - Benes
+  - Beran
+  - Blaha
+  - Blazek
+  - Broz
+  - Bures
+  - Cech
+  - Cermak
+  - Cerny
+  - Cervenka
+  - Cizek
+  - Dolezal
+  - Dusek
+  - Dvorak
+  - Fiala
+  - Fiser
+  - Hajek
+  - Havlicek
+  - Hlavacek
+  - Hoffmann
+  - Holub
+  - Horak
+  - Hruby
+  - Hruska
+  - Janda
+  - Janecek
+  - Janousek
+  - Jelinek
+  - Jezek
+  - Kadlec
+  - Kaspar
+  - Klaus
+  - Klima
+  - Kohout
+  - Kolar
+  - Kopecky
+  - Kovar
+  - Kovarik
+  - Kral
+  - Kratochvil
+  - Kraus
+  - Krejci
+  - Kriz
+  - Kubis
+  - Kucera
+  - Machacek
+  - Maly
+  - Mares
+  - Martinek
+  - Masek
+  - Matejka
+  - Matousek
+  - Moravec
+  - Mueller
+  - Musil
+  - Navratil
+  - Nemec
+  - Nemecek
+  - Neumann
+  - Novak
+  - Novotny
+  - Pesek
+  - Pokorny
+  - Polak
+  - Pospisil
+  - Prochazka
+  - Richter
+  - Riha
+  - Ruzicka
+  - Sedlacek
+  - Sichy
+  - Simek
+  - Skala
+  - Slavik
+  - Smid
+  - Soucek
+  - Soukup
+  - Stanek
+  - Stastny
+  - Stepanek
+  - Strnad
+  - Sulc
+  - Svoboda
+  - Sykora
+  - Tuma
+  - Urban
+  - Vacek
+  - Valenta
+  - Vanek
+  - Vavra
+  - Vesely
+  - Vlcek
+  - Zelenka
+  - Zeman
+  - Stransky
+  - Tyeka
+  - Dobrynsky
+  - Krajan
+  - Marny
+  - Nimy
+  - Neeesal
+  - Rosa
+  - Kvitoslav
+  - Nadinicky
+  - Doevak
+  - Eerny
+  - Dvooak
+  - Ruzieka
+  - Sedlaeek
+  - Machaeek
+  - Carda
+  - Kueera
+femaleLast:
+  - Zemanova
+  - Kolaoova
+  - Krejei
+  - Eermakova
+  - Navratilova
+  - Komyrova
+  - Urbanova
+  - Vaokova
+  - Koizna
+  - Kratochvilova
+  - Vlazkova
+  - Trojska
+  - Petrova
+  - Romanova
+  - Kovaoova
+  - Bartosova
+  - Musilova
+  - Polakova
+  - Koneena
+  - Mala
+  - Tkadlecova
+  - Zhdanovich
+  - Soukupova
+  - Stastna
+  - Vavrova
+  - Oihova
+  - Ticha
+  - Matusova
+  - Maskova
+  - Hruba
+  - Stejskalova
+  - Tumova
+  - Zakova
+  - Brozova

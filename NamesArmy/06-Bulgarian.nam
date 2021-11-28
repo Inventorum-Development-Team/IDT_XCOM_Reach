@@ -1,0 +1,266 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Trooper Aleksandar
+  - Trooper Andon
+  - Trooper Andrey
+  - Trooper Andrian
+  - Trooper Anton
+  - Trooper Antoni
+  - Trooper Angel
+  - Trooper Apostol
+  - Trooper Atanas
+  - Trooper Bogdan
+  - Trooper Bogomil
+  - Trooper Borislav
+  - Trooper Boyko
+  - Trooper Damyan
+  - Trooper Danail
+  - Trooper Desislav
+  - Trooper Dimitar
+  - Trooper Dragomir
+  - Trooper Gavrail
+  - Trooper Georgi
+  - Trooper Hristo
+  - Trooper Ilian
+  - Trooper Iliya
+  - Trooper Ivan
+  - Trooper Ivaylo
+  - Trooper Ivo
+  - Trooper Kaloyan
+  - Trooper Kiril
+  - Trooper Konstantin
+  - Trooper Krasimir
+  - Trooper Krastyo
+  - Trooper Lyuben
+  - Trooper Lyubomir
+  - Trooper Lyudmil
+  - Trooper Marko
+  - Trooper Miroslav
+  - Trooper Momchil
+  - Trooper Nikola
+  - Trooper Ognyan
+  - Trooper Penko
+  - Trooper Petar
+  - Trooper Plamen
+  - Trooper Radomir
+  - Trooper Samuil
+  - Trooper Spas
+  - Trooper Stanimir
+  - Trooper Stanislav
+  - Trooper Stoyan
+  - Trooper Teodor
+  - Trooper Tihomir
+  - Trooper Todor
+  - Trooper Toma
+  - Trooper Tsvetan
+  - Trooper Vasil
+  - Trooper Ventsislav
+  - Trooper Viktor
+  - Trooper Vladimir
+  - Trooper Vladislav
+  - Trooper Yanko
+  - Trooper Yoan
+  - Trooper Yordan
+  - Trooper Yosif
+  - Trooper Zahari
+  - Trooper Zhivko
+  - Trooper Zlatko
+femaleFirst:
+  - Trooper Ana
+  - Trooper Antonia
+  - Trooper Bilyana
+  - Trooper Bisera
+  - Trooper Bogomila
+  - Trooper Borislava
+  - Trooper Boyana
+  - Trooper Desislava
+  - Trooper Elisaveta
+  - Trooper Emiliya
+  - Trooper Gergana
+  - Trooper Hristina
+  - Trooper Iva
+  - Trooper Ivana
+  - Trooper Ivelina
+  - Trooper Ivet
+  - Trooper Izabela
+  - Trooper Krasimira
+  - Trooper Lidiya
+  - Trooper Lilyana
+  - Trooper Lyubina
+  - Trooper Lyubomira
+  - Trooper Lyudmila
+  - Trooper Maya
+  - Trooper Mirela
+  - Trooper Miroslava
+  - Trooper Nadejda
+  - Trooper Nevena
+  - Trooper Nikolina
+  - Trooper Pavla
+  - Trooper Pavlina
+  - Trooper Radomira
+  - Trooper Radoslava
+  - Trooper Radostina
+  - Trooper Rayna
+  - Trooper Rosa
+  - Trooper Rositsa
+  - Trooper Silviya
+  - Trooper Simona
+  - Trooper Snezhana
+  - Trooper Sofiya
+  - Trooper Stanislava
+  - Trooper Stanka
+  - Trooper Stoyanka
+  - Trooper Svetla
+  - Trooper Svetlana
+  - Trooper Tanya
+  - Trooper Tatyana
+  - Trooper Teodora
+  - Trooper Tereza
+  - Trooper Tsveta
+  - Trooper Tsvetelina
+  - Trooper Veselina
+  - Trooper Viktoria
+  - Trooper Violeta
+  - Trooper Vladimira
+  - Trooper Yana
+  - Trooper Yoana
+  - Trooper Yordanka
+maleLast:
+  - Aleksandrov
+  - Andonov
+  - Andreev
+  - Antonov
+  - Antoniev
+  - Angelov
+  - Apostolov
+  - Atanasov
+  - Bogdanov
+  - Bogomilov
+  - Borislavov
+  - Boykov
+  - Damyanov
+  - Danailov
+  - Desislavov
+  - Dimitrov
+  - Dragomirov
+  - Gavrailov
+  - Georgiev
+  - Hristov
+  - Ilianov
+  - Iliev
+  - Ivanov
+  - Ivaylov
+  - Kaloyan
+  - Kirilov
+  - Konstantinov
+  - Krasimirov
+  - Lyubenov
+  - Lyubomirov
+  - Lyudmilov
+  - Markov
+  - Miroslavov
+  - Momchilov
+  - Nikolaev
+  - Ognyanov
+  - Penkov
+  - Petrov
+  - Plamenov
+  - Radomirov
+  - Samuilov
+  - Spasov
+  - Stanimirov
+  - Stanislavov
+  - Stoyanov
+  - Teodorov
+  - Tihomirov
+  - Todorov
+  - Tomov
+  - Tsvetanov
+  - Vasilev
+  - Ventsislavov
+  - Vladimirov
+  - Vladislavov
+  - Yordanov
+  - Yosifov
+  - Zahariev
+  - Zhivkov
+  - Zlatkov
+femaleLast:
+  - Aleksandrova
+  - Andonova
+  - Andreeva
+  - Antonova
+  - Antonieva
+  - Angelova
+  - Apostolova
+  - Atanasova
+  - Bogdanova
+  - Bogomilova
+  - Borislavova
+  - Boykova
+  - Damyanova
+  - Danailova
+  - Desislavova
+  - Dimitrova
+  - Dragomirova
+  - Gavrailova
+  - Georgieva
+  - Hristova
+  - Ilianova
+  - Ilieva
+  - Ivanova
+  - Ivaylova
+  - Kaloyana
+  - Kirilova
+  - Konstantinova
+  - Krasimirova
+  - Lyubenova
+  - Lyubomirova
+  - Lyudmilova
+  - Markova
+  - Miroslavova
+  - Momchilova
+  - Nikolaeva
+  - Ognyanova
+  - Penkova
+  - Petrova
+  - Plamenova
+  - Radomirova
+  - Samuilova
+  - Stanimirova
+  - Stanislavova
+  - Stoyanova
+  - Stoykova
+  - Teodorova
+  - Tihomirova
+  - Todorova
+  - Tomova
+  - Tsvetanova
+  - Vasileva
+  - Ventsislavova
+  - Vladimirova
+  - Vladislavova
+  - Yordanova
+  - Yosifova
+  - Zaharieva
+  - Zhivkova
+  - Zlatkov
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

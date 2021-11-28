@@ -1,0 +1,59 @@
+﻿lookWeights:
+  - 10
+  - 30
+  - 30
+  - 30
+maleFirst:
+  - Marine Bautista
+  - Marine Benjamin
+  - Marine Felipe
+  - Marine Juan
+  - Marine Joaquin
+  - Marine Mateo
+  - Marine Santiago
+  - Marine Santino
+  - Marine Thiago
+  - Marine Tomas
+femaleFirst:
+  - Marine Alma
+  - Marine Catalina
+  - Marine Emma
+  - Marine Isabella
+  - Marine Maria
+  - Marine Martina
+  - Marine Mia
+  - Marine Sofia
+  - Marine Valentina
+  - Marine Zoe
+maleLast:
+  - Alonso
+  - Alvarez
+  - Blanco
+  - Castro
+  - Diaz
+  - Dominguez
+  - Fernandez
+  - Garcia
+  - Gimenez
+  - Gomez
+  - Gonzalez
+  - Gutierrez
+  - Iglesias
+  - Lopez
+  - Martin
+  - Martinez
+  - Nuñez
+  - Perez
+  - Ramirez
+  - Ramos
+  - Rodriguez
+  - Romero
+  - Rossi
+  - Ruiz
+  - Sanchez
+  - Silva
+  - Sosa
+  - Suarez
+  - Torres
+  - Varela
+  - Vazquez

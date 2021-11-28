@@ -6,8 +6,8 @@ items:
     bigSprite: 2000
     floorSprite: 2000
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -19,8 +19,8 @@ items:
     bigSprite: 2001
     floorSprite: 2001
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -32,8 +32,8 @@ items:
     bigSprite: 2001
     floorSprite: 2001
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -45,8 +45,8 @@ items:
     bigSprite: 2001
     floorSprite: 2001
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -59,8 +59,8 @@ items:
     bigSprite: 2011
     floorSprite: 2011
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -72,8 +72,8 @@ items:
     bigSprite: 2012
     floorSprite: 2012
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -86,8 +86,8 @@ items:
     bigSprite: 2007
     floorSprite: 2007
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -99,8 +99,8 @@ items:
     bigSprite: 2008
     floorSprite: 2008
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -112,8 +112,8 @@ items:
     bigSprite: 2010
     floorSprite: 2010
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40
@@ -125,8 +125,8 @@ items:
     bigSprite: 2009
     floorSprite: 2009
     invWidth: 2
-    invHeight: 2
-    recoveryPoints: 10
+    invHeight: 3
+
     battleType: 11
     recover: false
     armor: 40

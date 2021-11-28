@@ -12,11 +12,11 @@ es-419:
 ######################
   STR_PARIS_CLASS_HEAVY_FRIGATE: "Fragata pesada Clase-Paris"
   STR_CHARON_CLASS_LIGHT_FRIGATE: "Fragata ligera Clase-Charon"
-  STR_SABRE_FIGHTER: "Caza YSS-1000 Sabre"
-  STR_LONGSWORD_FIGHTER: "Interceptor GA-TL1/C712 Longsword"
-  STR_PELICAN_DROPSHIP: "Nave de descenso T77-TC Pelican"
-  STR_FALCON_DROPSHIP: "Transporte UH-144 Falcon"
-  STR_FALCON_GUNSHIP: "Cañonera AH-144 Falcon"
+  STR_SABRE_FIGHTER: "Caza Sabre"
+  STR_LONGSWORD_FIGHTER: "Interceptor Longsword"
+  STR_PELICAN_DROPSHIP: "Nave de descenso Pelican"
+  STR_FALCON_DROPSHIP: "Transporte Falcon"
+  STR_FALCON_GUNSHIP: "Cañonera Falcon"
 ######################
   STR_MAC: "CAÑÓN MAC"
   STR_MAC_LAUNCHER: "Cañón MAC"
@@ -47,15 +47,29 @@ es-419:
   STR_ASGM10_MISSILE_STRING: "MISIL ASGM-10"
 ######################
   STR_SPARTAN_III: "SPARTAN-III"
-  STR_SPI_ARMOR_UC: SPI ARMOR
-  STR_SPI_ARMOR: SPI Armor
+  STR_SPI_ARMOR_UC: "ARMADURA SPI"
+  STR_SPI_ARMOR: "Armadura SPI"
   STR_SPI_ARMOR_UFOPEDIA: "Semi-Powered Infiltration armor is a UNSC combat armor system designed with an emphasis on stealth through the use of special photoreactive panels, issued to SPARTAN-III teams."
-  STR_ARMOR_MARINE_UC: UNSC MARINE BDU
-  STR_ARMOR_MARINE: UNSC Marine BDU
-  STR_ARMOR_MARINE_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet."
-  STR_ARMOR_ODST_UC: ODST BATTLE ARMOR
-  STR_ARMOR_ODST: ODST Battle Armor
-  STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with HUD tech."
+  STR_ARMY_TROOPER: "Soldado de infantería"
+  STR_ARMOR_ARMY_TROOPER: "Uniforme de Combate de Infantería"
+  STR_ARMOR_ARMY_TROOPER_UC: "UNIFORME DE COMBATE DE INFANTERÍA"
+  STR_ARMOR_ARMY_STANDARD_BDU_UC: "Uniforme de Combate de Infantería (Standard)"
+  STR_ARMOR_ARMY_BALACLAVA_BDU_UC: "Uniforme de Combate de Infantería (Balaclava)"
+  STR_ARMOR_ARMY_LIGHT_BDU_UC: "Uniforme de Combate de Infantería (Light)"
+  STR_ARMOR_ARMY_SARGE_BDU_UC: "Uniforme de Combate de Infantería (Service Cap)"
+  STR_ARMOR_ARMY_TROOPER_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet. UNSC Army variant, issued with woodland fatigues and dark brown camo plates." 
+  STR_MARINE: "Marine"
+  STR_ARMOR_MARINE_UC: "UNIFORME DE COMBATE NAVAL"
+  STR_ARMOR_MARINE: "Uniforme de Combate Naval"
+  STR_ARMOR_MARINE_STANDARD_BDU_UC: "Uniforme de Combate Naval (Standard)"
+  STR_ARMOR_MARINE_BALACLAVA_BDU_UC: "Uniforme de Combate Naval (Balaclava)"
+  STR_ARMOR_MARINE_LIGHT_BDU_UC: "Uniforme de Combate Naval (Light)"
+  STR_ARMOR_MARINE_SARGE_BDU_UC: "Uniforme de Combate Naval (Service Cap)"
+  STR_ARMOR_MARINE_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet. UNSC Marine Corps variant, issued with desert fatigues and green camo plates."
+  STR_ODST: "SCDO"
+  STR_ARMOR_ODST_UC: "ARMADURA DE BATALLA SCDO"
+  STR_ARMOR_ODST: "Armadura de batalla SCDO"
+  STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with VISR tech."
 ######################
   STR_SHIELD_S: "Escudo resistiendo!"
   STR_SHIELD_DOWN: "Escudo caído!"

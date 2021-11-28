@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - ODST Adam
+  - ODST Adrian
+  - ODST Aidan
+  - ODST Alan
+  - ODST Alexander
+  - ODST Alistair
+  - ODST Andrew
+  - ODST Arthur
+  - ODST Ben
+  - ODST Benjamin
+  - ODST Bradley
+  - ODST Brendan
+  - ODST Brett
+  - ODST Bruce
+  - ODST Carl
+  - ODST Charles
+  - ODST Charlie
+  - ODST Christopher
+  - ODST Colin
+  - ODST Connor
+  - ODST Craig
+  - ODST Damien
+  - ODST Daniel
+  - ODST David
+  - ODST Declan
+  - ODST Derek
+  - ODST Desmond
+  - ODST Donald
+  - ODST Dylan
+  - ODST Edmund
+  - ODST Edward
+  - ODST Euan
+  - ODST Frank
+  - ODST Francis
+  - ODST Gareth
+  - ODST Gary
+  - ODST Geoffrey
+  - ODST George
+  - ODST Graeme
+  - ODST Graham
+  - ODST Grant
+  - ODST Gregor
+  - ODST Gregory
+  - ODST Hamish
+  - ODST Harold
+  - ODST Harry
+  - ODST Ian
+  - ODST Iain
+  - ODST James
+  - ODST Jason
+  - ODST John
+  - ODST Jordan
+  - ODST Keith
+  - ODST Ken
+  - ODST Kenneth
+  - ODST Lewis
+  - ODST Liam
+  - ODST Malcolm
+  - ODST Mark
+  - ODST Michael
+  - ODST Neil
+  - ODST Patrick
+  - ODST Paul
+  - ODST Peter
+  - ODST Raymond
+  - ODST Rhys
+  - ODST Richard
+  - ODST Robert
+  - ODST Rory
+  - ODST Roy
+  - ODST Ryan
+  - ODST Samuel
+  - ODST Scott
+  - ODST Simon
+  - ODST Stephen
+  - ODST Steven
+  - ODST Thomas
+  - ODST William
+femaleFirst:
+  - ODST Abigail
+  - ODST Aileen
+  - ODST Ailsa
+  - ODST Alice
+  - ODST Alison
+  - ODST Amy
+  - ODST Andrea
+  - ODST Ann
+  - ODST Anna
+  - ODST Annabel
+  - ODST Anne
+  - ODST Bridget
+  - ODST Carol
+  - ODST Catherine
+  - ODST Clara
+  - ODST Claire
+  - ODST Clare
+  - ODST Courtney
+  - ODST Cynthia
+  - ODST Eleanor
+  - ODST Elizabeth
+  - ODST Emily
+  - ODST Emma
+  - ODST Fiona
+  - ODST Frances
+  - ODST Gail
+  - ODST Gemma
+  - ODST Gillian
+  - ODST Gilly
+  - ODST Grace
+  - ODST Hanna
+  - ODST Hannah
+  - ODST Harriet
+  - ODST Heather
+  - ODST Helen
+  - ODST Holly
+  - ODST Isabel
+  - ODST Isobel
+  - ODST Isla
+  - ODST Jade
+  - ODST Jane
+  - ODST Janet
+  - ODST Janice
+  - ODST Janine
+  - ODST Jayne
+  - ODST Jean
+  - ODST Jenna
+  - ODST Jennifer
+  - ODST Jenny
+  - ODST Jessica
+  - ODST Jill
+  - ODST Joyce
+  - ODST Kate
+  - ODST Katie
+  - ODST Kimberley
+  - ODST Kirsten
+  - ODST Kirsty
+  - ODST Kylie
+  - ODST Lauren
+  - ODST Lesley
+  - ODST Leslie
+  - ODST Lilleth
+  - ODST Lillian
+  - ODST Lindsay
+  - ODST Lisa
+  - ODST Lorna
+  - ODST Lucy
+  - ODST Lynn
+  - ODST Lynette
+  - ODST Margaret
+  - ODST Maria
+  - ODST Mary
+  - ODST Megan
+  - ODST Moira
+  - ODST Murron
+  - ODST Patricia
+  - ODST Rebecca
+  - ODST Samantha
+  - ODST Sarah
+  - ODST Shannon
+  - ODST Siobhan
+  - ODST Stacey
+  - ODST Theresa
+  - ODST Victoria
+maleLast:
+  - Adams
+  - Anderson
+  - Atkinson
+  - Bailey
+  - Baird
+  - Baker
+  - Barker
+  - Ball
+  - Barnes
+  - Bell
+  - Blake
+  - Blair
+  - Boyd
+  - Brook
+  - Brooks
+  - Brown
+  - Burns
+  - Butler
+  - Cameron
+  - Carter
+  - Chapman
+  - Clark
+  - Clarke
+  - Clyde
+  - Cole
+  - Collins
+  - Cook
+  - Cooper
+  - Cox
+  - Davies
+  - Davis
+  - Dawson
+  - Day
+  - Dixon
+  - Douglas
+  - Drummond
+  - Elliot
+  - Erskine
+  - Evans
+  - Ferguson
+  - Fisher
+  - Fletcher
+  - Forbes
+  - Ford
+  - Forsythe
+  - Foster
+  - Fox
+  - Fraser
+  - Garrow
+  - Gibson
+  - Gray
+  - Green
+  - Hall
+  - Harris
+  - Harrison
+  - Harvey
+  - Heaton
+  - Hill
+  - Holmes
+  - Howard
+  - Hughes
+  - Hunt
+  - Hunter
+  - Jackson
+  - Jenkins
+  - Johnson
+  - Jones
+  - Jonlan
+  - Kerr
+  - King
+  - Knight
+  - Knox
+  - Lawrence
+  - Lee
+  - Lennox
+  - Loy
+  - MacCallum
+  - MacCay
+  - MacColl
+  - MacIntyre
+  - Mackendrick
+  - Mackenzie
+  - MacRae
+  - Marion
+  - Marshall
+  - Martin
+  - Mason
+  - Matthews
+  - Middleton
+  - Milne
+  - Mills
+  - Mitchell
+  - Moore
+  - Mumford
+  - Owen
+  - Owens
+  - Paddon
+  - Parker
+  - Palmer
+  - Payne
+  - Pearce
+  - Pearson
+  - Peters
+  - Peterson
+  - Powell
+  - Price
+  - Pritchard
+  - Ramsay
+  - Reynolds
+  - Richards
+  - Richardson
+  - Roberts
+  - Robertson
+  - Robinson
+  - Rogers
+  - Rory
+  - Ross
+  - Rowe
+  - Russell
+  - Saunders
+  - Sharpe
+  - Shaw
+  - Smith
+  - Stevens
+  - Stewart
+  - Taylor
+  - Thompson
+  - Turner
+  - Varley
+  - Walker
+  - Wallace
+  - Walsh
+  - Ward
+  - Watson
+  - Webb
+  - West
+  - White
+  - Wilkinson
+  - Williams
+  - Wright
+  - Wood
+  - Young
+  - Yates

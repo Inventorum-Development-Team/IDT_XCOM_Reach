@@ -1,0 +1,88 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Marine Andriy
+  - Marine Borys
+  - Marine Dmytro
+  - Marine Ihor
+  - Marine Ivan
+  - Marine Kostyantyn
+  - Marine Kyrylo
+  - Marine Leonid
+  - Marine Maksym
+  - Marine Mykhaylo
+  - Marine Mykola
+  - Marine Oleksandr
+  - Marine Oleksiy
+  - Marine Orest
+  - Marine Pavlo
+  - Marine Petro
+  - Marine Roman
+  - Marine Ruslan
+  - Marine Serhiy
+  - Marine Stanislav
+  - Marine Taras
+  - Marine Vasyl
+  - Marine Viktor
+  - Marine Vladyslav
+  - Marine Volodymyr
+  - Marine Yehor
+  - Marine Yuriy
+femaleFirst:
+  - Marine Anastasiya
+  - Marine Hanna
+  - Marine Kateryna
+  - Marine Lyubomyra
+  - Marine Lyubov
+  - Marine Mariya
+  - Marine Mikhaylyna
+  - Marine Myroslava
+  - Marine Nadiya
+  - Marine Natalya
+  - Marine Oksana
+  - Marine Oleksandra
+  - Marine Olena
+  - Marine Olha
+  - Marine Romana
+  - Marine Ruslana
+  - Marine Snizhana
+  - Marine Sofiya
+  - Marine Svitlana
+  - Marine Svyatoslava
+  - Marine Tetyana
+  - Marine Vasylyna
+  - Marine Vira
+  - Marine Yaroslava
+  - Marine Yuliya
+  - Marine Zoryana
+maleLast:
+  - Bondar
+  - Bondarenko
+  - Boyko
+  - Gavrilyuk
+  - Lisenko
+  - Klimenko
+  - Koval
+  - Kovalenko
+  - Kovalchuk
+  - Kravchenko
+  - Kravchuk
+  - Kuzmienko
+  - Marchenko
+  - Melnik
+  - Moroz
+  - Oliynik
+  - Pawlenko
+  - Petrenko
+  - Polishuk
+  - Rudenko
+  - Savchenko
+  - Savchuk
+  - Shevchenko
+  - Shevchuk
+  - Shved
+  - Tkachenko
+  - Tkachuk

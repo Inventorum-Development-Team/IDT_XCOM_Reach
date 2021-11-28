@@ -29,6 +29,9 @@ startingBase:
       y: 3
   randomSoldiers:
     STR_SPARTAN_III: 6
+    STR_ODST: 3
+    STR_ARMY_TROOPER: 3
+    STR_MARINE: 3
 #    STR_PILOT: 8
   crafts:
     - type: STR_PARIS_CLASS_HEAVY_FRIGATE
@@ -62,10 +65,12 @@ startingBase:
           ammo: 200
       items:
         STR_GRENADE: 8
-        STR_M7S: 5
-        STR_M7_MAG: 15
-        STR_M6C_SOCOM: 8
-        STR_M6C_MAG: 24
+        STR_MA37: 5
+        STR_MA37_MAG: 10
+        STR_M392: 2
+        STR_M392_MAG: 4
+        STR_M6G: 8
+        STR_M6G_MAG: 24
       status: STR_READY
     - type: STR_SABRE_FIGHTER
       id: 1
@@ -125,6 +130,12 @@ startingBase:
       status: STR_READY
   items:
     STR_GRENADE: 5
+    STR_MA37: 5
+    STR_MA37_MAG: 10
+    STR_M392: 3
+    STR_M392_MAG: 9
+    STR_BR55: 2
+    STR_BR55_MAG: 6
     STR_M7S: 4
     STR_M7_MAG: 12
     STR_M6C_SOCOM: 2

@@ -1,0 +1,361 @@
+lookWeights:
+  - 2
+  - 88
+  - 2
+  - 8
+maleFirst:
+  - Marine Afonso
+  - Marine Alberto
+  - Marine Alexandre
+  - Marine Alvaro
+  - Marine Andre
+  - Marine Antonio
+  - Marine Augusto
+  - Marine Bernardo
+  - Marine Bruno
+  - Marine Carlos
+  - Marine Cristiano
+  - Marine Daniel
+  - Marine David
+  - Marine Diogo
+  - Marine Duarte
+  - Marine Eduardo
+  - Marine Fabio
+  - Marine Fernando
+  - Marine Filipe
+  - Marine Flavio
+  - Marine Francisco
+  - Marine Frederico
+  - Marine Gabriel
+  - Marine Goncalo
+  - Marine Guilherme
+  - Marine Gustavo
+  - Marine Helder
+  - Marine Henrique
+  - Marine Hugo
+  - Marine Ivo
+  - Marine Jaime
+  - Marine Joao
+  - Marine Joaquim
+  - Marine Jorge
+  - Marine Jose
+  - Marine Julio
+  - Marine Leonardo
+  - Marine Leonel
+  - Marine Luis
+  - Marine Manuel
+  - Marine Marcelo
+  - Marine Marcio
+  - Marine Marco
+  - Marine Mario
+  - Marine Miguel
+  - Marine Nelson
+  - Marine Nuno
+  - Marine Orlando
+  - Marine Paulo
+  - Marine Pedro
+  - Marine Rafael
+  - Marine Raul
+  - Marine Ricardo
+  - Marine Roberto
+  - Marine Rodolfo
+  - Marine Rodrigo
+  - Marine Rui
+  - Marine Samuel
+  - Marine Sergio
+  - Marine Tiago
+  - Marine Telmo
+  - Marine Tomas
+  - Marine Vasco
+  - Marine Vitor
+femaleFirst:
+  - Marine Alice
+  - Marine Ana
+  - Marine Anabela
+  - Marine Andreia
+  - Marine Angela
+  - Marine Aurora
+  - Marine Barbara
+  - Marine Beatriz
+  - Marine Bia
+  - Marine Carina
+  - Marine Carla
+  - Marine Carolina
+  - Marine Catarina
+  - Marine Catia
+  - Marine Celeste
+  - Marine Celia
+  - Marine Celina
+  - Marine Clara
+  - Marine Claudia
+  - Marine Cristiana
+  - Marine Cristina
+  - Marine Daniela
+  - Marine Dalia
+  - Marine Debora
+  - Marine Diana
+  - Marine Dulce
+  - Marine Elsa
+  - Marine Eva
+  - Marine Fatima
+  - Marine Fernanda
+  - Marine Filipa
+  - Marine Filomena
+  - Marine Flavia
+  - Marine Florbela
+  - Marine Francisca
+  - Marine Gabriela
+  - Marine Gloria
+  - Marine Helena
+  - Marine Ilda
+  - Marine Ines
+  - Marine Irene
+  - Marine Isabel
+  - Marine Joana
+  - Marine Josefina
+  - Marine Julia
+  - Marine Lara
+  - Marine Laura
+  - Marine Leonor
+  - Marine Liliana
+  - Marine Luisa
+  - Marine Madalena
+  - Marine Mafalda
+  - Marine Manuela
+  - Marine Margarida
+  - Marine Maria
+  - Marine Mariana
+  - Marine Marina
+  - Marine Marisa
+  - Marine Marta
+  - Marine Matilde
+  - Marine Monica
+  - Marine Natalia
+  - Marine Nadia
+  - Marine Olivia
+  - Marine Patricia
+  - Marine Paula
+  - Marine Rafaela
+  - Marine Raquel
+  - Marine Rita
+  - Marine Rute
+  - Marine Sandra
+  - Marine Sara
+  - Marine Sofia
+  - Marine Sonia
+  - Marine Soraia
+  - Marine Susana
+  - Marine Tania
+  - Marine Teresa
+  - Marine Telma
+  - Marine Vanessa
+  - Marine Vera
+maleLast:
+  - Abrantes
+  - Abreu
+  - Agostinho
+  - Albano
+  - Albuquerque
+  - Aleixo
+  - Almeida
+  - Alves
+  - Amaro
+  - Amaral
+  - Andrade
+  - Anjos
+  - Antunes
+  - Araujo
+  - Assis
+  - Azevedo
+  - Barata
+  - Barreiras
+  - Barreto
+  - Barros
+  - Barroso
+  - Bastos
+  - Bento
+  - Beja
+  - Borges
+  - Brandao
+  - Brito
+  - Cabral
+  - Cadete
+  - Caetano
+  - Caldeira
+  - Campos
+  - Cardoso
+  - Carneiro
+  - Carrico
+  - Carrilho
+  - Carvalho
+  - Castro
+  - Cavaco
+  - Cavaleiro
+  - Chaves
+  - Coelho
+  - Conceicao
+  - Correia
+  - Cortes
+  - Costa
+  - Coutinho
+  - Couto
+  - Crespo
+  - Cristovao
+  - Cruz
+  - Cunha
+  - Cunhal
+  - Delgado
+  - Dias
+  - Dinis
+  - Dionisio
+  - Domingos
+  - Duarte
+  - Esteves
+  - Farinha
+  - Fernandes
+  - Ferreira
+  - Figueira
+  - Figueiredo
+  - Fitas
+  - Fragoso
+  - Fragata
+  - Francisco
+  - Franco
+  - Freire
+  - Freitas
+  - Fonseca
+  - Fontes
+  - Fortes
+  - Furtado
+  - Galvao
+  - Gama
+  - Garcia
+  - Godinho
+  - Gomes
+  - Goncalves
+  - Gouveia
+  - Graca
+  - Grilo
+  - Guedes
+  - Guerra
+  - Guerreiro
+  - Guimaraes
+  - Henriques
+  - Homem
+  - Horta
+  - Jacinto
+  - Jesus
+  - Lameiras
+  - Laranjeiro
+  - Leal
+  - Lima
+  - Lopes
+  - Lourenco
+  - Luz
+  - Macedo
+  - Machado
+  - Madeira
+  - Maia
+  - Magalhaes
+  - Marques
+  - Martinho
+  - Martins
+  - Marujo
+  - Mateus
+  - Matias
+  - Matos
+  - Maximo
+  - Meireles
+  - Melo
+  - Mendes
+  - Mendonca
+  - Mestre
+  - Mira
+  - Miranda
+  - Moniz
+  - Monteiro
+  - Morais
+  - Moreira
+  - Morgado
+  - Mota
+  - Moura
+  - Mourinho
+  - Nascimento
+  - Neto
+  - Neves
+  - Nobrega
+  - Nogueira
+  - Noronha
+  - Nunes
+  - Oliveira
+  - Pacheco
+  - Pais
+  - Paiva
+  - Parreira
+  - Pato
+  - Peixe
+  - Peixoto
+  - Pereira
+  - Pessoa
+  - Pimentel
+  - Pinheiro
+  - Pinho
+  - Pinto
+  - Pires
+  - Portugal
+  - Povoa
+  - Prata
+  - Queiros
+  - Raimundo
+  - Ramalho
+  - Ramos
+  - Raposo
+  - Rato
+  - Real
+  - Rebelo
+  - Reis
+  - Relvas
+  - Ribeiro
+  - Rio
+  - Rocha
+  - Rodrigues
+  - Ronaldo
+  - Rosario
+  - Roseiro
+  - Salgado
+  - Salgueiro
+  - Sampaio
+  - Sanches
+  - Santana
+  - Santos
+  - Sebastiao
+  - Semedo
+  - Sequeira
+  - Serra
+  - Serrao
+  - Serras
+  - Silva
+  - Silvestre
+  - Silvino
+  - Simoes
+  - Soares
+  - Sobral
+  - Sousa
+  - Tavares
+  - Teixeira
+  - Teles
+  - Torres
+  - Valadas
+  - Valente
+  - Varandas
+  - Varela
+  - Vasconcelos
+  - Vaz
+  - Veloso
+  - Viana
+  - Vicente
+  - Vidal
+  - Vieira
+  - Viegas
+  - Vitorino
+  - Xavier

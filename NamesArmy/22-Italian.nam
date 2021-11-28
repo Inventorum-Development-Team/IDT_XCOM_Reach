@@ -1,0 +1,110 @@
+lookWeights:
+  - 47
+  - 50
+  - 2
+  - 1
+maleFirst:
+  - Trooper Francesco
+  - Trooper Alessandro
+  - Trooper Andrea
+  - Trooper Lorenzo
+  - Trooper Matteo
+  - Trooper Mattia
+  - Trooper Gabriele
+  - Trooper Riccardo
+  - Trooper Davide
+  - Trooper Leonardo
+  - Trooper Federico
+  - Trooper Luca
+  - Trooper Marco
+  - Trooper Giuseppe
+  - Trooper Tommaso
+  - Trooper Antonio
+  - Trooper Simone
+  - Trooper Giovanni
+  - Trooper Samuele
+  - Trooper Christian
+  - Trooper Alessio
+  - Trooper Nicola
+  - Trooper Diego
+  - Trooper Pietro
+  - Trooper Filippo
+  - Trooper Edoardo
+  - Trooper Cristian
+  - Trooper Daniele
+  - Trooper Emanuele
+  - Trooper Michele
+  - Trooper Gennaro
+  - Trooper Vincenzo
+  - Trooper Pasquale
+  - Trooper Carmine
+  - Trooper Carmelo
+  - Trooper Paolo
+femaleFirst:
+  - Trooper Sofia
+  - Trooper Giulia
+  - Trooper Sara
+  - Trooper Martina
+  - Trooper Giorgia
+  - Trooper Chiara
+  - Trooper Aurora
+  - Trooper Alice
+  - Trooper Emma
+  - Trooper Alessia
+  - Trooper Anna
+  - Trooper Francesca
+  - Trooper Noemi
+  - Trooper Elisa
+  - Trooper Matilde
+  - Trooper Giada
+  - Trooper Gaia
+  - Trooper Greta
+  - Trooper Elena
+  - Trooper Beatrice
+  - Trooper Viola
+  - Trooper Rebecca
+  - Trooper Nicole
+  - Trooper Arianna
+  - Trooper Ginevra
+  - Trooper Vittoria
+  - Trooper Asia
+  - Trooper Ilaria
+  - Trooper Federica
+  - Trooper Marta
+maleLast:
+  - Rossi
+  - Russo
+  - Ferrari
+  - Esposito
+  - Bianchi
+  - Romano
+  - Colombo
+  - Ricci
+  - Marino
+  - Greco
+  - Bruno
+  - Gallo
+  - Conti
+  - De Luca
+  - Mancini
+  - Costa
+  - Giordano
+  - Rizzo
+  - Lombardi
+  - Moretti
+  - Barbieri
+  - Fontana
+  - Santoro
+  - Mariani
+  - Rinaldi
+  - Caruso
+  - Ferrara
+  - Galli
+  - Martini
+  - Leone
+  - Abate
+  - De Simone
+  - Albanese
+  - Genovese
+  - Sansone
+  - Zanon

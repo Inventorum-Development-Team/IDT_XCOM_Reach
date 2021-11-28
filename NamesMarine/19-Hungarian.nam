@@ -1,0 +1,491 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Marine Abel
+  - Marine Adam
+  - Marine Adrian
+  - Marine Akos
+  - Marine Albert
+  - Marine Alex
+  - Marine Andor
+  - Marine Andras
+  - Marine Antal
+  - Marine Arnold
+  - Marine Aron
+  - Marine Arpad
+  - Marine Attila
+  - Marine Balazs
+  - Marine Balint
+  - Marine Barna
+  - Marine Barnabas
+  - Marine Bela
+  - Marine Bence
+  - Marine Bendeguz
+  - Marine Benedek
+  - Marine Benjamin
+  - Marine Bertalan
+  - Marine Botond
+  - Marine Csaba
+  - Marine Csongor
+  - Marine Daniel
+  - Marine David
+  - Marine Denes
+  - Marine Dezso
+  - Marine Dominik
+  - Marine Elemer
+  - Marine Emil
+  - Marine Endre
+  - Marine Erik
+  - Marine Erno
+  - Marine Ervin
+  - Marine Ferenc
+  - Marine Gabor
+  - Marine Gergely
+  - Marine Gergo
+  - Marine Geza
+  - Marine Gusztav
+  - Marine Gyorgy
+  - Marine Gyozo
+  - Marine Gyula
+  - Marine Henrik
+  - Marine Imre
+  - Marine Istvan
+  - Marine Ivan
+  - Marine Janos
+  - Marine Jeno
+  - Marine Jozsef
+  - Marine Kalman
+  - Marine Karoly
+  - Marine Kevin
+  - Marine Kornel
+  - Marine Kristof
+  - Marine Krisztian
+  - Marine Krisztofer
+  - Marine Lajos
+  - Marine Laszlo
+  - Marine Levente
+  - Marine Lorant
+  - Marine Marcell
+  - Marine Mark
+  - Marine Martin
+  - Marine Marton
+  - Marine Mate
+  - Marine Matyas
+  - Marine Mihaly
+  - Marine Miklos
+  - Marine Milan
+  - Marine Nandor
+  - Marine Noel
+  - Marine Norbert
+  - Marine Oliver
+  - Marine Otto
+  - Marine Pal
+  - Marine Patrik
+  - Marine Peter
+  - Marine Richard
+  - Marine Robert
+  - Marine Roland
+  - Marine Rudolf
+  - Marine Sandor
+  - Marine Szabolcs
+  - Marine Szilard
+  - Marine Szilveszter
+  - Marine Tamas
+  - Marine Tibor
+  - Marine Tivadar
+  - Marine Viktor
+  - Marine Vilmos
+  - Marine Vince
+  - Marine Zalan
+  - Marine Zoltan
+  - Marine Zsigmond
+  - Marine Zsolt
+  - Marine Zsombor
+femaleFirst:
+  - Marine Adrienn
+  - Marine Agi
+  - Marine Agnes
+  - Marine Agota
+  - Marine Alberta
+  - Marine Alexa
+  - Marine Alexandra
+  - Marine Aliz
+  - Marine Anasztazia
+  - Marine Andrea
+  - Marine Anett
+  - Marine Angyalka
+  - Marine Aniko
+  - Marine Anita
+  - Marine Anna
+  - Marine Annamaria
+  - Marine Aranka
+  - Marine Aurelia
+  - Marine Barbara
+  - Marine Beata
+  - Marine Beatrix
+  - Marine Bella
+  - Marine Bernadett
+  - Marine Berta
+  - Marine Bettina
+  - Marine Bianka
+  - Marine Boglarka
+  - Marine Bora
+  - Marine Borbala
+  - Marine Boriska
+  - Marine Borka
+  - Marine Brigitta
+  - Marine Cili
+  - Marine Csilla
+  - Marine Dia
+  - Marine Diana
+  - Marine Dora
+  - Marine Dorina
+  - Marine Dorottya
+  - Marine Edina
+  - Marine Edit
+  - Marine Emese
+  - Marine Emma
+  - Marine Eniko
+  - Marine Erika
+  - Marine Ernesztina
+  - Marine Erzsebet
+  - Marine Erzsi
+  - Marine Eszter
+  - Marine Etel
+  - Marine Etelka
+  - Marine Eva
+  - Marine Evelin
+  - Marine Fanni
+  - Marine Franciska
+  - Marine Gabriella
+  - Marine Gitta
+  - Marine Gizella
+  - Marine Gyongyi
+  - Marine Gyorgyi
+  - Marine Hajna
+  - Marine Hajnalka
+  - Marine Hanna
+  - Marine Henrietta
+  - Marine Ibolya
+  - Marine Ica
+  - Marine Ildiko
+  - Marine Ilka
+  - Marine Ilona
+  - Marine Iren
+  - Marine Irenke
+  - Marine Irma
+  - Marine Janka
+  - Marine Jolan
+  - Marine Judit
+  - Marine Julia
+  - Marine Julianna
+  - Marine Juliska
+  - Marine Karola
+  - Marine Karolina
+  - Marine Katalin
+  - Marine Katarina
+  - Marine Kati
+  - Marine Katinka
+  - Marine Kinga
+  - Marine Kitti
+  - Marine Klara
+  - Marine Klaudia
+  - Marine Kriszta
+  - Marine Krisztina
+  - Marine Laura
+  - Marine Lili
+  - Marine Lilla
+  - Marine Linka
+  - Marine Liza
+  - Marine Magdolna
+  - Marine Mara
+  - Marine Margit
+  - Marine Margo
+  - Marine Maria
+  - Marine Mariann
+  - Marine Marianna
+  - Marine Marika
+  - Marine Marta
+  - Marine Melinda
+  - Marine Monika
+  - Marine Nikolett
+  - Marine Nikoletta
+  - Marine Noemi
+  - Marine Nora
+  - Marine Olga
+  - Marine Orsolya
+  - Marine Petra
+  - Marine Piroska
+  - Marine Reka
+  - Marine Renata
+  - Marine Rita
+  - Marine Roza
+  - Marine Rozalia
+  - Marine Rozsa
+  - Marine Sara
+  - Marine Sarolta
+  - Marine Szabina
+  - Marine Szilvia
+  - Marine Terez
+  - Marine Terezia
+  - Marine Timea
+  - Marine Tunde
+  - Marine Valeria
+  - Marine Veronika
+  - Marine Viktoria
+  - Marine Virag
+  - Marine Vivien
+  - Marine Zita
+  - Marine ZsaZsa
+  - Marine Zsanett
+  - Marine Zsofia
+  - Marine Zsuzska
+  - Marine Zsuzsanna
+  - Marine Zsuzsi
+maleLast:
+  - Alfoldi
+  - Andrassy
+  - Annus
+  - Antal
+  - Arany
+  - Bakos
+  - Balassa
+  - Balazs
+  - Balint
+  - Balla
+  - Balog
+  - Balogh
+  - Barati
+  - Barna
+  - Barsony
+  - Barta
+  - Bartok
+  - Bathory
+  - Berzevicky
+  - Biro
+  - Bocskay
+  - Bodnar
+  - Bogdan
+  - Bognar
+  - Borbely
+  - Bori
+  - Boros
+  - Budai
+  - Csillag
+  - Csollany
+  - Csonka
+  - Csurgo
+  - Czako
+  - Czene
+  - Czobor
+  - Dardai
+  - Daroczy
+  - Deak
+  - Dobos
+  - Doczi
+  - Dombi
+  - Dozsa
+  - Dudas
+  - Egerszegi
+  - Eotvos
+  - Fabian
+  - Farago
+  - Farkas
+  - Fazekas
+  - Feher
+  - Fekete
+  - Ferenczy
+  - Fodor
+  - Forgach
+  - Forgacs
+  - Fulop
+  - Gal
+  - Gaspar
+  - Gazdag
+  - Gero
+  - Guba
+  - Gulyas
+  - Gyorffy
+  - Gyulai
+  - Hajdu
+  - Halasz
+  - Halmai
+  - Hamori
+  - Hankiss
+  - Hedervary
+  - Hegedus
+  - Hollo
+  - Horanszky
+  - Horthy
+  - Horvath
+  - Hrutka
+  - Hunyadi
+  - Illes
+  - Illeshazy
+  - Ilyes
+  - Istvanffy
+  - Jagadics
+  - Jakab
+  - Jaszi
+  - Jokai
+  - Jonas
+  - Joo
+  - Juhasz
+  - Kalanyos
+  - Kaldi
+  - Kallay
+  - Kammerer
+  - Karolyi
+  - Katona
+  - Kazinczy
+  - Kelemen
+  - Kemeny
+  - Kerekes
+  - Kertes
+  - Kiraly
+  - Kis
+  - Kiss
+  - Knesevich
+  - Koban
+  - Kocsis
+  - Kodaly
+  - Koranyi
+  - Kortosi
+  - Kossuth
+  - Kovacs
+  - Kovago
+  - Kozma
+  - Kulcsar
+  - Kun
+  - Kurti
+  - Kurtosi
+  - Kurutz
+  - Kuti
+  - Kutsera
+  - Lajtos
+  - Lakatos
+  - Laszlo
+  - Lehotka
+  - Lengyel
+  - Ligeti
+  - Liptak
+  - Lisztes
+  - Lugosi
+  - Lukacs
+  - Madar
+  - Magyar
+  - Major
+  - Malek
+  - Mandula
+  - Markovits
+  - Mate
+  - Matyus
+  - Mecs
+  - Meszaros
+  - Mindszenty
+  - Molnar
+  - Munkacsy
+  - Nadasdy
+  - Nagy
+  - Nemes
+  - Nemeth
+  - Noszaly
+  - Novak
+  - Nyilas
+  - Nyilasi
+  - Olah
+  - Onodi
+  - Orban
+  - Orczy
+  - Orosz
+  - Orsos
+  - Pal
+  - Palagyi
+  - Pandy
+  - Pap
+  - Papp
+  - Partos
+  - Pasztor
+  - Pataki
+  - Pazmany
+  - Pecely
+  - Perneky
+  - Peter
+  - Petofi
+  - Pinter
+  - Pongratz
+  - Pulszky
+  - Racz
+  - Rakosi
+  - Redik
+  - Revay
+  - Rezessy
+  - Ronay
+  - Rosner
+  - Rosza
+  - Rubik
+  - Safar
+  - Sandor
+  - Sebok
+  - Sereny
+  - Simon
+  - Sipos
+  - Soltesz
+  - Solti
+  - Solymosi
+  - Somogyi
+  - Soos
+  - Supola
+  - Suto
+  - Svarcz
+  - Szabo
+  - Szalai
+  - Szalay
+  - Szatmary
+  - Szechenyi
+  - Szekely
+  - Szekeres
+  - Szelepcsenyi
+  - Szeman
+  - Szemere
+  - Szilagyi
+  - Szoke
+  - Szucs
+  - Szuhay
+  - Tabory
+  - Takacs
+  - Tamas
+  - Teleki
+  - Temesvari
+  - Tessedik
+  - Thurzo
+  - Tisza
+  - Tokes
+  - Tokody
+  - Tolgyesi
+  - Torok
+  - Toth
+  - Ujlaky
+  - Urbanik
+  - Vajda
+  - Vamosi
+  - Varadi
+  - Varga
+  - Varkonyi
+  - Vass
+  - Vegh
+  - Verboczy
+  - Veres
+  - Vidrai
+  - Vincze
+  - Virag
+  - Voros
+  - Wessely
+  - Zatony
+  - Zavadszky
+  - Zrinyi
+  - Zsivozky
+  - Zsoldos

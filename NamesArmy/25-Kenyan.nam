@@ -1,0 +1,727 @@
+lookWeights:
+  - 0
+  - 0
+  - 1
+  - 99
+maleFirst:
+  - Trooper Abasi
+  - Trooper Adin
+  - Trooper Akili
+  - Trooper Amali
+  - Trooper Amaziah
+  - Trooper Ashura
+  - Trooper Chege
+  - Trooper Chilemba
+  - Trooper Chitundu
+  - Trooper Chiumbo
+  - Trooper Darweshi
+  - Trooper Etana
+  - Trooper Fadhili
+  - Trooper Feruzi
+  - Trooper Gachora
+  - Trooper Gacoki
+  - Trooper Gakere
+  - Trooper Gakuru
+  - Trooper Gatete
+  - Trooper Gathee
+  - Trooper Gathii
+  - Trooper Gatimu
+  - Trooper Gethii
+  - Trooper Gichinga
+  - Trooper Gicicio
+  - Trooper Gikuyu
+  - Trooper Githinji
+  - Trooper Githogori
+  - Trooper Gitonga
+  - Trooper Haji
+  - Trooper Hala
+  - Trooper Hamisi
+  - Trooper Hiuhu
+  - Trooper Ikinya
+  - Trooper Iregi
+  - Trooper Irungu
+  - Trooper Ita
+  - Trooper Itimu
+  - Trooper Jaramogi
+  - Trooper Jalil
+  - Trooper Jimiyu
+  - Trooper Jomo
+  - Trooper Jamil
+  - Trooper Juahar
+  - Trooper Jimiyu
+  - Trooper Jina
+  - Trooper Jirani
+  - Trooper Jomo
+  - Trooper Kafil
+  - Trooper Kagai
+  - Trooper Kagunda
+  - Trooper Kahiga
+  - Trooper Kairu
+  - Trooper Kamau
+  - Trooper Kamili
+  - Trooper Kanja
+  - Trooper Kanoro
+  - Trooper Karani
+  - Trooper Karega
+  - Trooper Kariuki
+  - Trooper Kereenyaga
+  - Trooper Kiambiroiro
+  - Trooper Kianjahe
+  - Trooper Kiano
+  - Trooper Kianyandaarwa
+  - Trooper Kiara
+  - Trooper Kifimbo
+  - Trooper Kihara
+  - Trooper Kihiga
+  - Trooper Kimathi
+  - Trooper Kimotho
+  - Trooper Kinoro
+  - Trooper Kinyua
+  - Trooper Kioi
+  - Trooper Kirimi
+  - Trooper Kirinyaga
+  - Trooper Kithingi
+  - Trooper Kiwonto
+  - Trooper Koigi
+  - Trooper Kuguru
+  - Trooper Kwasi
+  - Trooper Lipapwiche
+  - Trooper Lisimba
+  - Trooper Lusala
+  - Trooper Macaria
+  - Trooper Maina
+  - Trooper Maitho
+  - Trooper Makalani
+  - Trooper Makori
+  - Trooper Mathaathi
+  - Trooper Matu
+  - Trooper Matunde
+  - Trooper Maundu
+  - Trooper Mbogo
+  - Trooper Mbui
+  - Trooper Miano
+  - Trooper Migwi
+  - Trooper Mokabi
+  - Trooper Morani
+  - Trooper Mosi
+  - Trooper Muenda
+  - Trooper Muga
+  - Trooper Mugendi
+  - Trooper Mugi
+  - Trooper Mugo
+  - Trooper Muiru
+  - Trooper Muiruri
+  - Trooper Mukanda
+  - Trooper Mukiri
+  - Trooper Mukuru
+  - Trooper Munene
+  - Trooper Munoru
+  - Trooper Muraguri
+  - Trooper Murathi
+  - Trooper Muraya
+  - Trooper Muriithi
+  - Trooper Murimi
+  - Trooper Muriu
+  - Trooper Muriuki
+  - Trooper Muroki
+  - Trooper Muruthi
+  - Trooper Mutahi
+  - Trooper Mutegi
+  - Trooper Mutemi
+  - Trooper Muthee
+  - Trooper Muthemba
+  - Trooper Muthengi
+  - Trooper Mutheru
+  - Trooper Muthomi
+  - Trooper Muthuri
+  - Trooper Mutira
+  - Trooper Mutiri
+  - Trooper Mutitu
+  - Trooper Mutonyi
+  - Trooper Mutua
+  - Trooper Muturi
+  - Trooper Muugi
+  - Trooper Mwaka
+  - Trooper Mwangi
+  - Trooper Mwara
+  - Trooper Mwarania
+  - Trooper Mwaria
+  - Trooper Mwenda
+  - Trooper Nangila
+  - Trooper Nangwaya
+  - Trooper Ndegwa
+  - Trooper Ndemi
+  - Trooper Nderu
+  - Trooper Ndwiga
+  - Trooper Ngare
+  - Trooper Ngigi
+  - Trooper Ngumo
+  - Trooper Njama
+  - Trooper Njanu
+  - Trooper Njata
+  - Trooper Njau
+  - Trooper Njiraini
+  - Trooper Njiru
+  - Trooper Njogu
+  - Trooper Njora
+  - Trooper Njowga
+  - Trooper Njururi
+  - Trooper Nyachae
+  - Trooper Nyaga
+  - Trooper Nyamu
+  - Trooper Nyatui
+  - Trooper Nyoike
+  - Trooper Obama
+  - Trooper Obuya
+  - Trooper Ochieng
+  - Trooper Odikinyi
+  - Trooper Odinga
+  - Trooper Odonga
+  - Trooper Odour
+  - Trooper Ohon
+  - Trooper Ojwang
+  - Trooper Okello
+  - Trooper Okeyo
+  - Trooper Okoth
+  - Trooper Oluoch
+  - Trooper Omariba
+  - Trooper Omondi
+  - Trooper Omwancha
+  - Trooper Ongweng
+  - Trooper Onindo
+  - Trooper Onkwani
+  - Trooper Onyango
+  - Trooper Opiyo
+  - Trooper Osogo
+  - Trooper Othiambo
+  - Trooper Otenio
+  - Trooper Owino
+  - Trooper Owiti
+  - Trooper Owuor
+  - Trooper Pili
+  - Trooper Radhi
+  - Trooper Riitho
+  - Trooper Ruguru
+  - Trooper Ruhiu
+  - Trooper Runo
+  - Trooper Sabra
+  - Trooper Safi
+  - Trooper Shamim
+  - Trooper Shani
+  - Trooper Simba
+  - Trooper Sokoro
+  - Trooper Thabiti
+  - Trooper Tumaini
+  - Trooper Tuwile
+  - Trooper Wachiru
+  - Trooper Waga
+  - Trooper Waithaka
+  - Trooper Waitimu
+  - Trooper Waiyaki
+  - Trooper Wamai
+  - Trooper Wambua
+  - Trooper Wamugunda
+  - Trooper Wamukota
+  - Trooper Wamwara
+  - Trooper Wangombe
+  - Trooper Wangondu
+  - Trooper Wanjala
+  - Trooper Wanjohi
+  - Trooper Wanyanga
+  - Trooper Waruhiu
+  - Trooper Warui
+  - Trooper Waweru
+  - Trooper Wekesa
+femaleFirst:
+  - Trooper Aaliyah
+  - Trooper Adhra
+  - Trooper Adila
+  - Trooper Adimu
+  - Trooper Adin
+  - Trooper Adla
+  - Trooper Afaafa
+  - Trooper Afifa
+  - Trooper Afifah
+  - Trooper Afiya
+  - Trooper Afrika
+  - Trooper Afya
+  - Trooper Ahadi
+  - Trooper Aida
+  - Trooper Ainra
+  - Trooper Ajia
+  - Trooper Akello
+  - Trooper Akila
+  - Trooper Akilah
+  - Trooper Akili
+  - Trooper Aliya
+  - Trooper Almasi
+  - Trooper Aluna
+  - Trooper Amali
+  - Trooper Amana
+  - Trooper Amaziah
+  - Trooper Amina
+  - Trooper Aminah
+  - Trooper Aminali
+  - Trooper Aminifu
+  - Trooper Amira
+  - Trooper Amne
+  - Trooper Angavu
+  - Trooper Anisun
+  - Trooper Arafa
+  - Trooper Arifa
+  - Trooper Arusi
+  - Trooper Asali
+  - Trooper Asatira
+  - Trooper Asha
+  - Trooper Ashura
+  - Trooper Asilia
+  - Trooper Asiya
+  - Trooper Asma
+  - Trooper Asmahani
+  - Trooper Asumini
+  - Trooper Asya
+  - Trooper Awena
+  - Trooper Aza
+  - Trooper Aziza
+  - Trooper Badriya
+  - Trooper Bahati
+  - Trooper Bahiya
+  - Trooper Barke
+  - Trooper Basha
+  - Trooper Bashaam
+  - Trooper Bashira
+  - Trooper Basma
+  - Trooper Basmah
+  - Trooper Batuuli
+  - Trooper Baya
+  - Trooper Bayyina
+  - Trooper Bebi
+  - Trooper Bia
+  - Trooper Bimbaya
+  - Trooper Bimdogo
+  - Trooper Bimkubwa
+  - Trooper Bimnono
+  - Trooper Bishara
+  - Trooper Bitisururu
+  - Trooper Bititi
+  - Trooper Biubwa
+  - Trooper Buqisi
+  - Trooper Busara
+  - Trooper Bushira
+  - Trooper Chaniya
+  - Trooper Chausiku
+  - Trooper Chiku
+  - Trooper Chuki
+  - Trooper Dabiku
+  - Trooper Dafina
+  - Trooper Dalila
+  - Trooper Dalili
+  - Trooper Damisi
+  - Trooper Dhakiya
+  - Trooper Dhambizao
+  - Trooper Dhuriya
+  - Trooper Dodo
+  - Trooper Ducha
+  - Trooper Duni
+  - Trooper Durah
+  - Trooper Durra
+  - Trooper Eidi
+  - Trooper Eshe
+  - Trooper Etana
+  - Trooper Fadhila
+  - Trooper Fadhili
+  - Trooper Fadiya
+  - Trooper Fadari
+  - Trooper Fahima
+  - Trooper Fahimah
+  - Trooper Faida
+  - Trooper Faika
+  - Trooper Faiza
+  - Trooper Faizah
+  - Trooper Fanaka
+  - Trooper Fanikia
+  - Trooper Faraja
+  - Trooper Farashuu
+  - Trooper Farida
+  - Trooper Farisi
+  - Trooper Fasaha
+  - Trooper Fathiya
+  - Trooper Fatima
+  - Trooper Fatuma
+  - Trooper Fauziya
+  - Trooper Feruzi
+  - Trooper Fila
+  - Trooper Firdawsi
+  - Trooper Firyali
+  - Trooper Fujo
+  - Trooper Furaha
+  - Trooper Gasira
+  - Trooper Ghalyela
+  - Trooper Ghanima
+  - Trooper Gharibuu
+  - Trooper Gheche
+  - Trooper Ghinjo
+  - Trooper Ghipe
+  - Trooper Habeebah
+  - Trooper Habiba
+  - Trooper Habibah
+  - Trooper Hadhi
+  - Trooper Hadiya
+  - Trooper Hafidha
+  - Trooper Hafsa
+  - Trooper Hafsah
+  - Trooper Haiba
+  - Trooper Haifa
+  - Trooper Hakika
+  - Trooper Hakima
+  - Trooper Hala
+  - Trooper Halili
+  - Trooper Halima
+  - Trooper Halisi
+  - Trooper Hamida
+  - Trooper Hanaa
+  - Trooper Hanifa
+  - Trooper Hanuni
+  - Trooper Haoniyao
+  - Trooper Harbuu
+  - Trooper Hartha
+  - Trooper Hasanati
+  - Trooper Hashiki
+  - Trooper Hasijna
+  - Trooper Hasina
+  - Trooper Hasnaa
+  - Trooper Hawa
+  - Trooper Hawla
+  - Trooper Hazina
+  - Trooper Hediye
+  - Trooper Hiari
+  - Trooper Hiba
+  - Trooper Hidaya
+  - Trooper Himidi
+  - Trooper Hisani
+  - Trooper Huruma
+  - Trooper Ibtisam
+  - Trooper Ikinya
+  - Trooper Ilham
+  - Trooper Inaya
+  - Trooper Intisar
+  - Trooper Ita
+  - Trooper Itidal
+  - Trooper Jaha
+  - Trooper Jahi
+  - Trooper Jamila
+  - Trooper Jana
+  - Trooper Jauhar
+  - Trooper Jina
+  - Trooper Jirani
+  - Trooper Johanna
+  - Trooper Johari
+  - Trooper Jokha
+  - Trooper Jumapili
+  - Trooper Juwayria
+  - Trooper Kabisa
+  - Trooper Kadija
+  - Trooper Kainda
+  - Trooper Kamaria
+  - Trooper Kamili
+  - Trooper Kanai
+  - Trooper Kanika
+  - Trooper Karama
+  - Trooper Karima
+  - Trooper Karimu
+  - Trooper Kaweria
+  - Trooper Kesi
+  - Trooper Khadija
+  - Trooper Kibibi
+  - Trooper Kifimbo
+  - Trooper Kijakazi
+  - Trooper Kinaya
+  - Trooper Kioni
+  - Trooper Kipenzi
+  - Trooper Kisima
+  - Trooper Kito
+  - Trooper Lamia
+  - Trooper Latifa
+  - Trooper Latifah
+  - Trooper Latifu
+  - Trooper Layla
+  - Trooper Lela
+  - Trooper Lila
+  - Trooper Madaha
+  - Trooper Madiha
+  - Trooper Maisha
+  - Trooper Makena
+  - Trooper Makini
+  - Trooper Malaika
+  - Trooper Malia
+  - Trooper Malika
+  - Trooper Malkia
+  - Trooper Mariamu
+  - Trooper Marini
+  - Trooper Marjani
+  - Trooper Mashavu
+  - Trooper Masika
+  - Trooper Maskini
+  - Trooper Maulidi
+  - Trooper Merah
+  - Trooper Mila
+  - Trooper Mosi
+  - Trooper Muna
+  - Trooper Munira
+  - Trooper Murua
+  - Trooper Mwajuma
+  - Trooper Mwamini
+  - Trooper Mwasaa
+  - Trooper Nabila
+  - Trooper Nadra
+  - Trooper Nafula
+  - Trooper Naima
+  - Trooper Najia
+  - Trooper Najma
+  - Trooper Nana
+  - Trooper Ndege
+  - Trooper Neema
+  - Trooper Nena
+  - Trooper Ngina
+  - Trooper Nia
+  - Trooper Niara
+  - Trooper Njeri
+  - Trooper Nuha
+  - Trooper Nura
+  - Trooper Nuru
+  - Trooper Paka
+  - Trooper Panya
+  - Trooper Pasua
+  - Trooper Pili
+  - Trooper Rabia
+  - Trooper Radhi
+  - Trooper Rahma
+  - Trooper Ramla
+  - Trooper Raziya
+  - Trooper Reem
+  - Trooper Rehema
+  - Trooper Rim
+  - Trooper Rukiya
+  - Trooper Ruqayah
+  - Trooper Saada
+  - Trooper Sabiha
+  - Trooper Sabra
+  - Trooper Sadaka
+  - Trooper Sadiki
+  - Trooper Saida
+  - Trooper Sakina
+  - Trooper Sala
+  - Trooper Salama
+  - Trooper Salima
+  - Trooper Samiha
+  - Trooper Samira
+  - Trooper Sanaa
+  - Trooper Sanura
+  - Trooper Sauda
+  - Trooper Shahida
+  - Trooper Shamim
+  - Trooper Shani
+  - Trooper Sharifa
+  - Trooper Shawana
+  - Trooper Shukura
+  - Trooper Siham
+  - Trooper Sikudhani
+  - Trooper Siri
+  - Trooper Sisya
+  - Trooper Siti
+  - Trooper Subira
+  - Trooper Suhaila
+  - Trooper Tabia
+  - Trooper Tamasha
+  - Trooper Tatu
+  - Trooper Tawa
+  - Trooper Tuhfa
+  - Trooper Tumaini
+  - Trooper Wambui
+  - Trooper Waseme
+  - Trooper Yumna
+  - Trooper Pusra
+  - Trooper Zahra
+  - Trooper Zaida
+  - Trooper Zaina
+  - Trooper Zainabu
+  - Trooper Zakiya
+  - Trooper Zalika
+  - Trooper Zarifa
+  - Trooper Zarina
+  - Trooper Zawadi
+  - Trooper Zera
+  - Trooper Zulaykha
+  - Trooper Zulekha
+  - Trooper Zuwena
+maleLast:
+  - Abdullah
+  - Aga
+  - Ahmed
+  - Akina
+  - Ali
+  - Amanaka
+  - Ambani
+  - Amin
+  - Aneko
+  - Asoyo
+  - Atieno
+  - Audi
+  - Badat
+  - Barasa
+  - Bhudia
+  - Bilali
+  - Birir
+  - Biwott
+  - Boit
+  - Chege
+  - Chelimo
+  - Chepchumba
+  - Chudasama
+  - Daar
+  - Echesa
+  - Ekhalie
+  - Ereng
+  - Gikonyo
+  - Inkera
+  - Irungu
+  - Itote
+  - Jakoyo
+  - Janmohamed
+  - Jesani
+  - Kagwe
+  - Kamande
+  - Kamaru
+  - Kamau
+  - Kamotho
+  - Karanja
+  - Karim
+  - Kariuki
+  - Karumba
+  - Kayange
+  - Keino
+  - Kenga
+  - Kenyatta
+  - Kiano
+  - Kibaki
+  - Kijana
+  - Kimathi
+  - Kimunya
+  - Kipketer
+  - Kipyego
+  - Kitur
+  - Koinange
+  - Konde
+  - Lagat
+  - Loroupe
+  - Luseno
+  - Luvutsi
+  - Macharia
+  - Machogu
+  - Magugu
+  - Makacha
+  - Maruti
+  - Masai
+  - Mathenge
+  - Matiba
+  - Mazrui
+  - Mboya
+  - Mdawida
+  - Mehta
+  - Michucki
+  - Migai
+  - Misiani
+  - Modi
+  - Moi
+  - Muchoki
+  - Mudavadi
+  - Muiruri
+  - Mulama
+  - Muliro
+  - Mumba
+  - Murumbi
+  - Murunga
+  - Murungaru
+  - Musyoka
+  - Muttendango
+  - Mwangi
+  - Mwariama
+  - Mwatha
+  - Ndege
+  - Ndereba
+  - Ngei
+  - Ngoche
+  - Ngugi
+  - Njenga
+  - Njonjo
+  - Njoroge
+  - Njue
+  - Ntalami
+  - Nyachae
+  - Nyandoro
+  - Obama
+  - Obanda
+  - Obuya
+  - Ochieng
+  - Odera
+  - Odhiambo
+  - Odinga
+  - Odumbe
+  - Oduol
+  - Oduor
+  - Ogola
+  - Ogot
+  - Okayo
+  - Okoth
+  - Okumu
+  - Oliech
+  - Olum
+  - Omondi
+  - Ongondo
+  - Onyango
+  - Orengo
+  - Origi
+  - Osiako
+  - Otieno
+  - Otunga
+  - Ouko
+  - Ouma
+  - Oyuga
+  - Patel
+  - Pinto
+  - Quaraishy
+  - Ramrakha
+  - Ring
+  - Rombo
+  - Rono
+  - Rubia
+  - Sadiq
+  - Sande
+  - Santos
+  - Serry
+  - Shah
+  - Shaheen
+  - Sharma
+  - Sheikh
+  - Sorongo
+  - Suji
+  - Tergat
+  - Thuku
+  - Tikolo
+  - Tiyoi
+  - Varaiya
+  - Waciuri
+  - Wainaina
+  - Wainana
+  - Wakiihuri
+  - Wambugu
+  - Wanga
+  - Wangila
+  - Wanja
+  - Wanjiru
+  - Wanyama
+  - Wanyoike
+  - Waruinge
+  - Wa Thiongo
+  - Wa Wamwere
+  - Wa Wanjau

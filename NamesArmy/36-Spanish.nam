@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - Trooper Aaron
+  - Trooper Adan
+  - Trooper Alberto
+  - Trooper Alejandro
+  - Trooper Alfonso
+  - Trooper Andres
+  - Trooper Angel
+  - Trooper Antonio
+  - Trooper Augusto
+  - Trooper Benedicto
+  - Trooper Benjamin
+  - Trooper Carlos
+  - Trooper Daniel
+  - Trooper David
+  - Trooper Diego
+  - Trooper Eduardo
+  - Trooper Elias
+  - Trooper Eliseo
+  - Trooper Enrique
+  - Trooper Emanuel
+  - Trooper Eric
+  - Trooper Ernesto
+  - Trooper Esteban
+  - Trooper Fabio
+  - Trooper Felipe
+  - Trooper Felix
+  - Trooper Fernando
+  - Trooper Fidel
+  - Trooper Fortunato
+  - Trooper Francisco
+  - Trooper Gabriel
+  - Trooper Gerardo
+  - Trooper Hugo
+  - Trooper Humberto
+  - Trooper Ismael
+  - Trooper Ivan
+  - Trooper Jacobo
+  - Trooper Jaime
+  - Trooper Javier
+  - Trooper Jesus
+  - Trooper Joel
+  - Trooper Jorge
+  - Trooper Jose
+  - Trooper Juan
+  - Trooper Julian
+  - Trooper Leo
+  - Trooper Leonardo
+  - Trooper Lucas
+  - Trooper Luis
+  - Trooper Manuel
+  - Trooper Marco
+  - Trooper Marcos
+  - Trooper Martin
+  - Trooper Matias
+  - Trooper Mateo
+  - Trooper Maximiliano
+  - Trooper Miguel
+  - Trooper Nataniel
+  - Trooper Nicolas
+  - Trooper Noe
+  - Trooper Octavio
+  - Trooper Orlando
+  - Trooper Oscar
+  - Trooper Pablo
+  - Trooper Pedro
+  - Trooper Rafael
+  - Trooper Ramon
+  - Trooper Raul
+  - Trooper Rene
+  - Trooper Ricardo
+  - Trooper Roberto
+  - Trooper Rolando
+  - Trooper Salvador
+  - Trooper Santiago
+  - Trooper Sebastian
+  - Trooper Sergio
+  - Trooper Silvestre
+  - Trooper Stefano
+  - Trooper Teodoro
+  - Trooper Tito
+  - Trooper Tomas
+  - Trooper Valentin
+  - Trooper Vicente
+  - Trooper Victor
+  - Trooper Xavier
+femaleFirst:
+  - Trooper Adriana
+  - Trooper Aida
+  - Trooper Alejandra
+  - Trooper Alexia
+  - Trooper Alma
+  - Trooper Ana
+  - Trooper Angela
+  - Trooper Angelica
+  - Trooper Aurora
+  - Trooper Barbara
+  - Trooper Bianca
+  - Trooper Brenda
+  - Trooper Carina
+  - Trooper Carla
+  - Trooper Carolina
+  - Trooper Casandra
+  - Trooper Catalina
+  - Trooper Claudia
+  - Trooper Cristina
+  - Trooper Dolores
+  - Trooper Dora
+  - Trooper Elena
+  - Trooper Eliana
+  - Trooper Elvira
+  - Trooper Ema
+  - Trooper Esmeralda
+  - Trooper Eva
+  - Trooper Felicia
+  - Trooper Fiona
+  - Trooper Gabriela
+  - Trooper Gloria
+  - Trooper Guadalupe
+  - Trooper Ines
+  - Trooper Isabel
+  - Trooper Jesica
+  - Trooper Juana
+  - Trooper Laura
+  - Trooper Lidia
+  - Trooper Liliana
+  - Trooper Linda
+  - Trooper Lisa
+  - Trooper Lorena
+  - Trooper Magdalena
+  - Trooper Marcela
+  - Trooper Margarita
+  - Trooper Maria
+  - Trooper Mariana
+  - Trooper Marisol
+  - Trooper Monica
+  - Trooper Nadia
+  - Trooper Nancy
+  - Trooper Natalia
+  - Trooper Noemi
+  - Trooper Olivia
+  - Trooper Patricia
+  - Trooper Paulina
+  - Trooper Raquel
+  - Trooper Rosa
+  - Trooper Selena
+  - Trooper Sofia
+  - Trooper Sonia
+  - Trooper Talia
+  - Trooper Tatiana
+  - Trooper Teresa
+  - Trooper Vanesa
+  - Trooper Veronica
+  - Trooper Victoria
+  - Trooper Yolanda
+maleLast:
+  - Aguilar
+  - Alba
+  - Alonso
+  - Alvarado
+  - Alvarez
+  - Avila
+  - Calderon
+  - Campos
+  - Cardenas
+  - Castilla
+  - Cervantes
+  - Chavez
+  - Cortez
+  - Cruz
+  - De La Cruz
+  - De La Rosa
+  - De Soto
+  - Diaz
+  - Dominguez
+  - Estrada
+  - Falcon
+  - Fernandez
+  - Figueroa
+  - Flores
+  - Fuentes
+  - Garcia
+  - Garza
+  - Gomez
+  - Gonzalez
+  - Guerrero
+  - Gutierrez
+  - Guzman
+  - Hernandez
+  - Herrera
+  - Jimenez
+  - Juarez
+  - Leon
+  - Lima
+  - Lopez
+  - Loya
+  - Lucio
+  - Luna
+  - Martinez
+  - Medina
+  - Mejia
+  - Mendez
+  - Mendoza
+  - Miranda
+  - Montero
+  - Montes
+  - Morales
+  - Moreno
+  - Munoz
+  - Navarro
+  - Nunez
+  - Ortega
+  - Ortiz
+  - Pacheco
+  - Pascual
+  - Perez
+  - Ramirez
+  - Ramos
+  - Reyes
+  - Rios
+  - Rivera
+  - Rodriguez
+  - Romero
+  - Rosa
+  - Ruiz
+  - Sanchez
+  - Sandoval
+  - Santa Cruz
+  - Santana
+  - Santiago
+  - Santos
+  - Sosa
+  - Suarez
+  - Tapia
+  - Torres
+  - Trejo
+  - Trevino
+  - Trujillo
+  - Valdez
+  - Vasquez
+  - Vega
+  - Velasquez

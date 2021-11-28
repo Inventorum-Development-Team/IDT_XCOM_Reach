@@ -1,0 +1,201 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Marine Aaron
+  - Marine Adam
+  - Marine Adrian
+  - Marine Alfredo
+  - Marine Austin
+  - Marine Brandon
+  - Marine Brian
+  - Marine Calvin
+  - Marine Carl
+  - Marine Chance
+  - Marine Charlie
+  - Marine Clarence
+  - Marine Cody
+  - Marine Connor
+  - Marine Damian
+  - Marine Donald
+  - Marine Dwight
+  - Marine Dylan
+  - Marine Ed
+  - Marine Eduardo
+  - Marine Elliott
+  - Marine Ethan
+  - Marine Evan
+  - Marine Ezekiel
+  - Marine Garrett
+  - Marine George
+  - Marine Giovanni
+  - Marine Grayson
+  - Marine James
+  - Marine Jason
+  - Marine Jay
+  - Marine Jeremy
+  - Marine Joel
+  - Marine John
+  - Marine Joshua
+  - Marine Keith
+  - Marine Kevin
+  - Marine Lester
+  - Marine Liam
+  - Marine Mark
+  - Marine Omar
+  - Marine Oscar
+  - Marine Owen
+  - Marine Parker
+  - Marine Pete
+  - Marine Rick
+  - Marine Robert
+  - Marine Samuel
+  - Marine Santiago
+  - Marine Saul
+  - Marine Scott
+  - Marine Seth
+  - Marine Shawn
+  - Marine Simon
+  - Marine Spencer
+  - Marine Steven
+  - Marine Timothy
+  - Marine Tom
+  - Marine Tucker
+  - Marine Victor
+  - Marine Vincent
+  - Marine Virgil
+femaleFirst:
+  - Marine Adriana
+  - Marine Alexandra
+  - Marine Alexis
+  - Marine Allison
+  - Marine Angela
+  - Marine Anna
+  - Marine Audrey
+  - Marine Barbara
+  - Marine Bethany
+  - Marine Brianna
+  - Marine Cadence
+  - Marine Catherine
+  - Marine Chelsea
+  - Marine Chloe
+  - Marine Cora
+  - Marine Denise
+  - Marine Esperanza
+  - Marine Esther
+  - Marine Evelyn
+  - Marine Faith
+  - Marine Gabrielle
+  - Marine Georgia
+  - Marine Guadalupe
+  - Marine Isabel
+  - Marine Jasmine
+  - Marine Jillian
+  - Marine Julia
+  - Marine Kaitlyn
+  - Marine Kara
+  - Marine Karen
+  - Marine Kelly
+  - Marine Layla
+  - Marine Lily
+  - Marine Lucy
+  - Marine Madeline
+  - Marine Madison
+  - Marine Margaret
+  - Marine Maria
+  - Marine Melanie
+  - Marine Melissa
+  - Marine Mia
+  - Marine Michelle
+  - Marine Miranda
+  - Marine Olivia
+  - Marine Paige
+  - Marine Patricia
+  - Marine Reese
+  - Marine Riley
+  - Marine Sarah
+  - Marine Savannah
+  - Marine Selena
+  - Marine Sigourney
+  - Marine Taylor
+  - Marine Tiffany
+  - Marine Vanessa
+  - Marine Violet
+  - Marine Zoey
+maleLast:
+  - Becker
+  - Benedict
+  - Bowers
+  - Bradley
+  - Brewster
+  - Bryant
+  - Burroughs
+  - Carlton
+  - Carr
+  - Carter
+  - Chase
+  - Childers
+  - Colby
+  - Crawley
+  - Crossett
+  - Daley
+  - Davies
+  - Dodge
+  - Evans
+  - Gallagher
+  - Gates
+  - Goddard
+  - Grady
+  - Griffith
+  - Gutierrez
+  - Harding
+  - Harper
+  - Hicks
+  - Horton
+  - Hudson
+  - Hunt
+  - Johnson
+  - Kay
+  - Kellogg
+  - Kemp
+  - Kendrick
+  - King
+  - Kirk
+  - Lawson
+  - Machado
+  - McNeil
+  - Meador
+  - Miller
+  - Mitchell
+  - Morris
+  - Nash
+  - North
+  - O'Connell
+  - Ortiz
+  - Palacios
+  - Partridge
+  - Patrick
+  - Perkins
+  - Porter
+  - Prewitt
+  - Rapp
+  - Ritchie
+  - Rooney
+  - Rossi
+  - Salomon
+  - Scroggins
+  - Shelley
+  - Smiley
+  - Sorensen
+  - Stein
+  - Stephens
+  - Stoddard
+  - Thompson
+  - Tirado
+  - Underwood
+  - Wade
+  - Wagner
+  - Webb
+  - Tyler

@@ -1,17 +1,22 @@
 XCOM Reach, a total conversion by the Inventorum Development Team
 
 A small total conversion, focused on the Fall of Reach: a major battle in the Halo universe, fought on the fortress world of Reach. Six weeks of intense combat for the humankind's main military hub and one of the last human-controlled worlds. 
+#Halo Wars style mod - Created in 2014 by Diemaco for no good reason, improved and expanded in 2021 by IDT efrenespartano & Ikhanad 'cause we love Halo
+
 
 Credits:
-*Ikhanad: lead design
-*efrenespartano: lead design
+*Alnoaht: beta tester
+*efrenespartano: lead design, sprites and rulesets
+*Filip H: beta tester, ideas and scripts
+*Hans Woofington: beta tester, inspiration for armor parts used in SPI paperdoll, ODST, army and marine fatigues paperdoll template.
+*Ikhanad: lead design, Pedia entries text
 
-*bulletdesigner: original Falcon tileset (BD_PLANE, DB_ROTOR_BLADES)
+
+*bulletdesigner: original Pelican and Falcon tilesets (modified)
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
-*Hans Woofington: inspiration for armor parts used in SPI paperdoll
-*Leflair: Kig-Yar, Sangheili, Unggoy spritesheet basis
-*Solarius Sorch: SPI spritesheet basis (modified)
+*Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template
+*Solarius Sorch: SPI spritesheet template (modified)
 *Wallz2296: Sangheili paperdolls
 
 

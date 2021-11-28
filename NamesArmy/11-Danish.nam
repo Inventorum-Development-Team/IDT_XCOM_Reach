@@ -1,0 +1,786 @@
+lookWeights:
+  - 49
+  - 49
+  - 2
+  - 0
+maleFirst:
+  - Trooper Absalon
+  - Trooper Adam
+  - Trooper Adolf
+  - Trooper Albert
+  - Trooper Alex
+  - Trooper Alexander
+  - Trooper Alf
+  - Trooper Alfred
+  - Trooper Allan
+  - Trooper Anders
+  - Trooper Andreas
+  - Trooper Anker
+  - Trooper Anton
+  - Trooper Arne
+  - Trooper Arnold
+  - Trooper Aron
+  - Trooper Arthur
+  - Trooper Arvid
+  - Trooper Asbjoorn
+  - Trooper Asger
+  - Trooper Aske
+  - Trooper Asmus
+  - Trooper August
+  - Trooper Axel
+  - Trooper Bendt
+  - Trooper Benjamin
+  - Trooper Benny
+  - Trooper Bent
+  - Trooper Bernhard
+  - Trooper Bernt
+  - Trooper Bertel
+  - Trooper Berthel
+  - Trooper Bertram
+  - Trooper Birger
+  - Trooper Bjarke
+  - Trooper Bjarne
+  - Trooper Bjork
+  - Trooper Bjorn
+  - Trooper Bo
+  - Trooper Boje
+  - Trooper Borge
+  - Trooper Boye
+  - Trooper Brian
+  - Trooper Bruno
+  - Trooper Carsten
+  - Trooper Casper
+  - Trooper Chresten
+  - Trooper Chris
+  - Trooper Christen
+  - Trooper Christian
+  - Trooper Christoffer
+  - Trooper Christopher
+  - Trooper Claus
+  - Trooper Daniel
+  - Trooper Danni
+  - Trooper Danny
+  - Trooper David
+  - Trooper Dennis
+  - Trooper Ditlev
+  - Trooper Edvard
+  - Trooper Edvin
+  - Trooper Egon
+  - Trooper Eigil
+  - Trooper Ejgil
+  - Trooper Ejnar
+  - Trooper Ejner
+  - Trooper Ejvind
+  - Trooper Elias
+  - Trooper Elmer
+  - Trooper Elo
+  - Trooper Emanuel
+  - Trooper Emil
+  - Trooper Erik
+  - Trooper Erland
+  - Trooper Erling
+  - Trooper Ernst
+  - Trooper Esajas
+  - Trooper Esben
+  - Trooper Eskild
+  - Trooper Evald
+  - Trooper Ferdinand
+  - Trooper Filip
+  - Trooper Finn
+  - Trooper Flemming
+  - Trooper Frands
+  - Trooper Frank
+  - Trooper Frans
+  - Trooper Freddy
+  - Trooper Frede
+  - Trooper Frederik
+  - Trooper Frithiof
+  - Trooper Frithjof
+  - Trooper Frits
+  - Trooper Frode
+  - Trooper Georg
+  - Trooper Gerhard
+  - Trooper Germund
+  - Trooper Gert
+  - Trooper Gorm
+  - Trooper Gotfred
+  - Trooper Gregers
+  - Trooper Gunder
+  - Trooper Gunnar
+  - Trooper Gunner
+  - Trooper Gustav
+  - Trooper Harald
+  - Trooper Hardy
+  - Trooper Harry
+  - Trooper Helge
+  - Trooper Helmer
+  - Trooper Hemming
+  - Trooper Henning
+  - Trooper Henrik
+  - Trooper Henry
+  - Trooper Herman
+  - Trooper Hjalmar
+  - Trooper Hjalte
+  - Trooper Holger
+  - Trooper Hugo
+  - Trooper Immanuel
+  - Trooper Ingolf
+  - Trooper Ivan
+  - Trooper Ivar
+  - Trooper Iver
+  - Trooper Jacob
+  - Trooper Jakob
+  - Trooper Jan
+  - Trooper Jannick
+  - Trooper Jannik
+  - Trooper Jens
+  - Trooper Jeppe
+  - Trooper Jeremias
+  - Trooper Jes
+  - Trooper Jesper
+  - Trooper Jim
+  - Trooper Jimmi
+  - Trooper Jimmy
+  - Trooper Joachim
+  - Trooper Joakim
+  - Trooper Joel
+  - Trooper Johan
+  - Trooper Johannes
+  - Trooper John
+  - Trooper Johnny
+  - Trooper Jon
+  - Trooper Jonas
+  - Trooper Jonatan
+  - Trooper Jonathan
+  - Trooper Jorgen
+  - Trooper Jorn
+  - Trooper Josef
+  - Trooper Jul
+  - Trooper Julian
+  - Trooper Julius
+  - Trooper Just
+  - Trooper Kaj
+  - Trooper Kaleb
+  - Trooper Karl
+  - Trooper Karsten
+  - Trooper Kasper
+  - Trooper Keld
+  - Trooper Ken
+  - Trooper Kenneth
+  - Trooper Kent
+  - Trooper Kevin
+  - Trooper Kim
+  - Trooper Kjeld
+  - Trooper Klaus
+  - Trooper Knud
+  - Trooper Kresten
+  - Trooper Kristen
+  - Trooper Kristian
+  - Trooper Kristoffer
+  - Trooper Kurt
+  - Trooper Lars
+  - Trooper Lasse
+  - Trooper Lau
+  - Trooper Lauge
+  - Trooper Laurids
+  - Trooper Laurits
+  - Trooper Lauritz
+  - Trooper Laurs
+  - Trooper Laust
+  - Trooper Lave
+  - Trooper Leif
+  - Trooper Lennart
+  - Trooper Leo
+  - Trooper Leon
+  - Trooper Lucas
+  - Trooper Ludvig
+  - Trooper Lukas
+  - Trooper Lykke
+  - Trooper Mads
+  - Trooper Magnus
+  - Trooper Malte
+  - Trooper Malthe
+  - Trooper Marc
+  - Trooper Marcus
+  - Trooper Marinus
+  - Trooper Marius
+  - Trooper Mark
+  - Trooper Markus
+  - Trooper Martin
+  - Trooper Mathias
+  - Trooper Mathies
+  - Trooper Matthaeus
+  - Trooper Matthias
+  - Trooper Max
+  - Trooper Michael
+  - Trooper Mikael
+  - Trooper Mike
+  - Trooper Mikkel
+  - Trooper Mogens
+  - Trooper Morten
+  - Trooper Mourits
+  - Trooper Nick
+  - Trooper Nicki
+  - Trooper Nicklas
+  - Trooper Nicolai
+  - Trooper Nicolaj
+  - Trooper Niels
+  - Trooper Niklas
+  - Trooper Nikolai
+  - Trooper Nikolaj
+  - Trooper Nils
+  - Trooper Nis
+  - Trooper Noah
+  - Trooper Olaf
+  - Trooper Olav
+  - Trooper Ole
+  - Trooper Oliver
+  - Trooper Oluf
+  - Trooper Orla
+  - Trooper Oscar
+  - Trooper Oskar
+  - Trooper Osvald
+  - Trooper Otto
+  - Trooper Ove
+  - Trooper Palle
+  - Trooper Patrick
+  - Trooper Paul
+  - Trooper Paulus
+  - Trooper Paw
+  - Trooper Peder
+  - Trooper Per
+  - Trooper Peter
+  - Trooper Philip
+  - Trooper Phillip
+  - Trooper Poul
+  - Trooper Povl
+  - Trooper Preben
+  - Trooper Rasmus
+  - Trooper Rene
+  - Trooper Richard
+  - Trooper Robert
+  - Trooper Robin
+  - Trooper Rolf
+  - Trooper Ronald
+  - Trooper Ronni
+  - Trooper Ronnie
+  - Trooper Rune
+  - Trooper Samuel
+  - Trooper Sebastian
+  - Trooper Severin
+  - Trooper Sigfred
+  - Trooper Sigurd
+  - Trooper Silas
+  - Trooper Simon
+  - Trooper Sofus
+  - Trooper Sonny
+  - Trooper Sophus
+  - Trooper Soren
+  - Trooper Steen
+  - Trooper Stefan
+  - Trooper Steffen
+  - Trooper Sten
+  - Trooper Stephan
+  - Trooper Steven
+  - Trooper Stig
+  - Trooper Storm
+  - Trooper Sune
+  - Trooper Svend
+  - Trooper Tage
+  - Trooper Teddy
+  - Trooper Theis
+  - Trooper Theodor
+  - Trooper Thomas
+  - Trooper Thor
+  - Trooper Thorbjorn
+  - Trooper Thorkild
+  - Trooper Thorvald
+  - Trooper Thyge
+  - Trooper Tim
+  - Trooper Tobias
+  - Trooper Toke
+  - Trooper Tom
+  - Trooper Tomas
+  - Trooper Tommy
+  - Trooper Tonni
+  - Trooper Tonny
+  - Trooper Tony
+  - Trooper Torben
+  - Trooper Torkild
+  - Trooper Torsten
+  - Trooper Troels
+  - Trooper Tue
+  - Trooper Uffe
+  - Trooper Ulf
+  - Trooper Ulrik
+  - Trooper Vagn
+  - Trooper Valdemar
+  - Trooper Valentin
+  - Trooper Verner
+  - Trooper Victor
+  - Trooper Viggo
+  - Trooper Viktor
+  - Trooper Vilhelm
+  - Trooper Villads
+  - Trooper Villy
+  - Trooper William
+  - Trooper Willy
+  - Trooper Zacharias
+  - Trooper Zakarias
+  - Trooper Hans
+femaleFirst:
+  - Trooper Abellona
+  - Trooper Abelone
+  - Trooper Abigale
+  - Trooper Adela
+  - Trooper Agneta
+  - Trooper Alberte
+  - Trooper Albertha
+  - Trooper Alisa
+  - Trooper Almeta
+  - Trooper Alvilda
+  - Trooper Ane
+  - Trooper Anesa
+  - Trooper Anina
+  - Trooper Annalisa
+  - Trooper Anndrea
+  - Trooper Annelise
+  - Trooper Annemette
+  - Trooper Annina
+  - Trooper Aren
+  - Trooper Arisje
+  - Trooper Arvada
+  - Trooper Asa
+  - Trooper Astrid
+  - Trooper Belenda
+  - Trooper Belinde
+  - Trooper Bente
+  - Trooper Bergitte
+  - Trooper Bergliot
+  - Trooper Birgita
+  - Trooper Birgitte
+  - Trooper Birte
+  - Trooper Britta
+  - Trooper Brunhilde
+  - Trooper Caia
+  - Trooper Caja
+  - Trooper Cathrine
+  - Trooper Clady
+  - Trooper Dagmar
+  - Trooper Dana
+  - Trooper Ditte
+  - Trooper Dorete
+  - Trooper Dorothea
+  - Trooper Ebba
+  - Trooper Elle
+  - Trooper Else
+  - Trooper Eva
+  - Trooper Federikke
+  - Trooper Freja
+  - Trooper Freya
+  - Trooper Fritz
+  - Trooper Gelsomina
+  - Trooper Gerdi
+  - Trooper Gitte
+  - Trooper Gjerta
+  - Trooper Greta
+  - Trooper Grete
+  - Trooper Grethe
+  - Trooper Gry
+  - Trooper Gudrun
+  - Trooper Gulla
+  - Trooper Gullan
+  - Trooper Gunilla
+  - Trooper Gytha
+  - Trooper Hanne
+  - Trooper Helle
+  - Trooper Ide
+  - Trooper Idunn
+  - Trooper Inga
+  - Trooper Ingeborg
+  - Trooper Ingelise
+  - Trooper Inger
+  - Trooper Ingred
+  - Trooper Janne
+  - Trooper Jannicke
+  - Trooper Jensine
+  - Trooper Johanne
+  - Trooper Kaia
+  - Trooper Kaja
+  - Trooper Karen
+  - Trooper Karin
+  - Trooper Karon
+  - Trooper Karoline
+  - Trooper Karren
+  - Trooper Karrin
+  - Trooper Karyn
+  - Trooper Katrine
+  - Trooper Kirsten
+  - Trooper Kolinka
+  - Trooper Kristine
+  - Trooper Laila
+  - Trooper Larina
+  - Trooper Larine
+  - Trooper Laerke
+  - Trooper Lecia
+  - Trooper Lisbet
+  - Trooper Lise
+  - Trooper Lone
+  - Trooper Lovise
+  - Trooper Magdalone
+  - Trooper Malene
+  - Trooper Maren
+  - Trooper Margareta
+  - Trooper Margarete
+  - Trooper Margaretha
+  - Trooper Margarethe
+  - Trooper Margerethe
+  - Trooper Marika
+  - Trooper Marike
+  - Trooper Mathilde
+  - Trooper Matilde
+  - Trooper Merete
+  - Trooper Meta
+  - Trooper Metalise
+  - Trooper Mettalisa
+  - Trooper Mettalise
+  - Trooper Mia
+  - Trooper Pernille
+  - Trooper Rebekka
+  - Trooper Rikke
+  - Trooper Silje
+  - Trooper Solvej
+  - Trooper Stefania
+  - Trooper Thorbjorg
+  - Trooper Thorborg
+  - Trooper Thordis
+  - Trooper Thorid
+  - Trooper Thurid
+  - Trooper Torbjorg
+  - Trooper Torid
+  - Trooper Toril
+  - Trooper Ulrica
+  - Trooper Ulrike
+  - Trooper Urd
+  - Trooper Vibeke
+  - Trooper Anne
+  - Trooper Mette
+  - Trooper Anna
+  - Trooper Susanne
+  - Trooper Lene
+  - Trooper Inge
+  - Trooper Maria
+  - Trooper Marianne
+  - Trooper Camilla
+  - Trooper Pia
+  - Trooper Jette
+  - Trooper Charlotte
+  - Trooper Louise
+maleLast:
+  - Adriansen
+  - Andersen
+  - Andreasen
+  - Andresen
+  - Any
+  - Arge
+  - Arneborg
+  - Assenbjerg
+  - Auken
+  - Bach
+  - Bak
+  - Bang
+  - Bau
+  - Bech
+  - Beck
+  - Bekker
+  - Berg
+  - Bertelsen
+  - Berthelsen
+  - Billes
+  - Binzer
+  - Bjerregaard
+  - Blach
+  - Bock
+  - Bogedal
+  - Bondo
+  - Bonnikson
+  - Brahe
+  - Brandhorst
+  - Brandt
+  - Branstedt
+  - Broberg
+  - Brondun
+  - Bruun
+  - Burmeister
+  - Cabble
+  - Carlsen
+  - Carstensen
+  - Ceder
+  - Chemnitz
+  - Christensen
+  - Christiansen
+  - Christoffersen
+  - Clahn
+  - Clausen
+  - Claussen
+  - Colding
+  - Crumlin
+  - Dahl
+  - Dalum
+  - Dam
+  - Damgaard
+  - Damsgaard
+  - Danielsen
+  - Danielsson
+  - Didenksen
+  - Drusse
+  - Ebel
+  - Eberlein
+  - Ejlersgaard
+  - Eldjarn
+  - Ellegaard
+  - Eriksen
+  - Espersen
+  - Fajl
+  - Falkoner
+  - Fallingborg
+  - Fenger
+  - Fetterlein
+  - Fine
+  - Fog
+  - Follerup
+  - Frandsen
+  - Frandson
+  - Frederiksen
+  - Fredskild
+  - Friis
+  - Fynbo
+  - Gade
+  - Gimsing
+  - Glob
+  - Goldbaek
+  - Gram
+  - Gran
+  - Gregersen
+  - Greve
+  - Grimlot
+  - Gruntvig
+  - Guildenstern
+  - Guldbrandsen
+  - Haeg
+  - Halkenhvad
+  - Hamburger
+  - Hammer
+  - Hamsun
+  - Hannestad
+  - Hansen
+  - Hardenberg
+  - Hasso
+  - Hedegaard
+  - Hedhoft
+  - Heiberg
+  - Heintze
+  - Helveg
+  - Henriksen
+  - Hermansen
+  - Hjelmslev
+  - Hoegh
+  - Hogh
+  - Holby
+  - Holm
+  - Holst
+  - Horby
+  - Hoyer
+  - Hvass
+  - Hviid
+  - Hylgaard
+  - Iversen
+  - Jacobsen
+  - Jakkelsen
+  - Jakobsen
+  - Jamissen
+  - Jaspersen
+  - Jensen
+  - Jeppesen
+  - Jepsen
+  - Jespersen
+  - Jessen
+  - Johannsen
+  - Johansen
+  - Johansson
+  - Johnsen
+  - Jorgensen
+  - Juhl
+  - Junge
+  - Karlsen
+  - Karseffni
+  - Kaustrop
+  - Kingo
+  - Kirkeby
+  - Kjaer
+  - Kjeldsen
+  - Kjolbye
+  - Klausen
+  - Klindt
+  - Knudsen
+  - Knutzen
+  - Koch
+  - Kock
+  - Kofod
+  - Kolb
+  - Kotzebue
+  - Krak
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogh
+  - Kruhl
+  - Kruse
+  - Lagermann
+  - Lander
+  - Langvardt
+  - Larsen
+  - Lassen
+  - Laudrup
+  - Laugeson
+  - Laundsen
+  - Lauridsen
+  - Lauritsen
+  - Lauritzen
+  - Laursen
+  - Lavrsen
+  - Licht
+  - Lillesoe
+  - Lind
+  - Lobing
+  - Lorenz
+  - Loyen
+  - Lund
+  - Lundgaard
+  - Lundgard
+  - Lundvall
+  - Lynnerup
+  - Madsen
+  - Maj
+  - Majland
+  - Mandelbrot
+  - Markert
+  - Mathiasen
+  - Mathiesen
+  - Meindl
+  - Meinert
+  - Meling
+  - Meulengracht
+  - Mikkelsen
+  - Milling
+  - Moesgaard
+  - Mogensen
+  - Moller
+  - Molnar
+  - Moltke
+  - Mortensen
+  - Most
+  - Munk
+  - Nerhus
+  - Niebuhr
+  - Nielsen
+  - Nielson
+  - Nilsson
+  - Nissen
+  - Norgaard
+  - Nygaard
+  - Nylen
+  - Obel
+  - Olesen
+  - Olrik
+  - Olsen
+  - Orum
+  - Ostergaard
+  - Ostgerg
+  - Ottesen
+  - Overgaard
+  - Pallesen
+  - Palsson
+  - Paulsen
+  - Pedersen
+  - Petersen
+  - Piechnik
+  - Pilegaard
+  - Poertner
+  - Poulsen
+  - Qvist
+  - Raaby
+  - Rasmussen
+  - Ravn
+  - Reuter
+  - Rieper
+  - Riis
+  - Rink
+  - Riseger
+  - Roesdahl
+  - Rohrmann
+  - Ronholt
+  - Ronne
+  - Rosenkrantz
+  - Rriis
+  - Rude
+  - Sand
+  - Sandstrod
+  - Schjonberg
+  - Schmeichel
+  - Schmidt
+  - Schou
+  - Schultz
+  - Seidenfaden
+  - Sellevold
+  - Simonsen
+  - Skaarup
+  - Skou
+  - Skov
+  - Skovgaard
+  - Soerensen
+  - Solvig
+  - Sondergaard
+  - Sonne
+  - Sorensen
+  - Sponneck
+  - Staer
+  - Steffensen
+  - Steincke
+  - Stenger
+  - Storegaard
+  - Stubbe
+  - Stuer
+  - Svendsen
+  - Tarnovius
+  - Teglbjaerg
+  - Telling
+  - Thodberg
+  - Thomsen
+  - Thornom
+  - Thorsen
+  - Thunmark
+  - Thygesen
+  - Thyregod
+  - Tilling
+  - Toefting
+  - Toft
+  - Toksvig
+  - Tommen
+  - Tyllesen
+  - Uhre
+  - Vestergaard
+  - Vilfort
+  - Villadsen
+  - Villumsen
+  - Ving
+  - Virl
+  - Wain
+  - Werlauff
+  - Wieghorst
+  - Willadsen
+  - Winther
+  - Witzke
+  - Wiuff
+  - Zinck
+  - Zoega

@@ -1,0 +1,166 @@
+﻿lookWeights:
+  - 25
+  - 35
+  - 35
+  - 5
+maleFirst:
+  - ODST Aleksandr
+  - ODST Aleksey
+  - ODST Anatoliy
+  - ODST Andrey
+  - ODST Anton
+  - ODST Artem
+  - ODST Artur
+  - ODST Boris
+  - ODST Denis
+  - ODST Dmitriy
+  - ODST Eduard
+  - ODST Evgeniy
+  - ODST Gennadiy
+  - ODST Georgiy
+  - ODST Grigoriy
+  - ODST Igor
+  - ODST Ilya
+  - ODST Ivan
+  - ODST Konstantin
+  - ODST Leonid
+  - ODST Maxim
+  - ODST Mihail
+  - ODST Nikolay
+  - ODST Oleg
+  - ODST Pavel
+  - ODST Petr
+  - ODST Roman
+  - ODST Ruslan
+  - ODST Sergey
+  - ODST Stanislav
+  - ODST Vadim
+  - ODST Valentin
+  - ODST Valeriy
+  - ODST Vasiliy
+  - ODST Viktor
+  - ODST Vitaliy
+  - ODST Vladimir
+  - ODST Vladislav
+  - ODST Vyacheslav
+  - ODST Yuriy
+femaleFirst:
+  - ODST Albina
+  - ODST Aleksandra
+  - ODST Alla
+  - ODST Alyona
+  - ODST Anastasiya
+  - ODST Anna
+  - ODST Antonina
+  - ODST Darya
+  - ODST Ekaterina
+  - ODST Elena
+  - ODST Evgeniya
+  - ODST Galina
+  - ODST Inna
+  - ODST Irina
+  - ODST Kristina
+  - ODST Kseniya
+  - ODST Larisa
+  - ODST Lidiya
+  - ODST Liliya
+  - ODST Lyubov
+  - ODST Lyudmila
+  - ODST Margarita
+  - ODST Marina
+  - ODST Mariya
+  - ODST Nadezhda
+  - ODST Natalya
+  - ODST Nina
+  - ODST Oksana
+  - ODST Olesya
+  - ODST Olga
+  - ODST Raisa
+  - ODST Svetlana
+  - ODST Tamara
+  - ODST Tatyana
+  - ODST Valentina
+  - ODST Varvara
+  - ODST Vera
+  - ODST Viktoriya
+  - ODST Yulia
+  - ODST Zinaida
+  - ODST Zoya  
+maleLast:
+  - Alekseev
+  - Andreev
+  - Antonov
+  - Borisov
+  - Fedorov
+  - Egorov
+  - Grigoryev
+  - Gromov
+  - Ivanov
+  - Komarov
+  - Korolyov
+  - Kozlov
+  - Kuzmin
+  - Kuznetsov
+  - Lebedev
+  - Makarov
+  - Mihailov
+  - Morozov
+  - Nikitin
+  - Nikolaev
+  - Novikov
+  - Orlov
+  - Pavlov
+  - Petrov
+  - Popov
+  - Romanov
+  - Semyonov
+  - Sergeev
+  - Smirnov
+  - Sokolov
+  - Solovyov
+  - Stepanov
+  - Vasilyev
+  - Volkov
+  - Vorobyov
+  - Yakovlev
+  - Zaitsev
+  - Zaharov
+femaleLast:
+  - Alekseeva
+  - Andreeva
+  - Antonova
+  - Borisova
+  - Fedorova
+  - Egorova
+  - Grigoryeva
+  - Gromova
+  - Ivanova
+  - Komarova
+  - Korolyova
+  - Kozlova
+  - Kuzmina
+  - Kuznetsova
+  - Lebedeva
+  - Makarova
+  - Mihailova
+  - Morozova
+  - Nikitina
+  - Nikolaeva
+  - Novikova
+  - Orlova
+  - Pavlova
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

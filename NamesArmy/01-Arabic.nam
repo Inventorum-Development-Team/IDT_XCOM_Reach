@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - Trooper Abdullah
+  - Trooper Abu
+  - Trooper Ahmed
+  - Trooper Ali
+  - Trooper Bilal
+  - Trooper Fadil
+  - Trooper Farid
+  - Trooper Faysal
+  - Trooper Ghassan
+  - Trooper Habib
+  - Trooper Hakim
+  - Trooper Hassan
+  - Trooper Ibrahim
+  - Trooper Khalid
+  - Trooper Mahmoud
+  - Trooper Muhammad
+  - Trooper Najib
+  - Trooper Nasir
+  - Trooper Omar
+  - Trooper Rashid
+  - Trooper Tariq
+  - Trooper Yusuf
+femaleFirst:
+  - Trooper Alia
+  - Trooper Amirah
+  - Trooper Asma
+  - Trooper Farah
+  - Trooper Fatima
+  - Trooper Ghaliya
+  - Trooper Hafsa
+  - Trooper Haniya
+  - Trooper Iman
+  - Trooper Jalila
+  - Trooper Jawahir
+  - Trooper Karima
+  - Trooper Laila
+  - Trooper Latifa
+  - Trooper Malaika
+  - Trooper Maryam
+  - Trooper Mona
+  - Trooper Nadia
+  - Trooper Noor
+  - Trooper Rafiqa
+  - Trooper Samira
+  - Trooper Sumayya
+maleLast:
+  - Abdullah
+  - Ahmed
+  - El-Amin
+  - Hakim
+  - Hussain
+  - Karim
+  - Muhammad
+  - Sultan
+  - Qureshi
+  - Malouf
+  - Hajjar
+  - Asaf
+  - Khouri
+  - Tahan
+  - Wasem
+  - Mustafa
+  - Hadad
+  - Kanaan
+  - Islam
+  - Nasri
+  - Kassab
+  - Ibrahim

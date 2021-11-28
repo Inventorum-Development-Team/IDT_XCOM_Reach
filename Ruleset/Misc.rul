@@ -145,6 +145,7 @@ items:
   - delete: STR_STUN_BOMB
 
 ufopaedia:
+  - delete: STR_SKYRANGER
   - delete: STR_TANK_CANNON
   - delete: STR_TANK_ROCKET_LAUNCHER
   - delete: STR_TANK_LASER_CANNON

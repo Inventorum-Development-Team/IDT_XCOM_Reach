@@ -1,0 +1,206 @@
+﻿lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Trooper Adam
+  - Trooper Andrzej
+  - Trooper Bogdan
+  - Trooper Dariusz
+  - Trooper Grzegorz
+  - Trooper Henryk
+  - Trooper Jacek
+  - Trooper Jan
+  - Trooper Janusz
+  - Trooper Jerzy
+  - Trooper Józef
+  - Trooper Kazimierz
+  - Trooper Krzysztof
+  - Trooper Łukasz
+  - Trooper Maciej
+  - Trooper Maksymilian
+  - Trooper Marcin
+  - Trooper Marek
+  - Trooper Marian
+  - Trooper Mariusz
+  - Trooper Mateusz
+  - Trooper Michał
+  - Trooper Mirosław
+  - Trooper Paweł
+  - Trooper Piotr
+  - Trooper Rafał
+  - Trooper Robert
+  - Trooper Ryszard
+  - Trooper Stanisław
+  - Trooper Stefan
+  - Trooper Tadeusz
+  - Trooper Tomasz
+  - Trooper Wojciech
+  - Trooper Zbigniew
+femaleFirst:
+  - Trooper Agnieszka
+  - Trooper Aleksandra
+  - Trooper Anna
+  - Trooper Barbara
+  - Trooper Bernadeta
+  - Trooper Beata
+  - Trooper Elżbieta
+  - Trooper Danuta
+  - Trooper Dorota
+  - Trooper Ewa
+  - Trooper Grażyna
+  - Trooper Halina
+  - Trooper Helena
+  - Trooper Irena
+  - Trooper Iwona
+  - Trooper Jadwiga
+  - Trooper Janina
+  - Trooper Joanna
+  - Trooper Jolanta
+  - Trooper Karolina
+  - Trooper Katarzyna
+  - Trooper Krystyna
+  - Trooper Magdalena
+  - Trooper Małgorzata
+  - Trooper Maria
+  - Trooper Marianna
+  - Trooper Marta
+  - Trooper Monika
+  - Trooper Stanisława
+  - Trooper Teresa
+  - Trooper Zofia
+maleLast:
+  - Adamczyk
+  - Baron
+  - Białoń
+  - Brzechwa
+  - Budziński
+  - Curuś
+  - Dąbrowski
+  - Dudek
+  - Dudziak
+  - Figura
+  - Gocyła
+  - Grabowski
+  - Indeka
+  - Jabłoński
+  - Janik
+  - Jankowski
+  - Jarczok
+  - Kaczmarek
+  - Kaminski
+  - Kobza
+  - Kominek
+  - Kopeć
+  - Kossak
+  - Kot
+  - Kowalczyk
+  - Kowalski
+  - Kozłowski
+  - Krawczyk
+  - Król
+  - Kwiatkowski
+  - Lalurny
+  - Lewandowski
+  - Londzin
+  - Mazur
+  - Michalski
+  - Milik
+  - Mleczko
+  - Nowak
+  - Nowakowski
+  - Nowicki
+  - Pawłowski
+  - Piotrowski
+  - Płatek
+  - Podkański
+  - Poradowski
+  - Pragłowski
+  - Radwan
+  - Sikora
+  - Solański
+  - Stachurski
+  - Szczerba
+  - Szczypka
+  - Szymański
+  - Światłoch
+  - Świerkot
+  - Tumidajewicz
+  - Wajdeczko
+  - Wieczorek
+  - Wiśniewski
+  - Wojciechowski
+  - Woźniak
+  - Wójcik
+  - Wrona
+  - Wyrostek
+  - Zając
+  - Zieliński
+femaleLast:
+  - Adamczyk
+  - Baron
+  - Białoń
+  - Brzechwa
+  - Budzińska
+  - Curuś
+  - Dąbrowska
+  - Dudek
+  - Dudziak
+  - Figura
+  - Gocyła
+  - Grabowska
+  - Indeka
+  - Jabłońska
+  - Janik
+  - Jankowska
+  - Jarczok
+  - Kaczmarek
+  - Kamińska
+  - Kobza
+  - Kominek
+  - Kopeć
+  - Kossak
+  - Kot
+  - Kowalczyk
+  - Kowalska
+  - Kozłowska
+  - Krawczyk
+  - Król
+  - Kwiatkowska
+  - Lalurny
+  - Lewandowska
+  - Londzin
+  - Mazur
+  - Michalska
+  - Milik
+  - Mleczko
+  - Nowak
+  - Nowakowska
+  - Nowicka
+  - Pawłowska
+  - Piotrowska
+  - Płatek
+  - Podkańska
+  - Poradowska
+  - Pragłowska
+  - Radwan
+  - Sikora
+  - Solańska
+  - Stachurski
+  - Szczerba
+  - Szczypka
+  - Szymańska
+  - Światłoch
+  - Świerkot
+  - Tumidajewicz
+  - Wajdeczko
+  - Wieczorek
+  - Wiśniewska
+  - Wojciechowska
+  - Woźniak
+  - Wójcik
+  - Wrona
+  - Wyrostek
+  - Zając
+  - Zielińska

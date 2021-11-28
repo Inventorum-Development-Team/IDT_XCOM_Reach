@@ -1,0 +1,79 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - Marine Thomas
+  - Marine Andreas
+  - Marine Michael
+  - Marine Frank
+  - Marine Peter
+  - Marine Joerg
+  - Marine Uwe
+  - Marine Matthias
+  - Marine Stefan
+  - Marine Juergen
+  - Marine Ralf
+  - Marine Bernd
+  - Marine Klaus
+  - Marine Torsten
+  - Marine Hans
+  - Marine Rainer
+  - Marine Jens
+  - Marine Martin
+  - Marine Dirk
+  - Marine Wolfgang
+  - Marine Norbert
+  - Marine Holger
+  - Marine Kai
+  - Marine Joachim
+  - Marine Christian
+  - Marine Karsten
+  - Marine Dieter
+femaleFirst:
+  - Marine Susanne
+  - Marine Sabine
+  - Marine Petra
+  - Marine Birgit
+  - Marine Andrea
+  - Marine Gabriele
+  - Marine Martina
+  - Marine Heike
+  - Marine Ute
+  - Marine Barbara
+  - Marine Bettina
+  - Marine Karin
+  - Marine Angelika
+  - Marine Monika
+  - Marine Angela
+maleLast:
+  - Mueller
+  - Schmidt
+  - Schneider
+  - Fischer
+  - Weber
+  - Meyer
+  - Wagner
+  - Becker
+  - Schulz
+  - Hoffmann
+  - Schaefer
+  - Koch
+  - Bauer
+  - Richter
+  - Klein
+  - Wolf
+  - Schroeder 
+  - Neumann
+  - Schwarz
+  - Zimmermann
+  - Braun
+  - Krueger
+  - Hartmann
+  - Lange
+  - Schmitz
+  - Krause
+  - Meier
+  - Kauffman
+  - Goering

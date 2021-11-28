@@ -1,0 +1,201 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - ODST Aaron
+  - ODST Adam
+  - ODST Adrian
+  - ODST Alfredo
+  - ODST Austin
+  - ODST Brandon
+  - ODST Brian
+  - ODST Calvin
+  - ODST Carl
+  - ODST Chance
+  - ODST Charlie
+  - ODST Clarence
+  - ODST Cody
+  - ODST Connor
+  - ODST Damian
+  - ODST Donald
+  - ODST Dwight
+  - ODST Dylan
+  - ODST Ed
+  - ODST Eduardo
+  - ODST Elliott
+  - ODST Ethan
+  - ODST Evan
+  - ODST Ezekiel
+  - ODST Garrett
+  - ODST George
+  - ODST Giovanni
+  - ODST Grayson
+  - ODST James
+  - ODST Jason
+  - ODST Jay
+  - ODST Jeremy
+  - ODST Joel
+  - ODST John
+  - ODST Joshua
+  - ODST Keith
+  - ODST Kevin
+  - ODST Lester
+  - ODST Liam
+  - ODST Mark
+  - ODST Omar
+  - ODST Oscar
+  - ODST Owen
+  - ODST Parker
+  - ODST Pete
+  - ODST Rick
+  - ODST Robert
+  - ODST Samuel
+  - ODST Santiago
+  - ODST Saul
+  - ODST Scott
+  - ODST Seth
+  - ODST Shawn
+  - ODST Simon
+  - ODST Spencer
+  - ODST Steven
+  - ODST Timothy
+  - ODST Tom
+  - ODST Tucker
+  - ODST Victor
+  - ODST Vincent
+  - ODST Virgil
+femaleFirst:
+  - ODST Adriana
+  - ODST Alexandra
+  - ODST Alexis
+  - ODST Allison
+  - ODST Angela
+  - ODST Anna
+  - ODST Audrey
+  - ODST Barbara
+  - ODST Bethany
+  - ODST Brianna
+  - ODST Cadence
+  - ODST Catherine
+  - ODST Chelsea
+  - ODST Chloe
+  - ODST Cora
+  - ODST Denise
+  - ODST Esperanza
+  - ODST Esther
+  - ODST Evelyn
+  - ODST Faith
+  - ODST Gabrielle
+  - ODST Georgia
+  - ODST Guadalupe
+  - ODST Isabel
+  - ODST Jasmine
+  - ODST Jillian
+  - ODST Julia
+  - ODST Kaitlyn
+  - ODST Kara
+  - ODST Karen
+  - ODST Kelly
+  - ODST Layla
+  - ODST Lily
+  - ODST Lucy
+  - ODST Madeline
+  - ODST Madison
+  - ODST Margaret
+  - ODST Maria
+  - ODST Melanie
+  - ODST Melissa
+  - ODST Mia
+  - ODST Michelle
+  - ODST Miranda
+  - ODST Olivia
+  - ODST Paige
+  - ODST Patricia
+  - ODST Reese
+  - ODST Riley
+  - ODST Sarah
+  - ODST Savannah
+  - ODST Selena
+  - ODST Sigourney
+  - ODST Taylor
+  - ODST Tiffany
+  - ODST Vanessa
+  - ODST Violet
+  - ODST Zoey
+maleLast:
+  - Becker
+  - Benedict
+  - Bowers
+  - Bradley
+  - Brewster
+  - Bryant
+  - Burroughs
+  - Carlton
+  - Carr
+  - Carter
+  - Chase
+  - Childers
+  - Colby
+  - Crawley
+  - Crossett
+  - Daley
+  - Davies
+  - Dodge
+  - Evans
+  - Gallagher
+  - Gates
+  - Goddard
+  - Grady
+  - Griffith
+  - Gutierrez
+  - Harding
+  - Harper
+  - Hicks
+  - Horton
+  - Hudson
+  - Hunt
+  - Johnson
+  - Kay
+  - Kellogg
+  - Kemp
+  - Kendrick
+  - King
+  - Kirk
+  - Lawson
+  - Machado
+  - McNeil
+  - Meador
+  - Miller
+  - Mitchell
+  - Morris
+  - Nash
+  - North
+  - O'Connell
+  - Ortiz
+  - Palacios
+  - Partridge
+  - Patrick
+  - Perkins
+  - Porter
+  - Prewitt
+  - Rapp
+  - Ritchie
+  - Rooney
+  - Rossi
+  - Salomon
+  - Scroggins
+  - Shelley
+  - Smiley
+  - Sorensen
+  - Stein
+  - Stephens
+  - Stoddard
+  - Thompson
+  - Tirado
+  - Underwood
+  - Wade
+  - Wagner
+  - Webb
+  - Tyler

@@ -1,0 +1,560 @@
+lookWeights:
+  - 50
+  - 43
+  - 7
+  - 0
+maleFirst:
+  - Trooper Adrian
+  - Trooper Aleksander
+  - Trooper Alexander
+  - Trooper Alf
+  - Trooper Alfred
+  - Trooper Anders
+  - Trooper Andreas
+  - Trooper Anton
+  - Trooper Arne
+  - Trooper Artur
+  - Trooper Arvid
+  - Trooper Asbjoorn
+  - Trooper Atle
+  - Trooper Balder
+  - Trooper Baldur
+  - Trooper Benjamin
+  - Trooper Bjorn
+  - Trooper Boone
+  - Trooper Borg
+  - Trooper Brander
+  - Trooper Burnaby
+  - Trooper Burr
+  - Trooper Busby
+  - Trooper Cadby
+  - Trooper Canute
+  - Trooper Carr
+  - Trooper Cawley
+  - Trooper Christian
+  - Trooper Christoffer
+  - Trooper Colby
+  - Trooper Dag
+  - Trooper Danby
+  - Trooper Delling
+  - Trooper Daniel
+  - Trooper Didrik
+  - Trooper Edvard
+  - Trooper Einar
+  - Trooper Eirik
+  - Trooper Elvis
+  - Trooper Emil
+  - Trooper Eric
+  - Trooper Erik
+  - Trooper Erlend
+  - Trooper Erling
+  - Trooper Espen
+  - Trooper Even
+  - Trooper Fredrik
+  - Trooper Frode
+  - Trooper Gunnar
+  - Trooper Haakon
+  - Trooper Haavard
+  - Trooper Hans
+  - Trooper Harald
+  - Trooper Havard
+  - Trooper Henning
+  - Trooper Henrik
+  - Trooper Ivar
+  - Trooper Jakob
+  - Trooper Jan
+  - Trooper Jens
+  - Trooper Joachim
+  - Trooper Joakim
+  - Trooper Johan
+  - Trooper Jokkum
+  - Trooper Jon
+  - Trooper Jonas
+  - Trooper Jorgen
+  - Trooper Julius
+  - Trooper Kare
+  - Trooper Karl
+  - Trooper Kjell
+  - Trooper Knut
+  - Trooper knute
+  - Trooper Kristian
+  - Trooper Kristoffer
+  - Trooper Lars
+  - Trooper Leif
+  - Trooper Ludvik
+  - Trooper Mads
+  - Trooper Magnus
+  - Trooper Marcus
+  - Trooper Marius
+  - Trooper Martin
+  - Trooper Martinus
+  - Trooper Mathias
+  - Trooper Matias
+  - Trooper Mats
+  - Trooper Mikkel
+  - Trooper Mons
+  - Trooper Nikolai
+  - Trooper Nils
+  - Trooper Olaf
+  - Trooper Olan
+  - Trooper Ole
+  - Trooper Pal
+  - Trooper Paul
+  - Trooper Peder
+  - Trooper Per
+  - Trooper Petter
+  - Trooper Reidar
+  - Trooper Rolf
+  - Trooper Sander
+  - Trooper Sebastian
+  - Trooper Sigurd
+  - Trooper Simen
+  - Trooper Sindre
+  - Trooper Stian
+  - Trooper Svein
+  - Trooper Svend
+  - Trooper Sverre
+  - Trooper Thomas
+  - Trooper Thor
+  - Trooper Tobias
+  - Trooper Tomas
+  - Trooper Tor
+  - Trooper Vegar
+  - Trooper Vegard
+femaleFirst:
+  - Trooper Abigael
+  - Trooper Adelis
+  - Trooper Agot
+  - Trooper Alberte
+  - Trooper Alfhild
+  - Trooper Ane
+  - Trooper Annbjorg
+  - Trooper Annborg
+  - Trooper Arnbjorg
+  - Trooper Asdis
+  - Trooper Aslaug
+  - Trooper Benedikte
+  - Trooper Bergit
+  - Trooper Bergliot
+  - Trooper Berit
+  - Trooper Brigit
+  - Trooper Canutte
+  - Trooper Cathrine
+  - Trooper Dagrun
+  - Trooper Fredrika
+  - Trooper Gerdy
+  - Trooper Grete
+  - Trooper Grethe
+  - Trooper Gry
+  - Trooper Gudlaug
+  - Trooper Gunnhild
+  - Trooper Gunnvor
+  - Trooper Halldora
+  - Trooper Hege
+  - Trooper Heidrun
+  - Trooper Hjordis
+  - Trooper Idunn
+  - Trooper Inge
+  - Trooper Ingebjorg
+  - Trooper Ingfrid
+  - Trooper Inghild
+  - Trooper Ingvild
+  - Trooper Janne
+  - Trooper Johanne
+  - Trooper Jorunn
+  - Trooper Kanutte
+  - Trooper Kari
+  - Trooper Karita
+  - Trooper Karoline
+  - Trooper Kirsten
+  - Trooper Kjellfrid
+  - Trooper Kjersti
+  - Trooper Kjerstin
+  - Trooper Kristi
+  - Trooper Kristine
+  - Trooper Lise
+  - Trooper Lovise
+  - Trooper Magnhild
+  - Trooper Margarete
+  - Trooper Margarethe
+  - Trooper Margrethe
+  - Trooper Marit
+  - Trooper Rebekka
+  - Trooper Silje
+  - Trooper Sofia
+  - Trooper Solaug
+  - Trooper Thorbjorg
+  - Trooper Torbjorg
+  - Trooper Torhilda
+  - Trooper Torid
+  - Trooper Toril
+  - Trooper Urd
+  - Trooper Valdis
+  - Trooper Vendela
+  - Trooper Vibeke
+  - Trooper Viva
+  - Trooper Waldis
+  - Trooper Yngvild
+maleLast:
+  - Aamodt
+  - Aas
+  - Aasen
+  - Aasgaard
+  - Abel
+  - Abrahamsen
+  - Alsgaard
+  - Alving
+  - Amundsen
+  - Amundson
+  - Andersen
+  - Andreassen
+  - Andresen
+  - Andsnes
+  - Antonisen
+  - Antonsen
+  - Arnesen
+  - Arup
+  - Asheim
+  - Aune
+  - Bakke
+  - Bakken
+  - Balle
+  - Baltzersen
+  - Berg
+  - Berge
+  - Berntsen
+  - Birkeland
+  - Birknes
+  - Bjoenkaer
+  - Bjoerndalen
+  - Bjone
+  - Bjordal
+  - Bjorlo
+  - Bjornebye
+  - Bjornson
+  - Bjornstad
+  - Blix
+  - Bo
+  - Bocklin
+  - Boe
+  - Borkman
+  - Brack
+  - Brandes
+  - Brat
+  - Brataas
+  - Bredesen
+  - Brekke
+  - Brenden
+  - Brogger
+  - Brovik
+  - Buraas
+  - Burass
+  - Christensen
+  - Christiansen
+  - Daehle
+  - Daehlie
+  - Dahl
+  - Dahn
+  - Dahue
+  - Danielsen
+  - Dybendahl
+  - Edvardsen
+  - Eftevang
+  - Eggen
+  - Eide
+  - Eliassen
+  - Elieson
+  - Ellingsen
+  - Elvsted
+  - Engen
+  - Enger
+  - Englund
+  - Engstrand
+  - Eriksen
+  - Ertzgard
+  - Evensen
+  - Fagerberg
+  - Fagernes
+  - Falck
+  - Fjaerestad
+  - Fjortoft
+  - Flemmen
+  - Flo
+  - Folkow
+  - Fosli
+  - Franck
+  - Fredriksen
+  - Fretheim
+  - Fuglesang
+  - Fuglestad
+  - Furuseth
+  - Gabler
+  - Gabrielsen
+  - Garborg
+  - Gimle
+  - Gjeldnes
+  - Gjelland
+  - Gjessing
+  - Grieg
+  - Grimseth
+  - Grimsmo
+  - Gritdal
+  - Grodas
+  - Groenvold
+  - Gronelv
+  - Guidon
+  - Gulbrandsen
+  - Gundersen
+  - Gunderson
+  - Gunnestad
+  - Gylfason
+  - Haakonsen
+  - Haarberg
+  - Haarland
+  - Haartz
+  - Hagen
+  - Halskar
+  - Halvorsen
+  - Hammer
+  - Hanevold
+  - Hanke
+  - Hansen
+  - Hanssen
+  - Hanstveit
+  - Hartmark
+  - Hasso
+  - Hasund
+  - Haug
+  - Hauge
+  - Haugen
+  - Haugland
+  - Haugsrud
+  - Heiberg
+  - Helgeland
+  - Helgerod
+  - Helland
+  - Helmer
+  - Henriksen
+  - Herdal
+  - Heyerdahl
+  - Hoan
+  - Hoeg
+  - Hoen
+  - Holm
+  - Holmann
+  - Holth
+  - Hopen
+  - Horn
+  - Hultgreen
+  - Hustveit
+  - Ibsen
+  - Ingebriktsson
+  - Ingstad
+  - Isaksen
+  - Iversen
+  - Jacobsen
+  - Jagge
+  - Jakobsen
+  - Jasperson
+  - Jelesens
+  - Jensen
+  - Jenssen
+  - Jevne
+  - Johannessen
+  - Johansen
+  - Johnsen
+  - Jorgensen
+  - Juell
+  - Kaland
+  - Karlan
+  - Karlsen
+  - Kase
+  - Kildal
+  - Kippe
+  - Kjeldaas
+  - Kjelstrup
+  - Kjorestad
+  - Kjorsvik
+  - Klovstod
+  - Knudsen
+  - Knutsen
+  - Koht
+  - Koss
+  - Krafft
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogstad
+  - Kultin
+  - Kvarme
+  - Landa
+  - Langslet
+  - Lanser
+  - Larsen
+  - Leirfall
+  - Leonhardsen
+  - Lid
+  - Lie
+  - Lien
+  - Lier
+  - Lind
+  - Lindahl
+  - Linde
+  - Listow
+  - Ljoekelsoey
+  - Loevaas
+  - Lorch
+  - Lous
+  - Lovborg
+  - Ludwigsen
+  - Lund
+  - Lunde
+  - Lyen
+  - Malmros
+  - Malmstrom
+  - Manders
+  - Marken
+  - Martinsen
+  - Mathiesen
+  - Mathisen
+  - Meling
+  - Meyer
+  - Midttun
+  - Mikkelsen
+  - Mikkelsplass
+  - Mo
+  - Moen
+  - Mork
+  - Mostue
+  - Munch
+  - Myhre
+  - Mykland
+  - Myklebust
+  - Myrland
+  - Naess
+  - Nanstveit
+  - Naustvik
+  - Neilsen
+  - Nerhus
+  - Nielsen
+  - Nilsen
+  - Njerve
+  - Njos
+  - Noberg
+  - Nore
+  - Nyberg
+  - Nygard
+  - Odegard
+  - Oedegaard
+  - Oesten
+  - Olsen
+  - Omholt
+  - Orden
+  - Orthe
+  - Ostenstad
+  - Ottesen
+  - Paldan
+  - Paulsen
+  - Pedersen
+  - Pederssen
+  - Pettersen
+  - Poulsen
+  - Prydz
+  - Quisling
+  - Ramsfeld
+  - Ramsfjell
+  - Rank
+  - Ranning
+  - Rasmussen
+  - Ratkje
+  - Rekdal
+  - Resi
+  - Retter
+  - Ribur
+  - Riseth
+  - Rodahl
+  - Rovlund
+  - Ruud
+  - Saeterstoel
+  - Saether
+  - Salvesen
+  - Sandvik
+  - Schei
+  - Schjerven
+  - Schroder
+  - Schwane
+  - Schytte
+  - Selle
+  - Selling
+  - Selvik
+  - Sikveland
+  - Simonsen
+  - Sivertsen
+  - Sivertson
+  - Sivlee
+  - Sjo
+  - Sjovold
+  - Skarsgaard
+  - Skarsgard
+  - Skavlan
+  - Skjelbraid
+  - Skjolsvold
+  - Skovgaard
+  - Skreien
+  - Smilla
+  - Solbakken
+  - Solbakker
+  - Solberg
+  - Solheim
+  - Solness
+  - Solskaer
+  - Sondral
+  - Sorensen
+  - Stamso
+  - Steen
+  - Stensrud
+  - Stianson
+  - Stirner
+  - Storelid
+  - Stram
+  - Strand
+  - Strandli
+  - Svasand
+  - Svendson
+  - Svenoy
+  - Syversen
+  - Tangen
+  - Tangvik
+  - Tesman
+  - Thomassen
+  - Thonstad
+  - Thoresen
+  - Thorsen
+  - Thue
+  - Thulesius
+  - Thune
+  - Thymann
+  - Tobiassen
+  - Tonder
+  - Tonsberg
+  - Torgereen
+  - Torp
+  - Traa
+  - Tunold
+  - Tveit
+  - Ulstein
+  - Ulving
+  - Utskjoer
+  - Veitberg
+  - Vigeland
+  - Vik
+  - Vind
+  - Waldum
+  - Wangel
+  - Wangen
+  - Wassmo
+  - Wikborg
+  - Wullum
+  - Yons
+  - Ytterhus
+  - Zakariassen

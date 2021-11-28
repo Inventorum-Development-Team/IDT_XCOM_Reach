@@ -4,6 +4,54 @@ soldiers:
     costBuy: 500000
     transferTime: 24
     minStats:
+      tu: 90
+      stamina: 90
+      health: 50
+      bravery: 90
+      reactions: 50
+      firing: 70
+      throwing: 60
+      strength: 90
+      psiStrength: 10
+      psiSkill: 10
+      melee: 70
+    maxStats:
+      tu: 100
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 70
+      firing: 80
+      throwing: 70
+      strength: 100
+      psiStrength: 10
+      psiSkill: 10
+      melee: 80
+    statCaps:
+      tu: 150
+      stamina: 150
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 110
+      throwing: 80
+      strength: 120
+      psiStrength: 75
+      psiSkill: 100
+      melee: 100
+    armor: STR_SPI_ARMOR_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 300
+    femaleFrequency: 50
+    soldierNames:
+      - NamesSpartan/
+
+  - type: STR_ODST
+    costBuy: 200000
+    costSalary: 100000
+    transferTime: 24
+    minStats:
       tu: 70
       stamina: 60
       health: 40
@@ -39,13 +87,113 @@ soldiers:
       psiStrength: 75
       psiSkill: 100
       melee: 100
-    armor: STR_SPI_ARMOR_UC
+    armor: STR_ARMOR_ODST_UC
     standHeight: 22
     kneelHeight: 14
-    value: 100
+    value: 200
     femaleFrequency: 50
     soldierNames:
-      - NamesSpartan/
+      - NamesODST/
+
+  - type: STR_ARMY_TROOPER
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 20
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 90
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 90
+    armor: STR_ARMOR_ARMY_STANDARD_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    femaleFrequency: 50
+    soldierNames:
+      - NamesArmy/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+
+  - type: STR_MARINE
+    costBuy: 40000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 20
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 90
+      firing: 100
+      throwing: 70
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 90
+    armor: STR_ARMOR_MARINE_STANDARD_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    femaleFrequency: 50
+    soldierNames:
+      - NamesMarine/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
 
 armors:
   - type: STR_SPI_ARMOR_UC
@@ -53,13 +201,13 @@ armors:
     spriteInv: SPI_ARMOR_INV
     corpseBattle:
       - STR_CORPSE_SPI_ARMOR
-    storeItem: STR_SPI_ARMOR_UC
+    storeItem: STR_SPI_ARMOR
     frontArmor: 40
     sideArmor: 30
     rearArmor: 30
     underArmor: 10
     movementType: 0
-    camouflageAtDark: 7
+    camouflageAtDark: 5
     camouflageAtDay: 7
     damageModifier:
       - 1.0
@@ -78,31 +226,548 @@ armors:
         tu: 15
         reactions: 10
         firing: 12
+
+  - type: STR_ARMOR_ODST_UC
+    spriteSheet: ODST_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU
+    storeItem: STR_ARMOR_ODST
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: 6
+    camouflageAtDay: 10
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_ODST
+
+  - type: STR_ARMOR_ARMY_STANDARD_BDU_UC
+    spriteSheet: ARMY_TROOPER_STANDARD_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "ARMY_SHOULDER_ARMOR_1", "ARMY_HELMET", "", ""]
+      F1: ["F1_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "ARMY_SHOULDER_ARMOR_2", "ARMY_HELMET", "", ""]
+      F2: ["F2_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "ARMY_SHOULDER_ARMOR_3", "ARMY_HELMET", "", ""]
+      F3: ["F3_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "ARMY_SHOULDER_ARMOR_4", "ARMY_HELMET", "", ""]
+      M0: ["M0_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "ARMY_SHOULDER_ARMOR_1", "ARMY_HELMET", "", ""]
+      M1: ["M1_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "ARMY_SHOULDER_ARMOR_4", "ARMY_HELMET", "", ""]
+      M2: ["M2_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "ARMY_SHOULDER_ARMOR_2", "ARMY_HELMET", "", ""]
+      M3: ["M3_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "ARMY_SHOULDER_ARMOR_3", "ARMY_HELMET", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ARMY_STANDARD_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_ARMY_TROOPER
+  - type: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
+    spriteSheet: ARMY_TROOPER_BALACLAVA_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "FEMALE_ARMY_FATIGUES", "FEMALE_BALACLAVA", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "ARMY_SHOULDER_ARMOR_1", "ARMY_HELMET", "", "GREEN_HOLO_EYE_PATCH"]
+      F1: ["F1_NUDE", "FEMALE_ARMY_FATIGUES", "FEMALE_BALACLAVA", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "ARMY_SHOULDER_ARMOR_2", "ARMY_HELMET", "", "GOLDEN_GLASSES"]
+      F2: ["F2_NUDE", "FEMALE_ARMY_FATIGUES", "FEMALE_BALACLAVA", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "ARMY_SHOULDER_ARMOR_3", "ARMY_HELMET", "", "GREEN_GLASSES"]
+      F3: ["F3_NUDE", "FEMALE_ARMY_FATIGUES", "FEMALE_BALACLAVA", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "ARMY_SHOULDER_ARMOR_4", "ARMY_HELMET", "", ""]
+      M0: ["M0_NUDE", "MALE_ARMY_FATIGUES", "MALE_BALACLAVA", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "ARMY_SHOULDER_ARMOR_1", "ARMY_HELMET", "", ""]
+      M1: ["M1_NUDE", "MALE_ARMY_FATIGUES", "MALE_BALACLAVA", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "ARMY_SHOULDER_ARMOR_4", "ARMY_HELMET", "", "BLUE_GLASSES"]
+      M2: ["M2_NUDE", "MALE_ARMY_FATIGUES", "MALE_BALACLAVA", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "ARMY_SHOULDER_ARMOR_2", "ARMY_HELMET", "", ""]
+      M3: ["M3_NUDE", "MALE_ARMY_FATIGUES", "MALE_BALACLAVA", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "ARMY_SHOULDER_ARMOR_3", "ARMY_HELMET", "", "BLUE_HOLO_EYE_PATCH"]
+    corpseBattle:
+      - STR_CORPSE_ARMY_BALACLAVA_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_ARMY_TROOPER
+  - type: STR_ARMOR_ARMY_LIGHT_BDU_UC
+    spriteSheet: ARMY_TROOPER_LIGHT_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "", "ARMY_HELMET", "", ""]
+      F1: ["F1_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "", "ARMY_HELMET", "", ""]
+      F2: ["F2_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "", "ARMY_HELMET", "", ""]
+      F3: ["F3_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "", "ARMY_HELMET", "", ""]
+      M0: ["M0_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "", "ARMY_HELMET", "", ""]
+      M1: ["M1_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "", "ARMY_HELMET", "", ""]
+      M2: ["M2_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "", "ARMY_HELMET", "", ""]
+      M3: ["M3_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_SOFT_LEG_ARMOR", "", "ARMY_HELMET", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ARMY_LIGHT_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_ARMY_TROOPER
+  - type: STR_ARMOR_ARMY_SARGE_BDU_UC
+    spriteSheet: ARMY_TROOPER_SARGE_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "", "ARMY_CAP", "", "BRIGHT_BLUE_GLASSES"]
+      F1: ["F1_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "", "ARMY_CAP", "", ""]
+      F2: ["F2_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "", "ARMY_CAP", "", "GREEN_GLASSES"]
+      F3: ["F3_NUDE", "FEMALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "", "ARMY_CAP", "", "GOLDEN_GLASSES"]
+      M0: ["M0_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "", "ARMY_CAP", "", ""]
+      M1: ["M1_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "", "ARMY_CAP", "", "BLUE_GLASSES"]
+      M2: ["M2_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "", "ARMY_CAP", "", ""]
+      M3: ["M3_NUDE", "MALE_ARMY_FATIGUES", "", "ARMY_CHEST_ARMOR", "ARMY_ARMORED_BOOTS", "", "ARMY_CAP", "", "GOLDEN_GLASSES"]
+    corpseBattle:
+      - STR_CORPSE_ARMY_SARGE_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 15
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_ARMY_TROOPER
+
+  - type: STR_ARMOR_MARINE_STANDARD_BDU_UC
+    spriteSheet: MARINE_STANDARD_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "MARINE_SHOULDER_ARMOR_1", "MARINE_HELMET", "", ""]
+      F1: ["F1_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "MARINE_SHOULDER_ARMOR_2", "MARINE_HELMET", "", ""]
+      F2: ["F2_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "MARINE_SHOULDER_ARMOR_3", "MARINE_HELMET", "", ""]
+      F3: ["F3_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "MARINE_SHOULDER_ARMOR_1", "MARINE_HELMET", "", ""]
+      M0: ["M0_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "MARINE_SHOULDER_ARMOR_1", "MARINE_HELMET", "", ""]
+      M1: ["M1_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "MARINE_SHOULDER_ARMOR_1", "MARINE_HELMET", "", ""]
+      M2: ["M2_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "MARINE_SHOULDER_ARMOR_2", "MARINE_HELMET", "", ""]
+      M3: ["M3_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "MARINE_SHOULDER_ARMOR_3", "MARINE_HELMET", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MARINE_STANDARD_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_MARINE
+  - type: STR_ARMOR_MARINE_BALACLAVA_BDU_UC
+    spriteSheet: MARINE_BALACLAVA_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "FEMALE_MARINE_FATIGUES", "FEMALE_BALACLAVA", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "MARINE_SHOULDER_ARMOR_1", "MARINE_HELMET", "", "GREEN_HOLO_EYE_PATCH"]
+      F1: ["F1_NUDE", "FEMALE_MARINE_FATIGUES", "FEMALE_BALACLAVA", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "MARINE_SHOULDER_ARMOR_2", "MARINE_HELMET", "", ""]
+      F2: ["F2_NUDE", "FEMALE_MARINE_FATIGUES", "FEMALE_BALACLAVA", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "MARINE_SHOULDER_ARMOR_3", "MARINE_HELMET", "", "GREEN_GLASSES"]
+      F3: ["F3_NUDE", "FEMALE_MARINE_FATIGUES", "FEMALE_BALACLAVA", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "MARINE_SHOULDER_ARMOR_1", "MARINE_HELMET", "", "LIME_HOLO_EYE_PATCH"]
+      M0: ["M0_NUDE", "MALE_MARINE_FATIGUES", "MALE_BALACLAVA", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "MARINE_SHOULDER_ARMOR_1", "MARINE_HELMET", "", ""]
+      M1: ["M1_NUDE", "MALE_MARINE_FATIGUES", "MALE_BALACLAVA", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "MARINE_SHOULDER_ARMOR_1", "MARINE_HELMET", "", "BLUE_GLASSES"]
+      M2: ["M2_NUDE", "MALE_MARINE_FATIGUES", "MALE_BALACLAVA", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "MARINE_SHOULDER_ARMOR_2", "MARINE_HELMET", "", "GOLDEN_GLASSES"]
+      M3: ["M3_NUDE", "MALE_MARINE_FATIGUES", "MALE_BALACLAVA", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "MARINE_SHOULDER_ARMOR_3", "MARINE_HELMET", "", "BLUE_HOLO_EYE_PATCH"]
+    corpseBattle:
+      - STR_CORPSE_MARINE_BALACLAVA_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_MARINE
+  - type: STR_ARMOR_MARINE_LIGHT_BDU_UC
+    spriteSheet: MARINE_LIGHT_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "", "MARINE_HELMET", "", "BLUE_HOLO_EYE_PATCH"]
+      F1: ["F1_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "", "MARINE_HELMET", "", ""]
+      F2: ["F2_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "", "MARINE_HELMET", "", "GREEN_HOLO_EYE_PATCH"]
+      F3: ["F3_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "", "MARINE_HELMET", "", ""]
+      M0: ["M0_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "", "MARINE_HELMET", "", "LIME_HOLO_EYE_PATCH"]
+      M1: ["M1_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "", "MARINE_HELMET", "", ""]
+      M2: ["M2_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "", "MARINE_HELMET", "", ""]
+      M3: ["M3_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_SOFT_LEG_ARMOR", "", "MARINE_HELMET", "", "GOLDEN_GLASSES"]
+    corpseBattle:
+      - STR_CORPSE_MARINE_LIGHT_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_MARINE
+  - type: STR_ARMOR_MARINE_SARGE_BDU_UC
+    spriteSheet: MARINE_SARGE_BDU_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "", "MARINE_CAP", "", ""]
+      F1: ["F1_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "", "MARINE_CAP", "", "RED_GLASSES"]
+      F2: ["F2_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "", "MARINE_CAP", "", ""]
+      F3: ["F3_NUDE", "FEMALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "", "MARINE_CAP", "", "GOLDEN_GLASSES"]
+      M0: ["M0_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "", "MARINE_CAP", "", "GREEN_GLASSES"]
+      M1: ["M1_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "", "MARINE_CAP", "", ""]
+      M2: ["M2_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "", "MARINE_CAP", "", ""]
+      M3: ["M3_NUDE", "MALE_MARINE_FATIGUES", "", "MARINE_CHEST_ARMOR", "MARINE_ARMORED_BOOTS", "", "MARINE_CAP", "", "BLUE_GLASSES"]
+    corpseBattle:
+      - STR_CORPSE_MARINE_SARGE_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 15
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_MARINE
+
 items:
-    - type: STR_SPI_ARMOR_UC
+    - type: STR_SPI_ARMOR
       name: STR_SPI_ARMOR_UC
       size: 0.8
-      costSell: 200000
+      costSell: 300000
     - type: STR_CORPSE_SPI_ARMOR
       name: STR_CORPSE
       weight: 22
-      bigSprite: 100
-      floorSprite: 100
+      bigSprite: 1500
+      floorSprite: 1500
       battleType: 11
       invWidth: 2
       invHeight: 3
       armor: 50
       recover: false
 
+    - type: STR_ARMOR_ODST
+      name: STR_ARMOR_ODST_UC
+      size: 0.8
+      costSell: 200000
+    - type: STR_CORPSE_ODST_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1501
+      floorSprite: 1501
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+
+#    - type: STR_ARMOR_ARMY_TROOPER
+#      size: 0.8
+ #     costBuy: 10000
+    - type: STR_CORPSE_ARMY_BALACLAVA_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1502
+      floorSprite: 1502
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ARMY_LIGHT_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1503
+      floorSprite: 1503
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ARMY_SARGE_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1504
+      floorSprite: 1504
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ARMY_STANDARD_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1505
+      floorSprite: 1505
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+
+#    - type: STR_ARMOR_MARINE
+#      size: 0.8
+#      costBuy: 10000
+    - type: STR_CORPSE_MARINE_BALACLAVA_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1509
+      floorSprite: 1509
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MARINE_LIGHT_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1510
+      floorSprite: 1510
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MARINE_SARGE_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1511
+      floorSprite: 1511
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MARINE_STANDARD_BDU
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1512
+      floorSprite: 1512
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
 
 extraSprites:
   - type: BIGOBS.PCK
     files:
-      100: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png
+      1500: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png
+      1501: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB.png
+      1502: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_PLACEHOLDER_CORPSE_BIGOB.png
+      1503: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_PLACEHOLDER_CORPSE_BIGOB.png
+      1504: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_PLACEHOLDER_CORPSE_BIGOB.png
+      1505: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_PLACEHOLDER_CORPSE_BIGOB.png
+      #Army EVA suit
+      #Army Medic suit
+      #Army Heavy armor
+      1509: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
+      1510: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
+      1511: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
+      1512: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
+
+
   - type: FLOOROB.PCK
     files:
-      100: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png
-
+      1500: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png
+      1501: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB.png
+      1502: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_BALACLAVA_BDU_CORPSE_FLOOROB.png
+      1503: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_LIGHT_BDU_CORPSE_FLOOROB.png
+      1504: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_SARGE_BDU_CORPSE_FLOOROB.png
+      1505: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_STANDARD_BDU_CORPSE_FLOOROB.png
+      #Army EVA suit
+      #Army Medic suit
+      #Army Heavy armor
+      1509: Resources/HumanArmors/UNSCMarine/MARINE_BALACLAVA_BDU_CORPSE_FLOOROB.png
+      1510: Resources/HumanArmors/UNSCMarine/MARINE_LIGHT_BDU_CORPSE_FLOOROB.png
+      1511: Resources/HumanArmors/UNSCMarine/MARINE_SARGE_BDU_CORPSE_FLOOROB.png
+      1512: Resources/HumanArmors/UNSCMarine/MARINE_STANDARD_BDU_CORPSE_FLOOROB.png
+###################################
   - type: SPI_ARMOR_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -110,8 +775,72 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+  - type: ODST_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET.png
 
+  - type: ARMY_TROOPER_BALACLAVA_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_BALACLAVA_BDU_SPRITESHEET.png
+  - type: ARMY_TROOPER_LIGHT_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_LIGHT_BDU_SPRITESHEET.png
+  - type: ARMY_TROOPER_SARGE_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_SARGE_BDU_SPRITESHEET.png
+  - type: ARMY_TROOPER_STANDARD_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_STANDARD_BDU_SPRITESHEET.png
 
+  - type: MARINE_BALACLAVA_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/UNSCMarine/MARINE_BALACLAVA_BDU_SPRITESHEET.png
+  - type: MARINE_LIGHT_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/UNSCMarine/MARINE_LIGHT_BDU_SPRITESHEET.png
+  - type: MARINE_SARGE_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/UNSCMarine/MARINE_SARGE_BDU_SPRITESHEET.png
+  - type: MARINE_STANDARD_BDU_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/UNSCMarine/MARINE_STANDARD_BDU_SPRITESHEET.png
+############################
   - type: SPI_ARMOR_INVF0.SPK
     singleImage: true
     files:
@@ -144,3 +873,93 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT.png
+
+### PAPERDOLL LAYERS ###
+# Human body
+  - typeSingle: HUMAN__0__F0_NUDE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/00-Body/MAN_F0.png
+  - typeSingle: HUMAN__0__F1_NUDE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/00-Body/MAN_F1.png
+  - typeSingle: HUMAN__0__F2_NUDE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/00-Body/MAN_F2.png
+  - typeSingle: HUMAN__0__F3_NUDE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/00-Body/MAN_F3.png
+  - typeSingle: HUMAN__0__M0_NUDE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/00-Body/MAN_M0.png
+  - typeSingle: HUMAN__0__M1_NUDE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/00-Body/MAN_M1.png
+  - typeSingle: HUMAN__0__M2_NUDE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/00-Body/MAN_M2.png
+  - typeSingle: HUMAN__0__M3_NUDE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/00-Body/MAN_M3.png
+# Fatigues
+  - typeSingle: HUMAN__1__FEMALE_ARMY_FATIGUES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/01-Uniform/ArmyFemaleFatigues.png
+  - typeSingle: HUMAN__1__MALE_ARMY_FATIGUES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/01-Uniform/ArmyMaleFatigues.png
+  - typeSingle: HUMAN__1__FEMALE_MARINE_FATIGUES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/01-Uniform/MarineFemaleFatigues.png
+  - typeSingle: HUMAN__1__MALE_MARINE_FATIGUES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/01-Uniform/MarineMaleFatigues.png
+# Face coverings & facial hair
+  - typeSingle: HUMAN__2__FEMALE_BALACLAVA
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/02-FaceCovering/FemaleBalaclava.png
+  - typeSingle: HUMAN__2__MALE_BALACLAVA
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/02-FaceCovering/MaleBalaclava.png
+# Chest armor
+  - typeSingle: HUMAN__3__ARMY_CHEST_ARMOR
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ArmyChestArmor.png
+  - typeSingle: HUMAN__3__MARINE_CHEST_ARMOR
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MarineChestArmor.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODSTArmor.png
+# Leg armor
+  - typeSingle: HUMAN__4__ARMY_ARMORED_BOOTS
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/ArmyArmoredBoots.png
+  - typeSingle: HUMAN__4__ARMY_SOFT_LEG_ARMOR
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/ArmySoftLegArmor.png
+  - typeSingle: HUMAN__4__MARINE_ARMORED_BOOTS
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MarineArmoredBoots.png
+  - typeSingle: HUMAN__4__MARINE_SOFT_LEG_ARMOR
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MarineSoftLegArmor.png
+# Shoulder armor
+  - typeSingle: HUMAN__5__ARMY_SHOULDER_ARMOR_1
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/ArmyShoulderArmor1.png
+  - typeSingle: HUMAN__5__ARMY_SHOULDER_ARMOR_2
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/ArmyShoulderArmor3.png
+  - typeSingle: HUMAN__5__ARMY_SHOULDER_ARMOR_3
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/ArmyShoulderArmor3.png
+  - typeSingle: HUMAN__5__ARMY_SHOULDER_ARMOR_4
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/ArmyShoulderArmor4.png
+  - typeSingle: HUMAN__5__MARINE_SHOULDER_ARMOR_1
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor1.png
+  - typeSingle: HUMAN__5__MARINE_SHOULDER_ARMOR_2
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor2.png
+  - typeSingle: HUMAN__5__MARINE_SHOULDER_ARMOR_2
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor3.png
+# Head covering
+  - typeSingle: HUMAN__6__ARMY_CAP
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ArmyCap.png
+  - typeSingle: HUMAN__6__ARMY_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ArmyHelmet.png
+  - typeSingle: HUMAN__6__MARINE_CAP
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MarineCap.png
+  - typeSingle: HUMAN__6__MARINE_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MarineHelmet.png
+# Eye accessories
+  - typeSingle: HUMAN__8__BLUE_GLASSES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/BlueGlasses.png
+  - typeSingle: HUMAN__8__BRIGHT_BLUE_GLASSES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/BrightBlueGlasses.png
+  - typeSingle: HUMAN__8__GOLDEN_GLASSES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/GoldenGlasses.png
+  - typeSingle: HUMAN__8__GREEN_GLASSES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/GreenGlasses.png
+  - typeSingle: HUMAN__8__RED_GLASSES
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/RedGlasses.png
+  - typeSingle: HUMAN__8__BLUE_HOLO_EYE_PATCH
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/BlueHoloEyepatch.png
+  - typeSingle: HUMAN__8__GREEN_HOLO_EYE_PATCH
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/GreenHoloEyepatch.png
+  - typeSingle: HUMAN__8__LIME_HOLO_EYE_PATCH
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/LimeHoloEyepatch.png
