@@ -12,11 +12,13 @@ Credits:
 *Ikhanad: lead design, Pedia entries text
 
 
+*BaileyJIII: backgrounds
 *bulletdesigner: original Pelican and Falcon tilesets (modified)
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
+*Kenny Magnusson: backgrounds
 *Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template
-*Solarius Sorch: SPI spritesheet template (modified)
+*ohartenstein23: human armor spritesheets template
 *Wallz2296: Sangheili paperdolls
 
 
