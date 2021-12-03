@@ -30,9 +30,9 @@ es-419:
   STR_AA_BATTERY_UC: "BATERÍA AA"
   STR_AA_BATTERY_LAUNCHER: "Batería AA"
   STR_AA_BATTERY_STRING: "BATERÍA AA"
-  STR_70MM_CHAINGUN_UC: "CAÑÓN DE CADENA 70MM"
-  STR_70MM_CHAINGUN_LAUNCHER: "Cañón de cadena 70mm"
-  STR_70MM_CHAINGUN_STRING: "CAÑÓN DE CADENA 70MM"
+  STR_70MM_CHAINGUN_UC: "AMETRALLADORA 70MM"
+  STR_70MM_CHAINGUN_LAUNCHER: "Ametralladora 70mm"
+  STR_70MM_CHAINGUN_STRING: "AMETRALLADORA 70MM"
   STR_SHIVA_NUKE_UC: "OJIVA TÁCTICA CLASE-SHIVA"
   STR_SHIVA_NUKE_LAUNCHER: "Ojiva Táctica clase-Shiva"
   STR_SHIVA_STRING: "OJIVA TÁCTICA CLASE-SHIVA"
@@ -79,31 +79,41 @@ es-419:
   STR_SUPERCOMBINED: "Supercombinado"
   STR_SINGLE_SHOT: "Semiautomático"
 ######################
-  STR_M6C: M6C PDWS
+  STR_M6C: "M6C PDWS"
   STR_M6C_UFOPEDIA: "Variante del Cuerpo de Marines de la M6 PDWS, presentando una mayor cadencia de tiro y velocidad de proyectil, utilizando municiones SAP-HP (Semi-Perforador de Blindaje-Alta Penetración) en vez SAP-HE (Semi-Perforador de Blindaje-Explosivo de Alto Rendimiento)." 
-  STR_M6C_SOCOM: M6C/SOCOM
+  STR_M6C_SOCOM: "M6C/SOCOM"
   STR_M6C_SOCOM_UFOPEDIA: "Variante con supresor integrado, freno de boca y una mira telescópica SMARTLINK 4x. Tipicamente equipadas a unidades UNSC como las SCDO."
-  STR_M6C_MAG: .50 SAP-HP M6C Magazine
-  STR_M6G: M6G Magnum
+  STR_M6C_MAG: "Cargador M6C .50 SAP-HP"
+  STR_M6G: "Magnum M6G"
   STR_M6G_MAG: "Cargador 12.7mm de Magnum M6G"
-  STR_M7: M7 SMG
-  STR_M7S: M7S SMG
-  STR_M7_MAG: 5x39mm SMG Magazine
-  STR_M45_SHOTGUN: Escopeta Táctica M45
-  STR_M90_SHOTGUN: Escopeta de Asalto M90
-  STR_8GAUGE_SHELLS: Cargador Rápido de Escopeta Calibre 8
-  STR_BR55: Rifle de Batalla BR55HB-SR
-  STR_BR55S: BR55HB-SR/SOCOM
-  STR_BR55_MAG: Cargador de BR55 9.5x40mm
-  STR_M392: M392 DMR
-  STR_M392S: M392/S DMR
-  STR_M392_MAG: Cargador 7.62x51mm de DMR
-  STR_SRS99: Rifle de Francotirador SRS99
-  STR_SRS99_MAG: Cargador SRS99 14.5x114mm
-  STR_MA37: MA37 ICWS
-  STR_MA37_MAG: Cargador MA37 7.62x51mm
-  STR_MA5B: Rifle de Asalto MA5B
-  STR_MA5B_MAG: Cargador MA5B 7.62x51mm
+  STR_M7: "Subfusil M7"
+  STR_M7_UFOPEDIA: "Subfusil automático compacto que dispara municiones encamisadas (FMJ) sin casquillo desde un cargador de 60 balas a 900 disparos por minuto."
+  STR_M7S: "Subfusil M7S"
+  STR_M7S_UFOPEDIA: "Variante del subfusil M7 otorgada a Unidades Especiales con supresor M49, lámpara, y mira inteligente SLS/V 5B añadidos a este."
+  STR_M7_MAG: "Cargador de Subfusil 5x39mm"
+  STR_M45_SHOTGUN: "Escopeta Táctica M45"
+  STR_M45_SHOTGUN_UFOPEDIA: "Arma de Combate Cercano firearm empleada para acciones de abordaje y combate urbano. Dispone de un cargador tubular doble para municiones magnum calibre 8."
+  STR_M90_SHOTGUN: "Escopeta de Asalto M90"
+  STR_M90_SHOTGUN_UFOPEDIA: "Clon funcionalmente idéntico y más barato del M45E. Con capacidad de 12 disparos de magnum calibre 8."
+  STR_8GAUGE_SHELLS: "Cargador Rápido de Escopeta Calibre 8"
+  STR_BR55: "Rifle de Batalla BR55HB-SR"
+  STR_BR55_UFOPEDIA: "Variante Barril Pesado del Rifle de Batalla con selector de disparo, usado comunmente para enfrentamientos de media a larga distancia. Usualmente configurado en ráfagas de 3 disparos, dispara el cartucho experimental M634 X-HP-SAP y una mira KFA 2x."
+  STR_BR55S: "BR55HB-SR/SOCOM"
+  STR_BR55S_UFOPEDIA: "Variante del Rifle de Batalla con una combinación de supresor/freno de boca integrado, asignado a grupos de Operaciones Especiales como los SCDO."
+  STR_BR55_MAG: "Cargador de BR55 9.5x40mm"
+  STR_M392: "DMR M392"
+  STR_M392_UFOPEDIA: "Un favorito del ejército de la UNSC: Un rifle de largo a medio alcance, comunmente usado en modo semiautomático, montado con una mira telescópica óptica EVOS-D 3x. Usa la misma munición que las armas MA5."
+  STR_M392S: "DMR M392/S"
+  STR_M392_MAG: "Cargador de DMR 7.62x51mm"
+  STR_SRS99: "Rifle de Francotirador SRS99-AM"
+  STR_SRS99_UFOPEDIA: "Rifle de precisión semiautomático, dispara municiones HVAP o APFSDS de 14.5x114mm, todos los usuarios del rifle son advertidos sobre el peligro de sobrepenetración de cada disparo."
+  STR_SRS99_MAG: "Cargador SRS99 14.5x114mm"
+  STR_MA37: "Rifle de Asalto MA37"
+  STR_MA37_UFOPEDIA: "Variante temprana del MA5, de estructura esqueletizada y con un diseño más simple y fiable de más de un siglo de servicio activo. Incluye un ocultador de destellos y un módulo electrónico externo removible, usa municiones M118 FMJ."
+  STR_MA37_MAG: "Cargador MA37 7.62x51mm"
+  STR_MA5B: "Rifle de Asalto MA5B"
+  STR_MA5B_UFOPEDIA: "Variante más pesada del MA37, usado por el Cuerpo de Marines, incluye una lámpara y módulo de electrónica integrados, al igual que cargadores grandes con capacidad de 60 balas de M118 FMJ."
+  STR_MA5B_MAG: "Cargador MA5B 7.62x51mm"
   STR_PLASMA_PISTOL: Pistola Tipo-25
   STR_PLASMA_PISTOL_CELL: Batería de Pistola-Tipo 25
   STR_PLASMA_RIFLE: Rifle de Plasma Tipo-25/Patrón Elite
