@@ -98,16 +98,22 @@ en-US:
   STR_M90_SHOTGUN_UFOPEDIA: "A functionally identical and cheaper clone of the M45E model. Fires up to 12 shots of 8 gauge magnum."
   STR_8GAUGE_SHELLS: 8-Gauge Shotgun Speedloader
   STR_BR55: BR55HB-SR Battle Rifle
+  STR_BR55_UFOPEDIA: "Select-Fire, Heavy Barrel variant of the Battle Rifle, commonly used for medium to long range engagements in it's 3-round burst mode. Uses the M634 X-HP-SAP experimental cartridge and a 2x KFA Scope."
   STR_BR55S: BR55HB-SR/SOCOM
+  STR_BR55S_UFOPEDIA: "Variant of the Battle Rifle outfitted with an integrated suppressor/muzzle brake combo, assigned to Special Operations groups like ODSTs."
   STR_BR55_MAG: 9.5x40mm BR55 Magazine
   STR_M392: M392 DMR
+  STR_M392_UFOPEDIA: "A UNSC Army favorite, a long to medium range rifle, commonly used in semi-auto mode mounted with an EVOS-D 3x Optic Scope, chambered in the same round as the MA5 series."
   STR_M392S: M392/S DMR
   STR_M392_MAG: 7.62x51mm DMR Magazine
-  STR_SRS99: SRS99 Sniper Rifle
+  STR_SRS99: SRS99-AM Sniper Rifle
+  STR_SRS99_UFOPEDIA: "Semi-automatic rifle fitted with an ORACLE N-Variant Scope, chambered in 14.5x114 HVAP or APFSDS, warnings of overpenetration are issued to marksmen using the SRS99."
   STR_SRS99_MAG: 14.5x114mm SRS99 Magazine
   STR_MA37: MA37 ICWS
+  STR_MA37_UFOPEDIA: "Skeletonized, simpler and more reliable early variant of the MA5, with over a century of service. Includes a flash hider and an external, modular electronics suite, uses M118 FMJ rounds."
   STR_MA37_MAG: 7.62x51mm MA37 Magazine
   STR_MA5B: MA5B Assault Rifle
+  STR_MA5B_UFOPEDIA: "The bulkier, heavier variant of the MA37, used by the Marine Corps, comes with an integrated flashlight and electronics suite, as well as a large 60-round magazine chambered in M118 FMJ."
   STR_MA5B_MAG: 7.62x51mm MA5B Magazine
   STR_PLASMA_PISTOL: Type 25 Pistol
   STR_PLASMA_PISTOL_CELL: Type 25 Pistol Battery

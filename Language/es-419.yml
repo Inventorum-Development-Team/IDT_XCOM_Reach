@@ -49,73 +49,73 @@ es-419:
   STR_SPARTAN_III: "SPARTAN-III"
   STR_SPI_ARMOR_UC: "ARMADURA SPI"
   STR_SPI_ARMOR: "Armadura SPI"
-  STR_SPI_ARMOR_UFOPEDIA: "Semi-Powered Infiltration armor is a UNSC combat armor system designed with an emphasis on stealth through the use of special photoreactive panels, issued to SPARTAN-III teams."
+  STR_SPI_ARMOR_UFOPEDIA: "La Armadura Semi-Potenciada de Infiltración (SPI) es un sistema de armadura de combate UNSC otorgada a equipos SPARTAN-III, diseñado con un énfasis en el sigilo por medio del uso de paneles fotoreactivos especiales."
   STR_ARMY_TROOPER: "Soldado de infantería"
   STR_ARMOR_ARMY_TROOPER: "Uniforme de Combate de Infantería"
   STR_ARMOR_ARMY_TROOPER_UC: "UNIFORME DE COMBATE DE INFANTERÍA"
-  STR_ARMOR_ARMY_STANDARD_BDU_UC: "Uniforme de Combate de Infantería (Standard)"
+  STR_ARMOR_ARMY_STANDARD_BDU_UC: "Uniforme de Combate de Infantería (Estándar)"
   STR_ARMOR_ARMY_BALACLAVA_BDU_UC: "Uniforme de Combate de Infantería (Balaclava)"
-  STR_ARMOR_ARMY_LIGHT_BDU_UC: "Uniforme de Combate de Infantería (Light)"
-  STR_ARMOR_ARMY_SARGE_BDU_UC: "Uniforme de Combate de Infantería (Service Cap)"
-  STR_ARMOR_ARMY_TROOPER_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet. UNSC Army variant, issued with woodland fatigues and dark brown camo plates." 
+  STR_ARMOR_ARMY_LIGHT_BDU_UC: "Uniforme de Combate de Infantería (Ligero)"
+  STR_ARMOR_ARMY_SARGE_BDU_UC: "Uniforme de Combate de Infantería (Gorra de Servicio)"
+  STR_ARMOR_ARMY_TROOPER_UFOPEDIA: "Uniforme de Combate provisto de una armadura corporal M52B, botas reforzadas VZG7 y un casco CH252. Variante del ejército de la UNSC, con un uniforme color bosque y placas protectoras color marrón oscuro." 
   STR_MARINE: "Marine"
   STR_ARMOR_MARINE_UC: "UNIFORME DE COMBATE NAVAL"
   STR_ARMOR_MARINE: "Uniforme de Combate Naval"
-  STR_ARMOR_MARINE_STANDARD_BDU_UC: "Uniforme de Combate Naval (Standard)"
+  STR_ARMOR_MARINE_STANDARD_BDU_UC: "Uniforme de Combate Naval (Estándar)"
   STR_ARMOR_MARINE_BALACLAVA_BDU_UC: "Uniforme de Combate Naval (Balaclava)"
-  STR_ARMOR_MARINE_LIGHT_BDU_UC: "Uniforme de Combate Naval (Light)"
-  STR_ARMOR_MARINE_SARGE_BDU_UC: "Uniforme de Combate Naval (Service Cap)"
-  STR_ARMOR_MARINE_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet. UNSC Marine Corps variant, issued with desert fatigues and green camo plates."
+  STR_ARMOR_MARINE_LIGHT_BDU_UC: "Uniforme de Combate Naval (Ligero)"
+  STR_ARMOR_MARINE_SARGE_BDU_UC: "Uniforme de Combate Naval (Gorra de Servicio)"
+  STR_ARMOR_MARINE_UFOPEDIA: "Uniforme de Combate provisto de una armadura corporal M52B, botas reforzadas VZG7 y un casco CH252. Variante del Cuerpo de Marines de la UNSC, provisto de un uniforme color desierto y placas camufladas color verde."
   STR_ODST: "SCDO"
   STR_ARMOR_ODST_UC: "ARMADURA DE BATALLA SCDO"
   STR_ARMOR_ODST: "Armadura de batalla SCDO"
-  STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with VISR tech."
+  STR_ARMOR_ODST_UFOPEDIA: "Uniforme de Combate con placas de un compuesto titanio-cerámico con capacidad de actividad extravehicular, más resistente al plasma y las balas, equipado con tecnología VISR."
 ######################
   STR_SHIELD_S: "Escudo resistiendo!"
   STR_SHIELD_DOWN: "Escudo caído!"
-  STR_AIMED_BURST: "Ráfaga apuntando"
+  STR_AIMED_BURST: "Ráfaga precisa"
   STR_BURST: "Ráfaga"
   STR_FULL_AUTO: "Automático"
   STR_SUPERCOMBINED: "Supercombinado"
   STR_SINGLE_SHOT: "Semiautomático"
 ######################
   STR_M6C: M6C PDWS
-  STR_M6C_UFOPEDIA: "Marine Corps' variant of the M6 PDWS, sporting a higher fire rate and velocity, using SAP-HP instead of SAP-HE." 
+  STR_M6C_UFOPEDIA: "Variante del Cuerpo de Marines de la M6 PDWS, presentando una mayor cadencia de tiro y velocidad de proyectil, utilizando municiones SAP-HP (Semi-Perforador de Blindaje-Alta Penetración) en vez SAP-HE (Semi-Perforador de Blindaje-Explosivo de Alto Rendimiento)." 
   STR_M6C_SOCOM: M6C/SOCOM
-  STR_M6C_SOCOM_UFOPEDIA: "Variant with an integrated suppressor, muzzle brake and a 4x SMARTLINK scope. Typically issued to UNSC units like ODSTs."
+  STR_M6C_SOCOM_UFOPEDIA: "Variante con supresor integrado, freno de boca y una mira telescópica SMARTLINK 4x. Tipicamente equipadas a unidades UNSC como las SCDO."
   STR_M6C_MAG: .50 SAP-HP M6C Magazine
   STR_M6G: M6G Magnum
-  STR_M6G_MAG: "12.7mm M6G Magnum Mag"
+  STR_M6G_MAG: "Cargador 12.7mm de Magnum M6G"
   STR_M7: M7 SMG
   STR_M7S: M7S SMG
   STR_M7_MAG: 5x39mm SMG Magazine
-  STR_M45_SHOTGUN: M45 Tactical Shotgun
-  STR_M90_SHOTGUN: M90 Close Assault Shotgun
-  STR_8GAUGE_SHELLS: 8-Gauge Shotgun Speedloader
-  STR_BR55: BR55HB-SR Battle Rifle
+  STR_M45_SHOTGUN: Escopeta Táctica M45
+  STR_M90_SHOTGUN: Escopeta de Asalto M90
+  STR_8GAUGE_SHELLS: Cargador Rápido de Escopeta Calibre 8
+  STR_BR55: Rifle de Batalla BR55HB-SR
   STR_BR55S: BR55HB-SR/SOCOM
-  STR_BR55_MAG: 9.5x40mm BR55 Magazine
+  STR_BR55_MAG: Cargador de BR55 9.5x40mm
   STR_M392: M392 DMR
   STR_M392S: M392/S DMR
-  STR_M392_MAG: 7.62x51mm DMR Magazine
-  STR_SRS99: SRS99 Sniper Rifle
-  STR_SRS99_MAG: 14.5x114mm SRS99 Magazine
+  STR_M392_MAG: Cargador 7.62x51mm de DMR
+  STR_SRS99: Rifle de Francotirador SRS99
+  STR_SRS99_MAG: Cargador SRS99 14.5x114mm
   STR_MA37: MA37 ICWS
-  STR_MA37_MAG: 7.62x51mm MA37 Magazine
-  STR_MA5B: MA5B Assault Rifle
-  STR_MA5B_MAG: 7.62x51mm MA5B Magazine
-  STR_PLASMA_PISTOL: Type 25 Pistol
-  STR_PLASMA_PISTOL_CELL: Type 25 Pistol Battery
-  STR_PLASMA_RIFLE: Type 25 Plasma Rifle/Elite-pattern
-  STR_PLASMA_RIFLE_BRUTE: Type 25 Plasma Rifle/Brute-pattern
-  STR_PLASMA_RIFLE_BRUTE_CELL: Type 25 Rifle Battery/Brute
-  STR_PLASMA_RIFLE_CELL: Type 25 Rifle Battery/Elite
-  STR_PLASMA_REPEATER: Type 51 Plasma Repeater
-  STR_PLASMA_REPEATER_CELL: Type 51 Repeater Battery
-  STR_NEEDLER: Type-33 'Needler' GLM
-  STR_NEEDLER_CANISTER: Type-33 'Needler' Canister
-  STR_PLASMA_CARBINE: Type-51 Carbine
-  STR_PLASMA_CARBINE_MAG: 8.7x60mm Caseless Carbine Magazine
+  STR_MA37_MAG: Cargador MA37 7.62x51mm
+  STR_MA5B: Rifle de Asalto MA5B
+  STR_MA5B_MAG: Cargador MA5B 7.62x51mm
+  STR_PLASMA_PISTOL: Pistola Tipo-25
+  STR_PLASMA_PISTOL_CELL: Batería de Pistola-Tipo 25
+  STR_PLASMA_RIFLE: Rifle de Plasma Tipo-25/Patrón Elite
+  STR_PLASMA_RIFLE_BRUTE: Rifle de Plasma Tipo-25/Patrón Brute
+  STR_PLASMA_RIFLE_BRUTE_CELL: Batería Rifle de Plasma Tipo-25/Brute
+  STR_PLASMA_RIFLE_CELL: Batería Rifle de Plasma Tipo-25/Elite
+  STR_PLASMA_REPEATER: Repetidor de Plasma Tipo-51
+  STR_PLASMA_REPEATER_CELL: Batería de Repetidor Tipo-51
+  STR_NEEDLER: GML Tipo-33 'Aguijoneador'
+  STR_NEEDLER_CANISTER: Contenedor de Tipo 33 'Aguijoneador'
+  STR_PLASMA_CARBINE: Carabina Tipo-51
+  STR_PLASMA_CARBINE_MAG: Cargador de Carabina 8.7x60mm
 ######################
   STR_SANGHEILI_LANCE: "Lanza Elite"
   STR_STANDARD_LANCE: "Lanza Estándar"
