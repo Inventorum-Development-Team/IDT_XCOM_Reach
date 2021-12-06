@@ -5,6 +5,22 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SPI_ARMOR_P
    #Human Weapons
+  - id: STR_MA37
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    listOrder: 2002
+    text: STR_MA37_UFOPEDIA
+  - id: STR_MA37_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MA5B
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    listOrder: 2004
+    text: STR_MA5B_UFOPEDIA
+  - id: STR_MA5B_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_M6C
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
@@ -50,6 +66,33 @@ ufopaedia:
     listOrder: 2407
     text: STR_M90_SHOTGUN_UFOPEDIA
   - id: STR_8GAUGE_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BR55
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    listOrder: 2506
+    text: STR_BR55_UFOPEDIA
+  - id: STR_BR55_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M392
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    listOrder: 2606
+    text: STR_M392_UFOPEDIA
+  - id: STR_M392S
+    section: STR_NOT_AVAILABLE
+    type_id: 4
+  - id: STR_M392_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SRS99
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    listOrder: 2706
+    text: STR_SRS99_UFOPEDIA
+  - id: STR_SRS99_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
 

@@ -99,12 +99,9 @@ en-US:
   STR_8GAUGE_SHELLS: 8-Gauge Shotgun Speedloader
   STR_BR55: BR55HB-SR Battle Rifle
   STR_BR55_UFOPEDIA: "Select-Fire, Heavy Barrel variant of the Battle Rifle, commonly used for medium to long range engagements in it's 3-round burst mode. Uses the M634 X-HP-SAP experimental cartridge and a 2x KFA Scope."
-  STR_BR55S: BR55HB-SR/SOCOM
-  STR_BR55S_UFOPEDIA: "Variant of the Battle Rifle outfitted with an integrated suppressor/muzzle brake combo, assigned to Special Operations groups like ODSTs."
   STR_BR55_MAG: 9.5x40mm BR55 Magazine
   STR_M392: M392 DMR
   STR_M392_UFOPEDIA: "A UNSC Army favorite, a long to medium range rifle, commonly used in semi-auto mode mounted with an EVOS-D 3x Optic Scope, chambered in the same round as the MA5 series."
-  STR_M392S: M392/S DMR
   STR_M392_MAG: 7.62x51mm DMR Magazine
   STR_SRS99: SRS99-AM Sniper Rifle
   STR_SRS99_UFOPEDIA: "Semi-automatic rifle fitted with an ORACLE N-Variant Scope, chambered in 14.5x114 HVAP or APFSDS, warnings of overpenetration are issued to marksmen using the SRS99."
