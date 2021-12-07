@@ -8,16 +8,18 @@ Credits:
 *Alnoaht: beta tester
 *efrenespartano: lead design, sprites and rulesets
 *Filip H: beta tester, ideas and scripts
-*Hans Woofington: beta tester, inspiration for armor parts used in SPI paperdoll, ODST, army and marine fatigues paperdoll template.
+*Hans Woofington: beta tester, ideas and armor parts used in SPI paperdoll, ODST, army and marine fatigues paperdoll template.
 *Ikhanad: lead design, Pedia entries text
 
 
 *BaileyJIII: backgrounds
+*Bohemond: Unit Sprite Studio and Globe Editor tools
 *bulletdesigner: original Pelican and Falcon tilesets (modified)
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
 *Kenny Magnusson: backgrounds
 *Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template
+*liberation: original region data ruleset
 *ohartenstein23: human armor spritesheets template
 *Wallz2296: Sangheili paperdolls
 

@@ -25,4 +25,6 @@ facilities:
     radarRange: 9999
     hyper: true
     radarChance: 50
+    sightRange: 9999
+    sightChance: 1000
     mapName: XBASE_04

@@ -3,7 +3,7 @@ globe:
   countryColor: 239
   cityColor: 138
   baseColor: 133
-  lineColor: 162
+  lineColor: 83
   textures:
     - id: 0
       terrain:

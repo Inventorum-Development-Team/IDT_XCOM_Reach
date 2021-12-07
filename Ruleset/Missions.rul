@@ -41,15 +41,17 @@ missionScripts:
         STR_COVENANT_CITY_ATTACK: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 15
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 15
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 10
-        STR_CENTRAL_ASIA: 10
-        STR_SOUTH_EAST_ASIA: 10
-        STR_SIBERIA: 10
-        STR_AUSTRALASIA: 10
+        STR_REGION_1: 10
+        STR_REGION_2: 10
+        STR_REGION_3: 10
+        STR_REGION_4: 10
+        STR_REGION_5: 10
+        STR_REGION_6: 10
+        STR_REGION_7: 10
+        STR_REGION_8: 10
+        STR_REGION_9: 5
+        STR_REGION_10: 10
+        STR_REGION_11: 5
     useTable: false
 
   - type: sectorInvasionEarly
@@ -125,32 +127,6 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 1440
-
-  - type: STR_COVENANT_SECTOR_INVASION_EARLY #Covenant attempts to overrun the UNSC regional commands
-    points: 100 #Pact score only awarded on month end
-    objective: 1
-    siteType: STR_ALIEN_BASE_ASSAULT
-    spawnZone: 4 #Mission zone for alien bases
-    endlessInfiltration: false
-    raceWeights:
-      0:
-        STR_SANGHEILI_LANCE: 10
-        STR_STANDARD_LANCE: 40
-        STR_UNGGOY_LANCE: 40
-    waves:
-      - ufo: STR_SDV_CLASS_HEAVY_CORVETTE
-        count: 1
-        trajectory: P2
-        timer: 1440
-      - ufo: STR_BANSHEE_FIGHTER
-        count: 1
-        trajectory: P1
-        timer: 1440
-        escort: true
-      - ufo: STR_CCS_CLASS_BATTLECRUISER
-        count: 1
-        trajectory: P7
-        timer: 4320
 
   - type: STR_COVENANT_SECTOR_INVASION_LATE #Covenant attempts to overrun the UNSC regional commands
     points: 100 #Pact score only awarded on month end
