@@ -275,6 +275,10 @@ ufopaedia:
 
 
 extraSprites:
+  - type: GEOBORD.SCR #Space
+    singleImage: true
+    files:
+      0: Resources/Backgrounds/BACK100.png
   - type: BACK01.SCR #Main
     singleImage: true
     width: 320
@@ -368,3 +372,14 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/TACTICBACK04.PNG
+#######################
+
+  - type: TEXTURE.DAT
+    width: 416
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Globe/REACH_TEXTURES.png
+
+  
