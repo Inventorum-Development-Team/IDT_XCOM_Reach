@@ -140,6 +140,7 @@ es-419:
   STR_KIG_YAR: "Jackal"
   STR_KIG_YAR_SNIPER: "Jackal Francotirador"
   STR_KIG_YAR_MINOR: "Jackal Menor"
+  STR_KIG_YAR_MAJOR: "Jackal Mayor"
   STR_KIG_YAR_MINOR_ARMOR: "Arnés de combate Jackal"
   STR_KIG_YAR_MINOR_CORPSE: "Cadáver de Jackal Menor"
   STR_UNGGOY: "Grunt"
@@ -218,7 +219,24 @@ es-419:
   STR_REGION_9: "Región 9"
   STR_REGION_10: "Región 10"
   STR_REGION_11: "Región 11"
-######################
+#####################
+  GMTACTIC1: "The Package (Second Wave)"
+  GMTACTIC2: "Lone Wolf"
+  GMTACTIC3: "The Package (Time to Dance)"
+  GMTACTIC4: "Inbound Imminent"
+  GMTACTIC5: "The Menagerie"
+  GMTACTIC6: "Covenant Dance"
+  GMDEFEND: "Desperate Measure"
+  GMENBASE: "Rescue Mission"
+  GMLOSE: "Cortana (No More Dead Heroes)"
+  GMINTER: "Dead Ahead"
+  GMGEO1: "Winter Contingency (The Battle Begins)"
+  GMGEO2: "Overture (Halo 3: ODST)"
+  GMGEO3: "High Charity Quartet"
+  GMSTORY: "Halo"
+  GMMARS: "Through Your Hoops"
+
+#####################
   STR_CENTER_ON_SITE_TIME_5_SECONDS: "CENTRAR EN SITIO - TIEMPO = 5 Seg"
   STR_CANCEL_UC: "CANCELAR"
   STR_NONE: "Ninguno"

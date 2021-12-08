@@ -1,48 +1,29 @@
-23-Jun-2020: CMP Vanilla v0.4
-- Tested with OXCE v5.6.3
-- Tested with OXC git master 2020-06-14-2342
-- Removed TFTD content, terrains and maps
-- Removed CMP/IDT Improved Globe
-- Terrains by bulletdesigner
-	- Ghothic Grass
-	- Ghothic Snow
-	- Ghothic Sand
-	- Mountains Wasteland
-	- Mountains Snow
-	- Mountains Mud
-	- Mountains Grass
-	- Mountains Sand
-	- Mountains Rocks
-	- Mountains Tropical
-	- Plains Wasteland
-	- Plains Snow
-	- Plains Mud
-	- Plains Grass
-	- Plains Sand
-	- Plains Rocks
-	- Plains Tropical
-	- Refinery
-	- Broken Ice
-- Terrains by Dioxine
-	- Chemical Town (temporarily removed from rulesets, terrain and maps still present)
-	- Commercial
-	- Industrial Slums
-	- Rural Village (with Solarius Scorch)
-	- Island
-	- Port
-- Terrains by hellrazor
-	- Expanded Urban 
-	- Expanded Alien Base
-- Terrains by IDT - luke83 & efrenespartano
-	- Airport
-	- Rice Farm
-	- Rural Settlement
-	- Rural Snow Settlement
-	- Rural Forest
-	- Rural Snow Forest
-- Terrains by Solarius Scorch, with maps by Civilian and Finnik:
-	- Forest
-	- Forest Swamp
-	- Forest Snow
-	- Forest Swamp Snow
-	- Rural Village (with Dioxine)
+"HARVEST": A mod for openXcom
+release 0002
+===========================================================================
+* What is included *
+
+New maps                : None
+Sounds                  : Yes
+Music                   : No
+Graphics                : Yes
+Other files required    : None
+
+* How to install *
+Simply copy the "data" folder into your OpenXcom folder, being sure to
+preserve directory structure. Doing so will hopefully not overwrite any
+previous mods you have installed, provided they do not reference a folder
+located within "data/Resources/Halo" and provided you do not have an
+existing mod installed with a ruleset named "Harvest.rul". Launch this mod
+as you would any other ruleset from within openXcom.
+
+* How to uninstall *
+Delete the folder data/Resources/Halo and the file data/Ruleset/Harvest.rul.
+
+===========================================================================
+* Change log *
+
+r0002 - 8-20-2014 : Added T25 Plasma Pistol, Plasma Rifle, PR/I, and T51.
+r0001 - 8-16-2014 : Added MA37 ICWS and SRS99.
+r0000 - 8-16-2014 : Added M6C and M6C/SOCOM. Removed all other starting
+                    weapons. Sorry, you'll have to make due for now!

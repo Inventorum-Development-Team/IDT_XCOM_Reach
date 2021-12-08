@@ -13,13 +13,18 @@ Credits:
 
 
 *BaileyJIII: backgrounds
+*b1ackwolf: beta tester
 *Bohemond: Unit Sprite Studio and Globe Editor tools
 *bulletdesigner: original Pelican and Falcon tilesets (modified)
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
+*Isaac Hannaford: backgrounds
 *Kenny Magnusson: backgrounds
 *Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template
 *liberation: original region data ruleset
+*Martin O'Donnell: soundtrack
+*Michael Salvatori: soundtrack
+*Stephen Rippy: soundtrack
 *ohartenstein23: human armor spritesheets template
 *Wallz2296: Sangheili paperdolls
 

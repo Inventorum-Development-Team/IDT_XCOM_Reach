@@ -27,15 +27,15 @@ regions:
       STR_COVENANT_RECON: 20
     missionZones:
       -
-        - [302, 8, -69, -55]
+        - [302, 368, -69, -55]
         - [302, 324, -55, -39]
-        - [302, 6.6, -30, -10]
-        - [344, 6.6, -46, -30]
+        - [302, 366.6, -30, -10]
+        - [344, 366.6, -46, -30]
       -
         - [303, 321, -52, -43]
         - [336, 342, -42, -50]
         - [319, 344, -27, -24]
-        - [348, 4, -41, -17]
+        - [348, 364, -41, -17]
         - [317, 338, -37, -32]
         - [328, 348, -65, -61]
       -
@@ -48,12 +48,12 @@ regions:
         - [338, 354, -17, -12]
       -
         - [332, 344, -44, -40]
-        - [356, 3, -53, -48]
+        - [356, 363, -53, -48]
         - [305, 312, -36, -33]
         - [342, 350, -20, -15]
       -
         - [332, 344, -44, -40]
-        - [356, 3, -53, -48]
+        - [356, 363, -53, -48]
         - [305, 312, -36, -33]
         - [342, 350, -20, -15]
 
@@ -69,15 +69,15 @@ regions:
       STR_COVENANT_RECON: 20
     missionZones:
       -
-        - [262, 15, -77, -72]
+        - [262, 375, -77, -72]
         - [48, 142, -78, -73]
       -
         - [198, 285, -77, -76]
         - [78, 117, -75, -84]
       -
-        - [209, 160, -82, -78]
+        - [209, 520, -82, -78]
       -
-        - [209, 160, -82, -78]
+        - [209, 520, -82, -78]
       -
         - [1.33, 91, -87, -83]
         - [176, 204, -80, -85]
@@ -94,25 +94,25 @@ regions:
         - 70.998419267761
         - -1.6998407963838
         - 22.227965285865
-    regionWeight: 18
+    regionWeight: 10
     missionWeights:
       STR_COVENANT_SECTOR_INVASION_EARLY: 10
       STR_COVENANT_RECON: 20
     missionZones:
       -
         - [305, 332, -6, -0.3]
-        - [345, 2.4, -4, -1.6]
-        - [319, 3.1, 10, 25]
+        - [345, 362.4, -4, -1.6]
+        - [319, 363.1, 10, 25]
         - [9.3, 33, 2.1, 9]
         - [44, 64, 7, 17]
       -
         - [316, 330, -3.4, 12]
-        - [343, 0, 5, 15]
+        - [343, 360, 5, 15]
         - [5, 28, 15, 19]
         - [45, 59, 3.12, 7.2]
       -
         - [333, 340, -1.2, 5]
-        - [353, 10, 0.72, 5]
+        - [353, 370, 0.72, 5]
         - [54, 65, 11, 15]
         - [329, 346, 14, 16]
         - [19, 26, 7.6, 15]
@@ -169,7 +169,7 @@ regions:
         - 179.82806932521998
         - -70.023882157769
         - 6.4460028248706
-    regionWeight: 30
+    regionWeight: 80
     missionWeights:
       STR_COVENANT_SECTOR_INVASION_EARLY: 40
       STR_COVENANT_RECON: 20
@@ -211,7 +211,7 @@ regions:
         - 301.310042415498
         - -70.775097652561
         - 33.085259986329
-    regionWeight: 30
+    regionWeight: 50
     missionWeights:
       STR_COVENANT_SECTOR_INVASION_EARLY: 50
       STR_COVENANT_RECON: 20
@@ -320,11 +320,8 @@ regions:
         - 88.732992408202
     regionWeight: 18
     missionWeights:
-      STR_ALIEN_RESEARCH: 14
-      STR_ALIEN_HARVEST: 17
-      STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
-      STR_ALIEN_BASE: 20
+      STR_COVENANT_SECTOR_INVASION_EARLY: 10
+      STR_COVENANT_RECON: 20
     missionZones:
       -
         - [303, 349, 30, 36]
@@ -370,21 +367,18 @@ regions:
         - 90
     regionWeight: 18
     missionWeights:
-      STR_ALIEN_RESEARCH: 14
-      STR_ALIEN_HARVEST: 17
-      STR_ALIEN_ABDUCTION: 20
-      STR_ALIEN_INFILTRATION: 20
-      STR_ALIEN_BASE: 20
+      STR_COVENANT_SECTOR_INVASION_EARLY: 10
+      STR_COVENANT_RECON: 20
     missionZones:
       -
         - [10, 47, 23, 25]
-        - [358, 13, 33, 68]
+        - [358, 373, 33, 68]
         - [27, 42, 44, 53]
         - [1, 40, 73, 82]
       -
         - [2, 9, 29, 41]
         - [32, 38, 24, 40]
-        - [13, 24, 26, 46]
+        - [13, 373, 26, 46]
         - [13, 40, 54, 68]
         - [18, 33, 67, 74]
       -

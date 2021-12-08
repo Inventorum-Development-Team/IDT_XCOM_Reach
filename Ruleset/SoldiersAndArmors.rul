@@ -935,7 +935,7 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor1.png
   - typeSingle: HUMAN__5__MARINE_SHOULDER_ARMOR_2
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor2.png
-  - typeSingle: HUMAN__5__MARINE_SHOULDER_ARMOR_2
+  - typeSingle: HUMAN__5__MARINE_SHOULDER_ARMOR_3
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor3.png
 # Head covering
   - typeSingle: HUMAN__6__ARMY_CAP
