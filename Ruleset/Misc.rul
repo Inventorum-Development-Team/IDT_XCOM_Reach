@@ -382,4 +382,151 @@ extraSprites:
     files:
       0: Resources/Globe/REACH_TEXTURES.png
 
+#####################
+#Crafts
+  - type: CHARON_FRIGATE_PEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/CHARON_FRIGATE_PEDIA.png
+  - type: FALCON_DROPSHIP_PEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/FALCON_DROPSHIP_PEDIA.png
+  - type: FALCON_GUNSHIP_PEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/FALCON_GUNSHIP_PEDIA.png
+  - type: LONGSWORD_FIGHTER_PEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/LONGSWORD_FIGHTER_PEDIA.png
+  - type: PARIS_FRIGATE_PEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/PARIS_FRIGATE_PEDIA.png
+  - type: PELICAN_DROPSHIP_PEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/PELICAN_DROPSHIP_PEDIA.png
+  - type: SABRE_FIGHTER_PEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/SABRE_FIGHTER_PEDIA.png
+
+#Craft Weapons
+  - type: MAC
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/MAC.png
+  - type: 30MM_CANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/30MM_CANNON.png
+  - type: 50MM_AUTOCANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/50MM_AUTOCANNON.png
+  - type: 70MM_CHAINGUN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/70MM_CHAINGUN.png
+
+  - type: AA_BATTERY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/AA_BATTERY.png
+  - type: ARCHER_MISSILE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/ARCHER_MISSILE.png
+  - type: ASGM10_MISSILE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/ASGM10_MISSILE.png
+  - type: MEDUSA_MISSILE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/MEDUSA_MISSILE.png
+  - type: SHIVA_NUKE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/SHIVA_NUKE.png
+
+#Covenant Ships
+  - type: AssaultCarrier_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/AssaultCarrier_Interwin.png
+  - type: Banshee_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/Banshee_Interwin.png
+  - type: BattleCruiser_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/BattleCruiser_Interwin.png
+  - type: HeavyCorvette_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/HeavyCorvette_Interwin.png
+  - type: HeavyDestroyer_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/HeavyDestroyer_Interwin.png
+  - type: Seraph_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/Seraph_Interwin.png
+  - type: Spirit_Interwin
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/EnemyCrafts/Spirit_Interwin.png
+
+
   

@@ -2,9 +2,24 @@ ufopaedia:
   - id: STR_SPI_ARMOR_UC
     type_id: 5
     listOrder: 2000
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SPI_ARMOR_P
-   #Human Weapons
+    section: STR_ARMORS
+    text: STR_SPI_ARMOR_UFOPEDIA
+  - id: STR_ARMOR_ODST_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_ODST_UFOPEDIA
+  - id: STR_ARMOR_MARINE_STANDARD_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_MARINE_UFOPEDIA
+  - id: STR_ARMOR_ARMY_STANDARD_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
+
   - id: STR_MA37
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
@@ -55,19 +70,19 @@ ufopaedia:
   - id: STR_M7_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_M45_SHOTGUN
-    section: STR_WEAPONS_AND_EQUIPMENT
-    type_id: 4
-    listOrder: 2406
-    text: STR_M45_SHOTGUN_UFOPEDIA
-  - id: STR_M90_SHOTGUN
-    section: STR_WEAPONS_AND_EQUIPMENT
-    type_id: 4
-    listOrder: 2407
-    text: STR_M90_SHOTGUN_UFOPEDIA
-  - id: STR_8GAUGE_SHELLS
-    type_id: 4
-    section: STR_NOT_AVAILABLE
+#  - id: STR_M45_SHOTGUN
+#    section: STR_WEAPONS_AND_EQUIPMENT
+#    type_id: 4
+#    listOrder: 2406
+#    text: STR_M45_SHOTGUN_UFOPEDIA
+#  - id: STR_M90_SHOTGUN
+#    section: STR_WEAPONS_AND_EQUIPMENT
+#    type_id: 4
+#    listOrder: 2407
+#    text: STR_M90_SHOTGUN_UFOPEDIA
+#  - id: STR_8GAUGE_SHELLS
+#    type_id: 4
+#    section: STR_NOT_AVAILABLE
   - id: STR_BR55
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
@@ -95,149 +110,173 @@ ufopaedia:
   - id: STR_SRS99_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+#############################################
+  - id: STR_PARIS_CLASS_HEAVY_FRIGATE
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_PARIS_CLASS_HEAVY_FRIGATE_UFOPEDIA
+    listOrder: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: PARIS_FRIGATE_PEDIA.SPK
+  - id: STR_CHARON_CLASS_LIGHT_FRIGATE
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_CHARON_CLASS_LIGHT_FRIGATE_UFOPEDIA
+    listOrder: 2
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: CHARON_FRIGATE_PEDIA.SPK
+  - id: STR_SABRE_FIGHTER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_SABRE_FIGHTER_UFOPEDIA
+    listOrder: 3
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SABRE_FIGHTER_PEDIA.SPK
+  - id: STR_LONGSWORD_FIGHTER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_LONGSWORD_FIGHTER_UFOPEDIA
+    listOrder: 4
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: LONGSWORD_FIGHTER_PEDIA.SPK
+  - id: STR_PELICAN_DROPSHIP
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_PELICAN_DROPSHIP_UFOPEDIA
+    listOrder: 5
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: PELICAN_DROPSHIP_PEDIA.SPK
+  - id: STR_FALCON_DROPSHIP
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_FALCON_DROPSHIP_UFOPEDIA
+    listOrder: 6
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: FALCON_DROPSHIP_PEDIA.SPK
+  - id: STR_FALCON_GUNSHIP
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_FALCON_GUNSHIP_UFOPEDIA
+    listOrder: 7
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: FALCON_GUNSHIP_PEDIA.SPK
 
-extraSprites:
-#Crafts
-  - type: CHARON_FRIGATE_PEDIA.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Crafts/CHARON_FRIGATE_PEDIA.png
-  - type: FALCON_DROPSHIP_PEDIA.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Crafts/FALCON_DROPSHIP_PEDIA.png
-  - type: FALCON_GUNSHIP_PEDIA.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Crafts/FALCON_GUNSHIP_PEDIA.png
-  - type: LONGSWORD_FIGHTER_PEDIA.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Crafts/LONGSWORD_FIGHTER_PEDIA.png
-  - type: PARIS_FRIGATE_PEDIA.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Crafts/PARIS_FRIGATE_PEDIA.png
-  - type: PELICAN_DROPSHIP_PEDIA.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Crafts/PELICAN_DROPSHIP_PEDIA.png
-  - type: SABRE_FIGHTER_PEDIA.SPK
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Crafts/SABRE_FIGHTER_PEDIA.png
+  - id: STR_MAC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: MAC
+    text: STR_MAC_UFOPEDIA
 
-#Craft Weapons
-  - type: MAC
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/MAC.png
-  - type: 30MM_CANNON
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/30MM_CANNON.png
-  - type: 50MM_AUTOCANNON
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/50MM_AUTOCANNON.png
-  - type: 70MM_CHAINGUN
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/70MM_CHAINGUN.png
+  - id: STR_30MM_CANNON_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: 30MM_CANNON
+    text: STR_30MM_CANNON_UC_UFOPEDIA
 
-  - type: AA_BATTERY
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/AA_BATTERY.png
-  - type: ARCHER_MISSILE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/ARCHER_MISSILE.png
-  - type: ASGM10_MISSILE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/ASGM10_MISSILE.png
-  - type: MEDUSA_MISSILE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/MEDUSA_MISSILE.png
-  - type: SHIVA_NUKE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/CraftWeapons/SHIVA_NUKE.png
+  - id: STR_50MM_CANNON_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: 50MM_AUTOCANNON
+    text: STR_50MM_CANNON_UC_UFOPEDIA
 
-#Covenant Ships
-  - type: AssaultCarrier_Interwin
-    singleImage: true
-    width: 160
-    height: 52
-    files:
-      0: Resources/EnemyCrafts/AssaultCarrier_Interwin.png
-  - type: Banshee_Interwin
-    singleImage: true
-    width: 160
-    height: 52
-    files:
-      0: Resources/EnemyCrafts/Banshee_Interwin.png
-  - type: BattleCruiser_Interwin
-    singleImage: true
-    width: 160
-    height: 52
-    files:
-      0: Resources/EnemyCrafts/BattleCruiser_Interwin.png
-  - type: HeavyCorvette_Interwin
-    singleImage: true
-    width: 160
-    height: 52
-    files:
-      0: Resources/EnemyCrafts/HeavyCorvette_Interwin.png
-  - type: HeavyDestroyer_Interwin
-    singleImage: true
-    width: 160
-    height: 52
-    files:
-      0: Resources/EnemyCrafts/HeavyDestroyer_Interwin.png
-  - type: Seraph_Interwin
-    singleImage: true
-    width: 160
-    height: 52
-    files:
-      0: Resources/EnemyCrafts/Seraph_Interwin.png
-  - type: Spirit_Interwin
-    singleImage: true
-    width: 160
-    height: 52
-    files:
-      0: Resources/EnemyCrafts/Spirit_Interwin.png
+
+  - id: STR_AA_BATTERY_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: AA_BATTERY
+    text: STR_AA_BATTERY_UC_UFOPEDIA
+
+  - id: STR_70MM_CHAINGUN_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: 70MM_CHAINGUN
+    text: STR_70MM_CHAINGUN_UC_UFOPEDIA
+
+
+  - id: STR_SHIVA_NUKE_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: SHIVA_NUKE
+    text: STR_SHIVA_NUKE_UC_UFOPEDIA
+
+  - id: STR_ARCHER_MISSILE_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: ARCHER_MISSILE
+    text: STR_ARCHER_MISSILE_UC_UFOPEDIA
+
+  - id: STR_MEDUSA_MISSILE_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: MEDUSA_MISSILE
+    text: STR_MEDUSA_MISSILE_UC_UFOPEDIA
+
+  - id: STR_ASGM10_MISSILE_UC
+    type_id: 2
+    section: STR_VEHICLES
+    image_id: ASGM10_MISSILE
+    text: STR_ASGM10_MISSILE_UC_UFOPEDIA
+
