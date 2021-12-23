@@ -27,6 +27,7 @@ Credits:
 *Stephen Rippy: soundtrack
 *ohartenstein23: human armor spritesheets template
 *Wallz2296: Sangheili paperdolls
+*XCROSS: UI ruleset template
 
 
 ==================================================
@@ -34,4 +35,4 @@ Credits:
 ###### LICENSE: ######
 ######################
 
-Halo Reach & Halo 3 © Microsoft Corporation. "XCOM Reach" was created under Microsoft's "Game Content Usage Rules" using assets from Halo Reach and Halo 3, and it is not endorsed by or affiliated with Microsoft.  
+Halo Reach & Halo 3 © Microsoft Corporation. "The Fall" was created under Microsoft's "Game Content Usage Rules" using assets from Halo Reach and Halo 3, and it is not endorsed by or affiliated with Microsoft.  

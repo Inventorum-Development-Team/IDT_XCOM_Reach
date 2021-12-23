@@ -1155,17 +1155,6 @@ extraSprites:
       875: Resources/bulletSprites/SpartanLaserBullet.png #25
       910: Resources/bulletSprites/SpikerBullet.png #26
 
-extraSounds:
-  - type: BATTLE.CAT
-    files:
-      400: Resources/Halo/SndWeapon/M6CFire.wav
-      401: Resources/Halo/SndWeapon/M6CSOCOMFire.wav
-      403: Resources/Halo/SndWeapon/SR99Fire.wav
-      405: Resources/Halo/SndWeapon/MA37Fire.wav
-      407: Resources/Halo/SndWeapon/T25PFire.wav  #T51 also uses this sound
-      409: Resources/Halo/SndWeapon/T25Fire.wav
-      411: Resources/Halo/SndWeapon/T25BFire.wav
-
 extended:
   tags:
     RuleItem:

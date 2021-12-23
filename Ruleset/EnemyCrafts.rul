@@ -1,5 +1,5 @@
 ufos:
-  - type: STR_SERAPH_FIGHTER
+  - type: STR_SERAPH_FIGHTER # ignoreDuplicate
     modSprite: Seraph_Interwin
     size: STR_SMALL
     damageMax: 200
