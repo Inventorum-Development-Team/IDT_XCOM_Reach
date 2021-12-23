@@ -1,6 +1,6 @@
 es-419:
 ######################
-  STR_OPENXCOM: "XCOM Reach: Punta de Lanza"
+  STR_OPENXCOM: "La Caída"
   STR_NEW_GAME: "Defensa de Reach"
   STR_NEW_BATTLE: "Tiroteo"
   STR_MISSION_GENERATOR: "TIROTEO"
@@ -71,8 +71,8 @@ es-419:
   STR_ARMOR_ODST: "Armadura de batalla SCDO"
   STR_ARMOR_ODST_UFOPEDIA: "Uniforme de Combate con placas de un compuesto titanio-cerámico con capacidad de actividad extravehicular, más resistente al plasma y las balas, equipado con tecnología VISR."
 ######################
-  STR_SHIELD_S: "Escudo resistiendo!"
-  STR_SHIELD_DOWN: "Escudo caído!"
+  STR_SHIELD_S: "¡Escudo resistiendo!"
+  STR_SHIELD_DOWN: "¡Escudo caído!"
   STR_AIMED_BURST: "Ráfaga precisa"
   STR_BURST: "Ráfaga"
   STR_FULL_AUTO: "Automático"
