@@ -29,8 +29,8 @@ items:
     size: 0.4
     costSell: 30000
     weight: 25
-    bigSprite: 2001
-    floorSprite: 2001
+    bigSprite: 2002
+    floorSprite: 2002
     invWidth: 2
     invHeight: 3
 
@@ -42,8 +42,8 @@ items:
     size: 0.4
     costSell: 30000
     weight: 25
-    bigSprite: 2001
-    floorSprite: 2001
+    bigSprite: 2003
+    floorSprite: 2003
     invWidth: 2
     invHeight: 3
 
@@ -410,7 +410,10 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 200
-    deathSound: 10
+    aggroSound: 1500
+    berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
+    deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
+    panicSound: [1527, 1528, 1529]
     spotter: 2
     intelligence: 8
     aggression: 5
@@ -450,7 +453,10 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 400
-    deathSound: 10
+    aggroSound: 1500
+    berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
+    deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
+    panicSound: [1527, 1528, 1529]
     spotter: 2
     intelligence: 8
     aggression: 5
@@ -490,7 +496,10 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 800
-    deathSound: 10
+    aggroSound: 1500
+    berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
+    deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
+    panicSound: [1527, 1528, 1529]
     spotter: 2
     intelligence: 10
     aggression: 5
@@ -530,7 +539,10 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 1000
-    deathSound: 10
+    aggroSound: 1500
+    berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
+    deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
+    panicSound: [1527, 1528, 1529]
     spotter: 2
     intelligence: 10
     aggression: 10
@@ -570,7 +582,10 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 50
-    deathSound: 10
+    aggroSound: 1536
+    berserkSound: [1545, 1546, 1547, 1548]
+    deathSound: [1554, 1555, 1556]
+    panicSound: [1563, 1564, 1565, 1566]
     spotter: 2
     sniper: 8
     intelligence: 6
@@ -611,7 +626,10 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 100
-    deathSound: 10
+    aggroSound: 1536
+    berserkSound: [1545, 1546, 1547, 1548]
+    deathSound: [1554, 1555, 1556]
+    panicSound: [1563, 1564, 1565, 1566]
     spotter: 2
     sniper: 8
     intelligence: 6
@@ -652,7 +670,10 @@ units:
     standHeight: 19
     kneelHeight: 15
     value: 150
-    deathSound: 10
+    aggroSound: 1536
+    berserkSound: [1545, 1546, 1547, 1548]
+    deathSound: [1554, 1555, 1556]
+    panicSound: [1563, 1564, 1565, 1566]
     spotter: 2
     sniper: 8
     intelligence: 6
@@ -690,7 +711,10 @@ units:
     standHeight: 16
     kneelHeight: 15
     value: 20
-    deathSound: 10
+    aggroSound: 1572
+    berserkSound: [1581, 1582, 1583]
+    deathSound: [1590, 1591, 1592]
+    panicSound: [1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607]
     spotter: 2
     intelligence: 3
     aggression: 2
@@ -730,7 +754,10 @@ units:
     standHeight: 16
     kneelHeight: 15
     value: 40
-    deathSound: 10
+    aggroSound: 1572
+    berserkSound: [1581, 1582, 1583]
+    deathSound: [1590, 1591, 1592]
+    panicSound: [1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607]
     spotter: 2
     intelligence: 4
     aggression: 3
@@ -770,7 +797,10 @@ units:
     standHeight: 16
     kneelHeight: 15
     value: 60
-    deathSound: 10
+    aggroSound: 1572
+    berserkSound: [1581, 1582, 1583]
+    deathSound: [1590, 1591, 1592]
+    panicSound: [1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607]
     spotter: 2
     sniper: 8
     intelligence: 4
@@ -811,7 +841,10 @@ units:
     standHeight: 16
     kneelHeight: 15
     value: 150
-    deathSound: 10
+    aggroSound: 1572
+    berserkSound: [1581, 1582, 1583]
+    deathSound: [1590, 1591, 1592]
+    panicSound: [1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607]
     spotter: 2
     sniper: 8
     intelligence: 6
