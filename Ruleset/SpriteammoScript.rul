@@ -60,95 +60,95 @@
 # Example of a mod where the script is used: https://github.com/Inventorum-Development-Team/CTO
 
 items:
-  - type: STR_MA5B
+  - type: STR_MA5B # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_MA5B_MAG
+  - type: STR_MA5B_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_MA37
+  - type: STR_MA37 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_MA37_MAG
+  - type: STR_MA37_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_BR55
+  - type: STR_BR55 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_BR55_MAG
+  - type: STR_BR55_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_M392
+  - type: STR_M392 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M392_MAG
+  - type: STR_M392_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_SRS99
+  - type: STR_SRS99 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_SRS99_MAG
+  - type: STR_SRS99_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_M6C
+  - type: STR_M6C # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M6C_SOCOM
+  - type: STR_M6C_SOCOM # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M6C_MAG
+  - type: STR_M6C_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_M6G
+  - type: STR_M6G # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M6G_MAG
+  - type: STR_M6G_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_M7 #ignoreDuplicate
     tags:
      FoldStock: 1
      AmmoReSprite: 1
-  - type: STR_M7S
+  - type: STR_M7S # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_M7_MAG
+  - type: STR_M7_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_PLASMA_RIFLE
+  - type: STR_PLASMA_RIFLE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_PLASMA_RIFLE_CELL
+  - type: STR_PLASMA_RIFLE_CELL # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_PLASMA_RIFLE_BRUTE
+  - type: STR_PLASMA_RIFLE_BRUTE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_PLASMA_RIFLE_BRUTE_CELL
+  - type: STR_PLASMA_RIFLE_BRUTE_CELL # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_PLASMA_REPEATER
+  - type: STR_PLASMA_REPEATER # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_PLASMA_REPEATER_CELL
+  - type: STR_PLASMA_REPEATER_CELL # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_NEEDLER
+  - type: STR_NEEDLER # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_NEEDLER_CANISTER
+  - type: STR_NEEDLER_CANISTER # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_PLASMA_PISTOL
+  - type: STR_PLASMA_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_PLASMA_PISTOL_CELL
+  - type: STR_PLASMA_PISTOL_CELL # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_PLASMA_CARBINE
+  - type: STR_PLASMA_CARBINE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_PLASMA_CARBINE_MAG
+  - type: STR_PLASMA_CARBINE_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
 

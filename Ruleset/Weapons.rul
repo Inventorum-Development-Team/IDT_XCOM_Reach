@@ -61,7 +61,8 @@ items:
     bigSprite: 200
     floorSprite: 200
     handSprite: 200
-    fireSound: 405
+    fireSound: [132, 133, 134]
+    reloadSound: [135, 136, 137]
     compatibleAmmo:
       - STR_MA5B_MAG
     accuracyAuto: 35
@@ -88,7 +89,7 @@ items:
     weight: 2
     bigSprite: 216
     floorSprite: 216
-    hitSound: 22
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 11
     bulletSpeed: 15
@@ -112,7 +113,8 @@ items:
     bigSprite: 224
     floorSprite: 224
     handSprite: 224
-    fireSound: 405
+    fireSound: [138, 139, 140]
+    reloadSound: [141, 142, 143]
     compatibleAmmo:
       - STR_MA37_MAG
     accuracyAuto: 35
@@ -139,7 +141,7 @@ items:
     weight: 2
     bigSprite: 256
     floorSprite: 256
-    hitSound: 22
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 11
     power: 37
@@ -163,7 +165,8 @@ items:
     bigSprite: 264
     floorSprite: 264
     handSprite: 264
-    fireSound: 405
+    fireSound: [100, 101, 102, 103, 104, 105, 106]
+    reloadSound: [107, 108, 109]
     compatibleAmmo:
       - STR_BR55_MAG
     confAimed:
@@ -194,7 +197,7 @@ items:
     weight: 2
     bigSprite: 280
     floorSprite: 280
-    hitSound: 22
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 12
     power: 44
@@ -218,7 +221,8 @@ items:
     bigSprite: 288
     floorSprite: 288
     handSprite: 288
-    fireSound: 405
+    fireSound: [110, 111, 112]
+    reloadSound: [113, 114, 115]
     compatibleAmmo:
       - STR_M392_MAG
     accuracySnap: 50
@@ -242,7 +246,7 @@ items:
     weight: 2
     bigSprite: 304
     floorSprite: 304
-    hitSound: 22
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 11
     power: 55
@@ -277,7 +281,8 @@ items:
     aimRange: 90            #
     snapRange: 45           #
     dropoff: 6              #
-    fireSound: 403          #
+    fireSound: 144          #
+    reloadSound: 145
     bigSprite: 312    #inventory sprite
     floorSprite: 312  #battlescape floor sprite
     handSprite: 312
@@ -288,7 +293,7 @@ items:
     weight: 3
     bigSprite: 328
     floorSprite: 328
-    hitSound: 22
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 14
     bulletSpeed: 15
@@ -325,7 +330,8 @@ items:
     aimRange: 25            #
     snapRange: 10           #
     dropoff: 5              #
-    fireSound: 400          #
+    fireSound: 116          #
+    reloadSound: [122, 123, 124]
     bigSprite: 336    #inventory sprite
     floorSprite: 336  #battlescape floor sprite
     handSprite: 336
@@ -347,7 +353,8 @@ items:
     aimRange: 30            #
     snapRange: 15           #
     dropoff: 4              #
-    fireSound: 401          #
+    fireSound: 117          #
+    reloadSound: [122, 123, 124]   
     bigSprite: 352    #inventory sprite
     floorSprite: 352  #battlescape floor sprite
     handSprite: 352
@@ -358,7 +365,7 @@ items:
     weight: 2
     bigSprite: 368
     floorSprite: 368
-    hitSound: 22
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 13
     power: 42
@@ -391,7 +398,8 @@ items:
     aimRange: 25            #
     snapRange: 10           #
     dropoff: 5              #
-    fireSound: 400          #
+    fireSound: [118, 119, 120, 121]          #
+    reloadSound: [122, 123, 124]
     bigSprite: 376    #inventory sprite
     floorSprite: 376  #battlescape floor sprite
     handSprite: 376
@@ -402,7 +410,7 @@ items:
     weight: 2
     bigSprite: 392
     floorSprite: 392
-    hitSound: 22
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 13
     power: 45
@@ -427,7 +435,8 @@ items:
     bigSprite: 400
     floorSprite: 400
     handSprite: 400
-    fireSound: 400
+    fireSound: [146, 147, 148]
+    reloadSound: [152, 153, 154]
     compatibleAmmo:
       - STR_M7_MAG
     confAuto:
@@ -467,7 +476,8 @@ items:
     bigSprite: 448
     floorSprite: 448
     handSprite: 448
-    fireSound: 401
+    fireSound: [149, 150, 151]
+    reloadSound: [152, 153, 154]
     compatibleAmmo:
       - STR_M7_MAG
     confAuto:
@@ -507,7 +517,7 @@ items:
     weight: 2
     bigSprite: 464
     floorSprite: 464
-    hitSound: 22
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 10
     power: 20
@@ -524,7 +534,7 @@ items:
     clipSize: 60
     battleType: 2
     armor: 12
-
+######################################################
   - type: STR_PLASMA_RIFLE       #Type25 Plasma Rifle
     #costBuy: 1     #--DEBUG--
     costSell: 125000
@@ -552,7 +562,8 @@ items:
     aimRange: 25            #
     snapRange: 10           #
     dropoff: 5              #
-    fireSound: 409          #
+    fireSound: [235, 236, 237]
+    reloadSound: [218, 219]
     bigSprite: 608    #inventory sprite
     floorSprite: 608  #battlescape floor sprite
     handSprite: 608
@@ -563,7 +574,7 @@ items:
     weight: 4
     bigSprite: 624
     floorSprite: 624
-    hitSound: 19
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
     hitAnimation: 90
     bulletSprite: 21
     bulletSpeed: 10
@@ -604,7 +615,8 @@ items:
     aimRange: 25            #
     snapRange: 10           #
     dropoff: 5              #
-    fireSound: 409          #
+    fireSound: [235, 236, 237]
+    reloadSound: [218, 219]
     bigSprite: 632    #inventory sprite
     floorSprite: 632  #battlescape floor sprite
     handSprite: 632
@@ -615,7 +627,7 @@ items:
     weight: 4
     bigSprite: 648
     floorSprite: 648
-    hitSound: 19
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
     hitAnimation: 100
     bulletSprite: 22
     bulletSpeed: 10
@@ -638,7 +650,8 @@ items:
     bigSprite: 680
     floorSprite: 680
     handSprite: 680
-    fireSound: 405
+    fireSound: [200, 201, 202]
+    reloadSound: [203, 204, 205]
     compatibleAmmo:
       - STR_PLASMA_CARBINE_MAG
     accuracySnap: 50
@@ -662,7 +675,7 @@ items:
     weight: 2
     bigSprite: 696
     floorSprite: 696
-    hitSound: 19
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
     hitAnimation: 140
     bulletSprite: 18
     bulletSpeed: 10
@@ -704,7 +717,8 @@ items:
     aimRange: 30            #
     snapRange: 13           #
     dropoff: 6              #
-    fireSound: 407          #
+    fireSound: [215, 216, 217]          #
+    reloadSound: [220, 221, 222]
     bigSprite: 656    #inventory sprite
     floorSprite: 656  #battlescape floor sprite
     handSprite: 656
@@ -715,7 +729,7 @@ items:
     weight: 6
     bigSprite: 672
     floorSprite: 672
-    hitSound: 19
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
     hitAnimation: 120
     bulletSprite: 23
     bulletSpeed: 10
@@ -755,7 +769,8 @@ items:
     aimRange: 25            #
     snapRange: 10           #
     dropoff: 5              #
-    fireSound: 409          #
+    fireSound: [206, 207, 208]          #
+    reloadSound: [209, 210, 211]
     bigSprite: 704    #inventory sprite
     floorSprite: 704  #battlescape floor sprite
     handSprite: 704
@@ -766,7 +781,7 @@ items:
     weight: 4
     bigSprite: 720
     floorSprite: 720
-    hitSound: 19
+    hitSound: [372, 373, 374]
     hitAnimation: 130
     bulletSprite: 19
     bulletSpeed: 10
@@ -807,7 +822,8 @@ items:
     aimRange: 20            #
     snapRange: 8            #
     dropoff: 5              #
-    fireSound: 407          #
+    fireSound: [212, 213, 214]          #
+    reloadSound: [218, 219]
     bigSprite: 776    #inventory sprite
     floorSprite: 776  #battlescape floor sprite
     handSprite: 776
@@ -818,7 +834,7 @@ items:
     weight: 2
     bigSprite: 792
     floorSprite: 792
-    hitSound: 19
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
     hitAnimation: 110
     bulletSprite: 20
     power: 23
