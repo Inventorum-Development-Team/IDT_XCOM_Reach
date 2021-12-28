@@ -78,6 +78,7 @@ en-US:
   STR_FULL_AUTO: "Full Auto"
   STR_SUPERCOMBINED: "Supercombined"
   STR_SINGLE_SHOT: "Single Shot"
+  STR_SWING: "Swing"
 ######################
   STR_M6C: M6C PDWS
   STR_M6C_UFOPEDIA: "Marine Corps' variant of the M6 PDWS, sporting a higher fire rate and velocity, using SAP-HP instead of SAP-HE." 
@@ -124,10 +125,20 @@ en-US:
   STR_NEEDLER_CANISTER: Type-33 'Needler' Canister
   STR_PLASMA_CARBINE: Type-51 Carbine
   STR_PLASMA_CARBINE_MAG: 8.7x60mm Caseless Carbine Magazine
+  STR_FUEL_ROD_GUN: "Type-33 'Fuel Rod Gun' LAAW"
+  STR_FUEL_ROD_GUN_RACK: "Type-33 LAAW Radioactive Rod Rack"
+  STR_ENERGY_SWORD: "Type-1 Energy Sword"
+  STR_ENERGY_SWORD_BATTERY: "Type-1 Energy Sword Battery"
 ######################
   STR_SANGHEILI_LANCE: "Elite Lance"
   STR_STANDARD_LANCE: "Standard Lance"
   STR_SANGHEILI: "Elite"
+  STR_SANGHEILI_ZEALOT: "Elite Zealot"
+  STR_SANGHEILI_ZEALOT_ARMOR: "Elite Combat Harness"
+  STR_SANGHEILI_ZEALOT_CORPSE: "Elite Zealot Corpse"
+  STR_SANGHEILI_ULTRA: "Elite Ultra"
+  STR_SANGHEILI_ULTRA_ARMOR: "Elite Combat Harness"
+  STR_SANGHEILI_ULTRA_CORPSE: "Elite Ultra Corpse"
   STR_SANGHEILI_MAJOR: "Elite Major"
   STR_SANGHEILI_MAJOR_ARMOR: "Elite Combat Harness"
   STR_SANGHEILI_MAJOR_CORPSE: "Elite Major Corpse"
