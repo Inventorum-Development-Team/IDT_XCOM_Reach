@@ -849,6 +849,119 @@ items:
     battleType: 2
     armor: 12
 
+  - type: STR_FUEL_ROD_GUN
+    size: 0.3
+    costSell: 14400
+    weight: 16
+    bigSprite: 824
+    floorSprite: 824
+    handSprite: 824
+    bulletSprite: 17
+    fireSound: 238
+    compatibleAmmo:
+      - STR_FUEL_ROD_GUN_RACK
+    accuracyAimed: 120
+    tuAimed: 66
+    battleType: 1
+    twoHanded: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_FUEL_ROD_GUN_RACK
+    size: 0.2
+    costSell: 1702
+    weight: 3
+    bigSprite: 840
+    floorSprite: 840
+    hitSound: 0
+    hitAnimation: 0
+    power: 150
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.75
+      ToArmorPre: 0.3
+      RadiusReduction: 40
+      IgnoreSelfDestruct: true
+      ToWound: 1.3
+      RandomWound: true
+      ToTile: 0.90
+      ToStun: 1.2
+    clipSize: 5
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 1
+    blastRadius: 5
+#    listOrder: 248
+
+  - type: STR_ENERGY_SWORD
+    size: 0.2
+    costSell: 35000
+    weight: 5
+    bigSprite: 928
+    floorSprite: 928
+    handSprite: 928
+    accuracySnap: 0
+    accuracyAimed: 0
+    reloadSound: 229
+    tuSnap: 0
+    tuAimed: 0
+    tuLoad: 20
+    maxRange: 2
+    snapRange: 0
+    aimRange: 0
+    meleeSound: [319, 320, 321]
+    meleeHitSound: [223, 224, 225, 226, 227, 228]
+    meleeAnimation: 8
+    compatibleAmmo:
+      - STR_ENERGY_SWORD_BATTERY
+    accuracyMelee: 80
+    meleeMultiplier:
+      melee: 1.2
+      flatHundred: 0.5
+    costMelee:
+      time: 20
+      energy: 5
+    costThrow:
+      energy: 14
+    flatMelee:
+      time: true
+    confMelee:
+      shots: 10
+      name: STR_SWING    
+    flatRate: true
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    armor: 75
+    attraction: 8
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 1.5
+      melee: 0.9
+
+
+  - type: STR_ENERGY_SWORD_BATTERY         #
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1200
+    weight: 2
+    bigSprite: 792
+    floorSprite: 792
+    damageType: 5
+    power: 200
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
+    clipSize: 100
+    battleType: 2
+    armor: 12
 
 extraSprites:
   - type: BIGOBS.PCK
@@ -930,9 +1043,9 @@ extraSprites:
 #      800: Resources/CovenantEquipment/BigFocusRifle_noammo.png
 #      808: Resources/CovenantEquipment/BigFocusRifle_ammo.png
 #      816: Resources/CovenantEquipment/BigFocusRifleBattery.png
-#      824: Resources/CovenantEquipment/BigFuelRodCannon_noammo.png
-#      832: Resources/CovenantEquipment/BigFuelRodCannon_ammo.png
-#      840: Resources/CovenantEquipment/BigFuelRodCannonRack.png
+      824: Resources/CovenantEquipment/BigFuelRodGun_noammo.png
+      832: Resources/CovenantEquipment/BigFuelRodGun_ammo.png
+      840: Resources/CovenantEquipment/BigFuelRodGunRack.png
 #      848: Resources/CovenantEquipment/BigBruteShot.png
 #      856: Resources/CovenantEquipment/BigBruteShotGrenadeRack.png
 #      864: Resources/CovenantEquipment/BigConcussionRifle_noammo.png
@@ -943,9 +1056,9 @@ extraSprites:
 #      904: Resources/CovenantEquipment/BigSpikeGrenade_noprimed.png
 #      912: Resources/CovenantEquipment/BigSpikeGrenade_primed.png
 #      920: Resources/CovenantEquipment/BigIncendiaryGrenade.png
-#      928: Resources/CovenantEquipment/BigEnergySword_noammo.png
-#      928: Resources/CovenantEquipment/BigEnergySword_noammo.png
-#      936: Resources/CovenantEquipment/BigEnergySword_ammo.png
+      928: Resources/CovenantEquipment/BigEnergySword_noammo.png
+      936: Resources/CovenantEquipment/BigEnergySword_ammo.png
+      944: Resources/CovenantEquipment/BigEnergySwordBattery.png
 #      944: Resources/CovenantEquipment/BigEnergySwordAmmo.png
 
   - type: FLOOROB.PCK
@@ -1027,9 +1140,9 @@ extraSprites:
 #      800: Resources/CovenantEquipment/FloorFocusRifle_noammo.png
 #      808: Resources/CovenantEquipment/FloorFocusRifle_ammo.png
 #      816: Resources/CovenantEquipment/FloorFocusRifleBattery.png
-#      824: Resources/CovenantEquipment/FloorFuelRodCannon_noammo.png
-#      832: Resources/CovenantEquipment/FloorFuelRodCannon_ammo.png
-#      840: Resources/CovenantEquipment/FloorFuelRodCannonRack.png
+      824: Resources/CovenantEquipment/FloorFuelRodGun_noammo.png
+      832: Resources/CovenantEquipment/FloorFuelRodGun_ammo.png
+      840: Resources/CovenantEquipment/FloorFuelRodGunRack.png
 #      848: Resources/CovenantEquipment/FloorBruteShot.png
 #      856: Resources/CovenantEquipment/FloorBruteShotGrenadeRack.png
 #      864: Resources/CovenantEquipment/FloorConcussionRifle_noammo.png
@@ -1041,8 +1154,8 @@ extraSprites:
 #      912: Resources/CovenantEquipment/FloorSpikeGrenade_primed.png
 #      920: Resources/CovenantEquipment/FloorIncendiaryGrenade.png
 #      928: Resources/CovenantEquipment/FloorIncendiaryGrenade.png
-#      928: Resources/CovenantEquipment/FloorEnergySword_noammo.png
-#      936: Resources/CovenantEquipment/FloorEnergySword_ammo.png
+      928: Resources/CovenantEquipment/FloorEnergySword_noammo.png
+      936: Resources/CovenantEquipment/FloorEnergySword_ammo.png
 #      944: Resources/CovenantEquipment/FloorEnergySwordAmmo.png
 
   - type: HANDOB.PCK
@@ -1118,9 +1231,9 @@ extraSprites:
 #      800: Resources/CovenantEquipment/HandFocusRifle_noammo.png
 #      808: Resources/CovenantEquipment/HandFocusRifle_ammo.png
 #      816: Resources/CovenantEquipment/HandFocusRifleBattery.png
-#      824: Resources/CovenantEquipment/HandFuelRodCannon_noammo.png
-#      832: Resources/CovenantEquipment/HandFuelRodCannon_ammo.png
-#      840: Resources/CovenantEquipment/HandFuelRodCannonRack.png
+      824: Resources/CovenantEquipment/HandFuelRodGun_noammo.png
+      832: Resources/CovenantEquipment/HandFuelRodGun_ammo.png
+#      840: Resources/CovenantEquipment/HandFuelRodGunRack.png
 #      848: Resources/CovenantEquipment/HandBruteShot.png
 #      856: Resources/CovenantEquipment/HandBruteShotGrenadeRack.png
 #      864: Resources/CovenantEquipment/HandConcussionRifle_noammo.png
@@ -1131,8 +1244,8 @@ extraSprites:
 #      904: Resources/CovenantEquipment/HandSpikeGrenade_noprimed.png
 #      912: Resources/CovenantEquipment/HandSpikeGrenade_primed.png
 #      920: Resources/CovenantEquipment/HandIncendiaryGrenade.png
-#      928: Resources/CovenantEquipment/HandEnergySword_noammo.png
-#      936: Resources/CovenantEquipment/HandEnergySword_ammo.png
+      928: Resources/CovenantEquipment/HandEnergySword_noammo.png
+      936: Resources/CovenantEquipment/HandEnergySword_ammo.png
 #      944: Resources/CovenantEquipment/HandEnergySwordAmmo.png
 
   - type: SMOKE.PCK
@@ -1170,6 +1283,15 @@ extraSprites:
       840: Resources/bulletSprites/Rocket.png #24
       875: Resources/bulletSprites/SpartanLaserBullet.png #25
       910: Resources/bulletSprites/SpikerBullet.png #26
+
+  - type: HIT.PCK
+    height: 40
+    width: 128
+    subX: 32
+    subY: 40
+    files:
+      4: Resources/hitAnimation/BladeHit.png
+      8: Resources/hitAnimation/PlasmaBladeHit.png
 
 extended:
   tags:
