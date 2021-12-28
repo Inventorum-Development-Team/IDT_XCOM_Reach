@@ -15,46 +15,46 @@ extraSprites:
     files:
       9: Resources/GlobeMarkers/CraftGlobeMarkersHalo.png
 crafts:
-  - type: STR_PARIS_CLASS_HEAVY_FRIGATE
+  - type: STR_PARIS_CLASS_HEAVY_FRIGATE # ignoreDuplicate
     marker: 9
-  - type: STR_CHARON_CLASS_LIGHT_FRIGATE
+  - type: STR_CHARON_CLASS_LIGHT_FRIGATE # ignoreDuplicate
     marker: 10
-  - type: STR_SABRE_FIGHTER
+  - type: STR_SABRE_FIGHTER # ignoreDuplicate
     marker: 11
-  - type: STR_LONGSWORD_FIGHTER
+  - type: STR_LONGSWORD_FIGHTER # ignoreDuplicate
     marker: 12
-  - type: STR_PELICAN_DROPSHIP
+  - type: STR_PELICAN_DROPSHIP # ignoreDuplicate
     marker: 15
-  - type: STR_FALCON_DROPSHIP
+  - type: STR_FALCON_DROPSHIP # ignoreDuplicate
     marker: 16
-  - type: STR_FALCON_GUNSHIP
+  - type: STR_FALCON_GUNSHIP # ignoreDuplicate
     marker: 17
 ufos:
-  - type: STR_BANSHEE_FIGHTER
+  - type: STR_BANSHEE_FIGHTER # ignoreDuplicate
     marker: 22
     markerLand: 31
     markerCrash: 40
-  - type: STR_SERAPH_FIGHTER
+  - type: STR_SERAPH_FIGHTER  # ignoreDuplicate
     marker: 23
     markerLand: 32
     markerCrash: 41
-  - type: STR_SPIRIT_DROPSHIP
+  - type: STR_SPIRIT_DROPSHIP # ignoreDuplicate
     marker: 24
     markerLand: 33
     markerCrash: 42
-  - type: STR_SDV_CLASS_HEAVY_CORVETTE
+  - type: STR_SDV_CLASS_HEAVY_CORVETTE # ignoreDuplicate
     marker: 26
     markerLand: 35
     markerCrash: 44
-  - type: STR_CPV_CLASS_HEAVY_DESTROYER
+  - type: STR_CPV_CLASS_HEAVY_DESTROYER # ignoreDuplicate
     marker: 27
     markerLand: 36
     markerCrash: 45
-  - type: STR_CCS_CLASS_BATTLECRUISER
+  - type: STR_CCS_CLASS_BATTLECRUISER # ignoreDuplicate
     marker: 28
     markerLand: 37
     markerCrash: 46
-  - type: STR_CAS_CLASS_ASSAULT_CARRIER
+  - type: STR_CAS_CLASS_ASSAULT_CARRIER # ignoreDuplicate
     marker: 29
     markerLand: 38
     markerCrash: 47

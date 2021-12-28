@@ -141,7 +141,7 @@ extraSounds:
       235: Resources/Sounds/WeaponSounds/Covenant/plas_rif_fire_reach1.wav
       236: Resources/Sounds/WeaponSounds/Covenant/plas_rif_fire_reach2.wav
       237: Resources/Sounds/WeaponSounds/Covenant/plas_rif_fire_reach3.wav
-#      238: Resources/Sounds/WeaponSounds/Covenant/usp45shoot.wav
+      238: Resources/Sounds/WeaponSounds/Covenant/fuelrodgun_fire.wav
 #     239: Resources/Sounds/WeaponSounds/Covenant/usp45shoots.wav
  #     240: Resources/Sounds/WeaponSounds/Covenant/xm25reload.wav
 #      241: Resources/Sounds/WeaponSounds/Covenant/xm25shoot.wav
@@ -169,6 +169,9 @@ extraSounds:
       316: Resources/Sounds/WeaponSounds/Melee/plasrepeater_melee1a.wav
       317: Resources/Sounds/WeaponSounds/Melee/plasrepeater_melee1b.wav
       318: Resources/Sounds/WeaponSounds/Melee/plasrepeater_melee1c.wav
+      319: Resources/Sounds/WeaponSounds/Melee/melee_arm_shwoosh1.wav
+      320: Resources/Sounds/WeaponSounds/Melee/melee_arm_shwoosh2.wav
+      321: Resources/Sounds/WeaponSounds/Melee/melee_arm_shwoosh3.wav
 
       350: Resources/Sounds/WeaponHits/bullet_impact_dirt1.wav
       351: Resources/Sounds/WeaponHits/bullet_impact_dirt2.wav
