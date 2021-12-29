@@ -1,4 +1,10 @@
 extraSprites:
+  - type: WpnActive
+    width: 36
+    height: 52
+    singleImage: true
+    files:
+      0: Resources/UI/WpnActive.png
   - type: InvCopy
     width: 32
     height: 22
