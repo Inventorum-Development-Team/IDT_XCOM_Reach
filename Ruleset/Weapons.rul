@@ -644,8 +644,7 @@ items:
 
   - type: STR_PLASMA_CARBINE # Type-51 Carbine
     size: 0.2
-    costBuy: 1686
-    costSell: 1265
+    costSell: 12650
     weight: 6
     bigSprite: 680
     floorSprite: 680
@@ -671,7 +670,7 @@ items:
   - type: STR_PLASMA_CARBINE_MAG         #M392 magazine
     size: 0.1
 #    costBuy: 60
-    costSell: 48000
+    costSell: 4800
     weight: 2
     bigSprite: 696
     floorSprite: 696
@@ -897,58 +896,54 @@ items:
     blastRadius: 5
 #    listOrder: 248
 
-  - type: STR_ENERGY_SWORD
+  - type: STR_ALIEN_GRENADE
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: 888
+    floorSprite: 888
+    handSprite: 888
+    power: 90
+    damageType: 3
+    battleType: 4
+    recoveryPoints: 1
+    blastRadius: 5
+
+  - type: STR_ENERGY_SWORD # Type-1 Energy Sword
     size: 0.2
     costSell: 35000
-    weight: 5
+    weight: 6
     bigSprite: 928
     floorSprite: 928
     handSprite: 928
-    accuracySnap: 0
-    accuracyAimed: 0
+    fireSound: [319, 320, 321]
     reloadSound: 229
-    tuSnap: 0
-    tuAimed: 0
-    tuLoad: 20
-    maxRange: 2
-    snapRange: 0
-    aimRange: 0
-    meleeSound: [319, 320, 321]
-    meleeHitSound: [223, 224, 225, 226, 227, 228]
-    meleeAnimation: 8
     compatibleAmmo:
       - STR_ENERGY_SWORD_BATTERY
-    accuracyMelee: 80
-    meleeMultiplier:
-      melee: 1.2
-      flatHundred: 0.5
-    costMelee:
-      time: 20
-      energy: 5
-    costThrow:
-      energy: 14
-    flatMelee:
-      time: true
-    confMelee:
-      shots: 10
-      name: STR_SWING    
-    flatRate: true
+    accuracySnap: 50
+    accuracyAimed: 95
+    tuSnap: 20
+    tuAimed: 30
+    confAimed:
+      shots: 1
+      spendPerShot: 10
+      name: STR_THRUST
+    confSnap:
+      shots: 1
+      spendPerShot: 10
+      name: STR_CUT      
     battleType: 1
+    twoHanded: true
     invWidth: 2
     invHeight: 3
-    armor: 75
-    attraction: 8
-    meleeType: 7
-    meleePower: 45
-    meleeBonus:
-      strength: 1.5
-      melee: 0.9
-
+    maxRange: 1
+    aimRange: 1
+    snapRange: 1
 
   - type: STR_ENERGY_SWORD_BATTERY         #
     size: 0.1
     #costBuy: 1      #--DEBUG--
-    costSell: 1200
+    costSell: 12000
     weight: 2
     bigSprite: 792
     floorSprite: 792
@@ -962,6 +957,32 @@ items:
     clipSize: 100
     battleType: 2
     armor: 12
+
+  - type: STR_MINOR_SHIELD_GAUNTLET
+    size: 0.5
+    weight: 10
+    costSell: 12000
+    bigSprite: 952
+    handSprite: 952
+    floorSprite: 952
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+
+  - type: STR_MAJOR_SHIELD_GAUNTLET
+    size: 0.5
+    weight: 10
+    costSell: 22000
+    bigSprite: 960
+    handSprite: 960
+    floorSprite: 960
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
 
 extraSprites:
   - type: BIGOBS.PCK
@@ -1051,15 +1072,16 @@ extraSprites:
 #      864: Resources/CovenantEquipment/BigConcussionRifle_noammo.png
 #      872: Resources/CovenantEquipment/BigConcussionRifle_ammo.png
 #      880: Resources/CovenantEquipment/BigConcussionRifleBattery.png
-#      888: Resources/CovenantEquipment/BigPlasmaGrenade_noprimed.png
-#      896: Resources/CovenantEquipment/BigPlasmaGrenade_primed.png
-#      904: Resources/CovenantEquipment/BigSpikeGrenade_noprimed.png
+      888: Resources/CovenantEquipment/BigPlasmaGrenade_unprimed.png
+      896: Resources/CovenantEquipment/BigPlasmaGrenade_primed.png
+#      904: Resources/CovenantEquipment/BigSpikeGrenade_unprimed.png
 #      912: Resources/CovenantEquipment/BigSpikeGrenade_primed.png
 #      920: Resources/CovenantEquipment/BigIncendiaryGrenade.png
       928: Resources/CovenantEquipment/BigEnergySword_noammo.png
       936: Resources/CovenantEquipment/BigEnergySword_ammo.png
       944: Resources/CovenantEquipment/BigEnergySwordBattery.png
-#      944: Resources/CovenantEquipment/BigEnergySwordAmmo.png
+      952: Resources/CovenantEquipment/BigMinorShieldGauntlet.png
+      960: Resources/CovenantEquipment/BigMajorShieldGauntlet.png
 
   - type: FLOOROB.PCK
     files:
@@ -1148,15 +1170,16 @@ extraSprites:
 #      864: Resources/CovenantEquipment/FloorConcussionRifle_noammo.png
 #      872: Resources/CovenantEquipment/FloorConcussionRifle_ammo.png
 #      880: Resources/CovenantEquipment/FloorConcussionRifleBattery.png
-#      888: Resources/CovenantEquipment/FloorPlasmaGrenade_noprimed.png
-#      896: Resources/CovenantEquipment/FloorPlasmaGrenade_primed.png
-#      904: Resources/CovenantEquipment/FloorSpikeGrenade_noprimed.png
+      888: Resources/CovenantEquipment/FloorPlasmaGrenade_unprimed.png
+      896: Resources/CovenantEquipment/FloorPlasmaGrenade_primed.png
+#      904: Resources/CovenantEquipment/FloorSpikeGrenade_unprimed.png
 #      912: Resources/CovenantEquipment/FloorSpikeGrenade_primed.png
 #      920: Resources/CovenantEquipment/FloorIncendiaryGrenade.png
 #      928: Resources/CovenantEquipment/FloorIncendiaryGrenade.png
       928: Resources/CovenantEquipment/FloorEnergySword_noammo.png
       936: Resources/CovenantEquipment/FloorEnergySword_ammo.png
-#      944: Resources/CovenantEquipment/FloorEnergySwordAmmo.png
+      952: Resources/CovenantEquipment/FloorMinorShieldGauntlet.png
+      960: Resources/CovenantEquipment/FloorMajorShieldGauntlet.png
 
   - type: HANDOB.PCK
     width: 256
@@ -1239,14 +1262,15 @@ extraSprites:
 #      864: Resources/CovenantEquipment/HandConcussionRifle_noammo.png
 #      872: Resources/CovenantEquipment/HandConcussionRifle_ammo.png
 #      880: Resources/CovenantEquipment/HandConcussionRifleBattery.png
-#      888: Resources/CovenantEquipment/HandPlasmaGrenade_noprimed.png
-#      896: Resources/CovenantEquipment/HandPlasmaGrenade_primed.png
-#      904: Resources/CovenantEquipment/HandSpikeGrenade_noprimed.png
+      888: Resources/CovenantEquipment/HandPlasmaGrenade_unprimed.png
+      896: Resources/CovenantEquipment/HandPlasmaGrenade_primed.png
+#      904: Resources/CovenantEquipment/HandSpikeGrenade_unprimed.png
 #      912: Resources/CovenantEquipment/HandSpikeGrenade_primed.png
 #      920: Resources/CovenantEquipment/HandIncendiaryGrenade.png
       928: Resources/CovenantEquipment/HandEnergySword_noammo.png
       936: Resources/CovenantEquipment/HandEnergySword_ammo.png
-#      944: Resources/CovenantEquipment/HandEnergySwordAmmo.png
+      952: Resources/CovenantEquipment/HandMinorShieldGauntlet.png
+      960: Resources/CovenantEquipment/HandMajorShieldGauntlet.png
 
   - type: SMOKE.PCK
     height: 40
