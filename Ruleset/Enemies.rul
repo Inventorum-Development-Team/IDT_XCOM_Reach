@@ -612,20 +612,20 @@ units:
     aggression: 2
     builtInWeaponSets:
      -
+       - STR_MINOR_SHIELD_GAUNTLET
        - STR_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
-       - STR_ALIEN_GRENADE
      -
+       - STR_MINOR_SHIELD_GAUNTLET
        - STR_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
-       - STR_ALIEN_GRENADE
      -
+       - STR_MINOR_SHIELD_GAUNTLET
        - STR_NEEDLER
        - STR_NEEDLER_CANISTER
        - STR_NEEDLER_CANISTER
-       - STR_ALIEN_GRENADE
 
   - type: STR_KIG_YAR_MAJOR
     race: STR_KIG_YAR
@@ -656,20 +656,20 @@ units:
     aggression: 2
     builtInWeaponSets:
      -
+       - STR_MAJOR_SHIELD_GAUNTLET
        - STR_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
-       - STR_ALIEN_GRENADE
      -
+       - STR_MAJOR_SHIELD_GAUNTLET
        - STR_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
-       - STR_ALIEN_GRENADE
      -
+       - STR_MAJOR_SHIELD_GAUNTLET
        - STR_NEEDLER
        - STR_NEEDLER_CANISTER
        - STR_NEEDLER_CANISTER
-       - STR_ALIEN_GRENADE
 
   - type: STR_KIG_YAR_SNIPER
     race: STR_KIG_YAR

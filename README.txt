@@ -1,7 +1,7 @@
 XCOM Reach, a total conversion by the Inventorum Development Team
 
 A small total conversion, focused on the Fall of Reach: a major battle in the Halo universe, fought on the fortress world of Reach. Six weeks of intense combat for the humankind's main military hub and one of the last human-controlled worlds. 
-#Halo Wars style mod - Created in 2014 by Diemaco for no good reason, improved and expanded in 2021 by IDT efrenespartano & Ikhanad 'cause we love Halo
+#Halo Wars style mod - Created in 2014 by Diemaco for no good reason, improved and expanded in 2021-2022 by IDT efrenespartano & Ikhanad 'cause we love Halo
 
 
 Credits:
@@ -18,6 +18,7 @@ Credits:
 *bulletdesigner: original Pelican and Falcon tilesets (modified)
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
+*InnerRyag & NRE Team: Jackal Shield Gauntlets, Jackal Corpse sprites, Plasma Grenade sprites (modified)
 *Isaac Hannaford: backgrounds
 *Kenny Magnusson: backgrounds
 *Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template

@@ -78,7 +78,8 @@ es-419:
   STR_FULL_AUTO: "Automático"
   STR_SUPERCOMBINED: "Supercombinado"
   STR_SINGLE_SHOT: "Semiautomático"
-  STR_SWING: "Estocada"
+  STR_THRUST: "Estocada"
+  STR_CUT: "Tajo"
 ######################
   STR_M6C: "M6C PDWS"
   STR_M6C_UFOPEDIA: "Variante del Cuerpo de Marines de la M6 PDWS, presentando una mayor cadencia de tiro y velocidad de proyectil, utilizando municiones SAP-HP (Semi-Perforador de Blindaje-Alta Penetración) en vez SAP-HE (Semi-Perforador de Blindaje-Explosivo de Alto Rendimiento)." 
@@ -129,8 +130,12 @@ es-419:
   STR_PLASMA_CARBINE_MAG: Cargador de Carabina 8.7x60mm
   STR_FUEL_ROD_GUN: "ALAB Tipo 33 'Cañón de Combustible'"
   STR_FUEL_ROD_GUN_RACK: "Racimo Radioactivo Tipo 33 'Cañón de Combustible'"
+  STR_ALIEN_GRENADE: "Granada 'de Plasma' Antipersonal Tipo 1"
+  STR_ALIEN_GRENADE_UFOPEDIA: "Granada de mano estándar de la infatería Covenant. Contiene un pequeño generador de plasma que empieza a ventilar su refrigerante una vez que es activada. Y cuando termina de ventilarlo, explota liberando una gran descarga de energía."
   STR_ENERGY_SWORD: "Espada de Energía Tipo 1"
   STR_ENERGY_SWORD_BATTERY: "Batería de Espada de Energía Tipo 1"
+  STR_MINOR_SHIELD_GAUNTLET: "Jackal Minor Shield Gauntlet"
+  STR_MAJOR_SHIELD_GAUNTLET: "Jackal Major Shield Gauntlet"
 ######################
   STR_SANGHEILI_LANCE: "Lanza Elite"
   STR_STANDARD_LANCE: "Lanza Estándar"
@@ -850,7 +855,6 @@ es-419:
   STR_HEAVY_PLASMA_UFOPEDIA: "Esta es una arma devastadora basada en la aceleración de partículas desde un diminuto campo antigravitatorio."
   STR_BLASTER_LAUNCHER_UFOPEDIA: "Este lanzamisiles alienígena dispara potentes bombas teledirigidas. Cuando dispare con esta arma observará que en la pantalla aparecen puntos indicando la ruta que seguirá la bomba. Cuando tengas suficientes puntos de ruta establecidos presione el icono de lanzamiento para disparar."
   STR_SMALL_LAUNCHER_UFOPEDIA: "Un pequeño lanzador que dispara bombas aturdidoras. Muy útil para capturar alienígenas vivos."
-  STR_ALIEN_GRENADE_UFOPEDIA: "Este artefacto funciona igual que una granada terrestre, pero es mucho más potente."
   STR_SMALL_SCOUT: "Explorador Pequeño"
   STR_MEDIUM_SCOUT: "Explorador Mediano"
   STR_LARGE_SCOUT: "Explorador Grande"
@@ -1033,7 +1037,6 @@ es-419:
   STR_BLASTER_BOMB: "Bomba Guiada"
   STR_SMALL_LAUNCHER: "Lanzador Pequeño"
   STR_STUN_BOMB: "Bomba Aturdidora"
-  STR_ALIEN_GRENADE: "Granada Alienígena"
   STR_ELERIUM_115: "Elerio 115"
   STR_MIND_PROBE: "Sonda Mental"
   STR_SECTOID_CORPSE: "Cadáver de Sectoide"

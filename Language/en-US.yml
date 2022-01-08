@@ -78,7 +78,8 @@ en-US:
   STR_FULL_AUTO: "Full Auto"
   STR_SUPERCOMBINED: "Supercombined"
   STR_SINGLE_SHOT: "Single Shot"
-  STR_SWING: "Swing"
+  STR_THRUST: "Thrust"
+  STR_CUT: "Cut"
 ######################
   STR_M6C: M6C PDWS
   STR_M6C_UFOPEDIA: "Marine Corps' variant of the M6 PDWS, sporting a higher fire rate and velocity, using SAP-HP instead of SAP-HE." 
@@ -125,10 +126,14 @@ en-US:
   STR_NEEDLER_CANISTER: Type-33 'Needler' Canister
   STR_PLASMA_CARBINE: Type-51 Carbine
   STR_PLASMA_CARBINE_MAG: 8.7x60mm Caseless Carbine Magazine
+  STR_ALIEN_GRENADE: "Type-1 Antipersonnel 'Plasma' Grenade"
+  STR_ALIEN_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast."
   STR_FUEL_ROD_GUN: "Type-33 'Fuel Rod Gun' LAAW"
   STR_FUEL_ROD_GUN_RACK: "Type-33 LAAW Radioactive Rod Rack"
   STR_ENERGY_SWORD: "Type-1 Energy Sword"
   STR_ENERGY_SWORD_BATTERY: "Type-1 Energy Sword Battery"
+  STR_MINOR_SHIELD_GAUNTLET: "Jackal Minor Shield Gauntlet"
+  STR_MAJOR_SHIELD_GAUNTLET: "Jackal Major Shield Gauntlet"
 ######################
   STR_SANGHEILI_LANCE: "Elite Lance"
   STR_STANDARD_LANCE: "Standard Lance"
@@ -848,7 +853,6 @@ en-US:
   STR_HEAVY_PLASMA_UFOPEDIA: "This is a devastatingly powerful weapon based on accelerating particles from within a minute anti-gravity field."
   STR_BLASTER_LAUNCHER_UFOPEDIA: "This is an alien guided missile launcher which fires powerful 'blaster bombs'. When you click to fire the weapon it will generate 'way points' for the blaster bomb to follow. When you have positioned enough way points click on the special launch icon."
   STR_SMALL_LAUNCHER_UFOPEDIA: "A small launcher which fires stun bombs. Very useful for capturing live aliens."
-  STR_ALIEN_GRENADE_UFOPEDIA: "This device works in the same way as a terrestrial grenade - except that it is more powerful."
   STR_SMALL_SCOUT: "Small Scout"
   STR_MEDIUM_SCOUT: "Medium Scout"
   STR_LARGE_SCOUT: "Large Scout"
@@ -1006,7 +1010,6 @@ en-US:
   STR_BLASTER_BOMB: "Blaster Bomb"
   STR_SMALL_LAUNCHER: "Small Launcher"
   STR_STUN_BOMB: "Stun Bomb"
-  STR_ALIEN_GRENADE: "Alien Grenade"
   STR_ELERIUM_115: "Elerium-115"
   STR_MIND_PROBE: "Mind Probe"
   STR_SECTOID_CORPSE: "Sectoid Corpse"

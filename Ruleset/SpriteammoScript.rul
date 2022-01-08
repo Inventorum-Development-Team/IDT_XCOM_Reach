@@ -157,12 +157,21 @@ items:
   - type: STR_FUEL_ROD_GUN_RACK # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_ALIEN_GRENADE # ignoreDuplicate
+    tags:
+      STRIKE: 1
   - type: STR_ENERGY_SWORD # ignoreDuplicate
     tags:
       AmmoReSprite: 1
   - type: STR_ENERGY_SWORD_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_MINOR_SHIELD_GAUNTLET # ignoreDuplicate
+    tags:
+      Shield: 1
+  - type: STR_MAJOR_SHIELD_GAUNTLET # ignoreDuplicate
+    tags:
+      Shield: 1
 
 extended:
   tags:
@@ -171,10 +180,12 @@ extended:
       AmmoNo: int
       FoldStock: int
       UBS: int
+      STRIKE: int
+      Shield: int
    
    
   scripts:
-    selectItemSprite: #Switches between weapon sprites depending on ammo
+     selectItemSprite: #Switches between weapon sprites depending on ammo
        - offset: 1
          code: |
           var int x;
@@ -241,6 +252,44 @@ extended:
            end;
           return sprite_index; 
  
+       - offset: 2 # Air Strike Smoke sprite Script
+         code: |
+          var int x;
+          var int y;
+          BattleItem.getTag item x Tag.STRIKE;
+          BattleItem.isFuseEnabled item y;
+          if and eq x 1 eq y 1;
+            add sprite_index 8;
+          end;
+          return sprite_index;
+     hitUnit: 
+         - offset: 3 #Shield Script
+           code: |
+            var ptr BattleItem righthand;
+            var ptr BattleItem lefthand;
+            var int shield;
+            var int random;
+            var int kneeling;
+            unit.getLeftHandWeapon lefthand;
+            unit.getRightHandWeapon righthand;
+            BattleItem.getTag lefthand shield Tag.Shield;
+            if neq shield 1;
+             BattleItem.getTag righthand shield Tag.Shield;
+             end;
+            if and eq side 0 eq shield 1;
+             BattleGame.randomRange battle_game random 0 100;
+             BattleUnit.isKneeled unit kneeling;
+             if lt random 85;
+              set power 0;
+              end;
+             if and lt random 95 eq kneeling 1;
+              set power 0;
+              end;
+            end;
+            
+            
+            return power part side;
+
 # Explanation on how the script is supposed to function, does not include explanations for multi slot or folding weapons
 # First, every weapon that will be affected by sprite changing depending on what ammo is loaded will have a tag with the value of 1, if they don't the script will not affect them.
 # Every ammotype will get a tag, i.e a number attached to them, currently only the 9mm types do. Currently the 30x has a tag with the value of 3, the 20x has 2 and the 10x has 1.
@@ -251,3 +300,4 @@ extended:
 # The reason of why the script is this way is because it can easily be extended to different sets of ammo, just by adding tags to them with the value of 1-3. the script can be easily extended to support more ammotypes per weapon (infact i just did that in 20 seconds, you can now have tags with values 4 and 5 which add 32 and 40 to the indexes). 
 # The main drawback of the script is that it wastes indexes, as some floorobs and handobs are defined to multiple indexes. Also the way i'm going to arrange the indexes is going to leave a lot of empty ones, as i don't have the will of doing it the efficient but more convoluted way.
  
+
