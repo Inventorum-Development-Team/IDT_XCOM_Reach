@@ -28,6 +28,9 @@ extraNerdyPediaInfo: true
 hunterKillerFastRetarget: true
 maxViewDistance: 30
 stunningImprovesMorale: true
+mana:
+ enabled: true
+ battleUI: true
 
 hiddenMovementBackgrounds:
   - TACTICBACK00.SCR

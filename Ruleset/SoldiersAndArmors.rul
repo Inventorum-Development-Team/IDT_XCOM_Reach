@@ -15,6 +15,7 @@ soldiers:
       psiStrength: 10
       psiSkill: 10
       melee: 70
+      mana: 0
     maxStats:
       tu: 100
       stamina: 100
@@ -27,6 +28,7 @@ soldiers:
       psiStrength: 10
       psiSkill: 10
       melee: 80
+      mana: 0
     statCaps:
       tu: 150
       stamina: 150
@@ -39,6 +41,7 @@ soldiers:
       psiStrength: 75
       psiSkill: 100
       melee: 100
+      mana: 0
     armor: STR_SPI_ARMOR_UC
     standHeight: 22
     kneelHeight: 14
@@ -63,6 +66,7 @@ soldiers:
       psiStrength: 10
       psiSkill: 10
       melee: 70
+      mana: 0
     maxStats:
       tu: 80
       stamina: 80
@@ -75,6 +79,7 @@ soldiers:
       psiStrength: 10
       psiSkill: 10
       melee: 80
+      mana: 0
     statCaps:
       tu: 100
       stamina: 110
@@ -87,6 +92,7 @@ soldiers:
       psiStrength: 75
       psiSkill: 100
       melee: 100
+      mana: 0
     armor: STR_ARMOR_ODST_UC
     standHeight: 22
     kneelHeight: 14
@@ -110,6 +116,7 @@ soldiers:
       psiStrength: 0
       psiSkill: 0
       melee: 45
+      mana: 0
     maxStats:
       tu: 60
       stamina: 70
@@ -122,6 +129,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 55
+      mana: 0
     statCaps:
       tu: 80
       stamina: 100
@@ -134,6 +142,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 90
+      mana: 0
     armor: STR_ARMOR_ARMY_STANDARD_BDU_UC
     standHeight: 22
     kneelHeight: 14
@@ -160,6 +169,7 @@ soldiers:
       psiStrength: 0
       psiSkill: 0
       melee: 45
+      mana: 0
     maxStats:
       tu: 60
       stamina: 70
@@ -172,6 +182,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 55
+      mana: 0
     statCaps:
       tu: 80
       stamina: 100
@@ -184,6 +195,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 90
+      mana: 0
     armor: STR_ARMOR_MARINE_STANDARD_BDU_UC
     standHeight: 22
     kneelHeight: 14

@@ -146,6 +146,11 @@ armors:
     underArmor: 10
     drawingRoutine: 0 #Human/Sectoid
     movementType: 0 #default walking
+    stats:
+      mana: 200
+    recovery:
+      mana:
+        flatOne: 5
     damageModifier: # ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -172,6 +177,11 @@ armors:
     underArmor: 10
     drawingRoutine: 0 #Muton
     movementType: 0 #default walking
+    stats:
+      mana: 300
+    recovery:
+      mana:
+        flatOne: 5
     damageModifier: # ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -198,6 +208,11 @@ armors:
     underArmor: 10 
     drawingRoutine: 0 #Human/Sectoid
     movementType: 0 #default walking
+    stats:
+      mana: 400
+    recovery:
+      mana:
+        flatOne: 5
     damageModifier: # ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -224,6 +239,11 @@ armors:
     underArmor: 10
     drawingRoutine: 0 #Human/Sectoid
     movementType: 0 #default walking
+    stats:
+      mana: 500
+    recovery:
+      mana:
+        flatOne: 5
     damageModifier: # ARMOR
       - 1.0 #none
       - 1.0 #AP
