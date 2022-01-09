@@ -115,7 +115,7 @@ items:
   - type: STR_M7_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_PLASMA_RIFLE # ignoreDuplicate
+  - type: STR_PLASMA_RIFLE_ELITE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
   - type: STR_PLASMA_RIFLE_CELL # ignoreDuplicate
@@ -139,7 +139,7 @@ items:
   - type: STR_NEEDLER_CANISTER # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_PLASMA_PISTOL # ignoreDuplicate
+  - type: STR_TYPE_25_PLASMA_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 1
   - type: STR_PLASMA_PISTOL_CELL # ignoreDuplicate
@@ -157,7 +157,7 @@ items:
   - type: STR_FUEL_ROD_GUN_RACK # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_ALIEN_GRENADE # ignoreDuplicate
+  - type: STR_PLASMA_GRENADE # ignoreDuplicate
     tags:
       STRIKE: 1
   - type: STR_ENERGY_SWORD # ignoreDuplicate

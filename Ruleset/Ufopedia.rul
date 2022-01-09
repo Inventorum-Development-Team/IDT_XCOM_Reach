@@ -242,7 +242,6 @@ ufopaedia:
     image_id: 50MM_AUTOCANNON
     text: STR_50MM_CANNON_UC_UFOPEDIA
 
-
   - id: STR_AA_BATTERY_UC
     type_id: 2
     section: STR_VEHICLES
@@ -254,7 +253,6 @@ ufopaedia:
     section: STR_VEHICLES
     image_id: 70MM_CHAINGUN
     text: STR_70MM_CHAINGUN_UC_UFOPEDIA
-
 
   - id: STR_SHIVA_NUKE_UC
     type_id: 2
@@ -280,3 +278,82 @@ ufopaedia:
     image_id: ASGM10_MISSILE
     text: STR_ASGM10_MISSILE_UC_UFOPEDIA
 
+  - id: STR_PLASMA_RIFLE_ELITE
+    type_id: 4
+    listOrder: 2806
+    section: STR_ALIEN_ARTIFACTS
+    text: ...
+  - id: STR_PLASMA_RIFLE_CELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_PLASMA_RIFLE_BRUTE
+    type_id: 4
+    listOrder: 2906
+    section: STR_ALIEN_ARTIFACTS
+    text: ...
+  - id: STR_PLASMA_RIFLE_BRUTE_CELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_PLASMA_CARBINE
+    type_id: 4
+    listOrder: 3006
+    section: STR_ALIEN_ARTIFACTS
+    text: ...
+  - id: STR_PLASMA_CARBINE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_PLASMA_REPEATER
+    type_id: 4
+    listOrder: 3106
+    section: STR_ALIEN_ARTIFACTS
+    text: ...
+  - id: STR_PLASMA_REPEATER_CELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_NEEDLER
+    type_id: 4
+    listOrder: 3206
+    section: STR_ALIEN_ARTIFACTS
+    text: ...
+  - id: STR_NEEDLER_CANISTER
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_TYPE_25_PLASMA_PISTOL
+    type_id: 4
+    listOrder: 3306
+    section: STR_ALIEN_ARTIFACTS
+    text: ...
+  - id: STR_PLASMA_PISTOL_CELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_FUEL_ROD_GUN
+    type_id: 4
+    listOrder: 3406
+    section: STR_ALIEN_ARTIFACTS
+    text: ...
+  - id: STR_FUEL_ROD_GUN_RACK
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_PLASMA_GRENADE
+    type_id: 4
+    listOrder: 3506
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_PLASMA_GRENADE_UFOPEDIA
+  - id: STR_ENERGY_SWORD
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+  - id: STR_ENERGY_SWORD_BATTERY
+    type_id: 4
+    listOrder: 3606
+    section: STR_NOT_AVAILABLE
+    text: ...
+  - id: STR_MINOR_SHIELD_GAUNTLET
+    type_id: 4
+    listOrder: 3706
+    section: STR_ALIEN_ARTIFACTS
+    text: ...
+  - id: STR_MAJOR_SHIELD_GAUNTLET
+    type_id: 4
+    listOrder: 3806
+    section: STR_ALIEN_ARTIFACTS
+    text: ...

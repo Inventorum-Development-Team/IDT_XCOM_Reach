@@ -116,9 +116,9 @@ es-419:
   STR_MA5B: "Rifle de Asalto MA5B"
   STR_MA5B_UFOPEDIA: "Variante más pesada del MA37, usado por el Cuerpo de Marines, incluye una lámpara y módulo de electrónica integrados, al igual que cargadores grandes con capacidad de 60 balas de M118 FMJ."
   STR_MA5B_MAG: "Cargador MA5B 7.62x51mm"
-  STR_PLASMA_PISTOL: Pistola Tipo-25
+  STR_TYPE_25_PLASMA_PISTOL: Pistola Tipo-25
   STR_PLASMA_PISTOL_CELL: Batería de Pistola-Tipo 25
-  STR_PLASMA_RIFLE: Rifle de Plasma Tipo-25/Patrón Elite
+  STR_PLASMA_RIFLE_ELITE: Rifle de Plasma Tipo-25/Patrón Elite
   STR_PLASMA_RIFLE_BRUTE: Rifle de Plasma Tipo-25/Patrón Brute
   STR_PLASMA_RIFLE_BRUTE_CELL: Batería Rifle de Plasma Tipo-25/Brute
   STR_PLASMA_RIFLE_CELL: Batería Rifle de Plasma Tipo-25/Elite
@@ -130,8 +130,8 @@ es-419:
   STR_PLASMA_CARBINE_MAG: Cargador de Carabina 8.7x60mm
   STR_FUEL_ROD_GUN: "ALAB Tipo 33 'Cañón de Combustible'"
   STR_FUEL_ROD_GUN_RACK: "Racimo Radioactivo Tipo 33 'Cañón de Combustible'"
-  STR_ALIEN_GRENADE: "Granada 'de Plasma' Antipersonal Tipo 1"
-  STR_ALIEN_GRENADE_UFOPEDIA: "Granada de mano estándar de la infatería Covenant. Contiene un pequeño generador de plasma que empieza a ventilar su refrigerante una vez que es activada. Y cuando termina de ventilarlo, explota liberando una gran descarga de energía."
+  STR_PLASMA_GRENADE: "Granada 'de Plasma' Antipersonal Tipo 1"
+  STR_PLASMA_GRENADE_UFOPEDIA: "Granada de mano estándar de la infatería Covenant. Contiene un pequeño generador de plasma que empieza a ventilar su refrigerante una vez que es activada. Y cuando termina de ventilarlo, explota liberando una gran descarga de energía."
   STR_ENERGY_SWORD: "Espada de Energía Tipo 1"
   STR_ENERGY_SWORD_BATTERY: "Batería de Espada de Energía Tipo 1"
   STR_MINOR_SHIELD_GAUNTLET: "Jackal Minor Shield Gauntlet"
@@ -851,7 +851,7 @@ es-419:
   STR_STUN_ROD_UFOPEDIA: "Este artefacto sólo se puede usar en el combate cuerpo a cuerpo y aturde a un organismo vivo con descargas eléctricas, sin llegar a matarlo."
   STR_MIND_PROBE_UFOPEDIA: "La sonda mental es un dispositivo alienígena de comunicación que sirve para obtener información directamente de las ondas cerebrales. Los soldados de la UNSC pueden utilizarlo durante el combate para averiguar las características de un alienígena. Presione sobre la sonda mental y la opción 'Usar'. Luego presione sobre el alienígena que quiera examinar."
   STR_PLASMA_PISTOL_UFOPEDIA: "La pistola de plasma es un arma alienígena mortífera basada en la aceleración de partículas desde un diminuto campo antigravitatorio."
-  STR_PLASMA_RIFLE_UFOPEDIA: "Esta potente y devastadora arma está basada en la aceleración de partículas desde un diminuto campo antigravitatorio."
+  STR_PLASMA_RIFLE_ELITE_UFOPEDIA: "Esta potente y devastadora arma está basada en la aceleración de partículas desde un diminuto campo antigravitatorio."
   STR_HEAVY_PLASMA_UFOPEDIA: "Esta es una arma devastadora basada en la aceleración de partículas desde un diminuto campo antigravitatorio."
   STR_BLASTER_LAUNCHER_UFOPEDIA: "Este lanzamisiles alienígena dispara potentes bombas teledirigidas. Cuando dispare con esta arma observará que en la pantalla aparecen puntos indicando la ruta que seguirá la bomba. Cuando tengas suficientes puntos de ruta establecidos presione el icono de lanzamiento para disparar."
   STR_SMALL_LAUNCHER_UFOPEDIA: "Un pequeño lanzador que dispara bombas aturdidoras. Muy útil para capturar alienígenas vivos."

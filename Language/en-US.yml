@@ -114,9 +114,9 @@ en-US:
   STR_MA5B: MA5B Assault Rifle
   STR_MA5B_UFOPEDIA: "The bulkier, heavier variant of the MA37, used by the Marine Corps, comes with an integrated flashlight and electronics suite, as well as a large 60-round magazine chambered in M118 FMJ."
   STR_MA5B_MAG: 7.62x51mm MA5B Magazine
-  STR_PLASMA_PISTOL: Type 25 Pistol
+  STR_TYPE_25_PLASMA_PISTOL: Type 25 Pistol
   STR_PLASMA_PISTOL_CELL: Type 25 Pistol Battery
-  STR_PLASMA_RIFLE: Type 25 Plasma Rifle/Elite-pattern
+  STR_PLASMA_RIFLE_ELITE: Type 25 Plasma Rifle/Elite-pattern
   STR_PLASMA_RIFLE_BRUTE: Type 25 Plasma Rifle/Brute-pattern
   STR_PLASMA_RIFLE_BRUTE_CELL: Type 25 Rifle Battery/Brute
   STR_PLASMA_RIFLE_CELL: Type 25 Rifle Battery/Elite
@@ -126,8 +126,8 @@ en-US:
   STR_NEEDLER_CANISTER: Type-33 'Needler' Canister
   STR_PLASMA_CARBINE: Type-51 Carbine
   STR_PLASMA_CARBINE_MAG: 8.7x60mm Caseless Carbine Magazine
-  STR_ALIEN_GRENADE: "Type-1 Antipersonnel 'Plasma' Grenade"
-  STR_ALIEN_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast."
+  STR_PLASMA_GRENADE: "Type-1 Antipersonnel 'Plasma' Grenade"
+  STR_PLASMA_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast."
   STR_FUEL_ROD_GUN: "Type-33 'Fuel Rod Gun' LAAW"
   STR_FUEL_ROD_GUN_RACK: "Type-33 LAAW Radioactive Rod Rack"
   STR_ENERGY_SWORD: "Type-1 Energy Sword"
@@ -572,7 +572,8 @@ en-US:
   STR_XCOM_CRAFT_ARMAMENT: "UNSC CRAFT & ARMAMENT"
   STR_HEAVY_WEAPONS_PLATFORMS: "HEAVY WEAPONS PLATFORMS"
   STR_WEAPONS_AND_EQUIPMENT: "WEAPONS AND EQUIPMENT"
-  STR_ALIEN_ARTIFACTS: "ALIEN ARTIFACTS"
+  STR_ALIEN_ARTIFACTS: "COVENANT WEAPONRY"
+  STR_VEHICLES: "VEHICLES"
   STR_BASE_FACILITIES: "BASE FACILITIES"
   STR_ALIEN_LIFE_FORMS: "ALIEN LIFE FORMS"
   STR_ALIEN_RESEARCH_UC: "ALIEN RESEARCH"

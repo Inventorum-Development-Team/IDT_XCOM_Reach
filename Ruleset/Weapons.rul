@@ -543,7 +543,7 @@ items:
     battleType: 2
     armor: 12
 ######################################################
-  - type: STR_PLASMA_RIFLE       #Type25 Plasma Rifle
+  - type: STR_PLASMA_RIFLE_ELITE       #Type25 Plasma Rifle
     #costBuy: 1     #--DEBUG--
     costSell: 125000
     size: 0.1         # size in gen. stores
@@ -808,7 +808,7 @@ items:
     battleType: 2
     armor: 12
 
-  - type: STR_PLASMA_PISTOL       #Type25 Plasma Pistol
+  - type: STR_TYPE_25_PLASMA_PISTOL       #Type25 Plasma Pistol
     #costBuy: 1     #--DEBUG--
     costSell: 99200
     size: 0.1         # size in gen. stores
@@ -911,7 +911,7 @@ items:
     blastRadius: 5
 #    listOrder: 248
 
-  - type: STR_ALIEN_GRENADE
+  - type: STR_PLASMA_GRENADE
     size: 0.1
     costSell: 14850
     weight: 3

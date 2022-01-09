@@ -439,20 +439,20 @@ units:
     aggression: 5
     builtInWeaponSets:
      -
-       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_ELITE
        - STR_PLASMA_RIFLE_CELL
        - STR_PLASMA_RIFLE_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
-       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_ELITE
        - STR_PLASMA_RIFLE_CELL
        - STR_PLASMA_RIFLE_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_NEEDLER
        - STR_NEEDLER_CANISTER
        - STR_NEEDLER_CANISTER
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
  
   - type: STR_SANGHEILI_MAJOR
     race: STR_SANGHEILI
@@ -485,17 +485,17 @@ units:
        - STR_PLASMA_REPEATER
        - STR_PLASMA_REPEATER_CELL
        - STR_PLASMA_REPEATER_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
-       - STR_PLASMA_RIFLE
+       - STR_PLASMA_RIFLE_ELITE
        - STR_PLASMA_RIFLE_CELL
        - STR_PLASMA_RIFLE_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_PLASMA_REPEATER
        - STR_PLASMA_REPEATER_CELL
        - STR_PLASMA_REPEATER_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
 
   - type: STR_SANGHEILI_ULTRA
     race: STR_SANGHEILI
@@ -528,17 +528,17 @@ units:
        - STR_ENERGY_SWORD
        - STR_ENERGY_SWORD_BATTERY
        - STR_ENERGY_SWORD_BATTERY
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_FUEL_ROD_GUN
        - STR_FUEL_ROD_GUN_RACK
        - STR_FUEL_ROD_GUN_RACK
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_ENERGY_SWORD
        - STR_ENERGY_SWORD_BATTERY
        - STR_ENERGY_SWORD_BATTERY
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
 
   - type: STR_SANGHEILI_ZEALOT
     race: STR_SANGHEILI
@@ -571,17 +571,17 @@ units:
        - STR_ENERGY_SWORD
        - STR_ENERGY_SWORD_BATTERY
        - STR_PLASMA_REPEATER_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_ENERGY_SWORD
        - STR_ENERGY_SWORD_BATTERY
        - STR_ENERGY_SWORD_BATTERY
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_FUEL_ROD_GUN
        - STR_FUEL_ROD_GUN_RACK
        - STR_FUEL_ROD_GUN_RACK
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
 
   - type: STR_KIG_YAR_MINOR
     race: STR_KIG_YAR
@@ -613,12 +613,12 @@ units:
     builtInWeaponSets:
      -
        - STR_MINOR_SHIELD_GAUNTLET
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
      -
        - STR_MINOR_SHIELD_GAUNTLET
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
      -
@@ -657,12 +657,12 @@ units:
     builtInWeaponSets:
      -
        - STR_MAJOR_SHIELD_GAUNTLET
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
      -
        - STR_MAJOR_SHIELD_GAUNTLET
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
      -
@@ -740,20 +740,20 @@ units:
     aggression: 2
     builtInWeaponSets:
      -
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_NEEDLER
        - STR_NEEDLER_CANISTER
        - STR_NEEDLER_CANISTER
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
 
   - type: STR_UNGGOY_MAJOR
     race: STR_UNGGOY
@@ -783,20 +783,20 @@ units:
     aggression: 3
     builtInWeaponSets:
      -
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_NEEDLER
        - STR_NEEDLER_CANISTER
        - STR_NEEDLER_CANISTER
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
 
   - type: STR_UNGGOY_HEAVY
     race: STR_UNGGOY
@@ -827,7 +827,7 @@ units:
     aggression: 4
     builtInWeaponSets:
      -
-       - STR_PLASMA_PISTOL
+       - STR_TYPE_25_PLASMA_PISTOL
        - STR_PLASMA_PISTOL_CELL
        - STR_PLASMA_PISTOL_CELL
      -
@@ -870,17 +870,17 @@ units:
        - STR_NEEDLER
        - STR_NEEDLER_CANISTER
        - STR_NEEDLER_CANISTER
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_FUEL_ROD_GUN
        - STR_FUEL_ROD_GUN_RACK
        - STR_FUEL_ROD_GUN_RACK
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
      -
        - STR_NEEDLER
        - STR_NEEDLER_CANISTER
        - STR_NEEDLER_CANISTER
-       - STR_ALIEN_GRENADE
+       - STR_PLASMA_GRENADE
 
 extraSprites:
   - type: SANGHEILI_MINOR_SPRITESHEET.PCK
