@@ -1,25 +1,68 @@
 ufopaedia:
+###################
+#### ARMORS ######
+##################
   - id: STR_SPI_ARMOR_UC
     type_id: 5
     listOrder: 2000
     section: STR_ARMORS
     text: STR_SPI_ARMOR_UFOPEDIA
+##############
   - id: STR_ARMOR_ODST_UC
     type_id: 5
     listOrder: 2000
     section: STR_ARMORS
     text: STR_ARMOR_ODST_UFOPEDIA
+#############
   - id: STR_ARMOR_MARINE_STANDARD_BDU_UC
     type_id: 5
     listOrder: 2000
     section: STR_ARMORS
     text: STR_ARMOR_MARINE_UFOPEDIA
+  - id: STR_ARMOR_MARINE_BALACLAVA_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_MARINE_UFOPEDIA
+  - id: STR_ARMOR_MARINE_LIGHT_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_MARINE_UFOPEDIA
+  - id: STR_ARMOR_MARINE_SARGE_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_MARINE_UFOPEDIA
+###########
   - id: STR_ARMOR_ARMY_STANDARD_BDU_UC
     type_id: 5
     listOrder: 2000
     section: STR_ARMORS
     text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
-
+  - id: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
+  - id: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
+  - id: STR_ARMOR_ARMY_LIGHT_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
+  - id: STR_ARMOR_ARMY_SARGE_BDU_UC
+    type_id: 5
+    listOrder: 2000
+    section: STR_ARMORS
+    text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
+####################
+#### WEAPONS ######
+##################
   - id: STR_MA37
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
@@ -110,7 +153,9 @@ ufopaedia:
   - id: STR_SRS99_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
-#############################################
+####################
+##### SHIPS #######
+##################
   - id: STR_PARIS_CLASS_HEAVY_FRIGATE
     type_id: 1
     section: STR_VEHICLES
@@ -223,65 +268,69 @@ ufopaedia:
       width: 205
       height: 80
     image_id: FALCON_GUNSHIP_PEDIA.SPK
-
+#########################
+#### CRAFT WEAPONS #####
+#######################
   - id: STR_MAC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: MAC
     text: STR_MAC_UFOPEDIA
 
   - id: STR_30MM_CANNON_UC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: 30MM_CANNON
     text: STR_30MM_CANNON_UC_UFOPEDIA
 
   - id: STR_50MM_CANNON_UC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: 50MM_AUTOCANNON
     text: STR_50MM_CANNON_UC_UFOPEDIA
 
   - id: STR_AA_BATTERY_UC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: AA_BATTERY
     text: STR_AA_BATTERY_UC_UFOPEDIA
 
   - id: STR_70MM_CHAINGUN_UC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: 70MM_CHAINGUN
     text: STR_70MM_CHAINGUN_UC_UFOPEDIA
 
   - id: STR_SHIVA_NUKE_UC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: SHIVA_NUKE
     text: STR_SHIVA_NUKE_UC_UFOPEDIA
 
   - id: STR_ARCHER_MISSILE_UC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: ARCHER_MISSILE
     text: STR_ARCHER_MISSILE_UC_UFOPEDIA
 
   - id: STR_MEDUSA_MISSILE_UC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: MEDUSA_MISSILE
     text: STR_MEDUSA_MISSILE_UC_UFOPEDIA
 
   - id: STR_ASGM10_MISSILE_UC
     type_id: 2
-    section: STR_VEHICLES
+    section: STR_CRAFT_WEAPONS
     image_id: ASGM10_MISSILE
     text: STR_ASGM10_MISSILE_UC_UFOPEDIA
-
+###############################
+##### COVENANT WEAPONS #######
+##############################
   - id: STR_PLASMA_RIFLE_ELITE
     type_id: 4
     listOrder: 2806
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_RIFLE_CELL
     type_id: 4
@@ -289,7 +338,7 @@ ufopaedia:
   - id: STR_PLASMA_RIFLE_BRUTE
     type_id: 4
     listOrder: 2906
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_RIFLE_BRUTE_CELL
     type_id: 4
@@ -297,7 +346,7 @@ ufopaedia:
   - id: STR_PLASMA_CARBINE
     type_id: 4
     listOrder: 3006
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_CARBINE_MAG
     type_id: 4
@@ -305,7 +354,7 @@ ufopaedia:
   - id: STR_PLASMA_REPEATER
     type_id: 4
     listOrder: 3106
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_REPEATER_CELL
     type_id: 4
@@ -313,7 +362,7 @@ ufopaedia:
   - id: STR_NEEDLER
     type_id: 4
     listOrder: 3206
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
   - id: STR_NEEDLER_CANISTER
     type_id: 4
@@ -321,7 +370,7 @@ ufopaedia:
   - id: STR_TYPE_25_PLASMA_PISTOL
     type_id: 4
     listOrder: 3306
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_PISTOL_CELL
     type_id: 4
@@ -329,7 +378,7 @@ ufopaedia:
   - id: STR_FUEL_ROD_GUN
     type_id: 4
     listOrder: 3406
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
   - id: STR_FUEL_ROD_GUN_RACK
     type_id: 4
@@ -337,11 +386,11 @@ ufopaedia:
   - id: STR_PLASMA_GRENADE
     type_id: 4
     listOrder: 3506
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: STR_PLASMA_GRENADE_UFOPEDIA
   - id: STR_ENERGY_SWORD
     type_id: 4
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
   - id: STR_ENERGY_SWORD_BATTERY
     type_id: 4
     listOrder: 3606
@@ -350,10 +399,10 @@ ufopaedia:
   - id: STR_MINOR_SHIELD_GAUNTLET
     type_id: 4
     listOrder: 3706
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
   - id: STR_MAJOR_SHIELD_GAUNTLET
     type_id: 4
     listOrder: 3806
-    section: STR_ALIEN_ARTIFACTS
+    section: STR_COVENANT_TECH
     text: ...
