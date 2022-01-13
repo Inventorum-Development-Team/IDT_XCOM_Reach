@@ -35,19 +35,19 @@ itemCategories:
   - type: STR_UNSC_EQUIPMENT
     listOrder: 19
   - type: STR_UNSC_SPARTAN_EQUIPMENT
-    listOrder: 23
-  - type: STR_UNSC_ODST_EQUIPMENT
     listOrder: 20
-  - type: STR_UNSC_MARINE_EQUIPMENT
+  - type: STR_UNSC_ODST_EQUIPMENT
     listOrder: 21
-  - type: STR_UNSC_ARMY_EQUIPMENT
+  - type: STR_UNSC_MARINE_EQUIPMENT
     listOrder: 22
-  - type: STR_UNSC_MILITIA_EQUIPMENT
+  - type: STR_UNSC_ARMY_EQUIPMENT
     listOrder: 23
+  - type: STR_UNSC_MILITIA_EQUIPMENT
+    listOrder: 25
   - type: STR_COVENANT_EQUIPMENT
-    listOrder: 24
+    listOrder: 25
   - type: STR_TANKS
-    listOrder: 24
+    listOrder: 25
 
 #Items
 items:
