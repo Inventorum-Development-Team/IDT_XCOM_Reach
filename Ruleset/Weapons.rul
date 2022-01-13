@@ -10,9 +10,9 @@ itemCategories:
     listOrder: 4
   - type: STR_SHOTGUNS
     listOrder: 5
-  - type: STR_CARBINES
+  - type: STR_ASSAULT_RIFLES
     listOrder: 6
-  - type: STR_RIFLES
+  - type: STR_BATTLE_RIFLES_DMRS
     listOrder: 7
   - type: STR_SNIPER_RIFLES
     listOrder: 8
@@ -22,12 +22,8 @@ itemCategories:
     listOrder: 10
   - type: STR_MAGAZINES
     listOrder: 11
-  - type: STR_CLIPS
+  - type: STR_BATTERIES
     listOrder: 12
-  - type: STR_SEMI_CONCEALED
-    listOrder: 13
-  - type: STR_CONCEALED
-    listOrder: 14
   - type: STR_MELEE
     listOrder: 15
   - type: STR_GADGETS
@@ -36,24 +32,27 @@ itemCategories:
     listOrder: 17
   - type: STR_GRENADES
     listOrder: 18
-  - type: STR_PROPRIETARY
-    listOrder: 19
-  - type: STR_AUTOCANNON
-    listOrder: 20
-  - type: STR_BVRAAM
-    listOrder: 21
-  - type: STR_AUXILLARY
-    listOrder: 22
   - type: STR_UNSC_EQUIPMENT
+    listOrder: 19
+  - type: STR_UNSC_SPARTAN_EQUIPMENT
+    listOrder: 23
+  - type: STR_UNSC_ODST_EQUIPMENT
+    listOrder: 20
+  - type: STR_UNSC_MARINE_EQUIPMENT
+    listOrder: 21
+  - type: STR_UNSC_ARMY_EQUIPMENT
+    listOrder: 22
+  - type: STR_UNSC_MILITIA_EQUIPMENT
     listOrder: 23
   - type: STR_COVENANT_EQUIPMENT
     listOrder: 24
-  - type: STR_VEHICLES
+  - type: STR_TANKS
     listOrder: 24
 
 #Items
 items:
   - type: STR_MA5B
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.2
     costBuy: 1686
     costSell: 1265
@@ -83,6 +82,7 @@ items:
     dropoff: 3
     autoShots: 3
   - type: STR_MA5B_MAG         #MA5B magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.1
     costBuy: 60
     costSell: 48
@@ -100,13 +100,14 @@ items:
       ToArmor: 0.3
       ToWound: 1.2
       ToHealth: 1.2
-      ToMana: 1.0
+      ToMana: 0.5
     damageType: 1
     clipSize: 60
     battleType: 2
     armor: 12
 
   - type: STR_MA37
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.2
     costBuy: 1686
     costSell: 1265
@@ -136,6 +137,7 @@ items:
     dropoff: 3
     autoShots: 3
   - type: STR_MA37_MAG         #MA37 magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.1
     costBuy: 60
     costSell: 48
@@ -153,13 +155,14 @@ items:
       ToArmor: 0.3
       ToWound: 1.2
       ToHealth: 1.2
-      ToMana: 1.0
+      ToMana: 0.5
     damageType: 1
     clipSize: 32
     battleType: 2
     armor: 12
 
   - type: STR_BR55 # BR55 Battle Rifle
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.2
     costBuy: 1686
     costSell: 1265
@@ -193,6 +196,7 @@ items:
     dropoff: 3
     autoShots: 3
   - type: STR_BR55_MAG         #BR55 magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.1
     costBuy: 60
     costSell: 48
@@ -210,13 +214,14 @@ items:
       ToArmor: 0.3
       ToWound: 1.2
       ToHealth: 1.2
-      ToMana: 1.0
+      ToMana: 0.5
     damageType: 1
     clipSize: 36
     battleType: 2
     armor: 12
 
   - type: STR_M392 # M392 DMR
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.2
     costBuy: 1686
     costSell: 1265
@@ -243,6 +248,7 @@ items:
     minRange: 3
     dropoff: 3
   - type: STR_M392_MAG         #M392 magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.1
     costBuy: 60
     costSell: 48
@@ -260,13 +266,14 @@ items:
       ToArmor: 0.3
       ToWound: 1.2
       ToHealth: 1.2
-      ToMana: 1.0
+      ToMana: 0.5
     damageType: 1
     clipSize: 15
     battleType: 2
     armor: 12
 
   - type: STR_SRS99       #SRS99 Sniper Rifle
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_UNSC_EQUIPMENT]
     costBuy: 8141     # buy/sell data
     costSell: 6106
     size: 0.3         # size in gen. stores
@@ -291,6 +298,7 @@ items:
     floorSprite: 312  #battlescape floor sprite
     handSprite: 312
   - type: STR_SRS99_MAG        #SRS99 Magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT]
     size: 0.1
     costBuy: 120
     costSell: 90
@@ -318,6 +326,7 @@ items:
     vaporProbabilitySurface: 100
 
   - type: STR_M6C       #M6C Basic
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     costBuy: 1215     # buy/sell data
     costSell: 911
     size: 0.1         # size in gen. stores
@@ -341,6 +350,7 @@ items:
     floorSprite: 336  #battlescape floor sprite
     handSprite: 336
   - type: STR_M6C_SOCOM       #M6C SOCOM
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT, STR_UNSC_ODST_EQUIPMENT]
     costBuy: 1615     # buy/sell data
     costSell: 1211
     size: 0.1         # size in gen. stores
@@ -364,6 +374,7 @@ items:
     floorSprite: 352  #battlescape floor sprite
     handSprite: 352
   - type: STR_M6C_MAG         #M6C Magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT, STR_UNSC_ODST_EQUIPMENT]
     size: 0.1
     costBuy: 50
     costSell: 38
@@ -381,12 +392,13 @@ items:
       ToArmor: 0.3
       ToWound: 1.2
       ToHealth: 1.2
-      ToMana: 1.0
+      ToMana: 0.5
     damageType: 1
     clipSize: 12
     battleType: 2
     armor: 12
   - type: STR_M6G       #M6G Army
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     costBuy: 1215     # buy/sell data
     costSell: 911
     size: 0.1         # size in gen. stores
@@ -410,6 +422,7 @@ items:
     floorSprite: 376  #battlescape floor sprite
     handSprite: 376
   - type: STR_M6G_MAG         #M6g Magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.1
     costBuy: 50
     costSell: 38
@@ -427,14 +440,14 @@ items:
       ToArmor: 0.3
       ToWound: 1.2
       ToHealth: 1.2
-      ToMana: 1.0
+      ToMana: 0.5
     damageType: 1
     clipSize: 8
     battleType: 2
     armor: 12
 
   - type: STR_M7
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
     size: 0.2
     costBuy: 1000
     costSell: 860
@@ -475,7 +488,7 @@ items:
     twoHanded: false
 
   - type: STR_M7S
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT, STR_UNSC_ODST_EQUIPMENT]
     size: 0.2
     costBuy: 1000
     costSell: 860
@@ -518,6 +531,7 @@ items:
     twoHanded: true
 
   - type: STR_M7_MAG         #M7 Magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SMGS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT, STR_UNSC_ODST_EQUIPMENT]
     size: 0.1
     costBuy: 50
     costSell: 38
@@ -535,7 +549,7 @@ items:
       ToArmor: 0.3
       ToWound: 1.2
       ToHealth: 1.2
-      ToMana: 1.0
+      ToMana: 0.5
     damageType: 1
     invWidth: 1
     invHeight: 2
@@ -544,6 +558,7 @@ items:
     armor: 12
 ######################################################
   - type: STR_PLASMA_RIFLE_ELITE       #Type25 Plasma Rifle
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
     #costBuy: 1     #--DEBUG--
     costSell: 125000
     size: 0.1         # size in gen. stores
@@ -576,6 +591,7 @@ items:
     floorSprite: 608  #battlescape floor sprite
     handSprite: 608
   - type: STR_PLASMA_RIFLE_CELL         #T25 Rifle-class heatsinks
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     #costBuy: 1      #--DEBUG--
     costSell: 1550
@@ -592,12 +608,13 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.0
+      ToMana: 1.4
     damageType: 5
     clipSize: 100
     battleType: 2
     armor: 12
   - type: STR_PLASMA_RIFLE_BRUTE       #Type25 Plasma Rifle/I
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
     #costBuy: 1     #--DEBUG--
     costSell: 144500
     size: 0.1         # size in gen. stores
@@ -630,6 +647,7 @@ items:
     floorSprite: 632  #battlescape floor sprite
     handSprite: 632
   - type: STR_PLASMA_RIFLE_BRUTE_CELL         #T25 Rifle-class heatsinks
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     #costBuy: 1      #--DEBUG--
     costSell: 1550
@@ -646,13 +664,14 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.0
+      ToMana: 1.4
     damageType: 5
     clipSize: 100
     battleType: 2
     armor: 12
 
   - type: STR_PLASMA_CARBINE # Type-51 Carbine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_COVENANT_EQUIPMENT]
     size: 0.2
     costSell: 12650
     weight: 6
@@ -678,6 +697,7 @@ items:
     minRange: 3
     dropoff: 3
   - type: STR_PLASMA_CARBINE_MAG         #M392 magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_COVENANT_EQUIPMENT]
     size: 0.1
 #    costBuy: 60
     costSell: 4800
@@ -694,13 +714,14 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.0
+      ToMana: 1.4
     damageType: 4
     clipSize: 15
     battleType: 2
     armor: 12
 
   - type: STR_PLASMA_REPEATER       #Type51 Repeater
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
     #costBuy: 1     #--DEBUG--
     costSell: 125000
     size: 0.1         # size in gen. stores
@@ -733,6 +754,7 @@ items:
     floorSprite: 656  #battlescape floor sprite
     handSprite: 656
   - type: STR_PLASMA_REPEATER_CELL         #T25 Rifle-class heatsinks
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     #costBuy: 1      #--DEBUG--
     costSell: 1780
@@ -749,13 +771,14 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.0
+      ToMana: 1.4
     damageType: 5
     clipSize: 100
     battleType: 2
     armor: 12
 
   - type: STR_NEEDLER       #Type-33 Needler
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
     #costBuy: 1     #--DEBUG--
     costSell: 125000
     size: 0.1         # size in gen. stores
@@ -786,6 +809,7 @@ items:
     floorSprite: 704  #battlescape floor sprite
     handSprite: 704
   - type: STR_NEEDLER_CANISTER         #T33 Needler reload
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     #costBuy: 1      #--DEBUG--
     costSell: 1550
@@ -803,12 +827,13 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.0
+      ToMana: 1.4
     clipSize: 16
     battleType: 2
     armor: 12
 
   - type: STR_TYPE_25_PLASMA_PISTOL       #Type25 Plasma Pistol
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_COVENANT_EQUIPMENT]
     #costBuy: 1     #--DEBUG--
     costSell: 99200
     size: 0.1         # size in gen. stores
@@ -840,6 +865,7 @@ items:
     floorSprite: 776  #battlescape floor sprite
     handSprite: 776
   - type: STR_PLASMA_PISTOL_CELL         #
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     #costBuy: 1      #--DEBUG--
     costSell: 1200
@@ -856,13 +882,14 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.0
+      ToMana: 1.6
     damageType: 5
     clipSize: 100
     battleType: 2
     armor: 12
 
   - type: STR_FUEL_ROD_GUN
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_COVENANT_EQUIPMENT]
     size: 0.3
     costSell: 14400
     weight: 16
@@ -883,6 +910,7 @@ items:
     recoveryPoints: 5
     armor: 40
   - type: STR_FUEL_ROD_GUN_RACK
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.2
     costSell: 1702
     weight: 3
@@ -902,7 +930,7 @@ items:
       RandomWound: true
       ToTile: 0.90
       ToStun: 1.2
-      ToMana: 1.0
+      ToMana: 1.4
     clipSize: 5
     battleType: 2
     invWidth: 1
@@ -912,6 +940,7 @@ items:
 #    listOrder: 248
 
   - type: STR_PLASMA_GRENADE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     costSell: 14850
     weight: 3
@@ -925,12 +954,14 @@ items:
     blastRadius: 5
 
   - type: STR_ENERGY_SWORD # Type-1 Energy Sword
+    categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]
     size: 0.2
     costSell: 35000
     weight: 6
     bigSprite: 928
     floorSprite: 928
     handSprite: 928
+    hitAnimation: 150
     fireSound: [319, 320, 321]
     reloadSound: 229
     compatibleAmmo:
@@ -956,6 +987,7 @@ items:
     snapRange: 1
 
   - type: STR_ENERGY_SWORD_BATTERY         #
+    categories: [STR_WEAPONS, STR_MELEE, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     #costBuy: 1      #--DEBUG--
     costSell: 12000
@@ -969,12 +1001,13 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.0
+      ToMana: 2.0
     clipSize: 100
     battleType: 2
     armor: 12
 
   - type: STR_MINOR_SHIELD_GAUNTLET
+    categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]
     size: 0.5
     weight: 10
     costSell: 12000
@@ -988,6 +1021,7 @@ items:
     invHeight: 3
 
   - type: STR_MAJOR_SHIELD_GAUNTLET
+    categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]
     size: 0.5
     weight: 10
     costSell: 22000
@@ -1300,6 +1334,7 @@ extraSprites:
       120: Resources/hitAnimation/PurplePlasmaHit.png
       130: Resources/hitAnimation/NeedlerHit.png
       140: Resources/hitAnimation/GreenCarbineHit.png
+      150: Resources/hitAnimation/PlasmaBladeHit.png
   - type: Projectiles
     height: 3
     width: 105
@@ -1331,7 +1366,7 @@ extraSprites:
     subY: 40
     files:
       4: Resources/hitAnimation/BladeHit.png
-      8: Resources/hitAnimation/PlasmaBladeHit.png
+
 
 extended:
   tags:
