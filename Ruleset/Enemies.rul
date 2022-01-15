@@ -429,7 +429,7 @@ units:
     armor: STR_SANGHEILI_MINOR_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 200
+    value: 30
     aggroSound: 1500
     berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
     deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
@@ -472,7 +472,7 @@ units:
     armor: STR_SANGHEILI_MAJOR_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 400
+    value: 35
     aggroSound: 1500
     berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
     deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
@@ -515,7 +515,7 @@ units:
     armor: STR_SANGHEILI_ULTRA_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 800
+    value: 50
     aggroSound: 1500
     berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
     deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
@@ -558,7 +558,7 @@ units:
     armor: STR_SANGHEILI_ZEALOT_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 1000
+    value: 100
     aggroSound: 1500
     berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
     deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
@@ -601,7 +601,7 @@ units:
     armor: STR_KIG_YAR_MINOR_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 50
+    value: 15
     aggroSound: 1536
     berserkSound: [1545, 1546, 1547, 1548]
     deathSound: [1554, 1555, 1556]
@@ -645,7 +645,7 @@ units:
     armor: STR_KIG_YAR_MAJOR_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 100
+    value: 20
     aggroSound: 1536
     berserkSound: [1545, 1546, 1547, 1548]
     deathSound: [1554, 1555, 1556]
@@ -689,7 +689,7 @@ units:
     armor: STR_KIG_YAR_MINOR_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 150
+    value: 25
     aggroSound: 1536
     berserkSound: [1545, 1546, 1547, 1548]
     deathSound: [1554, 1555, 1556]
@@ -730,7 +730,7 @@ units:
     armor: STR_UNGGOY_MINOR_ARMOR
     standHeight: 16
     kneelHeight: 15
-    value: 20
+    value: 10
     aggroSound: 1572
     berserkSound: [1581, 1582, 1583]
     deathSound: [1590, 1591, 1592]
@@ -773,7 +773,7 @@ units:
     armor: STR_UNGGOY_MAJOR_ARMOR
     standHeight: 16
     kneelHeight: 15
-    value: 40
+    value: 15
     aggroSound: 1572
     berserkSound: [1581, 1582, 1583]
     deathSound: [1590, 1591, 1592]
@@ -816,7 +816,7 @@ units:
     armor: STR_UNGGOY_HEAVY_ARMOR
     standHeight: 16
     kneelHeight: 15
-    value: 60
+    value: 20
     aggroSound: 1572
     berserkSound: [1581, 1582, 1583]
     deathSound: [1590, 1591, 1592]
@@ -856,7 +856,7 @@ units:
     armor: STR_UNGGOY_ULTRA_ARMOR
     standHeight: 16
     kneelHeight: 15
-    value: 150
+    value: 25
     aggroSound: 1572
     berserkSound: [1581, 1582, 1583]
     deathSound: [1590, 1591, 1592]

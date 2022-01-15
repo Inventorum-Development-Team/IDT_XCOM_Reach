@@ -15,7 +15,7 @@ missionScripts:
       0:
         STR_COVENANT_RECON: 100
     firstMonth: 0
-    startDelay: 360
+    startDelay: 7200
 
   - type: startingAirSuperiority
     missionWeights:
@@ -23,6 +23,7 @@ missionScripts:
         STR_COVENANT_AIR_SUPERIORITY_1: 100
     firstMonth: 0
     startDelay: 4320
+    randomDelay: 7200
 
   - type: invasionAirSuperiority
     missionWeights:
@@ -30,6 +31,7 @@ missionScripts:
         STR_COVENANT_AIR_SUPERIORITY_2: 100
     firstMonth: 1
     startDelay: 7200
+    randomDelay: 7200
 
   - type: recurringTerrorNormal
 #    label: 1
@@ -80,6 +82,8 @@ missionScripts:
 #    maxRuns: 6
     varName: sectorInvasionLate
     executionOdds: 100
+    randomDelay: 7200
+    startDelay: 7200
 
 alienMissions:
   - type: STR_COVENANT_QUICK_SECTOR_INVASION #Covenant sneaks one base early
@@ -122,11 +126,11 @@ alienMissions:
       - ufo: STR_CPV_CLASS_HEAVY_DESTROYER
         count: 1
         trajectory: P2
-        timer: 1440
+        timer: 7200
       - ufo: STR_CCS_CLASS_BATTLECRUISER
         count: 1
         trajectory: P7
-        timer: 1440
+        timer: 7200
 
   - type: STR_COVENANT_SECTOR_INVASION_LATE #Covenant attempts to overrun the UNSC regional commands
     points: 100 #Pact score only awarded on month end
@@ -192,7 +196,7 @@ alienMissions:
       - ufo: STR_CCS_CLASS_BATTLECRUISER
         count: 1
         trajectory: P7
-        timer: 1440
+        timer: 7200
         objective: true
 
   - type: STR_COVENANT_RECON
