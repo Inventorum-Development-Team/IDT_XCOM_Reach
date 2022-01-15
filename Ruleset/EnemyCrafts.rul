@@ -87,7 +87,7 @@ ufos:
     shieldRecharge: 50
     shieldBleedThrough: 100
     speedMax: 550
-    power: 100
+    power: 140
     range: 40
     score: 2000
     reload: 30
@@ -119,7 +119,7 @@ ufos:
     shieldBleedThrough: 100
     speedMax: 450
     power: 200
-    range: 40
+    range: 50
     score: 3000
     reload: 30
     breakOffTime: 80
@@ -148,8 +148,8 @@ ufos:
     shieldRecharge: 50
     shieldBleedThrough: 100
     speedMax: 250
-    power: 100
-    range: 40
+    power: 250
+    range: 45
     score: 5000
     reload: 30
     breakOffTime: 80
@@ -177,8 +177,8 @@ ufos:
     shieldRecharge: 50
     shieldBleedThrough: 100
     speedMax: 250
-    power: 100
-    range: 40
+    power: 300
+    range: 50
     score: 10000
     reload: 30
     breakOffTime: 80
