@@ -967,8 +967,8 @@ items:
     compatibleAmmo:
       - STR_ENERGY_SWORD_BATTERY
     accuracySnap: 50
-    accuracyAimed: 95
-    tuSnap: 20
+    accuracyAimed: 100
+    tuSnap: 15
     tuAimed: 30
     confAimed:
       shots: 1
@@ -982,8 +982,8 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
-    maxRange: 1
-    aimRange: 1
+    maxRange: 2
+    aimRange: 2
     snapRange: 1
 
   - type: STR_ENERGY_SWORD_BATTERY         #
@@ -992,8 +992,8 @@ items:
     #costBuy: 1      #--DEBUG--
     costSell: 12000
     weight: 2
-    bigSprite: 792
-    floorSprite: 792
+    bigSprite: 944
+    floorSprite: 944
     damageType: 5
     power: 200
     damageAlter:
