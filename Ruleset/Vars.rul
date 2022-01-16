@@ -28,6 +28,7 @@ extraNerdyPediaInfo: true
 hunterKillerFastRetarget: true
 maxViewDistance: 30
 stunningImprovesMorale: true
+showFullNameInAlienInventory: true
 mana:
  enabled: true
  battleUI: true

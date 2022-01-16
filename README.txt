@@ -18,6 +18,7 @@ Credits:
 *bulletdesigner: original Pelican and Falcon tilesets (modified)
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
+*crowler7: Evacuation mission background image
 *InnerRyag & NRE Team: Jackal Shield Gauntlets, Jackal Corpse sprites, Plasma Grenade sprites (modified)
 *Isaac Hannaford: backgrounds
 *Kenny Magnusson: backgrounds

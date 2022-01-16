@@ -167,8 +167,10 @@ ufopaedia:
       width: 130
       height: 80
     rect_text:
+#      x: 5
       x: 110
-      y: 18
+#      y: 18
+      y: 160
       width: 205
       height: 80
     image_id: PARIS_FRIGATE_PEDIA.SPK
