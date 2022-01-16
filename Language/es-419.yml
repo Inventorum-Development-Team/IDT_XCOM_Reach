@@ -1,6 +1,6 @@
 es-419:
 ######################
-  STR_OPENXCOM: "La Caída"
+  STR_OPENXCOM: "Reach: La Caída"
   STR_NEW_GAME: "Defensa de Reach"
   STR_NEW_BATTLE: "Tiroteo"
   STR_MISSION_GENERATOR: "TIROTEO"
@@ -11,41 +11,58 @@ es-419:
   STR_5_SUPERHUMAN: "5> MÍTICA"
 ######################
   STR_PARIS_CLASS_HEAVY_FRIGATE: "Fragata pesada Clase-Paris"
+  STR_PARIS_CLASS_HEAVY_FRIGATE_UFOPEDIA: 
   STR_CHARON_CLASS_LIGHT_FRIGATE: "Fragata ligera Clase-Charon"
+  STR_CHARON_CLASS_LIGHT_FRIGATE_UFOPEDIA: 
   STR_SABRE_FIGHTER: "Caza Sabre"
+  STR_SABRE_FIGHTER_UFOPEDIA: 
   STR_LONGSWORD_FIGHTER: "Interceptor Longsword"
+  STR_LONGSWORD_FIGHTER_UFOPEDIA: 
   STR_PELICAN_DROPSHIP: "Nave de descenso Pelican"
+  STR_PELICAN_DROPSHIP_UFOPEDIA:
   STR_FALCON_DROPSHIP: "Transporte Falcon"
+  STR_FALCON_DROPSHIP_UFOPEDIA:
   STR_FALCON_GUNSHIP: "Cañonera Falcon"
+  STR_FALCON_GUNSHIP_UFOPEDIA: 
 ######################
   STR_MAC: "CAÑÓN MAC"
   STR_MAC_LAUNCHER: "Cañón MAC"
   STR_MAC_STRING: "CAÑÓN MAC"
+  STR_MAC_UFOPEDIA: "Mark II, Bobina Ligera - 52A6F9/MAC. Cañón de Aceleración Magnética, emplea rondas de tungsteno férrico a velocidades supersónicas. El arma más poderosa que cuenta una nave de la UNSC, capaz de dañar escudos y penetrar naves por igual. La baja cadencia de tiro de los 'MAC ligeros' es su mayor desventaja."
   STR_30MM_CANNON_UC: "CAÑÓN DE 30MM"
   STR_30MM_CANNON_LAUNCHER: "Cañón de 30mm"
   STR_30MM_CANNON_STRING: "CAÑON DE 30MM"
+  STR_30MM_CANNON_UC_UFOPEDIA: "M1024 ASW/AC - Cañón de riel, estándar de los Cazas espaciales Sabre. Sus proyectiles de 30mm son lentos, pero pegan duro."
   STR_50MM_CANNON_UC: "CAÑÓN DE 50MM"
   STR_50MM_CANNON_LAUNCHER: "Cañón de 50mm"
   STR_50MM_CANNON_STRING: "CAÑON DE 50MM"
+  STR_50MM_CANNON_UC_UFOPEDIA: "M9109 ASW/AC - Cañón de riel automático, con capacidades para combate dentro y fuera de la atmósfera. La munición de 50mm es disparada a velocidades tan elevadas que empieza a causar fricción con el aire."
   STR_AA_BATTERY_UC: "BATERÍA AA"
   STR_AA_BATTERY_LAUNCHER: "Batería AA"
   STR_AA_BATTERY_STRING: "BATERÍA AA"
+  STR_AA_BATTERY_UC_UFOPEDIA: "Batería anti-aérea, incorpora un moderno sistema de LIDAR para detectar blancos enemigos a largas distancias y dos cañones automáticos de 35mm. El sistema conjunto está diseñado para mantener cazas y misiles hostiles lejos de las naves a las que está integrado. "
   STR_70MM_CHAINGUN_UC: "AMETRALLADORA 70MM"
   STR_70MM_CHAINGUN_LAUNCHER: "Ametralladora 70mm"
   STR_70MM_CHAINGUN_STRING: "AMETRALLADORA 70MM"
+  STR_70MM_CHAINGUN_UC_UFOPEDIA: "Ametralladora pesada montada en naves destinadas al apoyo cercano. Su munición explosiva causa grandes rupturas en blindajes ligeros y es especialmente efectiva contra Banshees y otros vehículos pequeños."
   STR_SHIVA_NUKE_UC: "OJIVA TÁCTICA CLASE-SHIVA"
   STR_SHIVA_NUKE_LAUNCHER: "Ojiva Táctica clase-Shiva"
   STR_SHIVA_STRING: "OJIVA TÁCTICA CLASE-SHIVA"
+  STR_SHIVA_NUKE_UC_UFOPEDIA: "Arma termonuclear estándar de la UNSC. Su carga explosiva es ampliamente configurable. Su sistema de guía electrónico lo hace bastante confiable, aunque es sabido que algunas naves Covenant pueden llegar a resistir un impacto directo. Se puede detonar con espoletas de proximidad o códigos radio-transmitidos."
   STR_ARCHER_MISSILE_UC: "MISIL ANTI-BUQUE ARCHER"
   STR_ARCHER_MISSILE_LAUNCHER: "Misil anti-buque Archer"
   STR_ARCHER_MISSILE_STRING: "MISIL ANTI-BUQUE ARCHER"
+  STR_ARCHER_MISSILE_UC_UFOPEDIA: "Misil estándar montado en silos y torretas, empleado por la UNSC desde los tiempos de la Insurreción. Típicamente efectivos contra objetivos sin blindaje, se necesitan grandes cantidades de Archers para dañar los escudos de las naves capitales del Covenant."
   STR_MEDUSA_MISSILE_UC: "MISIL ST/MEDUSA"
   STR_MEDUSA_MISSILE_LAUNCHER: "Misil ST/Medusa"
   STR_MEDUSA_MISSILE_STRING: "MISIL ST/MEDUSA"
+  STR_MEDUSA_MISSILE_UC_UFOPEDIA: "Misil ligero y rápido, empleado por cazas ágiles enfrentándose a cazas enemigos. Su sistema de detección computarizado permite mantener el objetivo fijado, incluso si efectúa maniobras evasivas."
   STR_ASGM10_MISSILE_UC: "MISIL ASGM-10"
   STR_ASGM10_MISSILE_LAUNCHER: "Misil ASGM-10"
   STR_ASGM10_MISSILE_STRING: "MISIL ASGM-10"
+  STR_ASGM10_MISSILE_UC_UFOPEDIA: "Misil pesado, empleado en combate contra naves capitales por bombarderos. Su poderosa carga explosiva puede partir a un Destructor por la mitad, si impacta al objetivo con los escudos abajo."
 ######################
+  STR_UNSC_ARMORS: "ARMADURAS UNSC"
   STR_SPARTAN_III: "SPARTAN-III"
   STR_SPI_ARMOR_UC: "ARMADURA SPI"
   STR_SPI_ARMOR: "Armadura SPI"
@@ -106,6 +123,9 @@ es-419:
   STR_THRUST: "Estocada"
   STR_CUT: "Tajo"
 ######################
+  STR_UNARMED_REGULAR_HUMAN: "Cuchillo"
+  STR_KNIFE: "Usar cuchillo"
+  STR_UNARMED_REGULAR_HUMAN_UFOPEDIA: "El Cuchillo de combate es una pieza estándar y arma de defensa para todos los soldados y oficiales de la UNSC. Un artefacto que data sus orígenes desde la prehistoria mantiene su validez en el Siglo XXVI. Su hoja está construída con una aleación de titanio que nunca pierde el filo. El daño del tajo se multiplica por 1.5 con la estadística de Fuerza y por 2.0 por la estadística de Melee, por lo que un soldado fuerte hará mejor uso del arma."
   STR_M6C: "M6C PDWS"
   STR_M6C_UFOPEDIA: "Variante del Cuerpo de Marines de la M6 PDWS, presentando una mayor cadencia de tiro y velocidad de proyectil, utilizando municiones SAP-HP (Semi-Perforador de Blindaje-Alta Penetración) en vez SAP-HE (Semi-Perforador de Blindaje-Explosivo de Alto Rendimiento)." 
   STR_M6C_SOCOM: "M6C/SOCOM"

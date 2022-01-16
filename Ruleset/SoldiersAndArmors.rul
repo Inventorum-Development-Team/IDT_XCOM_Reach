@@ -238,6 +238,7 @@ armors:
         tu: 15
         reactions: 10
         firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
 
   - type: STR_ARMOR_ODST_UC
     spriteSheet: ODST_BDU_SPRITESHEET.PCK
@@ -280,6 +281,7 @@ armors:
         firing: 10
     units:
       - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
 
   - type: STR_ARMOR_ARMY_STANDARD_BDU_UC
     spriteSheet: ARMY_TROOPER_STANDARD_BDU_SPRITESHEET.PCK
@@ -317,8 +319,8 @@ armors:
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-    forcedTorso: 1  
-
+    forcedTorso: 1
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
     units:
       - STR_ARMY_TROOPER
   - type: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
@@ -361,7 +363,7 @@ armors:
     stats:
         tu: 5
         reactions: 10
-
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
     units:
       - STR_ARMY_TROOPER
   - type: STR_ARMOR_ARMY_LIGHT_BDU_UC
@@ -406,6 +408,7 @@ armors:
         reactions: 10
     units:
       - STR_ARMY_TROOPER
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
   - type: STR_ARMOR_ARMY_SARGE_BDU_UC
     spriteSheet: ARMY_TROOPER_SARGE_BDU_SPRITESHEET.PCK
     layersDefaultPrefix: HUMAN
@@ -447,7 +450,7 @@ armors:
         bravery: 15
     units:
       - STR_ARMY_TROOPER
-
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
   - type: STR_ARMOR_MARINE_STANDARD_BDU_UC
     spriteSheet: MARINE_STANDARD_BDU_SPRITESHEET.PCK
     layersDefaultPrefix: HUMAN
@@ -487,6 +490,7 @@ armors:
     forcedTorso: 1  
     units:
       - STR_MARINE
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
   - type: STR_ARMOR_MARINE_BALACLAVA_BDU_UC
     spriteSheet: MARINE_BALACLAVA_BDU_SPRITESHEET.PCK
     layersDefaultPrefix: HUMAN
@@ -529,6 +533,7 @@ armors:
         reactions: 10
     units:
       - STR_MARINE
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
   - type: STR_ARMOR_MARINE_LIGHT_BDU_UC
     spriteSheet: MARINE_LIGHT_BDU_SPRITESHEET.PCK
     layersDefaultPrefix: HUMAN
@@ -571,6 +576,7 @@ armors:
         reactions: 10
     units:
       - STR_MARINE
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
   - type: STR_ARMOR_MARINE_SARGE_BDU_UC
     spriteSheet: MARINE_SARGE_BDU_SPRITESHEET.PCK
     layersDefaultPrefix: HUMAN
@@ -612,6 +618,7 @@ armors:
         bravery: 15
     units:
       - STR_MARINE
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
 
 items:
     - type: STR_SPI_ARMOR

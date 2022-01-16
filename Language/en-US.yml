@@ -1,6 +1,6 @@
 en-US:
 ######################
-  STR_OPENXCOM: "The Fall"
+  STR_OPENXCOM: "Reach: The Fall"
   STR_NEW_GAME: "Defense of Reach"
   STR_NEW_BATTLE: "Firefight"
   STR_MISSION_GENERATOR: "FIREFIGHT"
@@ -11,41 +11,58 @@ en-US:
   STR_5_SUPERHUMAN: "5> MYTHIC"
 ######################
   STR_PARIS_CLASS_HEAVY_FRIGATE: "Paris-class Heavy Frigate"
+  STR_PARIS_CLASS_HEAVY_FRIGATE_UFOPEDIA:
   STR_CHARON_CLASS_LIGHT_FRIGATE: "Charon-class Light Frigate"
+  STR_CHARON_CLASS_LIGHT_FRIGATE_UFOPEDIA:
   STR_SABRE_FIGHTER: "Sabre Spacefighter"
+  STR_SABRE_FIGHTER_UFOPEDIA: 
   STR_LONGSWORD_FIGHTER: "Longsword Interceptor"
+  STR_LONGSWORD_FIGHTER_UFOPEDIA:
   STR_PELICAN_DROPSHIP: "Pelican Dropship"
+  STR_PELICAN_DROPSHIP_UFOPEDIA:
   STR_FALCON_DROPSHIP: "Falcon VTOL"
+  STR_FALCON_DROPSHIP_UFOPEDIA:
   STR_FALCON_GUNSHIP: "Falcon Gunship"
+  STR_FALCON_GUNSHIP_UFOPEDIA: 
 ######################
   STR_MAC: "MAC"
   STR_MAC_LAUNCHER: "MAC"
   STR_MAC_STRING: "MAC"
+  STR_MAC_UFOPEDIA:
   STR_30MM_CANNON_UC: "30MM CANNON"
   STR_30MM_CANNON_LAUNCHER: "30mm Cannon"
   STR_30MM_CANNON_STRING: "30MM CANNON"
+  STR_30MM_CANNON_UC_UFOPEDIA:
   STR_50MM_CANNON_UC: "50MM CANNON"
   STR_50MM_CANNON_LAUNCHER: "50mm Cannon"
   STR_50MM_CANNON_STRING: "50MM CANNON"
+  STR_50MM_CANNON_UC_UFOPEDIA:
   STR_AA_BATTERY_UC: "AA BATTERY"
   STR_AA_BATTERY_LAUNCHER: "AA Battery"
   STR_AA_BATTERY_STRING: "AA BATTERY"
+  STR_AA_BATTERY_UC_UFOPEDIA:
   STR_70MM_CHAINGUN_UC: "70MM CHAINGUN"
   STR_70MM_CHAINGUN_LAUNCHER: "70mm Chaingun"
   STR_70MM_CHAINGUN_STRING: "70MM CHAINGUN"
+  STR_70MM_CHAINGUN_UC_UFOPEDIA:
   STR_SHIVA_NUKE_UC: "SHIVA-CLASS TACTICAL NUKE"
   STR_SHIVA_NUKE_LAUNCHER: "Shiva-class Tactical Nuke"
   STR_SHIVA_STRING: "SHIVA-CLASS TACTICAL NUKE"
+  STR_SHIVA_NUKE_UC_UFOPEDIA: 
   STR_ARCHER_MISSILE_UC: "ARCHER SHIP-TO-SHIP MISSILE"
   STR_ARCHER_MISSILE_LAUNCHER: "Archer Ship-to-Ship Missile"
   STR_ARCHER_MISSILE_STRING: "ARCHER SHIP-TO-SHIP MISSILE"
+  STR_ARCHER_MISSILE_UC_UFOPEDIA:
   STR_MEDUSA_MISSILE_UC: "ST/MEDUSA MISSILE"
   STR_MEDUSA_MISSILE_LAUNCHER: "ST/Medusa Missile"
   STR_MEDUSA_MISSILE_STRING: "ST/MEDUSA MISSILE"
+  STR_MEDUSA_MISSILE_UC_UFOPEDIA:
   STR_ASGM10_MISSILE_UC: "ASGM-10 MISSILE"
   STR_ASGM10_MISSILE_LAUNCHER: "ASGM-10 Missile"
   STR_ASGM10_MISSILE_STRING: "ASGM-10 MISSILE"
+  STR_ASGM10_MISSILE_UC_UFOPEDIA: 
 ######################
+  STR_UNSC_ARMORS: "UNSC ARMORS"
   STR_SPARTAN_III: "SPARTAN-III"
   STR_SPI_ARMOR_UC: "SPI ARMOR"
   STR_SPI_ARMOR: "SPI Armor"
@@ -106,6 +123,9 @@ en-US:
   STR_THRUST: "Thrust"
   STR_CUT: "Cut"
 ######################
+  STR_UNARMED_REGULAR_HUMAN: "CQB Knife"
+  STR_KNIFE: "Use Knife"
+  STR_UNARMED_REGULAR_HUMAN_UFOPEDIA: "The Combat Knife is the standard tool and defense weapon for all UNSC enlisted and officer personnel. This artifact has its origins back in the prehistory and its use remains relevant in the 26th Century. The blade is made with a special titanium carbide alloy, it never loses its sharpness. The damage output its multiplied by 1.5 based on Strength and by 2.0 based on Melee. A stronger soldier will make a better use of this tool."
   STR_M6C: M6C PDWS
   STR_M6C_UFOPEDIA: "Marine Corps' variant of the M6 PDWS, sporting a higher fire rate and velocity, using SAP-HP instead of SAP-HE." 
   STR_M6C_SOCOM: M6C/SOCOM
@@ -139,14 +159,14 @@ en-US:
   STR_MA5B: MA5B Assault Rifle
   STR_MA5B_UFOPEDIA: "The bulkier, heavier variant of the MA37, used by the Marine Corps, comes with an integrated flashlight and electronics suite, as well as a large 60-round magazine chambered in M118 FMJ."
   STR_MA5B_MAG: 7.62x51mm MA5B Magazine
-  STR_TYPE_25_PLASMA_PISTOL: Type 25 Pistol
-  STR_PLASMA_PISTOL_CELL: Type 25 Pistol Battery
-  STR_PLASMA_RIFLE_ELITE: Type 25 Plasma Rifle/Elite-pattern
-  STR_PLASMA_RIFLE_BRUTE: Type 25 Plasma Rifle/Brute-pattern
-  STR_PLASMA_RIFLE_BRUTE_CELL: Type 25 Rifle Battery/Brute
-  STR_PLASMA_RIFLE_CELL: Type 25 Rifle Battery/Elite
-  STR_PLASMA_REPEATER: Type 51 Plasma Repeater
-  STR_PLASMA_REPEATER_CELL: Type 51 Repeater Battery
+  STR_TYPE_25_PLASMA_PISTOL: Type-25 Pistol
+  STR_PLASMA_PISTOL_CELL: Type-25 Pistol Battery
+  STR_PLASMA_RIFLE_ELITE: Type-25 Plasma Rifle/Elite-pattern
+  STR_PLASMA_RIFLE_BRUTE: Type-25 Plasma Rifle/Brute-pattern
+  STR_PLASMA_RIFLE_BRUTE_CELL: Type-25 Rifle Battery/Brute
+  STR_PLASMA_RIFLE_CELL: Type-25 Rifle Battery/Elite
+  STR_PLASMA_REPEATER: Type-51 Plasma Repeater
+  STR_PLASMA_REPEATER_CELL: Type-51 Repeater Battery
   STR_NEEDLER: Type-33 'Needler' GLM
   STR_NEEDLER_CANISTER: Type-33 'Needler' Canister
   STR_PLASMA_CARBINE: Type-51 Carbine

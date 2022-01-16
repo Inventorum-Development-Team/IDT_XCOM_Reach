@@ -706,5 +706,19 @@ extraSprites:
     files:
       0: Resources/EnemyCrafts/Spirit_Interwin.png
 
+##########################################
+############# HAND TO HAND ###############
+##########################################
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      99: Resources/specialWeapons/BigKnife.png
+
+  - type: SPICONS.DAT
+    width: 32
+    height: 24
+    files:
+      2: Resources/specialWeapons/spicon_knife.png
 
   

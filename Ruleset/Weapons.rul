@@ -51,6 +51,44 @@ itemCategories:
 
 #Items
 items:
+#######################
+#### HAND TO HAND ####
+#####################
+  - type: STR_UNARMED_REGULAR_HUMAN
+    weight: 0
+    bigSprite: 99
+    meleeHitSound: [319, 320, 321]
+    meleeAnimation: 0
+    power: 40
+    damageType: 6
+    damageBonus:
+      strength: 1.5
+      melee: 2.0
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.15
+      ToHealth: 0.35
+    accuracyMelee: 85
+    meleeMultiplier:
+      melee: 2.0
+    confMelee:
+      name: STR_KNIFE
+    costMelee:
+      time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialIconSprite: 2
+    specialUseEmptyHand: true
+
   - type: STR_MA5B
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.2
