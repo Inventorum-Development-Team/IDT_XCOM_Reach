@@ -1,72 +1,140 @@
 ufopaedia:
 ###################
+#### REPORTS #####
+#################
+  - id: STR_SPARTAN_III_REPORT
+    type_id: 7
+    section: STR_UNIT_REPORTS
+    image_id: SPARTAN_III_REPORT_IMAGE
+    text: STR_SPARTAN_III_REPORT_UFOPEDIA
+    text_width: 150
+  - id: STR_ODST_REPORT
+    type_id: 7
+    section: STR_UNIT_REPORTS
+    image_id: ODST_REPORT_IMAGE
+    text: STR_ODST_REPORT_UFOPEDIA
+    text_width: 150
+  - id: STR_MARINE_REPORT
+    type_id: 7
+    section: STR_UNIT_REPORTS
+    image_id: MARINE_REPORT_IMAGE
+    text: STR_MARINE_REPORT_UFOPEDIA
+    text_width: 150
+  - id: STR_ARMY_TROOPER_REPORT
+    type_id: 7
+    section: STR_UNIT_REPORTS
+    image_id: ARMY_TROOPER_REPORT_IMAGE
+    text: STR_ARMY_TROOPER_REPORT_UFOPEDIA
+    text_width: 150
+  - id: STR_SANGHEILI_REPORT
+    type_id: 7
+    section: STR_UNIT_REPORTS
+    image_id: ELITE_MINOR_REPORT_IMAGE
+    text: STR_SANGHEILI_REPORT_UFOPEDIA
+    text_width: 150
+  - id: STR_KIGYAR_REPORT
+    type_id: 7
+    section: STR_UNIT_REPORTS
+    image_id: JACKAL_MINOR_REPORT_IMAGE
+    text: STR_KIGYAR_REPORT_UFOPEDIA
+    text_width: 150
+  - id: STR_UNGGOY_REPORT
+    type_id: 7
+    section: STR_UNIT_REPORTS
+    image_id: GRUNT_MINOR_REPORT_IMAGE
+    text: STR_UNGGOY_REPORT_UFOPEDIA
+    text_width: 150
+
+
+###################
+#### TACTICS #####
+#################
+  - id: STR_ODST_DROPPOD_TACTIC_REPORT
+    type_id: 7
+    section: STR_TACTICAL_REPORTS
+    image_id: ODST_DROPPOD_TACTIC_IMAGE
+    text: STR_ODST_DROPPOD_TACTIC_REPORT_UFOPEDIA
+    text_width: 300
+  - id: STR_DEPLOYMENTS_TACTIC_REPORT
+    type_id: 7
+    section: STR_TACTICAL_REPORTS
+    image_id: DEPLOYMENTS_TACTIC_IMAGE
+    text: STR_DEPLOYMENTS_TACTIC_UFOPEDIA
+    text_width: 300
+  - id: STR_COVENANT_SHIPS_TACTIC_REPORT
+    type_id: 7
+    section: STR_TACTICAL_REPORTS
+    image_id: COVENANT_SHIPS_TACTIC_IMAGE
+    text: STR_COVENANT_SHIPS_TACTIC_REPORT_UFOPEDIA
+    text_width: 300
+  - id: STR_COVENANT_DROPSHIPS_TACTIC_REPORT
+    type_id: 7
+    section: STR_TACTICAL_REPORTS
+    image_id: COVENANT_DROPSHIPS_TACTIC_IMAGE
+    text: STR_COVENANT_DROPSHIPS_TACTIC_REPORT_UFOPEDIA
+    text_width: 300
+
+
+###################
 #### ARMORS ######
 ##################
   - id: STR_SPI_ARMOR_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_SPI_ARMOR_UFOPEDIA
 ##############
   - id: STR_ARMOR_ODST_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_ODST_UFOPEDIA
 #############
   - id: STR_ARMOR_MARINE_STANDARD_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_MARINE_UFOPEDIA
   - id: STR_ARMOR_MARINE_BALACLAVA_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_MARINE_UFOPEDIA
   - id: STR_ARMOR_MARINE_LIGHT_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_MARINE_UFOPEDIA
   - id: STR_ARMOR_MARINE_SARGE_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_MARINE_UFOPEDIA
 ###########
   - id: STR_ARMOR_ARMY_STANDARD_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
   - id: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
   - id: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
   - id: STR_ARMOR_ARMY_LIGHT_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
   - id: STR_ARMOR_ARMY_SARGE_BDU_UC
     type_id: 5
-    listOrder: 2000
-    section: STR_ARMORS
+    section: STR_UNSC_ARMORS
     text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
 ####################
 #### WEAPONS ######
 ##################
+  - id: STR_UNARMED_REGULAR_HUMAN
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    text: STR_UNARMED_REGULAR_HUMAN_UFOPEDIA
   - id: STR_MA37
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2002
     text: STR_MA37_UFOPEDIA
   - id: STR_MA37_MAG
     type_id: 4
@@ -74,7 +142,6 @@ ufopaedia:
   - id: STR_MA5B
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2004
     text: STR_MA5B_UFOPEDIA
   - id: STR_MA5B_MAG
     type_id: 4
@@ -82,12 +149,10 @@ ufopaedia:
   - id: STR_M6C
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2006
     text: STR_M6C_UFOPEDIA
   - id: STR_M6C_SOCOM
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2106
     text: STR_M6C_SOCOM_UFOPEDIA
   - id: STR_M6C_MAG
     type_id: 4
@@ -95,7 +160,6 @@ ufopaedia:
   - id: STR_M6G
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2206
     text: STR_M6G_UFOPEDIA
   - id: STR_M6G_MAG
     type_id: 4
@@ -103,12 +167,10 @@ ufopaedia:
   - id: STR_M7
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2306
     text: STR_M7_UFOPEDIA
   - id: STR_M7S
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2307
     text: STR_M7S_UFOPEDIA
   - id: STR_M7_MAG
     type_id: 4
@@ -129,7 +191,6 @@ ufopaedia:
   - id: STR_BR55
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2506
     text: STR_BR55_UFOPEDIA
   - id: STR_BR55_MAG
     type_id: 4
@@ -148,7 +209,6 @@ ufopaedia:
   - id: STR_SRS99
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2706
     text: STR_SRS99_UFOPEDIA
   - id: STR_SRS99_MAG
     type_id: 4
@@ -160,7 +220,6 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_PARIS_CLASS_HEAVY_FRIGATE_UFOPEDIA
-    listOrder: 1
     rect_stats:
       x: 5
       y: 125
@@ -176,7 +235,6 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_CHARON_CLASS_LIGHT_FRIGATE_UFOPEDIA
-    listOrder: 2
     rect_stats:
       x: 5
       y: 125
@@ -192,7 +250,6 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_SABRE_FIGHTER_UFOPEDIA
-    listOrder: 3
     rect_stats:
       x: 5
       y: 125
@@ -208,7 +265,6 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_LONGSWORD_FIGHTER_UFOPEDIA
-    listOrder: 4
     rect_stats:
       x: 5
       y: 125
@@ -224,7 +280,6 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_PELICAN_DROPSHIP_UFOPEDIA
-    listOrder: 5
     rect_stats:
       x: 5
       y: 125
@@ -240,7 +295,6 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_FALCON_DROPSHIP_UFOPEDIA
-    listOrder: 6
     rect_stats:
       x: 5
       y: 125
@@ -256,7 +310,6 @@ ufopaedia:
     type_id: 1
     section: STR_VEHICLES
     text: STR_FALCON_GUNSHIP_UFOPEDIA
-    listOrder: 7
     rect_stats:
       x: 5
       y: 125
@@ -329,7 +382,6 @@ ufopaedia:
 ##############################
   - id: STR_PLASMA_RIFLE_ELITE
     type_id: 4
-    listOrder: 2806
     section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_RIFLE_CELL
@@ -337,7 +389,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_RIFLE_BRUTE
     type_id: 4
-    listOrder: 2906
     section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_RIFLE_BRUTE_CELL
@@ -345,7 +396,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_CARBINE
     type_id: 4
-    listOrder: 3006
     section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_CARBINE_MAG
@@ -353,7 +403,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_REPEATER
     type_id: 4
-    listOrder: 3106
     section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_REPEATER_CELL
@@ -361,7 +410,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_NEEDLER
     type_id: 4
-    listOrder: 3206
     section: STR_COVENANT_TECH
     text: ...
   - id: STR_NEEDLER_CANISTER
@@ -369,7 +417,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_TYPE_25_PLASMA_PISTOL
     type_id: 4
-    listOrder: 3306
     section: STR_COVENANT_TECH
     text: ...
   - id: STR_PLASMA_PISTOL_CELL
@@ -377,7 +424,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_FUEL_ROD_GUN
     type_id: 4
-    listOrder: 3406
     section: STR_COVENANT_TECH
     text: ...
   - id: STR_FUEL_ROD_GUN_RACK
@@ -385,7 +431,6 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_GRENADE
     type_id: 4
-    listOrder: 3506
     section: STR_COVENANT_TECH
     text: STR_PLASMA_GRENADE_UFOPEDIA
   - id: STR_ENERGY_SWORD
@@ -393,16 +438,86 @@ ufopaedia:
     section: STR_COVENANT_TECH
   - id: STR_ENERGY_SWORD_BATTERY
     type_id: 4
-    listOrder: 3606
     section: STR_NOT_AVAILABLE
     text: ...
   - id: STR_MINOR_SHIELD_GAUNTLET
     type_id: 4
-    listOrder: 3706
     section: STR_COVENANT_TECH
     text: ...
   - id: STR_MAJOR_SHIELD_GAUNTLET
     type_id: 4
-    listOrder: 3806
     section: STR_COVENANT_TECH
     text: ...
+
+extraSprites:
+#########################################
+######### UFOPEDIA IMAGES ###############
+#########################################
+  - type: SPARTAN_III_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/SPARTAN_III_REPORT_IMAGE.PNG
+  - type: ODST_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ODST_REPORT_IMAGE.PNG
+  - type: MARINE_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/MARINE_REPORT_IMAGE.PNG
+  - type: ARMY_TROOPER_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMY_TROOPER_REPORT_IMAGE.PNG
+###########################
+  - type: ELITE_MINOR_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ELITE_MINOR_REPORT_IMAGE.PNG
+  - type: JACKAL_MINOR_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/JACKAL_MINOR_REPORT_IMAGE.PNG
+  - type: GRUNT_MINOR_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/GRUNT_MINOR_REPORT_IMAGE.PNG
+####################################
+  - type: ODST_DROPPOD_TACTIC_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ODST_DROPPOD_TACTIC_IMAGE.PNG
+  - type: DEPLOYMENTS_TACTIC_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/DEPLOYMENTS_TACTIC_IMAGE.PNG
+  - type: COVENANT_SHIPS_TACTIC_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/COVENANT_SHIPS_TACTIC_IMAGE.PNG
+  - type: COVENANT_DROPSHIPS_TACTIC_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/COVENANT_DROPSHIPS_TACTIC_IMAGE.PNG

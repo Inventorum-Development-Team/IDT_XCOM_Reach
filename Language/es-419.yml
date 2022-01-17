@@ -10,20 +10,47 @@ es-419:
   STR_4_GENIUS: "4> LEGENDARIA"
   STR_5_SUPERHUMAN: "5> MÍTICA"
 ######################
+  STR_SPARTAN_III_REPORT: "Reporte: SPARTAN-III"
+  STR_SPARTAN_III_REPORT_UFOPEDIA: "Los supersoldados SPARTAN-III son una rama especial de hombres y mujeres al servicio de la UNSC. En su enorme mayoría son huérfanos, cuyos padres fueron asesinados por el Covenant. Cuentan con numerosos implantes y mejoras genéticas, que las ponen a la par de sus homólogos SPARTAN-II. La mayoría de los S-III han sido destinados a misiones suicidas, con excepción de algunos grupos selectos."
+  STR_ODST_REPORT: "Reporte: SCDO"
+  STR_ODST_REPORT_UFOPEDIA: "Lo mejor de lo mejor que puede ofrecer la humanidad se encuentran enrolados con los Soldados de Choque de Descenso Orbital (sin contar a los SPARTAN, por supuesto). Duros como el titanio y más valientes que ninguno, los SCDO son soldados de élite, desplegados desde órbita abordo de cápsulas. Usualmente lideran asaltos planetarios y llevan acabo misiones de alto secreto."
+  STR_MARINE_REPORT: "Reporte: Marine"
+  STR_MARINE_REPORT_UFOPEDIA: "El Cuerpo de Marines de la UNSC es la formación militar desplegada en invasiones planetarias y como protección de los buques de la Armada. Los Marines han visto combate en numerosos mundo y suelen ser los primeros en responder a las oleadas extraterrestres. Los Marines usan armas con {ALT}mucha munición{ALT} y sus mejores atributos son en {ALT}velocidad y valentía{ALT}, siempre a la ofensiva."
+  STR_ARMY_TROOPER_REPORT: "Reporte: Infantería"
+  STR_ARMY_TROOPER_REPORT_UFOPEDIA: "La Infantería del Ejército está especializada en servir como guarnición para los mundos de la UNSC. Sus aptitudes están enfocadas en combate {ALT}defensivo y estático{ALT}. Sus armas son más {ALT}precisas{ALT}, aunque suelen estar limitadas en munición. Pero esto no es impedimento, puesto que generalmente están estacionados en bases y puestos de avanzada. Fuertes y letales."
+  STR_SANGHEILI_REPORT: "Reporte: Elites"
+  STR_SANGHEILI_REPORT_UFOPEDIA: "Sangheili, en su lengua natal. La vanguardia y núcleo de las fuerzas armadas del enemigo. Son excelentes líderes y formidables guerreros. Están equipados con Escudos de energía y armas poderosas. Su jerarquía de colores es: {NEWLINE}>Azul, {ALT}Menores{ALT}. {NEWLINE}>Rojo, {ALT}Mayores.{ALT} {NEWLINE}>Blanco, {ALT}Ultra.{ALT} {NEWLINE}>Amarillo, {ALT}Zealot.{ALT}"
+  STR_KIGYAR_REPORT: "Reporte: Jackals"
+  STR_KIGYAR_REPORT_UFOPEDIA: "Llamados Kig-Yar por los Elites, son infantería ligera especializada que generalmente sirve de apoyo a otras tropas Covenant. Creemos que son mercenarios y no profesan la religión del enemigo. Su jerarquía de colores es: {NEWLINE}>Azul, {ALT}Menores{ALT}. {NEWLINE}>Naranja, {ALT}Mayores.{ALT} {NEWLINE}>Morado, {ALT}Francotiradores.{ALT}"
+  STR_UNGGOY_REPORT: "Reporte: Grunts"
+  STR_UNGGOY_REPORT_UFOPEDIA: "Su nombre es Unggoy, aunque les llamamos Grunts por ser la carne de cañón e infantería básica del enemigo. Son cobardes e ineficientes, aunque se compensa con sus números. Su jerarquía de colores es: {NEWLINE}>Naranja, {ALT}Menores{ALT}. {NEWLINE}>Rojo, {ALT}Mayores.{ALT} {NEWLINE}>Verde, {ALT}Pesado.{ALT} {NEWLINE}>Blanco, {ALT}Ultra.{ALT}"
+#####################
+  STR_TACTICAL_REPORTS: "REPORTES TÁCTICOS"
+  STR_UNIT_REPORTS: "REPORTES DE UNIDADES"
+  STR_COVENANT_TECH: "TECNOLOGÍA COVENANT"
+  STR_ODST_DROPPOD_TACTIC_REPORT: "Tácticas: Cápsulas SOEIV"
+  STR_ODST_DROPPOD_TACTIC_REPORT_UFOPEDIA: "Las Cápsulas de descenso SOEIV están especialmente reforzadas para soportar las altas temperaturas provocadas por la fricción en la admósfera. Al tocar tierra, el soldado adentro tiene la opción de {ALT}golpear o disparar{ALT} a la compuerta exterior para poder salir, por motivos de seguridad."
+  STR_DEPLOYMENTS_TACTIC_REPORT:  "Tácticas: Despligues de combate"
+  STR_DEPLOYMENTS_TACTIC_REPORT_UFOPEDIA: "Tenemos a nuestra disposición un gran número de naves, adecuada para roles distintos. Las Fragatas son útiles para combatir contra naves capitales ligeras y para suavizar los escudos de plasma del enemigo. Los misiles golpean duro, pero no pueden penetrar escudos. Los cañones y ametralladoras suelen saturar los generadores de energía, por lo tanto son efectivos en derribar los escudos."
+  STR_COVENANT_SHIPS_TACTIC_REPORT: "Tácticas: Naves capitales Covenant"
+  STR_COVENANT_SHIPS_TACTIC_REPORT_UFOPEDIA: "Las naves principales que componen las flotas enemigas suelen ser Cruceros y Destructores. Los Cruceros de asalto suelen liderar asaltos a planetas importantes y son naves de mucho cuidado. Las Corbetas suelen ser más fáciles de combatir, nuestras Fragatas están a la par. La mejor opción que tenemos para destruir las naves más grandes es esperar a que aterricen sus transportes, eliminar a la tripulación y mandar de vuelta a su nave nodriza, cargada con tantos explosivos sean posible (esta última parte suele ser realizada por otros equipos especializados en explosivos, nuestra misión termina al eliminar a la tripulación)."
+  STR_COVENANT_DROPSHIPS_TACTIC_REPORT: "Tácticas: Transportes de tropas Covenant"
+  STR_COVENANT_DROPSHIPS_TACTIC_REPORT_UFOPEDIA: "Hemos identificado dos patrones de acción respecto a las naves de descenso enemigas: si navegan solitarias y las interceptamos, el contigente de tropas se encontrará dentro de su nave. Sin embargo, si son desplegadas directamente de una nave capital, encontraremos tropas de reconocimiento esparcidas alrededor de la nave. Debemos tomar esto en consideración al momento de lanzar ataques contra objetivos aterrizados."
+######################
   STR_PARIS_CLASS_HEAVY_FRIGATE: "Fragata pesada Clase-Paris"
-  STR_PARIS_CLASS_HEAVY_FRIGATE_UFOPEDIA: 
+  STR_PARIS_CLASS_HEAVY_FRIGATE_UFOPEDIA: "Nave capital ligera, diseñada para escolta de buques más grandes y para defensa de instalaciones orbitales. Está limitado en el número de tropas que puede transportar, pero en cambio tiene más placas de blindaje y mejor armamento."
   STR_CHARON_CLASS_LIGHT_FRIGATE: "Fragata ligera Clase-Charon"
-  STR_CHARON_CLASS_LIGHT_FRIGATE_UFOPEDIA: 
+  STR_CHARON_CLASS_LIGHT_FRIGATE_UFOPEDIA: "Nave capital ligera, pensada en el transporte de tropas para asaltos planetarios, así como el apoyo a ofensivas terrestres. Su amplio hangar facilita el transportar grandes contingentes de infantería y vehículos."
   STR_SABRE_FIGHTER: "Caza Sabre"
-  STR_SABRE_FIGHTER_UFOPEDIA: 
+  STR_SABRE_FIGHTER_UFOPEDIA: "YSS-1000. Caza espacial prototipo, destinado para la defensa de las Colonias Interiores. Es la primera nave UNSC en incoporar escudos de energía activos. Rápido, ágil y poderoso."
   STR_LONGSWORD_FIGHTER: "Interceptor Longsword"
-  STR_LONGSWORD_FIGHTER_UFOPEDIA: 
+  STR_LONGSWORD_FIGHTER_UFOPEDIA: "GA-TL1/C709. Interceptor de línea de la UNSC. Cumple una enorme cantidad de roles, desde intercepción orbital hasta escolta de naves capitales y apoyo cercano."
   STR_PELICAN_DROPSHIP: "Nave de descenso Pelican"
-  STR_PELICAN_DROPSHIP_UFOPEDIA:
+  STR_PELICAN_DROPSHIP_UFOPEDIA: "D77-TC. Nave de transporte estándar de todas las ramas de la UNSC. Está equipado con fuerte blindaje y tiene capacidad de vuelo orbital. Puede transportar una gran cantidad de tropas y un vehículo ligero."
   STR_FALCON_DROPSHIP: "Transporte Falcon"
-  STR_FALCON_DROPSHIP_UFOPEDIA:
+  STR_FALCON_DROPSHIP_UFOPEDIA: "UH-144A. Variante del Falcon enfocada en el transporte de infantería de forma rápida y discreta. Sólamente posee una ametralladora de 70mm para su defensa personal."
   STR_FALCON_GUNSHIP: "Cañonera Falcon"
-  STR_FALCON_GUNSHIP_UFOPEDIA: 
+  STR_FALCON_GUNSHIP_UFOPEDIA: "AH-144S. Versión mejor armada del Falcon, empleado en su mayoría por el Ejército. Cuenta con otra torreta de cañón y blindaje adicional en los motores y la cabina."
 ######################
   STR_MAC: "CAÑÓN MAC"
   STR_MAC_LAUNCHER: "Cañón MAC"
@@ -169,8 +196,8 @@ es-419:
   STR_PLASMA_RIFLE_CELL: Batería Rifle de Plasma Tipo-25/Elite
   STR_PLASMA_REPEATER: Repetidor de Plasma Tipo-51
   STR_PLASMA_REPEATER_CELL: Batería de Repetidor Tipo-51
-  STR_NEEDLER: GML Tipo-33 'Aguijoneador'
-  STR_NEEDLER_CANISTER: Contenedor de Tipo 33 'Aguijoneador'
+  STR_NEEDLER: "GML Tipo-33 'Aguijoneador'"
+  STR_NEEDLER_CANISTER: "Contenedor de Tipo 33 'Aguijoneador'"
   STR_PLASMA_CARBINE: Carabina Tipo-51
   STR_PLASMA_CARBINE_MAG: Cargador de Carabina 8.7x60mm
   STR_FUEL_ROD_GUN: "ALAB Tipo 33 'Cañón de Combustible'"

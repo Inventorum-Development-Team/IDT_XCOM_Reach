@@ -10,57 +10,83 @@ en-US:
   STR_4_GENIUS: "4> LEGENDARY"
   STR_5_SUPERHUMAN: "5> MYTHIC"
 ######################
+  STR_UNIT_REPORTS: "UNIT REPORTS"
+  STR_SPARTAN_III_REPORT: "Report: SPARTAN-III"
+  STR_SPARTAN_III_REPORT_UFOPEDIA: "SPARTAN-III supersoldiers are a special branch of men and women in the service of the UNSC. They are overwhelmingly orphans, whose parents were killed by the Covenant. They have numerous implants and genetic enhancements, which put them on par with their SPARTAN-II counterparts. Most S-IIIs have been assigned to suicide missions, with the exception of a few select groups."
+  STR_ODST_REPORT: "Report: ODST."
+  STR_ODST_REPORT_UFOPEDIA: "The best of the best humanity has to offer are enlisted with the Orbital Descent Shock Soldiers (not counting SPARTANs, of course). Tough as titanium and braver than any, ODSTs are elite soldiers, deployed from orbit aboard capsules. They usually lead planetary assaults and carry out top-secret missions."
+  STR_MARINE_REPORT: "Report: Marines"
+  STR_MARINE_REPORT_UFOPEDIA: "The UNSC Marine Corps is the military formation deployed in planetary invasions and as protection for Navy ships. Marines have seen combat on numerous worlds and are often the first responders to alien waves. Marines use weapons with {ALT}plenty of ammunition{ALT} and their best attributes are in {ALT}speed and bravery{ALT}, always on the offensive."
+  STR_ARMY_TROOPER_REPORT: "Report: Army."
+  STR_ARMY_TROOPER_REPORT_UFOPEDIA: "The Army Infantry is specialized in serving as garrison for UNSC worlds. Their skills are focused on {ALT}defensive and static combat{ALT}. Their weapons are more {ALT}precise{ALT}, although they tend to be limited in ammunition. But this is no impediment, as they are generally stationed at bases and outposts. Strong and lethal."
+  STR_SANGHEILI_REPORT: "Report: Elites."
+  STR_SANGHEILI_REPORT_UFOPEDIA: "Sangheili, in their native tongue. The vanguard and core of the enemy's armed forces. They are excellent leaders and formidable warriors. They are equipped with energy shields and powerful weapons. Their color hierarchy is: {NEWLINE}>Blue, {ALT}Minors{ALT}. {NEWLINE}>Red, {ALT}Majors.{ALT} {NEWLINE}>White, {ALT}Ultra.{ALT} {NEWLINE}>Yellow, {ALT}Zealot.{ALT}"
+  STR_KIGYAR_REPORT: "Report: Jackals"
+  STR_KIGYAR_REPORT_UFOPEDIA: "Called Kig-Yar by the Elites, they are specialized light infantry that generally serve as support for other Covenant troops. We believe they are mercenaries and do not profess the enemy's religion. Their color hierarchy is: {NEWLINE}>Blue, {ALT}Minors{ALT}. {NEWLINE}>Orange, {ALT}Majors.{ALT} {NEWLINE}>Purple, {ALT}Sniper.{ALT}"
+  STR_UNGGOY_REPORT: "Report: Grunts"
+  STR_UNGGOY_REPORT_UFOPEDIA: "Their name is Unggoy, though we call them Grunts because they are the cannon fodder and basic infantry of the enemy. They are cowardly and inefficient, although it is compensated by their numbers. Their color hierarchy is: {NEWLINE}>Orange, {ALT}Minors{ALT}. {NEWLINE}>Red, {ALT}Majors.{ALT} {NEWLINE}>Green, {ALT}Heavy.{ALT} {NEWLINE}>White, {ALT}Ultra.{ALT}"
+#####################
+  STR_TACTICAL_REPORTS: "TACTICAL REPORTS"
+  STR_ODST_DROPPOD_DROPPOD_TACTIC_REPORT: "Tactics: SOEIV Drop Pods"
+  STR_ODST_DROPPOD_DROPPOD_TACTIC_REPORT_UFOPEDIA: "SOEIV Drop Pods are specially reinforced to withstand the high temperatures caused by friction in the atmosphere. Upon landing, the soldier inside has the option of {ALT}striking or firing{ALT} at the outer hatch in order to exit, for safety reasons."
+  STR_DEPLOYMENTS_TACTIC_REPORT: "Tactics: Combat Deployments."
+  STR_DEPLOYMENTS_TACTIC_REPORT_UFOPEDIA: "We have at our disposal a large number of ships, suitable for different roles. Frigates are useful for fighting light capital ships and softening up enemy plasma shields. Missiles hit hard, but cannot penetrate shields. Cannons and machine guns tend to saturate power generators, so they are effective at knocking down shields."
+  STR_COVENANT_SHIPS_TACTIC_REPORT: "Tactics: Covenant capital ships."
+  STR_COVENANT_SHIPS_TACTIC_REPORT_UFOPEDIA: "The main ships that make up enemy fleets are usually Cruisers and Destroyers. Assault Cruisers usually lead assaults on major planets and are very careful ships. Corvettes are usually easier to fight, our Frigates are on par. The best option we have to destroy the larger ships is to wait for them to land their transports, eliminate the crew and send back to their mothership, loaded with as many explosives as possible (this last part is usually done by other teams specialized in explosives, our mission ends when the crew is eliminated)."
+  STR_COVENANT_DROPSHIPS_TACTIC_REPORT: "Tactics: Covenant troop transports"
+  STR_COVENANT_DROPSHIPS_TACTIC_REPORT_UFOPEDIA: "We have identified two patterns of action with respect to enemy dropships: if they sail solo and we intercept them, the troop contingent will be found inside their ship. However, if they are deployed directly from a capital ship, we will find reconnaissance troops scattered around the ship. We must take this into consideration when launching attacks against landed targets."
+######################
   STR_PARIS_CLASS_HEAVY_FRIGATE: "Paris-class Heavy Frigate"
-  STR_PARIS_CLASS_HEAVY_FRIGATE_UFOPEDIA:
+  STR_PARIS_CLASS_HEAVY_FRIGATE_UFOPEDIA: "Light capital ship, designed for escort of larger ships and for defense of orbital installations. It is limited in the number of troops it can carry, but instead has more armor plates and better armament."
   STR_CHARON_CLASS_LIGHT_FRIGATE: "Charon-class Light Frigate"
-  STR_CHARON_CLASS_LIGHT_FRIGATE_UFOPEDIA:
+  STR_CHARON_CLASS_LIGHT_FRIGATE_UFOPEDIA: "Light capital ship, intended for transporting troops for planetary assaults, as well as supporting ground offensives. Its large hangar facilitates the transport of large contingents of infantry and vehicles."
   STR_SABRE_FIGHTER: "Sabre Spacefighter"
-  STR_SABRE_FIGHTER_UFOPEDIA: 
+  STR_SABRE_FIGHTER_UFOPEDIA: "YSS-1000. Prototype space fighter, intended for defense of the Inner Colonies. It is the first UNSC ship to incorporate active energy shields. Fast, agile and powerful."
   STR_LONGSWORD_FIGHTER: "Longsword Interceptor"
-  STR_LONGSWORD_FIGHTER_UFOPEDIA:
+  STR_LONGSWORD_FIGHTER_UFOPEDIA: "GA-TL1/C709. UNSC line interceptor. Fulfills a huge number of roles, from orbital intercept to capital ship escort and close support."
   STR_PELICAN_DROPSHIP: "Pelican Dropship"
-  STR_PELICAN_DROPSHIP_UFOPEDIA:
+  STR_PELICAN_DROPSHIP_UFOPEDIA: "D77-TC. Standard transport ship of all UNSC branches. It is equipped with heavy armor and has orbital flight capability. It can carry a large number of troops and a light vehicle."
   STR_FALCON_DROPSHIP: "Falcon VTOL"
-  STR_FALCON_DROPSHIP_UFOPEDIA:
+  STR_FALCON_DROPSHIP_UFOPEDIA: "UH-144A. Variant of the Falcon focused on transporting infantry quickly and unobtrusively. Only possesses a 70mm machine gun for self-defense."
   STR_FALCON_GUNSHIP: "Falcon Gunship"
-  STR_FALCON_GUNSHIP_UFOPEDIA: 
+  STR_FALCON_GUNSHIP_UFOPEDIA: "AH-144S. Better armed version of the Falcon, mostly employed by the Army. Features another gun turret and additional armor on engines and cockpit."
 ######################
   STR_MAC: "MAC"
   STR_MAC_LAUNCHER: "MAC"
   STR_MAC_STRING: "MAC"
-  STR_MAC_UFOPEDIA:
+  STR_MAC_UFOPEDIA: "Mark II, Light Coil - 52A6F9/MAC. Magnetic Acceleration Cannon, employs ferric tungsten rounds at supersonic velocities. The most powerful weapon available to a UNSC ship, capable of shield damage and ship penetration in equal measure. The low rate of fire of the 'light MAC' is its greatest disadvantage."
   STR_30MM_CANNON_UC: "30MM CANNON"
   STR_30MM_CANNON_LAUNCHER: "30mm Cannon"
   STR_30MM_CANNON_STRING: "30MM CANNON"
-  STR_30MM_CANNON_UC_UFOPEDIA:
+  STR_30MM_CANNON_UC_UFOPEDIA: "M1024 ASW/AC - Rail cannon, standard on Sabre space fighters. Its 30mm projectiles are slow, but hit hard."
   STR_50MM_CANNON_UC: "50MM CANNON"
   STR_50MM_CANNON_LAUNCHER: "50mm Cannon"
   STR_50MM_CANNON_STRING: "50MM CANNON"
-  STR_50MM_CANNON_UC_UFOPEDIA:
+  STR_50MM_CANNON_UC_UFOPEDIA: "M9109 ASW/AC - Automatic rail gun, with in- and out-of-atmosphere combat capabilities. The 50mm ammunition is fired at such high velocities that it begins to cause friction with the air."
   STR_AA_BATTERY_UC: "AA BATTERY"
   STR_AA_BATTERY_LAUNCHER: "AA Battery"
   STR_AA_BATTERY_STRING: "AA BATTERY"
-  STR_AA_BATTERY_UC_UFOPEDIA:
+  STR_AA_BATTERY_UC_UFOPEDIA: "Anti-aircraft battery, incorporates a modern LIDAR system to detect enemy targets at long distances and two 35mm automatic cannons. The joint system is designed to keep hostile fighters and missiles away from the ships to which it is integrated. "
   STR_70MM_CHAINGUN_UC: "70MM CHAINGUN"
   STR_70MM_CHAINGUN_LAUNCHER: "70mm Chaingun"
   STR_70MM_CHAINGUN_STRING: "70MM CHAINGUN"
-  STR_70MM_CHAINGUN_UC_UFOPEDIA:
+  STR_70MM_CHAINGUN_UC_UFOPEDIA: "Heavy machine gun mounted on ships intended for close support. Its explosive ammunition causes large breaches in light armor and is especially effective against Banshees and other small vehicles."
   STR_SHIVA_NUKE_UC: "SHIVA-CLASS TACTICAL NUKE"
   STR_SHIVA_NUKE_LAUNCHER: "Shiva-class Tactical Nuke"
   STR_SHIVA_STRING: "SHIVA-CLASS TACTICAL NUKE"
-  STR_SHIVA_NUKE_UC_UFOPEDIA: 
+  STR_SHIVA_NUKE_UC_UFOPEDIA: "UNSC standard thermonuclear weapon. Its explosive charge is widely configurable. Its electronic guidance system makes it quite reliable, although some Covenant ships are known to be able to withstand a direct hit. It can be detonated with proximity fuzes or radio-transmitted codes."
   STR_ARCHER_MISSILE_UC: "ARCHER SHIP-TO-SHIP MISSILE"
   STR_ARCHER_MISSILE_LAUNCHER: "Archer Ship-to-Ship Missile"
   STR_ARCHER_MISSILE_STRING: "ARCHER SHIP-TO-SHIP MISSILE"
-  STR_ARCHER_MISSILE_UC_UFOPEDIA:
+  STR_ARCHER_MISSILE_UC_UFOPEDIA: Standard missile mounted on silos and turrets, employed by the UNSC since the time of the Insurrection. Typically effective against unarmored targets, large numbers of Archers are needed to damage the shields of Covenant capital ships.
   STR_MEDUSA_MISSILE_UC: "ST/MEDUSA MISSILE"
   STR_MEDUSA_MISSILE_LAUNCHER: "ST/Medusa Missile"
   STR_MEDUSA_MISSILE_STRING: "ST/MEDUSA MISSILE"
-  STR_MEDUSA_MISSILE_UC_UFOPEDIA:
+  STR_MEDUSA_MISSILE_UC_UFOPEDIA: "Light and fast missile, used by agile fighters engaging enemy fighters. Its computerized detection system allows it to keep the target locked on, even if it performs evasive maneuvers."
   STR_ASGM10_MISSILE_UC: "ASGM-10 MISSILE"
   STR_ASGM10_MISSILE_LAUNCHER: "ASGM-10 Missile"
   STR_ASGM10_MISSILE_STRING: "ASGM-10 MISSILE"
-  STR_ASGM10_MISSILE_UC_UFOPEDIA: 
+  STR_ASGM10_MISSILE_UC_UFOPEDIA: "Heavy missile, employed in combat against capital ships by bombers. Its powerful explosive charge can rip apart a Destroyer in half, if it hits the target with shields down."
 ######################
   STR_UNSC_ARMORS: "UNSC ARMORS"
   STR_SPARTAN_III: "SPARTAN-III"
@@ -180,6 +206,7 @@ en-US:
   STR_MINOR_SHIELD_GAUNTLET: "Jackal Minor Shield Gauntlet"
   STR_MAJOR_SHIELD_GAUNTLET: "Jackal Major Shield Gauntlet"
 ######################
+  STR_COVENANT_TECH: "COVENANT TECH"
   STR_SANGHEILI_LANCE: "Elite Lance"
   STR_STANDARD_LANCE: "Standard Lance"
   STR_SANGHEILI: "Elite"

@@ -82,7 +82,7 @@ items:
     battleType: 3
     clipSize: -1
     experienceTrainingMode: 13
-    invWidth: 2
+    invWidth: 1
     invHeight: 2
     fixedWeapon: true
     recover: false
