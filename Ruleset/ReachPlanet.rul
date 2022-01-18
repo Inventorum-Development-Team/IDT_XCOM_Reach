@@ -23742,6 +23742,7 @@ countries:
   - delete: STR_EGYPT
   - delete: STR_CANADA
 
+
   - type: STR_NEW_ALEXANDRIA_SECTOR
     areas:
       - - 165.63035920407003

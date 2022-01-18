@@ -57,10 +57,26 @@ items:
   - type: STR_UNARMED_REGULAR_HUMAN
     weight: 0
     bigSprite: 99
-    meleeHitSound: [319, 320, 321]
-    meleeAnimation: 0
-    power: 40
-    damageType: 6
+    fireSound: [319, 320, 321]
+    accuracySnap: 150
+    tuSnap: 15
+    confSnap:
+      shots: 1
+      name: STR_KNIFE
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 1
+    invHeight: 2     
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    specialIconSprite: 2
+    specialUseEmptyHand: true
+    maxRange: 2
+    aimRange: 2
+    snapRange: 1
+    power: 80
+    damageType: 1
     damageBonus:
       strength: 1.5
       melee: 2.0
@@ -70,24 +86,6 @@ items:
       IgnoreDirection: false
       ArmorEffectiveness: 1.15
       ToHealth: 0.35
-    accuracyMelee: 85
-    meleeMultiplier:
-      melee: 2.0
-    confMelee:
-      name: STR_KNIFE
-    costMelee:
-      time: 8
-      energy: 2
-    flatRate: true
-    battleType: 3
-    clipSize: -1
-    experienceTrainingMode: 13
-    invWidth: 1
-    invHeight: 2
-    fixedWeapon: true
-    recover: false
-    specialIconSprite: 2
-    specialUseEmptyHand: true
 
   - type: STR_MA5B
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
@@ -999,8 +997,7 @@ items:
     bigSprite: 928
     floorSprite: 928
     handSprite: 928
-    hitAnimation: 150
-    fireSound: [319, 320, 321]
+    fireSound: [223, 224, 225, 226, 227, 228]
     reloadSound: 229
     compatibleAmmo:
       - STR_ENERGY_SWORD_BATTERY
@@ -1031,8 +1028,9 @@ items:
     costSell: 12000
     weight: 2
     bigSprite: 944
-    floorSprite: 944
+    floorSprite: 928
     damageType: 5
+    hitAnimation: 150
     power: 200
     damageAlter:
       RandomType: 3

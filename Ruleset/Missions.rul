@@ -14,6 +14,10 @@ missionScripts:
     missionWeights:
       0:
         STR_COVENANT_RECON: 100
+    regionWeights:
+      0:
+        STR_REGION_6: 100
+    maxRuns: 1
     firstMonth: 0
     startDelay: 7200
 
@@ -21,6 +25,9 @@ missionScripts:
     missionWeights:
       0:
         STR_COVENANT_AIR_SUPERIORITY_1: 100
+    regionWeights:
+      0:
+        STR_REGION_6: 100
     firstMonth: 0
     startDelay: 4320
     randomDelay: 7200

@@ -54,12 +54,12 @@ ufopaedia:
     section: STR_TACTICAL_REPORTS
     image_id: ODST_DROPPOD_TACTIC_IMAGE
     text: STR_ODST_DROPPOD_TACTIC_REPORT_UFOPEDIA
-    text_width: 300
+    text_width: 290
   - id: STR_DEPLOYMENTS_TACTIC_REPORT
     type_id: 7
     section: STR_TACTICAL_REPORTS
     image_id: DEPLOYMENTS_TACTIC_IMAGE
-    text: STR_DEPLOYMENTS_TACTIC_UFOPEDIA
+    text: STR_DEPLOYMENTS_TACTIC_REPORT_UFOPEDIA
     text_width: 300
   - id: STR_COVENANT_SHIPS_TACTIC_REPORT
     type_id: 7
@@ -382,71 +382,71 @@ ufopaedia:
 ##############################
   - id: STR_PLASMA_RIFLE_ELITE
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
   - id: STR_PLASMA_RIFLE_CELL
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_RIFLE_BRUTE
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
   - id: STR_PLASMA_RIFLE_BRUTE_CELL
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_CARBINE
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
   - id: STR_PLASMA_CARBINE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_REPEATER
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
   - id: STR_PLASMA_REPEATER_CELL
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_NEEDLER
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
   - id: STR_NEEDLER_CANISTER
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_TYPE_25_PLASMA_PISTOL
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
   - id: STR_PLASMA_PISTOL_CELL
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_FUEL_ROD_GUN
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
   - id: STR_FUEL_ROD_GUN_RACK
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_GRENADE
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: STR_PLASMA_GRENADE_UFOPEDIA
   - id: STR_ENERGY_SWORD
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
   - id: STR_ENERGY_SWORD_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
     text: ...
   - id: STR_MINOR_SHIELD_GAUNTLET
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
   - id: STR_MAJOR_SHIELD_GAUNTLET
     type_id: 4
-    section: STR_COVENANT_TECH
+    section: STR_ALIEN_ARTIFACTS
     text: ...
 
 extraSprites:
