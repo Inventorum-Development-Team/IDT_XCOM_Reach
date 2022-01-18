@@ -18,6 +18,7 @@ missionScripts:
       0:
         STR_REGION_6: 100
     maxRuns: 1
+    varName: startingRecon
     firstMonth: 0
     startDelay: 7200
 
