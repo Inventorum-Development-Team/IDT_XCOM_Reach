@@ -72,6 +72,7 @@ items:
     recover: false
     specialIconSprite: 2
     specialUseEmptyHand: true
+    specialUseEmptyHandShow: true
     maxRange: 2
     aimRange: 2
     snapRange: 1
@@ -86,6 +87,26 @@ items:
       IgnoreDirection: false
       ArmorEffectiveness: 1.15
       ToHealth: 0.35
+
+  - type: STR_MEDI_KIT
+    categories: [STR_MEDICAL, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    size: 0.1
+    costSell: 46500
+    weight: 5
+    bigSprite: 24
+    floorSprite: 24
+    battleType: 6
+    invWidth: 1
+    invHeight: 2
+    painKiller: 10
+    heal: 10
+    stimulant: 10
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
 
   - type: STR_MA5B
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
@@ -592,6 +613,32 @@ items:
     clipSize: 60
     battleType: 2
     armor: 12
+
+  - type: STR_GRENADE
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    power: 50
+    damageType: 3
+    battleType: 4
+    blastRadius: 5
+  - type: STR_SMOKE_GRENADE
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
+    size: 0.1
+    costBuy: 150
+    costSell: 120
+    weight: 3
+    bigSprite: 20
+    floorSprite: 20
+    power: 60
+    damageType: 9
+    battleType: 4
+    blastRadius: 5
+
 ######################################################
   - type: STR_PLASMA_RIFLE_ELITE       #Type25 Plasma Rifle
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
@@ -765,6 +812,7 @@ items:
     invHeight: 3
     battleType: 1     # 1 = firearm
     weight: 9
+    twoHanded: true
     compatibleAmmo:         #Battle Stats
       - STR_PLASMA_REPEATER_CELL
     confSnap:
@@ -976,7 +1024,7 @@ items:
 #    listOrder: 248
 
   - type: STR_PLASMA_GRENADE
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     costSell: 14850
     weight: 3
@@ -1014,7 +1062,7 @@ items:
       spendPerShot: 10
       name: STR_CUT      
     battleType: 1
-    twoHanded: true
+    twoHanded: false
     invWidth: 2
     invHeight: 3
     maxRange: 2

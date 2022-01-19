@@ -13,7 +13,7 @@ ufopaedia:
     section: STR_UNIT_REPORTS
     image_id: ODST_REPORT_IMAGE
     text: STR_ODST_REPORT_UFOPEDIA
-    text_width: 150
+    text_width: 135
   - id: STR_MARINE_REPORT
     type_id: 7
     section: STR_UNIT_REPORTS
@@ -55,25 +55,28 @@ ufopaedia:
     image_id: ODST_DROPPOD_TACTIC_IMAGE
     text: STR_ODST_DROPPOD_TACTIC_REPORT_UFOPEDIA
     text_width: 290
+    align_bottom: true
   - id: STR_DEPLOYMENTS_TACTIC_REPORT
     type_id: 7
     section: STR_TACTICAL_REPORTS
     image_id: DEPLOYMENTS_TACTIC_IMAGE
     text: STR_DEPLOYMENTS_TACTIC_REPORT_UFOPEDIA
-    text_width: 300
+    text_width: 290
+    align_bottom: true
   - id: STR_COVENANT_SHIPS_TACTIC_REPORT
     type_id: 7
     section: STR_TACTICAL_REPORTS
     image_id: COVENANT_SHIPS_TACTIC_IMAGE
     text: STR_COVENANT_SHIPS_TACTIC_REPORT_UFOPEDIA
-    text_width: 300
+    text_width: 290
+    align_bottom: true
   - id: STR_COVENANT_DROPSHIPS_TACTIC_REPORT
     type_id: 7
     section: STR_TACTICAL_REPORTS
     image_id: COVENANT_DROPSHIPS_TACTIC_IMAGE
     text: STR_COVENANT_DROPSHIPS_TACTIC_REPORT_UFOPEDIA
-    text_width: 300
-
+    text_width: 290
+    align_bottom: true
 
 ###################
 #### ARMORS ######
