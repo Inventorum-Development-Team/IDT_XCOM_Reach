@@ -10,6 +10,10 @@ terrains:
       - PORT01_UFO
       - PORT02_UFO
       - PORT05_UFO
+      - IDT_AIRPORT_CRISTAL_WALLS
+      - MILITARY_BARRICADES
+      - MISSILES_1
+      - MISSILES_2
     mapBlocks: &AIRPORT_MAPBLOCKS
       - name: AIRBASE00
         width: 10
@@ -92,6 +96,12 @@ terrains:
         width: 10
         length: 10
         groups: 4
+      - name: AIRBASE30
+        width: 10
+        length: 10
+      - name: AIRBASE31
+        width: 10
+        length: 10
 
   - name: RICE_FARM # by IDT - Luke83
     script: RICE_FARM_SCRIPT

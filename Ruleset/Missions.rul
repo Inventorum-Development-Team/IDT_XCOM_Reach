@@ -20,7 +20,7 @@ missionScripts:
     maxRuns: 1
     varName: startingRecon
     firstMonth: 0
-    startDelay: 11520
+    startDelay: 14400
 
   - type: startingAirSuperiority
     missionWeights:
@@ -30,7 +30,7 @@ missionScripts:
       0:
         STR_REGION_6: 100
     firstMonth: 0
-    startDelay: 11520
+    startDelay: 14400
     randomDelay: 7200
 
   - type: invasionAirSuperiority
@@ -38,7 +38,7 @@ missionScripts:
       0:
         STR_COVENANT_AIR_SUPERIORITY_2: 100
     firstMonth: 1
-    startDelay: 11520
+    startDelay: 21600
     randomDelay: 7200
 
   - type: recurringTerrorNormal
@@ -82,17 +82,17 @@ missionScripts:
 #    maxRuns: 6
     varName: stealthBaseDeployment
     executionOdds: 100
-    startDelay: 11520
+    startDelay: 14400
 
   - type: sectorInvasionLate
     missionWeights:
       0:
         STR_COVENANT_SECTOR_INVASION_LATE: 100
-    firstMonth: 0
+    firstMonth: 1
 #    maxRuns: 6
     varName: sectorInvasionLate
     executionOdds: 100
-    randomDelay: 17280
+    randomDelay: 21600
     startDelay: 7200
 
   - type: FinalEvacuation

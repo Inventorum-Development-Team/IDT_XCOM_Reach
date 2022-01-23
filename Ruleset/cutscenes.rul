@@ -1,31 +1,33 @@
 
 cutscenes:
+  - delete: winGame
+  - delete: loseGame  
   - type: winGame
     winGame: true
     slideshow:
       transitionSeconds: 30
-      musicId: GMWIN
+      musicId: GMMARS
       slides:
         - imagePath: Resources/Cutscenes/GoodEnding_1.png
           caption: STR_GOOD_ENDING_1
           captionSize: [195, 56]
           captionPos: [5, 0]
-          captionColor: 249
-        - imagePath: Resources/Cutscenes/GoodEnding_3.png
-          caption: STR_GOOD_ENDING_3
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GoodEnding_2.png
+          caption: STR_GOOD_ENDING_2
           captionSize: [232, 64]
           captionPos: [88, 136]
-          captionColor: 249
+          captionColor: 244
         - imagePath: Resources/Cutscenes/GoodEnding_3.png
           caption: STR_GOOD_ENDING_3
           captionSize: [254, 48]
           captionPos: [66, 152]
-          captionColor: 249
+          captionColor: 244
         - imagePath: Resources/Cutscenes/GoodEnding_4.png
           caption: STR_GOOD_ENDING_4
           captionSize: [300, 200]
           captionPos: [5, 0]
-          captionColor: 249
+          captionColor: 244
   - type: loseGame
     loseGame: true
     slideshow:
@@ -36,22 +38,22 @@ cutscenes:
           caption: STR_BAD_ENDING_1
           captionSize: [190, 104]
           captionPos: [0, 0]
-          captionColor: 249
+          captionColor: 244
         - imagePath: Resources/Cutscenes/BadEnding_2.png
           caption: STR_BAD_ENDING_2
           captionSize: [200, 34]
           captionPos: [32, 0]
-          captionColor: 249
+          captionColor: 244
         - imagePath: Resources/Cutscenes/BadEnding_3.png
           caption: STR_BAD_ENDING_3
           captionSize: [190, 104]
           captionPos: [0, 0]
-          captionColor: 249
+          captionColor: 244
         - imagePath: Resources/Cutscenes/BadEnding_4.png
           caption: STR_BAD_ENDING_4
           captionSize: [190, 104]
           captionPos: [0, 0]
-          captionColor: 249
+          captionColor: 244
 
 extraStrings:
   - type: es-419

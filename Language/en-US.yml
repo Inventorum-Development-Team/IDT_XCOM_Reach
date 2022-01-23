@@ -114,6 +114,18 @@ en-US:
   STR_ARMOR_ODST: "ODST Battle Armor"
   STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with VISR tech."
 ######################
+  STR_ODST_INFANTRY: "ODST Soldier"
+  STR_ARMY_RIFLEMAN: "Army Rifleman"
+  STR_ARMY_ASSAULT: "Army Ranger"
+  STR_ARMY_SUPPORT: "Army Support"
+  STR_ARMY_MEDIC: "Army Medic"
+  STR_ARMY_OFFICER: Army Officer
+  STR_MARINE_RIFLEMAN: "Marine Rifleman"
+  STR_MARINE_ASSAULT: "Marine Raider"
+  STR_MARINE_SUPPORT: "Marine Gunner"
+  STR_MARINE_MEDIC: "Marine Corpsman"
+  STR_MARINE_OFFICER: "Marine Officer"
+######################
   STR_WEAPONS: "Weapons"
   STR_FIREARMS: "Firearms"
   STR_HANDGUNS: "Handguns"
@@ -264,6 +276,14 @@ en-US:
   STR_COVENANT_SECTOR_INVASION_EARLY: "Early Sector Invasion"
   STR_COVENANT_SECTOR_INVASION_LATE: "Late Sector Invasion"
   STR_COVENANT_QUICK_SECTOR_INVASION: "Infiltration"
+#####################
+  STR_CAMPAIGN_FINAL_EVACUATION_ALERT: "Final evacuation ready"
+  STR_CAMPAIGN_FINAL_EVACUATION_ALERT_DESCRIPTION: "The last civilian transports that will be able to take off are concentrated near a small airfield on the outskirts of the city. We are the only operational unit that answered the call." 
+  STR_CAMPAIGN_FINAL_EVACUATION: "Final Evacuation"
+  STR_CAMPAIGN_FINAL_EVACUATION_BRIEFING: "Our mission is to protect civilians while the transports take off. UNSC troops that accompanied the civilians to the evacuation zone are in the area and will fight alongside us. Intelligence reports large numbers of hostiles approaching the evacuation site. We must hold out for 7 turns."
+  STR_CAMPAIGN_FINAL_EVACUATION_MARKERNAME: "Last available airfield"
+  STR_COVENANT_REINFORCEMENTS_TITLE: "Covenant reinforcements arriving"
+  STR_COVENANT_REINFORCEMENTS_DESC: "A Spirit dropship has dropped off a platoon of Covenant infantry near our position. The exact number of enemy is unclear, but heavy resistance is expected."
 #####################
   STR_NEW_ALEXANDRIA_SECTOR: "NEW ALEXNDRIA SECTOR"
   STR_QUEZON_SECTOR: "QUEZON SECTOR"

@@ -115,6 +115,18 @@ es-419:
   STR_ARMOR_ODST: "Armadura de batalla SCDO"
   STR_ARMOR_ODST_UFOPEDIA: "Uniforme de Combate con placas de un compuesto titanio-cerámico con capacidad de actividad extravehicular, más resistente al plasma y las balas, equipado con tecnología VISR."
 ######################
+  STR_ODST_INFANTRY: "Soldado SCDO"
+  STR_ARMY_RIFLEMAN: "Fusilero del Ejército"
+  STR_ARMY_ASSAULT: "Ranger del Ejército"
+  STR_ARMY_SUPPORT: "Artillero del Ejército"
+  STR_ARMY_MEDIC: "Médico del Ejército"
+  STR_ARMY_OFFICER: "Oficial del Ejército"
+  STR_MARINE_RIFLEMAN: "Marine Fusilero"
+  STR_MARINE_ASSAULT: "Marine Raider"
+  STR_MARINE_SUPPORT: "Marine Artillero"
+  STR_MARINE_MEDIC: "Marine Médico de Campo"
+  STR_MARINE_OFFICER: "Marine Oficial"
+######################
   STR_WEAPONS: "Armas"
   STR_FIREARMS: "Armas de fuego"
   STR_HANDGUNS: "Pistolas"
@@ -261,11 +273,13 @@ es-419:
   STR_COVENANT_SECTOR_INVASION_LATE: "Invasión tardía de sector"
   STR_COVENANT_QUICK_SECTOR_INVASION: "Infiltración"
 #####################
-  STR_CAMPAIGN_FINAL_EVACUATION_ALERT: "Final Evacuation announ"
-  STR_CAMPAIGN_FINAL_EVACUATION_ALERT_DESCRIPTION:
-  STR_CAMPAIGN_FINAL_EVACUATION: 
-  STR_CAMPAIGN_FINAL_EVACUATION_BRIEFING:
-  STR_CAMPAIGN_FINAL_EVACUATION_MARKERNAME:
+  STR_CAMPAIGN_FINAL_EVACUATION_ALERT: "Evacuación final preparada"
+  STR_CAMPAIGN_FINAL_EVACUATION_ALERT_DESCRIPTION: "Los últimos transportes civiles que podrán despegar se encuentran concentrados cerca de un aeródromo civil a las afueras de la ciudad. Somos la única unidad operativa que atendió la llamada." 
+  STR_CAMPAIGN_FINAL_EVACUATION: "Evacuación final"
+  STR_CAMPAIGN_FINAL_EVACUATION_BRIEFING: "Nuestra misión consiste en proteger a los civiles mientras los transportes despegan. Tropas de la UNSC que acompañaban a los civiles hasta la zona de evacuación se encuentran en el área y pelearán junto a nosotros. Inteligencia informa de grandes números de hostiles acercándose al sitio de evacuación. Debemos resistir 7 turnos."
+  STR_CAMPAIGN_FINAL_EVACUATION_MARKERNAME: "Último aeródromo disponible"
+  STR_COVENANT_REINFORCEMENTS_TITLE: "Refuerzos Covenant arribando"
+  STR_COVENANT_REINFORCEMENTS_DESC: "Una nave Spirit ha dejado un pelotón de infantería Covenant cerca de nuestra posición. El número exacto de enemigos no es claro, pero se espera resistencia fuerte."
 #####################
   STR_NEW_ALEXANDRIA_SECTOR: "SECTOR NUEVA ALEJANDRÍA"
   STR_QUEZON_SECTOR: "SECTOR QUEZON"

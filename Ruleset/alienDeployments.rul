@@ -543,10 +543,9 @@ alienDeployments:
       background: BACK16.SCR
       showTarget: true
       showCraft: true
-
 #####################################
 
-  - type: STR_CAMPAIGN_FINAL_EVACUATION
+  - type: STR_TERROR_MISSION
     data:
       - alienRank: 7
         lowQty: 2
@@ -654,14 +653,324 @@ alienDeployments:
             - STR_PLASMA_GRENADE
           -
             - STR_PLASMA_GRENADE
+    civilians: 0 # no random civilians
+    civiliansByType:
+      FEMALE_CIVILIAN: 10
+      MALE_CIVILIAN: 10
+      STR_ODST_INFANTRY: 2
+      STR_ARMY_RIFLEMAN: 2
+      STR_ARMY_ASSAULT: 2
+      STR_ARMY_SUPPORT: 1
+      STR_ARMY_MEDIC: 1
+      STR_ARMY_OFFICER: 1
+    terrains:
+      - URBAN
+      - EXPANDED_TERROR
+      - COMRCURBAN
+      - INDUSTRIALSLUM
+      - REFINERY
+      - INDUSTRIALSLUM
+      - IDT_VILLAGE
+      - RURAL
+      - IDT_AIRPORT
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
     width: 50
     length: 50
+    height: 10
+
+#####################################
+
+  - type: STR_CAMPAIGN_FINAL_EVACUATION
+    data:
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 6
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 4
+        lowQty: 3
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 2
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+    reinforcements:
+      - type: covvie_firstwave_easy
+        briefing:
+          palette: 6
+          textOffset: -16
+          title: STR_COVENANT_REINFORCEMENTS_TITLE
+          desc: STR_COVENANT_REINFORCEMENTS_DESC
+          music: GMNEWMAR
+          background: COVENANT_REINFORCEMENTS_BACKGROUND
+          showCraft: false
+          showTarget: false
+        minDifficulty: 0
+        maxDifficulty: 3
+        objectiveDestroyed: false
+        turns: [3,6]
+        minTurn: 3
+        maxTurn: 6
+        executionOdds: 100
+        maxRuns: 2
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        spawnBlockGroups: [7, 8, 9]
+        useSpawnNodes: true
+        spawnNodeRanks: [3, 2]
+        spawnZLevels: [2, 3]
+        randomizeZLevels: false
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 2
+        forceSpawnNearFriend: true
+        data:
+          - alienRank: 5
+            lowQty: 4
+            highQty: 8
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+          - alienRank: 4
+            lowQty: 4
+            highQty: 8
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+          - alienRank: 3
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+          - alienRank: 1
+            lowQty: 1
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+      - type: covvie_firstwave_hard
+        briefing:
+          palette: 6
+          textOffset: -16
+          title: STR_COVENANT_REINFORCEMENTS_TITLE
+          desc: STR_COVENANT_REINFORCEMENTS_DESC
+          music: GMNEWMAR
+          background: COVENANT_REINFORCEMENTS_BACKGROUND
+          showCraft: false
+          showTarget: false
+        minDifficulty: 3
+        maxDifficulty: 4
+        objectiveDestroyed: false
+        turns: [3,6]
+        minTurn: 3
+        maxTurn: 6
+        executionOdds: 100
+        maxRuns: 2
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        spawnBlockGroups: [7, 8, 9]
+        useSpawnNodes: true
+        spawnNodeRanks: [3, 2]
+        spawnZLevels: [2, 3]
+        randomizeZLevels: false
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 2
+        forceSpawnNearFriend: true
+        data:
+          - alienRank: 5
+            lowQty: 4
+            highQty: 8
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+          - alienRank: 4
+            lowQty: 4
+            highQty: 8
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+          - alienRank: 3
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+          - alienRank: 2
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+          - alienRank: 1
+            lowQty: 3
+            highQty: 6
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+          - alienRank: 0
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+              - [ STR_ALIEN_GRENADE ]
+    width: 60
+    length: 60
     height: 10
     finalDestination: true
     loseCutscene: loseGame
     abortCutscene: loseGame
     winCutscene: winGame
-    civilians: 20
+    civilians: 0 # no random civilians
+    civiliansByType:
+      FEMALE_CIVILIAN: 8
+      MALE_CIVILIAN: 8
+      STR_ODST_INFANTRY: 2
+      STR_MARINE_RIFLEMAN: 2
+      STR_MARINE_ASSAULT: 2
+      STR_MARINE_SUPPORT: 1
+      STR_MARINE_MEDIC: 1
+      STR_MARINE_OFFICER: 1
     terrains:
       - STR_FINAL_EVACUATION_AIRPORT
     alert: STR_CAMPAIGN_FINAL_EVACUATION_ALERT
@@ -680,3 +989,5 @@ alienDeployments:
     despawnPenalty: 500
     points: 200
     civilianSpawnNodeRank: 1
+    turnLimit: 7
+    chronoTrigger: 2
