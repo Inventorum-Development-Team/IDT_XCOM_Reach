@@ -239,6 +239,99 @@ armors:
         reactions: 10
         firing: 12
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
+  - type: STR_SPI_ARMOR_RED_UC
+    spriteSheet: SPI_ARMOR_SPRITESHEET_RED.PCK
+    spriteInv: SPI_ARMOR_INV_RED
+    corpseBattle:
+      - STR_CORPSE_SPI_ARMOR_RED
+    storeItem: STR_SPI_ARMOR
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: 5
+    camouflageAtDay: 7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+  - type: STR_SPI_ARMOR_BLUE_UC
+    spriteSheet: SPI_ARMOR_SPRITESHEET_BLUE.PCK
+    spriteInv: SPI_ARMOR_INV_BLUE
+    corpseBattle:
+      - STR_CORPSE_SPI_ARMOR_BLUE
+    storeItem: STR_SPI_ARMOR
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: 5
+    camouflageAtDay: 7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+  - type: STR_SPI_ARMOR_GRAY_UC
+    spriteSheet: SPI_ARMOR_SPRITESHEET_GRAY.PCK
+    spriteInv: SPI_ARMOR_INV_GRAY
+    corpseBattle:
+      - STR_CORPSE_SPI_ARMOR_GRAY
+    storeItem: STR_SPI_ARMOR
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: 5
+    camouflageAtDay: 7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0  
+    stats:
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
 
   - type: STR_ARMOR_ODST_UC
     spriteSheet: ODST_BDU_SPRITESHEET.PCK
@@ -622,9 +715,39 @@ armors:
 
 items:
     - type: STR_SPI_ARMOR
-      name: STR_SPI_ARMOR_UC
+     # name: STR_SPI_ARMOR_UC
       size: 0.8
       costSell: 300000
+    - type: STR_CORPSE_SPI_ARMOR_RED
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1497
+      floorSprite: 1497
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_SPI_ARMOR_BLUE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1498
+      floorSprite: 1498
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_SPI_ARMOR_GRAY
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1499
+      floorSprite: 1499
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
     - type: STR_CORPSE_SPI_ARMOR
       name: STR_CORPSE
       weight: 22
@@ -742,6 +865,9 @@ items:
 extraSprites:
   - type: BIGOBS.PCK
     files:
+      1497: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_RED.png
+      1498: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_BLUE.png
+      1499: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_GRAY.png
       1500: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png
       1501: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB.png
       1502: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_PLACEHOLDER_CORPSE_BIGOB.png
@@ -759,6 +885,9 @@ extraSprites:
 
   - type: FLOOROB.PCK
     files:
+      1497: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_RED.png
+      1498: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_BLUE.png
+      1499: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_GRAY.png
       1500: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png
       1501: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB.png
       1502: Resources/HumanArmors/UNSCInfantry/ARMY_TROOPER_BALACLAVA_BDU_CORPSE_FLOOROB.png
@@ -780,6 +909,27 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+  - type: SPI_ARMOR_SPRITESHEET_RED.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_RED.png
+  - type: SPI_ARMOR_SPRITESHEET_BLUE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_BLUE.png
+  - type: SPI_ARMOR_SPRITESHEET_GRAY.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY.png
   - type: ODST_BDU_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -846,6 +996,7 @@ extraSprites:
     files:
       0: Resources/HumanArmors/UNSCMarine/MARINE_STANDARD_BDU_SPRITESHEET.png
 ############################
+# SPI GREEN
   - type: SPI_ARMOR_INVF0.SPK
     singleImage: true
     files:
@@ -878,6 +1029,105 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT.png
+#SPI RED
+  - type: SPI_ARMOR_INV_REDF0.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_RED.png
+  - type: SPI_ARMOR_INV_REDF1.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_RED.png
+  - type: SPI_ARMOR_INV_REDF2.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_RED.png
+  - type: SPI_ARMOR_INV_REDF3.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_RED.png
+  - type: SPI_ARMOR_INV_REDM0.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_RED.png
+  - type: SPI_ARMOR_INV_REDM1.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_RED.png
+  - type: SPI_ARMOR_INV_REDM2.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_RED.png
+  - type: SPI_ARMOR_INV_REDM3.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_RED.png
+#SPI BLUE
+  - type: SPI_ARMOR_INV_BLUEF0.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_BLUE.png
+  - type: SPI_ARMOR_INV_BLUEF1.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_BLUE.png
+  - type: SPI_ARMOR_INV_BLUEF2.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_BLUE.png
+  - type: SPI_ARMOR_INV_BLUEF3.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_BLUE.png
+  - type: SPI_ARMOR_INV_BLUEM0.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_BLUE.png
+  - type: SPI_ARMOR_INV_BLUEM1.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_BLUE.png
+  - type: SPI_ARMOR_INV_BLUEM2.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_BLUE.png
+  - type: SPI_ARMOR_INV_BLUEM3.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_BLUE.png
+#SPI GRAY
+  - type: SPI_ARMOR_INV_GRAYF0.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_GRAY.png
+  - type: SPI_ARMOR_INV_GRAYF1.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_GRAY.png
+  - type: SPI_ARMOR_INV_GRAYF2.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_GRAY.png
+  - type: SPI_ARMOR_INV_GRAYF3.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_MIRAGE_GRAY.png
+  - type: SPI_ARMOR_INV_GRAYM0.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_GRAY.png
+  - type: SPI_ARMOR_INV_GRAYM1.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_GRAY.png
+  - type: SPI_ARMOR_INV_GRAYM2.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_GRAY.png
+  - type: SPI_ARMOR_INV_GRAYM3.SPK
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/INVENTORY/SPI_ARMOR_INVENTORY_AIRASSAULT_GRAY.png
 
 ### PAPERDOLL LAYERS ###
 # Human body

@@ -90,7 +90,10 @@ en-US:
 ######################
   STR_UNSC_ARMORS: "UNSC ARMORS"
   STR_SPARTAN_III: "SPARTAN-III"
-  STR_SPI_ARMOR_UC: "SPI ARMOR"
+  STR_SPI_ARMOR_UC: "SPI Armor (Green)"
+  STR_SPI_ARMOR_RED_UC: "SPI Armor (Red)"
+  STR_SPI_ARMOR_BLUE_UC: "SPI Armor (Blue)"
+  STR_SPI_ARMOR_GRAY_UC: "SPI Armor (Gray)"
   STR_SPI_ARMOR: "SPI Armor"
   STR_SPI_ARMOR_UFOPEDIA: "Semi-Powered Infiltration armor is a UNSC combat armor system designed with an emphasis on stealth through the use of special photoreactive panels, issued to SPARTAN-III teams."
   STR_ARMY_TROOPER: "Army Trooper"

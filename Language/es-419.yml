@@ -91,7 +91,10 @@ es-419:
 ######################
   STR_UNSC_ARMORS: "ARMADURAS UNSC"
   STR_SPARTAN_III: "SPARTAN-III"
-  STR_SPI_ARMOR_UC: "ARMADURA SPI"
+  STR_SPI_ARMOR_UC: "Armadura SPI (Verde)"
+  STR_SPI_ARMOR_RED_UC: "Armadura SPI (Roja)"
+  STR_SPI_ARMOR_BLUE_UC: "Armadura SPI (Azul)"
+  STR_SPI_ARMOR_GRAY_UC: "Armadura SPI (Gris)"
   STR_SPI_ARMOR: "Armadura SPI"
   STR_SPI_ARMOR_UFOPEDIA: "La Armadura Semi-Potenciada de Infiltración (SPI) es un sistema de armadura de combate UNSC otorgada a equipos SPARTAN-III, diseñado con un énfasis en el sigilo por medio del uso de paneles fotoreactivos especiales."
   STR_ARMY_TROOPER: "Soldado de infantería"
