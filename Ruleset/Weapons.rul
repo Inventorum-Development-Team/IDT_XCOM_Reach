@@ -93,10 +93,11 @@ items:
     size: 0.1
     costSell: 46500
     weight: 5
-    bigSprite: 24
-    floorSprite: 24
+    bigSprite: 592
+    floorSprite: 592
+    handSprite: 592
     battleType: 6
-    invWidth: 1
+    invWidth: 2
     invHeight: 2
     painKiller: 10
     heal: 10
@@ -1168,7 +1169,7 @@ extraSprites:
 #      568: Resources/HumanEquipment/BigFragGrenade.png
 #      576: Resources/HumanEquipment/BigFlashbangGrenade.png
 #      584: Resources/HumanEquipment/BigMachete.png
-#      592: Resources/HumanEquipment/BigHealthPack.png
+      592: Resources/HumanEquipment/BigHealthPack.png
 #      600: Resources/HumanEquipment/BigBioFoamCanister.png
 ######################
       608: Resources/CovenantEquipment/BigPlasmaRifle_noammo.png
@@ -1266,7 +1267,7 @@ extraSprites:
 #      568: Resources/HumanEquipment/FloorFragGrenade.png
 #      576: Resources/HumanEquipment/FloorFlashbangGrenade.png
 #      584: Resources/HumanEquipment/FloorMachete.png
-#      592: Resources/HumanEquipment/FloorHealthPack.png
+      592: Resources/HumanEquipment/FloorHealthPack.png
 #      600: Resources/HumanEquipment/FloorBioFoamCanister.png
 ######################
       608: Resources/CovenantEquipment/FloorPlasmaRifle_noammo.png
@@ -1363,7 +1364,7 @@ extraSprites:
 #      568: Resources/HumanEquipment/HandFragGrenade.png
 #      576: Resources/HumanEquipment/HandFlashbangGrenade.png
 #      584: Resources/HumanEquipment/HandMachete.png
-#      592: Resources/HumanEquipment/HandHealthPack.png
+      592: Resources/HumanEquipment/HandHealthPack.png
 #      600: Resources/HumanEquipment/HandBioFoamCanister.png
 ######################
       608: Resources/CovenantEquipment/HandPlasmaRifle_noammo.png
