@@ -518,6 +518,13 @@ extraSprites:
     files:
       0: Resources/Backgrounds/BACK17.PNG
 
+  - type: EVACUATION_BACKGROUND # Evacuation mission
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/EVACUATION_BACKGROUND.PNG
+
 ### Turn Hidden movement background
 
   - type: TACTICBACK00.SCR #In-mission Hidden movement background

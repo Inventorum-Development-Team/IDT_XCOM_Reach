@@ -17,6 +17,12 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
+    briefing:
+      palette: 6
+      textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
   - type: STR_SERAPH_FIGHTER
     data:
       - alienRank: 1
@@ -34,6 +40,12 @@ alienDeployments:
     width: 40
     length: 40
     height: 10
+    briefing:
+      palette: 6
+      textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
   - type: STR_SPIRIT_DROPSHIP
     data:
       - alienRank: 5
@@ -107,6 +119,12 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    briefing:
+      palette: 6
+      textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
   - type: STR_SDV_CLASS_HEAVY_CORVETTE
     data:
       - alienRank: 5
@@ -194,6 +212,12 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    briefing:
+      palette: 6
+      textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
   - type: STR_CPV_CLASS_HEAVY_DESTROYER
     data:
       - alienRank: 6
@@ -279,6 +303,12 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    briefing:
+      palette: 6
+      textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
   - type: STR_CCS_CLASS_BATTLECRUISER
     data:
       - alienRank: 7
@@ -390,6 +420,12 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    briefing:
+      palette: 6
+      textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
   - type: STR_CAS_CLASS_ASSAULT_CARRIER
     data:
       - alienRank: 7
@@ -501,3 +537,146 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    briefing:
+      palette: 6
+      textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+
+#####################################
+
+  - type: STR_CAMPAIGN_FINAL_EVACUATION
+    data:
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 6
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 4
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 3
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 2
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+    width: 50
+    length: 50
+    height: 10
+    finalDestination: true
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    winCutscene: winGame
+    civilians: 20
+    terrains:
+      - STR_FINAL_EVACUATION_AIRPORT
+    alert: STR_CAMPAIGN_FINAL_EVACUATION_ALERT
+    alertBackground: BACK03.SCR
+    alertDescription: STR_CAMPAIGN_FINAL_EVACUATION_ALERT_DESCRIPTION
+    briefing:
+      title: STR_CAMPAIGN_FINAL_EVACUATION
+      desc: STR_CAMPAIGN_FINAL_EVACUATION_BRIEFING
+      palette: 1
+      textOffset: -16
+      background: EVACUATION_BACKGROUND
+      showTarget: false
+      showCraft: false
+    markerName: STR_CAMPAIGN_FINAL_EVACUATION_MARKERNAME
+    duration: [7200, 14000]
+    despawnPenalty: 500
+    points: 200
+    civilianSpawnNodeRank: 1

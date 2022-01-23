@@ -14,13 +14,15 @@ Credits:
 *BaileyJIII: backgrounds
 *b1ackwolf: beta tester
 *Bohemond: Unit Sprite Studio and Globe Editor tools
-*bulletdesigner: original Pelican and Falcon tilesets (modified)
+*bulletdesigner: original Pelican, Falcon, Shuttles tilesets (modified)
+*cfowler7: Evacuation mission background image
+*CMP Staff: geoscape textures, terrain files 
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
-*cfowler7: Evacuation mission background image
-*InnerRyag & NRE Team: Jackal Shield Gauntlets, Jackal Corpse sprites, Plasma Grenade sprites (modified)
-*Isaac Hannaford: backgrounds
-*Kenny Magnusson: backgrounds
+*Grand-Lobster-King: Grunts paperdolls (modified)
+*InnerRyag & NRE Team: Jackal Shield Gauntlets, Sangheili & Jackal Corpse sprites, Plasma Grenade sprites (modified)
+*Isaac Hannaford: conceptual art used on menu backgrounds
+*Kenny Magnusson: conceptual art used on menu backgrounds
 *Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template
 *liberation: original region data ruleset
 *LordHayabusa357: Marine report image
@@ -41,3 +43,7 @@ Credits:
 Halo Reach & Halo 3 © Microsoft Corporation. "Reach: The Fall" was created under Microsoft's "Game Content Usage Rules" using assets from Halo Reach and Halo 3, and it is not endorsed by or affiliated with Microsoft.
 
 https://www.xbox.com/en-us/developers/rules
+
+This free mod is licensed under CC BY-NC-SA 4.0, with the exception of the copyrighted soundtrack assets and intellectual properties of the Halo franchise (concepts, enemies, weapons, conceptual art), belong to Microsoft. Any other content, created by the Inventorum Development Team members, contributed for free by the OpenXcom community members, and of course, adapted or reused from another projects is distributed under said license. You can share it for free (copy and redistribute the material in any medium or format) or adapt (remix, transform, and build upon the material). But you must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/

@@ -20,7 +20,7 @@ missionScripts:
     maxRuns: 1
     varName: startingRecon
     firstMonth: 0
-    startDelay: 7200
+    startDelay: 11520
 
   - type: startingAirSuperiority
     missionWeights:
@@ -30,7 +30,7 @@ missionScripts:
       0:
         STR_REGION_6: 100
     firstMonth: 0
-    startDelay: 4320
+    startDelay: 11520
     randomDelay: 7200
 
   - type: invasionAirSuperiority
@@ -38,7 +38,7 @@ missionScripts:
       0:
         STR_COVENANT_AIR_SUPERIORITY_2: 100
     firstMonth: 1
-    startDelay: 7200
+    startDelay: 11520
     randomDelay: 7200
 
   - type: recurringTerrorNormal
@@ -69,9 +69,10 @@ missionScripts:
       0:
         STR_COVENANT_SECTOR_INVASION_EARLY: 100
     firstMonth: 0
-#    maxRuns: 6
+    maxRuns: 1
     varName: sectorInvasionEarly
     executionOdds: 100
+    startDelay: 17280
 
   - type: stealthBaseDeployment
     missionWeights:
@@ -81,6 +82,7 @@ missionScripts:
 #    maxRuns: 6
     varName: stealthBaseDeployment
     executionOdds: 100
+    startDelay: 11520
 
   - type: sectorInvasionLate
     missionWeights:
@@ -90,8 +92,22 @@ missionScripts:
 #    maxRuns: 6
     varName: sectorInvasionLate
     executionOdds: 100
-    randomDelay: 7200
+    randomDelay: 17280
     startDelay: 7200
+
+  - type: FinalEvacuation
+    missionWeights:
+      0:
+        STR_CAMPAIGN_FINAL_EVACUATION_MISSION: 100
+    regionWeights:
+      0:
+        STR_EVACUATION_REGION: 100
+    useTable: false
+    maxRuns: 1
+    firstMonth: 1
+    varName: FinalEvacuationMission
+    startDelay: 41760 # Technically 29 days
+    executionOdds: 100
 
 alienMissions:
   - type: STR_COVENANT_QUICK_SECTOR_INVASION #Covenant sneaks one base early
@@ -261,3 +277,24 @@ alienMissions:
         timer: 1440
         huntMode: 2
         escort: true
+
+  - type: STR_CAMPAIGN_FINAL_EVACUATION_MISSION
+    points: 10
+    objective: 3
+    spawnZone: 0
+    siteType: STR_CAMPAIGN_FINAL_EVACUATION
+    raceWeights:
+      0:
+          STR_SANGHEILI_LANCE: 100
+    waves:
+      - ufo: STR_CAMPAIGN_FINAL_EVACUATION
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+
+ufoTrajectories:
+  - id: STATIC_TRAJECTORY
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]

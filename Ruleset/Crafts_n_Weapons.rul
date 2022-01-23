@@ -320,6 +320,44 @@ crafts:
 # 5   1
 # 4 3 2
 
+######################
+  - type: STR_FINAL_AIRPORT_SPAWN
+    battlescapeTerrainData:
+      name: FINAL_EVACUATION_ZONE
+      mapDataSets:
+        - BLANKS
+        - BD_SHUTTLES
+        - PORT01_HALO
+        - IDT_AIRPORT_CRISTAL_WALLS
+        - MILITARY_BARRICADES
+        - BOXES
+        - CRATERS
+      mapBlocks:
+        - name: FINAL_EVACUATION_ZONE
+          width: 30
+          length: 30
+    deployment:
+    # GATE
+      - [26, 21, 0, 2]
+      - [23, 21, 0, 2]
+    # TRENCH
+      - [13, 26, 4, 4]
+      - [14, 25, 0, 4]
+    # CONTROL TOWER
+      - [7, 22, 4, 2]
+      - [7, 29, 4, 3]
+      - [1, 28, 0, 4]
+      - [2, 20, 0, 6]
+    # SHUTTLES
+      - [8, 2, 0, 0]
+      - [11, 249, 0, 1]
+      - [33, 3, 0, 2]
+      - [27, 4, 0, 2]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+######################
 
 craftWeapons:
 #Delete

@@ -584,3 +584,14 @@ mapScripts:
       size: 2
       executions: 4
     - type: fillArea
+
+########################
+  - type: FINAL_EVACUATION_SCRIPT # forest, mountain
+    commands:
+    - type: addCraft
+      craftName: STR_FINAL_AIRPORT_SPAWN
+#    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: fillArea
