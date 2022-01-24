@@ -1,4 +1,4 @@
-Reach: The Fall, a total conversion by the Inventorum Development Team
+Reach: The Fall, a total conversion by the Inventorum Development Team for OpenXcom Extended
 
 A small total conversion, focused on the Fall of Reach: a major battle in the Halo universe, fought on the fortress world. Six weeks of intense combat for the humankind's main military hub and one of the last human-controlled worlds. 
 #Halo Wars style mod - Created in 2014 by Diemaco for no good reason, improved and expanded in 2021-2022 by the Inventorum Development Team 'cause we love Halo
@@ -10,8 +10,13 @@ Credits:
 *Hans Woofington: beta tester, ideas and armor parts used in SPI paperdoll, ODST, army and marine fatigues paperdoll template.
 *Ikhanad: lead design, Pedia entries text
 
+-Meridian: ruleset reference, OXCE dev
+-SupSuper: globe markers template, OXC dev
+-Yankes: OXCE dev
+-Warboy: OXC dev
+
 *Alnoaht: beta tester
-*BaileyJIII: backgrounds
+*BaileyJIII: menu backgrounds
 *b1ackwolf: beta tester
 *Bohemond: Unit Sprite Studio and Globe Editor tools
 *bulletdesigner: original Pelican, Falcon, Shuttles tilesets (modified)
@@ -19,19 +24,18 @@ Credits:
 *CMP Staff: geoscape textures, terrain files 
 *Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 *Drages: hitAnimations
-*Grand-Lobster-King: Grunts paperdolls (modified)
+*Grand-Lobster-King: All Grunts paperdolls (modified to fit OXC size and palettes)
 *InnerRyag & NRE Team: Jackal Shield Gauntlets, Sangheili & Jackal Corpse sprites, Plasma Grenade sprites (modified)
 *Isaac Hannaford: conceptual art used on menu backgrounds
 *Kenny Magnusson: conceptual art used on menu backgrounds
 *Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template
 *liberation: original region data ruleset
 *LordHayabusa357: Marine report image
-*Martin O'Donnell: soundtrack
-*Michael Salvatori: soundtrack
-*ohartenstein23: human armor spritesheets template
-*Stephen Rippy: soundtrack
-*SupSuper: globe markers template
-*Wallz2296: Sangheili paperdolls
+*Martin O'Donnell: original Halo Reach, Halo 3 and Halo 3: ODST soundtrack
+*Michael Salvatori: Halo Reach, Halo 3 and Halo 3: ODST soundtrack
+*ohartenstein23: SPI spritesheets template
+*Stephen Rippy: original Halo Wars soundtrack
+*Wallz2296: All Sangheili paperdolls (modified to fit OXC size and palettes)
 *XCROSS: UI ruleset template
 
 

@@ -1,29 +1,40 @@
-"HARVEST": A mod for openXcom
-release 0002
-===========================================================================
-* What is included *
+25-Jan-2022 v0.1 Open Beta
+Changes made:
+*Updated to OXCE v7.4.2.0
+*Added CMP Extended terrains
+*Brand new planet Reach, custom regions and cities
+*2 month-long fast campaign
+*Halo Reach, 3, ODST and Halo Wars music
+*Added UNSC units & armors
+- SPARTAN-III [SPI Armor, four color variants]
+- ODST [ODST Battle Armor]
+- Marine [Marine BDU (Standard, Balaclava, Light, Service Cap variants)]
+- Army Trooper [Army BDU (Standard, Balaclava, Light, Service Cap variants)]
+*Added UNSC weapons
+- SPARTAN/ODST: M6/SOCOM, M7S, SRS99
+- Marine Corps: MA5B, BR55, M6C
+- Army: MA37, M392, M6G
+- Improved diemaco's original weapon sprites
+- New Medikit sprite
+- Integrated specialWeapon Knife weapon
+*Added UNSC ships & weapons
+- Capital Ships: Paris-class Heavy Frigate, Stalward-class Light Frigate
+- Combat Craft: Sabre Fighter, Longsword Interceptor
+- Transport Craft: Falcon Gunship, Falcon Transport, Pelican Dropship
+- Weapons: MAC, 30mm Cannon, 50mm Cannon, AA Battery, 70mm Chaingun, SHIVA-class Nuke, Archer Missile, ST/Medusa Missile, ASGM-10 Missile
+*Added Covenant units
+- Sangheili (Minor, Major, Ultra, Zealot)
+- Kig-Yar (Minor, Major, Sniper)
+- Unggoy (Minor, Major, Heavy, Ultra)
+*Added Covenant weapons
+- Type-25 Pistol, Type-25 Plasma Rifle/Elite-pattern, Type-25 Plasma Rifle/Brute-pattern, Type-51 Plasma Repeater, Type-33 'Needler' GLM, Type-51 Carbine, Type-1 Antipersonnel 'Plasma' Grenade, Type-33 'Fuel Rod Gun' LAAW, Type-1 Energy Sword, Jackal Minor Shield Gauntlet, Jackal Major Shield Gauntlet
+*Added Covenant ships
+- Capital Ships: SDV-class Heavy Corvette, CPV-class Heavy Destroyer, CCS-class Battlecruiser, CAS-class Assault Carrier
+- Combat Craft: Banshee Fighter Wing, Seraph Fighter
+- Transport Craft: Spirit Dropship
 
-New maps                : None
-Sounds                  : Yes
-Music                   : No
-Graphics                : Yes
-Other files required    : None
-
-* How to install *
-Simply copy the "data" folder into your OpenXcom folder, being sure to
-preserve directory structure. Doing so will hopefully not overwrite any
-previous mods you have installed, provided they do not reference a folder
-located within "data/Resources/Halo" and provided you do not have an
-existing mod installed with a ruleset named "Harvest.rul". Launch this mod
-as you would any other ruleset from within openXcom.
-
-* How to uninstall *
-Delete the folder data/Resources/Halo and the file data/Ruleset/Harvest.rul.
-
-===========================================================================
-* Change log *
-
-r0002 - 8-20-2014 : Added T25 Plasma Pistol, Plasma Rifle, PR/I, and T51.
-r0001 - 8-16-2014 : Added MA37 ICWS and SRS99.
-r0000 - 8-16-2014 : Added M6C and M6C/SOCOM. Removed all other starting
-                    weapons. Sorry, you'll have to make due for now!
+8-Aug-2014 r0002 Harvest
+Changes made:
+*Added T25 Plasma Pistol, Plasma Rifle, PR/I, and T51.
+*Added MA37 ICWS and SRS99.
+*Added M6C and M6C/SOCOM. 

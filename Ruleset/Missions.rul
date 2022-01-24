@@ -72,17 +72,29 @@ missionScripts:
     maxRuns: 1
     varName: sectorInvasionEarly
     executionOdds: 100
-    startDelay: 17280
+    #startDelay: 17280
 
-  - type: stealthBaseDeployment
+  - type: stealthBaseDeployment1
     missionWeights:
       0:
         STR_COVENANT_QUICK_SECTOR_INVASION: 100
     firstMonth: 0
-#    maxRuns: 6
-    varName: stealthBaseDeployment
+    maxRuns: 6
+    varName: stealthBaseDeployment1
     executionOdds: 100
     startDelay: 14400
+    #startDelay: 14400
+
+  - type: stealthBaseDeployment2
+    missionWeights:
+      0:
+        STR_COVENANT_QUICK_SECTOR_INVASION: 100
+    firstMonth: 0
+    maxRuns: 6
+    varName: stealthBaseDeployment2
+    executionOdds: 100
+    startDelay: 14400
+    #startDelay: 14400
 
   - type: sectorInvasionLate
     missionWeights:
@@ -92,8 +104,7 @@ missionScripts:
 #    maxRuns: 6
     varName: sectorInvasionLate
     executionOdds: 100
-    randomDelay: 21600
-    startDelay: 7200
+    startDelay: 21600
 
   - type: FinalEvacuation
     missionWeights:
@@ -123,7 +134,7 @@ alienMissions:
       - ufo: STR_SDV_CLASS_HEAVY_CORVETTE
         count: 1
         trajectory: P2
-        timer: 1440
+        timer: 100
 
   - type: STR_COVENANT_SECTOR_INVASION_EARLY #Covenant attempts to overrun the UNSC regional commands
     points: 100 #Pact score only awarded on month end
