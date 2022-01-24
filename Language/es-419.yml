@@ -164,6 +164,8 @@ es-419:
   STR_SINGLE_SHOT: "Semiautomático"
   STR_THRUST: "Estocada"
   STR_CUT: "Tajo"
+  STR_DOUBLE_TAP: "Disparo doble"
+  STR_SHORT_BURST: "Ráfaga corta"
 ######################
   STR_UNARMED_REGULAR_HUMAN: "Cuchillo"
   STR_KNIFE: "Usar cuchillo"

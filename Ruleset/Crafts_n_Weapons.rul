@@ -322,6 +322,7 @@ crafts:
 
 ######################
   - type: STR_FINAL_AIRPORT_SPAWN
+    soldiers: 12
     battlescapeTerrainData:
       name: FINAL_EVACUATION_ZONE
       mapDataSets:

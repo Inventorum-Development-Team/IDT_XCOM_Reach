@@ -163,6 +163,8 @@ en-US:
   STR_SINGLE_SHOT: "Single Shot"
   STR_THRUST: "Thrust"
   STR_CUT: "Cut"
+  STR_DOUBLE_TAP: "Double Tap"
+  STR_SHORT_BURST: "Short Burst"
 ######################
   STR_DAMAGE_ARMOR_PIERCING: "ARMOR PIERCING"
   STR_DAMAGE_INCENDIARY: "INCENDIARY"

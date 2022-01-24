@@ -59,6 +59,7 @@ items:
     bigSprite: 99
     fireSound: [319, 320, 321]
     accuracySnap: 150
+    hitAnimation: 160
     tuSnap: 15
     confSnap:
       shots: 1
@@ -73,8 +74,7 @@ items:
     specialIconSprite: 2
     specialUseEmptyHand: true
     specialUseEmptyHandShow: true
-    maxRange: 2
-    aimRange: 2
+    maxRange: 1
     snapRange: 1
     power: 80
     damageType: 1
@@ -122,6 +122,21 @@ items:
     reloadSound: [135, 136, 137]
     compatibleAmmo:
       - STR_MA5B_MAG
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
     accuracyAuto: 35
     accuracySnap: 50
     accuracyAimed: 65
@@ -138,7 +153,6 @@ items:
     autoRange: 22
     minRange: 3
     dropoff: 3
-    autoShots: 3
   - type: STR_MA5B_MAG         #MA5B magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.1
@@ -150,7 +164,7 @@ items:
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 11
-    bulletSpeed: 15
+    bulletSpeed: 20
     power: 37
     damageAlter:
       RandomType: 3
@@ -177,6 +191,21 @@ items:
     reloadSound: [141, 142, 143]
     compatibleAmmo:
       - STR_MA37_MAG
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
     accuracyAuto: 35
     accuracySnap: 50
     accuracyAimed: 65
@@ -193,7 +222,6 @@ items:
     autoRange: 22
     minRange: 3
     dropoff: 3
-    autoShots: 3
   - type: STR_MA37_MAG         #MA37 magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.1
@@ -206,7 +234,7 @@ items:
     hitAnimation: 26
     bulletSprite: 11
     power: 37
-    bulletSpeed: 15
+    bulletSpeed: 20
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
@@ -235,9 +263,11 @@ items:
     confAimed:
       shots: 3
       name: STR_AIMED_BURST
+      shortName: STR_AIMED_BURST
     confSnap:
       shots: 3
       name: STR_BURST
+      shortName: STR_BURST
     accuracySnap: 50
     accuracyAimed: 70
     tuSnap: 15
@@ -265,7 +295,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12
     power: 44
-    bulletSpeed: 15
+    bulletSpeed: 20
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
@@ -317,7 +347,7 @@ items:
     hitAnimation: 26
     bulletSprite: 11
     power: 55
-    bulletSpeed: 15
+    bulletSpeed: 20
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
@@ -366,7 +396,7 @@ items:
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 14
-    bulletSpeed: 15
+    bulletSpeed: 20
     power: 100
     damageAlter:
       RandomType: 3
@@ -443,7 +473,7 @@ items:
     hitAnimation: 26
     bulletSprite: 13
     power: 42
-    bulletSpeed: 15
+    bulletSpeed: 20
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
@@ -491,7 +521,7 @@ items:
     hitAnimation: 26
     bulletSprite: 13
     power: 45
-    bulletSpeed: 15
+    bulletSpeed: 20
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
@@ -522,11 +552,13 @@ items:
       name: STR_FULL_AUTO
       ammoSlot: 0
       arcing: false
+      followProjectiles: false
     confSnap:
       shots: 3
       name: STR_BURST
       ammoSlot: 0
       arcing: false
+      followProjectiles: false
     autoRange: 8
     accuracyAuto: 30
     accuracySnap: 40
@@ -600,7 +632,7 @@ items:
     hitAnimation: 26
     bulletSprite: 10
     power: 20
-    bulletSpeed: 15
+    bulletSpeed: 20
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
@@ -610,7 +642,7 @@ items:
       ToMana: 0.5
     damageType: 1
     invWidth: 1
-    invHeight: 2
+    invHeight: 1
     clipSize: 60
     battleType: 2
     armor: 12
@@ -1420,6 +1452,7 @@ extraSprites:
       130: Resources/hitAnimation/NeedlerHit.png
       140: Resources/hitAnimation/GreenCarbineHit.png
       150: Resources/hitAnimation/PlasmaBladeHit.png
+      160: Resources/hitAnimation/BladeHit.png
   - type: Projectiles
     height: 3
     width: 105
@@ -1443,15 +1476,6 @@ extraSprites:
       840: Resources/bulletSprites/Rocket.png #24
       875: Resources/bulletSprites/SpartanLaserBullet.png #25
       910: Resources/bulletSprites/SpikerBullet.png #26
-
-  - type: HIT.PCK
-    height: 40
-    width: 128
-    subX: 32
-    subY: 40
-    files:
-      4: Resources/hitAnimation/BladeHit.png
-
 
 extended:
   tags:
