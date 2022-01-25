@@ -72,7 +72,7 @@ missionScripts:
     maxRuns: 1
     varName: sectorInvasionEarly
     executionOdds: 100
-    #startDelay: 17280
+    startDelay: 11520
 
   - type: stealthBaseDeployment1
     missionWeights:
@@ -82,7 +82,7 @@ missionScripts:
     maxRuns: 6
     varName: stealthBaseDeployment1
     executionOdds: 100
-    startDelay: 14400
+    startDelay: 11520
     #startDelay: 14400
 
   - type: stealthBaseDeployment2

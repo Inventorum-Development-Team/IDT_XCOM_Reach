@@ -5,6 +5,7 @@ Changes made:
 *Brand new planet Reach, custom regions and cities
 *2 month-long fast campaign
 *Halo Reach, 3, ODST and Halo Wars music
+*English(US) and Spanish (LATAM 419) supported
 *Added UNSC units & armors
 - SPARTAN-III [SPI Armor, four color variants]
 - ODST [ODST Battle Armor]

@@ -466,6 +466,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK02.PNG
+  - type: BACK03.SCR #Soldier
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK03.PNG
   - type: BACK04.SCR #Base Defense/Equipment Selection
     singleImage: true
     width: 320

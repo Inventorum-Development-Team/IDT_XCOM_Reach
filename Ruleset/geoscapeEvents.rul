@@ -92,7 +92,7 @@ events:
 
   - name: STR_WINTER_CONTINGENCY_EVENT
     description: STR_WINTER_CONTINGENCY_EVENT_DESCRIPTION
-    background: BACK13.SCR
+    background: WINTER_CONTINGENCY_EVENT_BACKGROUND
     points: 0
     timer: 14400
 
@@ -100,13 +100,13 @@ events:
     description: STR_BATTLE_SZURDOK_RIDGE_EVENT_DESCRIPTION
     background: BATTLE_SZURDOK_RIDGE_EVENT_BACKGROUND
 #    points: -5
-    timer: 3600
+    timer: 17280
 
   - name: STR_OPERATION_UPPER_CUT_EVENT
     description: STR_OPERATION_UPPER_CUT_EVENT_DESCRIPTION
     background: OPERATION_UPPER_CUT_EVENT_BACKGROUND
     points: 0
-    timer: 2880
+    timer: 20160
 
   - name: STR_EVACUATION_EFFORTS_ONGOING_EVENT
     description: STR_EVACUATION_EFFORTS_ONGOING_EVENT_DESCRIPTION
@@ -114,13 +114,13 @@ events:
     regionList: [STR_REGION_1, STR_REGION_2, STR_REGION_3, STR_REGION_4, STR_REGION_5, STR_REGION_6, STR_REGION_7, STR_REGION_8, STR_REGION_9, STR_REGION_10, STR_REGION_11]
     city: true
 #    points: -5
-    timer: 20000
+    timer: 28800
 
   - name: STR_UNSC_FLEET_INCOMING_EVENT
     description: STR_UNSC_FLEET_INCOMING_EVENT_DESCRIPTION
-    background: BACK13.SCR
+    background: UNSC_FLEET_INCOMING_EVENT_BACKGROUND
     points: 0
-    timer: 14400
+    timer: 18720
 
   - name: STR_EVACUATION_HALTED_EVENT
     description: STR_EVACUATION_HALTED_EVENT_DESCRIPTION
@@ -150,9 +150,9 @@ events:
 
   - name: STR_COVENANT_FLEET_INCOMING_EVENT
     description: STR_COVENANT_FLEET_INCOMING_EVENT_DESCRIPTION
-    background: BACK13.SCR
+    background: COVENANT_FLEET_INCOMING_EVENT_BACKGROUND
     points: 0
-    timer: 21600
+    timer: 43200
 
 extraSprites:
 ##########################################
@@ -202,3 +202,24 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Events/UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_BACKGROUND.PNG
+
+  - type: WINTER_CONTINGENCY_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/WINTER_CONTINGENCY_EVENT_BACKGROUND.PNG
+
+  - type: UNSC_FLEET_INCOMING_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/UNSC_FLEET_INCOMING_EVENT_BACKGROUND.PNG
+
+  - type: COVENANT_FLEET_INCOMING_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/COVENANT_FLEET_INCOMING_EVENT_BACKGROUND.PNG

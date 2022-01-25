@@ -349,24 +349,26 @@ es-419:
   GMSTORY: "Halo"
   GMMARS: "Through Your Hoops"
 #####################
-  STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT:
-  STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_DESCRIPTION:
-  STR_WINTER_CONTINGENCY_EVENT:
-  STR_WINTER_CONTINGENCY_EVENT_DESCRIPTION:
-  STR_BATTLE_SZURDOK_RIDGE_EVENT:
-  STR_BATTLE_SZURDOK_RIDGE_EVENT_DESCRIPTION:
-  STR_OPERATION_UPPER_CUT_EVENT:
-  STR_OPERATION_UPPER_CUT_EVENT_DESCRIPTION: 
-  STR_EVACUATION_EFFORTS_ONGOING_EVENT:
-  STR_EVACUATION_EFFORTS_ONGOING_EVENT_DESCRIPTION:
-  STR_UNSC_FLEET_INCOMING_EVENT:
-  STR_UNSC_FLEET_INCOMING_EVENT_DESCRIPTION:
-  STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT:
-  STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_DESCRIPTION:
-  STR_COVENANT_GLASSING_EVENT:
-  STR_COVENANT_GLASSING_EVENT_DESCRIPTION:
-  STR_COVENANT_FLEET_INCOMING_EVENT:
-  STR_COVENANT_FLEET_INCOMING_EVENT_DESCRIPTION:
+  STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT: "Batalla de Sigma Octanus IV"
+  STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_DESCRIPTION: "Una importante victoria para la UNSC acaba de tener lugar en el cuarto planeta del sistema Sigma Octanus. La fuerza enemiga saltó al sistema camuflajeada, pero la valiente acción del destructor UNSC Iroquois permitió dar más tiempo a una flota de 48 naves de la Armada, que se enfrentó a una flota Covenant en una impresionante batalla naval. Tropas UNSC y un escuadrón SPARTAN-II consiguieron mantener el control de la superficie del planeta. Esta victoria es, sin duda, tan importante como Harvest."
+  STR_WINTER_CONTINGENCY_EVENT: "PLAN DE INVIERNO Activado"
+  STR_WINTER_CONTINGENCY_EVENT_DESCRIPTION: "El equipo de operaciones especiales del Ejército, Equipo NOBLE, ha confirmado la presencia de fuerzas Covenant en Reach. Esto corrobora el avistamiento de diversas señales desconocidas en otras partes del planeta. Todas las fuerzas militares han sido movilizadas para contraatacar al enemigo, antes de que pueda establecer una cabeza de playa."
+  STR_BATTLE_SZURDOK_RIDGE_EVENT: "Batalla de la Colina de Szurdok"
+  STR_BATTLE_SZURDOK_RIDGE_EVENT_DESCRIPTION: "Una larga ofensiva ha tenido lugar en las planicies de Ütközet, donde se ha confirmado la presencia de estructuras Covenant similares a torres conocidas como 'Spires'. El propósito de éstas es desconocido, aunque se cree que proyecta un escudo de energía que protege campamentos y bases de avanzada del enemigo. Nuestras tropas consiguieron una victoria táctica, pero el Covenant develó su presencia en el planeta, un Super Carguero clase-CSO. Se analizan alternativas para combatir esta nave capital."
+  STR_OPERATION_UPPER_CUT_EVENT: "Operación GANCHO"
+  STR_OPERATION_UPPER_CUT_EVENT_DESCRIPTION: "Mediante una audaz incursión al Supercarguero clase-CSO efectuada por el Equipo NOBLE y aviadores del Ejército, se logró destruir la impresionante nave de guerra enemiga. Se confirmó una ruptura desliespacial dentro del CSO. Sin embargo, poco después llegaron reportes de numerosas naves Covenant saltando directamente sobre el planeta."
+  STR_EVACUATION_EFFORTS_ONGOING_EVENT: "Esfuerzos de evacuación en proceso"
+  STR_EVACUATION_EFFORTS_ONGOING_EVENT_DESCRIPTION: "Naves de evacuación civiles, escoltadas por la Armada, han logrado sacar del planeta a numerosos ciudadanos fuera de las zonas de guerra. El enemigo tiene particular interés en derribarlas, pero nuestros esfuerzos controlando el espacio aéreo de Reach han permitido dichas operaciones de evacuación. ¡Siga así! Nuestros cazas despejan el camino."
+  STR_EVACUATION_HALTED_EVENT: "Evacuaciones canceladas en {0}"
+  STR_EVACUATION_HALTED_EVENT_DESCRIPTION: "El puesto de evacuación establecido por las fuerzas armadas de la UNSC ha sido sobrepasado por la infantería Covenant y sus defensas arrolladas. Hay reportes de una Corbeta Pesada que ha estado derribando los transbordadores de evacuación que dejan el área. El Alto Mando ha cancelado las evacuaciones desde este punto hasta nuevo aviso."
+  STR_UNSC_FLEET_INCOMING_EVENT: "Flota de la UNSC en camino"
+  STR_UNSC_FLEET_INCOMING_EVENT_DESCRIPTION: "Desde hace dos días, el Alto Mando ha ordenado al 60% de las flotas cercanas al sistema Epsilon Eridani para que regresen a Reach y apoyen en la defensa planetaria. Se espera que lleguen en las próximas horas, aunque las dificultades y baja precisión de los saltos desliespaciales complican la coordinación de las naves recién llegadas."
+  STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT: "Fuerzas UNSC enfrentándose al enemigo"
+  STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_DESCRIPTION: "De acuerdo al PLAN DE INVIERNO, nuestras fuerzas de infantería y blindados están enfrentadas en intensos combates por toda la superficie del planeta. Los repliegues tácticos no cesan, pero al menos estamos manteniendo al Covenant a raya."
+  STR_COVENANT_GLASSING_EVENT: "Naves Covenant vitrifican {0}"
+  STR_COVENANT_GLASSING_EVENT_DESCRIPTION: "Se ha perdido toda comunicación con las guarniciones UNSC en la ciudad. Los últimos reportes confirman el avistamiento de múltiples Cruceros de Batalla clase-CSS encima del núcleo urbano, así como altos niveles de radiación de plasma. Esto confirma que la ciudad ha sido vitrificada. La cantidad de bajas aún no se ha calculado."
+  STR_COVENANT_FLEET_INCOMING_EVENT: "Rupturas desliespaciales detectadas"
+  STR_COVENANT_FLEET_INCOMING_EVENT_DESCRIPTION: "Nuestros sensores de largo alcance han detectado una señal enorme viniendo del desliespacio. Una flota gigantesca ha saltado al sistema, como nunca antes vista. Nuestras naves se encuentran sobrepasadas y las Plataformas de Defensa Orbital no son suficientes para mantener al Covenant a raya. Es posible que el planeta esté al borde del colapso."
 #####################
   STR_CENTER_ON_SITE_TIME_5_SECONDS: "CENTRAR EN SITIO - TIEMPO = 5 Seg"
   STR_CANCEL_UC: "CANCELAR"
