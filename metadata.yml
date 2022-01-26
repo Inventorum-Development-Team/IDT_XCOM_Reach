@@ -1,12 +1,12 @@
 name: "Reach: The Fall"
-version: "Open Beta 0.1"
+version: "Open Beta 0.1.1"
 author: "efrenespartano, Filip-H, Hans Woofington, Ikhanad + IDT"
-description: "The year is 2552. You're part of the defenders of Reach, the last human fortress among the stars... now under siege."
+description: "The year is 2552. You're part of the defenders of the last human fortress among the stars... now under siege."
 id: Halo_Mod
 isMaster: true
 master: xcom1
 loadResources:
   - UFO
 reservedSpace: 5
-requiredExtendedVersion: "7.0"
+requiredExtendedVersion: "7.4.4"
 resourceConfig: transparency.rul

@@ -73,7 +73,7 @@ items:
     recover: false
     specialIconSprite: 2
     specialUseEmptyHand: true
-    specialUseEmptyHandShow: true
+    specialUseEmptyHandShow: false
     maxRange: 1
     snapRange: 1
     power: 80
@@ -724,7 +724,7 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.4
+      ToMana: 2.0
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -749,9 +749,9 @@ items:
     accuracySnap: 23        #
     accuracyAimed: 60       #
     accuracyAuto: 18
-    tuSnap: 15              #
-    tuAimed: 15             #
-    tuAuto: 15
+    tuSnap: 10              #
+    tuAimed: 10             #
+    tuAuto: 10
     autoShots: 8
     maxRange: 100           #
     aimRange: 25            #
@@ -774,13 +774,13 @@ items:
     hitAnimation: 100
     bulletSprite: 22
     bulletSpeed: 10
-    power: 34
+    power: 39
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.4
+      ToMana: 2.0
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -830,7 +830,7 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.4
+      ToMana: 2.0
     damageType: 4
     clipSize: 15
     battleType: 2
@@ -854,9 +854,9 @@ items:
       spendPerShot: 6
     confAuto:
       spendPerShot: 6
-    accuracySnap: 30        #
+    accuracySnap: 50        #
     accuracyAimed: 70       #
-    accuracyAuto: 25
+    accuracyAuto: 40
     tuSnap: 15              #
     tuAimed: 15             #
     tuAuto: 10
@@ -888,7 +888,7 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.4
+      ToMana: 2.0
     damageType: 5
     clipSize: 100
     battleType: 2
@@ -944,7 +944,7 @@ items:
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
       ToMorale: 1.2
-      ToMana: 1.4
+      ToMana: 2.0
     clipSize: 16
     battleType: 2
     armor: 12
@@ -1047,7 +1047,7 @@ items:
       RandomWound: true
       ToTile: 0.90
       ToStun: 1.2
-      ToMana: 1.4
+      ToMana: 2.0
     clipSize: 5
     battleType: 2
     invWidth: 1

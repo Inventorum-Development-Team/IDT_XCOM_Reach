@@ -85,6 +85,18 @@ ufopaedia:
     type_id: 5
     section: STR_UNSC_ARMORS
     text: STR_SPI_ARMOR_UFOPEDIA
+  - id: STR_SPI_ARMOR_RED_UC
+    type_id: 5
+    section: STR_UNSC_ARMORS
+    text: STR_SPI_ARMOR_UFOPEDIA
+  - id: STR_SPI_ARMOR_BLUE_UC
+    type_id: 5
+    section: STR_UNSC_ARMORS
+    text: STR_SPI_ARMOR_UFOPEDIA
+  - id: STR_SPI_ARMOR_GRAY_UC
+    type_id: 5
+    section: STR_UNSC_ARMORS
+    text: STR_SPI_ARMOR_UFOPEDIA
 ##############
   - id: STR_ARMOR_ODST_UC
     type_id: 5
@@ -386,49 +398,49 @@ ufopaedia:
   - id: STR_PLASMA_RIFLE_ELITE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_PLASMA_RIFLE_ELITE_UFOPEDIA
   - id: STR_PLASMA_RIFLE_CELL
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_RIFLE_BRUTE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_PLASMA_RIFLE_BRUTE_UFOPEDIA
   - id: STR_PLASMA_RIFLE_BRUTE_CELL
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_CARBINE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_PLASMA_CARBINE_UFOPEDIA
   - id: STR_PLASMA_CARBINE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_REPEATER
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_PLASMA_REPEATER_UFOPEDIA
   - id: STR_PLASMA_REPEATER_CELL
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_NEEDLER
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_NEEDLER_UFOPEDIA
   - id: STR_NEEDLER_CANISTER
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_TYPE_25_PLASMA_PISTOL
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_TYPE_25_PLASMA_PISTOL_UFOPEDIA
   - id: STR_PLASMA_PISTOL_CELL
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_FUEL_ROD_GUN
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_FUEL_ROD_GUN_UFOPEDIA
   - id: STR_FUEL_ROD_GUN_RACK
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -442,15 +454,15 @@ ufopaedia:
   - id: STR_ENERGY_SWORD_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
-    text: ...
+    text: STR_ENERGY_SWORD_UFOPEDIA
   - id: STR_MINOR_SHIELD_GAUNTLET
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_JACKAL_SHIELD_GAUNTLET_UFOPEDIA
   - id: STR_MAJOR_SHIELD_GAUNTLET
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
-    text: ...
+    text: STR_JACKAL_SHIELD_GAUNTLET_UFOPEDIA
 
 extraSprites:
 #########################################

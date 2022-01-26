@@ -1,6 +1,13 @@
+25-Jan-2022 v0.1.1 Open Beta
+Changes made:
+*Disabled specialUseEmptyHandShow
+*Minor balance changes (Plasma weapons do more damage to Shields)
+*Added missing Covenant weapon Pedia text
+*Changed fontset
+
 25-Jan-2022 v0.1 Open Beta
 Changes made:
-*Updated to OXCE v7.4.2.0
+*Updated to OXCE v7.4.4
 *Added CMP Extended terrains
 *Brand new planet Reach, custom regions and cities
 *2 month-long fast campaign
