@@ -6,6 +6,7 @@ extended:
       ManaDamage: int
     BattleUnit:
       HitFrame: int
+      BreakHit: int
 
   scripts:
 
@@ -32,6 +33,7 @@ extended:
           if gt mana 0;
             BattleGame.getAnimFrame battle_game frame; #Shield hit flash
             unit.setTag Tag.HitFrame frame;
+            unit.setTag Tag.BreakHit 0;
 
             set origPower power;
             sub power mana;
@@ -45,8 +47,9 @@ extended:
             muldiv origPower toMana 100;
             debug_log origPower;
             sub mana origPower;
-            if lt mana 0;
+            if le mana 0;
               set mana 0;
+              unit.setTag Tag.BreakHit 1;
             end;
 
             unit.setMana mana;
@@ -118,12 +121,18 @@ extended:
       - offset: 1
         code: | #Shield hit flash
           var int frame;
+          var int breakhit;
 
           unit.getTag frame Tag.HitFrame;
           if neq frame 0;
             sub frame anim_frame;
             if gt frame -2;
               set_color new_pixel 14;
+              
+              unit.getTag breakhit Tag.BreakHit;
+              if eq breakhit 1;
+                set_color new_pixel 9;
+              end;
               if gt frame -1;
                 sub new_pixel 1;
               end;
