@@ -520,56 +520,56 @@ items:
 ##################################
   - type: STR_MAC_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    # costBuy: 21000
+    # costSell: 18000
     transferTime: 48
 
   - type: STR_30MM_CANNON_LAUNCHER
     size: 1
-    costBuy: 32000
-    costSell: 27000
+    # costBuy: 32000
+    # costSell: 27000
     transferTime: 48
 
   - type: STR_50MM_CANNON_LAUNCHER
     size: 1.5
-    costBuy: 35000
-    costSell: 37500
+    # costBuy: 35000
+    # costSell: 37500
     transferTime: 48
 
   - type: STR_AA_BATTERY_LAUNCHER
     size: 1
-    costBuy: 32000
-    costSell: 27000
+    # costBuy: 32000
+    # costSell: 27000
     transferTime: 48
 
   - type: STR_70MM_CHAINGUN_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    # costBuy: 21000
+    # costSell: 18000
     transferTime: 48
 
   - type: STR_SHIVA_NUKE_LAUNCHER
     size: 1
-    costBuy: 32000
-    costSell: 27000
+    # costBuy: 32000
+    # costSell: 27000
     transferTime: 48
 
   - type: STR_ARCHER_MISSILE_LAUNCHER
     size: 1.5
-    costBuy: 35000
-    costSell: 37500
+    # costBuy: 35000
+    # costSell: 37500
     transferTime: 48
 
   - type: STR_MEDUSA_MISSILE_LAUNCHER
     size: 1
-    costBuy: 32000
-    costSell: 27000
+    # costBuy: 32000
+    # costSell: 27000
     transferTime: 48
 
   - type: STR_ASGM10_MISSILE_LAUNCHER
     size: 1
-    costBuy: 32000
-    costSell: 27000
+    # costBuy: 32000
+    # costSell: 27000
     transferTime: 48
 
 ####################################
