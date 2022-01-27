@@ -115,9 +115,9 @@ items:
     costBuy: 1686
     costSell: 1265
     weight: 6
-    bigSprite: 200
-    floorSprite: 200
-    handSprite: 200
+    bigSprite: 208
+    floorSprite: 208
+    handSprite: 208
     fireSound: [132, 133, 134]
     reloadSound: [135, 136, 137]
     compatibleAmmo:
@@ -184,9 +184,9 @@ items:
     costBuy: 1686
     costSell: 1265
     weight: 6
-    bigSprite: 224
-    floorSprite: 224
-    handSprite: 224
+    bigSprite: 232
+    floorSprite: 232
+    handSprite: 232
     fireSound: [138, 139, 140]
     reloadSound: [141, 142, 143]
     compatibleAmmo:
@@ -253,9 +253,9 @@ items:
     costBuy: 1686
     costSell: 1265
     weight: 6
-    bigSprite: 264
-    floorSprite: 264
-    handSprite: 264
+    bigSprite: 272
+    floorSprite: 272
+    handSprite: 272
     fireSound: [100, 101, 102, 103, 104, 105, 106]
     reloadSound: [107, 108, 109]
     compatibleAmmo:
@@ -314,9 +314,9 @@ items:
     costBuy: 1686
     costSell: 1265
     weight: 6
-    bigSprite: 288
-    floorSprite: 288
-    handSprite: 288
+    bigSprite: 296
+    floorSprite: 296
+    handSprite: 296
     fireSound: [110, 111, 112]
     reloadSound: [113, 114, 115]
     compatibleAmmo:
@@ -382,9 +382,9 @@ items:
     dropoff: 6              #
     fireSound: 144          #
     reloadSound: 145
-    bigSprite: 312    #inventory sprite
-    floorSprite: 312  #battlescape floor sprite
-    handSprite: 312
+    bigSprite: 320    #inventory sprite
+    floorSprite: 320  #battlescape floor sprite
+    handSprite: 320
   - type: STR_SRS99_MAG        #SRS99 Magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT]
     size: 0.1
@@ -434,9 +434,9 @@ items:
     dropoff: 5              #
     fireSound: 116          #
     reloadSound: [122, 123, 124]
-    bigSprite: 336    #inventory sprite
-    floorSprite: 336  #battlescape floor sprite
-    handSprite: 336
+    bigSprite: 344    #inventory sprite
+    floorSprite: 344  #battlescape floor sprite
+    handSprite: 344
   - type: STR_M6C_SOCOM       #M6C SOCOM
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT, STR_UNSC_ODST_EQUIPMENT]
     costBuy: 1615     # buy/sell data
@@ -458,9 +458,9 @@ items:
     dropoff: 4              #
     fireSound: 117          #
     reloadSound: [122, 123, 124]   
-    bigSprite: 352    #inventory sprite
-    floorSprite: 352  #battlescape floor sprite
-    handSprite: 352
+    bigSprite: 360    #inventory sprite
+    floorSprite: 360  #battlescape floor sprite
+    handSprite: 360
   - type: STR_M6C_MAG         #M6C Magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT, STR_UNSC_ODST_EQUIPMENT]
     size: 0.1
@@ -506,9 +506,9 @@ items:
     dropoff: 5              #
     fireSound: [118, 119, 120, 121]          #
     reloadSound: [122, 123, 124]
-    bigSprite: 376    #inventory sprite
-    floorSprite: 376  #battlescape floor sprite
-    handSprite: 376
+    bigSprite: 384    #inventory sprite
+    floorSprite: 384  #battlescape floor sprite
+    handSprite: 384
   - type: STR_M6G_MAG         #M6g Magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.1
@@ -540,9 +540,9 @@ items:
     costBuy: 1000
     costSell: 860
     weight: 5
-    bigSprite: 400
-    floorSprite: 400
-    handSprite: 400
+    bigSprite: 408
+    floorSprite: 408
+    handSprite: 408
     fireSound: [146, 147, 148]
     reloadSound: [152, 153, 154]
     compatibleAmmo:
@@ -583,9 +583,9 @@ items:
     costBuy: 1000
     costSell: 860
     weight: 5
-    bigSprite: 448
-    floorSprite: 448
-    handSprite: 448
+    bigSprite: 456
+    floorSprite: 456
+    handSprite: 456
     fireSound: [149, 150, 151]
     reloadSound: [152, 153, 154]
     compatibleAmmo:
@@ -703,9 +703,9 @@ items:
     dropoff: 5              #
     fireSound: [235, 236, 237]
     reloadSound: [218, 219]
-    bigSprite: 608    #inventory sprite
-    floorSprite: 608  #battlescape floor sprite
-    handSprite: 608
+    bigSprite: 616    #inventory sprite
+    floorSprite: 616  #battlescape floor sprite
+    handSprite: 616
   - type: STR_PLASMA_RIFLE_CELL         #T25 Rifle-class heatsinks
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
@@ -759,9 +759,9 @@ items:
     dropoff: 5              #
     fireSound: [235, 236, 237]
     reloadSound: [218, 219]
-    bigSprite: 632    #inventory sprite
-    floorSprite: 632  #battlescape floor sprite
-    handSprite: 632
+    bigSprite: 640    #inventory sprite
+    floorSprite: 640  #battlescape floor sprite
+    handSprite: 640
   - type: STR_PLASMA_RIFLE_BRUTE_CELL         #T25 Rifle-class heatsinks
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_COVENANT_EQUIPMENT]
     size: 0.1
@@ -791,9 +791,9 @@ items:
     size: 0.2
     costSell: 12650
     weight: 6
-    bigSprite: 680
-    floorSprite: 680
-    handSprite: 680
+    bigSprite: 688
+    floorSprite: 688
+    handSprite: 688
     fireSound: [200, 201, 202]
     reloadSound: [203, 204, 205]
     compatibleAmmo:
@@ -867,9 +867,9 @@ items:
     dropoff: 6              #
     fireSound: [215, 216, 217]          #
     reloadSound: [220, 221, 222]
-    bigSprite: 656    #inventory sprite
-    floorSprite: 656  #battlescape floor sprite
-    handSprite: 656
+    bigSprite: 664    #inventory sprite
+    floorSprite: 664  #battlescape floor sprite
+    handSprite: 664
   - type: STR_PLASMA_REPEATER_CELL         #T25 Rifle-class heatsinks
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
@@ -922,9 +922,9 @@ items:
     dropoff: 5              #
     fireSound: [206, 207, 208]          #
     reloadSound: [209, 210, 211]
-    bigSprite: 704    #inventory sprite
-    floorSprite: 704  #battlescape floor sprite
-    handSprite: 704
+    bigSprite: 712    #inventory sprite
+    floorSprite: 712  #battlescape floor sprite
+    handSprite: 712
   - type: STR_NEEDLER_CANISTER         #T33 Needler reload
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
@@ -978,9 +978,9 @@ items:
     dropoff: 5              #
     fireSound: [212, 213, 214]          #
     reloadSound: [218, 219]
-    bigSprite: 776    #inventory sprite
-    floorSprite: 776  #battlescape floor sprite
-    handSprite: 776
+    bigSprite: 784    #inventory sprite
+    floorSprite: 784  #battlescape floor sprite
+    handSprite: 784
   - type: STR_PLASMA_PISTOL_CELL         #
     categories: [STR_WEAPONS, STR_FIREARMS, STR_HANDGUNS, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
     size: 0.1
@@ -1010,9 +1010,9 @@ items:
     size: 0.3
     costSell: 14400
     weight: 16
-    bigSprite: 824
-    floorSprite: 824
-    handSprite: 824
+    bigSprite: 832
+    floorSprite: 832
+    handSprite: 832
     bulletSprite: 17
     fireSound: 238
     compatibleAmmo:
@@ -1075,9 +1075,9 @@ items:
     size: 0.2
     costSell: 35000
     weight: 6
-    bigSprite: 928
-    floorSprite: 928
-    handSprite: 928
+    bigSprite: 936
+    floorSprite: 936
+    handSprite: 936
     fireSound: [223, 224, 225, 226, 227, 228]
     reloadSound: 229
     compatibleAmmo:

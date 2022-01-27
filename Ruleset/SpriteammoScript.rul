@@ -32,7 +32,7 @@
 # Lastly you need to attach a tag to every weapon that you want affected by this script
 #  - type: STR_MP5
 #    tags:
-#     AmmoReSprite: 1
+#     AmmoReSprite: 3
 # Note: if multiple weapons share the same ammo, but some cannot use the smallest ammo type, when assigning index numbers there still needs to be a sprite for the smallest ammo type, even if it is just a placeholder.
 # Example: The Glock 18 shares ammo with the MP5, but can only use the second and third smallest magazines, the index looks like this:
 #      2160: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png # Sprite for empty weapon
@@ -62,98 +62,98 @@
 items:
   - type: STR_MA5B # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_MA5B_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_MA37 # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_MA37_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_BR55 # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_BR55_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_M392 # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_M392_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_SRS99 # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_SRS99_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_M6C # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_M6C_SOCOM # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_M6C_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_M6G # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_M6G_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_M7 #ignoreDuplicate
     tags:
      FoldStock: 1
-     AmmoReSprite: 1
+     AmmoReSprite: 3
   - type: STR_M7S # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_M7_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_PLASMA_RIFLE_ELITE # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_PLASMA_RIFLE_CELL # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_PLASMA_RIFLE_BRUTE # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_PLASMA_RIFLE_BRUTE_CELL # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_PLASMA_REPEATER # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_PLASMA_REPEATER_CELL # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_NEEDLER # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_NEEDLER_CANISTER # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_TYPE_25_PLASMA_PISTOL # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_PLASMA_PISTOL_CELL # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_PLASMA_CARBINE # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_PLASMA_CARBINE_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
   - type: STR_FUEL_ROD_GUN # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_FUEL_ROD_GUN_RACK # ignoreDuplicate
     tags:
       AmmoNo: 1
@@ -162,7 +162,7 @@ items:
       STRIKE: 1
   - type: STR_ENERGY_SWORD # ignoreDuplicate
     tags:
-      AmmoReSprite: 1
+      AmmoReSprite: 3
   - type: STR_ENERGY_SWORD_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
@@ -250,6 +250,65 @@ extended:
               end;
             end;
            end;
+          
+
+          if eq x 3;
+           item.getAmmoItem ammoptr;
+           BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
+           BattleItem.getTag item y Tag.FoldStock;
+           if eq y 1;
+            item.getSlot invptr;
+            RuleInventory.isLeftHand invptr left;
+            RuleInventory.isRightHand invptr right;
+            if and eq left 0 eq right 0;
+             set z 1;
+             end;
+            end;
+           if eq z 1;
+            add sprite_index 32;
+            if eq ammono 0;
+              sub sprite_index 8;
+              end;
+            if eq ammono 1;
+             add sprite_index 0;
+             end;
+            if eq ammono 2;
+             add sprite_index 8;
+             end;
+            if eq ammono 3;
+             add sprite_index 16;
+             end;
+            if eq ammono 4;
+             add sprite_index 24;
+            end;
+           end;
+           if neq z 1;
+            if eq ammono 0;
+              sub sprite_index 8;
+              end;
+            if eq ammono 1;
+             add sprite_index 0;
+             end;
+            if eq ammono 2;
+             add sprite_index 8;
+             end;
+            if eq ammono 3;
+             add sprite_index 16;
+             end;
+            if eq ammono 4;
+             add sprite_index 24;
+            end;
+            end;
+           BattleItem.getTag item a Tag.UBS;
+           if eq a 1;
+             item.getAmmoForSlot UBSammoptr 1;
+             BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
+             if eq UBSammono 1;
+              add sprite_index 16;
+              end;
+            end;
+           end;
+
           return sprite_index; 
  
        - offset: 2 # Air Strike Smoke sprite Script
