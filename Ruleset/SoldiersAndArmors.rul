@@ -239,6 +239,8 @@ armors:
         reactions: 10
         firing: 12
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
   - type: STR_SPI_ARMOR_RED_UC
     spriteSheet: SPI_ARMOR_SPRITESHEET_RED.PCK
     spriteInv: SPI_ARMOR_INV_RED
@@ -270,6 +272,8 @@ armors:
         reactions: 10
         firing: 12
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
   - type: STR_SPI_ARMOR_BLUE_UC
     spriteSheet: SPI_ARMOR_SPRITESHEET_BLUE.PCK
     spriteInv: SPI_ARMOR_INV_BLUE
@@ -301,6 +305,8 @@ armors:
         reactions: 10
         firing: 12
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
   - type: STR_SPI_ARMOR_GRAY_UC
     spriteSheet: SPI_ARMOR_SPRITESHEET_GRAY.PCK
     spriteInv: SPI_ARMOR_INV_GRAY
@@ -332,6 +338,8 @@ armors:
         reactions: 10
         firing: 12
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
 
   - type: STR_ARMOR_ODST_UC
     spriteSheet: ODST_BDU_SPRITESHEET.PCK
