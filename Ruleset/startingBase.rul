@@ -39,7 +39,7 @@ startingBase:
       fuel: 9999
       damage: 0
       weapons:
-        - type: STR_MAC
+        - type: STR_MAC_UC
           ammo: 10
         - type: STR_ARCHER_MISSILE_UC
           ammo: 26

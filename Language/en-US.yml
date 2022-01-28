@@ -52,7 +52,7 @@ en-US:
   STR_FALCON_GUNSHIP_UFOPEDIA: "AH-144S. Better armed version of the Falcon, mostly employed by the Army. Features another gun turret and additional armor on engines and cockpit."
 ######################
   STR_CRAFT_WEAPONS: "CRAFT WEAPONS"
-  STR_MAC: "MAC"
+  STR_MAC_UC: "MAC"
   STR_MAC_LAUNCHER: "MAC"
   STR_MAC_STRING: "MAC"
   STR_MAC_UFOPEDIA: "Mark II, Light Coil - 52A6F9/MAC. Magnetic Acceleration Cannon, employs ferric tungsten rounds at supersonic velocities. The most powerful weapon available to a UNSC ship, capable of shield damage and ship penetration in equal measure. The low rate of fire of the 'light MAC' is its greatest disadvantage."

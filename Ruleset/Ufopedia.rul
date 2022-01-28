@@ -339,7 +339,7 @@ ufopaedia:
 #########################
 #### CRAFT WEAPONS #####
 #######################
-  - id: STR_MAC
+  - id: STR_MAC_UC
     type_id: 2
     section: STR_CRAFT_WEAPONS
     image_id: MAC

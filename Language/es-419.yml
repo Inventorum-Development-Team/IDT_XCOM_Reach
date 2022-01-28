@@ -52,7 +52,7 @@ es-419:
   STR_FALCON_GUNSHIP: "Cañonera Falcon"
   STR_FALCON_GUNSHIP_UFOPEDIA: "AH-144S. Versión mejor armada del Falcon, empleado en su mayoría por el Ejército. Cuenta con otra torreta de cañón y blindaje adicional en los motores y la cabina."
 ######################
-  STR_MAC: "CAÑÓN MAC"
+  STR_MAC_UC: "CAÑÓN MAC"
   STR_MAC_LAUNCHER: "Cañón MAC"
   STR_MAC_STRING: "CAÑÓN MAC"
   STR_MAC_UFOPEDIA: "Mark II, Bobina Ligera - 52A6F9/MAC. Cañón de Aceleración Magnética, emplea rondas de tungsteno férrico a velocidades supersónicas. El arma más poderosa que cuenta una nave de la UNSC, capaz de dañar escudos y penetrar naves por igual. La baja cadencia de tiro de los 'MAC ligeros' es su mayor desventaja."

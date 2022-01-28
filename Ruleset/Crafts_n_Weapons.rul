@@ -370,7 +370,7 @@ craftWeapons:
 #and sprite+48 for BASEBITS.PCK
 
 #Magnetic Acceleration Cannon
-  - type: STR_MAC
+  - type: STR_MAC_UC
     sprite: 300
     sound: 4
     damage: 200
