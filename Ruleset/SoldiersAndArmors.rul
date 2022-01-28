@@ -213,7 +213,7 @@ armors:
     spriteInv: SPI_ARMOR_INV
     corpseBattle:
       - STR_CORPSE_SPI_ARMOR
-    storeItem: STR_SPI_ARMOR
+    storeItem: STR_NONE
     frontArmor: 40
     sideArmor: 30
     rearArmor: 30
@@ -244,7 +244,7 @@ armors:
     spriteInv: SPI_ARMOR_INV_RED
     corpseBattle:
       - STR_CORPSE_SPI_ARMOR_RED
-    storeItem: STR_SPI_ARMOR
+    storeItem: STR_NONE
     frontArmor: 40
     sideArmor: 30
     rearArmor: 30
@@ -275,7 +275,7 @@ armors:
     spriteInv: SPI_ARMOR_INV_BLUE
     corpseBattle:
       - STR_CORPSE_SPI_ARMOR_BLUE
-    storeItem: STR_SPI_ARMOR
+    storeItem: STR_NONE
     frontArmor: 40
     sideArmor: 30
     rearArmor: 30
@@ -306,7 +306,7 @@ armors:
     spriteInv: SPI_ARMOR_INV_GRAY
     corpseBattle:
       - STR_CORPSE_SPI_ARMOR_GRAY
-    storeItem: STR_SPI_ARMOR
+    storeItem: STR_NONE
     frontArmor: 40
     sideArmor: 30
     rearArmor: 30
