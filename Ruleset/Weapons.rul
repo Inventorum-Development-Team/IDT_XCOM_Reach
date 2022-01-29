@@ -91,7 +91,8 @@ items:
   - type: STR_MEDI_KIT
     categories: [STR_MEDICAL, STR_GADGETS, STR_UNSC_EQUIPMENT]
     size: 0.1
-    costSell: 46500
+    costBuy: 1000
+    costSell: 465
     weight: 5
     bigSprite: 592
     floorSprite: 592
@@ -206,9 +207,9 @@ items:
       name: STR_SHORT_BURST
       shortName: STR_BURST
       followProjectiles: false
-    accuracyAuto: 35
-    accuracySnap: 50
-    accuracyAimed: 65
+    accuracyAuto: 50
+    accuracySnap: 65
+    accuracyAimed: 80
     tuAuto: 10
     tuSnap: 10
     tuAimed: 15
@@ -672,6 +673,18 @@ items:
     battleType: 4
     blastRadius: 5
 
+  - type: STR_ELECTRO_FLARE
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
+    size: 0.1
+    costBuy: 60
+    costSell: 40
+    weight: 3
+    bigSprite: 55
+    floorSprite: 72
+    power: 15
+    battleType: 10
+    armor: 8
+
 ######################################################
   - type: STR_PLASMA_RIFLE_ELITE       #Type25 Plasma Rifle
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
@@ -684,11 +697,23 @@ items:
     weight: 9
     compatibleAmmo:         #Battle Stats
       - STR_PLASMA_RIFLE_CELL  #
-    confSnap:
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: true
       spendPerShot: 4
     confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: true
       spendPerShot: 4
-    confAuto:
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: true
       spendPerShot: 4
     accuracySnap: 25        #
     accuracyAimed: 65       #
@@ -740,12 +765,24 @@ items:
     weight: 8
     compatibleAmmo:         #Battle Stats
       - STR_PLASMA_RIFLE_BRUTE_CELL  #
-    confSnap:
-      spendPerShot: 4
-    confAimed:
-      spendPerShot: 4
     confAuto:
-      spendPerShot: 4
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: true
+      spendPerShot: 5
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: true
+      spendPerShot: 5
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: true
+      spendPerShot: 5
     accuracySnap: 23        #
     accuracyAimed: 60       #
     accuracyAuto: 18
@@ -848,11 +885,23 @@ items:
     twoHanded: true
     compatibleAmmo:         #Battle Stats
       - STR_PLASMA_REPEATER_CELL
-    confSnap:
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: true
       spendPerShot: 6
     confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: true
       spendPerShot: 6
-    confAuto:
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: true
       spendPerShot: 6
     accuracySnap: 50        #
     accuracyAimed: 70       #
