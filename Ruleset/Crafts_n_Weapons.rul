@@ -25,6 +25,7 @@ crafts:
     transferTime: 96
     score: 250
     repairRate: 100
+    keepCraftAfterFailedMission: true
     battlescapeTerrainData:
       name: PARIS_FRIGATE_DROPPODS
       mapDataSets:
@@ -73,6 +74,7 @@ crafts:
     transferTime: 96
     score: 250
     repairRate: 100
+    keepCraftAfterFailedMission: true
     battlescapeTerrainData:
       name: CHARON_FRIGATE_DROPPODS
       mapDataSets:
