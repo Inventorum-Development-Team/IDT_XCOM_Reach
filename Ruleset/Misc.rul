@@ -448,6 +448,22 @@ ufopaedia:
   - delete: STR_EXAMINATION_ROOM
   - delete: STR_ALIEN_ALLOYS
 
+invs:
+  - id: STR_ARMOR_ABILITY_SLOT
+    x: 246
+    y: 104 
+    slots: 
+      - [0, 0]
+      - [0, 1]
+      - [1, 0]
+      - [1, 1]
+
+  - id: STR_BELT
+    x: 172
+
+  - id: STR_BACK_PACK
+    x: 172 
+
 
 extraSprites:
   - type: GEOBORD.SCR #Space
@@ -731,11 +747,13 @@ extraSprites:
     height: 48
     files:
       99: Resources/specialWeapons/BigKnife.png
+      100: Resources/ArmorAbilities/PlaceHolder.png
 
   - type: SPICONS.DAT
     width: 32
     height: 24
     files:
       2: Resources/specialWeapons/spicon_knife.png
+      10: Resources/specialWeapons/spicon_placeholder.png
 
   

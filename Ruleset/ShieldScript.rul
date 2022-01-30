@@ -45,7 +45,7 @@ extended:
             damagingRuleItem.getDamageType damagingRuleDamage;
             damagingRuleDamage.getDamageToMana toMana 100;
             muldiv origPower toMana 100;
-            debug_log origPower;
+            #debug_log origPower;
             sub mana origPower;
             if le mana 0;
               set mana 0;

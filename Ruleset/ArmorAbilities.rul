@@ -1,0 +1,254 @@
+skills:
+  - type: STR_SPRINT_SKILL
+    costUse:
+      time: 1 
+    tags:
+      ArmorAbility: 1
+  - type: STR_CAMO_SKILL
+    costUse:
+      time: 2 
+    tags:
+      ArmorAbility: 1
+  - type: STR_DROP_SHIELD_SKILL
+    costUse:
+      time: 3 
+    tags:
+      ArmorAbility: 1
+  - type: STR_HOLO_SKILL
+    costUse:
+      time: 4 
+    tags:
+      ArmorAbility: 1
+  - type: STR_LOCK_SKILL
+    costUse:
+      time: 1 
+    tags:
+      ArmorAbility: 5
+
+
+soldiers:
+  - type: STR_SPARTAN_III
+    skillIconSprite: 10
+    skills:
+      - STR_SPRINT_SKILL
+      - STR_DROP_SHIELD_SKILL
+      - STR_HOLO_SKILL
+      - STR_CAMO_SKILL
+      - STR_LOCK_SKILL
+items:
+#   - type: STR_ACTIVE_CAMO
+#     battleType: 6
+#     tuUse: 1
+#     specialIconSprite: 10
+#     medikitActionName: STR_ACTIVATE_CAMO
+#     stimulant: 999
+#     medikitType: 2
+#     medikitTargetSelf: true
+#     fixedWeapon: true
+#     recover: false
+#     specialUseEmptyHand: true
+#     specialUseEmptyHandShow: false
+#     tags:
+#       ArmorAbility: 1
+
+  - type: STR_SPRINT_ITEM
+    size: 0.1
+    weight: 10
+    bigSprite: 100
+    battleType: 10
+    power: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 1
+  - type: STR_CAMO_ITEM
+    size: 0.1
+    weight: 10
+    bigSprite: 100
+    battleType: 10
+    power: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 2
+  - type: STR_DROP_SHIELD_ITEM
+    size: 0.1
+    weight: 10
+    bigSprite: 100
+    battleType: 10
+    power: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 3
+  - type: STR_HOLO_ITEM
+    size: 0.1
+    weight: 10
+    bigSprite: 100
+    battleType: 10
+    power: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 4
+  - type: STR_LOCK_ITEM
+    size: 0.1
+    weight: 10
+    bigSprite: 100
+    battleType: 10
+    power: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 5
+
+
+armors:
+  - type: STR_SPI_CAMO_UC
+    spriteSheet: SPI_ARMOR_SPRITESHEET.PCK
+    spriteInv: SPI_ARMOR_INV
+    corpseBattle:
+      - STR_CORPSE_SPI_ARMOR
+    storeItem: STR_NONE
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: 5
+    camouflageAtDay: 7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0  
+    stats: 
+        tu: 15
+        reactions: 10
+        firing: 12
+    units:
+      - STR_SPARTAN_III
+
+extended:
+  tags:
+    RuleItem:
+      ItemAbility: int
+    # RuleSkill:
+    #   ArmorAbility: int
+    BattleUnit:
+      ArmorCooldown: int
+      ActiveCamo: int
+
+  scripts:
+
+    skillUseUnit:
+      - offset: 1
+        code: |
+          var int armorability;
+          var int itemability;
+
+          var ptr BattleItem ability_item;
+          var ptr RuleInventory ability_slot;
+
+          rules.getRuleInventory ability_slot "STR_ARMOR_ABILITY_SLOT";
+
+          actor.getInventoryItem ability_item ability_slot;
+
+          ability_item.getTag itemability Tag.ItemAbility;
+          debug_log "false";
+          return;
+
+          #skill.getTag armorability Tag.ArmorAbility;
+
+         # if eq armorability itemability;
+         #   debug_log "true";
+         #   return;
+         # end; 
+          
+
+
+
+
+
+
+
+
+
+    healUnit:
+      - offset: 1
+        code: |
+          var int cooldown;
+          var int activecamo;
+          var int x;
+          var int turn;
+
+          item.getTag x Tag.ArmorAbility;
+
+          if eq x 1;
+            battle_game.getTurn turn;
+            actor.getTag cooldown Tag.ArmorCooldown;
+            if lt turn cooldown;
+              battle_game.flashMessage "STR_ON_COOLDOWN";
+              return;
+            end;
+            set cooldown turn;
+            add cooldown 6;
+            set activecamo turn;
+            add activecamo 3;
+            actor.setTag Tag.ArmorCooldown cooldown;
+            actor.setTag Tag.ActiveCamo activecamo;
+          end;
+
+
+          return;
+
+    recolorUnitSprite:
+      - offset: 1
+        code: |
+          var int activecamo;
+          var int turn;
+          var int frame;
+          var int temp;
+
+          unit.getTag activecamo Tag.ActiveCamo;
+          battle_game.getTurn turn;
+
+          if lt turn activecamo;
+            set frame anim_frame;
+            if gt frame 255;
+              set temp frame;
+              muldiv temp 1 255;
+              mul temp 255;
+              sub frame temp;
+              if lt frame 0;
+                add frame 255;
+              end;
+            end;
+            if and eq old_pixel frame neq old_pixel 0;
+              set new_pixel 1;
+            else neq old_pixel frame;
+              set new_pixel 0;
+            end;
+          end;
+          return new_pixel;
+
+
+
