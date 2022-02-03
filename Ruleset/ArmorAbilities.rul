@@ -4,26 +4,35 @@ skills:
       time: 1 
     tags:
       ArmorAbility: 1
+      AbilityCooldown: 2 
   - type: STR_CAMO_SKILL
     costUse:
-      time: 2 
+      time: 1 
     tags:
-      ArmorAbility: 1
+      ArmorAbility: 2
+      AbilityCooldown: 2
   - type: STR_DROP_SHIELD_SKILL
     costUse:
-      time: 3 
+      time: 1 
     tags:
-      ArmorAbility: 1
+      ArmorAbility: 3
+      AbilityCooldown: 2
   - type: STR_HOLO_SKILL
     costUse:
-      time: 4 
+      time: 1
+    compatibleWeapons:
+      - STR_HOLO_ITEM
+    checkHandsOnly: false
+    targetMode: 9
     tags:
-      ArmorAbility: 1
+      ArmorAbility: 4
+      AbilityCooldown: 2
   - type: STR_LOCK_SKILL
     costUse:
       time: 1 
     tags:
       ArmorAbility: 5
+      AbilityCooldown: 2
 
 
 soldiers:
@@ -91,8 +100,12 @@ items:
     size: 0.1
     weight: 10
     bigSprite: 100
-    battleType: 10
+    battleType: 1
     power: 1
+    clipSize: -1
+    tuAimed: 101
+    accuracyAimed: 100
+    maxRange: 1
     armor: 60
     invWidth: 2
     invHeight: 2
@@ -112,143 +125,197 @@ items:
     tags:
       ItemAbility: 5
 
-
-armors:
-  - type: STR_SPI_CAMO_UC
-    spriteSheet: SPI_ARMOR_SPRITESHEET.PCK
-    spriteInv: SPI_ARMOR_INV
-    corpseBattle:
-      - STR_CORPSE_SPI_ARMOR
-    storeItem: STR_NONE
-    frontArmor: 40
-    sideArmor: 30
-    rearArmor: 30
-    underArmor: 10
-    movementType: 0
-    camouflageAtDark: 5
-    camouflageAtDay: 7
-    damageModifier:
-      - 1.0
-      - 0.9
-      - 0.0
-      - 0.7
-      - 0.9
-      - 0.8
-      - 0.8
-      - 0.8
-      - 1.0
-      - 0.0
-    loftempsSet: [ 3 ]
-    forcedTorso: 0  
-    stats: 
-        tu: 15
-        reactions: 10
-        firing: 12
-    units:
-      - STR_SPARTAN_III
-
 extended:
   tags:
     RuleItem:
       ItemAbility: int
-    # RuleSkill:
-    #   ArmorAbility: int
+    RuleSkill:
+       ArmorAbility: int
+       AbilityCooldown: int
     BattleUnit:
       ArmorCooldown: int
       ActiveCamo: int
+      Sprint: int
+      Lock: int
+
 
   scripts:
+    newTurnUnit:
+      - offset: 1
+        code: |
+          var int armorcooldown;
+          var int activecamo;
+          var int sprint;
+          var int lock;
+
+          var int maxtu;
+          var int maxreaction;
+
+          var ptr GeoscapeSoldier soldier;
+
+          if eq side FACTION_PLAYER;
+            unit.getTag armorcooldown Tag.ArmorCooldown;
+            sub armorcooldown 1;
+            unit.setTag Tag.ArmorCooldown armorcooldown;
+
+            unit.getTag activecamo Tag.ActiveCamo;
+            sub activecamo 1;
+            unit.setTag Tag.ActiveCamo activecamo;
+            
+            unit.getTag sprint Tag.Sprint;
+            sub sprint 1;
+            unit.setTag Tag.Sprint sprint;
+            if le sprint 0;
+              unit.getGeoscapeSoldier soldier;
+              soldier.Stats.getTimeUnits maxtu;
+              unit.Stats.setTimeUnits maxtu;
+              unit.setTimeUnits maxtu;
+
+              soldier.Stats.getReactions maxreaction;
+              unit.Stats.setReactions maxreaction;
+            end;
+
+            unit.getTag lock Tag.Lock;
+            sub lock 1;
+            unit.setTag Tag.Lock lock;
+
+
+
+          end;
+          return;
+
+
 
     skillUseUnit:
       - offset: 1
         code: |
           var int armorability;
           var int itemability;
+          var int armorcooldown;
+          var int abilitycooldown;
+          
+          var int kneeling;
 
-          var ptr BattleItem ability_item;
+          var int maxtu;
+          var int maxreaction;
+
           var ptr RuleInventory ability_slot;
+          var ptre BattleItem ability_item;
+
+
+          actor.getTag armorcooldown Tag.ArmorCooldown;
+          if gt armorcooldown 0;
+            battle_game.flashMessage "STR_ON_COOLDOWN";
+            set continue_action 0;
+            return;
+          end;
 
           rules.getRuleInventory ability_slot "STR_ARMOR_ABILITY_SLOT";
-
           actor.getInventoryItem ability_item ability_slot;
-
           ability_item.getTag itemability Tag.ItemAbility;
-          debug_log "false";
-          return;
 
-          #skill.getTag armorability Tag.ArmorAbility;
+          skill.getTag armorability Tag.ArmorAbility;
 
-         # if eq armorability itemability;
-         #   debug_log "true";
-         #   return;
-         # end; 
-          
+          if neq armorability itemability;
+            battle_game.flashMessage "STR_WRONG_ABILITY";
+            set continue_action 0;
+            return;
+          end; 
 
-
-
-
-
-
-
-
-
-    healUnit:
-      - offset: 1
-        code: |
-          var int cooldown;
-          var int activecamo;
-          var int x;
-          var int turn;
-
-          item.getTag x Tag.ArmorAbility;
-
-          if eq x 1;
-            battle_game.getTurn turn;
-            actor.getTag cooldown Tag.ArmorCooldown;
-            if lt turn cooldown;
-              battle_game.flashMessage "STR_ON_COOLDOWN";
-              return;
-            end;
-            set cooldown turn;
-            add cooldown 6;
-            set activecamo turn;
-            add activecamo 3;
-            actor.setTag Tag.ArmorCooldown cooldown;
-            actor.setTag Tag.ActiveCamo activecamo;
+          actor.isKneeled kneeling;
+          if and eq armorability 5 neq kneeling 1;
+            battle_game.flashMessage "STR_NOT_KNEELING";
+            set continue_action 0;
+            return;
           end;
 
+          skill.getTag abilitycooldown Tag.AbilityCooldown;
+          actor.setTag Tag.ArmorCooldown abilitycooldown;
+
+
+          if eq armorability 1; #Sprint
+            actor.setTag Tag.Sprint 1;
+            actor.Stats.getTimeUnits maxtu;
+            add maxtu 40;
+            actor.Stats.setTimeUnits maxtu;
+            actor.addTimeUnits 40;
+
+            actor.Stats.getReactions maxreaction;
+            sub maxreaction 40;
+            actor.Stats.setReactions maxreaction;
+          end;
+
+          if eq armorability 2; #Camo
+            actor.setTag Tag.ActiveCamo 1;
+          end;
+
+          if eq armorability 5; #Lock
+            actor.setTag Tag.Lock 1;
+            actor.setTimeUnits 0;
+          end;
 
           return;
+
+
+    visibilityUnit:
+        - offset: 1
+          code: |
+            var int activecamo;
+
+            target_unit.getTag activecamo Tag.ActiveCamo;
+            if eq activecamo 1;
+              set current_visibility 5;
+            end;
+
+
+            return current_visibility visibility_mode;
+
+
+    hitUnit:
+        - offset: 1
+          code: |
+            var int lock;
+
+            unit.getTag lock Tag.Lock;
+
+            if eq lock 1;
+              set power 0;
+            end;
+
+            return power part side;
+
+
+
+
+
 
     recolorUnitSprite:
-      - offset: 1
-        code: |
-          var int activecamo;
-          var int turn;
-          var int frame;
-          var int temp;
+        - offset: 2
+          code: |
+           var int activecamo;
+           var int frame;
+           var int temp;
 
-          unit.getTag activecamo Tag.ActiveCamo;
-          battle_game.getTurn turn;
+           unit.getTag activecamo Tag.ActiveCamo;
 
-          if lt turn activecamo;
-            set frame anim_frame;
-            if gt frame 255;
-              set temp frame;
-              muldiv temp 1 255;
-              mul temp 255;
-              sub frame temp;
-              if lt frame 0;
-                add frame 255;
-              end;
-            end;
-            if and eq old_pixel frame neq old_pixel 0;
-              set new_pixel 1;
-            else neq old_pixel frame;
-              set new_pixel 0;
-            end;
-          end;
-          return new_pixel;
+           if eq activecamo 1;
+             set frame anim_frame;
+             if gt frame 255;
+               set temp frame;
+               muldiv temp 1 255;
+               mul temp 255;
+               sub frame temp;
+               if lt frame 0;
+                 add frame 255;
+               end;
+             end;
+             if and eq old_pixel frame neq old_pixel 0;
+               set new_pixel 1;
+             else neq old_pixel frame;
+               set new_pixel 0;
+             end;
+           end;
+           return new_pixel;
 
 
 
