@@ -75,7 +75,7 @@ items:
   - type: STR_CAMO_ITEM
     size: 0.1
     weight: 10
-    bigSprite: 100
+    bigSprite: 101
     battleType: 10
     power: 1
     armor: 60
@@ -292,30 +292,38 @@ extended:
     recolorUnitSprite:
         - offset: 2
           code: |
-           var int activecamo;
-           var int frame;
-           var int temp;
+            var int activecamo;
+            var int frame;
+            var int temp;
+            var int newshade;
 
-           unit.getTag activecamo Tag.ActiveCamo;
+            unit.getTag activecamo Tag.ActiveCamo;
 
-           if eq activecamo 1;
-             set frame anim_frame;
-             if gt frame 255;
-               set temp frame;
-               muldiv temp 1 255;
-               mul temp 255;
-               sub frame temp;
-               if lt frame 0;
-                 add frame 255;
-               end;
-             end;
-             if and eq old_pixel frame neq old_pixel 0;
-               set new_pixel 1;
-             else neq old_pixel frame;
-               set new_pixel 0;
-             end;
-           end;
-           return new_pixel;
+            if eq activecamo 1;
+              set frame anim_frame;
+              if gt frame 20;
+                set temp frame;
+                muldiv temp 1 20;
+                mul temp 20;
+                sub frame temp;
+                if lt frame 0;
+                  add frame 20;
+                end;
+              end;
+              if and lt frame 4 neq old_pixel 0;
+                get_shade newshade new_pixel;
+                add newshade frame;
+                add newshade 3;
+                set_shade new_pixel newshade;
+                set_color new_pixel COLOR_X1_NULL;
+                if ge newshade 16;
+                  set new_pixel 0;
+                end;   
+              else ge frame 4;
+                set new_pixel 0;
+              end;
+            end;
+            return new_pixel;
 
 
 

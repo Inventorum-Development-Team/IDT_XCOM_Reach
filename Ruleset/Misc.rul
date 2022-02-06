@@ -457,13 +457,119 @@ invs:
       - [0, 1]
       - [1, 0]
       - [1, 1]
+    costs:
+      STR_BELT: 12
+      STR_GROUND: 10
+      STR_LEFT_HAND: 8
+      STR_LEFT_LEG: 16
+      STR_LEFT_SHOULDER: 14
+      STR_RIGHT_HAND: 8
+      STR_RIGHT_LEG: 16
+      STR_RIGHT_SHOULDER: 14
 
   - id: STR_BELT
     x: 172
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 16
+      STR_BACK_PACK: 16
+      STR_GROUND: 6
+      STR_LEFT_HAND: 4
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 12
+      STR_RIGHT_HAND: 4
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 12
 
   - id: STR_BACK_PACK
     x: 172 
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 16
+      STR_BELT: 12
+      STR_GROUND: 10
+      STR_LEFT_HAND: 8
+      STR_LEFT_LEG: 16
+      STR_LEFT_SHOULDER: 14
+      STR_RIGHT_HAND: 8
+      STR_RIGHT_LEG: 16
+      STR_RIGHT_SHOULDER: 14
 
+  - id: STR_GROUND
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 20
+      STR_BACK_PACK: 20
+      STR_BELT: 12
+      STR_LEFT_HAND: 8
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 12
+      STR_RIGHT_HAND: 8
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 12
+  - id: STR_RIGHT_HAND
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 14
+      STR_BACK_PACK: 14
+      STR_BELT: 8
+      STR_GROUND: 2
+      STR_LEFT_HAND: 4
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_LEG: 8
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_LEFT_HAND
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 14
+      STR_BACK_PACK: 14
+      STR_BELT: 8
+      STR_GROUND: 2
+      STR_LEFT_LEG: 8
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 4
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_RIGHT_LEG
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 18
+      STR_BACK_PACK: 18
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 6
+      STR_LEFT_LEG: 10
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 4
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_LEFT_LEG
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 18
+      STR_BACK_PACK: 18
+      STR_BELT: 10
+      STR_GROUND: 6
+      STR_LEFT_HAND: 4
+      STR_LEFT_SHOULDER: 10
+      STR_RIGHT_HAND: 6
+      STR_RIGHT_LEG: 10
+      STR_RIGHT_SHOULDER: 10
+  - id: STR_RIGHT_SHOULDER
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 16
+      STR_BACK_PACK: 16
+      STR_BELT: 10
+      STR_GROUND: 4
+      STR_LEFT_HAND: 3
+      STR_LEFT_LEG: 12
+      STR_LEFT_SHOULDER: 8
+      STR_RIGHT_HAND: 3
+      STR_RIGHT_LEG: 12
+  - id: STR_LEFT_SHOULDER
+    costs:
+      STR_ARMOR_ABILITY_SLOT: 16
+      STR_BACK_PACK: 16
+      STR_BELT: 10
+      STR_GROUND: 4
+      STR_LEFT_HAND: 3
+      STR_LEFT_LEG: 12
+      STR_RIGHT_HAND: 3
+      STR_RIGHT_LEG: 12
+      STR_RIGHT_SHOULDER: 8
 
 extraSprites:
   - type: GEOBORD.SCR #Space
@@ -748,6 +854,7 @@ extraSprites:
     files:
       99: Resources/specialWeapons/BigKnife.png
       100: Resources/ArmorAbilities/PlaceHolder.png
+      101: Resources/ArmorAbilities/BigActiveCamo.png
 
   - type: SPICONS.DAT
     width: 32
