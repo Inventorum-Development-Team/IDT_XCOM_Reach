@@ -126,7 +126,6 @@ crafts:
       - STR_MEDUSA_MISSILE_STRING
       - STR_MEDUSA_MISSILE_STRING
     fixedWeapons: ["STR_30MM_CANNON_UC", "STR_30MM_CANNON_UC", "STR_MEDUSA_MISSILE_UC", "STR_MEDUSA_MISSILE_UC"]
-    soldiers: 1
     vehicles: 0
     allowLanding: false
     costBuy: 50000
@@ -153,7 +152,6 @@ crafts:
       - STR_ASGM10_MISSILE_STRING
       - STR_ASGM10_MISSILE_STRING
     fixedWeapons: ["STR_50MM_CANNON_UC", "STR_50MM_CANNON_UC", "STR_ASGM10_MISSILE_UC", "STR_ASGM10_MISSILE_UC"]
-    soldiers: 1
     vehicles: 0
     allowLanding: false
     costBuy: 50000
