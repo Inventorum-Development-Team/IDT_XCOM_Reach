@@ -325,5 +325,39 @@ extended:
             end;
             return new_pixel;
 
+        - offset: 3
+          code: |
+            var int lock;
+            var int frame;
+            var int temp;
+            var int newshade;
 
+            unit.getTag lock Tag.Lock;
+
+            if eq lock 1;
+              set frame anim_frame;
+              if gt frame 4;
+                set temp frame;
+                muldiv temp 1 4;
+                mul temp 4;
+                sub frame temp;
+                if lt frame 0;
+                  add frame 4;
+                end;
+              end;
+              if and lt frame 4 neq old_pixel 0;
+                get_shade newshade new_pixel;
+                add newshade frame;
+                sub newshade 3;
+                if ge newshade 16;
+                  set newshade 15;
+                end;
+                if lt newshade 0;
+                  set newshade 0;
+                end;
+                set_shade new_pixel newshade;
+                set_color new_pixel COLOR_X1_BLUE1;
+              end;
+            end;
+            return new_pixel;
 

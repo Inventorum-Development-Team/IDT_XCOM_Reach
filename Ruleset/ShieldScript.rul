@@ -122,16 +122,22 @@ extended:
         code: | #Shield hit flash
           var int frame;
           var int breakhit;
+          var int newshade;
 
           unit.getTag frame Tag.HitFrame;
           if neq frame 0;
             sub frame anim_frame;
             if gt frame -2;
-              set_color new_pixel 14;
-              
+              get_shade newshade new_pixel;
+              set_shade new_pixel newshade;
               unit.getTag breakhit Tag.BreakHit;
+              if lt newshade 0;
+                set newshade 0;
+              end;
               if eq breakhit 1;
-                set_color new_pixel 9;
+                set_color new_pixel COLOR_X1_BROWN1;
+              else neq breakhit 1;
+                set_color new_pixel COLOR_X1_SILVER;
               end;
               if gt frame -1;
                 sub new_pixel 1;
