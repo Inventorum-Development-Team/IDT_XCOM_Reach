@@ -57,25 +57,22 @@ items:
   - type: STR_UNARMED_REGULAR_HUMAN
     weight: 0
     bigSprite: 99
-    fireSound: [319, 320, 321]
-    accuracySnap: 150
-    hitAnimation: 160
-    tuSnap: 15
-    confSnap:
-      shots: 1
+    meleeHitSound: [319, 320, 321]
+    accuracyMelee: 150
+    meleeAnimation: 160
+    tuMelee: 15
+    confMelee:
       name: STR_KNIFE
-    clipSize: -1
     experienceTrainingMode: 13
     invWidth: 1
-    invHeight: 2     
-    battleType: 1
+    invHeight: 2
+    clipSize: -1     
+    battleType: 3
     fixedWeapon: true
     recover: false
     specialIconSprite: 2
     specialUseEmptyHand: true
     specialUseEmptyHandShow: false
-    maxRange: 1
-    snapRange: 1
     power: 80
     damageType: 1
     damageBonus:
@@ -1127,23 +1124,17 @@ items:
     bigSprite: 936
     floorSprite: 936
     handSprite: 936
-    fireSound: [223, 224, 225, 226, 227, 228]
+    meleeHitSound: [223, 224, 225, 226, 227, 228]
+    meleeAnimation: 150
     reloadSound: 229
     compatibleAmmo:
       - STR_ENERGY_SWORD_BATTERY
-    accuracySnap: 50
-    accuracyAimed: 100
-    tuSnap: 15
-    tuAimed: 30
-    confAimed:
-      shots: 1
+    accuracyMelee: 100
+    tuMelee: 15
+    confMelee:
       spendPerShot: 10
-      name: STR_THRUST
-    confSnap:
-      shots: 1
-      spendPerShot: 10
-      name: STR_CUT      
-    battleType: 1
+      name: STR_CUT  
+    battleType: 3
     twoHanded: false
     invWidth: 2
     invHeight: 3
@@ -1160,9 +1151,9 @@ items:
     bigSprite: 944
     floorSprite: 928
     damageType: 5
-    hitAnimation: 150
-    power: 200
-    damageAlter:
+    meleeAnimation: 150
+    meleePower: 200
+    meleeAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
       ToArmor: 0.5
@@ -1500,6 +1491,14 @@ extraSprites:
       120: Resources/hitAnimation/PurplePlasmaHit.png
       130: Resources/hitAnimation/NeedlerHit.png
       140: Resources/hitAnimation/GreenCarbineHit.png
+      150: Resources/hitAnimation/PlasmaBladeHit.png
+      160: Resources/hitAnimation/BladeHit.png
+  - type: HIT.PCK
+    height: 40
+    width: 320
+    subX: 32
+    subY: 40
+    files:
       150: Resources/hitAnimation/PlasmaBladeHit.png
       160: Resources/hitAnimation/BladeHit.png
   - type: Projectiles
