@@ -14,6 +14,10 @@ skills:
   - type: STR_DROP_SHIELD_SKILL
     costUse:
       time: 1 
+    compatibleWeapons:
+      - STR_DROP_SHIELD_ITEM
+    checkHandsOnly: false
+    targetMode: 9
     tags:
       ArmorAbility: 3
       AbilityCooldown: 2
@@ -44,21 +48,60 @@ soldiers:
       - STR_HOLO_SKILL
       - STR_CAMO_SKILL
       - STR_LOCK_SKILL
+units:
+  - type: STR_DROP_SHIELD
+    stats:
+      tu: 0
+      stamina: 0
+      health: 10
+      bravery: 500
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 80
+      psiSkill: 0
+      melee: 0
+    armor: STR_DROP_SHIELD_UC
+    standHeight: 12
+    canPanic: false
+    canBeMindControlled: false
+    moraleLossWhenKilled: 0
+    showFullNameInAlienInventory: 1
+
+armors:
+  - type: STR_DROP_SHIELD_UC
+    spriteSheet: DROP_SHIELD_SPRITESHEET.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_DROP_SHIELD_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    loftempsSet: [ 2 ]
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    drawingRoutine: 19
+    visibilityAtDark: 0
+    visibilityAtDay: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+    tags:
+      DropShield: 1
+
 items:
-#   - type: STR_ACTIVE_CAMO
-#     battleType: 6
-#     tuUse: 1
-#     specialIconSprite: 10
-#     medikitActionName: STR_ACTIVATE_CAMO
-#     stimulant: 999
-#     medikitType: 2
-#     medikitTargetSelf: true
-#     fixedWeapon: true
-#     recover: false
-#     specialUseEmptyHand: true
-#     specialUseEmptyHandShow: false
-#     tags:
-#       ArmorAbility: 1
 
   - type: STR_SPRINT_ITEM
     size: 0.1
@@ -88,8 +131,14 @@ items:
     size: 0.1
     weight: 10
     bigSprite: 100
-    battleType: 10
+    battleType: 1
     power: 1
+    clipSize: -1
+    tuAimed: 101
+    accuracyAimed: 100
+    maxRange: 1
+    spawnUnit: STR_DROP_SHIELD
+    spawnUnitFaction: 2
     armor: 60
     invWidth: 2
     invHeight: 2
@@ -125,6 +174,42 @@ items:
     tags:
       ItemAbility: 5
 
+  - type: STR_DROP_SHIELD_CORPSE
+    weight: 25
+    bigSprite: 2013
+    floorSprite: 2013
+    invWidth: 2
+    invHeight: 2
+    battleType: 11
+    recover: false
+    armor: 40
+
+
+
+extraSprites:
+  - type: DROP_SHIELD_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0: Resources/ArmorAbilities/DropShieldUnit.png
+
+  - type: BIGOBS.PCK
+    files:
+      100: Resources/ArmorAbilities/PlaceHolder.png
+      101: Resources/ArmorAbilities/BigActiveCamo.png
+      2013: Resources/ArmorAbilities/BigShieldCorpse.png
+  - type: FLOOROB.PCK
+    files:
+      2013: Resources/ArmorAbilities/FloorShieldCorpse.png
+
+  - type: SPICONS.DAT
+    width: 32
+    height: 24
+    files:
+      10: Resources/specialWeapons/spicon_placeholder.png
+
 extended:
   tags:
     RuleItem:
@@ -137,6 +222,11 @@ extended:
       ActiveCamo: int
       Sprint: int
       Lock: int
+      DropShieldHitFrame: int
+    RuleArmor:
+      DropShield: int
+    BattleGame:
+      ShieldDeployed: int
 
 
   scripts:
@@ -150,6 +240,8 @@ extended:
 
           var int maxtu;
           var int maxreaction;
+
+          var int shieldeployed;
 
           var ptr GeoscapeSoldier soldier;
 
@@ -178,13 +270,26 @@ extended:
             unit.getTag lock Tag.Lock;
             sub lock 1;
             unit.setTag Tag.Lock lock;
+            
+            battle_game.getTag shieldeployed Tag.ShieldDeployed;
+            set shieldeployed 0;
+            battle_game.setTag Tag.ShieldDeployed shieldeployed;
 
 
 
           end;
           return;
 
+    createUnit:
+      - offset: 1
+        code: |
+          var int dropshield;
+          unit.getTag dropshield Tag.DropShield;
+          if eq dropshield 1;
+            unit.setFatalwounds 0 999;
+          end;
 
+          return;
 
     skillUseUnit:
       - offset: 1
@@ -198,6 +303,8 @@ extended:
 
           var int maxtu;
           var int maxreaction;
+
+          var int shieldeployed;
 
           var ptr RuleInventory ability_slot;
           var ptre BattleItem ability_item;
@@ -249,6 +356,12 @@ extended:
             actor.setTag Tag.ActiveCamo 1;
           end;
 
+          if eq armorability 3; #Shield
+            battle_game.getTag shieldeployed Tag.ShieldDeployed;
+            add shieldeployed 1;
+            battle_game.setTag Tag.ShieldDeployed shieldeployed;
+          end;
+
           if eq armorability 5; #Lock
             actor.setTag Tag.Lock 1;
             actor.setTimeUnits 0;
@@ -274,6 +387,90 @@ extended:
     hitUnit:
         - offset: 1
           code: |
+            var int shieldeployed;
+            var int unit_x;
+            var int unit_y;
+            var int unit_z;
+            var int cord_x;
+            var int cord_y;
+            var int cord_z;
+            var int dropshield;
+            var int distanceattacker;
+            var int distancedefender;
+            var int frame;
+
+            var ptr BattleUnit shield_unit;
+            var ptr Tile unit_tile;
+            var ptr Tile attacker_tile;
+            var ptr Tile tile;
+
+            unit.getTag dropshield Tag.DropShield;
+            if eq dropshield 1;
+              BattleUnit.getPosition.getX unit unit_x;
+              BattleUnit.getPosition.getY unit unit_y;
+              BattleUnit.getPosition.getZ unit unit_z;
+              battle_game.getTile unit_tile unit_x unit_y unit_z;
+              BattleUnit.getPosition.getX attacker cord_x;
+              BattleUnit.getPosition.getY attacker cord_y;
+              BattleUnit.getPosition.getZ attacker cord_z;
+              battle_game.getTile attacker_tile cord_x cord_y cord_z;
+              Tile.getDistanceTile unit_tile distanceattacker attacker_tile;
+              if le distanceattacker 1;
+                return power part side;
+              end;
+              BattleGame.getAnimFrame battle_game frame; #Shield hit flash
+              unit.setTag Tag.DropShieldHitFrame frame;
+              set power 0;
+              return power part side;
+            end;
+
+            battle_game.getTag shieldeployed Tag.ShieldDeployed;
+            if ge shieldeployed 1;
+              BattleUnit.getPosition.getX unit unit_x;
+              BattleUnit.getPosition.getY unit unit_y;
+              BattleUnit.getPosition.getZ unit unit_z;
+
+              battle_game.getTile unit_tile unit_x unit_y unit_z;
+
+              set cord_x unit_x;
+              set cord_y unit_y;
+              set cord_z unit_z;
+              sub cord_x 1;
+              sub cord_y 1;
+
+              loop var loop_y 2;
+                loop var loop_x 2;
+                  battle_game.getTile tile cord_x cord_y cord_z;
+
+                  tile.getUnit shield_unit;
+                  shield_unit.getTag dropshield Tag.DropShield;
+                  if eq dropshield 1;
+                    Tile.getDistanceTile unit_tile distancedefender tile;
+                    BattleUnit.getPosition.getX attacker unit_x;
+                    BattleUnit.getPosition.getY attacker unit_y;
+                    BattleUnit.getPosition.getZ attacker unit_z;
+                    battle_game.getTile attacker_tile unit_x unit_y unit_z;
+                    Tile.getDistanceTile attacker_tile distanceattacker tile;
+                    if and le distancedefender 1 gt distanceattacker 1;
+                      set power 0;
+                      BattleGame.getAnimFrame battle_game frame; #Shield hit flash
+                      unit.setTag Tag.DropShieldHitFrame frame;
+                      return power part side;
+                    end;
+                  end;
+                  add cord_x 1;
+                end;
+                sub cord_x 2;
+                add cord_y 1;
+              end;
+
+            end;
+            return power part side;
+
+
+
+        - offset: 2
+          code: |
             var int lock;
 
             unit.getTag lock Tag.Lock;
@@ -283,8 +480,6 @@ extended:
             end;
 
             return power part side;
-
-
 
 
 
@@ -314,11 +509,14 @@ extended:
                 get_shade newshade new_pixel;
                 add newshade frame;
                 add newshade 3;
-                set_shade new_pixel newshade;
-                set_color new_pixel COLOR_X1_NULL;
                 if ge newshade 16;
                   set new_pixel 0;
+                  return new_pixel;
                 end;   
+                sub newshade 15;
+                mul newshade -1;
+                set_shade new_pixel newshade;
+                set_color new_pixel COLOR_X1_NULL;
               else ge frame 4;
                 set new_pixel 0;
               end;
@@ -361,3 +559,24 @@ extended:
             end;
             return new_pixel;
 
+
+        - offset: 5
+          code: | #Shield hit flash
+            var int frame;
+            var int breakhit;
+            var int newshade;
+
+            unit.getTag frame Tag.DropShieldHitFrame;
+            if neq frame 0;
+              sub frame anim_frame;
+              if gt frame -2;
+                get_shade newshade new_pixel;
+                add newshade frame;
+                set_shade new_pixel newshade;
+                if lt newshade 0;
+                  set newshade 0;
+                end;
+                set_color new_pixel COLOR_X1_BLUE2;
+              end;
+            end;
+            return new_pixel; 

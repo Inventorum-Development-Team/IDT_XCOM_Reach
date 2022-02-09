@@ -129,6 +129,7 @@ extended:
             sub frame anim_frame;
             if gt frame -2;
               get_shade newshade new_pixel;
+              add newshade frame;
               set_shade new_pixel newshade;
               unit.getTag breakhit Tag.BreakHit;
               if lt newshade 0;
@@ -138,9 +139,6 @@ extended:
                 set_color new_pixel COLOR_X1_BROWN1;
               else neq breakhit 1;
                 set_color new_pixel COLOR_X1_SILVER;
-              end;
-              if gt frame -1;
-                sub new_pixel 1;
               end;
             end;
           end;
