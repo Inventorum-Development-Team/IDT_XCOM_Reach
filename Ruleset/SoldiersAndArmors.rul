@@ -917,6 +917,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
   - type: SPI_ARMOR_SPRITESHEET_RED.PCK
     subX: 32
     subY: 40
@@ -924,6 +925,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_RED.png
+      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
   - type: SPI_ARMOR_SPRITESHEET_BLUE.PCK
     subX: 32
     subY: 40
@@ -931,6 +933,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_BLUE.png
+      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
   - type: SPI_ARMOR_SPRITESHEET_GRAY.PCK
     subX: 32
     subY: 40
@@ -938,6 +941,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY.png
+      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
   - type: ODST_BDU_SPRITESHEET.PCK
     subX: 32
     subY: 40

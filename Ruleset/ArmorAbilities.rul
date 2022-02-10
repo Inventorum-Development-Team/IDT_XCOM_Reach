@@ -69,6 +69,26 @@ units:
     moraleLossWhenKilled: 0
     showFullNameInAlienInventory: 1
 
+  - type: STR_HOLOGRAM
+    stats:
+      tu: 80
+      stamina: 120
+      health: 10
+      bravery: 500
+      reactions: 20
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 80
+      psiSkill: 0
+      melee: 0
+    armor: STR_HOLOGRAM_UC
+    standHeight: 22
+    canPanic: false
+    canBeMindControlled: false
+    moraleLossWhenKilled: 0
+    showFullNameInAlienInventory: 1
+
 armors:
   - type: STR_DROP_SHIELD_UC
     spriteSheet: DROP_SHIELD_SPRITESHEET.PCK
@@ -101,6 +121,37 @@ armors:
     tags:
       DropShield: 1
 
+  - type: STR_HOLOGRAM_UC
+    spriteSheet: SPI_ARMOR_SPRITESHEET.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOLOGRAM_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    loftempsSet: [ 0 ]
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    allowsKneeling: false
+    drawingRoutine: 0
+    visibilityAtDark: 0
+    visibilityAtDay: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+    tags:
+      Hologram: 1
 items:
 
   - type: STR_SPRINT_ITEM
@@ -139,6 +190,7 @@ items:
     maxRange: 1
     spawnUnit: STR_DROP_SHIELD
     spawnUnitFaction: 2
+    hitAnimation: -1
     armor: 60
     invWidth: 2
     invHeight: 2
@@ -154,6 +206,9 @@ items:
     clipSize: -1
     tuAimed: 101
     accuracyAimed: 100
+    spawnUnit: STR_HOLOGRAM
+    spawnUnitFaction: 0
+    hitAnimation: -1
     maxRange: 1
     armor: 60
     invWidth: 2
@@ -183,6 +238,15 @@ items:
     battleType: 11
     recover: false
     armor: 40
+  - type: STR_HOLOGRAM_CORPSE
+    weight: 25
+    bigSprite: 2014
+    floorSprite: 2014
+    invWidth: 2
+    invHeight: 1
+    battleType: 11
+    recover: false
+    armor: 40
 
 
 
@@ -200,9 +264,11 @@ extraSprites:
       100: Resources/ArmorAbilities/PlaceHolder.png
       101: Resources/ArmorAbilities/BigActiveCamo.png
       2013: Resources/ArmorAbilities/BigShieldCorpse.png
+      2014: Resources/ArmorAbilities/BigHologramCorpse.png
   - type: FLOOROB.PCK
     files:
       2013: Resources/ArmorAbilities/FloorShieldCorpse.png
+      2014: Resources/ArmorAbilities/FloorHologramCorpse.png
 
   - type: SPICONS.DAT
     width: 32
@@ -223,10 +289,13 @@ extended:
       Sprint: int
       Lock: int
       DropShieldHitFrame: int
+      Gender: int
     RuleArmor:
       DropShield: int
+      Hologram: int
     BattleGame:
       ShieldDeployed: int
+      GenderCarry: int
 
 
   scripts:
@@ -290,6 +359,21 @@ extended:
           end;
 
           return;
+      - offset: 2
+        code: |
+          var int hologram;
+          var int maxtu;
+          var int gender;
+          unit.getTag hologram Tag.Hologram;
+          if eq hologram 1;
+            unit.getTimeUnitsMax maxtu;
+            unit.setTimeUnits maxtu;
+            unit.setFatalwounds 0 999;
+            battle_game.getTag gender Tag.GenderCarry;
+            unit.setTag Tag.Gender gender;
+          end;
+
+          return;
 
     skillUseUnit:
       - offset: 1
@@ -305,6 +389,8 @@ extended:
           var int maxreaction;
 
           var int shieldeployed;
+
+          var int gender;
 
           var ptr RuleInventory ability_slot;
           var ptre BattleItem ability_item;
@@ -360,6 +446,11 @@ extended:
             battle_game.getTag shieldeployed Tag.ShieldDeployed;
             add shieldeployed 1;
             battle_game.setTag Tag.ShieldDeployed shieldeployed;
+          end;
+
+          if eq armorability 4; #Holo
+            actor.getGender gender;
+            battle_game.setTag Tag.GenderCarry gender;
           end;
 
           if eq armorability 5; #Lock
@@ -482,6 +573,16 @@ extended:
             return power part side;
 
 
+    selectUnitSprite:
+        - offset: 2
+          code: |
+            var int gender;
+            unit.getTag gender Tag.Gender;
+            if eq gender 1;
+              add sprite_index 1000;
+              debug_log "test";
+            end;
+            return sprite_index;
 
 
     recolorUnitSprite:
@@ -561,7 +662,7 @@ extended:
 
 
         - offset: 5
-          code: | #Shield hit flash
+          code: | #Drop shield hit flash
             var int frame;
             var int breakhit;
             var int newshade;
@@ -580,3 +681,18 @@ extended:
               end;
             end;
             return new_pixel; 
+
+
+        - offset: 6
+          code: | #Hologram recolour
+            var int hologram;
+            var int newshade;
+            unit.getTag hologram Tag.Hologram;
+
+            if eq hologram 1;
+              get_shade newshade new_pixel;
+              set_shade new_pixel newshade;
+              set_color new_pixel COLOR_X1_BLUE1;
+            end;
+            return new_pixel;
+        
