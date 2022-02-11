@@ -306,6 +306,8 @@ extended:
           var int activecamo;
           var int sprint;
           var int lock;
+          var int faction;
+          var int turnside;
 
           var int maxtu;
           var int maxreaction;
@@ -314,7 +316,10 @@ extended:
 
           var ptr GeoscapeSoldier soldier;
 
-          if eq side FACTION_PLAYER;
+          unit.getFaction faction;
+          battle_game.getTurnSide turnside;
+
+          if and eq turnside FACTION_PLAYER eq faction FACTION_PLAYER;
             unit.getTag armorcooldown Tag.ArmorCooldown;
             sub armorcooldown 1;
             unit.setTag Tag.ArmorCooldown armorcooldown;
