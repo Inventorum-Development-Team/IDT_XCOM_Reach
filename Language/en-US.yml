@@ -253,6 +253,7 @@ en-US:
   STR_WRONG_ABILITY: "Wrong ability equipped!"
   STR_NOT_KNEELING: "Soldier not kneeling!"
   STR_ARMOR_ABILITIES: "Armor Abilities"
+  STR_ARMOR_ABILITIES_UC: "ARMOR ABILITIES"
   STR_ARMOR_ABILITIES_UFOPEDIA: "Armor abilities consists of a series of attachments that provide spartans with new tactical options. {NEWLINE}{NEWLINE}{ALT}To use an ability move it onto the 'Ability' slot in a units inventory, and activate it trough the special weapon button."
   STR_SPRINT_SKILL_UFOPEDIA: "The Sprint ability allows the user to push their armor past safe limits for a momentary increase in speed. {NEWLINE}{NEWLINE}{ALT}Grants 40 time units, however also reduces reactions by 40 for one turn."
   STR_CAMO_SKILL_UFOPEDIA: "The Active Camouflage allows the user to blend themselves into their surroundings, practically becoming invisible to all but the keenest of senses. {NEWLINE}{NEWLINE}{ALT}Hides the user from any unit further than 5 tiles away for one turn."
