@@ -755,6 +755,139 @@ alienDeployments:
     length: 50
     height: 10
 
+  - type: STR_ALIEN_BASE_ASSAULT
+    data:
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 6
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 4
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 3
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 2
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+    width: 20
+    length: 60
+    height: 2
+    briefing:
+      palette: 6
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+    terrains:
+      - UBASE
+    shade: 15
+    script: ALIENBASE
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 5
+
 #####################################
 
   - type: STR_CAMPAIGN_FINAL_EVACUATION
