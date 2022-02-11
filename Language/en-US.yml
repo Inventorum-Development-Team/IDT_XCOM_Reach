@@ -252,6 +252,16 @@ en-US:
   STR_ON_COOLDOWN: "Ability on cooldown!"
   STR_WRONG_ABILITY: "Wrong ability equipped!"
   STR_NOT_KNEELING: "Soldier not kneeling!"
+  STR_ARMOR_ABILITIES: "Armor Abilities"
+  STR_ARMOR_ABILITIES_UFOPEDIA: "Armor abilities consists of a series of attachments that provide spartans with new tactical options. {NEWLINE}{NEWLINE}{ALT}To use an ability move it onto the 'Ability' slot in a units inventory, and activate it trough the special weapon button."
+  STR_SPRINT_SKILL_UFOPEDIA: "The Sprint ability allows the user to push their armor past safe limits for a momentary increase in speed. {NEWLINE}{NEWLINE}{ALT}Grants 40 time units, however also reduces reactions by 40 for one turn."
+  STR_CAMO_SKILL_UFOPEDIA: "The Active Camouflage allows the user to blend themselves into their surroundings, practically becoming invisible to all but the keenest of senses. {NEWLINE}{NEWLINE}{ALT}Hides the user from any unit further than 5 tiles away for one turn."
+  STR_DROP_SHIELD_SKILL_UFOPEDIA: "The Drop Shield allows the user to place a emitter that projects a spherical protective energy shield, protecting anyone within it from outside attacks.{NEWLINE}{NEWLINE}{ALT}Any unit within a one tile radius of the emitter is impervious to any attacks from outside the one tile radius."
+  STR_HOLO_SKILL_UFOPEDIA: "The Hologram ability allows the user to create a holographic copy of themselves to deceive the enemy and to draw their fire.{NEWLINE}{NEWLINE}{ALT}The hologram will dissipate after one turn."
+  STR_LOCK_SKILL_UFOPEDIA: "The Armor Lock ability allows the user to project a powerful energy shield around themselves, making them nigh invulnerable to all damage. However the user remains immobile while the shield is active. {NEWLINE}{NEWLINE}{ALT}Makes the user impervious to all damage for a turn, all time units are expended on activation.{NEWLINE}{NEWLINE}User must be kneeling when activating the ability."
+
+
+
 ######################
   STR_COVENANT_TECH: "COVENANT TECH"
   STR_SANGHEILI_LANCE: "Elite Lance"
