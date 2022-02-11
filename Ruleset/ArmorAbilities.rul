@@ -10,7 +10,7 @@ skills:
       time: 1 
     tags:
       ArmorAbility: 2
-      AbilityCooldown: 2
+      AbilityCooldown: 4
   - type: STR_DROP_SHIELD_SKILL
     costUse:
       time: 1 
@@ -20,7 +20,7 @@ skills:
     targetMode: 9
     tags:
       ArmorAbility: 3
-      AbilityCooldown: 2
+      AbilityCooldown: 5
   - type: STR_HOLO_SKILL
     costUse:
       time: 1
@@ -36,7 +36,7 @@ skills:
       time: 1 
     tags:
       ArmorAbility: 5
-      AbilityCooldown: 2
+      AbilityCooldown: 4
 
 
 soldiers:
