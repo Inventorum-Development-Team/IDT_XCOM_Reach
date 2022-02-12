@@ -464,37 +464,37 @@ ufopaedia:
     text: STR_JACKAL_SHIELD_GAUNTLET_UFOPEDIA
   - id: STR_ARMOR_ABILITIES
     type_id: 7
-    section: STR_UNSC_ARMORS
+    section: STR_ARMOR_ABILITIES_UC
     image_id: ODST_REPORT_IMAGE
     text: STR_ARMOR_ABILITIES_UFOPEDIA
     text_width: 135
   - id: STR_SPRINT_SKILL
     type_id: 7
-    section: STR_UNSC_ARMORS
+    section: STR_ARMOR_ABILITIES_UC
     image_id: ODST_REPORT_IMAGE
     text: STR_SPRINT_SKILL_UFOPEDIA
     text_width: 135
   - id: STR_CAMO_SKILL
     type_id: 7
-    section: STR_UNSC_ARMORS
+    section: STR_ARMOR_ABILITIES_UC
     image_id: ODST_REPORT_IMAGE
     text: STR_CAMO_SKILL_UFOPEDIA
     text_width: 135
   - id: STR_DROP_SHIELD_SKILL
     type_id: 7
-    section: STR_UNSC_ARMORS
+    section: STR_ARMOR_ABILITIES_UC
     image_id: ODST_REPORT_IMAGE
     text: STR_DROP_SHIELD_SKILL_UFOPEDIA
     text_width: 135
   - id: STR_HOLO_SKILL
     type_id: 7
-    section: STR_UNSC_ARMORS
+    section: STR_ARMOR_ABILITIES_UC
     image_id: ODST_REPORT_IMAGE
     text: STR_HOLO_SKILL_UFOPEDIA
     text_width: 135
   - id: STR_LOCK_SKILL
     type_id: 7
-    section: STR_UNSC_ARMORS
+    section: STR_ARMOR_ABILITIES_UC
     image_id: ODST_REPORT_IMAGE
     text: STR_LOCK_SKILL_UFOPEDIA
     text_width: 135
