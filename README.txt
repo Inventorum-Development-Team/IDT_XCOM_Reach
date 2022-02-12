@@ -27,7 +27,7 @@ Credits:
 *Drakon: tester
 *Drages: Plasma and Needler hitAnimations
 *Grand-Lobster-King: All Grunts paperdolls (modified to fit OXC size and palettes)
-*InnerRyag & NRE Team: Jackal Shield Gauntlets, Sangheili & Jackal Corpse sprites, Plasma Grenade sprites (modified)
+*InnerRyag & NRE Team: Jackal Shield Gauntlets, Sangheili & Jackal Corpse sprites, Covenant supply box tiles (modified)
 *Isaac Hannaford: conceptual art used on menu backgrounds
 *Kael Schwabauer: testers
 *Kenny Magnusson: conceptual art used on menu backgrounds
@@ -41,7 +41,8 @@ Credits:
 *Stephen Rippy: original Halo Wars soundtrack
 *Tal'Raziid: tester
 *Wallz2296: All Sangheili paperdolls (modified to fit OXC size and palettes)
-*XCROSS: UI ruleset template
+*XOps: Covenant ship and craft tiles (changed color)
+*XROSS: UI ruleset template
 
 
 ==================================================

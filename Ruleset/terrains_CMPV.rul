@@ -415,14 +415,14 @@ terrains:
         width: 20
         length: 20
         groups: 3
-      - name: EXPANDEDUBASE_00C #03 #Command Center E
-        width: 20
-        length: 20
-        groups: 3
-      - name: EXPANDEDUBASE_00D #04 #Command Center S
-        width: 20
-        length: 20
-        groups: 3
+     # - name: EXPANDEDUBASE_00C #03 #Command Center E
+      #  width: 20
+       # length: 20
+        #groups: 3
+     # - name: EXPANDEDUBASE_00D #04 #Command Center S
+      #  width: 20
+       # length: 20
+        #groups: 3
       - name: CBASE_01 #05 #Large Garden W
         width: 20
         length: 20
@@ -512,41 +512,41 @@ terrains:
         length: 10
         groups: 2
         revealedFloors: 1
-      - name: EXPANDEDUBASE_04B #34 #Entrance NE
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: EXPANDEDUBASE_04C #35 #Entrance SE
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: EXPANDEDUBASE_04D #36 #Entrance SW
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: EXPANDEDUBASE_04E #37 #Entrance Light NW
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: EXPANDEDUBASE_04F #38 #Entrance Light NE
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: EXPANDEDUBASE_04G #39 #Entrance Light SE
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
-      - name: EXPANDEDUBASE_04H #40 #Entrance Light SW
-        width: 10
-        length: 10
-        groups: 2
-        revealedFloors: 1
+   #   - name: EXPANDEDUBASE_04B #34 #Entrance NE
+    #    width: 10
+     #   length: 10
+      #  groups: 2
+       # revealedFloors: 1
+ #     - name: EXPANDEDUBASE_04C #35 #Entrance SE
+  #      width: 10
+   #     length: 10
+    #    groups: 2
+     #   revealedFloors: 1
+ #     - name: EXPANDEDUBASE_04D #36 #Entrance SW
+  #      width: 10
+   #     length: 10
+    #    groups: 2
+     #   revealedFloors: 1
+ #     - name: EXPANDEDUBASE_04E #37 #Entrance Light NW
+  #      width: 10
+   #     length: 10
+    #    groups: 2
+     #   revealedFloors: 1
+ #     - name: EXPANDEDUBASE_04F #38 #Entrance Light NE
+  #      width: 10
+   #     length: 10
+    #    groups: 2
+     #   revealedFloors: 1
+ #     - name: EXPANDEDUBASE_04G #39 #Entrance Light SE
+  #      width: 10
+   #     length: 10
+    #    groups: 2
+     #   revealedFloors: 1
+ #     - name: EXPANDEDUBASE_04H #40 #Entrance Light SW
+  #      width: 10
+   #     length: 10
+    #    groups: 2
+     #   revealedFloors: 1
       - name: CBASE_05 #41 #Small Storage U S
         width: 10
         length: 10

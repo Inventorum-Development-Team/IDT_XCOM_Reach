@@ -66,15 +66,18 @@ ufos:
       name: SPIRIT_DROPSHIP
       mapDataSets:
         - BLANKS
-        - U_EXT02_PURPLE
-        - U_WALL02_PURPLE
-        - U_BITS
-        - COVENANT_SHIP_PURPLE
+        - COVENANT_XOPS_EXT
+        - COVENANT_XOPS_FLOORS
+        - COVENANT_XOPS_ITEMS1
+        - COVENANT_XOPS_ITEMS2
+        - COVENANT_XOPS_WALLS
+        - COVENANT_SPIRIT_DOOR
+        - COVENANT_GLOW
       mapBlocks:
-        - name: SPIRIT_DROPSHIP00
+        - name: SPIRIT_DROPSHIP_XOPS01
           width: 20
           length: 20
-        - name: SPIRIT_DROPSHIP01
+        - name: SPIRIT_DROPSHIP_XOPS02
           width: 20
           length: 20
 
@@ -95,18 +98,17 @@ ufos:
     hunterKillerPercentage: 50
     breakOffTime: 80
     battlescapeTerrainData:
-      name: SPIRIT_DROPSHIP
+      name: CBASE_GRAVLIFT
       mapDataSets:
         - BLANKS
-        - U_EXT02_PURPLE
-        - U_WALL02_PURPLE
-        - U_BITS
+        - COVENANT_BASE
+        - COVENANT_WALL02
+        - COVENANT_PODS
+        - COVENANT_HOLOGRAMS
+        - COVENANT_XOPS_ITEMS2
         - COVENANT_SHIP_PURPLE
       mapBlocks:
-        - name: SPIRIT_DROPSHIP00
-          width: 20
-          length: 20
-        - name: SPIRIT_DROPSHIP01
+        - name: CBASE_GRAVLIFT
           width: 20
           length: 20
 
@@ -125,18 +127,17 @@ ufos:
     breakOffTime: 80
     huntBehavior: 0
     battlescapeTerrainData:
-      name: SPIRIT_DROPSHIP
+      name: CBASE_GRAVLIFT
       mapDataSets:
         - BLANKS
-        - U_EXT02_PURPLE
-        - U_WALL02_PURPLE
-        - U_BITS
+        - COVENANT_BASE
+        - COVENANT_WALL02
+        - COVENANT_PODS
+        - COVENANT_HOLOGRAMS
+        - COVENANT_XOPS_ITEMS2
         - COVENANT_SHIP_PURPLE
       mapBlocks:
-        - name: SPIRIT_DROPSHIP00
-          width: 20
-          length: 20
-        - name: SPIRIT_DROPSHIP01
+        - name: CBASE_GRAVLIFT
           width: 20
           length: 20
 
@@ -155,18 +156,17 @@ ufos:
     breakOffTime: 80
     huntBehavior: 0
     battlescapeTerrainData:
-      name: SPIRIT_DROPSHIP
+      name: CBASE_GRAVLIFT
       mapDataSets:
         - BLANKS
-        - U_EXT02_PURPLE
-        - U_WALL02_PURPLE
-        - U_BITS
+        - COVENANT_BASE
+        - COVENANT_WALL02
+        - COVENANT_PODS
+        - COVENANT_HOLOGRAMS
+        - COVENANT_XOPS_ITEMS2
         - COVENANT_SHIP_PURPLE
       mapBlocks:
-        - name: SPIRIT_DROPSHIP00
-          width: 20
-          length: 20
-        - name: SPIRIT_DROPSHIP01
+        - name: CBASE_GRAVLIFT
           width: 20
           length: 20
   - type: STR_CAS_CLASS_ASSAULT_CARRIER
@@ -184,17 +184,16 @@ ufos:
     breakOffTime: 80
     huntBehavior: 0
     battlescapeTerrainData:
-      name: SPIRIT_DROPSHIP
+      name: CBASE_GRAVLIFT
       mapDataSets:
         - BLANKS
-        - U_EXT02_PURPLE
-        - U_WALL02_PURPLE
-        - U_BITS
+        - COVENANT_BASE
+        - COVENANT_WALL02
+        - COVENANT_PODS
+        - COVENANT_HOLOGRAMS
+        - COVENANT_XOPS_ITEMS2
         - COVENANT_SHIP_PURPLE
       mapBlocks:
-        - name: SPIRIT_DROPSHIP00
-          width: 20
-          length: 20
-        - name: SPIRIT_DROPSHIP01
+        - name: CBASE_GRAVLIFT
           width: 20
           length: 20
