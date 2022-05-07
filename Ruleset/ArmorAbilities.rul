@@ -137,8 +137,8 @@ armors:
     zombiImmune: true
     allowsKneeling: false
     drawingRoutine: 0
-    visibilityAtDark: 0
-    visibilityAtDay: 0
+    visibilityAtDark: 1
+    visibilityAtDay: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -157,6 +157,7 @@ items:
   - type: STR_SPRINT_ITEM
     size: 0.1
     weight: 10
+    costBuy: 200000
     bigSprite: 100
     battleType: 10
     power: 1
@@ -169,6 +170,7 @@ items:
   - type: STR_CAMO_ITEM
     size: 0.1
     weight: 10
+    costBuy: 500000
     bigSprite: 101
     battleType: 10
     power: 1
@@ -181,6 +183,7 @@ items:
   - type: STR_DROP_SHIELD_ITEM
     size: 0.1
     weight: 10
+    costBuy: 1000000
     bigSprite: 100
     battleType: 1
     power: 1
@@ -200,6 +203,7 @@ items:
   - type: STR_HOLO_ITEM
     size: 0.1
     weight: 10
+    costBuy: 200000
     bigSprite: 100
     battleType: 1
     power: 1
@@ -219,6 +223,7 @@ items:
   - type: STR_LOCK_ITEM
     size: 0.1
     weight: 10
+    costBuy: 500000
     bigSprite: 100
     battleType: 10
     power: 1
