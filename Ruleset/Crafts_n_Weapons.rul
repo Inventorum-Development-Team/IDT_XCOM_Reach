@@ -36,6 +36,18 @@ crafts:
         - name: PARIS_FRIGATE_DROPPODS
           width: 10
           length: 20
+          items:
+            STR_DROPPOD_BOMB:
+              - [1, 4, 0]
+              - [4, 1, 0]
+              - [7, 5, 0]
+              - [6, 9, 0]
+              - [2, 12, 0]
+              - [8, 13, 0]
+              - [1, 17, 0]
+              - [7, 17, 0]
+          fuseTimers:
+            STR_DROPPOD_BOMB: [1, 1]
     deployment:
       - [1, 4, 0, 4]
       - [4, 1, 0, 4]
@@ -85,6 +97,22 @@ crafts:
         - name: CHARON_FRIGATE_DROPPODS
           width: 20
           length: 20
+          items:
+            STR_DROPPOD_BOMB:
+              - [1, 2, 0]
+              - [6, 1, 0]
+              - [11, 2, 0]
+              - [16, 1, 0]
+              - [1, 8, 0]
+              - [6, 7, 0]
+              - [11, 9, 0]
+              - [15, 7, 0]
+              - [3, 15, 0]
+              - [8, 14, 0]
+              - [13, 17, 0]
+              - [15, 13, 0]
+          fuseTimers:
+            STR_DROPPOD_BOMB: [1, 1]
     deployment:
       - [1, 2, 0, 2]
       - [6, 1, 0, 2]
@@ -572,6 +600,26 @@ items:
     # costSell: 27000
     transferTime: 48
 
+  - type: STR_DROPPOD_BOMB #bomb for opening droppods
+    power: 1
+    weight: 999
+    damageType: 3
+    damageAlter:
+      FixRadius: 2
+      ArmorEffectiveness: 1
+      ToArmor: 0.0
+      ToItem: 0.0
+      ToHealth: 0.0
+      ToTile: 244.0
+      RadiusReduction: 0.0
+      ToWound: 0
+      RandomType: 3
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    armor: 255
+    recover: false
+    hiddenOnMinimap: true
 ####################################
 
 extraSprites:
