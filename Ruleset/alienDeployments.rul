@@ -14,76 +14,6 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
             - STR_PLASMA_GRENADE
-    reinforcements:
-      - type: covvie_firstwave_easy
-        briefing:
-          palette: 6
-          textOffset: -16
-          title: STR_COVENANT_REINFORCEMENTS_TITLE
-          desc: STR_COVENANT_REINFORCEMENTS_DESC
-          music: GMNEWMAR
-          background: COVENANT_REINFORCEMENTS_BACKGROUND
-          showCraft: false
-          showTarget: false
-        minDifficulty: 0
-        maxDifficulty: 4
-        objectiveDestroyed: false
-        turns: [1,6]
-        minTurn: 1
-        maxTurn: 6
-        executionOdds: 100
-        #maxRuns: 2
-        mapBlockFilterType: 2
-        spawnBlocks: [EDGES]
-        spawnBlockGroups: [7, 8, 9]
-        useSpawnNodes: true
-        spawnNodeRanks: [3, 2]
-        spawnZLevels: [2, 3]
-        randomizeZLevels: false
-        minDistanceFromXcomUnits: 5
-        maxDistanceFromBorders: 2
-        forceSpawnNearFriend: true
-        data:
-          - alienRank: 5
-            lowQty: 4
-            highQty: 8
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 100
-            itemSets:
-              - [ STR_ALIEN_GRENADE ]
-              - [ STR_ALIEN_GRENADE ]
-              - [ STR_ALIEN_GRENADE ]
-          - alienRank: 4
-            lowQty: 4
-            highQty: 8
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 100
-            itemSets:
-              - [ STR_ALIEN_GRENADE ]
-              - [ STR_ALIEN_GRENADE ]
-              - [ STR_ALIEN_GRENADE ]
-          - alienRank: 3
-            lowQty: 2
-            highQty: 4
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 100
-            itemSets:
-              - [ STR_ALIEN_GRENADE ]
-              - [ STR_ALIEN_GRENADE ]
-              - [ STR_ALIEN_GRENADE ]
-          - alienRank: 1
-            lowQty: 1
-            highQty: 2
-            dQty: 0
-            extraQty: 0
-            percentageOutsideUfo: 100
-            itemSets:
-              - [ STR_ALIEN_GRENADE ]
-              - [ STR_ALIEN_GRENADE ]
-              - [ STR_ALIEN_GRENADE ]
     width: 40
     length: 40
     height: 10
@@ -877,7 +807,7 @@ alienDeployments:
           showCraft: false
           showTarget: false
         minDifficulty: 0
-        maxDifficulty: 3
+        maxDifficulty: 2
         objectiveDestroyed: false
         turns: [3,6]
         minTurn: 3
@@ -886,21 +816,18 @@ alienDeployments:
         maxRuns: 2
         mapBlockFilterType: 2
         spawnBlocks: [EDGES]
-        spawnBlockGroups: [7, 8, 9]
-        useSpawnNodes: true
-        spawnNodeRanks: [3, 2]
-        spawnZLevels: [2, 3]
+        spawnZLevels: [0]
         randomizeZLevels: false
         minDistanceFromXcomUnits: 10
         maxDistanceFromBorders: 2
-        forceSpawnNearFriend: true
+        forceSpawnNearFriend: false
         data:
           - alienRank: 5
             lowQty: 4
             highQty: 8
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -910,7 +837,7 @@ alienDeployments:
             highQty: 8
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -920,7 +847,7 @@ alienDeployments:
             highQty: 4
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -930,7 +857,7 @@ alienDeployments:
             highQty: 2
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -955,21 +882,18 @@ alienDeployments:
         maxRuns: 2
         mapBlockFilterType: 2
         spawnBlocks: [EDGES]
-        spawnBlockGroups: [7, 8, 9]
-        useSpawnNodes: true
-        spawnNodeRanks: [3, 2]
-        spawnZLevels: [2, 3]
+        spawnZLevels: [0]
         randomizeZLevels: false
         minDistanceFromXcomUnits: 10
         maxDistanceFromBorders: 2
-        forceSpawnNearFriend: true
+        forceSpawnNearFriend: false
         data:
           - alienRank: 5
             lowQty: 4
             highQty: 8
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -979,7 +903,7 @@ alienDeployments:
             highQty: 8
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -989,7 +913,7 @@ alienDeployments:
             highQty: 4
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -999,7 +923,7 @@ alienDeployments:
             highQty: 4
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -1009,7 +933,7 @@ alienDeployments:
             highQty: 6
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
@@ -1019,7 +943,7 @@ alienDeployments:
             highQty: 4
             dQty: 0
             extraQty: 0
-            percentageOutsideUfo: 100
+            percentageOutsideUfo: 0
             itemSets:
               - [ STR_ALIEN_GRENADE ]
               - [ STR_ALIEN_GRENADE ]
