@@ -219,8 +219,8 @@ armors:
     rearArmor: 30
     underArmor: 10
     movementType: 0
-    camouflageAtDark: 5
-    camouflageAtDay: 7
+    camouflageAtDark: -5
+    camouflageAtDay: -7
     damageModifier:
       - 1.0
       - 0.9
@@ -252,8 +252,8 @@ armors:
     rearArmor: 30
     underArmor: 10
     movementType: 0
-    camouflageAtDark: 5
-    camouflageAtDay: 7
+    camouflageAtDark: -5
+    camouflageAtDay: -7
     damageModifier:
       - 1.0
       - 0.9
@@ -285,8 +285,8 @@ armors:
     rearArmor: 30
     underArmor: 10
     movementType: 0
-    camouflageAtDark: 5
-    camouflageAtDay: 7
+    camouflageAtDark: -5
+    camouflageAtDay: -7
     damageModifier:
       - 1.0
       - 0.9
@@ -318,8 +318,8 @@ armors:
     rearArmor: 30
     underArmor: 10
     movementType: 0
-    camouflageAtDark: 5
-    camouflageAtDay: 7
+    camouflageAtDark: -5
+    camouflageAtDay: -7
     damageModifier:
       - 1.0
       - 0.9
@@ -361,8 +361,8 @@ armors:
     rearArmor: 20
     underArmor: 15
     movementType: 0
-    camouflageAtDark: 6
-    camouflageAtDay: 10
+    camouflageAtDark: -3
+    camouflageAtDay: -1
     damageModifier:
       - 1.0
       - 0.9
