@@ -40,7 +40,7 @@ skills:
 
 
 soldiers:
-  - type: STR_SPARTAN_III
+  - type: STR_SPARTAN_III #ignoreDuplicate 
     skillIconSprite: 10
     skills:
       - STR_SPRINT_SKILL
