@@ -141,5 +141,3 @@ startingBase:
     STR_M6C_SOCOM: 2
     STR_M6C_MAG: 6
     STR_SMOKE_GRENADE: 5
-  scientists: 10
-  engineers: 10
