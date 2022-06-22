@@ -20,7 +20,7 @@ extended:
 #Shield-breaking hit might currently deal less wounds than if the shield-piercing amount of damage would hit a unshielded unit
 
     hitUnit:
-      - offset: 1
+      - offset: 3
         code: | #Revised shield script
           var int mana;
           var int frame;
@@ -45,7 +45,7 @@ extended:
             damagingRuleItem.getDamageType damagingRuleDamage;
             damagingRuleDamage.getDamageToMana toMana 100;
             muldiv origPower toMana 100;
-            debug_log origPower;
+            #debug_log origPower;
             sub mana origPower;
             if le mana 0;
               set mana 0;
@@ -118,23 +118,27 @@ extended:
         
 
     recolorUnitSprite:
-      - offset: 1
+      - offset: 4
         code: | #Shield hit flash
           var int frame;
           var int breakhit;
+          var int newshade;
 
           unit.getTag frame Tag.HitFrame;
           if neq frame 0;
             sub frame anim_frame;
             if gt frame -2;
-              set_color new_pixel 14;
-              
+              get_shade newshade new_pixel;
+              add newshade frame;
+              set_shade new_pixel newshade;
               unit.getTag breakhit Tag.BreakHit;
-              if eq breakhit 1;
-                set_color new_pixel 9;
+              if lt newshade 0;
+                set newshade 0;
               end;
-              if gt frame -1;
-                sub new_pixel 1;
+              if eq breakhit 1;
+                set_color new_pixel COLOR_X1_BROWN1;
+              else neq breakhit 1;
+                set_color new_pixel COLOR_X1_SILVER;
               end;
             end;
           end;
