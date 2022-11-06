@@ -96,7 +96,7 @@ items:
     handSprite: 592
     battleType: 6
     invWidth: 1
-    invHeight: 1
+    invHeight: 2
     painKiller: 10
     heal: 10
     stimulant: 10
