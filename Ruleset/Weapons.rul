@@ -250,7 +250,7 @@ items:
     size: 0.2
     costBuy: 1686
     costSell: 1265
-    weight: 6
+    weight: 11
     bigSprite: 272
     floorSprite: 272
     handSprite: 272
@@ -269,7 +269,7 @@ items:
     accuracySnap: 50
     accuracyAimed: 70
     tuSnap: 15
-    tuAimed: 15
+    tuAimed: 20
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -311,7 +311,7 @@ items:
     size: 0.2
     costBuy: 1686
     costSell: 1265
-    weight: 6
+    weight: 10
     bigSprite: 296
     floorSprite: 296
     handSprite: 296
@@ -319,10 +319,12 @@ items:
     reloadSound: [113, 114, 115]
     compatibleAmmo:
       - STR_M392_MAG
-    accuracySnap: 50
-    accuracyAimed: 65
-    tuSnap: 15
-    tuAimed: 25
+    accuracySnap: 65
+    accuracyAimed: 75
+    accuracyMultiplier:
+      firing: [0.0, 0.0175]
+    tuSnap: 13
+    tuAimed: 18
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -366,12 +368,14 @@ items:
     invWidth: 2       # 2x3 in inventory.
     invHeight: 3
     battleType: 1     # 1 = firearm
-    weight: 12
+    weight: 16
     compatibleAmmo:         #Battle Stats
       - STR_SRS99_MAG       #
     twoHanded: true         #
     accuracySnap: 50        #
     accuracyAimed: 110      #
+    accuracyMultiplier:
+      firing: [0.0, 0.0175]
     tuSnap: 30              #
     tuAimed: 40             #
     maxRange: 200           #
