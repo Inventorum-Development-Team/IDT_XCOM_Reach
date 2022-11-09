@@ -606,6 +606,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/BACK05.PNG
+  - type: BACK08.SCR #Weapons
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK08.PNG
   - type: BACK12.SCR #Launch Interceptor
     singleImage: true
     width: 320
