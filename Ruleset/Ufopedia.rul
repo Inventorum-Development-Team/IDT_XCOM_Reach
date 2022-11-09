@@ -458,40 +458,43 @@ ufopaedia:
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
     text: STR_JACKAL_SHIELD_GAUNTLET_UFOPEDIA
+###############################
+##### COVENANT WEAPONS #######
+##############################
   - id: STR_ARMOR_ABILITIES
     type_id: 7
     section: STR_ARMOR_ABILITIES_UC
-    image_id: ODST_REPORT_IMAGE
+    image_id: ARMOR_ABILITY_IMAGE
     text: STR_ARMOR_ABILITIES_UFOPEDIA
     text_width: 135
   - id: STR_SPRINT_SKILL
     type_id: 7
     section: STR_ARMOR_ABILITIES_UC
-    image_id: ODST_REPORT_IMAGE
+    image_id: ARMOR_ABILITY_SPRINT_REPORT_IMAGE
     text: STR_SPRINT_SKILL_UFOPEDIA
     text_width: 135
   - id: STR_CAMO_SKILL
     type_id: 7
     section: STR_ARMOR_ABILITIES_UC
-    image_id: ODST_REPORT_IMAGE
+    image_id: ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE
     text: STR_CAMO_SKILL_UFOPEDIA
     text_width: 135
   - id: STR_DROP_SHIELD_SKILL
     type_id: 7
     section: STR_ARMOR_ABILITIES_UC
-    image_id: ODST_REPORT_IMAGE
+    image_id: ARMOR_ABILITY_DROP_SHIELD_IMAGE
     text: STR_DROP_SHIELD_SKILL_UFOPEDIA
     text_width: 135
   - id: STR_HOLO_SKILL
     type_id: 7
     section: STR_ARMOR_ABILITIES_UC
-    image_id: ODST_REPORT_IMAGE
+    image_id: ARMOR_ABILITY_HOLOGRAM_IMAGE
     text: STR_HOLO_SKILL_UFOPEDIA
     text_width: 135
   - id: STR_LOCK_SKILL
     type_id: 7
     section: STR_ARMOR_ABILITIES_UC
-    image_id: ODST_REPORT_IMAGE
+    image_id: ARMOR_ABILITY_SHIELD_LOCK_IMAGE
     text: STR_LOCK_SKILL_UFOPEDIA
     text_width: 135
 
@@ -523,6 +526,49 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/ARMY_TROOPER_REPORT_IMAGE.PNG
+###########################
+  - type: ARMOR_ABILITY_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_IMAGE.PNG
+  - type: ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE.PNG
+  - type: ARMOR_ABILITY_DROP_SHIELD_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_DROP_SHIELD_IMAGE.PNG
+  - type: ARMOR_ABILITY_HOLOGRAM_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_HOLOGRAM_IMAGE.PNG
+  - type: ARMOR_ABILITY_SHIELD_LOCK_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_SHIELD_LOCK_IMAGE.PNG
+  - type: ARMOR_ABILITY_SPRINT_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_SPRINT_REPORT_IMAGE.PNG
+  - type: ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE.PNG
 ###########################
   - type: ELITE_MINOR_REPORT_IMAGE
     singleImage: true
