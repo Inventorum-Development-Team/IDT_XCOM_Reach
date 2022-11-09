@@ -95,12 +95,12 @@ items:
     floorSprite: 592
     handSprite: 592
     battleType: 6
-    invWidth: 2
+    invWidth: 1
     invHeight: 2
     painKiller: 10
     heal: 10
     stimulant: 10
-    woundRecovery: 1
+    woundRecovery: 2
     healthRecovery: 3
     stunRecovery: 4
     energyRecovery: 10
@@ -160,7 +160,7 @@ items:
     bigSprite: 216
     floorSprite: 216
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11
     bulletSpeed: 20
     power: 37
@@ -229,7 +229,7 @@ items:
     bigSprite: 256
     floorSprite: 256
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11
     power: 37
     bulletSpeed: 20
@@ -250,7 +250,7 @@ items:
     size: 0.2
     costBuy: 1686
     costSell: 1265
-    weight: 6
+    weight: 11
     bigSprite: 272
     floorSprite: 272
     handSprite: 272
@@ -269,7 +269,7 @@ items:
     accuracySnap: 50
     accuracyAimed: 70
     tuSnap: 15
-    tuAimed: 15
+    tuAimed: 20
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -290,7 +290,7 @@ items:
     bigSprite: 280
     floorSprite: 280
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12
     power: 44
     bulletSpeed: 20
@@ -311,7 +311,7 @@ items:
     size: 0.2
     costBuy: 1686
     costSell: 1265
-    weight: 6
+    weight: 10
     bigSprite: 296
     floorSprite: 296
     handSprite: 296
@@ -319,10 +319,12 @@ items:
     reloadSound: [113, 114, 115]
     compatibleAmmo:
       - STR_M392_MAG
-    accuracySnap: 50
-    accuracyAimed: 65
-    tuSnap: 15
-    tuAimed: 25
+    accuracySnap: 65
+    accuracyAimed: 75
+    accuracyMultiplier:
+      firing: [0.0, 0.0175]
+    tuSnap: 13
+    tuAimed: 18
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -342,7 +344,7 @@ items:
     bigSprite: 304
     floorSprite: 304
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11
     power: 55
     bulletSpeed: 20
@@ -366,12 +368,14 @@ items:
     invWidth: 2       # 2x3 in inventory.
     invHeight: 3
     battleType: 1     # 1 = firearm
-    weight: 12
+    weight: 16
     compatibleAmmo:         #Battle Stats
       - STR_SRS99_MAG       #
     twoHanded: true         #
     accuracySnap: 50        #
     accuracyAimed: 110      #
+    accuracyMultiplier:
+      firing: [0.0, 0.0175]
     tuSnap: 30              #
     tuAimed: 40             #
     maxRange: 200           #
@@ -392,7 +396,7 @@ items:
     bigSprite: 328
     floorSprite: 328
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14
     bulletSpeed: 20
     power: 100
@@ -468,7 +472,7 @@ items:
     bigSprite: 368
     floorSprite: 368
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 13
     power: 42
     bulletSpeed: 20
@@ -516,7 +520,7 @@ items:
     bigSprite: 392
     floorSprite: 392
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 13
     power: 45
     bulletSpeed: 20
@@ -627,7 +631,7 @@ items:
     bigSprite: 464
     floorSprite: 464
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 10
     power: 20
     bulletSpeed: 20

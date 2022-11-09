@@ -1,10 +1,33 @@
+8-Nov-2022 v0.2
+Changes made:
+*Updated to OXCE v7.7.3
+*Added Armor Abilities to Spartans; script by Filip-H, sprites by efrenespartano & Filip-H
+*Orange flash on shield break, by Filip-H
+*Removed craftWeapons from being buyable, by Filip-H
+*Updated ammosprite script, now loaded weapons in Ufopedia, by Filip-H
+*Fixed MAC Cannon string issue, by Filip-H
+*Spartan armor colour can now be changed, by Filip-H
+*Fixed marines and troopes being able to use SPI, by Filip-H
+*Enabled Medikit and Flare to store, increased MA37 accuracy, added custom fire modes to Covenant rifles too, by efrenespartano
+*Elite Minors are now light blue instead of dark blue, by efrenespartano
+*Recolored and expanded Alien Base, now Covenant base/ship, by efrenespartano
+*New Spirit, added two-stage missions on Capital ships, by efrenespartano
+*Updates and tweaks to covenant weaponry entries in en-US, by Ikhanad
+*Addendum to pedia entries, corrections and revisions to spanish version by Ikhanad
+*removed duplicate ufopedia article, commented out redundant articles, by Filip-H
+*fixed loft issues, moved droppod from mad edge to prevent stuck troops by Filip-H
+*droppods deploy on turn 2 instead of trough knife, fixed pelican dropship issues, by Filip-H
+*reduced enemy grenade amount, by Filip-H
+*reduced odst camo values to more reasonable levels, by Filip-H
+*Removed hitAnimation on ballistic weapons to make the bullets go faster, by efrenespartano
+
 25-Jan-2022 v0.1.1 Open Beta
 Changes made:
 *Disabled specialUseEmptyHandShow
 *Minor balance changes (Plasma weapons do more damage to Shields)
 *Added missing Covenant weapon Pedia text
 *Changed fontset
-
+*reworked final mission reinforcements, fixed issue where they spawned as civilians, by Filip-H
 25-Jan-2022 v0.1 Open Beta
 Changes made:
 *Updated to OXCE v7.4.4

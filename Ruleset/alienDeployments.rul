@@ -128,12 +128,115 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    nextStage: STR_SDV_CLASS_HEAVY_CORVETTE_INTERIOR
     briefing:
       palette: 6
       #textOffset: -16
       background: BACK16.SCR
       showTarget: true
       showCraft: true
+  - type: STR_SDV_CLASS_HEAVY_CORVETTE_INTERIOR
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 4
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+    width: 20
+    length: 40
+    height: 2
+    briefing:
+      palette: 6
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+    terrains:
+      - UBASE
+    shade: 7
+    script: ALIENBASE
+    race: STR_SANGHEILI_LANCE
+    objectiveType: 3
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+###########################################
   - type: STR_CPV_CLASS_HEAVY_DESTROYER
     data:
       - alienRank: 6
@@ -181,21 +284,15 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    nextStage: STR_CPV_CLASS_HEAVY_DESTROYER_INTERIOR
     briefing:
       palette: 6
       #textOffset: -16
       background: BACK16.SCR
       showTarget: true
       showCraft: true
-  - type: STR_CCS_CLASS_BATTLECRUISER
+  - type: STR_CPV_CLASS_HEAVY_DESTROYER_INTERIOR
     data:
-      - alienRank: 7
-        lowQty: 2
-        highQty: 2
-        dQty: 1
-        percentageOutsideUfo: 50
-        itemSets:
-          - []
       - alienRank: 6
         lowQty: 2
         highQty: 2
@@ -207,21 +304,188 @@ alienDeployments:
         lowQty: 5
         highQty: 10
         dQty: 1
+        percentageOutsideUfo: 60
+        itemSets:
+          - []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 55
+        itemSets:
+          - []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 45
+        itemSets:
+          - []
+      - alienRank: 2
+        lowQty: 4
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          - []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          - []
+    width: 20
+    length: 50
+    height: 2
+    briefing:
+      palette: 6
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+    terrains:
+      - UBASE
+    shade: 7
+    script: ALIENBASE
+    race: STR_SANGHEILI_LANCE
+    objectiveType: 3
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+
+#########################################
+  - type: STR_CCS_CLASS_BATTLECRUISER
+    data:
+      - alienRank: 6
+        lowQty: 2
+        highQty: 2
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets:
           - []
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 60
+        itemSets:
+          - []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 55
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 45
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 2
+        lowQty: 4
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+    width: 50
+    length: 50
+    height: 10
+    nextStage: STR_CCS_CLASS_BATTLECRUISER_INTERIOR
+    briefing:
+      palette: 6
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+  - type: STR_CCS_CLASS_BATTLECRUISER_INTERIOR
+    data:
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 6
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
       - alienRank: 4
         lowQty: 5
         highQty: 10
         dQty: 1
-        percentageOutsideUfo: 45
+        percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 3
         lowQty: 5
         highQty: 10
         dQty: 1
-        percentageOutsideUfo: 25
+        percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 2
@@ -245,24 +509,26 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           - []
-    width: 50
-    length: 50
-    height: 10
+    width: 20
+    length: 60
+    height: 2
     briefing:
       palette: 6
       #textOffset: -16
       background: BACK16.SCR
       showTarget: true
       showCraft: true
+    terrains:
+      - UBASE
+    shade: 7
+    script: ALIENBASE
+    race: STR_SANGHEILI_LANCE
+    objectiveType: 3
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+##############################################
   - type: STR_CAS_CLASS_ASSAULT_CARRIER
     data:
-      - alienRank: 7
-        lowQty: 2
-        highQty: 2
-        dQty: 1
-        percentageOutsideUfo: 70
-        itemSets:
-          - []
       - alienRank: 6
         lowQty: 2
         highQty: 2
@@ -274,28 +540,92 @@ alienDeployments:
         lowQty: 5
         highQty: 10
         dQty: 1
-        percentageOutsideUfo: 50
+        percentageOutsideUfo: 60
+        itemSets:
+          - []
+      - alienRank: 4
+        lowQty: 4
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 55
+        itemSets:
+
+          - []
+      - alienRank: 3
+        lowQty: 3
+        highQty: 8
+        dQty: 1
+        percentageOutsideUfo: 45
+        itemSets:
+          - []
+      - alienRank: 2
+        lowQty: 4
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+
+          - []
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+
+          - []
+    width: 50
+    length: 50
+    height: 10
+    nextStage: STR_CAS_CLASS_ASSAULT_CARRIER_INTERIOR
+    briefing:
+      palette: 6
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+  - type: STR_CAS_CLASS_ASSAULT_CARRIER_INTERIOR
+    data:
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          - []
+      - alienRank: 6
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          - []
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 4
         lowQty: 5
         highQty: 10
         dQty: 1
-        percentageOutsideUfo: 50
+        percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 3
         lowQty: 5
         highQty: 10
         dQty: 1
-        percentageOutsideUfo: 25
+        percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 2
         lowQty: 5
         highQty: 10
         dQty: 1
-        percentageOutsideUfo: 25
+        percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 1
@@ -312,15 +642,24 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           - []
-    width: 50
-    length: 50
-    height: 10
+    width: 20
+    length: 70
+    height: 2
     briefing:
       palette: 6
       #textOffset: -16
       background: BACK16.SCR
       showTarget: true
       showCraft: true
+    terrains:
+      - UBASE
+    shade: 7
+    script: ALIENBASE
+    race: STR_SANGHEILI_LANCE
+    objectiveType: 3
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+
 #####################################
 
   - type: STR_TERROR_MISSION
@@ -336,7 +675,7 @@ alienDeployments:
         lowQty: 2
         highQty: 2
         dQty: 1
-        percentageOutsideUfo: 50
+        percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 5
@@ -412,6 +751,131 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+
+  - type: STR_ALIEN_BASE_ASSAULT
+    data:
+      - alienRank: 7
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 6
+        lowQty: 2
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 5
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 4
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 3
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+      - alienRank: 2
+        lowQty: 5
+        highQty: 10
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+            - STR_PLASMA_GRENADE
+          -
+            - STR_PLASMA_GRENADE
+    width: 20
+    length: 60
+    height: 2
+    briefing:
+      palette: 6
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+    terrains:
+      - UBASE
+    shade: 7
+    script: ALIENBASE
+    objectiveType: 3
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
 
 #####################################
 
