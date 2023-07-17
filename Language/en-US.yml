@@ -177,10 +177,10 @@ en-US:
   STR_ACTIVATE_CAMO: "Activate Camouflage"
   STR_KNIFE: "Use Knife"
   STR_UNARMED_REGULAR_HUMAN_UFOPEDIA: "The Combat Knife is the standard tool and defense weapon for all UNSC enlisted and officer personnel. This artifact has its origins back in the prehistory and its use remains relevant in the 26th Century. The blade is made with a special titanium carbide alloy, it never loses its sharpness. The damage output its multiplied by 1.5 based on Strength and by 2.0 based on Melee. A stronger soldier will make a better use of this tool."
-  STR_H165_ORBITAL_STRIKE: H-165 Target Locator
+  STR_H165_ORBITAL_STRIKE: "H-165 Target Locator"
   STR_H165_ORBITAL_STRIKE_UFOPEDIA: "A compact laser designator used to call in orbitally launched missiles from a UNSC warship. Well worth the resource commitment."
-  STR_M41: M41 SPNKr Rocket Launcher
-  STR_M41_ROCKETS: Disposable 102mm Rocket Tube
+  STR_M41: "M41 SPNKr Rocket Launcher"
+  STR_M41_ROCKETS: "Disposable 102mm Rocket Tube"
   STR_M41_UFOPEDIA: "The M41 SPNKr is characterized by its two main components: firstly, a reusable launcher that opens and closes with a hinge mechanism, which encircles most of the magazine; secondly, a disposable magazine containing two rockets. Nicknames for the M41 SPNKr include Pain, Launcher, Breath of God, and Can Opener."
   STR_M6C: M6C PDWS
   STR_M6C_UFOPEDIA: "Marine Corps' variant of the M6 PDWS, sporting a higher fire rate and velocity, using SAP-HP instead of SAP-HE." 
