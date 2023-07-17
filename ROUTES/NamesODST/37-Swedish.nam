@@ -1,0 +1,96 @@
+lookWeights:
+  - 60
+  - 40
+  - 0
+  - 0
+maleFirst:
+  - ODST Johan
+  - ODST Fredrik
+  - ODST Sten
+  - ODST Olof
+  - ODST Anders
+  - ODST Sven
+  - ODST Mattias
+  - ODST Jesper
+  - ODST David
+  - ODST Henrik
+  - ODST Lars
+  - ODST Mikael
+  - ODST Andreas
+  - ODST Robin
+  - ODST Christian
+  - ODST Joakim
+  - ODST John
+  - ODST Linus
+  - ODST Mats
+  - ODST Tommy
+  - ODST Per
+  - ODST Sebastian
+  - ODST Edvin
+  - ODST Bo
+  - ODST Leif
+  - ODST Jens
+  - ODST Jonas  
+  - ODST Peter
+  - ODST Thomas
+  - ODST Erik
+femaleFirst:
+  - ODST Christine
+  - ODST Annika
+  - ODST Isabel
+  - ODST Anna
+  - ODST Lena
+  - ODST Mia
+  - ODST Pia
+  - ODST Petra
+  - ODST Madeleine
+  - ODST Johanna
+  - ODST Gunilla
+  - ODST Eva
+  - ODST Ellinor
+  - ODST Elisabet
+  - ODST Amanda
+  - ODST Carin
+  - ODST Mikaela
+  - ODST Magdalena
+  - ODST Ellen
+  - ODST Ingrid
+  - ODST Inger
+  - ODST Linda
+  - ODST Karin
+  - ODST Maria  
+  - ODST Sara
+  - ODST Emma  
+  - ODST Marie
+maleLast:
+  - Linder
+  - Olofsson
+  - Holmqvist
+  - Andersson
+  - Lindberg
+  - Lindqvist
+  - Gustafsson
+  - Larsson
+  - Lindgren
+  - Lind
+  - Eklund
+  - Holm
+  - Claesson
+  - Viklund
+  - Lund
+  - Falk
+  - Blom
+  - Ek
+  - Norberg
+  - Sundqvist
+  - Sjoborg
+  - Ivarsson
+  - Hedlund
+  - Holmgren
+  - Hedlund
+  - Nordin
+  - Berggren
+  - Svensson
+  - Lindgren
+  - Eklund
+  - Axelsson

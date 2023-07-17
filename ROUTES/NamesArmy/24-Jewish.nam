@@ -1,0 +1,71 @@
+﻿lookWeights:
+  - 25
+  - 40
+  - 30
+  - 5
+maleFirst:
+  - Trooper Tom
+  - Trooper David
+  - Trooper Danny
+  - Trooper Ben
+  - Trooper Matan
+  - Trooper Nick
+  - Trooper Daniel
+  - Trooper Dor
+  - Trooper Dvir
+  - Trooper Roni
+  - Trooper Shizaf
+  - Trooper Idan
+  - Trooper Ariel
+  - Trooper Jacob
+  - Trooper Omer
+  - Trooper Son
+  - Trooper Itay
+  - Trooper Aviv
+  - Trooper Liran
+  - Trooper Adam
+  - Trooper Yahav
+  - Trooper Erez
+  - Trooper Gilad
+  - Trooper Gal
+femaleFirst:
+  - Trooper Hadar
+  - Trooper Kinneret
+  - Trooper Inbar
+  - Trooper Sapir
+  - Trooper Aya
+  - Trooper Danielle
+  - Trooper Ziva
+  - Trooper Lihi
+  - Trooper Joanna
+  - Trooper Lia
+  - Trooper Shiran
+  - Trooper Michal
+  - Trooper Noga
+  - Trooper Noam
+  - Trooper Yuval
+  - Trooper Ziv
+  - Trooper Neta
+  - Trooper Roni
+  - Trooper Karina
+  - Trooper Zehavit
+  - Trooper Adi
+  - Trooper Rotem
+  - Trooper Noa
+  - Trooper Maya
+maleLast:
+  - Cohen
+  - Levy
+  - Mizrahi
+  - Peretz
+  - Biton
+  - Dahan
+  - Avraham
+  - Friedman
+  - Agbaria
+  - Malka
+  - Azulay
+  - Jabarin
+  - Katz
+  - Yosef
+  - Mahmid

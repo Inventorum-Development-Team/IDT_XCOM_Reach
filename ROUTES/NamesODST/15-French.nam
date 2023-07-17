@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - ODST Alain
+  - ODST Alban
+  - ODST Armand
+  - ODST Benoit
+  - ODST Bruno
+  - ODST Calvin
+  - ODST Christian
+  - ODST Claude
+  - ODST Corentin
+  - ODST Damien
+  - ODST Denis
+  - ODST Emile
+  - ODST Etienne
+  - ODST Ethan
+  - ODST Fabien
+  - ODST Francis
+  - ODST Frederic
+  - ODST Gaston
+  - ODST Gerard
+  - ODST Guillaume
+  - ODST Henri
+  - ODST Hugo
+  - ODST Jacques
+  - ODST Jean
+  - ODST Jules
+  - ODST Leon
+  - ODST Lionel
+  - ODST Louis
+  - ODST Lucas
+  - ODST Mathis
+  - ODST Marc
+  - ODST Marcel
+  - ODST Michel
+  - ODST Nathan
+  - ODST Nicolas
+  - ODST Olivier
+  - ODST Pascal
+  - ODST Paul
+  - ODST Pierre
+  - ODST Philippe
+  - ODST Quentin
+  - ODST Raphael
+  - ODST Remi
+  - ODST Rene
+  - ODST Robert
+  - ODST Roger
+  - ODST Sebastien
+  - ODST Simon
+  - ODST Sylvain
+  - ODST Thibault
+  - ODST Victor
+  - ODST Vincent
+  - ODST Yves
+femaleFirst:
+  - ODST Anne
+  - ODST Audrey
+  - ODST Brigitte
+  - ODST Camille
+  - ODST Catherine
+  - ODST Chantal
+  - ODST Claire
+  - ODST Clara
+  - ODST Cloe
+  - ODST Danielle
+  - ODST Dominique
+  - ODST Elisabeth
+  - ODST Eva
+  - ODST Florence
+  - ODST Francoise
+  - ODST Gaelle
+  - ODST Geraldine
+  - ODST Helene
+  - ODST Isabelle
+  - ODST Ludivine
+  - ODST Lydia
+  - ODST Jacqueline
+  - ODST Jeanne
+  - ODST Julie
+  - ODST Laure
+  - ODST Lina
+  - ODST Lilou
+  - ODST Maelys
+  - ODST Marie
+  - ODST Marion
+  - ODST Marguerite
+  - ODST Maud
+  - ODST Murielle
+  - ODST Nathalie
+  - ODST Odile
+  - ODST Rachel
+  - ODST Rose
+  - ODST Sabine
+  - ODST Sandrine
+  - ODST Stephanie
+  - ODST Sonia
+  - ODST Sylvie
+  - ODST Valerie
+  - ODST Veronique
+  - ODST Zoe
+maleLast:
+  - Andre
+  - Berger
+  - Bernard
+  - Bertrand
+  - Bonnet
+  - Bouissou
+  - Bourgeois
+  - Bouton
+  - Bouvier
+  - Blanc
+  - Blondel
+  - Buchard
+  - Caron
+  - Chevalier
+  - Coicard
+  - Collet
+  - Collignon
+  - Coste
+  - Couturier
+  - Clement
+  - Cuvelier
+  - Dagallier
+  - Delorme
+  - Dreyfus
+  - Dubois
+  - Ducourtioux
+  - Dujardin
+  - Dumont
+  - Dupuis
+  - Dupre
+  - Duval
+  - Fabre
+  - Faure
+  - Fontaine
+  - Fournier
+  - Gaillard
+  - Garcia
+  - Gaudrin
+  - Gautier
+  - Gressier
+  - Guerin
+  - Guillot
+  - Girard
+  - Giraudon
+  - Heroin
+  - Lacroix
+  - Laroyenne
+  - Lambert
+  - Laroche
+  - Larue
+  - Laurent
+  - Leclerc
+  - Lecointe
+  - Lecomte
+  - Leduc
+  - Lefevre
+  - Legrand
+  - Leroy
+  - Luget
+  - Marcelle
+  - Martin
+  - Menardier
+  - Mercier
+  - Meunier
+  - Moreau
+  - Morel
+  - Morin
+  - Mathieu
+  - Muller
+  - Pecheux
+  - Pelletier
+  - Perrin
+  - Perrot
+  - Petit
+  - Picar
+  - Roussel
+  - Revenu
+  - Roux
+  - Richard
+  - Simon
+  - Thomas
+  - Verdier

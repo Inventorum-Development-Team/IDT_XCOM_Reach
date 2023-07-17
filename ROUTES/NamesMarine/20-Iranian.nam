@@ -1,0 +1,80 @@
+﻿lookWeights:
+  - 8
+  - 20
+  - 10
+  - 1
+maleFirst:
+  - Marine Ali
+  - Marine Shayan
+  - Marine Mohammad
+  - Marine Alireza
+  - Marine Mahdi
+  - Marine Mohsen
+  - Marine Pooria
+  - Marine Ehsan
+  - Marine Hamid
+  - Marine Mojtaba
+  - Marine Iman
+  - Marine Sajad
+  - Marine Siavash
+  - Marine Mobin
+  - Marine Sina
+  - Marine Erfan
+  - Marine Mehdi
+  - Marine Reza
+  - Marine Masoud
+  - Marine Edris
+  - Marine Yaser
+  - Marine Arman
+  - Marine Moein
+  - Marine Kamran
+  - Marine Ashkan
+  - Marine Hossein
+  - Marine Masood
+  - Marine Bale
+femaleFirst:
+  - Marine Maryam
+  - Marine Zahra
+  - Marine Fatemeh
+  - Marine Negin
+  - Marine Sara
+  - Marine Shaghayegh
+  - Marine Mary
+  - Marine Niloofar
+  - Marine Mohadeseh
+  - Marine Mina
+  - Marine Nasrin
+  - Marine Sisily
+  - Marine Saba
+  - Marine Fatima
+  - Marine Raheleh
+  - Marine Maki
+  - Marine Ada
+  - Marine Layla
+  - Marine Mehmaz
+  - Marine Niyusha
+  - Marine Mahdie
+  - Marine Azin
+  - Marine Neda
+  - Marine Gouya
+  - Marine Sarina
+  - Marine Sahar
+  - Marine Qazal
+maleLast:
+  - Mohammadi
+  - Goudarzi
+  - Zare
+  - Salari
+  - Hosseini
+  - Ahmadi
+  - Rezaei
+  - Saidi
+  - Hashemi
+  - Askari
+  - Râdfaer
+  - Dâdfaer
+  - Habibi
+  - Rahimi
+  - Hatami
+  - Soleymaini
+  - Bagheri

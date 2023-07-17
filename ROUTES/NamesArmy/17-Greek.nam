@@ -1,0 +1,1141 @@
+lookWeights:
+  - 50
+  - 49
+  - 1
+  - 0
+maleFirst:
+  - Trooper Abderus
+  - Trooper Absyrtus
+  - Trooper Abydos
+  - Trooper Acastus
+  - Trooper Achates
+  - Trooper Achelous
+  - Trooper Acheron
+  - Trooper Achilles
+  - Trooper Achlys
+  - Trooper Acrisius
+  - Trooper Actaeon
+  - Trooper Acteon
+  - Trooper Adelphos
+  - Trooper Admes
+  - Trooper Admetus
+  - Trooper Adonis
+  - Trooper Adras
+  - Trooper Adrastos
+  - Trooper Adrastus
+  - Trooper Adrian
+  - Trooper Aeacus
+  - Trooper Aeetes
+  - Trooper Aegeus
+  - Trooper Aegis
+  - Trooper Aegisthus
+  - Trooper Aegyptus
+  - Trooper Aeneas
+  - Trooper Aeolus
+  - Trooper Aesculapius
+  - Trooper Aeson
+  - Trooper Aetos
+  - Trooper Agamedes
+  - Trooper Agape
+  - Trooper Agatone
+  - Trooper Aindreas
+  - Trooper Aindriu
+  - Trooper Ajax
+  - Trooper Akil
+  - Trooper Alasd
+  - Trooper Alcander
+  - Trooper Alcinoos
+  - Trooper Alcinous
+  - Trooper Alcnaeon
+  - Trooper Alcyoneus
+  - Trooper Alddes
+  - Trooper Alessandro
+  - Trooper Alex
+  - Trooper Alexander
+  - Trooper Alexandras
+  - Trooper Alexandros
+  - Trooper Alexandrukas
+  - Trooper Alexei
+  - Trooper Alexio
+  - Trooper Alix
+  - Trooper Aloeus
+  - Trooper Alpheus
+  - Trooper Altair
+  - Trooper Amaoebus
+  - Trooper Ambrocio
+  - Trooper Ambrose
+  - Trooper Ambrus
+  - Trooper Amphiaraus
+  - Trooper Amphion
+  - Trooper Amphitryon
+  - Trooper Ampyx
+  - Trooper Amycus
+  - Trooper Anastagio
+  - Trooper Anastasio
+  - Trooper Anastasios
+  - Trooper Anastasius
+  - Trooper Anasztaz
+  - Trooper Anatol
+  - Trooper Anatole
+  - Trooper Anatoli
+  - Trooper Anatolijus
+  - Trooper Anatolio
+  - Trooper Ancaeus
+  - Trooper Anchises
+  - Trooper Andor
+  - Trooper Andreas
+  - Trooper Andres
+  - Trooper Andreus
+  - Trooper Andrew
+  - Trooper Andries
+  - Trooper Androgeus
+  - Trooper Androu
+  - Trooper Anstice
+  - Trooper Anstiss
+  - Trooper Antaeus
+  - Trooper Antares
+  - Trooper Anteros
+  - Trooper Antilochus
+  - Trooper Antinous
+  - Trooper Antiphates
+  - Trooper Anton
+  - Trooper Antony
+  - Trooper Aonghas
+  - Trooper Apollo
+  - Trooper Apoloniusz
+  - Trooper Apostolos
+  - Trooper Arcadicus
+  - Trooper Arcas
+  - Trooper Arcenio
+  - Trooper Archemorus
+  - Trooper Ares
+  - Trooper Argo
+  - Trooper Argos
+  - Trooper Argus
+  - Trooper Arion
+  - Trooper Aristaeus
+  - Trooper Aristo
+  - Trooper Arsen
+  - Trooper Arsenio
+  - Trooper Artemas
+  - Trooper Artemesio
+  - Trooper Artemus
+  - Trooper Ascalaphus
+  - Trooper Asklepios
+  - Trooper Asopus
+  - Trooper Athamas
+  - Trooper Athan
+  - Trooper Athanasios
+  - Trooper Athanasius
+  - Trooper Atlas
+  - Trooper Atreus
+  - Trooper Attis
+  - Trooper Autolycus
+  - Trooper Avernus
+  - Trooper Baccaus
+  - Trooper Baccus
+  - Trooper Balasi
+  - Trooper Baltsaros
+  - Trooper Baptiste
+  - Trooper Basil
+  - Trooper Basile
+  - Trooper Basilio
+  - Trooper Baste
+  - Trooper Bastiaan
+  - Trooper Bastien
+  - Trooper Baucis
+  - Trooper Bazyli
+  - Trooper Bemus
+  - Trooper Biton
+  - Trooper Boreas
+  - Trooper Brasidas
+  - Trooper Briareus
+  - Trooper Brygus
+  - Trooper Butades
+  - Trooper Cadmus
+  - Trooper Caesare
+  - Trooper Calchas
+  - Trooper Calisto
+  - Trooper Capaneus
+  - Trooper Caseareo
+  - Trooper Castor
+  - Trooper Cecrops
+  - Trooper Celeus
+  - Trooper Cenon
+  - Trooper Cephalus
+  - Trooper Cepheus
+  - Trooper Cesare
+  - Trooper Cetus
+  - Trooper Ceyx
+  - Trooper Chris
+  - Trooper Christan
+  - Trooper Christiano
+  - Trooper Christoph
+  - Trooper Christopher
+  - Trooper Christophoros
+  - Trooper Christos
+  - Trooper Chruse
+  - Trooper Chrysostom
+  - Trooper Cimon
+  - Trooper Cirio
+  - Trooper Ciro
+  - Trooper Claas
+  - Trooper Claus
+  - Trooper Cleobis
+  - Trooper Cleon
+  - Trooper Cletus
+  - Trooper Cleytus
+  - Trooper Clio
+  - Trooper Cocytus
+  - Trooper Coeus
+  - Trooper Coireall
+  - Trooper Cole
+  - Trooper Colin
+  - Trooper Colum
+  - Trooper Corban
+  - Trooper Coridan
+  - Trooper Corybantes
+  - Trooper Corydon
+  - Trooper Cos
+  - Trooper Cosmas
+  - Trooper Cosmo
+  - Trooper Cottus
+  - Trooper Creon
+  - Trooper Cretien
+  - Trooper Cristoforo
+  - Trooper Cristophe
+  - Trooper Cronus
+  - Trooper Ctesippus
+  - Trooper Cyrano
+  - Trooper Cyrek
+  - Trooper Cyril
+  - Trooper Cyrus
+  - Trooper Cyryl
+  - Trooper Damae
+  - Trooper Damalis
+  - Trooper Damaris
+  - Trooper Damaskenos
+  - Trooper Damaskinos
+  - Trooper Damen
+  - Trooper Dameon
+  - Trooper Damian
+  - Trooper Damion
+  - Trooper Damon
+  - Trooper Danaus
+  - Trooper Dardanus
+  - Trooper Darian
+  - Trooper Darien
+  - Trooper Darion
+  - Trooper Darrian
+  - Trooper Darrien
+  - Trooper Darrion
+  - Trooper Daymon
+  - Trooper Deke
+  - Trooper Dekel
+  - Trooper Dekle
+  - Trooper Delbin
+  - Trooper Demetre
+  - Trooper Demetri
+  - Trooper Demetrios
+  - Trooper Demetrius
+  - Trooper Demitri
+  - Trooper Demitrius
+  - Trooper Demodocus
+  - Trooper Demophon
+  - Trooper Demoritus
+  - Trooper Denes
+  - Trooper Dennis
+  - Trooper Deo
+  - Trooper Deucalion
+  - Trooper Doran
+  - Trooper Dorian
+  - Trooper Dorion
+  - Trooper Drakon
+  - Trooper Drew
+  - Trooper Dymas
+  - Trooper Eachann
+  - Trooper Efterpi
+  - Trooper Egidio
+  - Trooper Eleftherios
+  - Trooper Elek
+  - Trooper Eleutherios
+  - Trooper Eli
+  - Trooper Enceladus
+  - Trooper Endre
+  - Trooper Endymion
+  - Trooper Eneas
+  - Trooper Eoghan
+  - Trooper Epeius
+  - Trooper Erasmus
+  - Trooper Erebus
+  - Trooper Erechtheus
+  - Trooper Erichthonius
+  - Trooper Erymanthus
+  - Trooper Erysichthon
+  - Trooper Eryx
+  - Trooper Estevao
+  - Trooper Eteocles
+  - Trooper Etor
+  - Trooper Eubuleus
+  - Trooper Eugen
+  - Trooper Eugene
+  - Trooper Eugenio
+  - Trooper Eugenios
+  - Trooper Eumaeus
+  - Trooper Eupeithes
+  - Trooper Euphrosyne
+  - Trooper Eurus
+  - Trooper Euryalus
+  - Trooper Eurylochus
+  - Trooper Eurymachus
+  - Trooper Eurypylus
+  - Trooper Eurystheus
+  - Trooper Euryton
+  - Trooper Eusebius
+  - Trooper Eustace
+  - Trooper Eustachy
+  - Trooper Eustis
+  - Trooper Evan
+  - Trooper Evzen
+  - Trooper Fedor
+  - Trooper Feodor
+  - Trooper Feodras
+  - Trooper Filippo
+  - Trooper Filips
+  - Trooper Flip
+  - Trooper Fulop
+  - Trooper Gaelan
+  - Trooper Galan
+  - Trooper Galen
+  - Trooper Galinthias
+  - Trooper Galyn
+  - Trooper Gelasius
+  - Trooper Georg
+  - Trooper George
+  - Trooper Georges
+  - Trooper Giles
+  - Trooper Glaucus
+  - Trooper Goran
+  - Trooper Graeae
+  - Trooper Gregoire
+  - Trooper Gregoly
+  - Trooper Gregor
+  - Trooper Gregorie
+  - Trooper Gregorior
+  - Trooper Gregory
+  - Trooper Gregos
+  - Trooper Grigor
+  - Trooper Grigorov
+  - Trooper Gruev
+  - Trooper Guilio
+  - Trooper Gyes
+  - Trooper Gyoergy
+  - Trooper Gyorgy
+  - Trooper Gyuri
+  - Trooper Haemon
+  - Trooper Hali
+  - Trooper Halithersis
+  - Trooper Hector
+  - Trooper Helios
+  - Trooper Herodotus
+  - Trooper Homar
+  - Trooper Homer
+  - Trooper Homeros
+  - Trooper Homerus
+  - Trooper Hypnos
+  - Trooper Ibycus
+  - Trooper Icarius
+  - Trooper Icarus
+  - Trooper Icelos
+  - Trooper Icos
+  - Trooper Idas
+  - Trooper Igorr
+  - Trooper Inachus
+  - Trooper Iorgas
+  - Trooper Iphitus
+  - Trooper Istvan
+  - Trooper Ivan
+  - Trooper Ivankor
+  - Trooper Ixion
+  - Trooper Jaison
+  - Trooper Jase
+  - Trooper Jasen
+  - Trooper Jason
+  - Trooper Jayce
+  - Trooper Jayr
+  - Trooper Jaysen
+  - Trooper Jayson
+  - Trooper Jencir
+  - Trooper Jeno
+  - Trooper Jeroenr
+  - Trooper Jerome
+  - Trooper Jerzyr
+  - Trooper Jirkar
+  - Trooper Jorenr
+  - Trooper Julius
+  - Trooper Jurgisr
+  - Trooper Kadmus
+  - Trooper Kairos
+  - Trooper Khristos
+  - Trooper Khrystiyanr
+  - Trooper Kit
+  - Trooper Klaasr
+  - Trooper Klaus
+  - Trooper Korudon
+  - Trooper Kosmosr
+  - Trooper Kratos
+  - Trooper Krikor
+  - Trooper Krischnan
+  - Trooper Kristian
+  - Trooper Kristofr
+  - Trooper Krystupasr
+  - Trooper Krzysztofr
+  - Trooper Kuirilr
+  - Trooper Kyrillos
+  - Trooper Kyrillosr
+  - Trooper Kyros
+  - Trooper Ladon
+  - Trooper Laertes
+  - Trooper Laestrygones
+  - Trooper Laius
+  - Trooper Lander
+  - Trooper Laocoon
+  - Trooper Laomedon
+  - Trooper Leander
+  - Trooper Leandro
+  - Trooper Leonidas
+  - Trooper Lichas
+  - Trooper Linus
+  - Trooper Lippio
+  - Trooper Lotus
+  - Trooper Loxias
+  - Trooper Luke
+  - Trooper Lycaon
+  - Trooper Lycomedes
+  - Trooper Lycurgus
+  - Trooper Lynceus
+  - Trooper Lysander
+  - Trooper Marcario
+  - Trooper Maurice
+  - Trooper Medus
+  - Trooper Melampus
+  - Trooper Melancton
+  - Trooper Melanthius
+  - Trooper Menelaus
+  - Trooper Menoeceus
+  - Trooper Mentor
+  - Trooper Midas
+  - Trooper Mikolas
+  - Trooper Miles
+  - Trooper Milo
+  - Trooper Minos
+  - Trooper Momus
+  - Trooper Mopsus
+  - Trooper Moses
+  - Trooper Myles
+  - Trooper Myron
+  - Trooper Narkis
+  - Trooper Nauplius
+  - Trooper Neleus
+  - Trooper Nemo
+  - Trooper Nemos
+  - Trooper Neo
+  - Trooper Nicholas
+  - Trooper Nicholaus
+  - Trooper Nicias
+  - Trooper Nick
+  - Trooper Nicodemus
+  - Trooper Nicolas
+  - Trooper Nicolaus
+  - Trooper Nik
+  - Trooper Nike
+  - Trooper Niklaus
+  - Trooper Nikodem
+  - Trooper Nikolai
+  - Trooper Nikolajis
+  - Trooper Nikolos
+  - Trooper Niles
+  - Trooper Nilo
+  - Trooper Nilos
+  - Trooper Nisus
+  - Trooper Notus
+  - Trooper Obiareus
+  - Trooper Oighrig
+  - Trooper Oles
+  - Trooper Orrin
+  - Trooper Orthros
+  - Trooper Otis
+  - Trooper Pan
+  - Trooper Panagiotis
+  - Trooper Pancratius
+  - Trooper Panos
+  - Trooper Panteleimon
+  - Trooper Papandrou
+  - Trooper Paris
+  - Trooper Patroclus
+  - Trooper Patroklos
+  - Trooper Pavlos
+  - Trooper Peadair
+  - Trooper Peder
+  - Trooper Pegeen
+  - Trooper Peleus
+  - Trooper Pelias
+  - Trooper Pello
+  - Trooper Pelops
+  - Trooper Pero
+  - Trooper Perrin
+  - Trooper Peterke
+  - Trooper Petrelis
+  - Trooper Petros
+  - Trooper Petter
+  - Trooper Phantasos
+  - Trooper Phaon
+  - Trooper Philemon
+  - Trooper Philip
+  - Trooper Philipp
+  - Trooper Philippe
+  - Trooper Phillip
+  - Trooper Philo
+  - Trooper Phineas
+  - Trooper Phineus
+  - Trooper Phrixus
+  - Trooper Phylo
+  - Trooper Piero
+  - Trooper Pierro
+  - Trooper Pieter
+  - Trooper Pietr
+  - Trooper Pietro
+  - Trooper Pilib
+  - Trooper Piotr
+  - Trooper Pippo
+  - Trooper Pirithous
+  - Trooper Pirro
+  - Trooper Pittheus
+  - Trooper Plato
+  - Trooper Platon
+  - Trooper Plexippus
+  - Trooper Plutus
+  - Trooper Pollux
+  - Trooper Poseidon
+  - Trooper Preben
+  - Trooper Priam
+  - Trooper Priapus
+  - Trooper Procrustes
+  - Trooper Prokopios
+  - Trooper Prometheus
+  - Trooper Prophyrios
+  - Trooper Protesilaus
+  - Trooper Ptolemy
+  - Trooper Pyramus
+  - Trooper Rasmus
+  - Trooper Rhodes
+  - Trooper Risto
+  - Trooper Sabastian
+  - Trooper Salmoneus
+  - Trooper Scopas
+  - Trooper Sebasten
+  - Trooper Sebastian
+  - Trooper Sebastiano
+  - Trooper Simon
+  - Trooper Sinon
+  - Trooper Socrates
+  - Trooper Sofronio
+  - Trooper Soterios
+  - Trooper Spyridon
+  - Trooper Stamitos
+  - Trooper Stavros
+  - Trooper Steafan
+  - Trooper Stefan
+  - Trooper Stefano
+  - Trooper Stefanos
+  - Trooper Stefford
+  - Trooper Stefon
+  - Trooper Stephano
+  - Trooper Stephanos
+  - Trooper Stephen
+  - Trooper Stephon
+  - Trooper Steven
+  - Trooper Steverino
+  - Trooper Takis
+  - Trooper Talos
+  - Trooper Talus
+  - Trooper Tantalus
+  - Trooper Tarasios
+  - Trooper Teague
+  - Trooper Telamon
+  - Trooper Telegonus
+  - Trooper Telemachus
+  - Trooper Telephus
+  - Trooper Tellus
+  - Trooper Teodors
+  - Trooper Teofile
+  - Trooper Teuthras
+  - Trooper Thad
+  - Trooper Thaddeus
+  - Trooper Thaddius
+  - Trooper Thadeus
+  - Trooper Thais
+  - Trooper Thanatos
+  - Trooper Thanos
+  - Trooper Thaumas
+  - Trooper Theo
+  - Trooper Theociymenus
+  - Trooper Theodon
+  - Trooper Theodore
+  - Trooper Theodosios
+  - Trooper Theodrekr
+  - Trooper Theodric
+  - Trooper Theon
+  - Trooper Theophile
+  - Trooper Theophilus
+  - Trooper Theron
+  - Trooper Therron
+  - Trooper Thersites
+  - Trooper Theseus
+  - Trooper Thomas
+  - Trooper Thyestes
+  - Trooper Tiege
+  - Trooper Tim
+  - Trooper Timeus
+  - Trooper Timmy
+  - Trooper Timocrates
+  - Trooper Timoleon
+  - Trooper Timon
+  - Trooper Timotheos
+  - Trooper Timothy
+  - Trooper Timun
+  - Trooper Tiomoid
+  - Trooper Tito
+  - Trooper Titos
+  - Trooper Titus
+  - Trooper Tityus
+  - Trooper Tivadar
+  - Trooper Todor
+  - Trooper Toxeus
+  - Trooper Triton
+  - Trooper Trophonius
+  - Trooper Turannos
+  - Trooper Tydeus
+  - Trooper Tylissus
+  - Trooper Tymek
+  - Trooper Tymon
+  - Trooper Tyndareus
+  - Trooper Typhoeus
+  - Trooper Typhon
+  - Trooper Tyrone
+  - Trooper Ulysses
+  - Trooper Urian
+  - Trooper Vasileios
+  - Trooper Vasilios
+  - Trooper Vasilis
+  - Trooper Vasos
+  - Trooper VasyItso
+  - Trooper Vasyklo
+  - Trooper Vasyl
+  - Trooper Xanthus
+  - Trooper Xeno
+  - Trooper Xenophon
+  - Trooper Xenos
+  - Trooper Xerxes
+  - Trooper Xuthus
+  - Trooper Xylon
+  - Trooper Yanni
+  - Trooper Yehor
+  - Trooper Yuri
+  - Trooper Zale
+  - Trooper Zarek
+  - Trooper Zelotes
+  - Trooper Zeno
+  - Trooper Zenobio
+  - Trooper Zenon
+  - Trooper Zenos
+  - Trooper Zephyr
+  - Trooper Zero
+  - Trooper Zerro
+  - Trooper Zetes
+  - Trooper Zoltan
+  - Trooper Zoltar
+  - Trooper Zorba
+  - Trooper Zotico
+femaleFirst:
+  - Trooper Acacia
+  - Trooper Acantha
+  - Trooper Aegea
+  - Trooper Aeola
+  - Trooper Agalia
+  - Trooper Alala
+  - Trooper Aldora
+  - Trooper Aleni
+  - Trooper Anatolia
+  - Trooper Andrianna
+  - Trooper Anemone
+  - Trooper Angeline
+  - Trooper Aphrodite
+  - Trooper Athena
+  - Trooper Athenagora
+  - Trooper Calantha
+  - Trooper Calida
+  - Trooper Cassia
+  - Trooper Cyra
+  - Trooper Damia
+  - Trooper Daphne
+  - Trooper Deianira
+  - Trooper Delia
+  - Trooper Dido
+  - Trooper Dimitra
+  - Trooper Echo
+  - Trooper Elma
+  - Trooper Elpida
+  - Trooper Emalia
+  - Trooper Erianthe
+  - Trooper Euphemia
+  - Trooper Euphenia
+  - Trooper Evadne
+  - Trooper Evanthe
+  - Trooper Fotini
+  - Trooper Galatea
+  - Trooper Georgia
+  - Trooper Halcyone
+  - Trooper Helena
+  - Trooper Helia
+  - Trooper Hera
+  - Trooper Hermione
+  - Trooper Isadora
+  - Trooper Jocasta
+  - Trooper Kalidas
+  - Trooper Kaligenia
+  - Trooper Kalligenia
+  - Trooper Kallirrhoe
+  - Trooper Kalonice
+  - Trooper Kyriakoula
+  - Trooper Lalage
+  - Trooper Leandra
+  - Trooper Leda
+  - Trooper Lycoris
+  - Trooper Lyris
+  - Trooper Marina
+  - Trooper Medora
+  - Trooper Melantha
+  - Trooper Melina
+  - Trooper Melissa
+  - Trooper Mona
+  - Trooper Neola
+  - Trooper Neona
+  - Trooper Nerissa
+  - Trooper Niobe
+  - Trooper Olga
+  - Trooper Orthia
+  - Trooper Pandora
+  - Trooper Pangiota
+  - Trooper Pelagia
+  - Trooper Penelope
+  - Trooper Persephone
+  - Trooper Philantha
+  - Trooper Philomela
+  - Trooper Philomena
+  - Trooper Philothea
+  - Trooper Phoebe
+  - Trooper Rhea
+  - Trooper Saphhira
+  - Trooper Sofronia
+  - Trooper Stamata
+  - Trooper Stella
+  - Trooper Tassia
+  - Trooper Tassula
+  - Trooper Tessa
+  - Trooper Thaddea
+  - Trooper Thalassa
+  - Trooper Tharsia
+  - Trooper Theodosia
+  - Trooper Theophilia
+  - Trooper Thetis
+  - Trooper Timothea
+  - Trooper Toula
+  - Trooper Xantippe
+  - Trooper Yana
+  - Trooper Zenaida
+  - Trooper Zenobia
+  - Trooper Zephyra
+  - Trooper Zoe
+maleLast:
+  - Alexopoulos
+  - Anagyros
+  - Anastassios
+  - Andreadis
+  - Andreos
+  - Andriopoulos
+  - Andronikos
+  - Andros
+  - Androuchelli
+  - Androupolos
+  - Androutsos
+  - Angelis
+  - Angelomatis
+  - Angelos
+  - Anistonopoulos
+  - Anninos
+  - Antikatzides
+  - Antonatos
+  - Antonious
+  - Argyra
+  - Athanasiadis
+  - Athanassiadi
+  - Averoff
+  - Axelos
+  - Bakirdzis
+  - Bakogianni
+  - Balanos
+  - Bazignos
+  - Bessarion
+  - Bizos
+  - Borbokis
+  - Botsaris
+  - Boudouris
+  - Bourgani
+  - Capodistria
+  - Carides
+  - Castriota
+  - Catalactus
+  - Chacoliades
+  - Chakiris
+  - Christodoulos
+  - Clerides
+  - Constandouros
+  - Constantinis
+  - Cosmatos
+  - Costanduros
+  - Costi
+  - Cotsadis
+  - Couloumbis
+  - Coulouris
+  - Deligiannis
+  - Deligiorgis
+  - Delivorias
+  - Dellas
+  - Demertzis
+  - Demosthenous
+  - Dimas
+  - Dimitrakos
+  - Dimitriades
+  - Dimitris
+  - Dimotsios
+  - Diomedes
+  - Dontas
+  - Doxiadis
+  - Dukakis
+  - Duvis
+  - Economakis
+  - Economos
+  - Eliades
+  - Elipandas
+  - Ellinas
+  - Farakos
+  - Fettas
+  - Florakis
+  - Galonopoulas
+  - Gatsioudis
+  - Gatzioudis
+  - Gavrielides
+  - Gennadios
+  - Genovelis
+  - Georghios
+  - Giorgiou
+  - Gislenus
+  - Gizikis
+  - Glezos
+  - Gogos
+  - Gonatas
+  - Goulandris
+  - Gounaris
+  - Gousetti
+  - Grivas
+  - Hagiorgis
+  - Hajiyanni
+  - Halara
+  - Harteros
+  - Iakovakis
+  - Iakovos
+  - Iatrides
+  - Ioannidis
+  - Ioannos
+  - Issigonis
+  - Joakimides
+  - Kairis
+  - Kaklamanakis
+  - Kakoulli
+  - Kalergi
+  - Kallabis
+  - Kalvos
+  - Kanaris
+  - Kanellopoulos
+  - Kaphandaris
+  - Karahi
+  - Karaiskakis
+  - Karamanlis
+  - Karatossos
+  - Karoki
+  - Karyoti
+  - Kasomoulis
+  - Katsantonis
+  - Katsaris
+  - Kenteris
+  - Khadjikyriakos
+  - Klaras
+  - Kochalakos
+  - Koffa
+  - Kokkinos
+  - Kokotis
+  - Kolettis
+  - Kollias
+  - Kolokotronis
+  - Kondylis
+  - Kontoghiorghes
+  - Korais
+  - Korkizoglu
+  - Korres
+  - Koryzis
+  - Koskotas
+  - Kostanopoulos
+  - Kostopulos
+  - Kotaridos
+  - Koukodimos
+  - Koukoudimos
+  - Koumoundouros
+  - Koundouriotis
+  - Kourniakis
+  - Kousoulas
+  - Kozani
+  - Kritopoulos
+  - Kyprianos
+  - Kyriacos
+  - Kyriakos
+  - Kyriazis
+  - Lambrakis
+  - Lambrianos
+  - Lambrinos
+  - Lathouris
+  - Lazardis
+  - Leonidis
+  - Lianis
+  - Logotheti
+  - Louca
+  - Louganis
+  - Louvaris
+  - Lyssarides
+  - Maganas
+  - Magos
+  - Maharis
+  - Makarezos
+  - Makrigiannis
+  - Malachias
+  - Maliagros
+  - Mangakis
+  - Marcoullides
+  - Mardas
+  - Marinatos
+  - Markezinis
+  - Markoulides
+  - Markoullides
+  - Marsolais
+  - Martis
+  - Matacena
+  - Mavridos
+  - Mavrogordatos
+  - Mavrokordatos
+  - Mavromikhalis
+  - Mavros
+  - Mavroudis
+  - Maximos
+  - Melas
+  - Meletoglos
+  - Melikis
+  - Melissanides
+  - Mercouri
+  - Merukides
+  - Messimeris
+  - Metaxas
+  - Michaelis
+  - Mikalis
+  - Mikhalakopoulos
+  - Militis
+  - Mitros
+  - Mitsotakis
+  - Monomachus
+  - Moscopolis
+  - Moumoulidis
+  - Muscouri
+  - Mylonas
+  - Nafpliotis
+  - Negris
+  - Niarkhos
+  - Nikolaides
+  - Onassis
+  - Orphanides
+  - Oxinos
+  - Palamas
+  - Pallis
+  - Panagiatopoulos
+  - Panagiopoulos
+  - Panagiotopos
+  - Panagou
+  - Panagoulias
+  - Panagoulis
+  - Panaotis
+  - Panavoglos
+  - Panayi
+  - Panayides
+  - Panayiotopoulos
+  - Panayiotos
+  - Pangalos
+  - Papadakis
+  - Papademetrios
+  - Papadias
+  - Papadopolos
+  - Papadopoulos
+  - Papadoupolos
+  - Papafagos
+  - Papageorgios
+  - Papagos
+  - Papakostas
+  - Papamichael
+  - Papanastasiou
+  - Papandreou
+  - Papasotiriou
+  - Papatamelis
+  - Papathanassios
+  - Papoulias
+  - Pappas
+  - Parastadidis
+  - Pattakos
+  - Pavlakakis
+  - Pentzopoulos
+  - Pesmazoglos
+  - Pheraios
+  - Philipousis
+  - Pierides
+  - Pietris
+  - Pipinelis
+  - Pittakis
+  - Pittakys
+  - Plastiras
+  - Polides
+  - Polycarpous
+  - Polychroniadis
+  - Polychronios
+  - Polydoros
+  - Polymeropoulos
+  - Polymeros
+  - Polyzos
+  - Popotas
+  - Porpurogenitos
+  - Pratkanis
+  - Prevalakis
+  - Primikynos
+  - Psara
+  - Psaros
+  - Psaroulakis
+  - Rallis
+  - Saltsidis
+  - Samos
+  - Sampras
+  - Sanassis
+  - Sarakatsani
+  - Saraphis
+  - Sardzetakis
+  - Sarris
+  - Sartzetakis
+  - Sarus
+  - Savakis
+  - Savalos
+  - Savvides
+  - Sbokos
+  - Senteildis
+  - Siantos
+  - Sicilianos
+  - Simopoulos
+  - Sirtis
+  - Skandalis
+  - Skiotis
+  - Skouloudis
+  - Skouphas
+  - Solomos
+  - Sophoulis
+  - Souvaltzis
+  - Stamanakis
+  - Stasi
+  - Stavrakis
+  - Stavrianakis
+  - Stavrianos
+  - Stephanopoulos
+  - Stoikos
+  - Strapoudopolos
+  - Stratis
+  - Stroubakos
+  - Taliadoros
+  - Tathouris
+  - Tavoularis
+  - Terzin
+  - Theodopoulos
+  - Theodorakis
+  - Theophanous
+  - Theothanos
+  - Theotokis
+  - Touliatos
+  - Tournikiotis
+  - Tragianopoulos
+  - Trikoupis
+  - Tsakolov
+  - Tsaldaris
+  - Tsatsos
+  - Tsavdaridos
+  - Tsiamita
+  - Tsigakos
+  - Tsikouna
+  - Tsiolakoudi
+  - Tsirigolis
+  - Tsirimokos
+  - Tsolakoglos
+  - Tsoni
+  - Tsouderos
+  - Tsougarakis
+  - Tsoutsouvas
+  - Tsyoma
+  - Tzannetakis
+  - Tzivas
+  - Vadeki
+  - Valaoritis
+  - Valvis
+  - Vaphiadis
+  - Vardakastanis
+  - Varvaressos
+  - Vasdeki
+  - Vasdekis
+  - Vasiliou
+  - Vassilides
+  - Vatatzes
+  - Veloukhiotis
+  - Venizelos
+  - Verdanis
+  - Vergopoulos
+  - Vlakhos
+  - Voulgaris
+  - Voulgaropoulos
+  - Vouris
+  - Xanthos
+  - Xenakis
+  - Xydis
+  - Yannopoulos
+  - Yialouris
+  - Ypsilantis
+  - Zafiropoulos
+  - Zaimis
+  - Zakhariadis
+  - Zarikos
+  - Zervakos
+  - Zervas
+  - Zikos
+  - Zindilis
+  - Zisimides
+  - Zographas
+  - Zoitakis
+  - Zolotas

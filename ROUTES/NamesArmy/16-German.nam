@@ -1,0 +1,77 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - Trooper Thomas
+  - Trooper Andreas
+  - Trooper Michael
+  - Trooper Frank
+  - Trooper Peter
+  - Trooper Joerg
+  - Trooper Uwe
+  - Trooper Matthias
+  - Trooper Stefan
+  - Trooper Juergen
+  - Trooper Ralf
+  - Trooper Bernd
+  - Trooper Klaus
+  - Trooper Torsten
+  - Trooper Hans
+  - Trooper Rainer
+  - Trooper Jens
+  - Trooper Martin
+  - Trooper Dirk
+  - Trooper Wolfgang
+  - Trooper Norbert
+  - Trooper Holger
+  - Trooper Kai
+  - Trooper Joachim
+  - Trooper Christian
+  - Trooper Karsten
+  - Trooper Dieter
+femaleFirst:
+  - Trooper Susanne
+  - Trooper Sabine
+  - Trooper Petra
+  - Trooper Birgit
+  - Trooper Andrea
+  - Trooper Gabriele
+  - Trooper Martina
+  - Trooper Heike
+  - Trooper Ute
+  - Trooper Barbara
+  - Trooper Bettina
+  - Trooper Karin
+  - Trooper Angelika
+  - Trooper Monika
+  - Trooper Angela
+maleLast:
+  - Mueller
+  - Schmidt
+  - Schneider
+  - Fischer
+  - Weber
+  - Meyer
+  - Wagner
+  - Becker
+  - Schulz
+  - Hoffmann
+  - Schaefer
+  - Koch
+  - Bauer
+  - Richter
+  - Klein
+  - Wolf
+  - Schroeder 
+  - Neumann
+  - Schwarz
+  - Zimmermann
+  - Braun
+  - Krueger
+  - Hartmann
+  - Lange
+  - Schmitz
+  - Krause
+  - Meier

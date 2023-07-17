@@ -1,0 +1,81 @@
+﻿lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Marine Adam
+  - Marine Alexander
+  - Marine Alexis
+  - Marine Benjamin
+  - Marine Carter
+  - Marine Daniel
+  - Marine Ethan
+  - Marine Felix
+  - Marine Gabriel
+  - Marine Jack
+  - Marine Jaxon
+  - Marine Jacob
+  - Marine Jayden
+  - Marine James
+  - Marine Liam
+  - Marine Logan
+  - Marine Lucas
+  - Marine Mason
+  - Marine Nathan
+  - Marine Noah
+  - Marine Oliver
+  - Marine Owen
+  - Marine Ryan
+  - Marine Samuel
+  - Marine William
+  - Marine Zachary
+femaleFirst:
+  - Marine Abigail
+  - Marine Alice
+  - Marine Amelia
+  - Marine Ava
+  - Marine Avery
+  - Marine Brooklyn
+  - Marine Béatrice
+  - Marine Charlotte
+  - Marine Elizabeth
+  - Marine Ella
+  - Marine Florence
+  - Marine Grace
+  - Marine Hailey
+  - Marine Hannah
+  - Marine Isabella
+  - Marine Lea
+  - Marine Lily
+  - Marine Madison
+  - Marine Mila
+  - Marine Rosalie
+  - Marine Chloe
+  - Marine Emily
+  - Marine Emma
+  - Marine Maya
+  - Marine Mia
+  - Marine Olivia
+  - Marine Sarah
+  - Marine Sophia
+  - Marine Victoria
+  - Marine Zoe
+maleLast:
+  - Anderson
+  - Brown
+  - Chan
+  - Gagnon
+  - Hall
+  - Hill
+  - Kim
+  - Lam
+  - Lee
+  - Martin
+  - Morris
+  - Murphy
+  - Roy
+  - Smith
+  - Tremblay
+  - Wilson
+  - Wong

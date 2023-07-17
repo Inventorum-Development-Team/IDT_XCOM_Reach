@@ -1,0 +1,1006 @@
+# Note: "first" names here are family names, "last" names are given names.
+lookWeights:
+  - 1
+  - 1
+  - 93
+  - 5
+maleFirst:
+  - ODST An
+  - ODST Ang
+  - ODST Ao
+  - ODST Au
+  - ODST Au Yeung
+  - ODST Bai
+  - ODST Ban
+  - ODST Bao
+  - ODST Bau
+  - ODST Bi
+  - ODST Bo
+  - ODST Bu
+  - ODST Cai
+  - ODST Cao
+  - ODST Cha
+  - ODST Chai
+  - ODST Cham
+  - ODST Chan
+  - ODST Chang
+  - ODST Chao
+  - ODST Chau
+  - ODST Che
+  - ODST Cheah
+  - ODST Chee
+  - ODST Chen
+  - ODST Cheng
+  - ODST Cheong
+  - ODST Chern
+  - ODST Cheung
+  - ODST Chew
+  - ODST Chi
+  - ODST Chia
+  - ODST Chiang
+  - ODST Chiao
+  - ODST Chien
+  - ODST Chim
+  - ODST Chin
+  - ODST Ching
+  - ODST Chiong
+  - ODST Chiou
+  - ODST Chiu
+  - ODST Cho
+  - ODST Choi
+  - ODST Chong
+  - ODST Choo
+  - ODST Chou
+  - ODST Chow
+  - ODST Choy
+  - ODST Chu
+  - ODST Chua
+  - ODST Cheang
+  - ODST Chui
+  - ODST Chun
+  - ODST Chung
+  - ODST Cong
+  - ODST Cui
+  - ODST Dai
+  - ODST Dang
+  - ODST Dea
+  - ODST Deng
+  - ODST Ding
+  - ODST Do
+  - ODST Dong
+  - ODST Doo
+  - ODST Du
+  - ODST Duan
+  - ODST Dung
+  - ODST Eng
+  - ODST Fan
+  - ODST Fang
+  - ODST Fei
+  - ODST Feng
+  - ODST Fok
+  - ODST Fong
+  - ODST Foo
+  - ODST Fu
+  - ODST Fung
+  - ODST Gan
+  - ODST Gang
+  - ODST Gao
+  - ODST Gau
+  - ODST Ge
+  - ODST Geng
+  - ODST Go
+  - ODST Goh
+  - ODST Gong
+  - ODST Gu
+  - ODST Guan
+  - ODST Guo
+  - ODST Ha
+  - ODST Hai
+  - ODST Han
+  - ODST Hang
+  - ODST Hao
+  - ODST Hau
+  - ODST He
+  - ODST Ho
+  - ODST Hoh
+  - ODST Hom
+  - ODST Hon
+  - ODST Hong
+  - ODST Hoo
+  - ODST Hou
+  - ODST Hsi
+  - ODST Hsia
+  - ODST Hsiao
+  - ODST Hsieh
+  - ODST Hsiung
+  - ODST Hsu
+  - ODST Hsueh
+  - ODST Hu
+  - ODST Hua
+  - ODST Huang
+  - ODST Hui
+  - ODST Huie
+  - ODST Hum
+  - ODST Hung
+  - ODST Huo
+  - ODST Hwang
+  - ODST Hy
+  - ODST Ing
+  - ODST Ip
+  - ODST Jan
+  - ODST Jang
+  - ODST Jen
+  - ODST Jeng
+  - ODST Jeung
+  - ODST Jew
+  - ODST Ji
+  - ODST Jia
+  - ODST Jian
+  - ODST Jiang
+  - ODST Jiao
+  - ODST Jim
+  - ODST Jin
+  - ODST Jing
+  - ODST Jo
+  - ODST Joe
+  - ODST Jong
+  - ODST Joo
+  - ODST Jou
+  - ODST Jow
+  - ODST Ju
+  - ODST Jue
+  - ODST Jung
+  - ODST Kam
+  - ODST Kan
+  - ODST Kang
+  - ODST Kao
+  - ODST Kau
+  - ODST Ke
+  - ODST Keng
+  - ODST Kho
+  - ODST Khoo
+  - ODST Kiang
+  - ODST King
+  - ODST Ko
+  - ODST Koh
+  - ODST Kong
+  - ODST Koo
+  - ODST Kook
+  - ODST Kou
+  - ODST Ku
+  - ODST Kuan
+  - ODST Kuang
+  - ODST Kuk
+  - ODST Kung
+  - ODST Kuang
+  - ODST Kuo
+  - ODST Kwan
+  - ODST Kwock
+  - ODST Kwok
+  - ODST Kwon
+  - ODST Kwong
+  - ODST Lai
+  - ODST Lam
+  - ODST Lan
+  - ODST Lang
+  - ODST Lao
+  - ODST Lau
+  - ODST Lee
+  - ODST Lei
+  - ODST Leng
+  - ODST Leong
+  - ODST Leung
+  - ODST Lew
+  - ODST Li
+  - ODST Lian
+  - ODST Liang
+  - ODST Liao
+  - ODST Liaw
+  - ODST Lien
+  - ODST Liew
+  - ODST Lim
+  - ODST Lin
+  - ODST Ling
+  - ODST Liou
+  - ODST Liu
+  - ODST Lo
+  - ODST Loh
+  - ODST Lok
+  - ODST Long
+  - ODST Loo
+  - ODST Lou
+  - ODST Louie
+  - ODST Lu
+  - ODST Lua
+  - ODST Lui
+  - ODST Luk
+  - ODST Lum
+  - ODST Lung
+  - ODST Luo
+  - ODST Ma
+  - ODST Mah
+  - ODST Mai
+  - ODST Mak
+  - ODST Man
+  - ODST Mao
+  - ODST Mar
+  - ODST Mau
+  - ODST May
+  - ODST Mei
+  - ODST Meng
+  - ODST Miao
+  - ODST Min
+  - ODST Ming
+  - ODST Miu
+  - ODST Mo
+  - ODST Mok
+  - ODST Mon
+  - ODST Mou
+  - ODST Moy
+  - ODST Mu
+  - ODST Mui
+  - ODST Na
+  - ODST Ng
+  - ODST Ngai
+  - ODST Ngan
+  - ODST Ngo
+  - ODST Ni
+  - ODST Nie
+  - ODST Ning
+  - ODST Niu
+  - ODST On
+  - ODST Ong
+  - ODST Ou
+  - ODST Ou Yang
+  - ODST Ow
+  - ODST Owyang
+  - ODST Pan
+  - ODST Pang
+  - ODST Pao
+  - ODST Pei
+  - ODST Peng
+  - ODST Pi
+  - ODST Ping
+  - ODST Po
+  - ODST Pon
+  - ODST Pong
+  - ODST Poon
+  - ODST Pu
+  - ODST Pun
+  - ODST Qi
+  - ODST Qian
+  - ODST Qiao
+  - ODST Qin
+  - ODST Qiu
+  - ODST Qu
+  - ODST Quan
+  - ODST Que
+  - ODST Rao
+  - ODST Ren
+  - ODST Rong
+  - ODST Ruan
+  - ODST Sam
+  - ODST San
+  - ODST Sang
+  - ODST Seto
+  - ODST Sha
+  - ODST Sham
+  - ODST Shan
+  - ODST Shang
+  - ODST Shao
+  - ODST Shaw
+  - ODST Shek
+  - ODST Shen
+  - ODST Sheng
+  - ODST Sheu
+  - ODST Shi
+  - ODST Shiau
+  - ODST Shieh
+  - ODST Shih
+  - ODST Shing
+  - ODST Shiu
+  - ODST Shu
+  - ODST Shum
+  - ODST Shy
+  - ODST Shyu
+  - ODST Si
+  - ODST Sieh
+  - ODST Sin
+  - ODST Sing
+  - ODST Sit
+  - ODST Situ
+  - ODST Siu
+  - ODST So
+  - ODST Soh
+  - ODST Song
+  - ODST Soo
+  - ODST Soo Hoo
+  - ODST Soon
+  - ODST Soong
+  - ODST Su
+  - ODST Suen
+  - ODST Sui
+  - ODST Sum
+  - ODST Sun
+  - ODST Sung
+  - ODST Sze
+  - ODST Szeto
+  - ODST Tai
+  - ODST Tam
+  - ODST Tan
+  - ODST Tang
+  - ODST Tao
+  - ODST Tay
+  - ODST Te
+  - ODST Teh
+  - ODST Teng
+  - ODST Teo
+  - ODST Tian
+  - ODST Tien
+  - ODST Tin
+  - ODST Ting
+  - ODST Tiu
+  - ODST To
+  - ODST Toh
+  - ODST Tom
+  - ODST Tong
+  - ODST Tsai
+  - ODST Tsang
+  - ODST Tsao
+  - ODST Tsay
+  - ODST Tse
+  - ODST Tseng
+  - ODST Tso
+  - ODST Tsoi
+  - ODST Tsou
+  - ODST Tsu
+  - ODST Tsui
+  - ODST Tu
+  - ODST Tuan
+  - ODST Tung
+  - ODST Tzeng
+  - ODST U
+  - ODST Un
+  - ODST Ung
+  - ODST Wah
+  - ODST Wai
+  - ODST Wan
+  - ODST Wang
+  - ODST Wee
+  - ODST Wei
+  - ODST Wen
+  - ODST Weng
+  - ODST Wing
+  - ODST Wong
+  - ODST Woo
+  - ODST Woon
+  - ODST Wu
+  - ODST Xi
+  - ODST Xia
+  - ODST Xiang
+  - ODST Xiao
+  - ODST Xie
+  - ODST Xin
+  - ODST Xing
+  - ODST Xiong
+  - ODST Xu
+  - ODST Xue
+  - ODST Yam
+  - ODST Yan
+  - ODST Yang
+  - ODST Yao
+  - ODST Yap
+  - ODST Yau
+  - ODST Yaw
+  - ODST Ye
+  - ODST Yee
+  - ODST Yeh
+  - ODST Yen
+  - ODST Yep
+  - ODST Yeung
+  - ODST Yi
+  - ODST Yim
+  - ODST Yin
+  - ODST Ying
+  - ODST Yip
+  - ODST Yiu
+  - ODST Yong
+  - ODST Yoo
+  - ODST Yoon
+  - ODST You
+  - ODST Young
+  - ODST Yu
+  - ODST Yuan
+  - ODST Yue
+  - ODST Yuen
+  - ODST Yun
+  - ODST Yung
+  - ODST Zang
+  - ODST Zeng
+  - ODST Zha
+  - ODST Zhan
+  - ODST Zhang
+  - ODST Zhao
+  - ODST Zhen
+  - ODST Zheng
+  - ODST Zhong
+  - ODST Zhou
+  - ODST Zhu
+  - ODST Zhuang
+  - ODST Zhuo
+  - ODST Zong
+  - ODST Zou
+femaleFirst:
+  - ODST An
+  - ODST Ang
+  - ODST Ao
+  - ODST Au
+  - ODST Au Yeung
+  - ODST Bai
+  - ODST Ban
+  - ODST Bao
+  - ODST Bau
+  - ODST Bi
+  - ODST Bo
+  - ODST Bu
+  - ODST Cai
+  - ODST Cao
+  - ODST Cha
+  - ODST Chai
+  - ODST Cham
+  - ODST Chan
+  - ODST Chang
+  - ODST Chao
+  - ODST Chau
+  - ODST Che
+  - ODST Cheah
+  - ODST Chee
+  - ODST Chen
+  - ODST Cheng
+  - ODST Cheong
+  - ODST Chern
+  - ODST Cheung
+  - ODST Chew
+  - ODST Chi
+  - ODST Chia
+  - ODST Chiang
+  - ODST Chiao
+  - ODST Chien
+  - ODST Chim
+  - ODST Chin
+  - ODST Ching
+  - ODST Chiong
+  - ODST Chiou
+  - ODST Chiu
+  - ODST Cho
+  - ODST Choi
+  - ODST Chong
+  - ODST Choo
+  - ODST Chou
+  - ODST Chow
+  - ODST Choy
+  - ODST Chu
+  - ODST Chua
+  - ODST Cheang
+  - ODST Chui
+  - ODST Chun
+  - ODST Chung
+  - ODST Cong
+  - ODST Cui
+  - ODST Dai
+  - ODST Dang
+  - ODST Dea
+  - ODST Deng
+  - ODST Ding
+  - ODST Do
+  - ODST Dong
+  - ODST Doo
+  - ODST Du
+  - ODST Duan
+  - ODST Dung
+  - ODST Eng
+  - ODST Fan
+  - ODST Fang
+  - ODST Fei
+  - ODST Feng
+  - ODST Fok
+  - ODST Fong
+  - ODST Foo
+  - ODST Fu
+  - ODST Fung
+  - ODST Gan
+  - ODST Gang
+  - ODST Gao
+  - ODST Gau
+  - ODST Ge
+  - ODST Geng
+  - ODST Go
+  - ODST Goh
+  - ODST Gong
+  - ODST Gu
+  - ODST Guan
+  - ODST Guo
+  - ODST Ha
+  - ODST Hai
+  - ODST Han
+  - ODST Hang
+  - ODST Hao
+  - ODST Hau
+  - ODST He
+  - ODST Ho
+  - ODST Hoh
+  - ODST Hom
+  - ODST Hon
+  - ODST Hong
+  - ODST Hoo
+  - ODST Hou
+  - ODST Hsi
+  - ODST Hsia
+  - ODST Hsiao
+  - ODST Hsieh
+  - ODST Hsiung
+  - ODST Hsu
+  - ODST Hsueh
+  - ODST Hu
+  - ODST Hua
+  - ODST Huang
+  - ODST Hui
+  - ODST Huie
+  - ODST Hum
+  - ODST Hung
+  - ODST Huo
+  - ODST Hwang
+  - ODST Hy
+  - ODST Ing
+  - ODST Ip
+  - ODST Jan
+  - ODST Jang
+  - ODST Jen
+  - ODST Jeng
+  - ODST Jeung
+  - ODST Jew
+  - ODST Ji
+  - ODST Jia
+  - ODST Jian
+  - ODST Jiang
+  - ODST Jiao
+  - ODST Jim
+  - ODST Jin
+  - ODST Jing
+  - ODST Jo
+  - ODST Joe
+  - ODST Jong
+  - ODST Joo
+  - ODST Jou
+  - ODST Jow
+  - ODST Ju
+  - ODST Jue
+  - ODST Jung
+  - ODST Kam
+  - ODST Kan
+  - ODST Kang
+  - ODST Kao
+  - ODST Kau
+  - ODST Ke
+  - ODST Keng
+  - ODST Kho
+  - ODST Khoo
+  - ODST Kiang
+  - ODST King
+  - ODST Ko
+  - ODST Koh
+  - ODST Kong
+  - ODST Koo
+  - ODST Kook
+  - ODST Kou
+  - ODST Ku
+  - ODST Kuan
+  - ODST Kuang
+  - ODST Kuk
+  - ODST Kung
+  - ODST Kuang
+  - ODST Kuo
+  - ODST Kwan
+  - ODST Kwock
+  - ODST Kwok
+  - ODST Kwon
+  - ODST Kwong
+  - ODST Lai
+  - ODST Lam
+  - ODST Lan
+  - ODST Lang
+  - ODST Lao
+  - ODST Lau
+  - ODST Lee
+  - ODST Lei
+  - ODST Leng
+  - ODST Leong
+  - ODST Leung
+  - ODST Lew
+  - ODST Li
+  - ODST Lian
+  - ODST Liang
+  - ODST Liao
+  - ODST Liaw
+  - ODST Lien
+  - ODST Liew
+  - ODST Lim
+  - ODST Lin
+  - ODST Ling
+  - ODST Liou
+  - ODST Liu
+  - ODST Lo
+  - ODST Loh
+  - ODST Lok
+  - ODST Long
+  - ODST Loo
+  - ODST Lou
+  - ODST Louie
+  - ODST Lu
+  - ODST Lua
+  - ODST Lui
+  - ODST Luk
+  - ODST Lum
+  - ODST Lung
+  - ODST Luo
+  - ODST Ma
+  - ODST Mah
+  - ODST Mai
+  - ODST Mak
+  - ODST Man
+  - ODST Mao
+  - ODST Mar
+  - ODST Mau
+  - ODST May
+  - ODST Mei
+  - ODST Meng
+  - ODST Miao
+  - ODST Min
+  - ODST Ming
+  - ODST Miu
+  - ODST Mo
+  - ODST Mok
+  - ODST Mon
+  - ODST Mou
+  - ODST Moy
+  - ODST Mu
+  - ODST Mui
+  - ODST Na
+  - ODST Ng
+  - ODST Ngai
+  - ODST Ngan
+  - ODST Ngo
+  - ODST Ni
+  - ODST Nie
+  - ODST Ning
+  - ODST Niu
+  - ODST On
+  - ODST Ong
+  - ODST Ou
+  - ODST Ou Yang
+  - ODST Ow
+  - ODST Owyang
+  - ODST Pan
+  - ODST Pang
+  - ODST Pao
+  - ODST Pei
+  - ODST Peng
+  - ODST Pi
+  - ODST Ping
+  - ODST Po
+  - ODST Pon
+  - ODST Pong
+  - ODST Poon
+  - ODST Pu
+  - ODST Pun
+  - ODST Qi
+  - ODST Qian
+  - ODST Qiao
+  - ODST Qin
+  - ODST Qiu
+  - ODST Qu
+  - ODST Quan
+  - ODST Que
+  - ODST Rao
+  - ODST Ren
+  - ODST Rong
+  - ODST Ruan
+  - ODST Sam
+  - ODST San
+  - ODST Sang
+  - ODST Seto
+  - ODST Sha
+  - ODST Sham
+  - ODST Shan
+  - ODST Shang
+  - ODST Shao
+  - ODST Shaw
+  - ODST Shek
+  - ODST Shen
+  - ODST Sheng
+  - ODST Sheu
+  - ODST Shi
+  - ODST Shiau
+  - ODST Shieh
+  - ODST Shih
+  - ODST Shing
+  - ODST Shiu
+  - ODST Shu
+  - ODST Shum
+  - ODST Shy
+  - ODST Shyu
+  - ODST Si
+  - ODST Sieh
+  - ODST Sin
+  - ODST Sing
+  - ODST Sit
+  - ODST Situ
+  - ODST Siu
+  - ODST So
+  - ODST Soh
+  - ODST Song
+  - ODST Soo
+  - ODST Soo Hoo
+  - ODST Soon
+  - ODST Soong
+  - ODST Su
+  - ODST Suen
+  - ODST Sui
+  - ODST Sum
+  - ODST Sun
+  - ODST Sung
+  - ODST Sze
+  - ODST Szeto
+  - ODST Tai
+  - ODST Tam
+  - ODST Tan
+  - ODST Tang
+  - ODST Tao
+  - ODST Tay
+  - ODST Te
+  - ODST Teh
+  - ODST Teng
+  - ODST Teo
+  - ODST Tian
+  - ODST Tien
+  - ODST Tin
+  - ODST Ting
+  - ODST Tiu
+  - ODST To
+  - ODST Toh
+  - ODST Tom
+  - ODST Tong
+  - ODST Tsai
+  - ODST Tsang
+  - ODST Tsao
+  - ODST Tsay
+  - ODST Tse
+  - ODST Tseng
+  - ODST Tso
+  - ODST Tsoi
+  - ODST Tsou
+  - ODST Tsu
+  - ODST Tsui
+  - ODST Tu
+  - ODST Tuan
+  - ODST Tung
+  - ODST Tzeng
+  - ODST U
+  - ODST Un
+  - ODST Ung
+  - ODST Wah
+  - ODST Wai
+  - ODST Wan
+  - ODST Wang
+  - ODST Wee
+  - ODST Wei
+  - ODST Wen
+  - ODST Weng
+  - ODST Wing
+  - ODST Wong
+  - ODST Woo
+  - ODST Woon
+  - ODST Wu
+  - ODST Xi
+  - ODST Xia
+  - ODST Xiang
+  - ODST Xiao
+  - ODST Xie
+  - ODST Xin
+  - ODST Xing
+  - ODST Xiong
+  - ODST Xu
+  - ODST Xue
+  - ODST Yam
+  - ODST Yan
+  - ODST Yang
+  - ODST Yao
+  - ODST Yap
+  - ODST Yau
+  - ODST Yaw
+  - ODST Ye
+  - ODST Yee
+  - ODST Yeh
+  - ODST Yen
+  - ODST Yep
+  - ODST Yeung
+  - ODST Yi
+  - ODST Yim
+  - ODST Yin
+  - ODST Ying
+  - ODST Yip
+  - ODST Yiu
+  - ODST Yong
+  - ODST Yoo
+  - ODST Yoon
+  - ODST You
+  - ODST Young
+  - ODST Yu
+  - ODST Yuan
+  - ODST Yue
+  - ODST Yuen
+  - ODST Yun
+  - ODST Yung
+  - ODST Zang
+  - ODST Zeng
+  - ODST Zha
+  - ODST Zhan
+  - ODST Zhang
+  - ODST Zhao
+  - ODST Zhen
+  - ODST Zheng
+  - ODST Zhong
+  - ODST Zhou
+  - ODST Zhu
+  - ODST Zhuang
+  - ODST Zhuo
+  - ODST Zong
+  - ODST Zou
+maleLast:
+  - An
+  - Bao
+  - Bo
+  - Bing
+  - Cai
+  - Chen
+  - Cheng
+  - Chung
+  - Confucius
+  - Cong
+  - De
+  - Deshi
+  - Dewei
+  - Dong
+  - Feng
+  - Fo-hai
+  - Fo-hsing
+  - Gan
+  - Gan
+  - Gao
+  - Genjo
+  - Guo
+  - Ho
+  - Hsin
+  - Hu
+  - Hui
+  - Hui-chao
+  - Huik'o
+  - Jian
+  - Jiang
+  - Jie
+  - Jin
+  - Jing
+  - Jun
+  - Kang
+  - Kong
+  - Lao-Tzu
+  - Lee
+  - Lei
+  - Li
+  - Liang
+  - Liko
+  - Li-liang
+  - Long
+  - Manchu
+  - Meng
+  - Ming
+  - Niao-ka
+  - Ning
+  - On
+  - Peng
+  - Qiang
+  - Qing-Nan
+  - Quon
+  - Shen
+  - Shi
+  - Shing
+  - Song
+  - Sun
+  - Tao
+  - Tian
+  - Tung
+  - Uang
+  - Wang
+  - Wei
+  - Wen
+  - Woo
+  - Wu-pen
+  - Xiaoping
+  - Yao
+  - Ye
+  - Yo
+  - Yong
+  - Yu
+  - Yuan
+  - Zong
+  - Zhu
+  - Zhuang
+femaleLast:
+  - Ah lam
+  - Ai
+  - An
+  - Bao
+  - Bi
+  - Cai
+  - Chan
+  - Chen
+  - Chen-chio
+  - Chen-tao
+  - Chow
+  - Chu hua
+  - Chun
+  - Chyou
+  - Cui
+  - Dai
+  - Da-Shin
+  - Dan
+  - Da-xia
+  - E
+  - Fai
+  - Fang
+  - Fang hua
+  - Feng
+  - Genji
+  - Guanyin
+  - Hong
+  - Hua
+  - Huan
+  - Hui
+  - Hui fang
+  - Jiao
+  - Jing Wei
+  - Ju
+  - Juan
+  - Jun
+  - Kimora
+  - Lan
+  - Le
+  - Lee
+  - Lei
+  - Lian
+  - Lien
+  - Li Hua
+  - Li Mei
+  - Li Ming
+  - Lin
+  - Ling
+  - Lixue
+  - Mee
+  - Mei
+  - Mingmei
+  - Quan
+  - Shu Fang
+  - Ting
+  - Ushi
+  - Xiang
+  - Xiao-Niao
+  - Xiao-Xing
+  - Xin
+  - Xiu Mei
+  - Yin
+  - Yu
+  - Zan
+  - Zhengqiu
+  - Zhi
+  - Zhijuan
+  - Zi

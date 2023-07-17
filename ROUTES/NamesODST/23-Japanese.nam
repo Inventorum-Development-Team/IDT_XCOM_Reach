@@ -1,0 +1,131 @@
+lookWeights:
+  - 2
+  - 3
+  - 94
+  - 1
+maleFirst:
+  - ODST Akinori
+  - ODST Akira
+  - ODST Daisuke
+  - ODST Hachiro
+  - ODST Hayate
+  - ODST Hibiki
+  - ODST Hideo
+  - ODST Ichiro
+  - ODST Isamu
+  - ODST Isao
+  - ODST Jungo
+  - ODST Katsuo
+  - ODST Kenji
+  - ODST Masaharu
+  - ODST Masanori
+  - ODST Naohiro
+  - ODST Ren
+  - ODST Ryo
+  - ODST Saburo
+  - ODST Shigeo
+  - ODST Shigeru
+  - ODST Shin
+  - ODST Shinobu
+  - ODST Shuji
+  - ODST Shun
+  - ODST Takashi
+  - ODST Tatsuo
+  - ODST Toshio
+  - ODST Yasuaki
+  - ODST Yataka
+  - ODST Yoshiro
+  - ODST Yuzo
+femaleFirst:
+  - ODST Aiko
+  - ODST Akane
+  - ODST Ayako
+  - ODST Fuyuko
+  - ODST Haruko
+  - ODST Hitomi
+  - ODST Junko
+  - ODST Kokoro
+  - ODST Mako
+  - ODST Mariko
+  - ODST Michiko
+  - ODST Midori
+  - ODST Misato
+  - ODST Mitsuko
+  - ODST Miu
+  - ODST Miyako
+  - ODST Naomi
+  - ODST Natsumi
+  - ODST Reiko
+  - ODST Sakiko
+  - ODST Sata
+  - ODST Sayoko
+  - ODST Shun
+  - ODST Sumie
+  - ODST Tsukiko
+  - ODST Ume
+  - ODST Yoko
+  - ODST Yoshi
+  - ODST Yumiko
+  - ODST Yuriko
+maleLast:
+  - Abe
+  - Chiba
+  - Eguchi
+  - Fujimoto
+  - Fujita
+  - Fujiwara
+  - Hasegawa
+  - Hashimoto
+  - Hirano
+  - Ikeda
+  - Ishii
+  - Ito
+  - Iwahara
+  - Iwasaki
+  - Kato
+  - Kawakami
+  - Kikuchi
+  - Kimura
+  - Kobayashi
+  - Kojima
+  - Kondo
+  - Koyama
+  - Masuda
+  - Matsuda
+  - Matsui
+  - Matsumura
+  - Matsushita
+  - Minase
+  - Miyamoto
+  - Miyazaki
+  - Mori
+  - Morita
+  - Musashi
+  - Nakajima
+  - Nakamura
+  - Nakano
+  - Noguchi
+  - Ogawa
+  - Okabe
+  - Okamoto
+  - Ono
+  - Saito
+  - Sato
+  - Shibata
+  - Shimada
+  - Shimaoka
+  - Shizuma
+  - Shoji
+  - Suzuki
+  - Takahashi
+  - Tanaka
+  - Tanida
+  - Tanikawa
+  - Uchida
+  - Ueda
+  - Ukita
+  - Watanabe
+  - Yamanaka
+  - Yamashita
+  - Yamazaki
+  - Yoshimiya

@@ -1,0 +1,727 @@
+lookWeights:
+  - 0
+  - 0
+  - 1
+  - 99
+maleFirst:
+  - Marine Abasi
+  - Marine Adin
+  - Marine Akili
+  - Marine Amali
+  - Marine Amaziah
+  - Marine Ashura
+  - Marine Chege
+  - Marine Chilemba
+  - Marine Chitundu
+  - Marine Chiumbo
+  - Marine Darweshi
+  - Marine Etana
+  - Marine Fadhili
+  - Marine Feruzi
+  - Marine Gachora
+  - Marine Gacoki
+  - Marine Gakere
+  - Marine Gakuru
+  - Marine Gatete
+  - Marine Gathee
+  - Marine Gathii
+  - Marine Gatimu
+  - Marine Gethii
+  - Marine Gichinga
+  - Marine Gicicio
+  - Marine Gikuyu
+  - Marine Githinji
+  - Marine Githogori
+  - Marine Gitonga
+  - Marine Haji
+  - Marine Hala
+  - Marine Hamisi
+  - Marine Hiuhu
+  - Marine Ikinya
+  - Marine Iregi
+  - Marine Irungu
+  - Marine Ita
+  - Marine Itimu
+  - Marine Jaramogi
+  - Marine Jalil
+  - Marine Jimiyu
+  - Marine Jomo
+  - Marine Jamil
+  - Marine Juahar
+  - Marine Jimiyu
+  - Marine Jina
+  - Marine Jirani
+  - Marine Jomo
+  - Marine Kafil
+  - Marine Kagai
+  - Marine Kagunda
+  - Marine Kahiga
+  - Marine Kairu
+  - Marine Kamau
+  - Marine Kamili
+  - Marine Kanja
+  - Marine Kanoro
+  - Marine Karani
+  - Marine Karega
+  - Marine Kariuki
+  - Marine Kereenyaga
+  - Marine Kiambiroiro
+  - Marine Kianjahe
+  - Marine Kiano
+  - Marine Kianyandaarwa
+  - Marine Kiara
+  - Marine Kifimbo
+  - Marine Kihara
+  - Marine Kihiga
+  - Marine Kimathi
+  - Marine Kimotho
+  - Marine Kinoro
+  - Marine Kinyua
+  - Marine Kioi
+  - Marine Kirimi
+  - Marine Kirinyaga
+  - Marine Kithingi
+  - Marine Kiwonto
+  - Marine Koigi
+  - Marine Kuguru
+  - Marine Kwasi
+  - Marine Lipapwiche
+  - Marine Lisimba
+  - Marine Lusala
+  - Marine Macaria
+  - Marine Maina
+  - Marine Maitho
+  - Marine Makalani
+  - Marine Makori
+  - Marine Mathaathi
+  - Marine Matu
+  - Marine Matunde
+  - Marine Maundu
+  - Marine Mbogo
+  - Marine Mbui
+  - Marine Miano
+  - Marine Migwi
+  - Marine Mokabi
+  - Marine Morani
+  - Marine Mosi
+  - Marine Muenda
+  - Marine Muga
+  - Marine Mugendi
+  - Marine Mugi
+  - Marine Mugo
+  - Marine Muiru
+  - Marine Muiruri
+  - Marine Mukanda
+  - Marine Mukiri
+  - Marine Mukuru
+  - Marine Munene
+  - Marine Munoru
+  - Marine Muraguri
+  - Marine Murathi
+  - Marine Muraya
+  - Marine Muriithi
+  - Marine Murimi
+  - Marine Muriu
+  - Marine Muriuki
+  - Marine Muroki
+  - Marine Muruthi
+  - Marine Mutahi
+  - Marine Mutegi
+  - Marine Mutemi
+  - Marine Muthee
+  - Marine Muthemba
+  - Marine Muthengi
+  - Marine Mutheru
+  - Marine Muthomi
+  - Marine Muthuri
+  - Marine Mutira
+  - Marine Mutiri
+  - Marine Mutitu
+  - Marine Mutonyi
+  - Marine Mutua
+  - Marine Muturi
+  - Marine Muugi
+  - Marine Mwaka
+  - Marine Mwangi
+  - Marine Mwara
+  - Marine Mwarania
+  - Marine Mwaria
+  - Marine Mwenda
+  - Marine Nangila
+  - Marine Nangwaya
+  - Marine Ndegwa
+  - Marine Ndemi
+  - Marine Nderu
+  - Marine Ndwiga
+  - Marine Ngare
+  - Marine Ngigi
+  - Marine Ngumo
+  - Marine Njama
+  - Marine Njanu
+  - Marine Njata
+  - Marine Njau
+  - Marine Njiraini
+  - Marine Njiru
+  - Marine Njogu
+  - Marine Njora
+  - Marine Njowga
+  - Marine Njururi
+  - Marine Nyachae
+  - Marine Nyaga
+  - Marine Nyamu
+  - Marine Nyatui
+  - Marine Nyoike
+  - Marine Obama
+  - Marine Obuya
+  - Marine Ochieng
+  - Marine Odikinyi
+  - Marine Odinga
+  - Marine Odonga
+  - Marine Odour
+  - Marine Ohon
+  - Marine Ojwang
+  - Marine Okello
+  - Marine Okeyo
+  - Marine Okoth
+  - Marine Oluoch
+  - Marine Omariba
+  - Marine Omondi
+  - Marine Omwancha
+  - Marine Ongweng
+  - Marine Onindo
+  - Marine Onkwani
+  - Marine Onyango
+  - Marine Opiyo
+  - Marine Osogo
+  - Marine Othiambo
+  - Marine Otenio
+  - Marine Owino
+  - Marine Owiti
+  - Marine Owuor
+  - Marine Pili
+  - Marine Radhi
+  - Marine Riitho
+  - Marine Ruguru
+  - Marine Ruhiu
+  - Marine Runo
+  - Marine Sabra
+  - Marine Safi
+  - Marine Shamim
+  - Marine Shani
+  - Marine Simba
+  - Marine Sokoro
+  - Marine Thabiti
+  - Marine Tumaini
+  - Marine Tuwile
+  - Marine Wachiru
+  - Marine Waga
+  - Marine Waithaka
+  - Marine Waitimu
+  - Marine Waiyaki
+  - Marine Wamai
+  - Marine Wambua
+  - Marine Wamugunda
+  - Marine Wamukota
+  - Marine Wamwara
+  - Marine Wangombe
+  - Marine Wangondu
+  - Marine Wanjala
+  - Marine Wanjohi
+  - Marine Wanyanga
+  - Marine Waruhiu
+  - Marine Warui
+  - Marine Waweru
+  - Marine Wekesa
+femaleFirst:
+  - Marine Aaliyah
+  - Marine Adhra
+  - Marine Adila
+  - Marine Adimu
+  - Marine Adin
+  - Marine Adla
+  - Marine Afaafa
+  - Marine Afifa
+  - Marine Afifah
+  - Marine Afiya
+  - Marine Afrika
+  - Marine Afya
+  - Marine Ahadi
+  - Marine Aida
+  - Marine Ainra
+  - Marine Ajia
+  - Marine Akello
+  - Marine Akila
+  - Marine Akilah
+  - Marine Akili
+  - Marine Aliya
+  - Marine Almasi
+  - Marine Aluna
+  - Marine Amali
+  - Marine Amana
+  - Marine Amaziah
+  - Marine Amina
+  - Marine Aminah
+  - Marine Aminali
+  - Marine Aminifu
+  - Marine Amira
+  - Marine Amne
+  - Marine Angavu
+  - Marine Anisun
+  - Marine Arafa
+  - Marine Arifa
+  - Marine Arusi
+  - Marine Asali
+  - Marine Asatira
+  - Marine Asha
+  - Marine Ashura
+  - Marine Asilia
+  - Marine Asiya
+  - Marine Asma
+  - Marine Asmahani
+  - Marine Asumini
+  - Marine Asya
+  - Marine Awena
+  - Marine Aza
+  - Marine Aziza
+  - Marine Badriya
+  - Marine Bahati
+  - Marine Bahiya
+  - Marine Barke
+  - Marine Basha
+  - Marine Bashaam
+  - Marine Bashira
+  - Marine Basma
+  - Marine Basmah
+  - Marine Batuuli
+  - Marine Baya
+  - Marine Bayyina
+  - Marine Bebi
+  - Marine Bia
+  - Marine Bimbaya
+  - Marine Bimdogo
+  - Marine Bimkubwa
+  - Marine Bimnono
+  - Marine Bishara
+  - Marine Bitisururu
+  - Marine Bititi
+  - Marine Biubwa
+  - Marine Buqisi
+  - Marine Busara
+  - Marine Bushira
+  - Marine Chaniya
+  - Marine Chausiku
+  - Marine Chiku
+  - Marine Chuki
+  - Marine Dabiku
+  - Marine Dafina
+  - Marine Dalila
+  - Marine Dalili
+  - Marine Damisi
+  - Marine Dhakiya
+  - Marine Dhambizao
+  - Marine Dhuriya
+  - Marine Dodo
+  - Marine Ducha
+  - Marine Duni
+  - Marine Durah
+  - Marine Durra
+  - Marine Eidi
+  - Marine Eshe
+  - Marine Etana
+  - Marine Fadhila
+  - Marine Fadhili
+  - Marine Fadiya
+  - Marine Fadari
+  - Marine Fahima
+  - Marine Fahimah
+  - Marine Faida
+  - Marine Faika
+  - Marine Faiza
+  - Marine Faizah
+  - Marine Fanaka
+  - Marine Fanikia
+  - Marine Faraja
+  - Marine Farashuu
+  - Marine Farida
+  - Marine Farisi
+  - Marine Fasaha
+  - Marine Fathiya
+  - Marine Fatima
+  - Marine Fatuma
+  - Marine Fauziya
+  - Marine Feruzi
+  - Marine Fila
+  - Marine Firdawsi
+  - Marine Firyali
+  - Marine Fujo
+  - Marine Furaha
+  - Marine Gasira
+  - Marine Ghalyela
+  - Marine Ghanima
+  - Marine Gharibuu
+  - Marine Gheche
+  - Marine Ghinjo
+  - Marine Ghipe
+  - Marine Habeebah
+  - Marine Habiba
+  - Marine Habibah
+  - Marine Hadhi
+  - Marine Hadiya
+  - Marine Hafidha
+  - Marine Hafsa
+  - Marine Hafsah
+  - Marine Haiba
+  - Marine Haifa
+  - Marine Hakika
+  - Marine Hakima
+  - Marine Hala
+  - Marine Halili
+  - Marine Halima
+  - Marine Halisi
+  - Marine Hamida
+  - Marine Hanaa
+  - Marine Hanifa
+  - Marine Hanuni
+  - Marine Haoniyao
+  - Marine Harbuu
+  - Marine Hartha
+  - Marine Hasanati
+  - Marine Hashiki
+  - Marine Hasijna
+  - Marine Hasina
+  - Marine Hasnaa
+  - Marine Hawa
+  - Marine Hawla
+  - Marine Hazina
+  - Marine Hediye
+  - Marine Hiari
+  - Marine Hiba
+  - Marine Hidaya
+  - Marine Himidi
+  - Marine Hisani
+  - Marine Huruma
+  - Marine Ibtisam
+  - Marine Ikinya
+  - Marine Ilham
+  - Marine Inaya
+  - Marine Intisar
+  - Marine Ita
+  - Marine Itidal
+  - Marine Jaha
+  - Marine Jahi
+  - Marine Jamila
+  - Marine Jana
+  - Marine Jauhar
+  - Marine Jina
+  - Marine Jirani
+  - Marine Johanna
+  - Marine Johari
+  - Marine Jokha
+  - Marine Jumapili
+  - Marine Juwayria
+  - Marine Kabisa
+  - Marine Kadija
+  - Marine Kainda
+  - Marine Kamaria
+  - Marine Kamili
+  - Marine Kanai
+  - Marine Kanika
+  - Marine Karama
+  - Marine Karima
+  - Marine Karimu
+  - Marine Kaweria
+  - Marine Kesi
+  - Marine Khadija
+  - Marine Kibibi
+  - Marine Kifimbo
+  - Marine Kijakazi
+  - Marine Kinaya
+  - Marine Kioni
+  - Marine Kipenzi
+  - Marine Kisima
+  - Marine Kito
+  - Marine Lamia
+  - Marine Latifa
+  - Marine Latifah
+  - Marine Latifu
+  - Marine Layla
+  - Marine Lela
+  - Marine Lila
+  - Marine Madaha
+  - Marine Madiha
+  - Marine Maisha
+  - Marine Makena
+  - Marine Makini
+  - Marine Malaika
+  - Marine Malia
+  - Marine Malika
+  - Marine Malkia
+  - Marine Mariamu
+  - Marine Marini
+  - Marine Marjani
+  - Marine Mashavu
+  - Marine Masika
+  - Marine Maskini
+  - Marine Maulidi
+  - Marine Merah
+  - Marine Mila
+  - Marine Mosi
+  - Marine Muna
+  - Marine Munira
+  - Marine Murua
+  - Marine Mwajuma
+  - Marine Mwamini
+  - Marine Mwasaa
+  - Marine Nabila
+  - Marine Nadra
+  - Marine Nafula
+  - Marine Naima
+  - Marine Najia
+  - Marine Najma
+  - Marine Nana
+  - Marine Ndege
+  - Marine Neema
+  - Marine Nena
+  - Marine Ngina
+  - Marine Nia
+  - Marine Niara
+  - Marine Njeri
+  - Marine Nuha
+  - Marine Nura
+  - Marine Nuru
+  - Marine Paka
+  - Marine Panya
+  - Marine Pasua
+  - Marine Pili
+  - Marine Rabia
+  - Marine Radhi
+  - Marine Rahma
+  - Marine Ramla
+  - Marine Raziya
+  - Marine Reem
+  - Marine Rehema
+  - Marine Rim
+  - Marine Rukiya
+  - Marine Ruqayah
+  - Marine Saada
+  - Marine Sabiha
+  - Marine Sabra
+  - Marine Sadaka
+  - Marine Sadiki
+  - Marine Saida
+  - Marine Sakina
+  - Marine Sala
+  - Marine Salama
+  - Marine Salima
+  - Marine Samiha
+  - Marine Samira
+  - Marine Sanaa
+  - Marine Sanura
+  - Marine Sauda
+  - Marine Shahida
+  - Marine Shamim
+  - Marine Shani
+  - Marine Sharifa
+  - Marine Shawana
+  - Marine Shukura
+  - Marine Siham
+  - Marine Sikudhani
+  - Marine Siri
+  - Marine Sisya
+  - Marine Siti
+  - Marine Subira
+  - Marine Suhaila
+  - Marine Tabia
+  - Marine Tamasha
+  - Marine Tatu
+  - Marine Tawa
+  - Marine Tuhfa
+  - Marine Tumaini
+  - Marine Wambui
+  - Marine Waseme
+  - Marine Yumna
+  - Marine Pusra
+  - Marine Zahra
+  - Marine Zaida
+  - Marine Zaina
+  - Marine Zainabu
+  - Marine Zakiya
+  - Marine Zalika
+  - Marine Zarifa
+  - Marine Zarina
+  - Marine Zawadi
+  - Marine Zera
+  - Marine Zulaykha
+  - Marine Zulekha
+  - Marine Zuwena
+maleLast:
+  - Abdullah
+  - Aga
+  - Ahmed
+  - Akina
+  - Ali
+  - Amanaka
+  - Ambani
+  - Amin
+  - Aneko
+  - Asoyo
+  - Atieno
+  - Audi
+  - Badat
+  - Barasa
+  - Bhudia
+  - Bilali
+  - Birir
+  - Biwott
+  - Boit
+  - Chege
+  - Chelimo
+  - Chepchumba
+  - Chudasama
+  - Daar
+  - Echesa
+  - Ekhalie
+  - Ereng
+  - Gikonyo
+  - Inkera
+  - Irungu
+  - Itote
+  - Jakoyo
+  - Janmohamed
+  - Jesani
+  - Kagwe
+  - Kamande
+  - Kamaru
+  - Kamau
+  - Kamotho
+  - Karanja
+  - Karim
+  - Kariuki
+  - Karumba
+  - Kayange
+  - Keino
+  - Kenga
+  - Kenyatta
+  - Kiano
+  - Kibaki
+  - Kijana
+  - Kimathi
+  - Kimunya
+  - Kipketer
+  - Kipyego
+  - Kitur
+  - Koinange
+  - Konde
+  - Lagat
+  - Loroupe
+  - Luseno
+  - Luvutsi
+  - Macharia
+  - Machogu
+  - Magugu
+  - Makacha
+  - Maruti
+  - Masai
+  - Mathenge
+  - Matiba
+  - Mazrui
+  - Mboya
+  - Mdawida
+  - Mehta
+  - Michucki
+  - Migai
+  - Misiani
+  - Modi
+  - Moi
+  - Muchoki
+  - Mudavadi
+  - Muiruri
+  - Mulama
+  - Muliro
+  - Mumba
+  - Murumbi
+  - Murunga
+  - Murungaru
+  - Musyoka
+  - Muttendango
+  - Mwangi
+  - Mwariama
+  - Mwatha
+  - Ndege
+  - Ndereba
+  - Ngei
+  - Ngoche
+  - Ngugi
+  - Njenga
+  - Njonjo
+  - Njoroge
+  - Njue
+  - Ntalami
+  - Nyachae
+  - Nyandoro
+  - Obama
+  - Obanda
+  - Obuya
+  - Ochieng
+  - Odera
+  - Odhiambo
+  - Odinga
+  - Odumbe
+  - Oduol
+  - Oduor
+  - Ogola
+  - Ogot
+  - Okayo
+  - Okoth
+  - Okumu
+  - Oliech
+  - Olum
+  - Omondi
+  - Ongondo
+  - Onyango
+  - Orengo
+  - Origi
+  - Osiako
+  - Otieno
+  - Otunga
+  - Ouko
+  - Ouma
+  - Oyuga
+  - Patel
+  - Pinto
+  - Quaraishy
+  - Ramrakha
+  - Ring
+  - Rombo
+  - Rono
+  - Rubia
+  - Sadiq
+  - Sande
+  - Santos
+  - Serry
+  - Shah
+  - Shaheen
+  - Sharma
+  - Sheikh
+  - Sorongo
+  - Suji
+  - Tergat
+  - Thuku
+  - Tikolo
+  - Tiyoi
+  - Varaiya
+  - Waciuri
+  - Wainaina
+  - Wainana
+  - Wakiihuri
+  - Wambugu
+  - Wanga
+  - Wangila
+  - Wanja
+  - Wanjiru
+  - Wanyama
+  - Wanyoike
+  - Waruinge
+  - Wa Thiongo
+  - Wa Wamwere
+  - Wa Wanjau

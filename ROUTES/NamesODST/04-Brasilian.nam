@@ -1,0 +1,68 @@
+﻿lookWeights:
+  - 20
+  - 30
+  - 30
+  - 20
+maleFirst:
+  - ODST Arthur
+  - ODST Bruno
+  - ODST Daniel
+  - ODST Eduardo
+  - ODST Felipe
+  - ODST Gabriel
+  - ODST Guilherme
+  - ODST Gustavo
+  - ODST João
+  - ODST João Pedro
+  - ODST Leonardo
+  - ODST Lucas
+  - ODST Luiz
+  - ODST Matheus
+  - ODST Paulo
+  - ODST Pedro
+  - ODST Rafael
+  - ODST Thiago
+  - ODST Vinicius
+  - ODST Vitor
+femaleFirst:
+  - ODST Ana
+  - ODST Amanda
+  - ODST Barbara
+  - ODST Beatriz
+  - ODST Bruna
+  - ODST Camila
+  - ODST Fernanda
+  - ODST Gabriela
+  - ODST Jéssica
+  - ODST Júlia
+  - ODST Juliana
+  - ODST Larissa
+  - ODST Laura
+  - ODST Leticia
+  - ODST Luana
+  - ODST Mariana
+  - ODST Natália
+  - ODST Rafaela
+  - ODST Thais
+  - ODST Vitoria
+maleLast:
+  - Almeida
+  - Alves
+  - Araújo
+  - Barbosa
+  - Cardoso
+  - Carvalho
+  - Costa
+  - Ferreira
+  - Gomes
+  - Lima
+  - Martins
+  - Melo
+  - Oliveira
+  - Pereira
+  - Ribeiro
+  - Rocha
+  - Rodrigues
+  - Santos
+  - Silva
+  - Sousa

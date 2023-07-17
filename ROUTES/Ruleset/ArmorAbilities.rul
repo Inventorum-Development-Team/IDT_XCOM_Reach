@@ -1,0 +1,712 @@
+skills:
+  - type: STR_SPRINT_SKILL
+    costUse:
+      time: 1 
+    tags:
+      ArmorAbility: 1
+      AbilityCooldown: 2 
+  - type: STR_CAMO_SKILL
+    costUse:
+      time: 1 
+    tags:
+      ArmorAbility: 2
+      AbilityCooldown: 4
+  - type: STR_DROP_SHIELD_SKILL
+    costUse:
+      time: 1 
+    compatibleWeapons:
+      - STR_DROP_SHIELD_ITEM
+    checkHandsOnly: false
+    targetMode: 9
+    tags:
+      ArmorAbility: 3
+      AbilityCooldown: 5
+  - type: STR_HOLO_SKILL
+    costUse:
+      time: 1
+    compatibleWeapons:
+      - STR_HOLO_ITEM
+    checkHandsOnly: false
+    targetMode: 9
+    tags:
+      ArmorAbility: 4
+      AbilityCooldown: 2
+  - type: STR_LOCK_SKILL
+    costUse:
+      time: 1 
+    tags:
+      ArmorAbility: 5
+      AbilityCooldown: 4
+
+
+soldiers:
+  - type: STR_SPARTAN_III #ignoreDuplicate 
+    skillIconSprite: 10
+    skills:
+      - STR_SPRINT_SKILL
+      - STR_DROP_SHIELD_SKILL
+      - STR_HOLO_SKILL
+      - STR_CAMO_SKILL
+      - STR_LOCK_SKILL
+units:
+  - type: STR_DROP_SHIELD
+    stats:
+      tu: 0
+      stamina: 0
+      health: 10
+      bravery: 500
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 80
+      psiSkill: 0
+      melee: 0
+    armor: STR_DROP_SHIELD_UC
+    standHeight: 12
+    canPanic: false
+    canBeMindControlled: false
+    moraleLossWhenKilled: 0
+    showFullNameInAlienInventory: 1
+
+  - type: STR_HOLOGRAM
+    stats:
+      tu: 80
+      stamina: 120
+      health: 10
+      bravery: 500
+      reactions: 20
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 80
+      psiSkill: 0
+      melee: 0
+    armor: STR_HOLOGRAM_UC
+    standHeight: 22
+    canPanic: false
+    canBeMindControlled: false
+    moraleLossWhenKilled: 0
+    showFullNameInAlienInventory: 1
+
+armors:
+  - type: STR_DROP_SHIELD_UC
+    spriteSheet: DROP_SHIELD_SPRITESHEET.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_DROP_SHIELD_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    loftempsSet: [ 2 ]
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    drawingRoutine: 19
+    visibilityAtDark: 0
+    visibilityAtDay: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+    tags:
+      DropShield: 1
+
+  - type: STR_HOLOGRAM_UC
+    spriteSheet: SPI_ARMOR_SPRITESHEET.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_HOLOGRAM_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    loftempsSet: [ 0 ]
+    fearImmune: true
+    bleedImmune: true
+    painImmune: true
+    zombiImmune: true
+    allowsKneeling: false
+    drawingRoutine: 0
+    visibilityAtDark: 1
+    visibilityAtDay: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+    tags:
+      Hologram: 1
+items:
+
+  - type: STR_SPRINT_ITEM
+    size: 0.1
+    weight: 10
+    costBuy: 200000
+    bigSprite: 101
+    battleType: 10
+    power: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 1
+  - type: STR_CAMO_ITEM
+    size: 0.1
+    weight: 10
+    costBuy: 500000
+    bigSprite: 102
+    battleType: 10
+    power: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 2
+  - type: STR_DROP_SHIELD_ITEM
+    size: 0.1
+    weight: 10
+    costBuy: 1000000
+    bigSprite: 103
+    battleType: 1
+    power: 1
+    clipSize: -1
+    tuAimed: 101
+    accuracyAimed: 100
+    maxRange: 1
+    spawnUnit: STR_DROP_SHIELD
+    spawnUnitFaction: 2
+    hitAnimation: -1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 3
+  - type: STR_HOLO_ITEM
+    size: 0.1
+    weight: 10
+    costBuy: 200000
+    bigSprite: 104
+    battleType: 1
+    power: 1
+    clipSize: -1
+    tuAimed: 101
+    accuracyAimed: 100
+    spawnUnit: STR_HOLOGRAM
+    spawnUnitFaction: 0
+    hitAnimation: -1
+    maxRange: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 4
+  - type: STR_LOCK_ITEM
+    size: 0.1
+    weight: 10
+    costBuy: 500000
+    bigSprite: 105
+    battleType: 10
+    power: 1
+    armor: 60
+    invWidth: 2
+    invHeight: 2
+    recover: true
+    tags:
+      ItemAbility: 5
+
+  - type: STR_DROP_SHIELD_CORPSE
+    weight: 25
+    bigSprite: 2013
+    floorSprite: 2013
+    invWidth: 2
+    invHeight: 2
+    battleType: 11
+    recover: false
+    armor: 40
+  - type: STR_HOLOGRAM_CORPSE
+    weight: 25
+    bigSprite: 2014
+    floorSprite: 2014
+    invWidth: 2
+    invHeight: 1
+    battleType: 11
+    recover: false
+    armor: 40
+
+
+
+extraSprites:
+  - type: DROP_SHIELD_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 120
+    files:
+      0: Resources/ArmorAbilities/DropShieldUnit.png
+
+  - type: BIGOBS.PCK
+    files:
+      100: Resources/ArmorAbilities/PlaceHolder.png
+      101: Resources/ArmorAbilities/BigSprint.png
+      102: Resources/ArmorAbilities/BigActiveCamo.png
+      103: Resources/ArmorAbilities/BigDropShield.png
+      104: Resources/ArmorAbilities/BigHolo.png
+      105: Resources/ArmorAbilities/BigArmorLock.png
+      2013: Resources/ArmorAbilities/BigShieldCorpse.png
+      2014: Resources/ArmorAbilities/BigHologramCorpse.png
+  - type: FLOOROB.PCK
+    files:
+      2013: Resources/ArmorAbilities/FloorShieldCorpse.png
+      2014: Resources/ArmorAbilities/FloorHologramCorpse.png
+
+  - type: SPICONS.DAT
+    width: 32
+    height: 24
+    files:
+      10: Resources/specialWeapons/spicon_armor_skills.png
+
+extended:
+  tags:
+    RuleItem:
+      ItemAbility: int
+    RuleSkill:
+       ArmorAbility: int
+       AbilityCooldown: int
+    BattleUnit:
+      ArmorCooldown: int
+      ActiveCamo: int
+      Sprint: int
+      Lock: int
+      DropShieldHitFrame: int
+      Gender: int
+    RuleArmor:
+      DropShield: int
+      Hologram: int
+    BattleGame:
+      ShieldDeployed: int
+      GenderCarry: int
+
+
+  scripts:
+    newTurnUnit:
+      - offset: 1
+        code: |
+          var int armorcooldown;
+          var int activecamo;
+          var int sprint;
+          var int lock;
+          var int faction;
+          var int turnside;
+
+          var int maxtu;
+          var int maxreaction;
+
+          var int shieldeployed;
+
+          var ptr GeoscapeSoldier soldier;
+
+          unit.getFaction faction;
+          battle_game.getTurnSide turnside;
+
+          if and eq turnside FACTION_PLAYER eq faction FACTION_PLAYER;
+            unit.getTag armorcooldown Tag.ArmorCooldown;
+            sub armorcooldown 1;
+            unit.setTag Tag.ArmorCooldown armorcooldown;
+
+            unit.getTag activecamo Tag.ActiveCamo;
+            sub activecamo 1;
+            unit.setTag Tag.ActiveCamo activecamo;
+            
+            unit.getTag sprint Tag.Sprint;
+            sub sprint 1;
+            unit.setTag Tag.Sprint sprint;
+            if le sprint 0;
+              unit.getGeoscapeSoldier soldier;
+              soldier.Stats.getTimeUnits maxtu;
+              unit.Stats.setTimeUnits maxtu;
+              unit.setTimeUnits maxtu;
+
+              soldier.Stats.getReactions maxreaction;
+              unit.Stats.setReactions maxreaction;
+            end;
+
+            unit.getTag lock Tag.Lock;
+            sub lock 1;
+            unit.setTag Tag.Lock lock;
+            
+            battle_game.getTag shieldeployed Tag.ShieldDeployed;
+            set shieldeployed 0;
+            battle_game.setTag Tag.ShieldDeployed shieldeployed;
+
+
+
+          end;
+          return;
+
+    createUnit:
+      - offset: 1
+        code: |
+          var int dropshield;
+          unit.getTag dropshield Tag.DropShield;
+          if eq dropshield 1;
+            unit.setFatalwounds 0 999;
+          end;
+
+          return;
+      - offset: 2
+        code: |
+          var int hologram;
+          var int maxtu;
+          var int gender;
+          unit.getTag hologram Tag.Hologram;
+          if eq hologram 1;
+            unit.getTimeUnitsMax maxtu;
+            unit.setTimeUnits maxtu;
+            unit.setFatalwounds 0 999;
+            battle_game.getTag gender Tag.GenderCarry;
+            unit.setTag Tag.Gender gender;
+          end;
+
+          return;
+
+    skillUseUnit:
+      - offset: 1
+        code: |
+          var int armorability;
+          var int itemability;
+          var int armorcooldown;
+          var int abilitycooldown;
+          
+          var int kneeling;
+
+          var int maxtu;
+          var int maxreaction;
+
+          var int shieldeployed;
+
+          var int gender;
+
+          var ptr RuleInventory ability_slot;
+          var ptre BattleItem ability_item;
+
+
+          actor.getTag armorcooldown Tag.ArmorCooldown;
+          if gt armorcooldown 0;
+            battle_game.flashMessage "STR_ON_COOLDOWN";
+            set continue_action 0;
+            return;
+          end;
+
+          rules.getRuleInventory ability_slot "STR_ARMOR_ABILITY_SLOT";
+          actor.getInventoryItem ability_item ability_slot;
+          ability_item.getTag itemability Tag.ItemAbility;
+
+          skill.getTag armorability Tag.ArmorAbility;
+
+          if neq armorability itemability;
+            battle_game.flashMessage "STR_WRONG_ABILITY";
+            set continue_action 0;
+            return;
+          end; 
+
+          actor.isKneeled kneeling;
+          if and eq armorability 5 neq kneeling 1;
+            battle_game.flashMessage "STR_NOT_KNEELING";
+            set continue_action 0;
+            return;
+          end;
+
+          skill.getTag abilitycooldown Tag.AbilityCooldown;
+          actor.setTag Tag.ArmorCooldown abilitycooldown;
+
+
+          if eq armorability 1; #Sprint
+            actor.setTag Tag.Sprint 1;
+            actor.Stats.getTimeUnits maxtu;
+            add maxtu 40;
+            actor.Stats.setTimeUnits maxtu;
+            actor.addTimeUnits 40;
+
+            actor.Stats.getReactions maxreaction;
+            sub maxreaction 40;
+            actor.Stats.setReactions maxreaction;
+          end;
+
+          if eq armorability 2; #Camo
+            actor.setTag Tag.ActiveCamo 1;
+          end;
+
+          if eq armorability 3; #Shield
+            battle_game.getTag shieldeployed Tag.ShieldDeployed;
+            add shieldeployed 1;
+            battle_game.setTag Tag.ShieldDeployed shieldeployed;
+          end;
+
+          if eq armorability 4; #Holo
+            actor.getGender gender;
+            battle_game.setTag Tag.GenderCarry gender;
+          end;
+
+          if eq armorability 5; #Lock
+            actor.setTag Tag.Lock 1;
+            actor.setTimeUnits 0;
+          end;
+
+          return;
+
+
+    visibilityUnit:
+        - offset: 1
+          code: |
+            var int activecamo;
+
+            target_unit.getTag activecamo Tag.ActiveCamo;
+            if eq activecamo 1;
+              set current_visibility 5;
+            end;
+
+
+            return current_visibility visibility_mode;
+
+
+    hitUnit:
+        - offset: 1
+          code: |
+            var int shieldeployed;
+            var int unit_x;
+            var int unit_y;
+            var int unit_z;
+            var int cord_x;
+            var int cord_y;
+            var int cord_z;
+            var int dropshield;
+            var int distanceattacker;
+            var int distancedefender;
+            var int frame;
+
+            var ptr BattleUnit shield_unit;
+            var ptr Tile unit_tile;
+            var ptr Tile attacker_tile;
+            var ptr Tile tile;
+
+            unit.getTag dropshield Tag.DropShield;
+            if eq dropshield 1;
+              BattleUnit.getPosition.getX unit unit_x;
+              BattleUnit.getPosition.getY unit unit_y;
+              BattleUnit.getPosition.getZ unit unit_z;
+              battle_game.getTile unit_tile unit_x unit_y unit_z;
+              BattleUnit.getPosition.getX attacker cord_x;
+              BattleUnit.getPosition.getY attacker cord_y;
+              BattleUnit.getPosition.getZ attacker cord_z;
+              battle_game.getTile attacker_tile cord_x cord_y cord_z;
+              Tile.getDistanceTile unit_tile distanceattacker attacker_tile;
+              if le distanceattacker 1;
+                return power part side;
+              end;
+              BattleGame.getAnimFrame battle_game frame; #Shield hit flash
+              unit.setTag Tag.DropShieldHitFrame frame;
+              set power 0;
+              return power part side;
+            end;
+
+            battle_game.getTag shieldeployed Tag.ShieldDeployed;
+            if ge shieldeployed 1;
+              BattleUnit.getPosition.getX unit unit_x;
+              BattleUnit.getPosition.getY unit unit_y;
+              BattleUnit.getPosition.getZ unit unit_z;
+
+              battle_game.getTile unit_tile unit_x unit_y unit_z;
+
+              set cord_x unit_x;
+              set cord_y unit_y;
+              set cord_z unit_z;
+              sub cord_x 1;
+              sub cord_y 1;
+
+              loop var loop_y 2;
+                loop var loop_x 2;
+                  battle_game.getTile tile cord_x cord_y cord_z;
+
+                  tile.getUnit shield_unit;
+                  shield_unit.getTag dropshield Tag.DropShield;
+                  if eq dropshield 1;
+                    Tile.getDistanceTile unit_tile distancedefender tile;
+                    BattleUnit.getPosition.getX attacker unit_x;
+                    BattleUnit.getPosition.getY attacker unit_y;
+                    BattleUnit.getPosition.getZ attacker unit_z;
+                    battle_game.getTile attacker_tile unit_x unit_y unit_z;
+                    Tile.getDistanceTile attacker_tile distanceattacker tile;
+                    if and le distancedefender 1 gt distanceattacker 1;
+                      set power 0;
+                      BattleGame.getAnimFrame battle_game frame; #Shield hit flash
+                      unit.setTag Tag.DropShieldHitFrame frame;
+                      return power part side;
+                    end;
+                  end;
+                  add cord_x 1;
+                end;
+                sub cord_x 2;
+                add cord_y 1;
+              end;
+
+            end;
+            return power part side;
+
+
+
+        - offset: 2
+          code: |
+            var int lock;
+
+            unit.getTag lock Tag.Lock;
+
+            if eq lock 1;
+              set power 0;
+            end;
+
+            return power part side;
+
+
+    selectUnitSprite:
+        - offset: 2
+          code: |
+            var int gender;
+            unit.getTag gender Tag.Gender;
+            if eq gender 1;
+              add sprite_index 1000;
+              debug_log "test";
+            end;
+            return sprite_index;
+
+
+    recolorUnitSprite:
+        - offset: 2
+          code: |
+            var int activecamo;
+            var int frame;
+            var int temp;
+            var int newshade;
+
+            unit.getTag activecamo Tag.ActiveCamo;
+
+            if eq activecamo 1;
+              set frame anim_frame;
+              if gt frame 20;
+                set temp frame;
+                muldiv temp 1 20;
+                mul temp 20;
+                sub frame temp;
+                if lt frame 0;
+                  add frame 20;
+                end;
+              end;
+              if and lt frame 4 neq old_pixel 0;
+                get_shade newshade new_pixel;
+                add newshade frame;
+                add newshade 3;
+                if ge newshade 16;
+                  set new_pixel 0;
+                  return new_pixel;
+                end;   
+                sub newshade 15;
+                mul newshade -1;
+                set_shade new_pixel newshade;
+                set_color new_pixel COLOR_X1_NULL;
+              else ge frame 4;
+                set new_pixel 0;
+              end;
+            end;
+            return new_pixel;
+
+        - offset: 3
+          code: |
+            var int lock;
+            var int frame;
+            var int temp;
+            var int newshade;
+
+            unit.getTag lock Tag.Lock;
+
+            if eq lock 1;
+              set frame anim_frame;
+              if gt frame 4;
+                set temp frame;
+                muldiv temp 1 4;
+                mul temp 4;
+                sub frame temp;
+                if lt frame 0;
+                  add frame 4;
+                end;
+              end;
+              if and lt frame 4 neq old_pixel 0;
+                get_shade newshade new_pixel;
+                add newshade frame;
+                sub newshade 3;
+                if ge newshade 16;
+                  set newshade 15;
+                end;
+                if lt newshade 0;
+                  set newshade 0;
+                end;
+                set_shade new_pixel newshade;
+                set_color new_pixel COLOR_X1_BLUE1;
+              end;
+            end;
+            return new_pixel;
+
+
+        - offset: 5
+          code: | #Drop shield hit flash
+            var int frame;
+            var int breakhit;
+            var int newshade;
+
+            unit.getTag frame Tag.DropShieldHitFrame;
+            if neq frame 0;
+              sub frame anim_frame;
+              if gt frame -2;
+                get_shade newshade new_pixel;
+                add newshade frame;
+                set_shade new_pixel newshade;
+                if lt newshade 0;
+                  set newshade 0;
+                end;
+                set_color new_pixel COLOR_X1_BLUE2;
+              end;
+            end;
+            return new_pixel; 
+
+
+        - offset: 6
+          code: | #Hologram recolour
+            var int hologram;
+            var int newshade;
+            unit.getTag hologram Tag.Hologram;
+
+            if eq hologram 1;
+              get_shade newshade new_pixel;
+              set_shade new_pixel newshade;
+              set_color new_pixel COLOR_X1_BLUE1;
+            end;
+            return new_pixel;
+        

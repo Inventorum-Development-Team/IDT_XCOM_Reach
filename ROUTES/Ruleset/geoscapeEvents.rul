@@ -1,0 +1,225 @@
+eventScripts:
+  - type: STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT
+    firstMonth: 0
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_WINTER_CONTINGENCY_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_WINTER_CONTINGENCY_EVENT
+    firstMonth: 0
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_BATTLE_SZURDOK_RIDGE_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_BATTLE_SZURDOK_RIDGE_EVENT
+    firstMonth: 1
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_OPERATION_UPPER_CUT_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_OPERATION_UPPER_CUT_EVENT
+    firstMonth: 1
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_UNSC_FLEET_INCOMING_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_UNSC_FLEET_INCOMING_EVENT
+    firstMonth: 1
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_EVACUATION_EFFORTS_ONGOING_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_EVACUATION_EFFORTS_ONGOING_EVENT
+    firstMonth: 1
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_EVACUATION_HALTED_EVENT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_EVACUATION_HALTED_EVENT
+    firstMonth: 1
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_UNSC_COMBAT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT
+    firstMonth: 1
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_COVENANT_COMBAT_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_COVENANT_GLASSING_EVENT
+    firstMonth: 1
+    lastMonth: 20
+    executionOdds: 100
+
+  - type: STR_COVENANT_FLEET_SCRIPT
+    oneTimeSequentialEvents:
+     - STR_COVENANT_FLEET_INCOMING_EVENT
+    firstMonth: 1
+    lastMonth: 20
+    executionOdds: 100
+
+# - type: STR_TEST_EVENT_SCRIPT
+#    eventWeights:                 # randomly generated repeatable events
+#      0:
+#        STR_TEST_EVENT_A: 100
+#        STR_TEST_EVENT_B: 100
+#    oneTimeSequentialEvents:      # sequentially generated one-time events (cannot repeat)
+#      - STR_TEST_EVENT2
+#      - STR_TEST_EVENT3
+#    oneTimeRandomEvents:          # randomly generated one-time events (cannot repeat)
+#      STR_TEST_EVENT1R: 100
+#      STR_TEST_EVENT1R: 100
+#    timerRandom: 150
+
+events:
+#    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
+  - name: STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT
+    description: STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_DESCRIPTION
+    background: BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_BACKGROUND
+    points: 0
+    timer: 2880
+
+  - name: STR_WINTER_CONTINGENCY_EVENT
+    description: STR_WINTER_CONTINGENCY_EVENT_DESCRIPTION
+    background: WINTER_CONTINGENCY_EVENT_BACKGROUND
+    points: 0
+    timer: 14400
+
+  - name: STR_BATTLE_SZURDOK_RIDGE_EVENT
+    description: STR_BATTLE_SZURDOK_RIDGE_EVENT_DESCRIPTION
+    background: BATTLE_SZURDOK_RIDGE_EVENT_BACKGROUND
+#    points: -5
+    timer: 17280
+
+  - name: STR_OPERATION_UPPER_CUT_EVENT
+    description: STR_OPERATION_UPPER_CUT_EVENT_DESCRIPTION
+    background: OPERATION_UPPER_CUT_EVENT_BACKGROUND
+    points: 0
+    timer: 20160
+
+  - name: STR_EVACUATION_EFFORTS_ONGOING_EVENT
+    description: STR_EVACUATION_EFFORTS_ONGOING_EVENT_DESCRIPTION
+    background: EVACUATION_EFFORTS_ONGOING_EVENT_BACKGROUND
+    regionList: [STR_REGION_1, STR_REGION_2, STR_REGION_3, STR_REGION_4, STR_REGION_5, STR_REGION_6, STR_REGION_7, STR_REGION_8, STR_REGION_9, STR_REGION_10, STR_REGION_11]
+    city: true
+#    points: -5
+    timer: 28800
+
+  - name: STR_UNSC_FLEET_INCOMING_EVENT
+    description: STR_UNSC_FLEET_INCOMING_EVENT_DESCRIPTION
+    background: UNSC_FLEET_INCOMING_EVENT_BACKGROUND
+    points: 0
+    timer: 18720
+
+  - name: STR_EVACUATION_HALTED_EVENT
+    description: STR_EVACUATION_HALTED_EVENT_DESCRIPTION
+    background: EVACUATION_HALTED_EVENT_BACKGROUND
+    regionList: [STR_REGION_1, STR_REGION_2, STR_REGION_3, STR_REGION_4, STR_REGION_5, STR_REGION_6, STR_REGION_7, STR_REGION_8, STR_REGION_9, STR_REGION_10, STR_REGION_11]
+    city: true
+#    points: -5
+    timer: 36000
+
+  - name: STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT
+    description: STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_DESCRIPTION
+    background: UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_BACKGROUND
+    regionList: [STR_REGION_1, STR_REGION_2, STR_REGION_3, STR_REGION_4, STR_REGION_5, STR_REGION_6, STR_REGION_7, STR_REGION_8, STR_REGION_9, STR_REGION_10, STR_REGION_11]
+    city: true
+#    points: -5
+    timer: 3600
+    timerRandom: 28800
+
+  - name: STR_COVENANT_GLASSING_EVENT
+    description: STR_COVENANT_GLASSING_EVENT_DESCRIPTION
+    background: COVENANT_GLASSING_EVENT_BACKGROUND
+    regionList: [STR_REGION_1, STR_REGION_2, STR_REGION_3, STR_REGION_4, STR_REGION_5, STR_REGION_6, STR_REGION_7, STR_REGION_8, STR_REGION_9, STR_REGION_10, STR_REGION_11]
+    city: true
+#    points: -5
+    timer: 3600
+    timerRandom: 25920
+
+  - name: STR_COVENANT_FLEET_INCOMING_EVENT
+    description: STR_COVENANT_FLEET_INCOMING_EVENT_DESCRIPTION
+    background: COVENANT_FLEET_INCOMING_EVENT_BACKGROUND
+    points: 0
+    timer: 43200
+
+extraSprites:
+##########################################
+############ BACKGROUNDS #################
+##########################################
+  - type: BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_BACKGROUND.PNG
+  - type: BATTLE_SZURDOK_RIDGE_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/BATTLE_SZURDOK_RIDGE_EVENT_BACKGROUND.PNG
+  - type: COVENANT_GLASSING_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/COVENANT_GLASSING_EVENT_BACKGROUND.PNG
+  - type: EVACUATION_EFFORTS_ONGOING_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/EVACUATION_EFFORTS_ONGOING_EVENT_BACKGROUND.PNG
+
+  - type: EVACUATION_HALTED_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/EVACUATION_HALTED_EVENT_BACKGROUND.PNG
+  - type: OPERATION_UPPER_CUT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/OPERATION_UPPER_CUT_EVENT_BACKGROUND.PNG
+
+  - type: UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_BACKGROUND.PNG
+
+  - type: WINTER_CONTINGENCY_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/WINTER_CONTINGENCY_EVENT_BACKGROUND.PNG
+
+  - type: UNSC_FLEET_INCOMING_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/UNSC_FLEET_INCOMING_EVENT_BACKGROUND.PNG
+
+  - type: COVENANT_FLEET_INCOMING_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/COVENANT_FLEET_INCOMING_EVENT_BACKGROUND.PNG

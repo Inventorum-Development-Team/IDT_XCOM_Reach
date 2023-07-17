@@ -1,0 +1,410 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Trooper Abassi
+  - Trooper Abayomi
+  - Trooper Abejide
+  - Trooper Abiodun
+  - Trooper Abiola
+  - Trooper Adebayo
+  - Trooper Adejola
+  - Trooper Adisa
+  - Trooper Adunbi
+  - Trooper Ajala
+  - Trooper Ajani
+  - Trooper Akanni
+  - Trooper Akin
+  - Trooper Akinlabi
+  - Trooper Akinlana
+  - Trooper Akins
+  - Trooper Akono
+  - Trooper Amadi
+  - Trooper Aniweta
+  - Trooper Apara
+  - Trooper Ayodele
+  - Trooper Azagba
+  - Trooper Babafemi
+  - Trooper Bem
+  - Trooper Boseda
+  - Trooper Chidike
+  - Trooper Chijioke
+  - Trooper Chike
+  - Trooper Chukwuma
+  - Trooper Dada
+  - Trooper David
+  - Trooper Dumaka
+  - Trooper Ehioze
+  - Trooper Ekundayo
+  - Trooper Emeka
+  - Trooper Emmanuel
+  - Trooper Ewansiha
+  - Trooper Ezekiel
+  - Trooper Fasina
+  - Trooper Gowo
+  - Trooper Idowu
+  - Trooper Imarogbe
+  - Trooper Isah
+  - Trooper Iyapo
+  - Trooper Jaja
+  - Trooper Jumoke
+  - Trooper Kayode
+  - Trooper Kehinde
+  - Trooper Kosoko
+  - Trooper Kwame
+  - Trooper Madu
+  - Trooper Mazi
+  - Trooper Modupe
+  - Trooper Morihinze
+  - Trooper Moses
+  - Trooper Ndulu
+  - Trooper Ngozi
+  - Trooper Nosakhere
+  - Trooper Nwabudike
+  - Trooper Obasi
+  - Trooper Obataiye
+  - Trooper Obayana
+  - Trooper Obi
+  - Trooper Obike
+  - Trooper Ode
+  - Trooper Odion
+  - Trooper Ogbonna
+  - Trooper Okechuku
+  - Trooper Okpara
+  - Trooper Oladele
+  - Trooper Olafemi
+  - Trooper Olaniyan
+  - Trooper Olawale
+  - Trooper Olawutobi
+  - Trooper Olubayo
+  - Trooper Olufemi
+  - Trooper Olugbala
+  - Trooper Olujimi
+  - Trooper Olumide
+  - Trooper Olumiji
+  - Trooper Olushola
+  - Trooper Oluwa
+  - Trooper Oluwaseyi
+  - Trooper Oluyemi
+  - Trooper Omolara
+  - Trooper Omorede
+  - Trooper Onuwachi
+  - Trooper Opeyemi
+  - Trooper Osahar
+  - Trooper Osakwe
+  - Trooper Osayaba
+  - Trooper Osayande
+  - Trooper Osayimwese
+  - Trooper Osaze
+  - Trooper Samuel
+  - Trooper Stanley
+  - Trooper Sunday
+  - Trooper Taiwo
+  - Trooper Tobi
+  - Trooper Echechi
+  - Trooper Uzoma
+  - Trooper Weke
+  - Trooper Worie
+femaleFirst:
+  - Trooper Abagbe
+  - Trooper Abagebe
+  - Trooper Abayomi
+  - Trooper Abebi
+  - Trooper Abegbe
+  - Trooper Abeje
+  - Trooper Abeke
+  - Trooper Abena
+  - Trooper Abeo
+  - Trooper Abidemi
+  - Trooper Abimbola
+  - Trooper Abiona
+  - Trooper Abisola
+  - Trooper Adamma
+  - Trooper Adanna
+  - Trooper Adanya
+  - Trooper Adebola
+  - Trooper Adebomi
+  - Trooper Adedagbo
+  - Trooper Adedewe
+  - Trooper Adedoja
+  - Trooper Adeleke
+  - Trooper Adenrele
+  - Trooper Adeola
+  - Trooper Aderinola
+  - Trooper Adesimbo
+  - Trooper Adesina
+  - Trooper Adeyemi
+  - Trooper Adio
+  - Trooper Adjoa
+  - Trooper Aduke
+  - Trooper Aina
+  - Trooper Aiyetoro
+  - Trooper Ajala
+  - Trooper Ajani
+  - Trooper Akanke
+  - Trooper Alaba
+  - Trooper Alke
+  - Trooper Ama
+  - Trooper Amonke
+  - Trooper Annakiya
+  - Trooper Anuli
+  - Trooper Arria
+  - Trooper Asabi
+  - Trooper Auta
+  - Trooper Ayo
+  - Trooper Ayobami
+  - Trooper Ayobunmi
+  - Trooper Ayodele
+  - Trooper Ayofemi
+  - Trooper Ayoka
+  - Trooper Ayoluwa
+  - Trooper Ayomide
+  - Trooper Ayoola
+  - Trooper Azalee
+  - Trooper Baderinwa
+  - Trooper Baina
+  - Trooper Bayo
+  - Trooper Becca
+  - Trooper Bekide
+  - Trooper Binah
+  - Trooper Bolade
+  - Trooper Bolanile
+  - Trooper Bunmi
+  - Trooper Chidimma
+  - Trooper Chika
+  - Trooper Chinonso
+  - Trooper Chinue
+  - Trooper Chioma
+  - Trooper Chisom
+  - Trooper Chizoba
+  - Trooper Cynthia
+  - Trooper Dada
+  - Trooper Danuwa
+  - Trooper Daurama
+  - Trooper Dayo
+  - Trooper Dubaku
+  - Trooper Dumaka
+  - Trooper Ebele
+  - Trooper Ebun
+  - Trooper Edenausegbo
+  - Trooper Ehizemen
+  - Trooper Ekaghogho
+  - Trooper Exenesenarh
+  - Trooper Enomwoyi
+  - Trooper Esosa
+  - Trooper Etinosa
+  - Trooper Fabayo
+  - Trooper Faraa
+  - Trooper Farih
+  - Trooper Fayola
+  - Trooper Fayolla
+  - Trooper Femi
+  - Trooper Fola
+  - Trooper Folade
+  - Trooper Folami
+  - Trooper Folashade
+  - Trooper Dolayan
+  - Trooper Foluke
+  - Trooper Gimbya
+  - Trooper Hanna
+  - Trooper Hasana
+  - Trooper Hazika
+  - Trooper Hembadoon
+  - Trooper Idowu
+  - Trooper Ifama
+  - Trooper Ife
+  - Trooper Ifetayo
+  - Trooper Ige
+  - Trooper Ijaba
+  - Trooper Ikuseghan
+  - Trooper Innya
+  - Trooper Irawagbon
+  - Trooper Isoke
+  - Trooper Iverem
+  - Trooper Iyabo
+  - Trooper Izegbe
+  - Trooper Joy
+  - Trooper Jumoke
+  - Trooper Kehinde
+  - Trooper Kinah
+  - Trooper Kiziah
+  - Trooper Kokumo
+  - Trooper Limber
+  - Trooper Lina
+  - Trooper Lisha
+  - Trooper Marjorie
+  - Trooper Mbafor
+  - Trooper Mbeke
+  - Trooper Mhonum
+  - Trooper Monifa
+  - Trooper Morayo
+  - Trooper Natashenka
+  - Trooper Ngozi
+  - Trooper Nkiruka
+  - Trooper Nneka
+  - Trooper Nnenaya
+  - Trooper Nnenia
+  - Trooper Nsia
+  - Trooper Nourbese
+  - Trooper Nwakaeo
+  - Trooper Obioma
+  - Trooper Ode
+  - Trooper Ofure
+  - Trooper Olabunmi
+  - Trooper Olaniyi
+  - Trooper Olateju
+  - Trooper Olayinka
+  - Trooper Olubayo
+  - Trooper Olubunmi
+  - Trooper Olufemi
+  - Trooper Olufunke
+  - Trooper Olufunmilayo
+  - Trooper Oluremi
+  - Trooper Omalara
+  - Trooper Omolara
+  - Trooper Omorenoniwara
+  - Trooper Omorose
+  - Trooper Omosede
+  - Trooper Omosupe
+  - Trooper omusupe
+  - Trooper Oni
+  - Trooper Onyeka
+  - Trooper Osayioniwabo
+  - Trooper Osemweoyenmwen
+  - Trooper Oseye
+  - Trooper Sade
+  - Trooper Shade
+  - Trooper Shiminege
+  - Trooper Tanisha
+  - Trooper Thema
+  - Trooper Theresa
+  - Trooper Titilayo
+  - Trooper Tobi
+  - Trooper Uchefuna
+  - Trooper Urbi
+  - Trooper Yahimba
+  - Trooper Yejide
+  - Trooper Yetunde
+  - Trooper Yewande
+  - Trooper Zuna
+maleLast:
+  - Abdul
+  - Abiodun
+  - Abubakar
+  - Achebe
+  - Adebayo
+  - Adebiyi
+  - Adeyemi
+  - Ahmadu
+  - Aimeihi
+  - Ajuonuma
+  - Akubueze
+  - Alamieyeseigha
+  - Alli
+  - Alvana
+  - Amadi
+  - Amaechi
+  - Amaka
+  - Anakobe
+  - Anjola
+  - Anyene
+  - Arokoyo
+  - Awani
+  - Awiyetu
+  - Awolowo
+  - Aynaw
+  - Ayoola
+  - Babangida
+  - Bugaje
+  - Chidinma
+  - Chinwe
+  - Chukwu
+  - Claaseen
+  - Dhose
+  - Ebuka
+  - Ehi
+  - Ehimen
+  - Ejogo
+  - Eke
+  - Ekwensi
+  - Enuma
+  - Eseoghene
+  - Eventus
+  - Eze
+  - Ezugo
+  - Falmata
+  - Farida
+  - Femi
+  - Garba
+  - Hope
+  - Ibe
+  - Ibori
+  - Ibrahim
+  - Ibru
+  - Ibukun
+  - Iheme
+  - Iniebong
+  - Inusa
+  - Itsifanus
+  - Jangana
+  - Jonathan
+  - Jolawole
+  - Lamidi
+  - Lawal
+  - Madaki
+  - Mahmud
+  - Maikudi
+  - Mantakari
+  - Martins
+  - Mbana
+  - Mbanefo
+  - Memuna
+  - Mohammed
+  - Mshelia
+  - Ngwube
+  - Njoku
+  - Obiola
+  - Obrutse
+  - Ochigbo
+  - Ochonogo
+  - Ogechi
+  - Okah
+  - Okafor
+  - Okeke
+  - Okere
+  - Okereke
+  - Okonkwo
+  - Okoye
+  - Olaoluwa
+  - Olugbenga
+  - Olukayode
+  - Olumide
+  - Olumodeji
+  - Olusanmi
+  - Oluwadamilare
+  - Oluwakemi
+  - Oluwayomi
+  - Oni
+  - Onita
+  - Onyinjuke
+  - Opara
+  - Orakwe
+  - Otaru
+  - Otatoru
+  - Rajuli
+  - Raphael
+  - Saraki
+  - Sekibo
+  - Shuta
+  - Sunny
+  - Temitope
+  - Tosin
+  - Uba
+  - Udoh
+  - Ugbabio
+  - Usman
+  - Wale
+  - Yar-adua
+  - Yindadi

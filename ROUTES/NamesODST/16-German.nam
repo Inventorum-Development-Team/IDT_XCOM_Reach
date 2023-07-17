@@ -1,0 +1,77 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - ODST Thomas
+  - ODST Andreas
+  - ODST Michael
+  - ODST Frank
+  - ODST Peter
+  - ODST Joerg
+  - ODST Uwe
+  - ODST Matthias
+  - ODST Stefan
+  - ODST Juergen
+  - ODST Ralf
+  - ODST Bernd
+  - ODST Klaus
+  - ODST Torsten
+  - ODST Hans
+  - ODST Rainer
+  - ODST Jens
+  - ODST Martin
+  - ODST Dirk
+  - ODST Wolfgang
+  - ODST Norbert
+  - ODST Holger
+  - ODST Kai
+  - ODST Joachim
+  - ODST Christian
+  - ODST Karsten
+  - ODST Dieter
+femaleFirst:
+  - ODST Susanne
+  - ODST Sabine
+  - ODST Petra
+  - ODST Birgit
+  - ODST Andrea
+  - ODST Gabriele
+  - ODST Martina
+  - ODST Heike
+  - ODST Ute
+  - ODST Barbara
+  - ODST Bettina
+  - ODST Karin
+  - ODST Angelika
+  - ODST Monika
+  - ODST Angela
+maleLast:
+  - Mueller
+  - Schmidt
+  - Schneider
+  - Fischer
+  - Weber
+  - Meyer
+  - Wagner
+  - Becker
+  - Schulz
+  - Hoffmann
+  - Schaefer
+  - Koch
+  - Bauer
+  - Richter
+  - Klein
+  - Wolf
+  - Schroeder 
+  - Neumann
+  - Schwarz
+  - Zimmermann
+  - Braun
+  - Krueger
+  - Hartmann
+  - Lange
+  - Schmitz
+  - Krause
+  - Meier

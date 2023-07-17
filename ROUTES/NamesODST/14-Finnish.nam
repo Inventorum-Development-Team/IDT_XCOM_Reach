@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - ODST Aaro
+  - ODST Aatu
+  - ODST Akseli
+  - ODST Aleksi
+  - ODST Antti
+  - ODST Arttu
+  - ODST Atte
+  - ODST Eemeli
+  - ODST Eero
+  - ODST Eino
+  - ODST Esko
+  - ODST Elias
+  - ODST Erkki
+  - ODST Heikki
+  - ODST Henrikki
+  - ODST Ilmari
+  - ODST Jaakko
+  - ODST Jere
+  - ODST Jesse
+  - ODST Joel
+  - ODST Joona
+  - ODST Juhani
+  - ODST Juho
+  - ODST Julius
+  - ODST Jussi
+  - ODST Juuso
+  - ODST Kalle
+  - ODST Konsta
+  - ODST Lauri
+  - ODST Leevi
+  - ODST Markku
+  - ODST Matias
+  - ODST Matti
+  - ODST Mika
+  - ODST Mikael
+  - ODST Mikko
+  - ODST Niilo
+  - ODST Niklas
+  - ODST Niko
+  - ODST Onni
+  - ODST Oskari
+  - ODST Roope
+  - ODST Sami
+  - ODST Santeri
+  - ODST Tapani
+  - ODST Tommi
+  - ODST Tuomas
+  - ODST Valtteri
+  - ODST Viljo
+  - ODST Ville
+femaleFirst:
+  - ODST Aino
+  - ODST Anja
+  - ODST Anna
+  - ODST Anneli
+  - ODST Anni
+  - ODST Eila
+  - ODST Elina
+  - ODST Elisa
+  - ODST Emilia
+  - ODST Emma
+  - ODST Emmi
+  - ODST Eveliina
+  - ODST Hanna
+  - ODST Hannele
+  - ODST Helena
+  - ODST Helmi
+  - ODST Iida
+  - ODST Iina
+  - ODST Ilona
+  - ODST Jenni
+  - ODST Johanna
+  - ODST Julia
+  - ODST Kaarina
+  - ODST Karoliina
+  - ODST Katariina
+  - ODST Kristiina
+  - ODST Laura
+  - ODST Leena
+  - ODST Liisa
+  - ODST Maarit
+  - ODST Maija
+  - ODST Maria
+  - ODST Marjatta
+  - ODST Martta
+  - ODST Milla
+  - ODST Minna
+  - ODST Noora
+  - ODST Oona
+  - ODST Pauliina
+  - ODST Pirjo
+  - ODST Riitta
+  - ODST Ritva
+  - ODST Saara
+  - ODST Sanni
+  - ODST Sari
+  - ODST Sofia
+  - ODST Susanna
+  - ODST Tuula
+  - ODST Tuuli
+  - ODST Veera
+maleLast:
+  - Aalto
+  - Aaltonen
+  - Aho
+  - Ahola
+  - Ahonen
+  - Anttila
+  - Arvola
+  - Eskola
+  - Haapala
+  - Haavisto
+  - Hakala
+  - Halonen
+  - Harju
+  - Hartikainen
+  - Heikkinen
+  - Heino
+  - Heinonen
+  - Heiskanen
+  - Hietala
+  - Hiltunen
+  - Hirvonen
+  - Honkanen
+  - Huttunen
+  - Ikonen
+  - Immonen
+  - Jalonen
+  - Jokinen
+  - Kallio
+  - Karhu
+  - Karjalainen
+  - Karppinen
+  - Kauppinen
+  - Kemppainen
+  - Kettunen
+  - Kinnunen
+  - Kiviniemi
+  - Koivisto
+  - Kokko
+  - Kokkonen
+  - Koponen
+  - Korhonen
+  - Korpela
+  - Koskela
+  - Koski
+  - Koskinen
+  - Laakso
+  - Laaksonen
+  - Lahti
+  - Lahtinen
+  - Laine
+  - Laitinen
+  - Lappalainen
+  - Lehtinen
+  - Lehto
+  - Lehtonen
+  - Leino
+  - Leinonen
+  - Lindholm
+  - Manninen
+  - Mattila
+  - Miettinen
+  - Mikkola
+  - Mikkonen
+  - Moilanen
+  - Mustonen
+  - Niemi
+  - Nieminen
+  - Niskanen
+  - Nurmi
+  - Nurminen
+  - Nyman
+  - Ojala
+  - Oksanen
+  - Partanen
+  - Peltola
+  - Peltonen
+  - Pesonen
+  - Pulkkinen
+  - Rajala
+  - Rantala
+  - Rantanen
+  - Rautiainen
+  - Rautio
+  - Rissanen
+  - Saari
+  - Saarinen
+  - Saimi
+  - Salminen
+  - Salo
+  - Salonen
+  - Savolainen
+  - Suominen
+  - Toivonen
+  - Tuominen
+  - Turunen
+  - Uusitalo
+  - Vainio
+  - Virtanen
+  - Vuorinen
+  - Ylitalo

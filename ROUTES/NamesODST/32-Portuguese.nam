@@ -1,0 +1,361 @@
+lookWeights:
+  - 2
+  - 88
+  - 2
+  - 8
+maleFirst:
+  - ODST Afonso
+  - ODST Alberto
+  - ODST Alexandre
+  - ODST Alvaro
+  - ODST Andre
+  - ODST Antonio
+  - ODST Augusto
+  - ODST Bernardo
+  - ODST Bruno
+  - ODST Carlos
+  - ODST Cristiano
+  - ODST Daniel
+  - ODST David
+  - ODST Diogo
+  - ODST Duarte
+  - ODST Eduardo
+  - ODST Fabio
+  - ODST Fernando
+  - ODST Filipe
+  - ODST Flavio
+  - ODST Francisco
+  - ODST Frederico
+  - ODST Gabriel
+  - ODST Goncalo
+  - ODST Guilherme
+  - ODST Gustavo
+  - ODST Helder
+  - ODST Henrique
+  - ODST Hugo
+  - ODST Ivo
+  - ODST Jaime
+  - ODST Joao
+  - ODST Joaquim
+  - ODST Jorge
+  - ODST Jose
+  - ODST Julio
+  - ODST Leonardo
+  - ODST Leonel
+  - ODST Luis
+  - ODST Manuel
+  - ODST Marcelo
+  - ODST Marcio
+  - ODST Marco
+  - ODST Mario
+  - ODST Miguel
+  - ODST Nelson
+  - ODST Nuno
+  - ODST Orlando
+  - ODST Paulo
+  - ODST Pedro
+  - ODST Rafael
+  - ODST Raul
+  - ODST Ricardo
+  - ODST Roberto
+  - ODST Rodolfo
+  - ODST Rodrigo
+  - ODST Rui
+  - ODST Samuel
+  - ODST Sergio
+  - ODST Tiago
+  - ODST Telmo
+  - ODST Tomas
+  - ODST Vasco
+  - ODST Vitor
+femaleFirst:
+  - ODST Alice
+  - ODST Ana
+  - ODST Anabela
+  - ODST Andreia
+  - ODST Angela
+  - ODST Aurora
+  - ODST Barbara
+  - ODST Beatriz
+  - ODST Bia
+  - ODST Carina
+  - ODST Carla
+  - ODST Carolina
+  - ODST Catarina
+  - ODST Catia
+  - ODST Celeste
+  - ODST Celia
+  - ODST Celina
+  - ODST Clara
+  - ODST Claudia
+  - ODST Cristiana
+  - ODST Cristina
+  - ODST Daniela
+  - ODST Dalia
+  - ODST Debora
+  - ODST Diana
+  - ODST Dulce
+  - ODST Elsa
+  - ODST Eva
+  - ODST Fatima
+  - ODST Fernanda
+  - ODST Filipa
+  - ODST Filomena
+  - ODST Flavia
+  - ODST Florbela
+  - ODST Francisca
+  - ODST Gabriela
+  - ODST Gloria
+  - ODST Helena
+  - ODST Ilda
+  - ODST Ines
+  - ODST Irene
+  - ODST Isabel
+  - ODST Joana
+  - ODST Josefina
+  - ODST Julia
+  - ODST Lara
+  - ODST Laura
+  - ODST Leonor
+  - ODST Liliana
+  - ODST Luisa
+  - ODST Madalena
+  - ODST Mafalda
+  - ODST Manuela
+  - ODST Margarida
+  - ODST Maria
+  - ODST Mariana
+  - ODST Marina
+  - ODST Marisa
+  - ODST Marta
+  - ODST Matilde
+  - ODST Monica
+  - ODST Natalia
+  - ODST Nadia
+  - ODST Olivia
+  - ODST Patricia
+  - ODST Paula
+  - ODST Rafaela
+  - ODST Raquel
+  - ODST Rita
+  - ODST Rute
+  - ODST Sandra
+  - ODST Sara
+  - ODST Sofia
+  - ODST Sonia
+  - ODST Soraia
+  - ODST Susana
+  - ODST Tania
+  - ODST Teresa
+  - ODST Telma
+  - ODST Vanessa
+  - ODST Vera
+maleLast:
+  - Abrantes
+  - Abreu
+  - Agostinho
+  - Albano
+  - Albuquerque
+  - Aleixo
+  - Almeida
+  - Alves
+  - Amaro
+  - Amaral
+  - Andrade
+  - Anjos
+  - Antunes
+  - Araujo
+  - Assis
+  - Azevedo
+  - Barata
+  - Barreiras
+  - Barreto
+  - Barros
+  - Barroso
+  - Bastos
+  - Bento
+  - Beja
+  - Borges
+  - Brandao
+  - Brito
+  - Cabral
+  - Cadete
+  - Caetano
+  - Caldeira
+  - Campos
+  - Cardoso
+  - Carneiro
+  - Carrico
+  - Carrilho
+  - Carvalho
+  - Castro
+  - Cavaco
+  - Cavaleiro
+  - Chaves
+  - Coelho
+  - Conceicao
+  - Correia
+  - Cortes
+  - Costa
+  - Coutinho
+  - Couto
+  - Crespo
+  - Cristovao
+  - Cruz
+  - Cunha
+  - Cunhal
+  - Delgado
+  - Dias
+  - Dinis
+  - Dionisio
+  - Domingos
+  - Duarte
+  - Esteves
+  - Farinha
+  - Fernandes
+  - Ferreira
+  - Figueira
+  - Figueiredo
+  - Fitas
+  - Fragoso
+  - Fragata
+  - Francisco
+  - Franco
+  - Freire
+  - Freitas
+  - Fonseca
+  - Fontes
+  - Fortes
+  - Furtado
+  - Galvao
+  - Gama
+  - Garcia
+  - Godinho
+  - Gomes
+  - Goncalves
+  - Gouveia
+  - Graca
+  - Grilo
+  - Guedes
+  - Guerra
+  - Guerreiro
+  - Guimaraes
+  - Henriques
+  - Homem
+  - Horta
+  - Jacinto
+  - Jesus
+  - Lameiras
+  - Laranjeiro
+  - Leal
+  - Lima
+  - Lopes
+  - Lourenco
+  - Luz
+  - Macedo
+  - Machado
+  - Madeira
+  - Maia
+  - Magalhaes
+  - Marques
+  - Martinho
+  - Martins
+  - Marujo
+  - Mateus
+  - Matias
+  - Matos
+  - Maximo
+  - Meireles
+  - Melo
+  - Mendes
+  - Mendonca
+  - Mestre
+  - Mira
+  - Miranda
+  - Moniz
+  - Monteiro
+  - Morais
+  - Moreira
+  - Morgado
+  - Mota
+  - Moura
+  - Mourinho
+  - Nascimento
+  - Neto
+  - Neves
+  - Nobrega
+  - Nogueira
+  - Noronha
+  - Nunes
+  - Oliveira
+  - Pacheco
+  - Pais
+  - Paiva
+  - Parreira
+  - Pato
+  - Peixe
+  - Peixoto
+  - Pereira
+  - Pessoa
+  - Pimentel
+  - Pinheiro
+  - Pinho
+  - Pinto
+  - Pires
+  - Portugal
+  - Povoa
+  - Prata
+  - Queiros
+  - Raimundo
+  - Ramalho
+  - Ramos
+  - Raposo
+  - Rato
+  - Real
+  - Rebelo
+  - Reis
+  - Relvas
+  - Ribeiro
+  - Rio
+  - Rocha
+  - Rodrigues
+  - Ronaldo
+  - Rosario
+  - Roseiro
+  - Salgado
+  - Salgueiro
+  - Sampaio
+  - Sanches
+  - Santana
+  - Santos
+  - Sebastiao
+  - Semedo
+  - Sequeira
+  - Serra
+  - Serrao
+  - Serras
+  - Silva
+  - Silvestre
+  - Silvino
+  - Simoes
+  - Soares
+  - Sobral
+  - Sousa
+  - Tavares
+  - Teixeira
+  - Teles
+  - Torres
+  - Valadas
+  - Valente
+  - Varandas
+  - Varela
+  - Vasconcelos
+  - Vaz
+  - Veloso
+  - Viana
+  - Vicente
+  - Vidal
+  - Vieira
+  - Viegas
+  - Vitorino
+  - Xavier

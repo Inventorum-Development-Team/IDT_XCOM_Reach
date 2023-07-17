@@ -1,0 +1,266 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Marine Aleksandar
+  - Marine Andon
+  - Marine Andrey
+  - Marine Andrian
+  - Marine Anton
+  - Marine Antoni
+  - Marine Angel
+  - Marine Apostol
+  - Marine Atanas
+  - Marine Bogdan
+  - Marine Bogomil
+  - Marine Borislav
+  - Marine Boyko
+  - Marine Damyan
+  - Marine Danail
+  - Marine Desislav
+  - Marine Dimitar
+  - Marine Dragomir
+  - Marine Gavrail
+  - Marine Georgi
+  - Marine Hristo
+  - Marine Ilian
+  - Marine Iliya
+  - Marine Ivan
+  - Marine Ivaylo
+  - Marine Ivo
+  - Marine Kaloyan
+  - Marine Kiril
+  - Marine Konstantin
+  - Marine Krasimir
+  - Marine Krastyo
+  - Marine Lyuben
+  - Marine Lyubomir
+  - Marine Lyudmil
+  - Marine Marko
+  - Marine Miroslav
+  - Marine Momchil
+  - Marine Nikola
+  - Marine Ognyan
+  - Marine Penko
+  - Marine Petar
+  - Marine Plamen
+  - Marine Radomir
+  - Marine Samuil
+  - Marine Spas
+  - Marine Stanimir
+  - Marine Stanislav
+  - Marine Stoyan
+  - Marine Teodor
+  - Marine Tihomir
+  - Marine Todor
+  - Marine Toma
+  - Marine Tsvetan
+  - Marine Vasil
+  - Marine Ventsislav
+  - Marine Viktor
+  - Marine Vladimir
+  - Marine Vladislav
+  - Marine Yanko
+  - Marine Yoan
+  - Marine Yordan
+  - Marine Yosif
+  - Marine Zahari
+  - Marine Zhivko
+  - Marine Zlatko
+femaleFirst:
+  - Marine Ana
+  - Marine Antonia
+  - Marine Bilyana
+  - Marine Bisera
+  - Marine Bogomila
+  - Marine Borislava
+  - Marine Boyana
+  - Marine Desislava
+  - Marine Elisaveta
+  - Marine Emiliya
+  - Marine Gergana
+  - Marine Hristina
+  - Marine Iva
+  - Marine Ivana
+  - Marine Ivelina
+  - Marine Ivet
+  - Marine Izabela
+  - Marine Krasimira
+  - Marine Lidiya
+  - Marine Lilyana
+  - Marine Lyubina
+  - Marine Lyubomira
+  - Marine Lyudmila
+  - Marine Maya
+  - Marine Mirela
+  - Marine Miroslava
+  - Marine Nadejda
+  - Marine Nevena
+  - Marine Nikolina
+  - Marine Pavla
+  - Marine Pavlina
+  - Marine Radomira
+  - Marine Radoslava
+  - Marine Radostina
+  - Marine Rayna
+  - Marine Rosa
+  - Marine Rositsa
+  - Marine Silviya
+  - Marine Simona
+  - Marine Snezhana
+  - Marine Sofiya
+  - Marine Stanislava
+  - Marine Stanka
+  - Marine Stoyanka
+  - Marine Svetla
+  - Marine Svetlana
+  - Marine Tanya
+  - Marine Tatyana
+  - Marine Teodora
+  - Marine Tereza
+  - Marine Tsveta
+  - Marine Tsvetelina
+  - Marine Veselina
+  - Marine Viktoria
+  - Marine Violeta
+  - Marine Vladimira
+  - Marine Yana
+  - Marine Yoana
+  - Marine Yordanka
+maleLast:
+  - Aleksandrov
+  - Andonov
+  - Andreev
+  - Antonov
+  - Antoniev
+  - Angelov
+  - Apostolov
+  - Atanasov
+  - Bogdanov
+  - Bogomilov
+  - Borislavov
+  - Boykov
+  - Damyanov
+  - Danailov
+  - Desislavov
+  - Dimitrov
+  - Dragomirov
+  - Gavrailov
+  - Georgiev
+  - Hristov
+  - Ilianov
+  - Iliev
+  - Ivanov
+  - Ivaylov
+  - Kaloyan
+  - Kirilov
+  - Konstantinov
+  - Krasimirov
+  - Lyubenov
+  - Lyubomirov
+  - Lyudmilov
+  - Markov
+  - Miroslavov
+  - Momchilov
+  - Nikolaev
+  - Ognyanov
+  - Penkov
+  - Petrov
+  - Plamenov
+  - Radomirov
+  - Samuilov
+  - Spasov
+  - Stanimirov
+  - Stanislavov
+  - Stoyanov
+  - Teodorov
+  - Tihomirov
+  - Todorov
+  - Tomov
+  - Tsvetanov
+  - Vasilev
+  - Ventsislavov
+  - Vladimirov
+  - Vladislavov
+  - Yordanov
+  - Yosifov
+  - Zahariev
+  - Zhivkov
+  - Zlatkov
+femaleLast:
+  - Aleksandrova
+  - Andonova
+  - Andreeva
+  - Antonova
+  - Antonieva
+  - Angelova
+  - Apostolova
+  - Atanasova
+  - Bogdanova
+  - Bogomilova
+  - Borislavova
+  - Boykova
+  - Damyanova
+  - Danailova
+  - Desislavova
+  - Dimitrova
+  - Dragomirova
+  - Gavrailova
+  - Georgieva
+  - Hristova
+  - Ilianova
+  - Ilieva
+  - Ivanova
+  - Ivaylova
+  - Kaloyana
+  - Kirilova
+  - Konstantinova
+  - Krasimirova
+  - Lyubenova
+  - Lyubomirova
+  - Lyudmilova
+  - Markova
+  - Miroslavova
+  - Momchilova
+  - Nikolaeva
+  - Ognyanova
+  - Penkova
+  - Petrova
+  - Plamenova
+  - Radomirova
+  - Samuilova
+  - Stanimirova
+  - Stanislavova
+  - Stoyanova
+  - Stoykova
+  - Teodorova
+  - Tihomirova
+  - Todorova
+  - Tomova
+  - Tsvetanova
+  - Vasileva
+  - Ventsislavova
+  - Vladimirova
+  - Vladislavova
+  - Yordanova
+  - Yosifova
+  - Zaharieva
+  - Zhivkova
+  - Zlatkov
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

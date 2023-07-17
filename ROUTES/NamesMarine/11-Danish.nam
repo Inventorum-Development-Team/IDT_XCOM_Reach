@@ -1,0 +1,786 @@
+lookWeights:
+  - 49
+  - 49
+  - 2
+  - 0
+maleFirst:
+  - Marine Absalon
+  - Marine Adam
+  - Marine Adolf
+  - Marine Albert
+  - Marine Alex
+  - Marine Alexander
+  - Marine Alf
+  - Marine Alfred
+  - Marine Allan
+  - Marine Anders
+  - Marine Andreas
+  - Marine Anker
+  - Marine Anton
+  - Marine Arne
+  - Marine Arnold
+  - Marine Aron
+  - Marine Arthur
+  - Marine Arvid
+  - Marine Asbjoorn
+  - Marine Asger
+  - Marine Aske
+  - Marine Asmus
+  - Marine August
+  - Marine Axel
+  - Marine Bendt
+  - Marine Benjamin
+  - Marine Benny
+  - Marine Bent
+  - Marine Bernhard
+  - Marine Bernt
+  - Marine Bertel
+  - Marine Berthel
+  - Marine Bertram
+  - Marine Birger
+  - Marine Bjarke
+  - Marine Bjarne
+  - Marine Bjork
+  - Marine Bjorn
+  - Marine Bo
+  - Marine Boje
+  - Marine Borge
+  - Marine Boye
+  - Marine Brian
+  - Marine Bruno
+  - Marine Carsten
+  - Marine Casper
+  - Marine Chresten
+  - Marine Chris
+  - Marine Christen
+  - Marine Christian
+  - Marine Christoffer
+  - Marine Christopher
+  - Marine Claus
+  - Marine Daniel
+  - Marine Danni
+  - Marine Danny
+  - Marine David
+  - Marine Dennis
+  - Marine Ditlev
+  - Marine Edvard
+  - Marine Edvin
+  - Marine Egon
+  - Marine Eigil
+  - Marine Ejgil
+  - Marine Ejnar
+  - Marine Ejner
+  - Marine Ejvind
+  - Marine Elias
+  - Marine Elmer
+  - Marine Elo
+  - Marine Emanuel
+  - Marine Emil
+  - Marine Erik
+  - Marine Erland
+  - Marine Erling
+  - Marine Ernst
+  - Marine Esajas
+  - Marine Esben
+  - Marine Eskild
+  - Marine Evald
+  - Marine Ferdinand
+  - Marine Filip
+  - Marine Finn
+  - Marine Flemming
+  - Marine Frands
+  - Marine Frank
+  - Marine Frans
+  - Marine Freddy
+  - Marine Frede
+  - Marine Frederik
+  - Marine Frithiof
+  - Marine Frithjof
+  - Marine Frits
+  - Marine Frode
+  - Marine Georg
+  - Marine Gerhard
+  - Marine Germund
+  - Marine Gert
+  - Marine Gorm
+  - Marine Gotfred
+  - Marine Gregers
+  - Marine Gunder
+  - Marine Gunnar
+  - Marine Gunner
+  - Marine Gustav
+  - Marine Harald
+  - Marine Hardy
+  - Marine Harry
+  - Marine Helge
+  - Marine Helmer
+  - Marine Hemming
+  - Marine Henning
+  - Marine Henrik
+  - Marine Henry
+  - Marine Herman
+  - Marine Hjalmar
+  - Marine Hjalte
+  - Marine Holger
+  - Marine Hugo
+  - Marine Immanuel
+  - Marine Ingolf
+  - Marine Ivan
+  - Marine Ivar
+  - Marine Iver
+  - Marine Jacob
+  - Marine Jakob
+  - Marine Jan
+  - Marine Jannick
+  - Marine Jannik
+  - Marine Jens
+  - Marine Jeppe
+  - Marine Jeremias
+  - Marine Jes
+  - Marine Jesper
+  - Marine Jim
+  - Marine Jimmi
+  - Marine Jimmy
+  - Marine Joachim
+  - Marine Joakim
+  - Marine Joel
+  - Marine Johan
+  - Marine Johannes
+  - Marine John
+  - Marine Johnny
+  - Marine Jon
+  - Marine Jonas
+  - Marine Jonatan
+  - Marine Jonathan
+  - Marine Jorgen
+  - Marine Jorn
+  - Marine Josef
+  - Marine Jul
+  - Marine Julian
+  - Marine Julius
+  - Marine Just
+  - Marine Kaj
+  - Marine Kaleb
+  - Marine Karl
+  - Marine Karsten
+  - Marine Kasper
+  - Marine Keld
+  - Marine Ken
+  - Marine Kenneth
+  - Marine Kent
+  - Marine Kevin
+  - Marine Kim
+  - Marine Kjeld
+  - Marine Klaus
+  - Marine Knud
+  - Marine Kresten
+  - Marine Kristen
+  - Marine Kristian
+  - Marine Kristoffer
+  - Marine Kurt
+  - Marine Lars
+  - Marine Lasse
+  - Marine Lau
+  - Marine Lauge
+  - Marine Laurids
+  - Marine Laurits
+  - Marine Lauritz
+  - Marine Laurs
+  - Marine Laust
+  - Marine Lave
+  - Marine Leif
+  - Marine Lennart
+  - Marine Leo
+  - Marine Leon
+  - Marine Lucas
+  - Marine Ludvig
+  - Marine Lukas
+  - Marine Lykke
+  - Marine Mads
+  - Marine Magnus
+  - Marine Malte
+  - Marine Malthe
+  - Marine Marc
+  - Marine Marcus
+  - Marine Marinus
+  - Marine Marius
+  - Marine Mark
+  - Marine Markus
+  - Marine Martin
+  - Marine Mathias
+  - Marine Mathies
+  - Marine Matthaeus
+  - Marine Matthias
+  - Marine Max
+  - Marine Michael
+  - Marine Mikael
+  - Marine Mike
+  - Marine Mikkel
+  - Marine Mogens
+  - Marine Morten
+  - Marine Mourits
+  - Marine Nick
+  - Marine Nicki
+  - Marine Nicklas
+  - Marine Nicolai
+  - Marine Nicolaj
+  - Marine Niels
+  - Marine Niklas
+  - Marine Nikolai
+  - Marine Nikolaj
+  - Marine Nils
+  - Marine Nis
+  - Marine Noah
+  - Marine Olaf
+  - Marine Olav
+  - Marine Ole
+  - Marine Oliver
+  - Marine Oluf
+  - Marine Orla
+  - Marine Oscar
+  - Marine Oskar
+  - Marine Osvald
+  - Marine Otto
+  - Marine Ove
+  - Marine Palle
+  - Marine Patrick
+  - Marine Paul
+  - Marine Paulus
+  - Marine Paw
+  - Marine Peder
+  - Marine Per
+  - Marine Peter
+  - Marine Philip
+  - Marine Phillip
+  - Marine Poul
+  - Marine Povl
+  - Marine Preben
+  - Marine Rasmus
+  - Marine Rene
+  - Marine Richard
+  - Marine Robert
+  - Marine Robin
+  - Marine Rolf
+  - Marine Ronald
+  - Marine Ronni
+  - Marine Ronnie
+  - Marine Rune
+  - Marine Samuel
+  - Marine Sebastian
+  - Marine Severin
+  - Marine Sigfred
+  - Marine Sigurd
+  - Marine Silas
+  - Marine Simon
+  - Marine Sofus
+  - Marine Sonny
+  - Marine Sophus
+  - Marine Soren
+  - Marine Steen
+  - Marine Stefan
+  - Marine Steffen
+  - Marine Sten
+  - Marine Stephan
+  - Marine Steven
+  - Marine Stig
+  - Marine Storm
+  - Marine Sune
+  - Marine Svend
+  - Marine Tage
+  - Marine Teddy
+  - Marine Theis
+  - Marine Theodor
+  - Marine Thomas
+  - Marine Thor
+  - Marine Thorbjorn
+  - Marine Thorkild
+  - Marine Thorvald
+  - Marine Thyge
+  - Marine Tim
+  - Marine Tobias
+  - Marine Toke
+  - Marine Tom
+  - Marine Tomas
+  - Marine Tommy
+  - Marine Tonni
+  - Marine Tonny
+  - Marine Tony
+  - Marine Torben
+  - Marine Torkild
+  - Marine Torsten
+  - Marine Troels
+  - Marine Tue
+  - Marine Uffe
+  - Marine Ulf
+  - Marine Ulrik
+  - Marine Vagn
+  - Marine Valdemar
+  - Marine Valentin
+  - Marine Verner
+  - Marine Victor
+  - Marine Viggo
+  - Marine Viktor
+  - Marine Vilhelm
+  - Marine Villads
+  - Marine Villy
+  - Marine William
+  - Marine Willy
+  - Marine Zacharias
+  - Marine Zakarias
+  - Marine Hans
+femaleFirst:
+  - Marine Abellona
+  - Marine Abelone
+  - Marine Abigale
+  - Marine Adela
+  - Marine Agneta
+  - Marine Alberte
+  - Marine Albertha
+  - Marine Alisa
+  - Marine Almeta
+  - Marine Alvilda
+  - Marine Ane
+  - Marine Anesa
+  - Marine Anina
+  - Marine Annalisa
+  - Marine Anndrea
+  - Marine Annelise
+  - Marine Annemette
+  - Marine Annina
+  - Marine Aren
+  - Marine Arisje
+  - Marine Arvada
+  - Marine Asa
+  - Marine Astrid
+  - Marine Belenda
+  - Marine Belinde
+  - Marine Bente
+  - Marine Bergitte
+  - Marine Bergliot
+  - Marine Birgita
+  - Marine Birgitte
+  - Marine Birte
+  - Marine Britta
+  - Marine Brunhilde
+  - Marine Caia
+  - Marine Caja
+  - Marine Cathrine
+  - Marine Clady
+  - Marine Dagmar
+  - Marine Dana
+  - Marine Ditte
+  - Marine Dorete
+  - Marine Dorothea
+  - Marine Ebba
+  - Marine Elle
+  - Marine Else
+  - Marine Eva
+  - Marine Federikke
+  - Marine Freja
+  - Marine Freya
+  - Marine Fritz
+  - Marine Gelsomina
+  - Marine Gerdi
+  - Marine Gitte
+  - Marine Gjerta
+  - Marine Greta
+  - Marine Grete
+  - Marine Grethe
+  - Marine Gry
+  - Marine Gudrun
+  - Marine Gulla
+  - Marine Gullan
+  - Marine Gunilla
+  - Marine Gytha
+  - Marine Hanne
+  - Marine Helle
+  - Marine Ide
+  - Marine Idunn
+  - Marine Inga
+  - Marine Ingeborg
+  - Marine Ingelise
+  - Marine Inger
+  - Marine Ingred
+  - Marine Janne
+  - Marine Jannicke
+  - Marine Jensine
+  - Marine Johanne
+  - Marine Kaia
+  - Marine Kaja
+  - Marine Karen
+  - Marine Karin
+  - Marine Karon
+  - Marine Karoline
+  - Marine Karren
+  - Marine Karrin
+  - Marine Karyn
+  - Marine Katrine
+  - Marine Kirsten
+  - Marine Kolinka
+  - Marine Kristine
+  - Marine Laila
+  - Marine Larina
+  - Marine Larine
+  - Marine Laerke
+  - Marine Lecia
+  - Marine Lisbet
+  - Marine Lise
+  - Marine Lone
+  - Marine Lovise
+  - Marine Magdalone
+  - Marine Malene
+  - Marine Maren
+  - Marine Margareta
+  - Marine Margarete
+  - Marine Margaretha
+  - Marine Margarethe
+  - Marine Margerethe
+  - Marine Marika
+  - Marine Marike
+  - Marine Mathilde
+  - Marine Matilde
+  - Marine Merete
+  - Marine Meta
+  - Marine Metalise
+  - Marine Mettalisa
+  - Marine Mettalise
+  - Marine Mia
+  - Marine Pernille
+  - Marine Rebekka
+  - Marine Rikke
+  - Marine Silje
+  - Marine Solvej
+  - Marine Stefania
+  - Marine Thorbjorg
+  - Marine Thorborg
+  - Marine Thordis
+  - Marine Thorid
+  - Marine Thurid
+  - Marine Torbjorg
+  - Marine Torid
+  - Marine Toril
+  - Marine Ulrica
+  - Marine Ulrike
+  - Marine Urd
+  - Marine Vibeke
+  - Marine Anne
+  - Marine Mette
+  - Marine Anna
+  - Marine Susanne
+  - Marine Lene
+  - Marine Inge
+  - Marine Maria
+  - Marine Marianne
+  - Marine Camilla
+  - Marine Pia
+  - Marine Jette
+  - Marine Charlotte
+  - Marine Louise
+maleLast:
+  - Adriansen
+  - Andersen
+  - Andreasen
+  - Andresen
+  - Any
+  - Arge
+  - Arneborg
+  - Assenbjerg
+  - Auken
+  - Bach
+  - Bak
+  - Bang
+  - Bau
+  - Bech
+  - Beck
+  - Bekker
+  - Berg
+  - Bertelsen
+  - Berthelsen
+  - Billes
+  - Binzer
+  - Bjerregaard
+  - Blach
+  - Bock
+  - Bogedal
+  - Bondo
+  - Bonnikson
+  - Brahe
+  - Brandhorst
+  - Brandt
+  - Branstedt
+  - Broberg
+  - Brondun
+  - Bruun
+  - Burmeister
+  - Cabble
+  - Carlsen
+  - Carstensen
+  - Ceder
+  - Chemnitz
+  - Christensen
+  - Christiansen
+  - Christoffersen
+  - Clahn
+  - Clausen
+  - Claussen
+  - Colding
+  - Crumlin
+  - Dahl
+  - Dalum
+  - Dam
+  - Damgaard
+  - Damsgaard
+  - Danielsen
+  - Danielsson
+  - Didenksen
+  - Drusse
+  - Ebel
+  - Eberlein
+  - Ejlersgaard
+  - Eldjarn
+  - Ellegaard
+  - Eriksen
+  - Espersen
+  - Fajl
+  - Falkoner
+  - Fallingborg
+  - Fenger
+  - Fetterlein
+  - Fine
+  - Fog
+  - Follerup
+  - Frandsen
+  - Frandson
+  - Frederiksen
+  - Fredskild
+  - Friis
+  - Fynbo
+  - Gade
+  - Gimsing
+  - Glob
+  - Goldbaek
+  - Gram
+  - Gran
+  - Gregersen
+  - Greve
+  - Grimlot
+  - Gruntvig
+  - Guildenstern
+  - Guldbrandsen
+  - Haeg
+  - Halkenhvad
+  - Hamburger
+  - Hammer
+  - Hamsun
+  - Hannestad
+  - Hansen
+  - Hardenberg
+  - Hasso
+  - Hedegaard
+  - Hedhoft
+  - Heiberg
+  - Heintze
+  - Helveg
+  - Henriksen
+  - Hermansen
+  - Hjelmslev
+  - Hoegh
+  - Hogh
+  - Holby
+  - Holm
+  - Holst
+  - Horby
+  - Hoyer
+  - Hvass
+  - Hviid
+  - Hylgaard
+  - Iversen
+  - Jacobsen
+  - Jakkelsen
+  - Jakobsen
+  - Jamissen
+  - Jaspersen
+  - Jensen
+  - Jeppesen
+  - Jepsen
+  - Jespersen
+  - Jessen
+  - Johannsen
+  - Johansen
+  - Johansson
+  - Johnsen
+  - Jorgensen
+  - Juhl
+  - Junge
+  - Karlsen
+  - Karseffni
+  - Kaustrop
+  - Kingo
+  - Kirkeby
+  - Kjaer
+  - Kjeldsen
+  - Kjolbye
+  - Klausen
+  - Klindt
+  - Knudsen
+  - Knutzen
+  - Koch
+  - Kock
+  - Kofod
+  - Kolb
+  - Kotzebue
+  - Krak
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogh
+  - Kruhl
+  - Kruse
+  - Lagermann
+  - Lander
+  - Langvardt
+  - Larsen
+  - Lassen
+  - Laudrup
+  - Laugeson
+  - Laundsen
+  - Lauridsen
+  - Lauritsen
+  - Lauritzen
+  - Laursen
+  - Lavrsen
+  - Licht
+  - Lillesoe
+  - Lind
+  - Lobing
+  - Lorenz
+  - Loyen
+  - Lund
+  - Lundgaard
+  - Lundgard
+  - Lundvall
+  - Lynnerup
+  - Madsen
+  - Maj
+  - Majland
+  - Mandelbrot
+  - Markert
+  - Mathiasen
+  - Mathiesen
+  - Meindl
+  - Meinert
+  - Meling
+  - Meulengracht
+  - Mikkelsen
+  - Milling
+  - Moesgaard
+  - Mogensen
+  - Moller
+  - Molnar
+  - Moltke
+  - Mortensen
+  - Most
+  - Munk
+  - Nerhus
+  - Niebuhr
+  - Nielsen
+  - Nielson
+  - Nilsson
+  - Nissen
+  - Norgaard
+  - Nygaard
+  - Nylen
+  - Obel
+  - Olesen
+  - Olrik
+  - Olsen
+  - Orum
+  - Ostergaard
+  - Ostgerg
+  - Ottesen
+  - Overgaard
+  - Pallesen
+  - Palsson
+  - Paulsen
+  - Pedersen
+  - Petersen
+  - Piechnik
+  - Pilegaard
+  - Poertner
+  - Poulsen
+  - Qvist
+  - Raaby
+  - Rasmussen
+  - Ravn
+  - Reuter
+  - Rieper
+  - Riis
+  - Rink
+  - Riseger
+  - Roesdahl
+  - Rohrmann
+  - Ronholt
+  - Ronne
+  - Rosenkrantz
+  - Rriis
+  - Rude
+  - Sand
+  - Sandstrod
+  - Schjonberg
+  - Schmeichel
+  - Schmidt
+  - Schou
+  - Schultz
+  - Seidenfaden
+  - Sellevold
+  - Simonsen
+  - Skaarup
+  - Skou
+  - Skov
+  - Skovgaard
+  - Soerensen
+  - Solvig
+  - Sondergaard
+  - Sonne
+  - Sorensen
+  - Sponneck
+  - Staer
+  - Steffensen
+  - Steincke
+  - Stenger
+  - Storegaard
+  - Stubbe
+  - Stuer
+  - Svendsen
+  - Tarnovius
+  - Teglbjaerg
+  - Telling
+  - Thodberg
+  - Thomsen
+  - Thornom
+  - Thorsen
+  - Thunmark
+  - Thygesen
+  - Thyregod
+  - Tilling
+  - Toefting
+  - Toft
+  - Toksvig
+  - Tommen
+  - Tyllesen
+  - Uhre
+  - Vestergaard
+  - Vilfort
+  - Villadsen
+  - Villumsen
+  - Ving
+  - Virl
+  - Wain
+  - Werlauff
+  - Wieghorst
+  - Willadsen
+  - Winther
+  - Witzke
+  - Wiuff
+  - Zinck
+  - Zoega

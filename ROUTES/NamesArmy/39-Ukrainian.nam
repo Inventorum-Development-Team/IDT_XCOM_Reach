@@ -1,0 +1,88 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Trooper Andriy
+  - Trooper Borys
+  - Trooper Dmytro
+  - Trooper Ihor
+  - Trooper Ivan
+  - Trooper Kostyantyn
+  - Trooper Kyrylo
+  - Trooper Leonid
+  - Trooper Maksym
+  - Trooper Mykhaylo
+  - Trooper Mykola
+  - Trooper Oleksandr
+  - Trooper Oleksiy
+  - Trooper Orest
+  - Trooper Pavlo
+  - Trooper Petro
+  - Trooper Roman
+  - Trooper Ruslan
+  - Trooper Serhiy
+  - Trooper Stanislav
+  - Trooper Taras
+  - Trooper Vasyl
+  - Trooper Viktor
+  - Trooper Vladyslav
+  - Trooper Volodymyr
+  - Trooper Yehor
+  - Trooper Yuriy
+femaleFirst:
+  - Trooper Anastasiya
+  - Trooper Hanna
+  - Trooper Kateryna
+  - Trooper Lyubomyra
+  - Trooper Lyubov
+  - Trooper Mariya
+  - Trooper Mikhaylyna
+  - Trooper Myroslava
+  - Trooper Nadiya
+  - Trooper Natalya
+  - Trooper Oksana
+  - Trooper Oleksandra
+  - Trooper Olena
+  - Trooper Olha
+  - Trooper Romana
+  - Trooper Ruslana
+  - Trooper Snizhana
+  - Trooper Sofiya
+  - Trooper Svitlana
+  - Trooper Svyatoslava
+  - Trooper Tetyana
+  - Trooper Vasylyna
+  - Trooper Vira
+  - Trooper Yaroslava
+  - Trooper Yuliya
+  - Trooper Zoryana
+maleLast:
+  - Bondar
+  - Bondarenko
+  - Boyko
+  - Gavrilyuk
+  - Lisenko
+  - Klimenko
+  - Koval
+  - Kovalenko
+  - Kovalchuk
+  - Kravchenko
+  - Kravchuk
+  - Kuzmienko
+  - Marchenko
+  - Melnik
+  - Moroz
+  - Oliynik
+  - Pawlenko
+  - Petrenko
+  - Polishuk
+  - Rudenko
+  - Savchenko
+  - Savchuk
+  - Shevchenko
+  - Shevchuk
+  - Shved
+  - Tkachenko
+  - Tkachuk

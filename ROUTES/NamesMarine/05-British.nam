@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - Marine Adam
+  - Marine Adrian
+  - Marine Aidan
+  - Marine Alan
+  - Marine Alexander
+  - Marine Alistair
+  - Marine Andrew
+  - Marine Arthur
+  - Marine Ben
+  - Marine Benjamin
+  - Marine Bradley
+  - Marine Brendan
+  - Marine Brett
+  - Marine Bruce
+  - Marine Carl
+  - Marine Charles
+  - Marine Charlie
+  - Marine Christopher
+  - Marine Colin
+  - Marine Connor
+  - Marine Craig
+  - Marine Damien
+  - Marine Daniel
+  - Marine David
+  - Marine Declan
+  - Marine Derek
+  - Marine Desmond
+  - Marine Donald
+  - Marine Dylan
+  - Marine Edmund
+  - Marine Edward
+  - Marine Euan
+  - Marine Frank
+  - Marine Francis
+  - Marine Gareth
+  - Marine Gary
+  - Marine Geoffrey
+  - Marine George
+  - Marine Graeme
+  - Marine Graham
+  - Marine Grant
+  - Marine Gregor
+  - Marine Gregory
+  - Marine Hamish
+  - Marine Harold
+  - Marine Harry
+  - Marine Ian
+  - Marine Iain
+  - Marine James
+  - Marine Jason
+  - Marine John
+  - Marine Jordan
+  - Marine Keith
+  - Marine Ken
+  - Marine Kenneth
+  - Marine Lewis
+  - Marine Liam
+  - Marine Malcolm
+  - Marine Mark
+  - Marine Michael
+  - Marine Neil
+  - Marine Patrick
+  - Marine Paul
+  - Marine Peter
+  - Marine Raymond
+  - Marine Rhys
+  - Marine Richard
+  - Marine Robert
+  - Marine Rory
+  - Marine Roy
+  - Marine Ryan
+  - Marine Samuel
+  - Marine Scott
+  - Marine Simon
+  - Marine Stephen
+  - Marine Steven
+  - Marine Thomas
+  - Marine William
+femaleFirst:
+  - Marine Abigail
+  - Marine Aileen
+  - Marine Ailsa
+  - Marine Alice
+  - Marine Alison
+  - Marine Amy
+  - Marine Andrea
+  - Marine Ann
+  - Marine Anna
+  - Marine Annabel
+  - Marine Anne
+  - Marine Bridget
+  - Marine Carol
+  - Marine Catherine
+  - Marine Clara
+  - Marine Claire
+  - Marine Clare
+  - Marine Courtney
+  - Marine Cynthia
+  - Marine Eleanor
+  - Marine Elizabeth
+  - Marine Emily
+  - Marine Emma
+  - Marine Fiona
+  - Marine Frances
+  - Marine Gail
+  - Marine Gemma
+  - Marine Gillian
+  - Marine Gilly
+  - Marine Grace
+  - Marine Hanna
+  - Marine Hannah
+  - Marine Harriet
+  - Marine Heather
+  - Marine Helen
+  - Marine Holly
+  - Marine Isabel
+  - Marine Isobel
+  - Marine Isla
+  - Marine Jade
+  - Marine Jane
+  - Marine Janet
+  - Marine Janice
+  - Marine Janine
+  - Marine Jayne
+  - Marine Jean
+  - Marine Jenna
+  - Marine Jennifer
+  - Marine Jenny
+  - Marine Jessica
+  - Marine Jill
+  - Marine Joyce
+  - Marine Kate
+  - Marine Katie
+  - Marine Kimberley
+  - Marine Kirsten
+  - Marine Kirsty
+  - Marine Kylie
+  - Marine Lauren
+  - Marine Lesley
+  - Marine Leslie
+  - Marine Lilleth
+  - Marine Lillian
+  - Marine Lindsay
+  - Marine Lisa
+  - Marine Lorna
+  - Marine Lucy
+  - Marine Lynn
+  - Marine Lynette
+  - Marine Margaret
+  - Marine Maria
+  - Marine Mary
+  - Marine Megan
+  - Marine Moira
+  - Marine Murron
+  - Marine Patricia
+  - Marine Rebecca
+  - Marine Samantha
+  - Marine Sarah
+  - Marine Shannon
+  - Marine Siobhan
+  - Marine Stacey
+  - Marine Theresa
+  - Marine Victoria
+maleLast:
+  - Adams
+  - Anderson
+  - Atkinson
+  - Bailey
+  - Baird
+  - Baker
+  - Barker
+  - Ball
+  - Barnes
+  - Bell
+  - Blake
+  - Blair
+  - Boyd
+  - Brook
+  - Brooks
+  - Brown
+  - Burns
+  - Butler
+  - Cameron
+  - Carter
+  - Chapman
+  - Clark
+  - Clarke
+  - Clyde
+  - Cole
+  - Collins
+  - Cook
+  - Cooper
+  - Cox
+  - Davies
+  - Davis
+  - Dawson
+  - Day
+  - Dixon
+  - Douglas
+  - Drummond
+  - Elliot
+  - Erskine
+  - Evans
+  - Ferguson
+  - Fisher
+  - Fletcher
+  - Forbes
+  - Ford
+  - Forsythe
+  - Foster
+  - Fox
+  - Fraser
+  - Garrow
+  - Gibson
+  - Gray
+  - Green
+  - Hall
+  - Harris
+  - Harrison
+  - Harvey
+  - Heaton
+  - Hill
+  - Holmes
+  - Howard
+  - Hughes
+  - Hunt
+  - Hunter
+  - Jackson
+  - Jenkins
+  - Johnson
+  - Jones
+  - Jonlan
+  - Kerr
+  - King
+  - Knight
+  - Knox
+  - Lawrence
+  - Lee
+  - Lennox
+  - Loy
+  - MacCallum
+  - MacCay
+  - MacColl
+  - MacIntyre
+  - Mackendrick
+  - Mackenzie
+  - MacRae
+  - Marion
+  - Marshall
+  - Martin
+  - Mason
+  - Matthews
+  - Middleton
+  - Milne
+  - Mills
+  - Mitchell
+  - Moore
+  - Mumford
+  - Owen
+  - Owens
+  - Paddon
+  - Parker
+  - Palmer
+  - Payne
+  - Pearce
+  - Pearson
+  - Peters
+  - Peterson
+  - Powell
+  - Price
+  - Pritchard
+  - Ramsay
+  - Reynolds
+  - Richards
+  - Richardson
+  - Roberts
+  - Robertson
+  - Robinson
+  - Rogers
+  - Rory
+  - Ross
+  - Rowe
+  - Russell
+  - Saunders
+  - Sharpe
+  - Shaw
+  - Smith
+  - Stevens
+  - Stewart
+  - Taylor
+  - Thompson
+  - Turner
+  - Varley
+  - Walker
+  - Wallace
+  - Walsh
+  - Ward
+  - Watson
+  - Webb
+  - West
+  - White
+  - Wilkinson
+  - Williams
+  - Wright
+  - Wood
+  - Young
+  - Yates

@@ -1,0 +1,71 @@
+﻿lookWeights:
+  - 25
+  - 40
+  - 30
+  - 5
+maleFirst:
+  - Marine Tom
+  - Marine David
+  - Marine Danny
+  - Marine Ben
+  - Marine Matan
+  - Marine Nick
+  - Marine Daniel
+  - Marine Dor
+  - Marine Dvir
+  - Marine Roni
+  - Marine Shizaf
+  - Marine Idan
+  - Marine Ariel
+  - Marine Jacob
+  - Marine Omer
+  - Marine Son
+  - Marine Itay
+  - Marine Aviv
+  - Marine Liran
+  - Marine Adam
+  - Marine Yahav
+  - Marine Erez
+  - Marine Gilad
+  - Marine Gal
+femaleFirst:
+  - Marine Hadar
+  - Marine Kinneret
+  - Marine Inbar
+  - Marine Sapir
+  - Marine Aya
+  - Marine Danielle
+  - Marine Ziva
+  - Marine Lihi
+  - Marine Joanna
+  - Marine Lia
+  - Marine Shiran
+  - Marine Michal
+  - Marine Noga
+  - Marine Noam
+  - Marine Yuval
+  - Marine Ziv
+  - Marine Neta
+  - Marine Roni
+  - Marine Karina
+  - Marine Zehavit
+  - Marine Adi
+  - Marine Rotem
+  - Marine Noa
+  - Marine Maya
+maleLast:
+  - Cohen
+  - Levy
+  - Mizrahi
+  - Peretz
+  - Biton
+  - Dahan
+  - Avraham
+  - Friedman
+  - Agbaria
+  - Malka
+  - Azulay
+  - Jabarin
+  - Katz
+  - Yosef
+  - Mahmid

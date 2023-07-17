@@ -1,0 +1,201 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Trooper Aaron
+  - Trooper Adam
+  - Trooper Adrian
+  - Trooper Alfredo
+  - Trooper Austin
+  - Trooper Brandon
+  - Trooper Brian
+  - Trooper Calvin
+  - Trooper Carl
+  - Trooper Chance
+  - Trooper Charlie
+  - Trooper Clarence
+  - Trooper Cody
+  - Trooper Connor
+  - Trooper Damian
+  - Trooper Donald
+  - Trooper Dwight
+  - Trooper Dylan
+  - Trooper Ed
+  - Trooper Eduardo
+  - Trooper Elliott
+  - Trooper Ethan
+  - Trooper Evan
+  - Trooper Ezekiel
+  - Trooper Garrett
+  - Trooper George
+  - Trooper Giovanni
+  - Trooper Grayson
+  - Trooper James
+  - Trooper Jason
+  - Trooper Jay
+  - Trooper Jeremy
+  - Trooper Joel
+  - Trooper John
+  - Trooper Joshua
+  - Trooper Keith
+  - Trooper Kevin
+  - Trooper Lester
+  - Trooper Liam
+  - Trooper Mark
+  - Trooper Omar
+  - Trooper Oscar
+  - Trooper Owen
+  - Trooper Parker
+  - Trooper Pete
+  - Trooper Rick
+  - Trooper Robert
+  - Trooper Samuel
+  - Trooper Santiago
+  - Trooper Saul
+  - Trooper Scott
+  - Trooper Seth
+  - Trooper Shawn
+  - Trooper Simon
+  - Trooper Spencer
+  - Trooper Steven
+  - Trooper Timothy
+  - Trooper Tom
+  - Trooper Tucker
+  - Trooper Victor
+  - Trooper Vincent
+  - Trooper Virgil
+femaleFirst:
+  - Trooper Adriana
+  - Trooper Alexandra
+  - Trooper Alexis
+  - Trooper Allison
+  - Trooper Angela
+  - Trooper Anna
+  - Trooper Audrey
+  - Trooper Barbara
+  - Trooper Bethany
+  - Trooper Brianna
+  - Trooper Cadence
+  - Trooper Catherine
+  - Trooper Chelsea
+  - Trooper Chloe
+  - Trooper Cora
+  - Trooper Denise
+  - Trooper Esperanza
+  - Trooper Esther
+  - Trooper Evelyn
+  - Trooper Faith
+  - Trooper Gabrielle
+  - Trooper Georgia
+  - Trooper Guadalupe
+  - Trooper Isabel
+  - Trooper Jasmine
+  - Trooper Jillian
+  - Trooper Julia
+  - Trooper Kaitlyn
+  - Trooper Kara
+  - Trooper Karen
+  - Trooper Kelly
+  - Trooper Layla
+  - Trooper Lily
+  - Trooper Lucy
+  - Trooper Madeline
+  - Trooper Madison
+  - Trooper Margaret
+  - Trooper Maria
+  - Trooper Melanie
+  - Trooper Melissa
+  - Trooper Mia
+  - Trooper Michelle
+  - Trooper Miranda
+  - Trooper Olivia
+  - Trooper Paige
+  - Trooper Patricia
+  - Trooper Reese
+  - Trooper Riley
+  - Trooper Sarah
+  - Trooper Savannah
+  - Trooper Selena
+  - Trooper Sigourney
+  - Trooper Taylor
+  - Trooper Tiffany
+  - Trooper Vanessa
+  - Trooper Violet
+  - Trooper Zoey
+maleLast:
+  - Becker
+  - Benedict
+  - Bowers
+  - Bradley
+  - Brewster
+  - Bryant
+  - Burroughs
+  - Carlton
+  - Carr
+  - Carter
+  - Chase
+  - Childers
+  - Colby
+  - Crawley
+  - Crossett
+  - Daley
+  - Davies
+  - Dodge
+  - Evans
+  - Gallagher
+  - Gates
+  - Goddard
+  - Grady
+  - Griffith
+  - Gutierrez
+  - Harding
+  - Harper
+  - Hicks
+  - Horton
+  - Hudson
+  - Hunt
+  - Johnson
+  - Kay
+  - Kellogg
+  - Kemp
+  - Kendrick
+  - King
+  - Kirk
+  - Lawson
+  - Machado
+  - McNeil
+  - Meador
+  - Miller
+  - Mitchell
+  - Morris
+  - Nash
+  - North
+  - O'Connell
+  - Ortiz
+  - Palacios
+  - Partridge
+  - Patrick
+  - Perkins
+  - Porter
+  - Prewitt
+  - Rapp
+  - Ritchie
+  - Rooney
+  - Rossi
+  - Salomon
+  - Scroggins
+  - Shelley
+  - Smiley
+  - Sorensen
+  - Stein
+  - Stephens
+  - Stoddard
+  - Thompson
+  - Tirado
+  - Underwood
+  - Wade
+  - Wagner
+  - Webb
+  - Tyler

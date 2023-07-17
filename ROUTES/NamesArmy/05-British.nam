@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - Trooper Adam
+  - Trooper Adrian
+  - Trooper Aidan
+  - Trooper Alan
+  - Trooper Alexander
+  - Trooper Alistair
+  - Trooper Andrew
+  - Trooper Arthur
+  - Trooper Ben
+  - Trooper Benjamin
+  - Trooper Bradley
+  - Trooper Brendan
+  - Trooper Brett
+  - Trooper Bruce
+  - Trooper Carl
+  - Trooper Charles
+  - Trooper Charlie
+  - Trooper Christopher
+  - Trooper Colin
+  - Trooper Connor
+  - Trooper Craig
+  - Trooper Damien
+  - Trooper Daniel
+  - Trooper David
+  - Trooper Declan
+  - Trooper Derek
+  - Trooper Desmond
+  - Trooper Donald
+  - Trooper Dylan
+  - Trooper Edmund
+  - Trooper Edward
+  - Trooper Euan
+  - Trooper Frank
+  - Trooper Francis
+  - Trooper Gareth
+  - Trooper Gary
+  - Trooper Geoffrey
+  - Trooper George
+  - Trooper Graeme
+  - Trooper Graham
+  - Trooper Grant
+  - Trooper Gregor
+  - Trooper Gregory
+  - Trooper Hamish
+  - Trooper Harold
+  - Trooper Harry
+  - Trooper Ian
+  - Trooper Iain
+  - Trooper James
+  - Trooper Jason
+  - Trooper John
+  - Trooper Jordan
+  - Trooper Keith
+  - Trooper Ken
+  - Trooper Kenneth
+  - Trooper Lewis
+  - Trooper Liam
+  - Trooper Malcolm
+  - Trooper Mark
+  - Trooper Michael
+  - Trooper Neil
+  - Trooper Patrick
+  - Trooper Paul
+  - Trooper Peter
+  - Trooper Raymond
+  - Trooper Rhys
+  - Trooper Richard
+  - Trooper Robert
+  - Trooper Rory
+  - Trooper Roy
+  - Trooper Ryan
+  - Trooper Samuel
+  - Trooper Scott
+  - Trooper Simon
+  - Trooper Stephen
+  - Trooper Steven
+  - Trooper Thomas
+  - Trooper William
+femaleFirst:
+  - Trooper Abigail
+  - Trooper Aileen
+  - Trooper Ailsa
+  - Trooper Alice
+  - Trooper Alison
+  - Trooper Amy
+  - Trooper Andrea
+  - Trooper Ann
+  - Trooper Anna
+  - Trooper Annabel
+  - Trooper Anne
+  - Trooper Bridget
+  - Trooper Carol
+  - Trooper Catherine
+  - Trooper Clara
+  - Trooper Claire
+  - Trooper Clare
+  - Trooper Courtney
+  - Trooper Cynthia
+  - Trooper Eleanor
+  - Trooper Elizabeth
+  - Trooper Emily
+  - Trooper Emma
+  - Trooper Fiona
+  - Trooper Frances
+  - Trooper Gail
+  - Trooper Gemma
+  - Trooper Gillian
+  - Trooper Gilly
+  - Trooper Grace
+  - Trooper Hanna
+  - Trooper Hannah
+  - Trooper Harriet
+  - Trooper Heather
+  - Trooper Helen
+  - Trooper Holly
+  - Trooper Isabel
+  - Trooper Isobel
+  - Trooper Isla
+  - Trooper Jade
+  - Trooper Jane
+  - Trooper Janet
+  - Trooper Janice
+  - Trooper Janine
+  - Trooper Jayne
+  - Trooper Jean
+  - Trooper Jenna
+  - Trooper Jennifer
+  - Trooper Jenny
+  - Trooper Jessica
+  - Trooper Jill
+  - Trooper Joyce
+  - Trooper Kate
+  - Trooper Katie
+  - Trooper Kimberley
+  - Trooper Kirsten
+  - Trooper Kirsty
+  - Trooper Kylie
+  - Trooper Lauren
+  - Trooper Lesley
+  - Trooper Leslie
+  - Trooper Lilleth
+  - Trooper Lillian
+  - Trooper Lindsay
+  - Trooper Lisa
+  - Trooper Lorna
+  - Trooper Lucy
+  - Trooper Lynn
+  - Trooper Lynette
+  - Trooper Margaret
+  - Trooper Maria
+  - Trooper Mary
+  - Trooper Megan
+  - Trooper Moira
+  - Trooper Murron
+  - Trooper Patricia
+  - Trooper Rebecca
+  - Trooper Samantha
+  - Trooper Sarah
+  - Trooper Shannon
+  - Trooper Siobhan
+  - Trooper Stacey
+  - Trooper Theresa
+  - Trooper Victoria
+maleLast:
+  - Adams
+  - Anderson
+  - Atkinson
+  - Bailey
+  - Baird
+  - Baker
+  - Barker
+  - Ball
+  - Barnes
+  - Bell
+  - Blake
+  - Blair
+  - Boyd
+  - Brook
+  - Brooks
+  - Brown
+  - Burns
+  - Butler
+  - Cameron
+  - Carter
+  - Chapman
+  - Clark
+  - Clarke
+  - Clyde
+  - Cole
+  - Collins
+  - Cook
+  - Cooper
+  - Cox
+  - Davies
+  - Davis
+  - Dawson
+  - Day
+  - Dixon
+  - Douglas
+  - Drummond
+  - Elliot
+  - Erskine
+  - Evans
+  - Ferguson
+  - Fisher
+  - Fletcher
+  - Forbes
+  - Ford
+  - Forsythe
+  - Foster
+  - Fox
+  - Fraser
+  - Garrow
+  - Gibson
+  - Gray
+  - Green
+  - Hall
+  - Harris
+  - Harrison
+  - Harvey
+  - Heaton
+  - Hill
+  - Holmes
+  - Howard
+  - Hughes
+  - Hunt
+  - Hunter
+  - Jackson
+  - Jenkins
+  - Johnson
+  - Jones
+  - Jonlan
+  - Kerr
+  - King
+  - Knight
+  - Knox
+  - Lawrence
+  - Lee
+  - Lennox
+  - Loy
+  - MacCallum
+  - MacCay
+  - MacColl
+  - MacIntyre
+  - Mackendrick
+  - Mackenzie
+  - MacRae
+  - Marion
+  - Marshall
+  - Martin
+  - Mason
+  - Matthews
+  - Middleton
+  - Milne
+  - Mills
+  - Mitchell
+  - Moore
+  - Mumford
+  - Owen
+  - Owens
+  - Paddon
+  - Parker
+  - Palmer
+  - Payne
+  - Pearce
+  - Pearson
+  - Peters
+  - Peterson
+  - Powell
+  - Price
+  - Pritchard
+  - Ramsay
+  - Reynolds
+  - Richards
+  - Richardson
+  - Roberts
+  - Robertson
+  - Robinson
+  - Rogers
+  - Rory
+  - Ross
+  - Rowe
+  - Russell
+  - Saunders
+  - Sharpe
+  - Shaw
+  - Smith
+  - Stevens
+  - Stewart
+  - Taylor
+  - Thompson
+  - Turner
+  - Varley
+  - Walker
+  - Wallace
+  - Walsh
+  - Ward
+  - Watson
+  - Webb
+  - West
+  - White
+  - Wilkinson
+  - Williams
+  - Wright
+  - Wood
+  - Young
+  - Yates

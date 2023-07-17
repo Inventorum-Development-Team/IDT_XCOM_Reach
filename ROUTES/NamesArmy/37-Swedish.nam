@@ -1,0 +1,96 @@
+lookWeights:
+  - 60
+  - 40
+  - 0
+  - 0
+maleFirst:
+  - Trooper Johan
+  - Trooper Fredrik
+  - Trooper Sten
+  - Trooper Olof
+  - Trooper Anders
+  - Trooper Sven
+  - Trooper Mattias
+  - Trooper Jesper
+  - Trooper David
+  - Trooper Henrik
+  - Trooper Lars
+  - Trooper Mikael
+  - Trooper Andreas
+  - Trooper Robin
+  - Trooper Christian
+  - Trooper Joakim
+  - Trooper John
+  - Trooper Linus
+  - Trooper Mats
+  - Trooper Tommy
+  - Trooper Per
+  - Trooper Sebastian
+  - Trooper Edvin
+  - Trooper Bo
+  - Trooper Leif
+  - Trooper Jens
+  - Trooper Jonas  
+  - Trooper Peter
+  - Trooper Thomas
+  - Trooper Erik
+femaleFirst:
+  - Trooper Christine
+  - Trooper Annika
+  - Trooper Isabel
+  - Trooper Anna
+  - Trooper Lena
+  - Trooper Mia
+  - Trooper Pia
+  - Trooper Petra
+  - Trooper Madeleine
+  - Trooper Johanna
+  - Trooper Gunilla
+  - Trooper Eva
+  - Trooper Ellinor
+  - Trooper Elisabet
+  - Trooper Amanda
+  - Trooper Carin
+  - Trooper Mikaela
+  - Trooper Magdalena
+  - Trooper Ellen
+  - Trooper Ingrid
+  - Trooper Inger
+  - Trooper Linda
+  - Trooper Karin
+  - Trooper Maria  
+  - Trooper Sara
+  - Trooper Emma  
+  - Trooper Marie
+maleLast:
+  - Linder
+  - Olofsson
+  - Holmqvist
+  - Andersson
+  - Lindberg
+  - Lindqvist
+  - Gustafsson
+  - Larsson
+  - Lindgren
+  - Lind
+  - Eklund
+  - Holm
+  - Claesson
+  - Viklund
+  - Lund
+  - Falk
+  - Blom
+  - Ek
+  - Norberg
+  - Sundqvist
+  - Sjoborg
+  - Ivarsson
+  - Hedlund
+  - Holmgren
+  - Hedlund
+  - Nordin
+  - Berggren
+  - Svensson
+  - Lindgren
+  - Eklund
+  - Axelsson

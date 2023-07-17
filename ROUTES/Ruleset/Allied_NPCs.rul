@@ -1,0 +1,508 @@
+units:
+#A brief explanation: 
+#The "Rifleman" are soldiers who use rifles as their main weapon, they will be the most common you will find in assaults. 
+#The "Assault" will use short-range weapons, such as pistols, submachine guns. They carry a lot explosives of explosives, more than other soldier classes.
+#The "Support" are soldiers who have heavy weapons, as machine guns will be less common.
+#The "Medic" are soldiers specialized in close quarters combat and posess medical equipment. 
+#The "Officer" are special NPCs, leading an assault. They are armed with pistols, but they also carry moral enhancer equipment and Sabres. Very smart, if they die the moral drops abruptly
+#######################################################
+#ODST
+
+  - type: STR_ODST_INFANTRY
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 70
+      throwing: 60
+      strength: 55
+      psiStrength: 10
+      psiSkill: 10
+      melee: 70
+      mana: 0
+    armor: STR_ARMOR_ODST_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    deathSound: [44, 45, 46]
+    intelligence: 10
+    aggression: 2
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M7S
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_M6C_SOCOM
+        - STR_M6C_MAG
+        - STR_M6C_MAG
+        - STR_M6C_MAG
+        - STR_M6C_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+
+#ARMY
+  - type: STR_ARMY_RIFLEMAN
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 40
+      health: 30
+      bravery: 30
+      reactions: 30
+      firing: 60
+      throwing: 40
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_ARMY_STANDARD_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 2
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_MA37
+        - STR_MA37_MAG
+        - STR_MA37_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_M392
+        - STR_M392_MAG
+        - STR_M392_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_MA37
+        - STR_MA37_MAG
+        - STR_MA37_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+
+  - type: STR_ARMY_ASSAULT
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 30
+      bravery: 60
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 5
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_MA37
+        - STR_MA37_MAG
+        - STR_MA37_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+
+  - type: STR_ARMY_SUPPORT
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 75
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 50
+      strength: 50
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+      mana: 0
+    armor: STR_ARMOR_ARMY_STANDARD_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_SRS99
+        - STR_SRS99_MAG
+        - STR_SRS99_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_MA37
+        - STR_MA37_MAG
+        - STR_MA37_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_SRS99
+        - STR_SRS99_MAG
+        - STR_SRS99_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+
+  - type: STR_ARMY_MEDIC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 40
+      health: 30
+      bravery: 30
+      reactions: 40
+      firing: 60
+      throwing: 40
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_ARMY_LIGHT_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M6G
+        - STR_M6G_MAG
+        - STR_M6G_MAG
+        - STR_MEDI_KIT
+        - STR_MEDI_KIT
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_MEDI_KIT
+      - 
+        - STR_M6G
+        - STR_M6G_MAG
+        - STR_M6G_MAG
+        - STR_MEDI_KIT
+        - STR_MEDI_KIT
+
+  - type: STR_ARMY_OFFICER
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 50
+      strength: 50
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+      mana: 0
+    armor: STR_ARMOR_ARMY_SARGE_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    deathSound: [44, 45, 46]
+    intelligence: 10
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_MA37
+        - STR_MA37_MAG
+        - STR_MA37_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_M392
+        - STR_M392_MAG
+        - STR_M392_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+
+#MARINE
+  - type: STR_MARINE_RIFLEMAN
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 65
+      health: 30
+      bravery: 40
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_MARINE_STANDARD_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 2
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_MA5B
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_BR55
+        - STR_BR55_MAG
+        - STR_BR55_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_MA5B
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+
+  - type: STR_MARINE_ASSAULT
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 80
+      health: 30
+      bravery: 60
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_MARINE_BALACLAVA_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 5
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_MA5B
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+
+  - type: STR_MARINE_SUPPORT
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 75
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+      mana: 0
+    armor: STR_ARMOR_MARINE_STANDARD_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_SRS99
+        - STR_SRS99_MAG
+        - STR_SRS99_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_MA5B
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_SRS99
+        - STR_SRS99_MAG
+        - STR_SRS99_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+
+  - type: STR_MARINE_MEDIC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 65
+      health: 30
+      bravery: 40
+      reactions: 30
+      firing: 50
+      throwing: 40
+      strength: 19
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_MARINE_LIGHT_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M6C
+        - STR_M6C_MAG
+        - STR_M6C_MAG
+        - STR_MEDI_KIT
+        - STR_MEDI_KIT
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_MEDI_KIT
+      - 
+        - STR_M6C
+        - STR_M6C_MAG
+        - STR_M6C_MAG
+        - STR_MEDI_KIT
+        - STR_MEDI_KIT
+
+  - type: STR_MARINE_OFFICER
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 85
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 60
+      throwing: 50
+      strength: 32
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+      mana: 0
+    armor: STR_ARMOR_MARINE_SARGE_BDU_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    deathSound: [44, 45, 46]
+    intelligence: 10
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_MA5B
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE
+      - 
+        - STR_MA5B
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_MEDI_KIT
+        - STR_GRENADE

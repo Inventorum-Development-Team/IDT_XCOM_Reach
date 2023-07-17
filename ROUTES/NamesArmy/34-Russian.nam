@@ -1,0 +1,166 @@
+﻿lookWeights:
+  - 25
+  - 35
+  - 35
+  - 5
+maleFirst:
+  - Trooper Aleksandr
+  - Trooper Aleksey
+  - Trooper Anatoliy
+  - Trooper Andrey
+  - Trooper Anton
+  - Trooper Artem
+  - Trooper Artur
+  - Trooper Boris
+  - Trooper Denis
+  - Trooper Dmitriy
+  - Trooper Eduard
+  - Trooper Evgeniy
+  - Trooper Gennadiy
+  - Trooper Georgiy
+  - Trooper Grigoriy
+  - Trooper Igor
+  - Trooper Ilya
+  - Trooper Ivan
+  - Trooper Konstantin
+  - Trooper Leonid
+  - Trooper Maxim
+  - Trooper Mihail
+  - Trooper Nikolay
+  - Trooper Oleg
+  - Trooper Pavel
+  - Trooper Petr
+  - Trooper Roman
+  - Trooper Ruslan
+  - Trooper Sergey
+  - Trooper Stanislav
+  - Trooper Vadim
+  - Trooper Valentin
+  - Trooper Valeriy
+  - Trooper Vasiliy
+  - Trooper Viktor
+  - Trooper Vitaliy
+  - Trooper Vladimir
+  - Trooper Vladislav
+  - Trooper Vyacheslav
+  - Trooper Yuriy
+femaleFirst:
+  - Trooper Albina
+  - Trooper Aleksandra
+  - Trooper Alla
+  - Trooper Alyona
+  - Trooper Anastasiya
+  - Trooper Anna
+  - Trooper Antonina
+  - Trooper Darya
+  - Trooper Ekaterina
+  - Trooper Elena
+  - Trooper Evgeniya
+  - Trooper Galina
+  - Trooper Inna
+  - Trooper Irina
+  - Trooper Kristina
+  - Trooper Kseniya
+  - Trooper Larisa
+  - Trooper Lidiya
+  - Trooper Liliya
+  - Trooper Lyubov
+  - Trooper Lyudmila
+  - Trooper Margarita
+  - Trooper Marina
+  - Trooper Mariya
+  - Trooper Nadezhda
+  - Trooper Natalya
+  - Trooper Nina
+  - Trooper Oksana
+  - Trooper Olesya
+  - Trooper Olga
+  - Trooper Raisa
+  - Trooper Svetlana
+  - Trooper Tamara
+  - Trooper Tatyana
+  - Trooper Valentina
+  - Trooper Varvara
+  - Trooper Vera
+  - Trooper Viktoriya
+  - Trooper Yulia
+  - Trooper Zinaida
+  - Trooper Zoya  
+maleLast:
+  - Alekseev
+  - Andreev
+  - Antonov
+  - Borisov
+  - Fedorov
+  - Egorov
+  - Grigoryev
+  - Gromov
+  - Ivanov
+  - Komarov
+  - Korolyov
+  - Kozlov
+  - Kuzmin
+  - Kuznetsov
+  - Lebedev
+  - Makarov
+  - Mihailov
+  - Morozov
+  - Nikitin
+  - Nikolaev
+  - Novikov
+  - Orlov
+  - Pavlov
+  - Petrov
+  - Popov
+  - Romanov
+  - Semyonov
+  - Sergeev
+  - Smirnov
+  - Sokolov
+  - Solovyov
+  - Stepanov
+  - Vasilyev
+  - Volkov
+  - Vorobyov
+  - Yakovlev
+  - Zaitsev
+  - Zaharov
+femaleLast:
+  - Alekseeva
+  - Andreeva
+  - Antonova
+  - Borisova
+  - Fedorova
+  - Egorova
+  - Grigoryeva
+  - Gromova
+  - Ivanova
+  - Komarova
+  - Korolyova
+  - Kozlova
+  - Kuzmina
+  - Kuznetsova
+  - Lebedeva
+  - Makarova
+  - Mihailova
+  - Morozova
+  - Nikitina
+  - Nikolaeva
+  - Novikova
+  - Orlova
+  - Pavlova
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

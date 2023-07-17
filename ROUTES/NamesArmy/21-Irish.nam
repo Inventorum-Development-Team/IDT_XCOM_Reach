@@ -1,0 +1,99 @@
+lookWeights:
+  - 48
+  - 48
+  - 2
+  - 2
+maleFirst:
+  - Trooper Aidan
+  - Trooper Andrew
+  - Trooper Brendon
+  - Trooper Cathal
+  - Trooper Cian
+  - Trooper Cillian
+  - Trooper Conor
+  - Trooper Cormac
+  - Trooper Daniel
+  - Trooper Darragh
+  - Trooper David
+  - Trooper Donal
+  - Trooper Eoghan
+  - Trooper Eoin
+  - Trooper Finn
+  - Trooper Jack
+  - Trooper James
+  - Trooper John
+  - Trooper Liam
+  - Trooper Luke
+  - Trooper Michael
+  - Trooper Mick
+  - Trooper Oisin
+  - Trooper Owen
+  - Trooper Paddy
+  - Trooper Padraig
+  - Trooper Pat
+  - Trooper Patrick
+  - Trooper Pete
+  - Trooper Ronan
+  - Trooper Rory
+  - Trooper Sean
+  - Trooper Thomas
+femaleFirst:
+  - Trooper Aine
+  - Trooper Aisling
+  - Trooper Aoife
+  - Trooper Caoimhe
+  - Trooper Ciara
+  - Trooper Clara
+  - Trooper Fiona
+  - Trooper Grainne
+  - Trooper Karen
+  - Trooper Kate
+  - Trooper Kathleen
+  - Trooper Lisa
+  - Trooper Lorna
+  - Trooper Mary
+  - Trooper Michelle
+  - Trooper Niamh
+  - Trooper Orla
+  - Trooper Rachel
+  - Trooper Roisin
+  - Trooper Saoirse
+  - Trooper Sarah
+  - Trooper Shauna
+  - Trooper Sinead
+  - Trooper Siobhan
+maleLast:
+  - Brennan
+  - Burke
+  - Byrne
+  - Campbell
+  - Clarke
+  - Collins
+  - Doherty
+  - Doyle
+  - Dunn
+  - Duffy
+  - Farrell
+  - Flanagan
+  - Fitzgerald
+  - Fitzpatrick
+  - Flynn
+  - Gallagher
+  - Kavanagh
+  - Kelly
+  - Kennedy
+  - Lynch
+  - Maguire
+  - McCarthy
+  - McGrath
+  - Moore
+  - Murphy
+  - O'Brien
+  - O'Donnell
+  - O'Neill
+  - Quinn
+  - Reilly
+  - Ryan
+  - Sullivan
+  - Walsh  
+  - Whelan

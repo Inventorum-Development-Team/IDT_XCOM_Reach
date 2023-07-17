@@ -1,0 +1,68 @@
+﻿lookWeights:
+  - 20
+  - 30
+  - 30
+  - 20
+maleFirst:
+  - Trooper Arthur
+  - Trooper Bruno
+  - Trooper Daniel
+  - Trooper Eduardo
+  - Trooper Felipe
+  - Trooper Gabriel
+  - Trooper Guilherme
+  - Trooper Gustavo
+  - Trooper João
+  - Trooper João Pedro
+  - Trooper Leonardo
+  - Trooper Lucas
+  - Trooper Luiz
+  - Trooper Matheus
+  - Trooper Paulo
+  - Trooper Pedro
+  - Trooper Rafael
+  - Trooper Thiago
+  - Trooper Vinicius
+  - Trooper Vitor
+femaleFirst:
+  - Trooper Ana
+  - Trooper Amanda
+  - Trooper Barbara
+  - Trooper Beatriz
+  - Trooper Bruna
+  - Trooper Camila
+  - Trooper Fernanda
+  - Trooper Gabriela
+  - Trooper Jéssica
+  - Trooper Júlia
+  - Trooper Juliana
+  - Trooper Larissa
+  - Trooper Laura
+  - Trooper Leticia
+  - Trooper Luana
+  - Trooper Mariana
+  - Trooper Natália
+  - Trooper Rafaela
+  - Trooper Thais
+  - Trooper Vitoria
+maleLast:
+  - Almeida
+  - Alves
+  - Araújo
+  - Barbosa
+  - Cardoso
+  - Carvalho
+  - Costa
+  - Ferreira
+  - Gomes
+  - Lima
+  - Martins
+  - Melo
+  - Oliveira
+  - Pereira
+  - Ribeiro
+  - Rocha
+  - Rodrigues
+  - Santos
+  - Silva
+  - Sousa

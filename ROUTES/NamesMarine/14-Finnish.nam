@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - Marine Aaro
+  - Marine Aatu
+  - Marine Akseli
+  - Marine Aleksi
+  - Marine Antti
+  - Marine Arttu
+  - Marine Atte
+  - Marine Eemeli
+  - Marine Eero
+  - Marine Eino
+  - Marine Esko
+  - Marine Elias
+  - Marine Erkki
+  - Marine Heikki
+  - Marine Henrikki
+  - Marine Ilmari
+  - Marine Jaakko
+  - Marine Jere
+  - Marine Jesse
+  - Marine Joel
+  - Marine Joona
+  - Marine Juhani
+  - Marine Juho
+  - Marine Julius
+  - Marine Jussi
+  - Marine Juuso
+  - Marine Kalle
+  - Marine Konsta
+  - Marine Lauri
+  - Marine Leevi
+  - Marine Markku
+  - Marine Matias
+  - Marine Matti
+  - Marine Mika
+  - Marine Mikael
+  - Marine Mikko
+  - Marine Niilo
+  - Marine Niklas
+  - Marine Niko
+  - Marine Onni
+  - Marine Oskari
+  - Marine Roope
+  - Marine Sami
+  - Marine Santeri
+  - Marine Tapani
+  - Marine Tommi
+  - Marine Tuomas
+  - Marine Valtteri
+  - Marine Viljo
+  - Marine Ville
+femaleFirst:
+  - Marine Aino
+  - Marine Anja
+  - Marine Anna
+  - Marine Anneli
+  - Marine Anni
+  - Marine Eila
+  - Marine Elina
+  - Marine Elisa
+  - Marine Emilia
+  - Marine Emma
+  - Marine Emmi
+  - Marine Eveliina
+  - Marine Hanna
+  - Marine Hannele
+  - Marine Helena
+  - Marine Helmi
+  - Marine Iida
+  - Marine Iina
+  - Marine Ilona
+  - Marine Jenni
+  - Marine Johanna
+  - Marine Julia
+  - Marine Kaarina
+  - Marine Karoliina
+  - Marine Katariina
+  - Marine Kristiina
+  - Marine Laura
+  - Marine Leena
+  - Marine Liisa
+  - Marine Maarit
+  - Marine Maija
+  - Marine Maria
+  - Marine Marjatta
+  - Marine Martta
+  - Marine Milla
+  - Marine Minna
+  - Marine Noora
+  - Marine Oona
+  - Marine Pauliina
+  - Marine Pirjo
+  - Marine Riitta
+  - Marine Ritva
+  - Marine Saara
+  - Marine Sanni
+  - Marine Sari
+  - Marine Sofia
+  - Marine Susanna
+  - Marine Tuula
+  - Marine Tuuli
+  - Marine Veera
+maleLast:
+  - Aalto
+  - Aaltonen
+  - Aho
+  - Ahola
+  - Ahonen
+  - Anttila
+  - Arvola
+  - Eskola
+  - Haapala
+  - Haavisto
+  - Hakala
+  - Halonen
+  - Harju
+  - Hartikainen
+  - Heikkinen
+  - Heino
+  - Heinonen
+  - Heiskanen
+  - Hietala
+  - Hiltunen
+  - Hirvonen
+  - Honkanen
+  - Huttunen
+  - Ikonen
+  - Immonen
+  - Jalonen
+  - Jokinen
+  - Kallio
+  - Karhu
+  - Karjalainen
+  - Karppinen
+  - Kauppinen
+  - Kemppainen
+  - Kettunen
+  - Kinnunen
+  - Kiviniemi
+  - Koivisto
+  - Kokko
+  - Kokkonen
+  - Koponen
+  - Korhonen
+  - Korpela
+  - Koskela
+  - Koski
+  - Koskinen
+  - Laakso
+  - Laaksonen
+  - Lahti
+  - Lahtinen
+  - Laine
+  - Laitinen
+  - Lappalainen
+  - Lehtinen
+  - Lehto
+  - Lehtonen
+  - Leino
+  - Leinonen
+  - Lindholm
+  - Manninen
+  - Mattila
+  - Miettinen
+  - Mikkola
+  - Mikkonen
+  - Moilanen
+  - Mustonen
+  - Niemi
+  - Nieminen
+  - Niskanen
+  - Nurmi
+  - Nurminen
+  - Nyman
+  - Ojala
+  - Oksanen
+  - Partanen
+  - Peltola
+  - Peltonen
+  - Pesonen
+  - Pulkkinen
+  - Rajala
+  - Rantala
+  - Rantanen
+  - Rautiainen
+  - Rautio
+  - Rissanen
+  - Saari
+  - Saarinen
+  - Saimi
+  - Salminen
+  - Salo
+  - Salonen
+  - Savolainen
+  - Suominen
+  - Toivonen
+  - Tuominen
+  - Turunen
+  - Uusitalo
+  - Vainio
+  - Virtanen
+  - Vuorinen
+  - Ylitalo

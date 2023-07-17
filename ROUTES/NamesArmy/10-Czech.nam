@@ -1,0 +1,467 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Trooper Jan
+  - Trooper Tomas
+  - Trooper Zbysek
+  - Trooper Zdenik
+  - Trooper Michal
+  - Trooper Martin
+  - Trooper Jioi
+  - Trooper Ivo
+  - Trooper Pavel
+  - Trooper Karel
+  - Trooper Frantisek
+  - Trooper Ctirad
+  - Trooper Zbynik
+  - Trooper Vladimir
+  - Trooper Jaroslav
+  - Trooper Petr
+  - Trooper Josef
+  - Trooper Vaclav
+  - Trooper Miroslav
+  - Trooper Mila
+  - Trooper Lukas
+  - Trooper David
+  - Trooper Jakub
+  - Trooper Stanislav
+  - Trooper Roman
+  - Trooper Ondoej
+  - Trooper Radek
+  - Trooper Antonin
+  - Trooper Jozef
+  - Trooper Emil
+  - Trooper Filip
+  - Trooper Ales  
+  - Trooper Alexandr
+  - Trooper Alexej
+  - Trooper Ambroz	
+  - Trooper Andrej
+  - Trooper Arnost
+  - Trooper Artur
+  - Trooper Augustyn
+  - Trooper Bartolomej	
+  - Trooper Bedrich
+  - Trooper Benedikt
+  - Trooper Bernard
+  - Trooper Blahoslav
+  - Trooper Blazej
+  - Trooper Bohdan
+  - Trooper Bohumil
+  - Trooper Bohumir	
+  - Trooper Bohuslav
+  - Trooper Boleslav
+  - Trooper Bonifac
+  - Trooper Borek
+  - Trooper Boris
+  - Trooper Borivoj
+  - Trooper Bretislav
+  - Trooper Bronislav
+  - Trooper Bruno
+  - Trooper Ctibor
+  - Trooper Cenek
+  - Trooper Cestmir	
+  - Trooper Dalibor
+  - Trooper Dalimil
+  - Trooper Dobroslav
+  - Trooper Dominik
+  - Trooper Drahoslav
+  - Trooper Dusan
+  - Trooper Eduard
+  - Trooper Erik
+  - Trooper Evzen
+  - Trooper Felix
+  - Trooper Ferdinand
+  - Trooper Gustav
+  - Trooper Hanus	
+  - Trooper Havel
+  - Trooper Herman
+  - Trooper Hubert
+  - Trooper Hugo
+  - Trooper Hynek
+  - Trooper Ignac
+  - Trooper Igor
+  - Trooper Ilja
+  - Trooper Ivan
+  - Trooper Jachym
+  - Trooper Jarmil
+  - Trooper Jaromir
+  - Trooper Jeronym
+  - Trooper Jindrich
+  - Trooper Jiri	
+  - Trooper Jonas	
+  - Trooper Julius
+  - Trooper Kamil
+  - Trooper Kazimir
+  - Trooper Klement
+  - Trooper Kristian
+  - Trooper Krystof
+  - Trooper Kvetoslav
+  - Trooper Kvido
+  - Trooper Ladislav
+  - Trooper Leopold
+  - Trooper Leos	
+  - Trooper Libor
+  - Trooper Lubomir
+  - Trooper Lubor
+  - Trooper Lubos	
+  - Trooper Ludek
+  - Trooper Ludvik
+  - Trooper Lukas	
+  - Trooper Lumir
+  - Trooper Marcel
+  - Trooper Marek
+  - Trooper Marian
+  - Trooper Matej	
+  - Trooper Matous	
+  - Trooper Maxmilian	
+  - Trooper Medard
+  - Trooper Mikulas	
+  - Trooper Milan
+  - Trooper Milos	
+  - Trooper Miloslav
+  - Trooper Mojmir
+  - Trooper Oldrich
+  - Trooper Oleg
+  - Trooper Oliver
+  - Trooper Ondrej	
+  - Trooper Oskar
+  - Trooper Otakar
+  - Trooper Otmar
+  - Trooper Oto
+  - Trooper Pankrac	
+  - Trooper Patrik
+  - Trooper Pravoslav
+  - Trooper Prokop
+  - Trooper Premysl
+  - Trooper Radim
+  - Trooper Radomir
+  - Trooper Radoslav
+  - Trooper Radovan
+  - Trooper Rostislav
+  - Trooper Rudolf
+  - Trooper Rehor	
+  - Trooper Samuel
+  - Trooper Servac
+  - Trooper Silvestr
+  - Trooper Slavomir
+  - Trooper Sobeslav
+  - Trooper Svatopluk
+  - Trooper Svatoslav
+  - Trooper Simon
+  - Trooper Stefan
+  - Trooper Stepan	
+  - Trooper Tadeas	
+  - Trooper Teodor
+  - Trooper Tibor
+  - Trooper Tomas	
+  - Trooper Valdemar
+  - Trooper Valentyn
+  - Trooper Vavrinec
+  - Trooper Venceslav
+  - Trooper Vendelin
+  - Trooper Veroslav
+  - Trooper Viktor
+  - Trooper Vilem
+  - Trooper Vincenc
+  - Trooper Vit
+  - Trooper Vitezslav
+  - Trooper Vladan
+  - Trooper Vladislav
+  - Trooper Vlastimil
+  - Trooper Vlastislav
+  - Trooper Vojtech
+  - Trooper Vratislav
+  - Trooper Zbynek
+  - Trooper Zdenek
+  - Trooper Zikmund
+femaleFirst:
+  - Trooper Anna
+  - Trooper Marie
+  - Trooper Jana
+  - Trooper Iva
+  - Trooper Irina
+  - Trooper Ludmila
+  - Trooper Pavla
+  - Trooper Kateoina
+  - Trooper Simona
+  - Trooper Lucie
+  - Trooper Lenka
+  - Trooper Alena
+  - Trooper Gabina
+  - Trooper Jioina
+  - Trooper Michaela
+  - Trooper Ivana
+  - Trooper Monika
+  - Trooper Veronika
+  - Trooper Jarmila
+  - Trooper Zdeoka
+  - Trooper Jitka
+  - Trooper Helena
+  - Trooper Petra
+  - Trooper Eva
+  - Trooper Hana
+  - Trooper Vira
+  - Trooper Tereza
+  - Trooper Adela
+  - Trooper Adele
+  - Trooper Adriena
+  - Trooper Agata
+  - Trooper Alica
+  - Trooper Alzbeta
+  - Trooper Ana
+  - Trooper Ancika
+  - Trooper Andel
+  - Trooper Andela
+  - Trooper Aneta
+  - Trooper Anezka
+  - Trooper Anichka
+  - Trooper Antoinetta
+  - Trooper Antonie
+  - Trooper Bara
+  - Trooper Barbora
+  - Trooper Barcinka
+  - Trooper Barunka
+  - Trooper Baruska
+  - Trooper Blanka
+  - Trooper Bohdana
+  - Trooper Bohumila
+  - Trooper Bohuslava
+  - Trooper Bora
+  - Trooper Bozena
+  - Trooper Branislava
+  - Trooper Dagmar
+  - Trooper Daleka
+  - Trooper Dalibora
+  - Trooper Dominika
+  - Trooper Drahomira
+  - Trooper Drahoslava
+  - Trooper Dusa
+  - Trooper Dusana
+  - Trooper Dusanka
+  - Trooper Duska
+  - Trooper Edita
+  - Trooper Eliska
+  - Trooper Elita
+  - Trooper Emilia
+  - Trooper Frantiska
+  - Trooper Hedvika
+  - Trooper Irena
+  - Trooper Izabela
+  - Trooper Jaromila
+  - Trooper Jaroslava
+  - Trooper Jindriska
+  - Trooper Jirina
+  - Trooper Johana
+  - Trooper Jolana
+  - Trooper Josefa
+  - Trooper Judita
+  - Trooper Julia
+  - Trooper Kamila
+  - Trooper Karina
+  - Trooper Karolina
+  - Trooper Katarina
+  - Trooper Katerina
+  - Trooper Katica
+  - Trooper Kristyna
+  - Trooper Kunigunde
+  - Trooper Kveta
+  - Trooper Ladislava
+  - Trooper Leona
+  - Trooper Libena
+  - Trooper Libuse
+  - Trooper Lida
+  - Trooper Lidmila
+  - Trooper Lubomira
+  - Trooper Lucina
+  - Trooper Lydie
+  - Trooper Madlenka
+  - Trooper Magdalena
+  - Trooper Maria
+  - Trooper Marketa
+  - Trooper Matylda
+  - Trooper Milada
+  - Trooper Milana
+  - Trooper Milena
+  - Trooper Miloslava
+  - Trooper Nada
+  - Trooper Nadezda
+  - Trooper Otilie
+  - Trooper Pavlina
+  - Trooper Radka
+  - Trooper Radomila
+  - Trooper Radomira
+  - Trooper Radoslava
+  - Trooper Ruzena
+  - Trooper Sara
+  - Trooper Sobeska
+  - Trooper Sobeslava
+  - Trooper Stanislava
+  - Trooper Stefanija
+  - Trooper Stepanka
+  - Trooper Svetla
+  - Trooper Svetlana
+  - Trooper Tatana
+  - Trooper Ursula
+  - Trooper Vaclava
+  - Trooper Vendula
+  - Trooper Vera
+  - Trooper Vladimira
+  - Trooper Vlasta
+  - Trooper Zdenka
+  - Trooper Zofie
+  - Trooper Zoja
+  - Trooper Zuzana
+maleLast:
+  - Bartos
+  - Benda
+  - Benes
+  - Beran
+  - Blaha
+  - Blazek
+  - Broz
+  - Bures
+  - Cech
+  - Cermak
+  - Cerny
+  - Cervenka
+  - Cizek
+  - Dolezal
+  - Dusek
+  - Dvorak
+  - Fiala
+  - Fiser
+  - Hajek
+  - Havlicek
+  - Hlavacek
+  - Hoffmann
+  - Holub
+  - Horak
+  - Hruby
+  - Hruska
+  - Janda
+  - Janecek
+  - Janousek
+  - Jelinek
+  - Jezek
+  - Kadlec
+  - Kaspar
+  - Klaus
+  - Klima
+  - Kohout
+  - Kolar
+  - Kopecky
+  - Kovar
+  - Kovarik
+  - Kral
+  - Kratochvil
+  - Kraus
+  - Krejci
+  - Kriz
+  - Kubis
+  - Kucera
+  - Machacek
+  - Maly
+  - Mares
+  - Martinek
+  - Masek
+  - Matejka
+  - Matousek
+  - Moravec
+  - Mueller
+  - Musil
+  - Navratil
+  - Nemec
+  - Nemecek
+  - Neumann
+  - Novak
+  - Novotny
+  - Pesek
+  - Pokorny
+  - Polak
+  - Pospisil
+  - Prochazka
+  - Richter
+  - Riha
+  - Ruzicka
+  - Sedlacek
+  - Sichy
+  - Simek
+  - Skala
+  - Slavik
+  - Smid
+  - Soucek
+  - Soukup
+  - Stanek
+  - Stastny
+  - Stepanek
+  - Strnad
+  - Sulc
+  - Svoboda
+  - Sykora
+  - Tuma
+  - Urban
+  - Vacek
+  - Valenta
+  - Vanek
+  - Vavra
+  - Vesely
+  - Vlcek
+  - Zelenka
+  - Zeman
+  - Stransky
+  - Tyeka
+  - Dobrynsky
+  - Krajan
+  - Marny
+  - Nimy
+  - Neeesal
+  - Rosa
+  - Kvitoslav
+  - Nadinicky
+  - Doevak
+  - Eerny
+  - Dvooak
+  - Ruzieka
+  - Sedlaeek
+  - Machaeek
+  - Carda
+  - Kueera
+femaleLast:
+  - Zemanova
+  - Kolaoova
+  - Krejei
+  - Eermakova
+  - Navratilova
+  - Komyrova
+  - Urbanova
+  - Vaokova
+  - Koizna
+  - Kratochvilova
+  - Vlazkova
+  - Trojska
+  - Petrova
+  - Romanova
+  - Kovaoova
+  - Bartosova
+  - Musilova
+  - Polakova
+  - Koneena
+  - Mala
+  - Tkadlecova
+  - Zhdanovich
+  - Soukupova
+  - Stastna
+  - Vavrova
+  - Oihova
+  - Ticha
+  - Matusova
+  - Maskova
+  - Hruba
+  - Stejskalova
+  - Tumova
+  - Zakova
+  - Brozova

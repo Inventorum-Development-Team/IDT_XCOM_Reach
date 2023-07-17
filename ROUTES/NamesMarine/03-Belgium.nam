@@ -1,0 +1,75 @@
+# Simplified: Belgium has two main languages regions, the
+# Flemish(Dutch) speaking part and the Walloon(French) speaking region.
+# This difference is reflected in the names. I used the 60% Flemish vs 40% French
+# ratio 
+# Distribution of lastNames can be visualised at http://www.familienaam.be
+# 12 Flemish/8 French (names from statbel.fgov.be)
+lookWeights:
+  - 70
+  - 28
+  - 1
+  - 1
+maleFirst:
+  - Marine Nathan
+  - Marine Wouter
+  - Marine Seppe
+  - Marine Robbe
+  - Marine Kobe
+  - Marine Bart
+  - Marine Ruben
+  - Marine Mark
+  - Marine David
+  - Marine Jef
+  - Marine Emiel
+  - Marine Lowie
+  - Marine Pierre
+  - Marine Victor
+  - Marine Jules
+  - Marine Leo
+  - Marine Mathieu
+  - Marine Emilien
+  - Marine Bastien
+  - Marine Quentin
+femaleFirst:
+  - Marine Lotte
+  - Marine Kato
+  - Marine Julie
+  - Marine Noor
+  - Marine Els
+  - Marine Wendy
+  - Marine Laura
+  - Marine Sarah
+  - Marine Charlotte
+  - Marine Emma
+  - Marine Marie
+  - Marine Lisa
+  - Marine Clara
+  - Marine Emma
+  - Marine Elise
+  - Marine Louise
+  - Marine Ines
+  - Marine Justine
+  - Marine Laura
+  - Marine Lucie
+maleLast:
+  - Peeters
+  - Janssens
+  - Maes
+  - Jacobs
+  - Willems
+  - Mertens
+  - Claes
+  - Wouters
+  - Goossens
+  - De Smet
+  - Vermeulen
+  - Pauwels
+  - Dubois
+  - Lambert
+  - Martin
+  - Dupont
+  - Simon
+  - Leclercq
+  - Leroy
+  - Lejeune
+

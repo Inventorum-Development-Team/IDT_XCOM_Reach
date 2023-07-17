@@ -1,0 +1,166 @@
+﻿lookWeights:
+  - 25
+  - 35
+  - 35
+  - 5
+maleFirst:
+  - Marine Aleksandr
+  - Marine Aleksey
+  - Marine Anatoliy
+  - Marine Andrey
+  - Marine Anton
+  - Marine Artem
+  - Marine Artur
+  - Marine Boris
+  - Marine Denis
+  - Marine Dmitriy
+  - Marine Eduard
+  - Marine Evgeniy
+  - Marine Gennadiy
+  - Marine Georgiy
+  - Marine Grigoriy
+  - Marine Igor
+  - Marine Ilya
+  - Marine Ivan
+  - Marine Konstantin
+  - Marine Leonid
+  - Marine Maxim
+  - Marine Mihail
+  - Marine Nikolay
+  - Marine Oleg
+  - Marine Pavel
+  - Marine Petr
+  - Marine Roman
+  - Marine Ruslan
+  - Marine Sergey
+  - Marine Stanislav
+  - Marine Vadim
+  - Marine Valentin
+  - Marine Valeriy
+  - Marine Vasiliy
+  - Marine Viktor
+  - Marine Vitaliy
+  - Marine Vladimir
+  - Marine Vladislav
+  - Marine Vyacheslav
+  - Marine Yuriy
+femaleFirst:
+  - Marine Albina
+  - Marine Aleksandra
+  - Marine Alla
+  - Marine Alyona
+  - Marine Anastasiya
+  - Marine Anna
+  - Marine Antonina
+  - Marine Darya
+  - Marine Ekaterina
+  - Marine Elena
+  - Marine Evgeniya
+  - Marine Galina
+  - Marine Inna
+  - Marine Irina
+  - Marine Kristina
+  - Marine Kseniya
+  - Marine Larisa
+  - Marine Lidiya
+  - Marine Liliya
+  - Marine Lyubov
+  - Marine Lyudmila
+  - Marine Margarita
+  - Marine Marina
+  - Marine Mariya
+  - Marine Nadezhda
+  - Marine Natalya
+  - Marine Nina
+  - Marine Oksana
+  - Marine Olesya
+  - Marine Olga
+  - Marine Raisa
+  - Marine Svetlana
+  - Marine Tamara
+  - Marine Tatyana
+  - Marine Valentina
+  - Marine Varvara
+  - Marine Vera
+  - Marine Viktoriya
+  - Marine Yulia
+  - Marine Zinaida
+  - Marine Zoya  
+maleLast:
+  - Alekseev
+  - Andreev
+  - Antonov
+  - Borisov
+  - Fedorov
+  - Egorov
+  - Grigoryev
+  - Gromov
+  - Ivanov
+  - Komarov
+  - Korolyov
+  - Kozlov
+  - Kuzmin
+  - Kuznetsov
+  - Lebedev
+  - Makarov
+  - Mihailov
+  - Morozov
+  - Nikitin
+  - Nikolaev
+  - Novikov
+  - Orlov
+  - Pavlov
+  - Petrov
+  - Popov
+  - Romanov
+  - Semyonov
+  - Sergeev
+  - Smirnov
+  - Sokolov
+  - Solovyov
+  - Stepanov
+  - Vasilyev
+  - Volkov
+  - Vorobyov
+  - Yakovlev
+  - Zaitsev
+  - Zaharov
+femaleLast:
+  - Alekseeva
+  - Andreeva
+  - Antonova
+  - Borisova
+  - Fedorova
+  - Egorova
+  - Grigoryeva
+  - Gromova
+  - Ivanova
+  - Komarova
+  - Korolyova
+  - Kozlova
+  - Kuzmina
+  - Kuznetsova
+  - Lebedeva
+  - Makarova
+  - Mihailova
+  - Morozova
+  - Nikitina
+  - Nikolaeva
+  - Novikova
+  - Orlova
+  - Pavlova
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

@@ -1,0 +1,1141 @@
+lookWeights:
+  - 50
+  - 49
+  - 1
+  - 0
+maleFirst:
+  - Marine Abderus
+  - Marine Absyrtus
+  - Marine Abydos
+  - Marine Acastus
+  - Marine Achates
+  - Marine Achelous
+  - Marine Acheron
+  - Marine Achilles
+  - Marine Achlys
+  - Marine Acrisius
+  - Marine Actaeon
+  - Marine Acteon
+  - Marine Adelphos
+  - Marine Admes
+  - Marine Admetus
+  - Marine Adonis
+  - Marine Adras
+  - Marine Adrastos
+  - Marine Adrastus
+  - Marine Adrian
+  - Marine Aeacus
+  - Marine Aeetes
+  - Marine Aegeus
+  - Marine Aegis
+  - Marine Aegisthus
+  - Marine Aegyptus
+  - Marine Aeneas
+  - Marine Aeolus
+  - Marine Aesculapius
+  - Marine Aeson
+  - Marine Aetos
+  - Marine Agamedes
+  - Marine Agape
+  - Marine Agatone
+  - Marine Aindreas
+  - Marine Aindriu
+  - Marine Ajax
+  - Marine Akil
+  - Marine Alasd
+  - Marine Alcander
+  - Marine Alcinoos
+  - Marine Alcinous
+  - Marine Alcnaeon
+  - Marine Alcyoneus
+  - Marine Alddes
+  - Marine Alessandro
+  - Marine Alex
+  - Marine Alexander
+  - Marine Alexandras
+  - Marine Alexandros
+  - Marine Alexandrukas
+  - Marine Alexei
+  - Marine Alexio
+  - Marine Alix
+  - Marine Aloeus
+  - Marine Alpheus
+  - Marine Altair
+  - Marine Amaoebus
+  - Marine Ambrocio
+  - Marine Ambrose
+  - Marine Ambrus
+  - Marine Amphiaraus
+  - Marine Amphion
+  - Marine Amphitryon
+  - Marine Ampyx
+  - Marine Amycus
+  - Marine Anastagio
+  - Marine Anastasio
+  - Marine Anastasios
+  - Marine Anastasius
+  - Marine Anasztaz
+  - Marine Anatol
+  - Marine Anatole
+  - Marine Anatoli
+  - Marine Anatolijus
+  - Marine Anatolio
+  - Marine Ancaeus
+  - Marine Anchises
+  - Marine Andor
+  - Marine Andreas
+  - Marine Andres
+  - Marine Andreus
+  - Marine Andrew
+  - Marine Andries
+  - Marine Androgeus
+  - Marine Androu
+  - Marine Anstice
+  - Marine Anstiss
+  - Marine Antaeus
+  - Marine Antares
+  - Marine Anteros
+  - Marine Antilochus
+  - Marine Antinous
+  - Marine Antiphates
+  - Marine Anton
+  - Marine Antony
+  - Marine Aonghas
+  - Marine Apollo
+  - Marine Apoloniusz
+  - Marine Apostolos
+  - Marine Arcadicus
+  - Marine Arcas
+  - Marine Arcenio
+  - Marine Archemorus
+  - Marine Ares
+  - Marine Argo
+  - Marine Argos
+  - Marine Argus
+  - Marine Arion
+  - Marine Aristaeus
+  - Marine Aristo
+  - Marine Arsen
+  - Marine Arsenio
+  - Marine Artemas
+  - Marine Artemesio
+  - Marine Artemus
+  - Marine Ascalaphus
+  - Marine Asklepios
+  - Marine Asopus
+  - Marine Athamas
+  - Marine Athan
+  - Marine Athanasios
+  - Marine Athanasius
+  - Marine Atlas
+  - Marine Atreus
+  - Marine Attis
+  - Marine Autolycus
+  - Marine Avernus
+  - Marine Baccaus
+  - Marine Baccus
+  - Marine Balasi
+  - Marine Baltsaros
+  - Marine Baptiste
+  - Marine Basil
+  - Marine Basile
+  - Marine Basilio
+  - Marine Baste
+  - Marine Bastiaan
+  - Marine Bastien
+  - Marine Baucis
+  - Marine Bazyli
+  - Marine Bemus
+  - Marine Biton
+  - Marine Boreas
+  - Marine Brasidas
+  - Marine Briareus
+  - Marine Brygus
+  - Marine Butades
+  - Marine Cadmus
+  - Marine Caesare
+  - Marine Calchas
+  - Marine Calisto
+  - Marine Capaneus
+  - Marine Caseareo
+  - Marine Castor
+  - Marine Cecrops
+  - Marine Celeus
+  - Marine Cenon
+  - Marine Cephalus
+  - Marine Cepheus
+  - Marine Cesare
+  - Marine Cetus
+  - Marine Ceyx
+  - Marine Chris
+  - Marine Christan
+  - Marine Christiano
+  - Marine Christoph
+  - Marine Christopher
+  - Marine Christophoros
+  - Marine Christos
+  - Marine Chruse
+  - Marine Chrysostom
+  - Marine Cimon
+  - Marine Cirio
+  - Marine Ciro
+  - Marine Claas
+  - Marine Claus
+  - Marine Cleobis
+  - Marine Cleon
+  - Marine Cletus
+  - Marine Cleytus
+  - Marine Clio
+  - Marine Cocytus
+  - Marine Coeus
+  - Marine Coireall
+  - Marine Cole
+  - Marine Colin
+  - Marine Colum
+  - Marine Corban
+  - Marine Coridan
+  - Marine Corybantes
+  - Marine Corydon
+  - Marine Cos
+  - Marine Cosmas
+  - Marine Cosmo
+  - Marine Cottus
+  - Marine Creon
+  - Marine Cretien
+  - Marine Cristoforo
+  - Marine Cristophe
+  - Marine Cronus
+  - Marine Ctesippus
+  - Marine Cyrano
+  - Marine Cyrek
+  - Marine Cyril
+  - Marine Cyrus
+  - Marine Cyryl
+  - Marine Damae
+  - Marine Damalis
+  - Marine Damaris
+  - Marine Damaskenos
+  - Marine Damaskinos
+  - Marine Damen
+  - Marine Dameon
+  - Marine Damian
+  - Marine Damion
+  - Marine Damon
+  - Marine Danaus
+  - Marine Dardanus
+  - Marine Darian
+  - Marine Darien
+  - Marine Darion
+  - Marine Darrian
+  - Marine Darrien
+  - Marine Darrion
+  - Marine Daymon
+  - Marine Deke
+  - Marine Dekel
+  - Marine Dekle
+  - Marine Delbin
+  - Marine Demetre
+  - Marine Demetri
+  - Marine Demetrios
+  - Marine Demetrius
+  - Marine Demitri
+  - Marine Demitrius
+  - Marine Demodocus
+  - Marine Demophon
+  - Marine Demoritus
+  - Marine Denes
+  - Marine Dennis
+  - Marine Deo
+  - Marine Deucalion
+  - Marine Doran
+  - Marine Dorian
+  - Marine Dorion
+  - Marine Drakon
+  - Marine Drew
+  - Marine Dymas
+  - Marine Eachann
+  - Marine Efterpi
+  - Marine Egidio
+  - Marine Eleftherios
+  - Marine Elek
+  - Marine Eleutherios
+  - Marine Eli
+  - Marine Enceladus
+  - Marine Endre
+  - Marine Endymion
+  - Marine Eneas
+  - Marine Eoghan
+  - Marine Epeius
+  - Marine Erasmus
+  - Marine Erebus
+  - Marine Erechtheus
+  - Marine Erichthonius
+  - Marine Erymanthus
+  - Marine Erysichthon
+  - Marine Eryx
+  - Marine Estevao
+  - Marine Eteocles
+  - Marine Etor
+  - Marine Eubuleus
+  - Marine Eugen
+  - Marine Eugene
+  - Marine Eugenio
+  - Marine Eugenios
+  - Marine Eumaeus
+  - Marine Eupeithes
+  - Marine Euphrosyne
+  - Marine Eurus
+  - Marine Euryalus
+  - Marine Eurylochus
+  - Marine Eurymachus
+  - Marine Eurypylus
+  - Marine Eurystheus
+  - Marine Euryton
+  - Marine Eusebius
+  - Marine Eustace
+  - Marine Eustachy
+  - Marine Eustis
+  - Marine Evan
+  - Marine Evzen
+  - Marine Fedor
+  - Marine Feodor
+  - Marine Feodras
+  - Marine Filippo
+  - Marine Filips
+  - Marine Flip
+  - Marine Fulop
+  - Marine Gaelan
+  - Marine Galan
+  - Marine Galen
+  - Marine Galinthias
+  - Marine Galyn
+  - Marine Gelasius
+  - Marine Georg
+  - Marine George
+  - Marine Georges
+  - Marine Giles
+  - Marine Glaucus
+  - Marine Goran
+  - Marine Graeae
+  - Marine Gregoire
+  - Marine Gregoly
+  - Marine Gregor
+  - Marine Gregorie
+  - Marine Gregorior
+  - Marine Gregory
+  - Marine Gregos
+  - Marine Grigor
+  - Marine Grigorov
+  - Marine Gruev
+  - Marine Guilio
+  - Marine Gyes
+  - Marine Gyoergy
+  - Marine Gyorgy
+  - Marine Gyuri
+  - Marine Haemon
+  - Marine Hali
+  - Marine Halithersis
+  - Marine Hector
+  - Marine Helios
+  - Marine Herodotus
+  - Marine Homar
+  - Marine Homer
+  - Marine Homeros
+  - Marine Homerus
+  - Marine Hypnos
+  - Marine Ibycus
+  - Marine Icarius
+  - Marine Icarus
+  - Marine Icelos
+  - Marine Icos
+  - Marine Idas
+  - Marine Igorr
+  - Marine Inachus
+  - Marine Iorgas
+  - Marine Iphitus
+  - Marine Istvan
+  - Marine Ivan
+  - Marine Ivankor
+  - Marine Ixion
+  - Marine Jaison
+  - Marine Jase
+  - Marine Jasen
+  - Marine Jason
+  - Marine Jayce
+  - Marine Jayr
+  - Marine Jaysen
+  - Marine Jayson
+  - Marine Jencir
+  - Marine Jeno
+  - Marine Jeroenr
+  - Marine Jerome
+  - Marine Jerzyr
+  - Marine Jirkar
+  - Marine Jorenr
+  - Marine Julius
+  - Marine Jurgisr
+  - Marine Kadmus
+  - Marine Kairos
+  - Marine Khristos
+  - Marine Khrystiyanr
+  - Marine Kit
+  - Marine Klaasr
+  - Marine Klaus
+  - Marine Korudon
+  - Marine Kosmosr
+  - Marine Kratos
+  - Marine Krikor
+  - Marine Krischnan
+  - Marine Kristian
+  - Marine Kristofr
+  - Marine Krystupasr
+  - Marine Krzysztofr
+  - Marine Kuirilr
+  - Marine Kyrillos
+  - Marine Kyrillosr
+  - Marine Kyros
+  - Marine Ladon
+  - Marine Laertes
+  - Marine Laestrygones
+  - Marine Laius
+  - Marine Lander
+  - Marine Laocoon
+  - Marine Laomedon
+  - Marine Leander
+  - Marine Leandro
+  - Marine Leonidas
+  - Marine Lichas
+  - Marine Linus
+  - Marine Lippio
+  - Marine Lotus
+  - Marine Loxias
+  - Marine Luke
+  - Marine Lycaon
+  - Marine Lycomedes
+  - Marine Lycurgus
+  - Marine Lynceus
+  - Marine Lysander
+  - Marine Marcario
+  - Marine Maurice
+  - Marine Medus
+  - Marine Melampus
+  - Marine Melancton
+  - Marine Melanthius
+  - Marine Menelaus
+  - Marine Menoeceus
+  - Marine Mentor
+  - Marine Midas
+  - Marine Mikolas
+  - Marine Miles
+  - Marine Milo
+  - Marine Minos
+  - Marine Momus
+  - Marine Mopsus
+  - Marine Moses
+  - Marine Myles
+  - Marine Myron
+  - Marine Narkis
+  - Marine Nauplius
+  - Marine Neleus
+  - Marine Nemo
+  - Marine Nemos
+  - Marine Neo
+  - Marine Nicholas
+  - Marine Nicholaus
+  - Marine Nicias
+  - Marine Nick
+  - Marine Nicodemus
+  - Marine Nicolas
+  - Marine Nicolaus
+  - Marine Nik
+  - Marine Nike
+  - Marine Niklaus
+  - Marine Nikodem
+  - Marine Nikolai
+  - Marine Nikolajis
+  - Marine Nikolos
+  - Marine Niles
+  - Marine Nilo
+  - Marine Nilos
+  - Marine Nisus
+  - Marine Notus
+  - Marine Obiareus
+  - Marine Oighrig
+  - Marine Oles
+  - Marine Orrin
+  - Marine Orthros
+  - Marine Otis
+  - Marine Pan
+  - Marine Panagiotis
+  - Marine Pancratius
+  - Marine Panos
+  - Marine Panteleimon
+  - Marine Papandrou
+  - Marine Paris
+  - Marine Patroclus
+  - Marine Patroklos
+  - Marine Pavlos
+  - Marine Peadair
+  - Marine Peder
+  - Marine Pegeen
+  - Marine Peleus
+  - Marine Pelias
+  - Marine Pello
+  - Marine Pelops
+  - Marine Pero
+  - Marine Perrin
+  - Marine Peterke
+  - Marine Petrelis
+  - Marine Petros
+  - Marine Petter
+  - Marine Phantasos
+  - Marine Phaon
+  - Marine Philemon
+  - Marine Philip
+  - Marine Philipp
+  - Marine Philippe
+  - Marine Phillip
+  - Marine Philo
+  - Marine Phineas
+  - Marine Phineus
+  - Marine Phrixus
+  - Marine Phylo
+  - Marine Piero
+  - Marine Pierro
+  - Marine Pieter
+  - Marine Pietr
+  - Marine Pietro
+  - Marine Pilib
+  - Marine Piotr
+  - Marine Pippo
+  - Marine Pirithous
+  - Marine Pirro
+  - Marine Pittheus
+  - Marine Plato
+  - Marine Platon
+  - Marine Plexippus
+  - Marine Plutus
+  - Marine Pollux
+  - Marine Poseidon
+  - Marine Preben
+  - Marine Priam
+  - Marine Priapus
+  - Marine Procrustes
+  - Marine Prokopios
+  - Marine Prometheus
+  - Marine Prophyrios
+  - Marine Protesilaus
+  - Marine Ptolemy
+  - Marine Pyramus
+  - Marine Rasmus
+  - Marine Rhodes
+  - Marine Risto
+  - Marine Sabastian
+  - Marine Salmoneus
+  - Marine Scopas
+  - Marine Sebasten
+  - Marine Sebastian
+  - Marine Sebastiano
+  - Marine Simon
+  - Marine Sinon
+  - Marine Socrates
+  - Marine Sofronio
+  - Marine Soterios
+  - Marine Spyridon
+  - Marine Stamitos
+  - Marine Stavros
+  - Marine Steafan
+  - Marine Stefan
+  - Marine Stefano
+  - Marine Stefanos
+  - Marine Stefford
+  - Marine Stefon
+  - Marine Stephano
+  - Marine Stephanos
+  - Marine Stephen
+  - Marine Stephon
+  - Marine Steven
+  - Marine Steverino
+  - Marine Takis
+  - Marine Talos
+  - Marine Talus
+  - Marine Tantalus
+  - Marine Tarasios
+  - Marine Teague
+  - Marine Telamon
+  - Marine Telegonus
+  - Marine Telemachus
+  - Marine Telephus
+  - Marine Tellus
+  - Marine Teodors
+  - Marine Teofile
+  - Marine Teuthras
+  - Marine Thad
+  - Marine Thaddeus
+  - Marine Thaddius
+  - Marine Thadeus
+  - Marine Thais
+  - Marine Thanatos
+  - Marine Thanos
+  - Marine Thaumas
+  - Marine Theo
+  - Marine Theociymenus
+  - Marine Theodon
+  - Marine Theodore
+  - Marine Theodosios
+  - Marine Theodrekr
+  - Marine Theodric
+  - Marine Theon
+  - Marine Theophile
+  - Marine Theophilus
+  - Marine Theron
+  - Marine Therron
+  - Marine Thersites
+  - Marine Theseus
+  - Marine Thomas
+  - Marine Thyestes
+  - Marine Tiege
+  - Marine Tim
+  - Marine Timeus
+  - Marine Timmy
+  - Marine Timocrates
+  - Marine Timoleon
+  - Marine Timon
+  - Marine Timotheos
+  - Marine Timothy
+  - Marine Timun
+  - Marine Tiomoid
+  - Marine Tito
+  - Marine Titos
+  - Marine Titus
+  - Marine Tityus
+  - Marine Tivadar
+  - Marine Todor
+  - Marine Toxeus
+  - Marine Triton
+  - Marine Trophonius
+  - Marine Turannos
+  - Marine Tydeus
+  - Marine Tylissus
+  - Marine Tymek
+  - Marine Tymon
+  - Marine Tyndareus
+  - Marine Typhoeus
+  - Marine Typhon
+  - Marine Tyrone
+  - Marine Ulysses
+  - Marine Urian
+  - Marine Vasileios
+  - Marine Vasilios
+  - Marine Vasilis
+  - Marine Vasos
+  - Marine VasyItso
+  - Marine Vasyklo
+  - Marine Vasyl
+  - Marine Xanthus
+  - Marine Xeno
+  - Marine Xenophon
+  - Marine Xenos
+  - Marine Xerxes
+  - Marine Xuthus
+  - Marine Xylon
+  - Marine Yanni
+  - Marine Yehor
+  - Marine Yuri
+  - Marine Zale
+  - Marine Zarek
+  - Marine Zelotes
+  - Marine Zeno
+  - Marine Zenobio
+  - Marine Zenon
+  - Marine Zenos
+  - Marine Zephyr
+  - Marine Zero
+  - Marine Zerro
+  - Marine Zetes
+  - Marine Zoltan
+  - Marine Zoltar
+  - Marine Zorba
+  - Marine Zotico
+femaleFirst:
+  - Marine Acacia
+  - Marine Acantha
+  - Marine Aegea
+  - Marine Aeola
+  - Marine Agalia
+  - Marine Alala
+  - Marine Aldora
+  - Marine Aleni
+  - Marine Anatolia
+  - Marine Andrianna
+  - Marine Anemone
+  - Marine Angeline
+  - Marine Aphrodite
+  - Marine Athena
+  - Marine Athenagora
+  - Marine Calantha
+  - Marine Calida
+  - Marine Cassia
+  - Marine Cyra
+  - Marine Damia
+  - Marine Daphne
+  - Marine Deianira
+  - Marine Delia
+  - Marine Dido
+  - Marine Dimitra
+  - Marine Echo
+  - Marine Elma
+  - Marine Elpida
+  - Marine Emalia
+  - Marine Erianthe
+  - Marine Euphemia
+  - Marine Euphenia
+  - Marine Evadne
+  - Marine Evanthe
+  - Marine Fotini
+  - Marine Galatea
+  - Marine Georgia
+  - Marine Halcyone
+  - Marine Helena
+  - Marine Helia
+  - Marine Hera
+  - Marine Hermione
+  - Marine Isadora
+  - Marine Jocasta
+  - Marine Kalidas
+  - Marine Kaligenia
+  - Marine Kalligenia
+  - Marine Kallirrhoe
+  - Marine Kalonice
+  - Marine Kyriakoula
+  - Marine Lalage
+  - Marine Leandra
+  - Marine Leda
+  - Marine Lycoris
+  - Marine Lyris
+  - Marine Marina
+  - Marine Medora
+  - Marine Melantha
+  - Marine Melina
+  - Marine Melissa
+  - Marine Mona
+  - Marine Neola
+  - Marine Neona
+  - Marine Nerissa
+  - Marine Niobe
+  - Marine Olga
+  - Marine Orthia
+  - Marine Pandora
+  - Marine Pangiota
+  - Marine Pelagia
+  - Marine Penelope
+  - Marine Persephone
+  - Marine Philantha
+  - Marine Philomela
+  - Marine Philomena
+  - Marine Philothea
+  - Marine Phoebe
+  - Marine Rhea
+  - Marine Saphhira
+  - Marine Sofronia
+  - Marine Stamata
+  - Marine Stella
+  - Marine Tassia
+  - Marine Tassula
+  - Marine Tessa
+  - Marine Thaddea
+  - Marine Thalassa
+  - Marine Tharsia
+  - Marine Theodosia
+  - Marine Theophilia
+  - Marine Thetis
+  - Marine Timothea
+  - Marine Toula
+  - Marine Xantippe
+  - Marine Yana
+  - Marine Zenaida
+  - Marine Zenobia
+  - Marine Zephyra
+  - Marine Zoe
+maleLast:
+  - Alexopoulos
+  - Anagyros
+  - Anastassios
+  - Andreadis
+  - Andreos
+  - Andriopoulos
+  - Andronikos
+  - Andros
+  - Androuchelli
+  - Androupolos
+  - Androutsos
+  - Angelis
+  - Angelomatis
+  - Angelos
+  - Anistonopoulos
+  - Anninos
+  - Antikatzides
+  - Antonatos
+  - Antonious
+  - Argyra
+  - Athanasiadis
+  - Athanassiadi
+  - Averoff
+  - Axelos
+  - Bakirdzis
+  - Bakogianni
+  - Balanos
+  - Bazignos
+  - Bessarion
+  - Bizos
+  - Borbokis
+  - Botsaris
+  - Boudouris
+  - Bourgani
+  - Capodistria
+  - Carides
+  - Castriota
+  - Catalactus
+  - Chacoliades
+  - Chakiris
+  - Christodoulos
+  - Clerides
+  - Constandouros
+  - Constantinis
+  - Cosmatos
+  - Costanduros
+  - Costi
+  - Cotsadis
+  - Couloumbis
+  - Coulouris
+  - Deligiannis
+  - Deligiorgis
+  - Delivorias
+  - Dellas
+  - Demertzis
+  - Demosthenous
+  - Dimas
+  - Dimitrakos
+  - Dimitriades
+  - Dimitris
+  - Dimotsios
+  - Diomedes
+  - Dontas
+  - Doxiadis
+  - Dukakis
+  - Duvis
+  - Economakis
+  - Economos
+  - Eliades
+  - Elipandas
+  - Ellinas
+  - Farakos
+  - Fettas
+  - Florakis
+  - Galonopoulas
+  - Gatsioudis
+  - Gatzioudis
+  - Gavrielides
+  - Gennadios
+  - Genovelis
+  - Georghios
+  - Giorgiou
+  - Gislenus
+  - Gizikis
+  - Glezos
+  - Gogos
+  - Gonatas
+  - Goulandris
+  - Gounaris
+  - Gousetti
+  - Grivas
+  - Hagiorgis
+  - Hajiyanni
+  - Halara
+  - Harteros
+  - Iakovakis
+  - Iakovos
+  - Iatrides
+  - Ioannidis
+  - Ioannos
+  - Issigonis
+  - Joakimides
+  - Kairis
+  - Kaklamanakis
+  - Kakoulli
+  - Kalergi
+  - Kallabis
+  - Kalvos
+  - Kanaris
+  - Kanellopoulos
+  - Kaphandaris
+  - Karahi
+  - Karaiskakis
+  - Karamanlis
+  - Karatossos
+  - Karoki
+  - Karyoti
+  - Kasomoulis
+  - Katsantonis
+  - Katsaris
+  - Kenteris
+  - Khadjikyriakos
+  - Klaras
+  - Kochalakos
+  - Koffa
+  - Kokkinos
+  - Kokotis
+  - Kolettis
+  - Kollias
+  - Kolokotronis
+  - Kondylis
+  - Kontoghiorghes
+  - Korais
+  - Korkizoglu
+  - Korres
+  - Koryzis
+  - Koskotas
+  - Kostanopoulos
+  - Kostopulos
+  - Kotaridos
+  - Koukodimos
+  - Koukoudimos
+  - Koumoundouros
+  - Koundouriotis
+  - Kourniakis
+  - Kousoulas
+  - Kozani
+  - Kritopoulos
+  - Kyprianos
+  - Kyriacos
+  - Kyriakos
+  - Kyriazis
+  - Lambrakis
+  - Lambrianos
+  - Lambrinos
+  - Lathouris
+  - Lazardis
+  - Leonidis
+  - Lianis
+  - Logotheti
+  - Louca
+  - Louganis
+  - Louvaris
+  - Lyssarides
+  - Maganas
+  - Magos
+  - Maharis
+  - Makarezos
+  - Makrigiannis
+  - Malachias
+  - Maliagros
+  - Mangakis
+  - Marcoullides
+  - Mardas
+  - Marinatos
+  - Markezinis
+  - Markoulides
+  - Markoullides
+  - Marsolais
+  - Martis
+  - Matacena
+  - Mavridos
+  - Mavrogordatos
+  - Mavrokordatos
+  - Mavromikhalis
+  - Mavros
+  - Mavroudis
+  - Maximos
+  - Melas
+  - Meletoglos
+  - Melikis
+  - Melissanides
+  - Mercouri
+  - Merukides
+  - Messimeris
+  - Metaxas
+  - Michaelis
+  - Mikalis
+  - Mikhalakopoulos
+  - Militis
+  - Mitros
+  - Mitsotakis
+  - Monomachus
+  - Moscopolis
+  - Moumoulidis
+  - Muscouri
+  - Mylonas
+  - Nafpliotis
+  - Negris
+  - Niarkhos
+  - Nikolaides
+  - Onassis
+  - Orphanides
+  - Oxinos
+  - Palamas
+  - Pallis
+  - Panagiatopoulos
+  - Panagiopoulos
+  - Panagiotopos
+  - Panagou
+  - Panagoulias
+  - Panagoulis
+  - Panaotis
+  - Panavoglos
+  - Panayi
+  - Panayides
+  - Panayiotopoulos
+  - Panayiotos
+  - Pangalos
+  - Papadakis
+  - Papademetrios
+  - Papadias
+  - Papadopolos
+  - Papadopoulos
+  - Papadoupolos
+  - Papafagos
+  - Papageorgios
+  - Papagos
+  - Papakostas
+  - Papamichael
+  - Papanastasiou
+  - Papandreou
+  - Papasotiriou
+  - Papatamelis
+  - Papathanassios
+  - Papoulias
+  - Pappas
+  - Parastadidis
+  - Pattakos
+  - Pavlakakis
+  - Pentzopoulos
+  - Pesmazoglos
+  - Pheraios
+  - Philipousis
+  - Pierides
+  - Pietris
+  - Pipinelis
+  - Pittakis
+  - Pittakys
+  - Plastiras
+  - Polides
+  - Polycarpous
+  - Polychroniadis
+  - Polychronios
+  - Polydoros
+  - Polymeropoulos
+  - Polymeros
+  - Polyzos
+  - Popotas
+  - Porpurogenitos
+  - Pratkanis
+  - Prevalakis
+  - Primikynos
+  - Psara
+  - Psaros
+  - Psaroulakis
+  - Rallis
+  - Saltsidis
+  - Samos
+  - Sampras
+  - Sanassis
+  - Sarakatsani
+  - Saraphis
+  - Sardzetakis
+  - Sarris
+  - Sartzetakis
+  - Sarus
+  - Savakis
+  - Savalos
+  - Savvides
+  - Sbokos
+  - Senteildis
+  - Siantos
+  - Sicilianos
+  - Simopoulos
+  - Sirtis
+  - Skandalis
+  - Skiotis
+  - Skouloudis
+  - Skouphas
+  - Solomos
+  - Sophoulis
+  - Souvaltzis
+  - Stamanakis
+  - Stasi
+  - Stavrakis
+  - Stavrianakis
+  - Stavrianos
+  - Stephanopoulos
+  - Stoikos
+  - Strapoudopolos
+  - Stratis
+  - Stroubakos
+  - Taliadoros
+  - Tathouris
+  - Tavoularis
+  - Terzin
+  - Theodopoulos
+  - Theodorakis
+  - Theophanous
+  - Theothanos
+  - Theotokis
+  - Touliatos
+  - Tournikiotis
+  - Tragianopoulos
+  - Trikoupis
+  - Tsakolov
+  - Tsaldaris
+  - Tsatsos
+  - Tsavdaridos
+  - Tsiamita
+  - Tsigakos
+  - Tsikouna
+  - Tsiolakoudi
+  - Tsirigolis
+  - Tsirimokos
+  - Tsolakoglos
+  - Tsoni
+  - Tsouderos
+  - Tsougarakis
+  - Tsoutsouvas
+  - Tsyoma
+  - Tzannetakis
+  - Tzivas
+  - Vadeki
+  - Valaoritis
+  - Valvis
+  - Vaphiadis
+  - Vardakastanis
+  - Varvaressos
+  - Vasdeki
+  - Vasdekis
+  - Vasiliou
+  - Vassilides
+  - Vatatzes
+  - Veloukhiotis
+  - Venizelos
+  - Verdanis
+  - Vergopoulos
+  - Vlakhos
+  - Voulgaris
+  - Voulgaropoulos
+  - Vouris
+  - Xanthos
+  - Xenakis
+  - Xydis
+  - Yannopoulos
+  - Yialouris
+  - Ypsilantis
+  - Zafiropoulos
+  - Zaimis
+  - Zakhariadis
+  - Zarikos
+  - Zervakos
+  - Zervas
+  - Zikos
+  - Zindilis
+  - Zisimides
+  - Zographas
+  - Zoitakis
+  - Zolotas

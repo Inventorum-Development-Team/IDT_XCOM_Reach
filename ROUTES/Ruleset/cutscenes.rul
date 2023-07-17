@@ -1,0 +1,81 @@
+
+cutscenes:
+  - delete: winGame
+  - delete: loseGame  
+  - type: winGame
+    winGame: true
+    slideshow:
+      transitionSeconds: 30
+      musicId: GMMARS
+      slides:
+        - imagePath: Resources/Cutscenes/GoodEnding_1.png
+          caption: STR_GOOD_ENDING_1
+          captionSize: [195, 56]
+          captionPos: [5, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GoodEnding_2.png
+          caption: STR_GOOD_ENDING_2
+          captionSize: [232, 64]
+          captionPos: [88, 136]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GoodEnding_3.png
+          caption: STR_GOOD_ENDING_3
+          captionSize: [254, 48]
+          captionPos: [66, 152]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/GoodEnding_4.png
+          caption: STR_GOOD_ENDING_4
+          captionSize: [300, 200]
+          captionPos: [5, 0]
+          captionColor: 244
+  - type: loseGame
+    loseGame: true
+    slideshow:
+      transitionSeconds: 30
+      musicId: GMLOSE
+      slides:
+        - imagePath: Resources/Cutscenes/BadEnding_1.png
+          caption: STR_BAD_ENDING_1
+          captionSize: [190, 104]
+          captionPos: [0, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/BadEnding_2.png
+          caption: STR_BAD_ENDING_2
+          captionSize: [200, 34]
+          captionPos: [32, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/BadEnding_3.png
+          caption: STR_BAD_ENDING_3
+          captionSize: [190, 104]
+          captionPos: [0, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/BadEnding_4.png
+          caption: STR_BAD_ENDING_4
+          captionSize: [190, 104]
+          captionPos: [0, 0]
+          captionColor: 244
+
+extraStrings:
+  - type: es-419
+    strings:
+      STR_BAD_ENDING_1: "Peleamos con todas nuestras fuerzas contra un enemigo imbatible. Peleamos hasta el último soldado, en el último metro de terreno disponible. Hasta el amargo final."
+      STR_BAD_ENDING_2: "Pero no fue suficiente. El Covenant descargó toda su ira irracional contra nuestro planeta, incinerando todo lo que pudo. Nuestra bases, ciudades y pueblos yacen en ruinas... derretidos por el plasma alienígena."
+      STR_BAD_ENDING_3: "La que fuera la última fortaleza de la humanidad no es más que un planeta cuya superficie se asemeja mucho a la descripción literaria del infierno. Pero pagaron caro su atrevimiento. Por cada nave, soldado y civil perdidos, nosotros les arrebatamos cinco más."
+      STR_BAD_ENDING_4: "Ahora sólo nos queda nuestro hogar, la Tierra. Nos levantaremos de las cenizas, impulsados por la flama de la venganza y el rencor. No nos iremos sin dar pelea. ¡Recordaremos Reach y a sus valientes defensores!"
+
+      STR_GOOD_ENDING_1: "Reach ha caído. Nuestros valientes hombres y mujeres dieron todo para prevenir la completa aniquilación de la población civil y muchos consiguieron ser evacuados."
+      STR_GOOD_ENDING_2: "El Covenant vitrificó la superficie de la que una vez fue la colonia más importante de la humanidad. Su superficie es ahora una masa negra, ardiente e inerte."
+      STR_GOOD_ENDING_3: "Pero, pese a esta derrota, la esperanza no ha muerto. Un comando especial abordo del crucero UNSC Pillar of Autumn ha conseguido escapar y se rumorea que ha llegado a una instalación alienígena, como nunca se ha visto."
+      STR_GOOD_ENDING_4: "La humanidad seguirá peleando. Así tengamos que pelear lanzando rocas y usando los puños, nunca nos rendieremos. Terminaremos la lucha, nos cueste lo que nos cueste."
+
+  - type: en-US
+    strings:
+      STR_BAD_ENDING_1: "We fought with all our might against an unbeatable enemy. We fought to the last soldier, on the last meter of available ground. To the bitter end."
+      STR_BAD_ENDING_2: "But it wasn't enough. The Covenant unloaded all their irrational wrath against our planet, incinerating everything they could. Our bases, cities and towns lay in ruins... melted by alien plasma."
+      STR_BAD_ENDING_3: "Once humanity's last stronghold... is nothing more than a planet whose surface closely resembles the literary description of hell. But they paid dearly for their daring. For every ship, soldier and civilian lost, we took five more from them."
+      STR_BAD_ENDING_4: "Now all we have left is our home, Earth. We will rise from the ashes, fueled by the flame of vengeance and spite. We will not go down without a fight - we will remember Reach and its brave defenders!"
+
+      STR_GOOD_ENDING_1: "Reach has fallen. Our brave men and women gave their all to prevent the complete annihilation of the civilian population and many managed to evacuate."
+      STR_GOOD_ENDING_2: "The Covenant glassed the surface of what was once humanity's most important colony. Its surface is now a black, smoldering, inert mass."
+      STR_GOOD_ENDING_3: "But despite this defeat, hope is not dead. A special commando aboard the UNSC cruiser Pillar of Autumn has managed to escape and is rumored to have reached an alien facility, the likes of which has never been seen before."
+      STR_GOOD_ENDING_4: "Mankind will keep fighting. Even if we have to fight throwing rocks and using our fists, we will never give up. We will finish the fight, whatever it costs us."

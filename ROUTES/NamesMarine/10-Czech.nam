@@ -1,0 +1,467 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Marine Jan
+  - Marine Tomas
+  - Marine Zbysek
+  - Marine Zdenik
+  - Marine Michal
+  - Marine Martin
+  - Marine Jioi
+  - Marine Ivo
+  - Marine Pavel
+  - Marine Karel
+  - Marine Frantisek
+  - Marine Ctirad
+  - Marine Zbynik
+  - Marine Vladimir
+  - Marine Jaroslav
+  - Marine Petr
+  - Marine Josef
+  - Marine Vaclav
+  - Marine Miroslav
+  - Marine Mila
+  - Marine Lukas
+  - Marine David
+  - Marine Jakub
+  - Marine Stanislav
+  - Marine Roman
+  - Marine Ondoej
+  - Marine Radek
+  - Marine Antonin
+  - Marine Jozef
+  - Marine Emil
+  - Marine Filip
+  - Marine Ales  
+  - Marine Alexandr
+  - Marine Alexej
+  - Marine Ambroz	
+  - Marine Andrej
+  - Marine Arnost
+  - Marine Artur
+  - Marine Augustyn
+  - Marine Bartolomej	
+  - Marine Bedrich
+  - Marine Benedikt
+  - Marine Bernard
+  - Marine Blahoslav
+  - Marine Blazej
+  - Marine Bohdan
+  - Marine Bohumil
+  - Marine Bohumir	
+  - Marine Bohuslav
+  - Marine Boleslav
+  - Marine Bonifac
+  - Marine Borek
+  - Marine Boris
+  - Marine Borivoj
+  - Marine Bretislav
+  - Marine Bronislav
+  - Marine Bruno
+  - Marine Ctibor
+  - Marine Cenek
+  - Marine Cestmir	
+  - Marine Dalibor
+  - Marine Dalimil
+  - Marine Dobroslav
+  - Marine Dominik
+  - Marine Drahoslav
+  - Marine Dusan
+  - Marine Eduard
+  - Marine Erik
+  - Marine Evzen
+  - Marine Felix
+  - Marine Ferdinand
+  - Marine Gustav
+  - Marine Hanus	
+  - Marine Havel
+  - Marine Herman
+  - Marine Hubert
+  - Marine Hugo
+  - Marine Hynek
+  - Marine Ignac
+  - Marine Igor
+  - Marine Ilja
+  - Marine Ivan
+  - Marine Jachym
+  - Marine Jarmil
+  - Marine Jaromir
+  - Marine Jeronym
+  - Marine Jindrich
+  - Marine Jiri	
+  - Marine Jonas	
+  - Marine Julius
+  - Marine Kamil
+  - Marine Kazimir
+  - Marine Klement
+  - Marine Kristian
+  - Marine Krystof
+  - Marine Kvetoslav
+  - Marine Kvido
+  - Marine Ladislav
+  - Marine Leopold
+  - Marine Leos	
+  - Marine Libor
+  - Marine Lubomir
+  - Marine Lubor
+  - Marine Lubos	
+  - Marine Ludek
+  - Marine Ludvik
+  - Marine Lukas	
+  - Marine Lumir
+  - Marine Marcel
+  - Marine Marek
+  - Marine Marian
+  - Marine Matej	
+  - Marine Matous	
+  - Marine Maxmilian	
+  - Marine Medard
+  - Marine Mikulas	
+  - Marine Milan
+  - Marine Milos	
+  - Marine Miloslav
+  - Marine Mojmir
+  - Marine Oldrich
+  - Marine Oleg
+  - Marine Oliver
+  - Marine Ondrej	
+  - Marine Oskar
+  - Marine Otakar
+  - Marine Otmar
+  - Marine Oto
+  - Marine Pankrac	
+  - Marine Patrik
+  - Marine Pravoslav
+  - Marine Prokop
+  - Marine Premysl
+  - Marine Radim
+  - Marine Radomir
+  - Marine Radoslav
+  - Marine Radovan
+  - Marine Rostislav
+  - Marine Rudolf
+  - Marine Rehor	
+  - Marine Samuel
+  - Marine Servac
+  - Marine Silvestr
+  - Marine Slavomir
+  - Marine Sobeslav
+  - Marine Svatopluk
+  - Marine Svatoslav
+  - Marine Simon
+  - Marine Stefan
+  - Marine Stepan	
+  - Marine Tadeas	
+  - Marine Teodor
+  - Marine Tibor
+  - Marine Tomas	
+  - Marine Valdemar
+  - Marine Valentyn
+  - Marine Vavrinec
+  - Marine Venceslav
+  - Marine Vendelin
+  - Marine Veroslav
+  - Marine Viktor
+  - Marine Vilem
+  - Marine Vincenc
+  - Marine Vit
+  - Marine Vitezslav
+  - Marine Vladan
+  - Marine Vladislav
+  - Marine Vlastimil
+  - Marine Vlastislav
+  - Marine Vojtech
+  - Marine Vratislav
+  - Marine Zbynek
+  - Marine Zdenek
+  - Marine Zikmund
+femaleFirst:
+  - Marine Anna
+  - Marine Marie
+  - Marine Jana
+  - Marine Iva
+  - Marine Irina
+  - Marine Ludmila
+  - Marine Pavla
+  - Marine Kateoina
+  - Marine Simona
+  - Marine Lucie
+  - Marine Lenka
+  - Marine Alena
+  - Marine Gabina
+  - Marine Jioina
+  - Marine Michaela
+  - Marine Ivana
+  - Marine Monika
+  - Marine Veronika
+  - Marine Jarmila
+  - Marine Zdeoka
+  - Marine Jitka
+  - Marine Helena
+  - Marine Petra
+  - Marine Eva
+  - Marine Hana
+  - Marine Vira
+  - Marine Tereza
+  - Marine Adela
+  - Marine Adele
+  - Marine Adriena
+  - Marine Agata
+  - Marine Alica
+  - Marine Alzbeta
+  - Marine Ana
+  - Marine Ancika
+  - Marine Andel
+  - Marine Andela
+  - Marine Aneta
+  - Marine Anezka
+  - Marine Anichka
+  - Marine Antoinetta
+  - Marine Antonie
+  - Marine Bara
+  - Marine Barbora
+  - Marine Barcinka
+  - Marine Barunka
+  - Marine Baruska
+  - Marine Blanka
+  - Marine Bohdana
+  - Marine Bohumila
+  - Marine Bohuslava
+  - Marine Bora
+  - Marine Bozena
+  - Marine Branislava
+  - Marine Dagmar
+  - Marine Daleka
+  - Marine Dalibora
+  - Marine Dominika
+  - Marine Drahomira
+  - Marine Drahoslava
+  - Marine Dusa
+  - Marine Dusana
+  - Marine Dusanka
+  - Marine Duska
+  - Marine Edita
+  - Marine Eliska
+  - Marine Elita
+  - Marine Emilia
+  - Marine Frantiska
+  - Marine Hedvika
+  - Marine Irena
+  - Marine Izabela
+  - Marine Jaromila
+  - Marine Jaroslava
+  - Marine Jindriska
+  - Marine Jirina
+  - Marine Johana
+  - Marine Jolana
+  - Marine Josefa
+  - Marine Judita
+  - Marine Julia
+  - Marine Kamila
+  - Marine Karina
+  - Marine Karolina
+  - Marine Katarina
+  - Marine Katerina
+  - Marine Katica
+  - Marine Kristyna
+  - Marine Kunigunde
+  - Marine Kveta
+  - Marine Ladislava
+  - Marine Leona
+  - Marine Libena
+  - Marine Libuse
+  - Marine Lida
+  - Marine Lidmila
+  - Marine Lubomira
+  - Marine Lucina
+  - Marine Lydie
+  - Marine Madlenka
+  - Marine Magdalena
+  - Marine Maria
+  - Marine Marketa
+  - Marine Matylda
+  - Marine Milada
+  - Marine Milana
+  - Marine Milena
+  - Marine Miloslava
+  - Marine Nada
+  - Marine Nadezda
+  - Marine Otilie
+  - Marine Pavlina
+  - Marine Radka
+  - Marine Radomila
+  - Marine Radomira
+  - Marine Radoslava
+  - Marine Ruzena
+  - Marine Sara
+  - Marine Sobeska
+  - Marine Sobeslava
+  - Marine Stanislava
+  - Marine Stefanija
+  - Marine Stepanka
+  - Marine Svetla
+  - Marine Svetlana
+  - Marine Tatana
+  - Marine Ursula
+  - Marine Vaclava
+  - Marine Vendula
+  - Marine Vera
+  - Marine Vladimira
+  - Marine Vlasta
+  - Marine Zdenka
+  - Marine Zofie
+  - Marine Zoja
+  - Marine Zuzana
+maleLast:
+  - Bartos
+  - Benda
+  - Benes
+  - Beran
+  - Blaha
+  - Blazek
+  - Broz
+  - Bures
+  - Cech
+  - Cermak
+  - Cerny
+  - Cervenka
+  - Cizek
+  - Dolezal
+  - Dusek
+  - Dvorak
+  - Fiala
+  - Fiser
+  - Hajek
+  - Havlicek
+  - Hlavacek
+  - Hoffmann
+  - Holub
+  - Horak
+  - Hruby
+  - Hruska
+  - Janda
+  - Janecek
+  - Janousek
+  - Jelinek
+  - Jezek
+  - Kadlec
+  - Kaspar
+  - Klaus
+  - Klima
+  - Kohout
+  - Kolar
+  - Kopecky
+  - Kovar
+  - Kovarik
+  - Kral
+  - Kratochvil
+  - Kraus
+  - Krejci
+  - Kriz
+  - Kubis
+  - Kucera
+  - Machacek
+  - Maly
+  - Mares
+  - Martinek
+  - Masek
+  - Matejka
+  - Matousek
+  - Moravec
+  - Mueller
+  - Musil
+  - Navratil
+  - Nemec
+  - Nemecek
+  - Neumann
+  - Novak
+  - Novotny
+  - Pesek
+  - Pokorny
+  - Polak
+  - Pospisil
+  - Prochazka
+  - Richter
+  - Riha
+  - Ruzicka
+  - Sedlacek
+  - Sichy
+  - Simek
+  - Skala
+  - Slavik
+  - Smid
+  - Soucek
+  - Soukup
+  - Stanek
+  - Stastny
+  - Stepanek
+  - Strnad
+  - Sulc
+  - Svoboda
+  - Sykora
+  - Tuma
+  - Urban
+  - Vacek
+  - Valenta
+  - Vanek
+  - Vavra
+  - Vesely
+  - Vlcek
+  - Zelenka
+  - Zeman
+  - Stransky
+  - Tyeka
+  - Dobrynsky
+  - Krajan
+  - Marny
+  - Nimy
+  - Neeesal
+  - Rosa
+  - Kvitoslav
+  - Nadinicky
+  - Doevak
+  - Eerny
+  - Dvooak
+  - Ruzieka
+  - Sedlaeek
+  - Machaeek
+  - Carda
+  - Kueera
+femaleLast:
+  - Zemanova
+  - Kolaoova
+  - Krejei
+  - Eermakova
+  - Navratilova
+  - Komyrova
+  - Urbanova
+  - Vaokova
+  - Koizna
+  - Kratochvilova
+  - Vlazkova
+  - Trojska
+  - Petrova
+  - Romanova
+  - Kovaoova
+  - Bartosova
+  - Musilova
+  - Polakova
+  - Koneena
+  - Mala
+  - Tkadlecova
+  - Zhdanovich
+  - Soukupova
+  - Stastna
+  - Vavrova
+  - Oihova
+  - Ticha
+  - Matusova
+  - Maskova
+  - Hruba
+  - Stejskalova
+  - Tumova
+  - Zakova
+  - Brozova

@@ -1,0 +1,80 @@
+﻿lookWeights:
+  - 8
+  - 20
+  - 10
+  - 1
+maleFirst:
+  - Trooper Ali
+  - Trooper Shayan
+  - Trooper Mohammad
+  - Trooper Alireza
+  - Trooper Mahdi
+  - Trooper Mohsen
+  - Trooper Pooria
+  - Trooper Ehsan
+  - Trooper Hamid
+  - Trooper Mojtaba
+  - Trooper Iman
+  - Trooper Sajad
+  - Trooper Siavash
+  - Trooper Mobin
+  - Trooper Sina
+  - Trooper Erfan
+  - Trooper Mehdi
+  - Trooper Reza
+  - Trooper Masoud
+  - Trooper Edris
+  - Trooper Yaser
+  - Trooper Arman
+  - Trooper Moein
+  - Trooper Kamran
+  - Trooper Ashkan
+  - Trooper Hossein
+  - Trooper Masood
+  - Trooper Bale
+femaleFirst:
+  - Trooper Maryam
+  - Trooper Zahra
+  - Trooper Fatemeh
+  - Trooper Negin
+  - Trooper Sara
+  - Trooper Shaghayegh
+  - Trooper Mary
+  - Trooper Niloofar
+  - Trooper Mohadeseh
+  - Trooper Mina
+  - Trooper Nasrin
+  - Trooper Sisily
+  - Trooper Saba
+  - Trooper Fatima
+  - Trooper Raheleh
+  - Trooper Maki
+  - Trooper Ada
+  - Trooper Layla
+  - Trooper Mehmaz
+  - Trooper Niyusha
+  - Trooper Mahdie
+  - Trooper Azin
+  - Trooper Neda
+  - Trooper Gouya
+  - Trooper Sarina
+  - Trooper Sahar
+  - Trooper Qazal
+maleLast:
+  - Mohammadi
+  - Goudarzi
+  - Zare
+  - Salari
+  - Hosseini
+  - Ahmadi
+  - Rezaei
+  - Saidi
+  - Hashemi
+  - Askari
+  - Râdfaer
+  - Dâdfaer
+  - Habibi
+  - Rahimi
+  - Hatami
+  - Soleymaini
+  - Bagheri

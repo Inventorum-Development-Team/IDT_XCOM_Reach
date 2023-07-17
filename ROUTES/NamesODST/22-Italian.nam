@@ -1,0 +1,110 @@
+lookWeights:
+  - 47
+  - 50
+  - 2
+  - 1
+maleFirst:
+  - ODST Francesco
+  - ODST Alessandro
+  - ODST Andrea
+  - ODST Lorenzo
+  - ODST Matteo
+  - ODST Mattia
+  - ODST Gabriele
+  - ODST Riccardo
+  - ODST Davide
+  - ODST Leonardo
+  - ODST Federico
+  - ODST Luca
+  - ODST Marco
+  - ODST Giuseppe
+  - ODST Tommaso
+  - ODST Antonio
+  - ODST Simone
+  - ODST Giovanni
+  - ODST Samuele
+  - ODST Christian
+  - ODST Alessio
+  - ODST Nicola
+  - ODST Diego
+  - ODST Pietro
+  - ODST Filippo
+  - ODST Edoardo
+  - ODST Cristian
+  - ODST Daniele
+  - ODST Emanuele
+  - ODST Michele
+  - ODST Gennaro
+  - ODST Vincenzo
+  - ODST Pasquale
+  - ODST Carmine
+  - ODST Carmelo
+  - ODST Paolo
+femaleFirst:
+  - ODST Sofia
+  - ODST Giulia
+  - ODST Sara
+  - ODST Martina
+  - ODST Giorgia
+  - ODST Chiara
+  - ODST Aurora
+  - ODST Alice
+  - ODST Emma
+  - ODST Alessia
+  - ODST Anna
+  - ODST Francesca
+  - ODST Noemi
+  - ODST Elisa
+  - ODST Matilde
+  - ODST Giada
+  - ODST Gaia
+  - ODST Greta
+  - ODST Elena
+  - ODST Beatrice
+  - ODST Viola
+  - ODST Rebecca
+  - ODST Nicole
+  - ODST Arianna
+  - ODST Ginevra
+  - ODST Vittoria
+  - ODST Asia
+  - ODST Ilaria
+  - ODST Federica
+  - ODST Marta
+maleLast:
+  - Rossi
+  - Russo
+  - Ferrari
+  - Esposito
+  - Bianchi
+  - Romano
+  - Colombo
+  - Ricci
+  - Marino
+  - Greco
+  - Bruno
+  - Gallo
+  - Conti
+  - De Luca
+  - Mancini
+  - Costa
+  - Giordano
+  - Rizzo
+  - Lombardi
+  - Moretti
+  - Barbieri
+  - Fontana
+  - Santoro
+  - Mariani
+  - Rinaldi
+  - Caruso
+  - Ferrara
+  - Galli
+  - Martini
+  - Leone
+  - Abate
+  - De Simone
+  - Albanese
+  - Genovese
+  - Sansone
+  - Zanon

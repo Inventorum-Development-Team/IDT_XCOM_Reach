@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - Marine Abhijay
+  - Marine Adil
+  - Marine Chandresh
+  - Marine Dev
+  - Marine Dinesh
+  - Marine Govinda
+  - Marine Jaideep
+  - Marine Kanak
+  - Marine Mahesh
+  - Marine Neelam
+  - Marine Om
+  - Marine Pallav
+  - Marine Parmesh
+  - Marine Rajesh
+  - Marine Ranjit
+  - Marine Samir
+  - Marine Sanjiv
+  - Marine Sudeep
+  - Marine Vihaan
+  - Marine Yogendra
+  - Marine Sachin
+  - Marine Rahul
+  - Marine Anil
+  - Marine Virender
+  - Marine Kapil
+  - Marine Sourav
+  - Marine Harbhajan
+femaleFirst:
+  - Marine Ajita
+  - Marine Amma
+  - Marine Avinashi
+  - Marine Deepti
+  - Marine Gulab
+  - Marine Hina
+  - Marine Indira
+  - Marine Jasweer
+  - Marine Kalinda
+  - Marine Keva
+  - Marine Madhuri
+  - Marine Meera
+  - Marine Neela
+  - Marine Parvati
+  - Marine Priti
+  - Marine Ranhita
+  - Marine Roshan
+  - Marine Savitri
+  - Marine Sitesh
+  - Marine Ushma
+  - Marine Vritika
+  - Marine Zahra
+maleLast:
+  - Sharma
+  - Verma
+  - Chowdhury
+  - Singh
+  - Misra
+  - Kumar
+  - Gupta
+  - Malik
+  - Chopra
+  - Prasad
+  - Acharya
+  - Agarwal
+  - Malhotra
+  - Jain
+  - Saini
+  - Khan
+  - Shah
+  - Narayan
+  - Mistry
+  - Joshi
+  - Goyal
+  - Roy
+  - Tendulkar
+  - Dravid
+  - Kumble
+  - Sehwag
+  - Dev
+  - Ganguly
