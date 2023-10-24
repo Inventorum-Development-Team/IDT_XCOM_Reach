@@ -722,7 +722,7 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    maxRange: 12
+    maxRange: 15
     aimRange: 5
     snapRange: 5
     minRange: 1
@@ -738,7 +738,7 @@ items:
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 11
-    power: 20
+    power: 35
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
@@ -757,7 +757,7 @@ items:
 
 
   - type: STR_M90_SHOTGUN 
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.2
     costBuy: 1200
     costSell: 1050
@@ -769,8 +769,8 @@ items:
     reloadSound: [131]
     compatibleAmmo:
       - STR_M90_8GAUGE_SHELLS
-    accuracySnap: 30
-    accuracyAimed: 50
+    accuracySnap: 45
+    accuracyAimed: 60
     tuSnap: 10
     tuAimed: 15
     battleType: 1
@@ -783,7 +783,7 @@ items:
     minRange: 1
     dropoff: 8
   - type: STR_M90_8GAUGE_SHELLS         #M90 Shells
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.1
     costBuy: 60
     costSell: 48
@@ -793,7 +793,7 @@ items:
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     bulletSprite: 11
-    power: 35
+    power: 20
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
