@@ -192,7 +192,7 @@ ufopaedia:
   - id: STR_M45_SHOTGUN
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    #listOrder: 2406
+    listOrder: 2406
     text: STR_M45_SHOTGUN_UFOPEDIA
   - id: STR_M90_SHOTGUN
     section: STR_WEAPONS_AND_EQUIPMENT

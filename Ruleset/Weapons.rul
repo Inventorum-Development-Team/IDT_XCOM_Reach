@@ -908,7 +908,7 @@ items:
     costThrow:
       energy: 12
     battleType: 1
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     armor: 35
     twoHanded: true
