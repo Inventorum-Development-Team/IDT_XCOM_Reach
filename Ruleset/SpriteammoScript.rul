@@ -60,6 +60,9 @@
 # Example of a mod where the script is used: https://github.com/Inventorum-Development-Team/CTO
 
 items:
+  - type: STR_MA5K # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
   - type: STR_MA5B # ignoreDuplicate
     tags:
       AmmoReSprite: 3
