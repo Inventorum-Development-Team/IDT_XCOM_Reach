@@ -1,0 +1,81 @@
+﻿lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Trooper Adam
+  - Trooper Alexander
+  - Trooper Alexis
+  - Trooper Benjamin
+  - Trooper Carter
+  - Trooper Daniel
+  - Trooper Ethan
+  - Trooper Felix
+  - Trooper Gabriel
+  - Trooper Jack
+  - Trooper Jaxon
+  - Trooper Jacob
+  - Trooper Jayden
+  - Trooper James
+  - Trooper Liam
+  - Trooper Logan
+  - Trooper Lucas
+  - Trooper Mason
+  - Trooper Nathan
+  - Trooper Noah
+  - Trooper Oliver
+  - Trooper Owen
+  - Trooper Ryan
+  - Trooper Samuel
+  - Trooper William
+  - Trooper Zachary
+femaleFirst:
+  - Trooper Abigail
+  - Trooper Alice
+  - Trooper Amelia
+  - Trooper Ava
+  - Trooper Avery
+  - Trooper Brooklyn
+  - Trooper Béatrice
+  - Trooper Charlotte
+  - Trooper Elizabeth
+  - Trooper Ella
+  - Trooper Florence
+  - Trooper Grace
+  - Trooper Hailey
+  - Trooper Hannah
+  - Trooper Isabella
+  - Trooper Lea
+  - Trooper Lily
+  - Trooper Madison
+  - Trooper Mila
+  - Trooper Rosalie
+  - Trooper Chloe
+  - Trooper Emily
+  - Trooper Emma
+  - Trooper Maya
+  - Trooper Mia
+  - Trooper Olivia
+  - Trooper Sarah
+  - Trooper Sophia
+  - Trooper Victoria
+  - Trooper Zoe
+maleLast:
+  - Anderson
+  - Brown
+  - Chan
+  - Gagnon
+  - Hall
+  - Hill
+  - Kim
+  - Lam
+  - Lee
+  - Martin
+  - Morris
+  - Murphy
+  - Roy
+  - Smith
+  - Tremblay
+  - Wilson
+  - Wong

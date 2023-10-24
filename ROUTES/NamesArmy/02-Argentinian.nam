@@ -1,0 +1,59 @@
+﻿lookWeights:
+  - 10
+  - 30
+  - 30
+  - 30
+maleFirst:
+  - Trooper Bautista
+  - Trooper Benjamin
+  - Trooper Felipe
+  - Trooper Juan
+  - Trooper Joaquin
+  - Trooper Mateo
+  - Trooper Santiago
+  - Trooper Santino
+  - Trooper Thiago
+  - Trooper Tomas
+femaleFirst:
+  - Trooper Alma
+  - Trooper Catalina
+  - Trooper Emma
+  - Trooper Isabella
+  - Trooper Maria
+  - Trooper Martina
+  - Trooper Mia
+  - Trooper Sofia
+  - Trooper Valentina
+  - Trooper Zoe
+maleLast:
+  - Alonso
+  - Alvarez
+  - Blanco
+  - Castro
+  - Diaz
+  - Dominguez
+  - Fernandez
+  - Garcia
+  - Gimenez
+  - Gomez
+  - Gonzalez
+  - Gutierrez
+  - Iglesias
+  - Lopez
+  - Martin
+  - Martinez
+  - Nuñez
+  - Perez
+  - Ramirez
+  - Ramos
+  - Rodriguez
+  - Romero
+  - Rossi
+  - Ruiz
+  - Sanchez
+  - Silva
+  - Sosa
+  - Suarez
+  - Torres
+  - Varela
+  - Vazquez

@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - Trooper Abhijay
+  - Trooper Adil
+  - Trooper Chandresh
+  - Trooper Dev
+  - Trooper Dinesh
+  - Trooper Govinda
+  - Trooper Jaideep
+  - Trooper Kanak
+  - Trooper Mahesh
+  - Trooper Neelam
+  - Trooper Om
+  - Trooper Pallav
+  - Trooper Parmesh
+  - Trooper Rajesh
+  - Trooper Ranjit
+  - Trooper Samir
+  - Trooper Sanjiv
+  - Trooper Sudeep
+  - Trooper Vihaan
+  - Trooper Yogendra
+  - Trooper Sachin
+  - Trooper Rahul
+  - Trooper Anil
+  - Trooper Virender
+  - Trooper Kapil
+  - Trooper Sourav
+  - Trooper Harbhajan
+femaleFirst:
+  - Trooper Ajita
+  - Trooper Amma
+  - Trooper Avinashi
+  - Trooper Deepti
+  - Trooper Gulab
+  - Trooper Hina
+  - Trooper Indira
+  - Trooper Jasweer
+  - Trooper Kalinda
+  - Trooper Keva
+  - Trooper Madhuri
+  - Trooper Meera
+  - Trooper Neela
+  - Trooper Parvati
+  - Trooper Priti
+  - Trooper Ranhita
+  - Trooper Roshan
+  - Trooper Savitri
+  - Trooper Sitesh
+  - Trooper Ushma
+  - Trooper Vritika
+  - Trooper Zahra
+maleLast:
+  - Sharma
+  - Verma
+  - Chowdhury
+  - Singh
+  - Misra
+  - Kumar
+  - Gupta
+  - Malik
+  - Chopra
+  - Prasad
+  - Acharya
+  - Agarwal
+  - Malhotra
+  - Jain
+  - Saini
+  - Khan
+  - Shah
+  - Narayan
+  - Mistry
+  - Joshi
+  - Goyal
+  - Roy
+  - Tendulkar
+  - Dravid
+  - Kumble
+  - Sehwag
+  - Dev
+  - Ganguly

@@ -1,0 +1,128 @@
+lookWeights:
+  - 49
+  - 50
+  - 1
+  - 0
+maleFirst:
+  - ODST Adrian
+  - ODST Alexandru
+  - ODST Andrei
+  - ODST Bogdan
+  - ODST Catalin
+  - ODST Claudiu
+  - ODST Constantin
+  - ODST Cornel
+  - ODST Cosmin
+  - ODST Daniel
+  - ODST Dragos
+  - ODST Dumitru
+  - ODST Emil
+  - ODST Eugen
+  - ODST Florin
+  - ODST Gabriel
+  - ODST George
+  - ODST Gheorghe
+  - ODST Ilie
+  - ODST Ion
+  - ODST Liviu
+  - ODST Lucian
+  - ODST Marian
+  - ODST Marius
+  - ODST Mihai
+  - ODST Nicu
+  - ODST Octavian
+  - ODST Ovidiu
+  - ODST Petre
+  - ODST Radu
+  - ODST Robert
+  - ODST Sergiu
+  - ODST Silviu
+  - ODST Sorin
+  - ODST Stefan
+  - ODST Tiberiu
+  - ODST Tudor
+  - ODST Vasile
+  - ODST Viorel
+  - ODST Vlad
+femaleFirst:
+  - ODST Adelina
+  - ODST Alexandra
+  - ODST Alina
+  - ODST Ana
+  - ODST Andreea
+  - ODST Angela
+  - ODST Carmen
+  - ODST Catalina
+  - ODST Claudia
+  - ODST Corina
+  - ODST Dana
+  - ODST Daniela
+  - ODST Doina
+  - ODST Elena
+  - ODST Elisabeta
+  - ODST Felicia
+  - ODST Florentina
+  - ODST Gabriela
+  - ODST Georgiana
+  - ODST Gina
+  - ODST Ileana
+  - ODST Ioana
+  - ODST Irina
+  - ODST Iulia
+  - ODST Laura
+  - ODST Magda
+  - ODST Maria
+  - ODST Mariana
+  - ODST Mihaela
+  - ODST Mirela
+  - ODST Monica
+  - ODST Nadia
+  - ODST Nicoleta
+  - ODST Oana
+  - ODST Rodica
+  - ODST Roxana
+  - ODST Simona
+  - ODST Stefania
+  - ODST Violeta
+  - ODST Viorica
+maleLast:
+  - Anton
+  - Banica
+  - Barbu
+  - Cojocaru
+  - Constantin
+  - Cristea
+  - Dobre
+  - Dragomir
+  - Dumitru
+  - Ene
+  - Florea
+  - Georgescu
+  - Iancu
+  - Ilie
+  - Ionescu
+  - Iordan
+  - Lazar
+  - Luca
+  - ODSTscu
+  - Mihalcea
+  - Munteanu
+  - Nastase
+  - Nicolae
+  - Nistor
+  - Olaru
+  - Olteanu
+  - Parvu
+  - Petre
+  - Popescu
+  - Preda
+  - Radu
+  - Sabau
+  - Savu
+  - Serban
+  - Stanciu
+  - Stanescu
+  - Tanase
+  - Tudor
+  - Ungureanu
+  - Voinea

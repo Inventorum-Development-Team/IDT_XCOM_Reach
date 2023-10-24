@@ -1,3 +1,14 @@
+23-Oct-2023 v0.3
+Changes made: 
+* Updated to OXCE v7.9.8
+* Added UNSC weapons, by Kretus & efrenespartano
+- SPARTAN/ODST: M6/V Spartan Laser, M247H Machine Gun, MA5K Carbine
+- Marine Corps: M45 Tactical Shotgun, M41 SPNKr Rocket Launcher
+- Army: M90 CAWS Shotgun, M319 Grenade Launcher, H-165 Target Locator
+* UNSC weapons now have a faster hitAnimation, instead of not having any
+* Balanced enemy number of enemies in Ship Assaults, added doors to UNSC spawn points
+* Reduced cost of SPARTAN-IIIs, from 5,000,000 to 1,000,000, slightly buffed HPs
+
 8-Nov-2022 v0.2
 Changes made:
 *Updated to OXCE v7.7.3

@@ -1,0 +1,206 @@
+﻿lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - ODST Adam
+  - ODST Andrzej
+  - ODST Bogdan
+  - ODST Dariusz
+  - ODST Grzegorz
+  - ODST Henryk
+  - ODST Jacek
+  - ODST Jan
+  - ODST Janusz
+  - ODST Jerzy
+  - ODST Józef
+  - ODST Kazimierz
+  - ODST Krzysztof
+  - ODST Łukasz
+  - ODST Maciej
+  - ODST Maksymilian
+  - ODST Marcin
+  - ODST Marek
+  - ODST Marian
+  - ODST Mariusz
+  - ODST Mateusz
+  - ODST Michał
+  - ODST Mirosław
+  - ODST Paweł
+  - ODST Piotr
+  - ODST Rafał
+  - ODST Robert
+  - ODST Ryszard
+  - ODST Stanisław
+  - ODST Stefan
+  - ODST Tadeusz
+  - ODST Tomasz
+  - ODST Wojciech
+  - ODST Zbigniew
+femaleFirst:
+  - ODST Agnieszka
+  - ODST Aleksandra
+  - ODST Anna
+  - ODST Barbara
+  - ODST Bernadeta
+  - ODST Beata
+  - ODST Elżbieta
+  - ODST Danuta
+  - ODST Dorota
+  - ODST Ewa
+  - ODST Grażyna
+  - ODST Halina
+  - ODST Helena
+  - ODST Irena
+  - ODST Iwona
+  - ODST Jadwiga
+  - ODST Janina
+  - ODST Joanna
+  - ODST Jolanta
+  - ODST Karolina
+  - ODST Katarzyna
+  - ODST Krystyna
+  - ODST Magdalena
+  - ODST Małgorzata
+  - ODST Maria
+  - ODST Marianna
+  - ODST Marta
+  - ODST Monika
+  - ODST Stanisława
+  - ODST Teresa
+  - ODST Zofia
+maleLast:
+  - Adamczyk
+  - Baron
+  - Białoń
+  - Brzechwa
+  - Budziński
+  - Curuś
+  - Dąbrowski
+  - Dudek
+  - Dudziak
+  - Figura
+  - Gocyła
+  - Grabowski
+  - Indeka
+  - Jabłoński
+  - Janik
+  - Jankowski
+  - Jarczok
+  - Kaczmarek
+  - Kaminski
+  - Kobza
+  - Kominek
+  - Kopeć
+  - Kossak
+  - Kot
+  - Kowalczyk
+  - Kowalski
+  - Kozłowski
+  - Krawczyk
+  - Król
+  - Kwiatkowski
+  - Lalurny
+  - Lewandowski
+  - Londzin
+  - Mazur
+  - Michalski
+  - Milik
+  - Mleczko
+  - Nowak
+  - Nowakowski
+  - Nowicki
+  - Pawłowski
+  - Piotrowski
+  - Płatek
+  - Podkański
+  - Poradowski
+  - Pragłowski
+  - Radwan
+  - Sikora
+  - Solański
+  - Stachurski
+  - Szczerba
+  - Szczypka
+  - Szymański
+  - Światłoch
+  - Świerkot
+  - Tumidajewicz
+  - Wajdeczko
+  - Wieczorek
+  - Wiśniewski
+  - Wojciechowski
+  - Woźniak
+  - Wójcik
+  - Wrona
+  - Wyrostek
+  - Zając
+  - Zieliński
+femaleLast:
+  - Adamczyk
+  - Baron
+  - Białoń
+  - Brzechwa
+  - Budzińska
+  - Curuś
+  - Dąbrowska
+  - Dudek
+  - Dudziak
+  - Figura
+  - Gocyła
+  - Grabowska
+  - Indeka
+  - Jabłońska
+  - Janik
+  - Jankowska
+  - Jarczok
+  - Kaczmarek
+  - Kamińska
+  - Kobza
+  - Kominek
+  - Kopeć
+  - Kossak
+  - Kot
+  - Kowalczyk
+  - Kowalska
+  - Kozłowska
+  - Krawczyk
+  - Król
+  - Kwiatkowska
+  - Lalurny
+  - Lewandowska
+  - Londzin
+  - Mazur
+  - Michalska
+  - Milik
+  - Mleczko
+  - Nowak
+  - Nowakowska
+  - Nowicka
+  - Pawłowska
+  - Piotrowska
+  - Płatek
+  - Podkańska
+  - Poradowska
+  - Pragłowska
+  - Radwan
+  - Sikora
+  - Solańska
+  - Stachurski
+  - Szczerba
+  - Szczypka
+  - Szymańska
+  - Światłoch
+  - Świerkot
+  - Tumidajewicz
+  - Wajdeczko
+  - Wieczorek
+  - Wiśniewska
+  - Wojciechowska
+  - Woźniak
+  - Wójcik
+  - Wrona
+  - Wyrostek
+  - Zając
+  - Zielińska

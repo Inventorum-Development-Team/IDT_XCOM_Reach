@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - Trooper Aaro
+  - Trooper Aatu
+  - Trooper Akseli
+  - Trooper Aleksi
+  - Trooper Antti
+  - Trooper Arttu
+  - Trooper Atte
+  - Trooper Eemeli
+  - Trooper Eero
+  - Trooper Eino
+  - Trooper Esko
+  - Trooper Elias
+  - Trooper Erkki
+  - Trooper Heikki
+  - Trooper Henrikki
+  - Trooper Ilmari
+  - Trooper Jaakko
+  - Trooper Jere
+  - Trooper Jesse
+  - Trooper Joel
+  - Trooper Joona
+  - Trooper Juhani
+  - Trooper Juho
+  - Trooper Julius
+  - Trooper Jussi
+  - Trooper Juuso
+  - Trooper Kalle
+  - Trooper Konsta
+  - Trooper Lauri
+  - Trooper Leevi
+  - Trooper Markku
+  - Trooper Matias
+  - Trooper Matti
+  - Trooper Mika
+  - Trooper Mikael
+  - Trooper Mikko
+  - Trooper Niilo
+  - Trooper Niklas
+  - Trooper Niko
+  - Trooper Onni
+  - Trooper Oskari
+  - Trooper Roope
+  - Trooper Sami
+  - Trooper Santeri
+  - Trooper Tapani
+  - Trooper Tommi
+  - Trooper Tuomas
+  - Trooper Valtteri
+  - Trooper Viljo
+  - Trooper Ville
+femaleFirst:
+  - Trooper Aino
+  - Trooper Anja
+  - Trooper Anna
+  - Trooper Anneli
+  - Trooper Anni
+  - Trooper Eila
+  - Trooper Elina
+  - Trooper Elisa
+  - Trooper Emilia
+  - Trooper Emma
+  - Trooper Emmi
+  - Trooper Eveliina
+  - Trooper Hanna
+  - Trooper Hannele
+  - Trooper Helena
+  - Trooper Helmi
+  - Trooper Iida
+  - Trooper Iina
+  - Trooper Ilona
+  - Trooper Jenni
+  - Trooper Johanna
+  - Trooper Julia
+  - Trooper Kaarina
+  - Trooper Karoliina
+  - Trooper Katariina
+  - Trooper Kristiina
+  - Trooper Laura
+  - Trooper Leena
+  - Trooper Liisa
+  - Trooper Maarit
+  - Trooper Maija
+  - Trooper Maria
+  - Trooper Marjatta
+  - Trooper Martta
+  - Trooper Milla
+  - Trooper Minna
+  - Trooper Noora
+  - Trooper Oona
+  - Trooper Pauliina
+  - Trooper Pirjo
+  - Trooper Riitta
+  - Trooper Ritva
+  - Trooper Saara
+  - Trooper Sanni
+  - Trooper Sari
+  - Trooper Sofia
+  - Trooper Susanna
+  - Trooper Tuula
+  - Trooper Tuuli
+  - Trooper Veera
+maleLast:
+  - Aalto
+  - Aaltonen
+  - Aho
+  - Ahola
+  - Ahonen
+  - Anttila
+  - Arvola
+  - Eskola
+  - Haapala
+  - Haavisto
+  - Hakala
+  - Halonen
+  - Harju
+  - Hartikainen
+  - Heikkinen
+  - Heino
+  - Heinonen
+  - Heiskanen
+  - Hietala
+  - Hiltunen
+  - Hirvonen
+  - Honkanen
+  - Huttunen
+  - Ikonen
+  - Immonen
+  - Jalonen
+  - Jokinen
+  - Kallio
+  - Karhu
+  - Karjalainen
+  - Karppinen
+  - Kauppinen
+  - Kemppainen
+  - Kettunen
+  - Kinnunen
+  - Kiviniemi
+  - Koivisto
+  - Kokko
+  - Kokkonen
+  - Koponen
+  - Korhonen
+  - Korpela
+  - Koskela
+  - Koski
+  - Koskinen
+  - Laakso
+  - Laaksonen
+  - Lahti
+  - Lahtinen
+  - Laine
+  - Laitinen
+  - Lappalainen
+  - Lehtinen
+  - Lehto
+  - Lehtonen
+  - Leino
+  - Leinonen
+  - Lindholm
+  - Manninen
+  - Mattila
+  - Miettinen
+  - Mikkola
+  - Mikkonen
+  - Moilanen
+  - Mustonen
+  - Niemi
+  - Nieminen
+  - Niskanen
+  - Nurmi
+  - Nurminen
+  - Nyman
+  - Ojala
+  - Oksanen
+  - Partanen
+  - Peltola
+  - Peltonen
+  - Pesonen
+  - Pulkkinen
+  - Rajala
+  - Rantala
+  - Rantanen
+  - Rautiainen
+  - Rautio
+  - Rissanen
+  - Saari
+  - Saarinen
+  - Saimi
+  - Salminen
+  - Salo
+  - Salonen
+  - Savolainen
+  - Suominen
+  - Toivonen
+  - Tuominen
+  - Turunen
+  - Uusitalo
+  - Vainio
+  - Virtanen
+  - Vuorinen
+  - Ylitalo

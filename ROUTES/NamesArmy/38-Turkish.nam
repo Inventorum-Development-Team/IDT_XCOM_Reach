@@ -1,0 +1,400 @@
+lookWeights:
+  - 8
+  - 16
+  - 8
+  - 1
+maleFirst:
+  - Trooper Abdullah
+  - Trooper Adem
+  - Trooper Adil
+  - Trooper Adnan
+  - Trooper Ahmet
+  - Trooper Akif
+  - Trooper Ali
+  - Trooper Alp
+  - Trooper Alper
+  - Trooper Altan
+  - Trooper Arda
+  - Trooper Arif
+  - Trooper Atilla
+  - Trooper Aydemir
+  - Trooper Ayhan
+  - Trooper Aykut
+  - Trooper Aziz
+  - Trooper Baha
+  - Trooper Bahri
+  - Trooper Barlas
+  - Trooper Bedri
+  - Trooper Bekir
+  - Trooper Berk
+  - Trooper Bilal
+  - Trooper Birol
+  - Trooper Bora
+  - Trooper Burak
+  - Trooper Burhan
+  - Trooper Cahit
+  - Trooper Can
+  - Trooper Caner
+  - Trooper Cem
+  - Trooper Cemal
+  - Trooper Cengiz
+  - Trooper Cenk
+  - Trooper Cihan
+  - Trooper Cumhur
+  - Trooper Davut
+  - Trooper Doruk
+  - Trooper Dursun
+  - Trooper Efe
+  - Trooper Ekrem
+  - Trooper Emin
+  - Trooper Emrah
+  - Trooper Emre
+  - Trooper Engin
+  - Trooper Enver
+  - Trooper Erdal
+  - Trooper Eren
+  - Trooper Erhan
+  - Trooper Erkan
+  - Trooper Erol
+  - Trooper Ethem
+  - Trooper Fahri
+  - Trooper Faruk
+  - Trooper Fatih
+  - Trooper Fehmi
+  - Trooper Ferdi
+  - Trooper Ferhat
+  - Trooper Feridun
+  - Trooper Fikret
+  - Trooper Furkan
+  - Trooper Hakan
+  - Trooper Halil
+  - Trooper Haluk
+  - Trooper Hamdi
+  - Trooper Hamza
+  - Trooper Harun
+  - Trooper Hasan
+  - Trooper Hayri
+  - Trooper Hikmet
+  - Trooper Hilmi
+  - Trooper Kaan
+  - Trooper Kadir
+  - Trooper Kemal
+  - Trooper Kenan
+  - Trooper Kerem
+  - Trooper Koray
+  - Trooper Korhan
+  - Trooper Levent
+  - Trooper Mahir
+  - Trooper Mahmut
+  - Trooper Mehmet
+  - Trooper Melih
+  - Trooper Mert
+  - Trooper Mete
+  - Trooper Metin
+  - Trooper Mithat
+  - Trooper Muammer
+  - Trooper Muhammet
+  - Trooper Muhsin
+  - Trooper Murat
+  - Trooper Musa
+  - Trooper Mustafa
+  - Trooper Muzaffer
+  - Trooper Naci
+  - Trooper Nazmi
+  - Trooper Necdet
+  - Trooper Nihat
+  - Trooper Niyazi
+  - Trooper Nuri
+  - Trooper Okan
+  - Trooper Oktay
+  - Trooper Onur
+  - Trooper Orhan
+  - Trooper Osman
+  - Trooper Ozan
+  - Trooper Ramazan
+  - Trooper Remzi
+  - Trooper Sabri
+  - Trooper Salih
+  - Trooper Sedat
+  - Trooper Selim
+  - Trooper Semih
+  - Trooper Sercan
+  - Trooper Serdar
+  - Trooper Serhat
+  - Trooper Serkan
+  - Trooper Sinan
+  - Trooper Soner
+  - Trooper Taha
+  - Trooper Tahir
+  - Trooper Tahsin
+  - Trooper Taner
+  - Trooper Tarkan
+  - Trooper Tayfun
+  - Trooper Tayyar
+  - Trooper Temel
+  - Trooper Teoman
+  - Trooper Tevfik
+  - Trooper Timur
+  - Trooper Tolga
+  - Trooper Tosun
+  - Trooper Tuna
+  - Trooper Tuncay
+  - Trooper Turan
+  - Trooper Turgut
+  - Trooper Ufuk
+  - Trooper Umut
+  - Trooper Utku
+  - Trooper Uzay
+  - Trooper Vedat
+  - Trooper Veli
+  - Trooper Veysel
+  - Trooper Volkan
+  - Trooper Vural
+  - Trooper Yahya
+  - Trooper Yakup
+  - Trooper Yasin
+  - Trooper Yavuz
+  - Trooper Yusuf
+  - Trooper Zafer
+  - Trooper Zeki
+  - Trooper Zeynel
+  - Trooper Ziya
+femaleFirst:
+  - Trooper Adile
+  - Trooper Alev
+  - Trooper Arzu
+  - Trooper Asena
+  - Trooper Ayda
+  - Trooper Aydan
+  - Trooper Ayla
+  - Trooper Aylin
+  - Trooper Aysel
+  - Trooper Aysu
+  - Trooper Aysun
+  - Trooper Bahar
+  - Trooper Bengi
+  - Trooper Bilge
+  - Trooper Birsen
+  - Trooper Burcu
+  - Trooper Canan
+  - Trooper Ceren
+  - Trooper Ceyda
+  - Trooper Damla
+  - Trooper Demet
+  - Trooper Deniz
+  - Trooper Didem
+  - Trooper Dilara
+  - Trooper Duygu
+  - Trooper Ebru
+  - Trooper Ece
+  - Trooper Eda
+  - Trooper Elif
+  - Trooper Emel
+  - Trooper Emine
+  - Trooper Esra
+  - Trooper Evrim
+  - Trooper Eylem
+  - Trooper Ezgi
+  - Trooper Fatma
+  - Trooper Filiz
+  - Trooper Gamze
+  - Trooper Gizem
+  - Trooper Hande
+  - Trooper Hatice
+  - Trooper Irmak
+  - Trooper Jale
+  - Trooper Lale
+  - Trooper Leyla
+  - Trooper Melis
+  - Trooper Meltem
+  - Trooper Meral
+  - Trooper Merve
+  - Trooper Meryem
+  - Trooper Nalan
+  - Trooper Nazan
+  - Trooper Nesrin
+  - Trooper Nezihe
+  - Trooper Nihan
+  - Trooper Nil
+  - Trooper Nur
+  - Trooper Olcay
+  - Trooper Oya
+  - Trooper Pervin
+  - Trooper Rabia
+  - Trooper Reyhan
+  - Trooper Sabiha
+  - Trooper Safiye
+  - Trooper Sanem
+  - Trooper Seda
+  - Trooper Selma
+  - Trooper Semiha
+  - Trooper Sevgi
+  - Trooper Sevil
+  - Trooper Sevim
+  - Trooper Sibel
+  - Trooper Sinem
+  - Trooper Suna
+  - Trooper Yaprak
+  - Trooper Yasemin
+  - Trooper Yeliz
+  - Trooper Yonca
+  - Trooper Zehra
+  - Trooper Zekiye
+  - Trooper Zeynep
+maleLast:
+  - Acar
+  - Ak
+  - Akarsu
+  - Akkaya
+  - Aksoy
+  - Akturan
+  - Albayrak
+  - Alkan
+  - Alpsoy
+  - Altay
+  - Altuner
+  - Aras
+  - Arslan
+  - Atakan
+  - Atalay
+  - Atasoy
+  - Atik
+  - Atmaca
+  - Ay
+  - Ayaz
+  - Balaban
+  - Barlas
+  - Batu
+  - Baycan
+  - Bayraktar
+  - Bozkurt
+  - Bulut
+  - Can
+  - Canatan
+  - Cansu
+  - Cesur
+  - Davulcu
+  - Demirci
+  - Dikmen
+  - Doruk
+  - Durak
+  - Durmaz
+  - Dursun
+  - Durukan
+  - Eker
+  - Ekinci
+  - Elvan
+  - Erdem
+  - Eren
+  - Erken
+  - Erkmen
+  - Erkulu
+  - Ersoy
+  - Eser
+  - Gencer
+  - Gezer
+  - Hakyemez
+  - Hamarat
+  - Haznedar
+  - Kahraman
+  - Kalender
+  - Kalyoncu
+  - Kaplan
+  - Kara
+  - Karabulut
+  - Karaca
+  - Karaduman
+  - Karakaya
+  - Karakurt
+  - Karaman
+  - Karatay
+  - Karpuzcu
+  - Kartal
+  - Kavlak
+  - Kavuncu
+  - Kaya
+  - Kayahan
+  - Kayhan
+  - Kaymaz
+  - Kazak
+  - Kazan
+  - Kesen
+  - Keskin
+  - Kocaman
+  - Konuk
+  - Koparan
+  - Korkmaz
+  - Korkusuz
+  - Korkut
+  - Koyuncu
+  - Kozan
+  - Kurt
+  - Kutlu
+  - Kuyumcu
+  - Kuzucu
+  - Mercan
+  - Mutlu
+  - Nurlu
+  - Ocak
+  - Okan
+  - Okuyan
+  - Okyay
+  - Olcay
+  - Oray
+  - Ordu
+  - Pala
+  - Pehlivan
+  - Peker
+  - Polat
+  - Poyraz
+  - Sancaktar
+  - Sayan
+  - Saydam
+  - Sazak
+  - Semerci
+  - Sert
+  - Seymen
+  - Sezer
+  - Solak
+  - Solmaz
+  - Soysal
+  - Sunay
+  - Sungur
+  - Sur
+  - Tahmaz
+  - Tan
+  - Tarhan
+  - Tekcan
+  - Tekin
+  - Tezcan
+  - Tezel
+  - Topal
+  - Toprak
+  - Torun
+  - Tufan
+  - Tuncer
+  - Turna
+  - Ulucan
+  - Ulusoy
+  - Ural
+  - Uslu
+  - Usta
+  - Uyar
+  - Uygun
+  - Uysal
+  - Uzel
+  - Uzuner
+  - Varan
+  - Vardar
+  - Vural
+  - Vurgun
+  - Yalman
+  - Yaman
+  - Yazgan
+  - Yener
+  - Yolcu
+  - Yorulmaz
+  - Yurdakul
+  - Yurtseven
+  - Zeren
+  - Zorlu

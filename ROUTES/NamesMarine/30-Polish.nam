@@ -1,0 +1,206 @@
+﻿lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Marine Adam
+  - Marine Andrzej
+  - Marine Bogdan
+  - Marine Dariusz
+  - Marine Grzegorz
+  - Marine Henryk
+  - Marine Jacek
+  - Marine Jan
+  - Marine Janusz
+  - Marine Jerzy
+  - Marine Józef
+  - Marine Kazimierz
+  - Marine Krzysztof
+  - Marine Łukasz
+  - Marine Maciej
+  - Marine Maksymilian
+  - Marine Marcin
+  - Marine Marek
+  - Marine Marian
+  - Marine Mariusz
+  - Marine Mateusz
+  - Marine Michał
+  - Marine Mirosław
+  - Marine Paweł
+  - Marine Piotr
+  - Marine Rafał
+  - Marine Robert
+  - Marine Ryszard
+  - Marine Stanisław
+  - Marine Stefan
+  - Marine Tadeusz
+  - Marine Tomasz
+  - Marine Wojciech
+  - Marine Zbigniew
+femaleFirst:
+  - Marine Agnieszka
+  - Marine Aleksandra
+  - Marine Anna
+  - Marine Barbara
+  - Marine Bernadeta
+  - Marine Beata
+  - Marine Elżbieta
+  - Marine Danuta
+  - Marine Dorota
+  - Marine Ewa
+  - Marine Grażyna
+  - Marine Halina
+  - Marine Helena
+  - Marine Irena
+  - Marine Iwona
+  - Marine Jadwiga
+  - Marine Janina
+  - Marine Joanna
+  - Marine Jolanta
+  - Marine Karolina
+  - Marine Katarzyna
+  - Marine Krystyna
+  - Marine Magdalena
+  - Marine Małgorzata
+  - Marine Maria
+  - Marine Marianna
+  - Marine Marta
+  - Marine Monika
+  - Marine Stanisława
+  - Marine Teresa
+  - Marine Zofia
+maleLast:
+  - Adamczyk
+  - Baron
+  - Białoń
+  - Brzechwa
+  - Budziński
+  - Curuś
+  - Dąbrowski
+  - Dudek
+  - Dudziak
+  - Figura
+  - Gocyła
+  - Grabowski
+  - Indeka
+  - Jabłoński
+  - Janik
+  - Jankowski
+  - Jarczok
+  - Kaczmarek
+  - Kaminski
+  - Kobza
+  - Kominek
+  - Kopeć
+  - Kossak
+  - Kot
+  - Kowalczyk
+  - Kowalski
+  - Kozłowski
+  - Krawczyk
+  - Król
+  - Kwiatkowski
+  - Lalurny
+  - Lewandowski
+  - Londzin
+  - Mazur
+  - Michalski
+  - Milik
+  - Mleczko
+  - Nowak
+  - Nowakowski
+  - Nowicki
+  - Pawłowski
+  - Piotrowski
+  - Płatek
+  - Podkański
+  - Poradowski
+  - Pragłowski
+  - Radwan
+  - Sikora
+  - Solański
+  - Stachurski
+  - Szczerba
+  - Szczypka
+  - Szymański
+  - Światłoch
+  - Świerkot
+  - Tumidajewicz
+  - Wajdeczko
+  - Wieczorek
+  - Wiśniewski
+  - Wojciechowski
+  - Woźniak
+  - Wójcik
+  - Wrona
+  - Wyrostek
+  - Zając
+  - Zieliński
+femaleLast:
+  - Adamczyk
+  - Baron
+  - Białoń
+  - Brzechwa
+  - Budzińska
+  - Curuś
+  - Dąbrowska
+  - Dudek
+  - Dudziak
+  - Figura
+  - Gocyła
+  - Grabowska
+  - Indeka
+  - Jabłońska
+  - Janik
+  - Jankowska
+  - Jarczok
+  - Kaczmarek
+  - Kamińska
+  - Kobza
+  - Kominek
+  - Kopeć
+  - Kossak
+  - Kot
+  - Kowalczyk
+  - Kowalska
+  - Kozłowska
+  - Krawczyk
+  - Król
+  - Kwiatkowska
+  - Lalurny
+  - Lewandowska
+  - Londzin
+  - Mazur
+  - Michalska
+  - Milik
+  - Mleczko
+  - Nowak
+  - Nowakowska
+  - Nowicka
+  - Pawłowska
+  - Piotrowska
+  - Płatek
+  - Podkańska
+  - Poradowska
+  - Pragłowska
+  - Radwan
+  - Sikora
+  - Solańska
+  - Stachurski
+  - Szczerba
+  - Szczypka
+  - Szymańska
+  - Światłoch
+  - Świerkot
+  - Tumidajewicz
+  - Wajdeczko
+  - Wieczorek
+  - Wiśniewska
+  - Wojciechowska
+  - Woźniak
+  - Wójcik
+  - Wrona
+  - Wyrostek
+  - Zając
+  - Zielińska

@@ -1,0 +1,59 @@
+﻿lookWeights:
+  - 10
+  - 30
+  - 30
+  - 30
+maleFirst:
+  - ODST Bautista
+  - ODST Benjamin
+  - ODST Felipe
+  - ODST Juan
+  - ODST Joaquin
+  - ODST Mateo
+  - ODST Santiago
+  - ODST Santino
+  - ODST Thiago
+  - ODST Tomas
+femaleFirst:
+  - ODST Alma
+  - ODST Catalina
+  - ODST Emma
+  - ODST Isabella
+  - ODST Maria
+  - ODST Martina
+  - ODST Mia
+  - ODST Sofia
+  - ODST Valentina
+  - ODST Zoe
+maleLast:
+  - Alonso
+  - Alvarez
+  - Blanco
+  - Castro
+  - Diaz
+  - Dominguez
+  - Fernandez
+  - Garcia
+  - Gimenez
+  - Gomez
+  - Gonzalez
+  - Gutierrez
+  - Iglesias
+  - Lopez
+  - Martin
+  - Martinez
+  - Nuñez
+  - Perez
+  - Ramirez
+  - Ramos
+  - Rodriguez
+  - Romero
+  - Rossi
+  - Ruiz
+  - Sanchez
+  - Silva
+  - Sosa
+  - Suarez
+  - Torres
+  - Varela
+  - Vazquez

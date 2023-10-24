@@ -1,0 +1,160 @@
+# Note: It's not a coincidence that the last names mirror the male names, traditionally "last" names in ethiopia are the father or grandfather's first name.
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - ODST Abebe
+  - ODST Adamu
+  - ODST Ahadu
+  - ODST Alem
+  - ODST Alemu
+  - ODST Alem Neh
+  - ODST Amara
+  - ODST Amare
+  - ODST Assefa
+  - ODST Asnake
+  - ODST Bekele
+  - ODST Berhanu
+  - ODST Berihun
+  - ODST Bogale
+  - ODST Brehan
+  - ODST Brehanu
+  - ODST Dabir
+  - ODST Dahnay
+  - ODST Daniachew
+  - ODST Dawit
+  - ODST Demeke
+  - ODST Demissie
+  - ODST Desta
+  - ODST Gebra Hana
+  - ODST Gebre Kiristos
+  - ODST Gere Mariam
+  - ODST Geriel
+  - ODST Getachew
+  - ODST Geteye
+  - ODST Girma
+  - ODST Hagos
+  - ODST Hakim
+  - ODST Iskinder
+  - ODST Kaleb
+  - ODST Kebede
+  - ODST Kelile
+  - ODST Lake
+  - ODST Lebna
+  - ODST Lemma
+  - ODST Li'ol
+  - ODST Mebrete
+  - ODST Mebreatu
+  - ODST Mechela
+  - ODST Melku
+  - ODST Mulu Alem
+  - ODST Negasi
+  - ODST Nigus
+  - ODST Tesfa
+  - ODST Tesfaye
+  - ODST Wendimu
+  - ODST Werkneh
+  - ODST Yonas
+femaleFirst:
+  - ODST Aamina
+  - ODST Abeba
+  - ODST Abebech
+  - ODST Abrihet
+  - ODST Adina
+  - ODST Afework
+  - ODST Afeworki
+  - ODST Aisha
+  - ODST Alem Nesh
+  - ODST Amira
+  - ODST Asnaku
+  - ODST Aster
+  - ODST Ayana
+  - ODST Berta
+  - ODST Bogalech
+  - ODST Brehane
+  - ODST Brihan
+  - ODST Dahnay
+  - ODST Demeku
+  - ODST Desta
+  - ODST Edom
+  - ODST Eldana
+  - ODST Eleni
+  - ODST Elhanan
+  - ODST Elsa
+  - ODST Gabra
+  - ODST Genet
+  - ODST Hagos
+  - ODST Helen
+  - ODST Kassa
+  - ODST Kebedech
+  - ODST Lakech
+  - ODST Lielit
+  - ODST Makeda
+  - ODST Martha
+  - ODST Melke
+  - ODST Meseret
+  - ODST Mihret
+  - ODST Mulu Ken
+  - ODST Nigest
+  - ODST Rahel
+  - ODST Samrawit
+  - ODST Sara
+  - ODST Tenagne
+  - ODST Werknesh
+  - ODST Yenee
+  - ODST Zema
+maleLast:
+  - Abebe
+  - Adamu
+  - Ahadu
+  - Alem
+  - Alemu
+  - Alem Neh
+  - Amara
+  - Amare
+  - Assefa
+  - Asnake
+  - Bekele
+  - Berhanu
+  - Berihun
+  - Bogale
+  - Brehan
+  - Brehanu
+  - Dabir
+  - Dahnay
+  - Daniachew
+  - Dawit
+  - Demeke
+  - Demissie
+  - Desta
+  - Gebra Hana
+  - Gebre Kiristos
+  - Gere Mariam
+  - Geriel
+  - Getachew
+  - Geteye
+  - Girma
+  - Hagos
+  - Hakim
+  - Iskinder
+  - Kaleb
+  - Kebede
+  - Kelile
+  - Lake
+  - Lebna
+  - Lemma
+  - Li'ol
+  - Mebrete
+  - Mebreatu
+  - Mechela
+  - Melku
+  - Mulu Alem
+  - Negasi
+  - Nigus
+  - Tesfa
+  - Tesfaye
+  - Wendimu
+  - Werkneh
+  - Yonas

@@ -142,6 +142,10 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
     text: STR_UNARMED_REGULAR_HUMAN_UFOPEDIA
+  - id: STR_MA5K
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    text: STR_MA5K_UFOPEDIA
   - id: STR_MA37
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
@@ -185,19 +189,22 @@ ufopaedia:
   - id: STR_M7_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
-#  - id: STR_M45_SHOTGUN
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    type_id: 4
-#    listOrder: 2406
-#    text: STR_M45_SHOTGUN_UFOPEDIA
-#  - id: STR_M90_SHOTGUN
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    type_id: 4
-#    listOrder: 2407
-#    text: STR_M90_SHOTGUN_UFOPEDIA
-#  - id: STR_8GAUGE_SHELLS
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
+  - id: STR_M45_SHOTGUN
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    #listOrder: 2406
+    text: STR_M45_SHOTGUN_UFOPEDIA
+  - id: STR_M90_SHOTGUN
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    #listOrder: 2407
+    text: STR_M90_SHOTGUN_UFOPEDIA
+  - id: STR_8GAUGE_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M90_8GAUGE_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_BR55
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
@@ -221,8 +228,34 @@ ufopaedia:
     type_id: 4
     text: STR_SRS99_UFOPEDIA
   - id: STR_SRS99_MAG
+    section: STR_NOT_AVAILABLE
+    type_id: 4
+  - id: STR_M41
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M41_UFOPEDIA
+  - id: STR_M41_ROCKETS
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_M6V
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M6V_UFOPEDIA
+  - id: STR_M247H_MG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M247H_MG_UFOPEDIA
+  - id: STR_M319
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_M319_UFOPEDIA
+  - id: STR_M319_GRENADE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_H165_ORBITAL_STRIKE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_H165_ORBITAL_STRIKE_UFOPEDIA
 ####################
 ##### SHIPS #######
 ##################

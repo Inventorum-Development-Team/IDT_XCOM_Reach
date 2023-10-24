@@ -112,7 +112,7 @@ items:
     size: 0.2
     costBuy: 1686
     costSell: 1265
-    weight: 6
+    weight: 8
     bigSprite: 208
     floorSprite: 208
     handSprite: 208
@@ -160,7 +160,8 @@ items:
     bigSprite: 216
     floorSprite: 216
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11
     bulletSpeed: 20
     power: 37
@@ -176,6 +177,50 @@ items:
     battleType: 2
     armor: 12
 
+  - type: STR_MA5K
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
+    size: 0.2
+    costBuy: 1686
+    costSell: 1265
+    weight: 5
+    bigSprite: 240
+    floorSprite: 240
+    handSprite: 240
+    fireSound: [132, 133, 134]
+    reloadSound: [135, 136, 137]
+    compatibleAmmo:
+      - STR_MA37_MAG
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
+    accuracyAuto: 45
+    accuracySnap: 75
+    accuracyAimed: 70
+    tuAuto: 8
+    tuSnap: 12
+    tuAimed: 15
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 100
+    snapRange: 23
+    autoRange: 20
+    minRange: 3
+    dropoff: 2
   - type: STR_MA37
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.2
@@ -229,7 +274,8 @@ items:
     bigSprite: 256
     floorSprite: 256
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11
     power: 37
     bulletSpeed: 20
@@ -290,7 +336,8 @@ items:
     bigSprite: 280
     floorSprite: 280
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12
     power: 44
     bulletSpeed: 20
@@ -344,7 +391,8 @@ items:
     bigSprite: 304
     floorSprite: 304
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11
     power: 55
     bulletSpeed: 20
@@ -396,7 +444,8 @@ items:
     bigSprite: 328
     floorSprite: 328
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14
     bulletSpeed: 20
     power: 100
@@ -472,7 +521,8 @@ items:
     bigSprite: 368
     floorSprite: 368
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 13
     power: 42
     bulletSpeed: 20
@@ -520,7 +570,8 @@ items:
     bigSprite: 392
     floorSprite: 392
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 13
     power: 45
     bulletSpeed: 20
@@ -631,7 +682,8 @@ items:
     bigSprite: 464
     floorSprite: 464
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 10
     power: 20
     bulletSpeed: 20
@@ -648,6 +700,382 @@ items:
     clipSize: 60
     battleType: 2
     armor: 12
+
+  - type: STR_M45_SHOTGUN #Note: HUGE SUCCESS
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    size: 0.2
+    costBuy: 1400
+    costSell: 1165
+    weight: 8
+    bigSprite: 488
+    floorSprite: 488
+    handSprite: 488
+    fireSound: [125, 126, 127]
+    reloadSound: [131]
+    compatibleAmmo:
+      - STR_8GAUGE_SHELLS
+    accuracySnap: 36
+    accuracyAimed: 55
+    tuSnap: 12
+    tuAimed: 18
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 12
+    aimRange: 5
+    snapRange: 5
+    minRange: 1
+    dropoff: 8
+  - type: STR_8GAUGE_SHELLS         #M45 Shells
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 1
+    bigSprite: 496
+    floorSprite: 496
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    bulletSprite: 11
+    power: 20
+    bulletSpeed: 20
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 1.0
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.5
+      ToMana: 1.5
+    damageType: 1
+    shotgunBehavior: 1
+    shotgunSpread: 25
+    shotgunPellets: 15
+    clipSize: 6
+    battleType: 2
+    armor: 12
+
+
+  - type: STR_M90_SHOTGUN 
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    size: 0.2
+    costBuy: 1200
+    costSell: 1050
+    weight: 8
+    bigSprite: 472
+    floorSprite: 472
+    handSprite: 472
+    fireSound: [128, 129, 130]
+    reloadSound: [131]
+    compatibleAmmo:
+      - STR_M90_8GAUGE_SHELLS
+    accuracySnap: 30
+    accuracyAimed: 50
+    tuSnap: 10
+    tuAimed: 15
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 12
+    aimRange: 5
+    snapRange: 5
+    minRange: 1
+    dropoff: 8
+  - type: STR_M90_8GAUGE_SHELLS         #M90 Shells
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 1
+    bigSprite: 480
+    floorSprite: 480
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    bulletSprite: 11
+    power: 35
+    bulletSpeed: 20
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 1.0
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.5
+      ToMana: 1.5
+    damageType: 1
+    shotgunBehavior: 1
+    shotgunSpread: 15
+    shotgunPellets: 10
+    clipSize: 6
+    battleType: 2
+    armor: 12
+
+  - type: STR_M41 #SPNKR
+    categories: [STR_WEAPONS, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    size: 0.2
+    costBuy: 30000
+    costSell: 860
+    weight: 18
+    bigSprite: 504
+    floorSprite: 504
+    handSprite: 504
+    fireSound: [1608, 1609, 1610, 1611]
+    reloadSound: [1612]
+    compatibleAmmo:
+      - STR_M41_ROCKETS
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 40
+    tuAimed: 70
+    tuLoad: 30
+    maxRange: 200
+    dropoff: 1
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+
+  - type: STR_M41_ROCKETS
+    categories: [STR_WEAPONS, STR_MAGAZINES, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    size: 0.1
+    costBuy: 2000
+    costSell: 240
+    weight: 5
+    bigSprite: 512
+    floorSprite: 512
+    power: 275
+    bulletSprite: 0
+    bulletSpeed: 1
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.75
+      ToArmorPre: 0.3
+      RadiusReduction: 30
+      IgnoreSelfDestruct: true
+      ToWound: 1.3
+      RandomWound: true
+      ToTile: 0.90
+      ToStun: 1.2
+      ToMana: 1.0
+      ToArmor: 1.6
+      FixRadius: 2
+    powerForAnimation: 40
+    explosionHitSound: [1613, 1614, 1615, 1616, 1617, 1618]
+    damageType: 3
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    blastRadius: 2
+    clipSize: 2
+    vaporColorSurface: 11
+    vaporDensitySurface: 2
+    vaporProbabilitySurface: 100
+
+  - type: STR_M319 #Grenade launcher
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
+    size: 0.2
+    costBuy: 15000
+    costSell: 860
+    weight: 16
+    bigSprite: 520
+    floorSprite: 520
+    handSprite: 520
+    fireSound: [1619, 1620, 1621]
+    reloadSound: [1625]
+    compatibleAmmo:
+      - STR_M319_GRENADE
+    accuracySnap: 65
+    accuracyAimed: 55
+    confSnap:
+      name: STR_GL_DIRECT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      name: STR_GL_ARC
+      ammoSlot: 0
+      arcing: true 
+    tuSnap: 20
+    tuAimed: 30
+    tuLoad: 25
+    aimRange: 32
+    maxRange: 200
+    dropoff: 5
+    kneelBonus: 125
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    twoHanded: true
+
+  - type: STR_M319_GRENADE
+    categories: [STR_WEAPONS, STR_MAGAZINES, STR_GRENADES, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    size: 0.1
+    costBuy: 500
+    costSell: 240
+    weight: 3
+    bigSprite: 528
+    floorSprite: 528
+    power: 125
+    bulletSprite: 0
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.75
+      ToArmorPre: 0.3
+      RadiusReduction: 30
+      IgnoreSelfDestruct: true
+      ToWound: 1.3
+      RandomWound: true
+      ToTile: 0.90
+      ToStun: 1.2
+      ToHealth: 1.5
+      ToMana: 0.8
+      FixRadius: 2
+    powerForAnimation: 40
+    explosionHitSound: [1622, 1623, 1624]
+    damageType: 3
+    battleType: 2
+    blastRadius: 2
+    clipSize: 1
+
+  - type: STR_M247H_MG
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_UNSC_EQUIPMENT, STR_GADGETS]
+    size: 0.2
+    costBuy: 10000
+    costSell: 1265
+    weight: 60
+    bigSprite: 968    #inventory sprite
+    floorSprite: 968  #battlescape floor sprite
+    handSprite: 968
+    fireSound: [1626, 1627, 1628]
+    confAuto:
+      shots: 20
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confSnap:
+      shots: 10
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
+    accuracyAuto: 35
+    accuracySnap: 50
+    accuracyAimed: 65
+    tuAuto: 50
+    tuSnap: 35
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 200
+    aimRange: 10
+    minRange: 1
+    dropoff: 20
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11
+    bulletSpeed: 45
+    power: 45
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.9
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
+      ToMana: 0.6
+    damageType: 1
+    clipSize: 200
+
+  - type: STR_M6V       #Spartan Laser
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_GADGETS, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
+    costBuy: 1000000     # buy/sell data
+    costSell: 100000
+    size: 1         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 60
+    twoHanded: true         #
+    accuracySnap: 50        #
+    accuracyAimed: 110      #
+    confSnap:
+      spendPerShot: 20
+    confAimed:
+      spendPerShot: 20
+    accuracyMultiplier:
+      firing: [0.0, 0.0175]
+    tuSnap: 40              #
+    tuAimed: 60             #
+    maxRange: 200           #
+    aimRange: 90            #
+    snapRange: 45           #
+    dropoff: 6              #
+    fireSound: [1629, 1630, 1631]          #
+    bigSprite: 536    #inventory sprite
+    floorSprite: 536  #battlescape floor sprite
+    handSprite: 536
+    clipSize: 100
+    bulletSprite: 14
+    bulletSpeed: 40
+    power: 400
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmorPre: 0.4
+      ToArmor: 1.2
+      ToWound: 1.2
+      ToHealth: 1.2
+      ToMana: 1.2
+      FixRadius: 1
+    powerForAnimation: 40
+    blastRadius: 1
+    explosionHitSound: [1632, 1633, 1634, 1635, 1636]
+    damageType: 4
+    armor: 500
+    vaporColorSurface: 10
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 100
+
+  - type: STR_H165_ORBITAL_STRIKE
+    categories: [STR_WEAPONS, STR_UNSC_EQUIPMENT, STR_GADGETS]
+    size: 0.1
+    costBuy: 5000000
+    costSell: 100
+    weight: 5
+    floorSprite: 976
+    bigSprite: 976
+    handSprite: 976
+    bulletSprite: -1
+    fireSound: 1637
+    accuracyAimed: 100
+    tuAimed: 70
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    maxRange: 200
+    twoHanded: false
+    hitSound: 0
+    hitAnimation: 0
+    power: 1250
+    damageType: 3
+    damageAlter:
+      RandomType: 3
+      ToTile: 2 #obliterate the earth
+      ToArmorPre: 1 #annihilate the armor
+      FireThreshold: 1 #incinerate the sea
+      FixRadius: 6 #melt the map
+      ToMorale: 5 #mash the mind
+      RadiusReduction: 4.5
+      IgnoreOverKill: false #leave no trace; this is the end of days
+    powerForAnimation: 250
+    explosionHitSound: [1638, 1639, 1640, 1641]
+    clipSize: 2
 
   - type: STR_GRENADE
     categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
@@ -1200,8 +1628,8 @@ extraSprites:
       216: Resources/HumanEquipment/BigMA5BAmmo.png
       224: Resources/HumanEquipment/BigMA37_noammo.png
       232: Resources/HumanEquipment/BigMA37_ammo.png
-#      240: Resources/HumanEquipment/BigMA5K_noammo.png
-#      248: Resources/HumanEquipment/BigMA5K_ammo.png
+      240: Resources/HumanEquipment/BigMA5K_noammo.png
+      248: Resources/HumanEquipment/BigMA5K_ammo.png
       256: Resources/HumanEquipment/BigMA37Ammo.png
       264: Resources/HumanEquipment/BigBR55_noammo.png
       272: Resources/HumanEquipment/BigBR55_ammo.png
@@ -1227,18 +1655,20 @@ extraSprites:
       448: Resources/HumanEquipment/BigM7S_noammo.png
       456: Resources/HumanEquipment/BigM7S_ammo.png
       464: Resources/HumanEquipment/BigM7Ammo.png
-#      472: Resources/HumanEquipment/BigM90CombatShotgun.png
-#      480: Resources/HumanEquipment/BigM90CombatShotgunShells.png
-#      488: Resources/HumanEquipment/BigM45TacticalShotgun.png
-#      496: Resources/HumanEquipment/BigM45TacticalShotgunShells.png
-#      504: Resources/HumanEquipment/BigM41RocketLauncher.png
-#      512: Resources/HumanEquipment/BigM41RocketLauncherRack.png
-#      520: Resources/HumanEquipment/BigM319GrenadeLauncher.png
-#      528: Resources/HumanEquipment/Big40mmGrenade.png
-#      536: Resources/HumanEquipment/BigM6SpartanLaser.png
+      472: Resources/HumanEquipment/BigM90CombatShotgun.png
+      480: Resources/HumanEquipment/BigM90CombatShotgunShells.png
+      488: Resources/HumanEquipment/BigM45TacticalShotgun.png
+      496: Resources/HumanEquipment/BigM45TacticalShotgunShells.png
+      504: Resources/HumanEquipment/BigM41RocketLauncher.png
+      512: Resources/HumanEquipment/BigM41RocketLauncherRack.png
+      520: Resources/HumanEquipment/BigM319GrenadeLauncher.png
+      528: Resources/HumanEquipment/Big40mmGrenade.png
+      536: Resources/HumanEquipment/BigM6SpartanLaser.png
 #      544: Resources/HumanEquipment/BigM6SpartanLaserBattery.png
 #      552: Resources/HumanEquipment/BigM7057Flamethrower.png
 #      560: Resources/HumanEquipment/BigM7057FlamethrowerFuelTank.png
+      968: Resources/HumanEquipment/BigM247Machinegun.png
+      976: Resources/HumanEquipment/BigH165OrbitalStrike.png
 #      568: Resources/HumanEquipment/BigFragGrenade.png
 #      576: Resources/HumanEquipment/BigFlashbangGrenade.png
 #      584: Resources/HumanEquipment/BigMachete.png
@@ -1298,8 +1728,8 @@ extraSprites:
       216: Resources/HumanEquipment/FloorMA5BAmmo.png
       224: Resources/HumanEquipment/FloorMA37_noammo.png
       232: Resources/HumanEquipment/FloorMA37_ammo.png
-#      240: Resources/HumanEquipment/FloorMA5K_noammo.png
-#      248: Resources/HumanEquipment/FloorMA5K_ammo.png
+      240: Resources/HumanEquipment/FloorMA5K_noammo.png
+      248: Resources/HumanEquipment/FloorMA5K_ammo.png
       256: Resources/HumanEquipment/FloorMA37Ammo.png
       264: Resources/HumanEquipment/FloorBR55_noammo.png
       272: Resources/HumanEquipment/FloorBR55_ammo.png
@@ -1325,18 +1755,20 @@ extraSprites:
       448: Resources/HumanEquipment/FloorM7S_noammo.png
       456: Resources/HumanEquipment/FloorM7S_ammo.png
       464: Resources/HumanEquipment/FloorM7Ammo.png
-#      472: Resources/HumanEquipment/FloorM90CombatShotgun.png
-#      480: Resources/HumanEquipment/FloorM90CombatShotgunShells.png
-#      488: Resources/HumanEquipment/FloorM45TacticalShotgun.png
-#      496: Resources/HumanEquipment/FloorM45TacticalShotgunShells.png
-#      504: Resources/HumanEquipment/FloorM41RocketLauncher.png
-#      512: Resources/HumanEquipment/FloorM41RocketLauncherRack.png
-#      520: Resources/HumanEquipment/FloorM319GrenadeLauncher.png
-#      528: Resources/HumanEquipment/Floor40mmGrenade.png
-#      536: Resources/HumanEquipment/FloorM6SpartanLaser.png
+      472: Resources/HumanEquipment/FloorM90CombatShotgun.png
+      480: Resources/HumanEquipment/FloorM90CombatShotgunShells.png
+      488: Resources/HumanEquipment/FloorM45TacticalShotgun.png
+      496: Resources/HumanEquipment/FloorM45TacticalShotgunShells.png
+      504: Resources/HumanEquipment/FloorM41RocketLauncher.png
+      512: Resources/HumanEquipment/FloorM41RocketLauncherRack.png
+      520: Resources/HumanEquipment/FloorM319GrenadeLauncher.png
+      528: Resources/HumanEquipment/Floor40mmGrenade.png
+      536: Resources/HumanEquipment/FloorM6SpartanLaser.png
 #      544: Resources/HumanEquipment/FloorM6SpartanLaserBattery.png
 #      552: Resources/HumanEquipment/FloorM7057Flamethrower.png
 #      560: Resources/HumanEquipment/FloorM7057FlamethrowerFuelTank.png
+      968: Resources/HumanEquipment/FloorM247Machinegun.png
+      976: Resources/HumanEquipment/FloorH165OrbitalStrike.png
 #      568: Resources/HumanEquipment/FloorFragGrenade.png
 #      576: Resources/HumanEquipment/FloorFlashbangGrenade.png
 #      584: Resources/HumanEquipment/FloorMachete.png
@@ -1399,8 +1831,8 @@ extraSprites:
       208: Resources/HumanEquipment/HandMA5B_ammo.png
       224: Resources/HumanEquipment/HandMA37_noammo.png
       232: Resources/HumanEquipment/HandMA37_ammo.png
-#      240: Resources/HumanEquipment/HandMA5K_noammo.png
-#      248: Resources/HumanEquipment/HandMA5K_ammo.png
+      240: Resources/HumanEquipment/HandMA5K_noammo.png
+      248: Resources/HumanEquipment/HandMA5K_ammo.png
       264: Resources/HumanEquipment/HandBR55_noammo.png
       272: Resources/HumanEquipment/HandBR55_ammo.png
 #      280: Resources/HumanEquipment/HandBR55Ammo.png
@@ -1422,15 +1854,15 @@ extraSprites:
       448: Resources/HumanEquipment/HandM7S_noammo.png
       456: Resources/HumanEquipment/HandM7S_ammo.png
 #      464: Resources/HumanEquipment/HandM7Ammo.png
-#      472: Resources/HumanEquipment/HandM90CombatShotgun.png
+      472: Resources/HumanEquipment/HandM90CombatShotgun.png
 #      480: Resources/HumanEquipment/HandM90CombatShotgunShells.png
-#      488: Resources/HumanEquipment/HandM45TacticalShotgun.png
+      488: Resources/HumanEquipment/HandM45TacticalShotgun.png
 #      496: Resources/HumanEquipment/HandM45TacticalShotgunShells.png
-#      504: Resources/HumanEquipment/HandM41RocketLauncher.png
+      504: Resources/HumanEquipment/HandM41RocketLauncher.png
 #      512: Resources/HumanEquipment/HandM41RocketLauncherRack.png
-#      520: Resources/HumanEquipment/HandM319GrenadeLauncher.png
+      520: Resources/HumanEquipment/HandM319GrenadeLauncher.png
 #      528: Resources/HumanEquipment/Hand40mmGrenade.png
-#      536: Resources/HumanEquipment/HandM6SpartanLaser.png
+      536: Resources/HumanEquipment/HandM6SpartanLaser.png
 #      544: Resources/HumanEquipment/HandM6SpartanLaserBattery.png
 #      552: Resources/HumanEquipment/HandM7057Flamethrower.png
 #      560: Resources/HumanEquipment/HandM7057FlamethrowerFuelTank.png
@@ -1439,6 +1871,8 @@ extraSprites:
 #      584: Resources/HumanEquipment/HandMachete.png
       592: Resources/HumanEquipment/HandHealthPack.png
 #      600: Resources/HumanEquipment/HandBioFoamCanister.png
+      968: Resources/HumanEquipment/HandM247Machinegun.png
+      976: Resources/HumanEquipment/HandH165OrbitalStrike.png
 ######################
       608: Resources/CovenantEquipment/HandPlasmaRifle_noammo.png
       616: Resources/CovenantEquipment/HandPlasmaRifle_ammo.png

@@ -1,0 +1,560 @@
+lookWeights:
+  - 50
+  - 43
+  - 7
+  - 0
+maleFirst:
+  - ODST Adrian
+  - ODST Aleksander
+  - ODST Alexander
+  - ODST Alf
+  - ODST Alfred
+  - ODST Anders
+  - ODST Andreas
+  - ODST Anton
+  - ODST Arne
+  - ODST Artur
+  - ODST Arvid
+  - ODST Asbjoorn
+  - ODST Atle
+  - ODST Balder
+  - ODST Baldur
+  - ODST Benjamin
+  - ODST Bjorn
+  - ODST Boone
+  - ODST Borg
+  - ODST Brander
+  - ODST Burnaby
+  - ODST Burr
+  - ODST Busby
+  - ODST Cadby
+  - ODST Canute
+  - ODST Carr
+  - ODST Cawley
+  - ODST Christian
+  - ODST Christoffer
+  - ODST Colby
+  - ODST Dag
+  - ODST Danby
+  - ODST Delling
+  - ODST Daniel
+  - ODST Didrik
+  - ODST Edvard
+  - ODST Einar
+  - ODST Eirik
+  - ODST Elvis
+  - ODST Emil
+  - ODST Eric
+  - ODST Erik
+  - ODST Erlend
+  - ODST Erling
+  - ODST Espen
+  - ODST Even
+  - ODST Fredrik
+  - ODST Frode
+  - ODST Gunnar
+  - ODST Haakon
+  - ODST Haavard
+  - ODST Hans
+  - ODST Harald
+  - ODST Havard
+  - ODST Henning
+  - ODST Henrik
+  - ODST Ivar
+  - ODST Jakob
+  - ODST Jan
+  - ODST Jens
+  - ODST Joachim
+  - ODST Joakim
+  - ODST Johan
+  - ODST Jokkum
+  - ODST Jon
+  - ODST Jonas
+  - ODST Jorgen
+  - ODST Julius
+  - ODST Kare
+  - ODST Karl
+  - ODST Kjell
+  - ODST Knut
+  - ODST knute
+  - ODST Kristian
+  - ODST Kristoffer
+  - ODST Lars
+  - ODST Leif
+  - ODST Ludvik
+  - ODST Mads
+  - ODST Magnus
+  - ODST Marcus
+  - ODST Marius
+  - ODST Martin
+  - ODST Martinus
+  - ODST Mathias
+  - ODST Matias
+  - ODST Mats
+  - ODST Mikkel
+  - ODST Mons
+  - ODST Nikolai
+  - ODST Nils
+  - ODST Olaf
+  - ODST Olan
+  - ODST Ole
+  - ODST Pal
+  - ODST Paul
+  - ODST Peder
+  - ODST Per
+  - ODST Petter
+  - ODST Reidar
+  - ODST Rolf
+  - ODST Sander
+  - ODST Sebastian
+  - ODST Sigurd
+  - ODST Simen
+  - ODST Sindre
+  - ODST Stian
+  - ODST Svein
+  - ODST Svend
+  - ODST Sverre
+  - ODST Thomas
+  - ODST Thor
+  - ODST Tobias
+  - ODST Tomas
+  - ODST Tor
+  - ODST Vegar
+  - ODST Vegard
+femaleFirst:
+  - ODST Abigael
+  - ODST Adelis
+  - ODST Agot
+  - ODST Alberte
+  - ODST Alfhild
+  - ODST Ane
+  - ODST Annbjorg
+  - ODST Annborg
+  - ODST Arnbjorg
+  - ODST Asdis
+  - ODST Aslaug
+  - ODST Benedikte
+  - ODST Bergit
+  - ODST Bergliot
+  - ODST Berit
+  - ODST Brigit
+  - ODST Canutte
+  - ODST Cathrine
+  - ODST Dagrun
+  - ODST Fredrika
+  - ODST Gerdy
+  - ODST Grete
+  - ODST Grethe
+  - ODST Gry
+  - ODST Gudlaug
+  - ODST Gunnhild
+  - ODST Gunnvor
+  - ODST Halldora
+  - ODST Hege
+  - ODST Heidrun
+  - ODST Hjordis
+  - ODST Idunn
+  - ODST Inge
+  - ODST Ingebjorg
+  - ODST Ingfrid
+  - ODST Inghild
+  - ODST Ingvild
+  - ODST Janne
+  - ODST Johanne
+  - ODST Jorunn
+  - ODST Kanutte
+  - ODST Kari
+  - ODST Karita
+  - ODST Karoline
+  - ODST Kirsten
+  - ODST Kjellfrid
+  - ODST Kjersti
+  - ODST Kjerstin
+  - ODST Kristi
+  - ODST Kristine
+  - ODST Lise
+  - ODST Lovise
+  - ODST Magnhild
+  - ODST Margarete
+  - ODST Margarethe
+  - ODST Margrethe
+  - ODST Marit
+  - ODST Rebekka
+  - ODST Silje
+  - ODST Sofia
+  - ODST Solaug
+  - ODST Thorbjorg
+  - ODST Torbjorg
+  - ODST Torhilda
+  - ODST Torid
+  - ODST Toril
+  - ODST Urd
+  - ODST Valdis
+  - ODST Vendela
+  - ODST Vibeke
+  - ODST Viva
+  - ODST Waldis
+  - ODST Yngvild
+maleLast:
+  - Aamodt
+  - Aas
+  - Aasen
+  - Aasgaard
+  - Abel
+  - Abrahamsen
+  - Alsgaard
+  - Alving
+  - Amundsen
+  - Amundson
+  - Andersen
+  - Andreassen
+  - Andresen
+  - Andsnes
+  - Antonisen
+  - Antonsen
+  - Arnesen
+  - Arup
+  - Asheim
+  - Aune
+  - Bakke
+  - Bakken
+  - Balle
+  - Baltzersen
+  - Berg
+  - Berge
+  - Berntsen
+  - Birkeland
+  - Birknes
+  - Bjoenkaer
+  - Bjoerndalen
+  - Bjone
+  - Bjordal
+  - Bjorlo
+  - Bjornebye
+  - Bjornson
+  - Bjornstad
+  - Blix
+  - Bo
+  - Bocklin
+  - Boe
+  - Borkman
+  - Brack
+  - Brandes
+  - Brat
+  - Brataas
+  - Bredesen
+  - Brekke
+  - Brenden
+  - Brogger
+  - Brovik
+  - Buraas
+  - Burass
+  - Christensen
+  - Christiansen
+  - Daehle
+  - Daehlie
+  - Dahl
+  - Dahn
+  - Dahue
+  - Danielsen
+  - Dybendahl
+  - Edvardsen
+  - Eftevang
+  - Eggen
+  - Eide
+  - Eliassen
+  - Elieson
+  - Ellingsen
+  - Elvsted
+  - Engen
+  - Enger
+  - Englund
+  - Engstrand
+  - Eriksen
+  - Ertzgard
+  - Evensen
+  - Fagerberg
+  - Fagernes
+  - Falck
+  - Fjaerestad
+  - Fjortoft
+  - Flemmen
+  - Flo
+  - Folkow
+  - Fosli
+  - Franck
+  - Fredriksen
+  - Fretheim
+  - Fuglesang
+  - Fuglestad
+  - Furuseth
+  - Gabler
+  - Gabrielsen
+  - Garborg
+  - Gimle
+  - Gjeldnes
+  - Gjelland
+  - Gjessing
+  - Grieg
+  - Grimseth
+  - Grimsmo
+  - Gritdal
+  - Grodas
+  - Groenvold
+  - Gronelv
+  - Guidon
+  - Gulbrandsen
+  - Gundersen
+  - Gunderson
+  - Gunnestad
+  - Gylfason
+  - Haakonsen
+  - Haarberg
+  - Haarland
+  - Haartz
+  - Hagen
+  - Halskar
+  - Halvorsen
+  - Hammer
+  - Hanevold
+  - Hanke
+  - Hansen
+  - Hanssen
+  - Hanstveit
+  - Hartmark
+  - Hasso
+  - Hasund
+  - Haug
+  - Hauge
+  - Haugen
+  - Haugland
+  - Haugsrud
+  - Heiberg
+  - Helgeland
+  - Helgerod
+  - Helland
+  - Helmer
+  - Henriksen
+  - Herdal
+  - Heyerdahl
+  - Hoan
+  - Hoeg
+  - Hoen
+  - Holm
+  - Holmann
+  - Holth
+  - Hopen
+  - Horn
+  - Hultgreen
+  - Hustveit
+  - Ibsen
+  - Ingebriktsson
+  - Ingstad
+  - Isaksen
+  - Iversen
+  - Jacobsen
+  - Jagge
+  - Jakobsen
+  - Jasperson
+  - Jelesens
+  - Jensen
+  - Jenssen
+  - Jevne
+  - Johannessen
+  - Johansen
+  - Johnsen
+  - Jorgensen
+  - Juell
+  - Kaland
+  - Karlan
+  - Karlsen
+  - Kase
+  - Kildal
+  - Kippe
+  - Kjeldaas
+  - Kjelstrup
+  - Kjorestad
+  - Kjorsvik
+  - Klovstod
+  - Knudsen
+  - Knutsen
+  - Koht
+  - Koss
+  - Krafft
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogstad
+  - Kultin
+  - Kvarme
+  - Landa
+  - Langslet
+  - Lanser
+  - Larsen
+  - Leirfall
+  - Leonhardsen
+  - Lid
+  - Lie
+  - Lien
+  - Lier
+  - Lind
+  - Lindahl
+  - Linde
+  - Listow
+  - Ljoekelsoey
+  - Loevaas
+  - Lorch
+  - Lous
+  - Lovborg
+  - Ludwigsen
+  - Lund
+  - Lunde
+  - Lyen
+  - Malmros
+  - Malmstrom
+  - Manders
+  - Marken
+  - Martinsen
+  - Mathiesen
+  - Mathisen
+  - Meling
+  - Meyer
+  - Midttun
+  - Mikkelsen
+  - Mikkelsplass
+  - Mo
+  - Moen
+  - Mork
+  - Mostue
+  - Munch
+  - Myhre
+  - Mykland
+  - Myklebust
+  - Myrland
+  - Naess
+  - Nanstveit
+  - Naustvik
+  - Neilsen
+  - Nerhus
+  - Nielsen
+  - Nilsen
+  - Njerve
+  - Njos
+  - Noberg
+  - Nore
+  - Nyberg
+  - Nygard
+  - Odegard
+  - Oedegaard
+  - Oesten
+  - Olsen
+  - Omholt
+  - Orden
+  - Orthe
+  - Ostenstad
+  - Ottesen
+  - Paldan
+  - Paulsen
+  - Pedersen
+  - Pederssen
+  - Pettersen
+  - Poulsen
+  - Prydz
+  - Quisling
+  - Ramsfeld
+  - Ramsfjell
+  - Rank
+  - Ranning
+  - Rasmussen
+  - Ratkje
+  - Rekdal
+  - Resi
+  - Retter
+  - Ribur
+  - Riseth
+  - Rodahl
+  - Rovlund
+  - Ruud
+  - Saeterstoel
+  - Saether
+  - Salvesen
+  - Sandvik
+  - Schei
+  - Schjerven
+  - Schroder
+  - Schwane
+  - Schytte
+  - Selle
+  - Selling
+  - Selvik
+  - Sikveland
+  - Simonsen
+  - Sivertsen
+  - Sivertson
+  - Sivlee
+  - Sjo
+  - Sjovold
+  - Skarsgaard
+  - Skarsgard
+  - Skavlan
+  - Skjelbraid
+  - Skjolsvold
+  - Skovgaard
+  - Skreien
+  - Smilla
+  - Solbakken
+  - Solbakker
+  - Solberg
+  - Solheim
+  - Solness
+  - Solskaer
+  - Sondral
+  - Sorensen
+  - Stamso
+  - Steen
+  - Stensrud
+  - Stianson
+  - Stirner
+  - Storelid
+  - Stram
+  - Strand
+  - Strandli
+  - Svasand
+  - Svendson
+  - Svenoy
+  - Syversen
+  - Tangen
+  - Tangvik
+  - Tesman
+  - Thomassen
+  - Thonstad
+  - Thoresen
+  - Thorsen
+  - Thue
+  - Thulesius
+  - Thune
+  - Thymann
+  - Tobiassen
+  - Tonder
+  - Tonsberg
+  - Torgereen
+  - Torp
+  - Traa
+  - Tunold
+  - Tveit
+  - Ulstein
+  - Ulving
+  - Utskjoer
+  - Veitberg
+  - Vigeland
+  - Vik
+  - Vind
+  - Waldum
+  - Wangel
+  - Wangen
+  - Wassmo
+  - Wikborg
+  - Wullum
+  - Yons
+  - Ytterhus
+  - Zakariassen

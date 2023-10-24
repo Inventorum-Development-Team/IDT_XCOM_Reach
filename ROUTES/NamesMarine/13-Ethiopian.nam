@@ -1,0 +1,160 @@
+# Note: It's not a coincidence that the last names mirror the male names, traditionally "last" names in ethiopia are the father or grandfather's first name.
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Marine Abebe
+  - Marine Adamu
+  - Marine Ahadu
+  - Marine Alem
+  - Marine Alemu
+  - Marine Alem Neh
+  - Marine Amara
+  - Marine Amare
+  - Marine Assefa
+  - Marine Asnake
+  - Marine Bekele
+  - Marine Berhanu
+  - Marine Berihun
+  - Marine Bogale
+  - Marine Brehan
+  - Marine Brehanu
+  - Marine Dabir
+  - Marine Dahnay
+  - Marine Daniachew
+  - Marine Dawit
+  - Marine Demeke
+  - Marine Demissie
+  - Marine Desta
+  - Marine Gebra Hana
+  - Marine Gebre Kiristos
+  - Marine Gere Mariam
+  - Marine Geriel
+  - Marine Getachew
+  - Marine Geteye
+  - Marine Girma
+  - Marine Hagos
+  - Marine Hakim
+  - Marine Iskinder
+  - Marine Kaleb
+  - Marine Kebede
+  - Marine Kelile
+  - Marine Lake
+  - Marine Lebna
+  - Marine Lemma
+  - Marine Li'ol
+  - Marine Mebrete
+  - Marine Mebreatu
+  - Marine Mechela
+  - Marine Melku
+  - Marine Mulu Alem
+  - Marine Negasi
+  - Marine Nigus
+  - Marine Tesfa
+  - Marine Tesfaye
+  - Marine Wendimu
+  - Marine Werkneh
+  - Marine Yonas
+femaleFirst:
+  - Marine Aamina
+  - Marine Abeba
+  - Marine Abebech
+  - Marine Abrihet
+  - Marine Adina
+  - Marine Afework
+  - Marine Afeworki
+  - Marine Aisha
+  - Marine Alem Nesh
+  - Marine Amira
+  - Marine Asnaku
+  - Marine Aster
+  - Marine Ayana
+  - Marine Berta
+  - Marine Bogalech
+  - Marine Brehane
+  - Marine Brihan
+  - Marine Dahnay
+  - Marine Demeku
+  - Marine Desta
+  - Marine Edom
+  - Marine Eldana
+  - Marine Eleni
+  - Marine Elhanan
+  - Marine Elsa
+  - Marine Gabra
+  - Marine Genet
+  - Marine Hagos
+  - Marine Helen
+  - Marine Kassa
+  - Marine Kebedech
+  - Marine Lakech
+  - Marine Lielit
+  - Marine Makeda
+  - Marine Martha
+  - Marine Melke
+  - Marine Meseret
+  - Marine Mihret
+  - Marine Mulu Ken
+  - Marine Nigest
+  - Marine Rahel
+  - Marine Samrawit
+  - Marine Sara
+  - Marine Tenagne
+  - Marine Werknesh
+  - Marine Yenee
+  - Marine Zema
+maleLast:
+  - Abebe
+  - Adamu
+  - Ahadu
+  - Alem
+  - Alemu
+  - Alem Neh
+  - Amara
+  - Amare
+  - Assefa
+  - Asnake
+  - Bekele
+  - Berhanu
+  - Berihun
+  - Bogale
+  - Brehan
+  - Brehanu
+  - Dabir
+  - Dahnay
+  - Daniachew
+  - Dawit
+  - Demeke
+  - Demissie
+  - Desta
+  - Gebra Hana
+  - Gebre Kiristos
+  - Gere Mariam
+  - Geriel
+  - Getachew
+  - Geteye
+  - Girma
+  - Hagos
+  - Hakim
+  - Iskinder
+  - Kaleb
+  - Kebede
+  - Kelile
+  - Lake
+  - Lebna
+  - Lemma
+  - Li'ol
+  - Mebrete
+  - Mebreatu
+  - Mechela
+  - Melku
+  - Mulu Alem
+  - Negasi
+  - Nigus
+  - Tesfa
+  - Tesfaye
+  - Wendimu
+  - Werkneh
+  - Yonas

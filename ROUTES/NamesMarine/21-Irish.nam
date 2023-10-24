@@ -1,0 +1,99 @@
+lookWeights:
+  - 48
+  - 48
+  - 2
+  - 2
+maleFirst:
+  - Marine Aidan
+  - Marine Andrew
+  - Marine Brendon
+  - Marine Cathal
+  - Marine Cian
+  - Marine Cillian
+  - Marine Conor
+  - Marine Cormac
+  - Marine Daniel
+  - Marine Darragh
+  - Marine David
+  - Marine Donal
+  - Marine Eoghan
+  - Marine Eoin
+  - Marine Finn
+  - Marine Jack
+  - Marine James
+  - Marine John
+  - Marine Liam
+  - Marine Luke
+  - Marine Michael
+  - Marine Mick
+  - Marine Oisin
+  - Marine Owen
+  - Marine Paddy
+  - Marine Padraig
+  - Marine Pat
+  - Marine Patrick
+  - Marine Pete
+  - Marine Ronan
+  - Marine Rory
+  - Marine Sean
+  - Marine Thomas
+femaleFirst:
+  - Marine Aine
+  - Marine Aisling
+  - Marine Aoife
+  - Marine Caoimhe
+  - Marine Ciara
+  - Marine Clara
+  - Marine Fiona
+  - Marine Grainne
+  - Marine Karen
+  - Marine Kate
+  - Marine Kathleen
+  - Marine Lisa
+  - Marine Lorna
+  - Marine Mary
+  - Marine Michelle
+  - Marine Niamh
+  - Marine Orla
+  - Marine Rachel
+  - Marine Roisin
+  - Marine Saoirse
+  - Marine Sarah
+  - Marine Shauna
+  - Marine Sinead
+  - Marine Siobhan
+maleLast:
+  - Brennan
+  - Burke
+  - Byrne
+  - Campbell
+  - Clarke
+  - Collins
+  - Doherty
+  - Doyle
+  - Dunn
+  - Duffy
+  - Farrell
+  - Flanagan
+  - Fitzgerald
+  - Fitzpatrick
+  - Flynn
+  - Gallagher
+  - Kavanagh
+  - Kelly
+  - Kennedy
+  - Lynch
+  - Maguire
+  - McCarthy
+  - McGrath
+  - Moore
+  - Murphy
+  - O'Brien
+  - O'Donnell
+  - O'Neill
+  - Quinn
+  - Reilly
+  - Ryan
+  - Sullivan
+  - Walsh  
+  - Whelan

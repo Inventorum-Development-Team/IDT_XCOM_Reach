@@ -1,0 +1,68 @@
+﻿lookWeights:
+  - 20
+  - 30
+  - 30
+  - 20
+maleFirst:
+  - Marine Arthur
+  - Marine Bruno
+  - Marine Daniel
+  - Marine Eduardo
+  - Marine Felipe
+  - Marine Gabriel
+  - Marine Guilherme
+  - Marine Gustavo
+  - Marine João
+  - Marine João Pedro
+  - Marine Leonardo
+  - Marine Lucas
+  - Marine Luiz
+  - Marine Matheus
+  - Marine Paulo
+  - Marine Pedro
+  - Marine Rafael
+  - Marine Thiago
+  - Marine Vinicius
+  - Marine Vitor
+femaleFirst:
+  - Marine Ana
+  - Marine Amanda
+  - Marine Barbara
+  - Marine Beatriz
+  - Marine Bruna
+  - Marine Camila
+  - Marine Fernanda
+  - Marine Gabriela
+  - Marine Jéssica
+  - Marine Júlia
+  - Marine Juliana
+  - Marine Larissa
+  - Marine Laura
+  - Marine Leticia
+  - Marine Luana
+  - Marine Mariana
+  - Marine Natália
+  - Marine Rafaela
+  - Marine Thais
+  - Marine Vitoria
+maleLast:
+  - Almeida
+  - Alves
+  - Araújo
+  - Barbosa
+  - Cardoso
+  - Carvalho
+  - Costa
+  - Ferreira
+  - Gomes
+  - Lima
+  - Martins
+  - Melo
+  - Oliveira
+  - Pereira
+  - Ribeiro
+  - Rocha
+  - Rodrigues
+  - Santos
+  - Silva
+  - Sousa

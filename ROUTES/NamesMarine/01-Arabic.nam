@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - Marine Abdullah
+  - Marine Abu
+  - Marine Ahmed
+  - Marine Ali
+  - Marine Bilal
+  - Marine Fadil
+  - Marine Farid
+  - Marine Faysal
+  - Marine Ghassan
+  - Marine Habib
+  - Marine Hakim
+  - Marine Hassan
+  - Marine Ibrahim
+  - Marine Khalid
+  - Marine Mahmoud
+  - Marine Muhammad
+  - Marine Najib
+  - Marine Nasir
+  - Marine Omar
+  - Marine Rashid
+  - Marine Tariq
+  - Marine Yusuf
+femaleFirst:
+  - Marine Alia
+  - Marine Amirah
+  - Marine Asma
+  - Marine Farah
+  - Marine Fatima
+  - Marine Ghaliya
+  - Marine Hafsa
+  - Marine Haniya
+  - Marine Iman
+  - Marine Jalila
+  - Marine Jawahir
+  - Marine Karima
+  - Marine Laila
+  - Marine Latifa
+  - Marine Malaika
+  - Marine Maryam
+  - Marine Mona
+  - Marine Nadia
+  - Marine Noor
+  - Marine Rafiqa
+  - Marine Samira
+  - Marine Sumayya
+maleLast:
+  - Abdullah
+  - Ahmed
+  - El-Amin
+  - Hakim
+  - Hussain
+  - Karim
+  - Muhammad
+  - Sultan
+  - Qureshi
+  - Malouf
+  - Hajjar
+  - Asaf
+  - Khouri
+  - Tahan
+  - Wasem
+  - Mustafa
+  - Hadad
+  - Kanaan
+  - Islam
+  - Nasri
+  - Kassab
+  - Ibrahim

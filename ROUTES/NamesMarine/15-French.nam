@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - Marine Alain
+  - Marine Alban
+  - Marine Armand
+  - Marine Benoit
+  - Marine Bruno
+  - Marine Calvin
+  - Marine Christian
+  - Marine Claude
+  - Marine Corentin
+  - Marine Damien
+  - Marine Denis
+  - Marine Emile
+  - Marine Etienne
+  - Marine Ethan
+  - Marine Fabien
+  - Marine Francis
+  - Marine Frederic
+  - Marine Gaston
+  - Marine Gerard
+  - Marine Guillaume
+  - Marine Henri
+  - Marine Hugo
+  - Marine Jacques
+  - Marine Jean
+  - Marine Jules
+  - Marine Leon
+  - Marine Lionel
+  - Marine Louis
+  - Marine Lucas
+  - Marine Mathis
+  - Marine Marc
+  - Marine Marcel
+  - Marine Michel
+  - Marine Nathan
+  - Marine Nicolas
+  - Marine Olivier
+  - Marine Pascal
+  - Marine Paul
+  - Marine Pierre
+  - Marine Philippe
+  - Marine Quentin
+  - Marine Raphael
+  - Marine Remi
+  - Marine Rene
+  - Marine Robert
+  - Marine Roger
+  - Marine Sebastien
+  - Marine Simon
+  - Marine Sylvain
+  - Marine Thibault
+  - Marine Victor
+  - Marine Vincent
+  - Marine Yves
+femaleFirst:
+  - Marine Anne
+  - Marine Audrey
+  - Marine Brigitte
+  - Marine Camille
+  - Marine Catherine
+  - Marine Chantal
+  - Marine Claire
+  - Marine Clara
+  - Marine Cloe
+  - Marine Danielle
+  - Marine Dominique
+  - Marine Elisabeth
+  - Marine Eva
+  - Marine Florence
+  - Marine Francoise
+  - Marine Gaelle
+  - Marine Geraldine
+  - Marine Helene
+  - Marine Isabelle
+  - Marine Ludivine
+  - Marine Lydia
+  - Marine Jacqueline
+  - Marine Jeanne
+  - Marine Julie
+  - Marine Laure
+  - Marine Lina
+  - Marine Lilou
+  - Marine Maelys
+  - Marine Marie
+  - Marine Marion
+  - Marine Marguerite
+  - Marine Maud
+  - Marine Murielle
+  - Marine Nathalie
+  - Marine Odile
+  - Marine Rachel
+  - Marine Rose
+  - Marine Sabine
+  - Marine Sandrine
+  - Marine Stephanie
+  - Marine Sonia
+  - Marine Sylvie
+  - Marine Valerie
+  - Marine Veronique
+  - Marine Zoe
+maleLast:
+  - Andre
+  - Berger
+  - Bernard
+  - Bertrand
+  - Bonnet
+  - Bouissou
+  - Bourgeois
+  - Bouton
+  - Bouvier
+  - Blanc
+  - Blondel
+  - Buchard
+  - Caron
+  - Chevalier
+  - Coicard
+  - Collet
+  - Collignon
+  - Coste
+  - Couturier
+  - Clement
+  - Cuvelier
+  - Dagallier
+  - Delorme
+  - Dreyfus
+  - Dubois
+  - Ducourtioux
+  - Dujardin
+  - Dumont
+  - Dupuis
+  - Dupre
+  - Duval
+  - Fabre
+  - Faure
+  - Fontaine
+  - Fournier
+  - Gaillard
+  - Garcia
+  - Gaudrin
+  - Gautier
+  - Gressier
+  - Guerin
+  - Guillot
+  - Girard
+  - Giraudon
+  - Heroin
+  - Lacroix
+  - Laroyenne
+  - Lambert
+  - Laroche
+  - Larue
+  - Laurent
+  - Leclerc
+  - Lecointe
+  - Lecomte
+  - Leduc
+  - Lefevre
+  - Legrand
+  - Leroy
+  - Luget
+  - Marcelle
+  - Martin
+  - Menardier
+  - Mercier
+  - Meunier
+  - Moreau
+  - Morel
+  - Morin
+  - Mathieu
+  - Muller
+  - Pecheux
+  - Pelletier
+  - Perrin
+  - Perrot
+  - Petit
+  - Picar
+  - Roussel
+  - Revenu
+  - Roux
+  - Richard
+  - Simon
+  - Thomas
+  - Verdier

@@ -1,0 +1,727 @@
+lookWeights:
+  - 0
+  - 0
+  - 1
+  - 99
+maleFirst:
+  - ODST Abasi
+  - ODST Adin
+  - ODST Akili
+  - ODST Amali
+  - ODST Amaziah
+  - ODST Ashura
+  - ODST Chege
+  - ODST Chilemba
+  - ODST Chitundu
+  - ODST Chiumbo
+  - ODST Darweshi
+  - ODST Etana
+  - ODST Fadhili
+  - ODST Feruzi
+  - ODST Gachora
+  - ODST Gacoki
+  - ODST Gakere
+  - ODST Gakuru
+  - ODST Gatete
+  - ODST Gathee
+  - ODST Gathii
+  - ODST Gatimu
+  - ODST Gethii
+  - ODST Gichinga
+  - ODST Gicicio
+  - ODST Gikuyu
+  - ODST Githinji
+  - ODST Githogori
+  - ODST Gitonga
+  - ODST Haji
+  - ODST Hala
+  - ODST Hamisi
+  - ODST Hiuhu
+  - ODST Ikinya
+  - ODST Iregi
+  - ODST Irungu
+  - ODST Ita
+  - ODST Itimu
+  - ODST Jaramogi
+  - ODST Jalil
+  - ODST Jimiyu
+  - ODST Jomo
+  - ODST Jamil
+  - ODST Juahar
+  - ODST Jimiyu
+  - ODST Jina
+  - ODST Jirani
+  - ODST Jomo
+  - ODST Kafil
+  - ODST Kagai
+  - ODST Kagunda
+  - ODST Kahiga
+  - ODST Kairu
+  - ODST Kamau
+  - ODST Kamili
+  - ODST Kanja
+  - ODST Kanoro
+  - ODST Karani
+  - ODST Karega
+  - ODST Kariuki
+  - ODST Kereenyaga
+  - ODST Kiambiroiro
+  - ODST Kianjahe
+  - ODST Kiano
+  - ODST Kianyandaarwa
+  - ODST Kiara
+  - ODST Kifimbo
+  - ODST Kihara
+  - ODST Kihiga
+  - ODST Kimathi
+  - ODST Kimotho
+  - ODST Kinoro
+  - ODST Kinyua
+  - ODST Kioi
+  - ODST Kirimi
+  - ODST Kirinyaga
+  - ODST Kithingi
+  - ODST Kiwonto
+  - ODST Koigi
+  - ODST Kuguru
+  - ODST Kwasi
+  - ODST Lipapwiche
+  - ODST Lisimba
+  - ODST Lusala
+  - ODST Macaria
+  - ODST Maina
+  - ODST Maitho
+  - ODST Makalani
+  - ODST Makori
+  - ODST Mathaathi
+  - ODST Matu
+  - ODST Matunde
+  - ODST Maundu
+  - ODST Mbogo
+  - ODST Mbui
+  - ODST Miano
+  - ODST Migwi
+  - ODST Mokabi
+  - ODST Morani
+  - ODST Mosi
+  - ODST Muenda
+  - ODST Muga
+  - ODST Mugendi
+  - ODST Mugi
+  - ODST Mugo
+  - ODST Muiru
+  - ODST Muiruri
+  - ODST Mukanda
+  - ODST Mukiri
+  - ODST Mukuru
+  - ODST Munene
+  - ODST Munoru
+  - ODST Muraguri
+  - ODST Murathi
+  - ODST Muraya
+  - ODST Muriithi
+  - ODST Murimi
+  - ODST Muriu
+  - ODST Muriuki
+  - ODST Muroki
+  - ODST Muruthi
+  - ODST Mutahi
+  - ODST Mutegi
+  - ODST Mutemi
+  - ODST Muthee
+  - ODST Muthemba
+  - ODST Muthengi
+  - ODST Mutheru
+  - ODST Muthomi
+  - ODST Muthuri
+  - ODST Mutira
+  - ODST Mutiri
+  - ODST Mutitu
+  - ODST Mutonyi
+  - ODST Mutua
+  - ODST Muturi
+  - ODST Muugi
+  - ODST Mwaka
+  - ODST Mwangi
+  - ODST Mwara
+  - ODST Mwarania
+  - ODST Mwaria
+  - ODST Mwenda
+  - ODST Nangila
+  - ODST Nangwaya
+  - ODST Ndegwa
+  - ODST Ndemi
+  - ODST Nderu
+  - ODST Ndwiga
+  - ODST Ngare
+  - ODST Ngigi
+  - ODST Ngumo
+  - ODST Njama
+  - ODST Njanu
+  - ODST Njata
+  - ODST Njau
+  - ODST Njiraini
+  - ODST Njiru
+  - ODST Njogu
+  - ODST Njora
+  - ODST Njowga
+  - ODST Njururi
+  - ODST Nyachae
+  - ODST Nyaga
+  - ODST Nyamu
+  - ODST Nyatui
+  - ODST Nyoike
+  - ODST Obama
+  - ODST Obuya
+  - ODST Ochieng
+  - ODST Odikinyi
+  - ODST Odinga
+  - ODST Odonga
+  - ODST Odour
+  - ODST Ohon
+  - ODST Ojwang
+  - ODST Okello
+  - ODST Okeyo
+  - ODST Okoth
+  - ODST Oluoch
+  - ODST Omariba
+  - ODST Omondi
+  - ODST Omwancha
+  - ODST Ongweng
+  - ODST Onindo
+  - ODST Onkwani
+  - ODST Onyango
+  - ODST Opiyo
+  - ODST Osogo
+  - ODST Othiambo
+  - ODST Otenio
+  - ODST Owino
+  - ODST Owiti
+  - ODST Owuor
+  - ODST Pili
+  - ODST Radhi
+  - ODST Riitho
+  - ODST Ruguru
+  - ODST Ruhiu
+  - ODST Runo
+  - ODST Sabra
+  - ODST Safi
+  - ODST Shamim
+  - ODST Shani
+  - ODST Simba
+  - ODST Sokoro
+  - ODST Thabiti
+  - ODST Tumaini
+  - ODST Tuwile
+  - ODST Wachiru
+  - ODST Waga
+  - ODST Waithaka
+  - ODST Waitimu
+  - ODST Waiyaki
+  - ODST Wamai
+  - ODST Wambua
+  - ODST Wamugunda
+  - ODST Wamukota
+  - ODST Wamwara
+  - ODST Wangombe
+  - ODST Wangondu
+  - ODST Wanjala
+  - ODST Wanjohi
+  - ODST Wanyanga
+  - ODST Waruhiu
+  - ODST Warui
+  - ODST Waweru
+  - ODST Wekesa
+femaleFirst:
+  - ODST Aaliyah
+  - ODST Adhra
+  - ODST Adila
+  - ODST Adimu
+  - ODST Adin
+  - ODST Adla
+  - ODST Afaafa
+  - ODST Afifa
+  - ODST Afifah
+  - ODST Afiya
+  - ODST Afrika
+  - ODST Afya
+  - ODST Ahadi
+  - ODST Aida
+  - ODST Ainra
+  - ODST Ajia
+  - ODST Akello
+  - ODST Akila
+  - ODST Akilah
+  - ODST Akili
+  - ODST Aliya
+  - ODST Almasi
+  - ODST Aluna
+  - ODST Amali
+  - ODST Amana
+  - ODST Amaziah
+  - ODST Amina
+  - ODST Aminah
+  - ODST Aminali
+  - ODST Aminifu
+  - ODST Amira
+  - ODST Amne
+  - ODST Angavu
+  - ODST Anisun
+  - ODST Arafa
+  - ODST Arifa
+  - ODST Arusi
+  - ODST Asali
+  - ODST Asatira
+  - ODST Asha
+  - ODST Ashura
+  - ODST Asilia
+  - ODST Asiya
+  - ODST Asma
+  - ODST Asmahani
+  - ODST Asumini
+  - ODST Asya
+  - ODST Awena
+  - ODST Aza
+  - ODST Aziza
+  - ODST Badriya
+  - ODST Bahati
+  - ODST Bahiya
+  - ODST Barke
+  - ODST Basha
+  - ODST Bashaam
+  - ODST Bashira
+  - ODST Basma
+  - ODST Basmah
+  - ODST Batuuli
+  - ODST Baya
+  - ODST Bayyina
+  - ODST Bebi
+  - ODST Bia
+  - ODST Bimbaya
+  - ODST Bimdogo
+  - ODST Bimkubwa
+  - ODST Bimnono
+  - ODST Bishara
+  - ODST Bitisururu
+  - ODST Bititi
+  - ODST Biubwa
+  - ODST Buqisi
+  - ODST Busara
+  - ODST Bushira
+  - ODST Chaniya
+  - ODST Chausiku
+  - ODST Chiku
+  - ODST Chuki
+  - ODST Dabiku
+  - ODST Dafina
+  - ODST Dalila
+  - ODST Dalili
+  - ODST Damisi
+  - ODST Dhakiya
+  - ODST Dhambizao
+  - ODST Dhuriya
+  - ODST Dodo
+  - ODST Ducha
+  - ODST Duni
+  - ODST Durah
+  - ODST Durra
+  - ODST Eidi
+  - ODST Eshe
+  - ODST Etana
+  - ODST Fadhila
+  - ODST Fadhili
+  - ODST Fadiya
+  - ODST Fadari
+  - ODST Fahima
+  - ODST Fahimah
+  - ODST Faida
+  - ODST Faika
+  - ODST Faiza
+  - ODST Faizah
+  - ODST Fanaka
+  - ODST Fanikia
+  - ODST Faraja
+  - ODST Farashuu
+  - ODST Farida
+  - ODST Farisi
+  - ODST Fasaha
+  - ODST Fathiya
+  - ODST Fatima
+  - ODST Fatuma
+  - ODST Fauziya
+  - ODST Feruzi
+  - ODST Fila
+  - ODST Firdawsi
+  - ODST Firyali
+  - ODST Fujo
+  - ODST Furaha
+  - ODST Gasira
+  - ODST Ghalyela
+  - ODST Ghanima
+  - ODST Gharibuu
+  - ODST Gheche
+  - ODST Ghinjo
+  - ODST Ghipe
+  - ODST Habeebah
+  - ODST Habiba
+  - ODST Habibah
+  - ODST Hadhi
+  - ODST Hadiya
+  - ODST Hafidha
+  - ODST Hafsa
+  - ODST Hafsah
+  - ODST Haiba
+  - ODST Haifa
+  - ODST Hakika
+  - ODST Hakima
+  - ODST Hala
+  - ODST Halili
+  - ODST Halima
+  - ODST Halisi
+  - ODST Hamida
+  - ODST Hanaa
+  - ODST Hanifa
+  - ODST Hanuni
+  - ODST Haoniyao
+  - ODST Harbuu
+  - ODST Hartha
+  - ODST Hasanati
+  - ODST Hashiki
+  - ODST Hasijna
+  - ODST Hasina
+  - ODST Hasnaa
+  - ODST Hawa
+  - ODST Hawla
+  - ODST Hazina
+  - ODST Hediye
+  - ODST Hiari
+  - ODST Hiba
+  - ODST Hidaya
+  - ODST Himidi
+  - ODST Hisani
+  - ODST Huruma
+  - ODST Ibtisam
+  - ODST Ikinya
+  - ODST Ilham
+  - ODST Inaya
+  - ODST Intisar
+  - ODST Ita
+  - ODST Itidal
+  - ODST Jaha
+  - ODST Jahi
+  - ODST Jamila
+  - ODST Jana
+  - ODST Jauhar
+  - ODST Jina
+  - ODST Jirani
+  - ODST Johanna
+  - ODST Johari
+  - ODST Jokha
+  - ODST Jumapili
+  - ODST Juwayria
+  - ODST Kabisa
+  - ODST Kadija
+  - ODST Kainda
+  - ODST Kamaria
+  - ODST Kamili
+  - ODST Kanai
+  - ODST Kanika
+  - ODST Karama
+  - ODST Karima
+  - ODST Karimu
+  - ODST Kaweria
+  - ODST Kesi
+  - ODST Khadija
+  - ODST Kibibi
+  - ODST Kifimbo
+  - ODST Kijakazi
+  - ODST Kinaya
+  - ODST Kioni
+  - ODST Kipenzi
+  - ODST Kisima
+  - ODST Kito
+  - ODST Lamia
+  - ODST Latifa
+  - ODST Latifah
+  - ODST Latifu
+  - ODST Layla
+  - ODST Lela
+  - ODST Lila
+  - ODST Madaha
+  - ODST Madiha
+  - ODST Maisha
+  - ODST Makena
+  - ODST Makini
+  - ODST Malaika
+  - ODST Malia
+  - ODST Malika
+  - ODST Malkia
+  - ODST Mariamu
+  - ODST Marini
+  - ODST Marjani
+  - ODST Mashavu
+  - ODST Masika
+  - ODST Maskini
+  - ODST Maulidi
+  - ODST Merah
+  - ODST Mila
+  - ODST Mosi
+  - ODST Muna
+  - ODST Munira
+  - ODST Murua
+  - ODST Mwajuma
+  - ODST Mwamini
+  - ODST Mwasaa
+  - ODST Nabila
+  - ODST Nadra
+  - ODST Nafula
+  - ODST Naima
+  - ODST Najia
+  - ODST Najma
+  - ODST Nana
+  - ODST Ndege
+  - ODST Neema
+  - ODST Nena
+  - ODST Ngina
+  - ODST Nia
+  - ODST Niara
+  - ODST Njeri
+  - ODST Nuha
+  - ODST Nura
+  - ODST Nuru
+  - ODST Paka
+  - ODST Panya
+  - ODST Pasua
+  - ODST Pili
+  - ODST Rabia
+  - ODST Radhi
+  - ODST Rahma
+  - ODST Ramla
+  - ODST Raziya
+  - ODST Reem
+  - ODST Rehema
+  - ODST Rim
+  - ODST Rukiya
+  - ODST Ruqayah
+  - ODST Saada
+  - ODST Sabiha
+  - ODST Sabra
+  - ODST Sadaka
+  - ODST Sadiki
+  - ODST Saida
+  - ODST Sakina
+  - ODST Sala
+  - ODST Salama
+  - ODST Salima
+  - ODST Samiha
+  - ODST Samira
+  - ODST Sanaa
+  - ODST Sanura
+  - ODST Sauda
+  - ODST Shahida
+  - ODST Shamim
+  - ODST Shani
+  - ODST Sharifa
+  - ODST Shawana
+  - ODST Shukura
+  - ODST Siham
+  - ODST Sikudhani
+  - ODST Siri
+  - ODST Sisya
+  - ODST Siti
+  - ODST Subira
+  - ODST Suhaila
+  - ODST Tabia
+  - ODST Tamasha
+  - ODST Tatu
+  - ODST Tawa
+  - ODST Tuhfa
+  - ODST Tumaini
+  - ODST Wambui
+  - ODST Waseme
+  - ODST Yumna
+  - ODST Pusra
+  - ODST Zahra
+  - ODST Zaida
+  - ODST Zaina
+  - ODST Zainabu
+  - ODST Zakiya
+  - ODST Zalika
+  - ODST Zarifa
+  - ODST Zarina
+  - ODST Zawadi
+  - ODST Zera
+  - ODST Zulaykha
+  - ODST Zulekha
+  - ODST Zuwena
+maleLast:
+  - Abdullah
+  - Aga
+  - Ahmed
+  - Akina
+  - Ali
+  - Amanaka
+  - Ambani
+  - Amin
+  - Aneko
+  - Asoyo
+  - Atieno
+  - Audi
+  - Badat
+  - Barasa
+  - Bhudia
+  - Bilali
+  - Birir
+  - Biwott
+  - Boit
+  - Chege
+  - Chelimo
+  - Chepchumba
+  - Chudasama
+  - Daar
+  - Echesa
+  - Ekhalie
+  - Ereng
+  - Gikonyo
+  - Inkera
+  - Irungu
+  - Itote
+  - Jakoyo
+  - Janmohamed
+  - Jesani
+  - Kagwe
+  - Kamande
+  - Kamaru
+  - Kamau
+  - Kamotho
+  - Karanja
+  - Karim
+  - Kariuki
+  - Karumba
+  - Kayange
+  - Keino
+  - Kenga
+  - Kenyatta
+  - Kiano
+  - Kibaki
+  - Kijana
+  - Kimathi
+  - Kimunya
+  - Kipketer
+  - Kipyego
+  - Kitur
+  - Koinange
+  - Konde
+  - Lagat
+  - Loroupe
+  - Luseno
+  - Luvutsi
+  - Macharia
+  - Machogu
+  - Magugu
+  - Makacha
+  - Maruti
+  - Masai
+  - Mathenge
+  - Matiba
+  - Mazrui
+  - Mboya
+  - Mdawida
+  - Mehta
+  - Michucki
+  - Migai
+  - Misiani
+  - Modi
+  - Moi
+  - Muchoki
+  - Mudavadi
+  - Muiruri
+  - Mulama
+  - Muliro
+  - Mumba
+  - Murumbi
+  - Murunga
+  - Murungaru
+  - Musyoka
+  - Muttendango
+  - Mwangi
+  - Mwariama
+  - Mwatha
+  - Ndege
+  - Ndereba
+  - Ngei
+  - Ngoche
+  - Ngugi
+  - Njenga
+  - Njonjo
+  - Njoroge
+  - Njue
+  - Ntalami
+  - Nyachae
+  - Nyandoro
+  - Obama
+  - Obanda
+  - Obuya
+  - Ochieng
+  - Odera
+  - Odhiambo
+  - Odinga
+  - Odumbe
+  - Oduol
+  - Oduor
+  - Ogola
+  - Ogot
+  - Okayo
+  - Okoth
+  - Okumu
+  - Oliech
+  - Olum
+  - Omondi
+  - Ongondo
+  - Onyango
+  - Orengo
+  - Origi
+  - Osiako
+  - Otieno
+  - Otunga
+  - Ouko
+  - Ouma
+  - Oyuga
+  - Patel
+  - Pinto
+  - Quaraishy
+  - Ramrakha
+  - Ring
+  - Rombo
+  - Rono
+  - Rubia
+  - Sadiq
+  - Sande
+  - Santos
+  - Serry
+  - Shah
+  - Shaheen
+  - Sharma
+  - Sheikh
+  - Sorongo
+  - Suji
+  - Tergat
+  - Thuku
+  - Tikolo
+  - Tiyoi
+  - Varaiya
+  - Waciuri
+  - Wainaina
+  - Wainana
+  - Wakiihuri
+  - Wambugu
+  - Wanga
+  - Wangila
+  - Wanja
+  - Wanjiru
+  - Wanyama
+  - Wanyoike
+  - Waruinge
+  - Wa Thiongo
+  - Wa Wamwere
+  - Wa Wanjau

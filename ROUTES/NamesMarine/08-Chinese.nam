@@ -1,0 +1,1006 @@
+# Note: "first" names here are family names, "last" names are given names.
+lookWeights:
+  - 1
+  - 1
+  - 93
+  - 5
+maleFirst:
+  - Marine An
+  - Marine Ang
+  - Marine Ao
+  - Marine Au
+  - Marine Au Yeung
+  - Marine Bai
+  - Marine Ban
+  - Marine Bao
+  - Marine Bau
+  - Marine Bi
+  - Marine Bo
+  - Marine Bu
+  - Marine Cai
+  - Marine Cao
+  - Marine Cha
+  - Marine Chai
+  - Marine Cham
+  - Marine Chan
+  - Marine Chang
+  - Marine Chao
+  - Marine Chau
+  - Marine Che
+  - Marine Cheah
+  - Marine Chee
+  - Marine Chen
+  - Marine Cheng
+  - Marine Cheong
+  - Marine Chern
+  - Marine Cheung
+  - Marine Chew
+  - Marine Chi
+  - Marine Chia
+  - Marine Chiang
+  - Marine Chiao
+  - Marine Chien
+  - Marine Chim
+  - Marine Chin
+  - Marine Ching
+  - Marine Chiong
+  - Marine Chiou
+  - Marine Chiu
+  - Marine Cho
+  - Marine Choi
+  - Marine Chong
+  - Marine Choo
+  - Marine Chou
+  - Marine Chow
+  - Marine Choy
+  - Marine Chu
+  - Marine Chua
+  - Marine Cheang
+  - Marine Chui
+  - Marine Chun
+  - Marine Chung
+  - Marine Cong
+  - Marine Cui
+  - Marine Dai
+  - Marine Dang
+  - Marine Dea
+  - Marine Deng
+  - Marine Ding
+  - Marine Do
+  - Marine Dong
+  - Marine Doo
+  - Marine Du
+  - Marine Duan
+  - Marine Dung
+  - Marine Eng
+  - Marine Fan
+  - Marine Fang
+  - Marine Fei
+  - Marine Feng
+  - Marine Fok
+  - Marine Fong
+  - Marine Foo
+  - Marine Fu
+  - Marine Fung
+  - Marine Gan
+  - Marine Gang
+  - Marine Gao
+  - Marine Gau
+  - Marine Ge
+  - Marine Geng
+  - Marine Go
+  - Marine Goh
+  - Marine Gong
+  - Marine Gu
+  - Marine Guan
+  - Marine Guo
+  - Marine Ha
+  - Marine Hai
+  - Marine Han
+  - Marine Hang
+  - Marine Hao
+  - Marine Hau
+  - Marine He
+  - Marine Ho
+  - Marine Hoh
+  - Marine Hom
+  - Marine Hon
+  - Marine Hong
+  - Marine Hoo
+  - Marine Hou
+  - Marine Hsi
+  - Marine Hsia
+  - Marine Hsiao
+  - Marine Hsieh
+  - Marine Hsiung
+  - Marine Hsu
+  - Marine Hsueh
+  - Marine Hu
+  - Marine Hua
+  - Marine Huang
+  - Marine Hui
+  - Marine Huie
+  - Marine Hum
+  - Marine Hung
+  - Marine Huo
+  - Marine Hwang
+  - Marine Hy
+  - Marine Ing
+  - Marine Ip
+  - Marine Jan
+  - Marine Jang
+  - Marine Jen
+  - Marine Jeng
+  - Marine Jeung
+  - Marine Jew
+  - Marine Ji
+  - Marine Jia
+  - Marine Jian
+  - Marine Jiang
+  - Marine Jiao
+  - Marine Jim
+  - Marine Jin
+  - Marine Jing
+  - Marine Jo
+  - Marine Joe
+  - Marine Jong
+  - Marine Joo
+  - Marine Jou
+  - Marine Jow
+  - Marine Ju
+  - Marine Jue
+  - Marine Jung
+  - Marine Kam
+  - Marine Kan
+  - Marine Kang
+  - Marine Kao
+  - Marine Kau
+  - Marine Ke
+  - Marine Keng
+  - Marine Kho
+  - Marine Khoo
+  - Marine Kiang
+  - Marine King
+  - Marine Ko
+  - Marine Koh
+  - Marine Kong
+  - Marine Koo
+  - Marine Kook
+  - Marine Kou
+  - Marine Ku
+  - Marine Kuan
+  - Marine Kuang
+  - Marine Kuk
+  - Marine Kung
+  - Marine Kuang
+  - Marine Kuo
+  - Marine Kwan
+  - Marine Kwock
+  - Marine Kwok
+  - Marine Kwon
+  - Marine Kwong
+  - Marine Lai
+  - Marine Lam
+  - Marine Lan
+  - Marine Lang
+  - Marine Lao
+  - Marine Lau
+  - Marine Lee
+  - Marine Lei
+  - Marine Leng
+  - Marine Leong
+  - Marine Leung
+  - Marine Lew
+  - Marine Li
+  - Marine Lian
+  - Marine Liang
+  - Marine Liao
+  - Marine Liaw
+  - Marine Lien
+  - Marine Liew
+  - Marine Lim
+  - Marine Lin
+  - Marine Ling
+  - Marine Liou
+  - Marine Liu
+  - Marine Lo
+  - Marine Loh
+  - Marine Lok
+  - Marine Long
+  - Marine Loo
+  - Marine Lou
+  - Marine Louie
+  - Marine Lu
+  - Marine Lua
+  - Marine Lui
+  - Marine Luk
+  - Marine Lum
+  - Marine Lung
+  - Marine Luo
+  - Marine Ma
+  - Marine Mah
+  - Marine Mai
+  - Marine Mak
+  - Marine Man
+  - Marine Mao
+  - Marine Mar
+  - Marine Mau
+  - Marine May
+  - Marine Mei
+  - Marine Meng
+  - Marine Miao
+  - Marine Min
+  - Marine Ming
+  - Marine Miu
+  - Marine Mo
+  - Marine Mok
+  - Marine Mon
+  - Marine Mou
+  - Marine Moy
+  - Marine Mu
+  - Marine Mui
+  - Marine Na
+  - Marine Ng
+  - Marine Ngai
+  - Marine Ngan
+  - Marine Ngo
+  - Marine Ni
+  - Marine Nie
+  - Marine Ning
+  - Marine Niu
+  - Marine On
+  - Marine Ong
+  - Marine Ou
+  - Marine Ou Yang
+  - Marine Ow
+  - Marine Owyang
+  - Marine Pan
+  - Marine Pang
+  - Marine Pao
+  - Marine Pei
+  - Marine Peng
+  - Marine Pi
+  - Marine Ping
+  - Marine Po
+  - Marine Pon
+  - Marine Pong
+  - Marine Poon
+  - Marine Pu
+  - Marine Pun
+  - Marine Qi
+  - Marine Qian
+  - Marine Qiao
+  - Marine Qin
+  - Marine Qiu
+  - Marine Qu
+  - Marine Quan
+  - Marine Que
+  - Marine Rao
+  - Marine Ren
+  - Marine Rong
+  - Marine Ruan
+  - Marine Sam
+  - Marine San
+  - Marine Sang
+  - Marine Seto
+  - Marine Sha
+  - Marine Sham
+  - Marine Shan
+  - Marine Shang
+  - Marine Shao
+  - Marine Shaw
+  - Marine Shek
+  - Marine Shen
+  - Marine Sheng
+  - Marine Sheu
+  - Marine Shi
+  - Marine Shiau
+  - Marine Shieh
+  - Marine Shih
+  - Marine Shing
+  - Marine Shiu
+  - Marine Shu
+  - Marine Shum
+  - Marine Shy
+  - Marine Shyu
+  - Marine Si
+  - Marine Sieh
+  - Marine Sin
+  - Marine Sing
+  - Marine Sit
+  - Marine Situ
+  - Marine Siu
+  - Marine So
+  - Marine Soh
+  - Marine Song
+  - Marine Soo
+  - Marine Soo Hoo
+  - Marine Soon
+  - Marine Soong
+  - Marine Su
+  - Marine Suen
+  - Marine Sui
+  - Marine Sum
+  - Marine Sun
+  - Marine Sung
+  - Marine Sze
+  - Marine Szeto
+  - Marine Tai
+  - Marine Tam
+  - Marine Tan
+  - Marine Tang
+  - Marine Tao
+  - Marine Tay
+  - Marine Te
+  - Marine Teh
+  - Marine Teng
+  - Marine Teo
+  - Marine Tian
+  - Marine Tien
+  - Marine Tin
+  - Marine Ting
+  - Marine Tiu
+  - Marine To
+  - Marine Toh
+  - Marine Tom
+  - Marine Tong
+  - Marine Tsai
+  - Marine Tsang
+  - Marine Tsao
+  - Marine Tsay
+  - Marine Tse
+  - Marine Tseng
+  - Marine Tso
+  - Marine Tsoi
+  - Marine Tsou
+  - Marine Tsu
+  - Marine Tsui
+  - Marine Tu
+  - Marine Tuan
+  - Marine Tung
+  - Marine Tzeng
+  - Marine U
+  - Marine Un
+  - Marine Ung
+  - Marine Wah
+  - Marine Wai
+  - Marine Wan
+  - Marine Wang
+  - Marine Wee
+  - Marine Wei
+  - Marine Wen
+  - Marine Weng
+  - Marine Wing
+  - Marine Wong
+  - Marine Woo
+  - Marine Woon
+  - Marine Wu
+  - Marine Xi
+  - Marine Xia
+  - Marine Xiang
+  - Marine Xiao
+  - Marine Xie
+  - Marine Xin
+  - Marine Xing
+  - Marine Xiong
+  - Marine Xu
+  - Marine Xue
+  - Marine Yam
+  - Marine Yan
+  - Marine Yang
+  - Marine Yao
+  - Marine Yap
+  - Marine Yau
+  - Marine Yaw
+  - Marine Ye
+  - Marine Yee
+  - Marine Yeh
+  - Marine Yen
+  - Marine Yep
+  - Marine Yeung
+  - Marine Yi
+  - Marine Yim
+  - Marine Yin
+  - Marine Ying
+  - Marine Yip
+  - Marine Yiu
+  - Marine Yong
+  - Marine Yoo
+  - Marine Yoon
+  - Marine You
+  - Marine Young
+  - Marine Yu
+  - Marine Yuan
+  - Marine Yue
+  - Marine Yuen
+  - Marine Yun
+  - Marine Yung
+  - Marine Zang
+  - Marine Zeng
+  - Marine Zha
+  - Marine Zhan
+  - Marine Zhang
+  - Marine Zhao
+  - Marine Zhen
+  - Marine Zheng
+  - Marine Zhong
+  - Marine Zhou
+  - Marine Zhu
+  - Marine Zhuang
+  - Marine Zhuo
+  - Marine Zong
+  - Marine Zou
+femaleFirst:
+  - Marine An
+  - Marine Ang
+  - Marine Ao
+  - Marine Au
+  - Marine Au Yeung
+  - Marine Bai
+  - Marine Ban
+  - Marine Bao
+  - Marine Bau
+  - Marine Bi
+  - Marine Bo
+  - Marine Bu
+  - Marine Cai
+  - Marine Cao
+  - Marine Cha
+  - Marine Chai
+  - Marine Cham
+  - Marine Chan
+  - Marine Chang
+  - Marine Chao
+  - Marine Chau
+  - Marine Che
+  - Marine Cheah
+  - Marine Chee
+  - Marine Chen
+  - Marine Cheng
+  - Marine Cheong
+  - Marine Chern
+  - Marine Cheung
+  - Marine Chew
+  - Marine Chi
+  - Marine Chia
+  - Marine Chiang
+  - Marine Chiao
+  - Marine Chien
+  - Marine Chim
+  - Marine Chin
+  - Marine Ching
+  - Marine Chiong
+  - Marine Chiou
+  - Marine Chiu
+  - Marine Cho
+  - Marine Choi
+  - Marine Chong
+  - Marine Choo
+  - Marine Chou
+  - Marine Chow
+  - Marine Choy
+  - Marine Chu
+  - Marine Chua
+  - Marine Cheang
+  - Marine Chui
+  - Marine Chun
+  - Marine Chung
+  - Marine Cong
+  - Marine Cui
+  - Marine Dai
+  - Marine Dang
+  - Marine Dea
+  - Marine Deng
+  - Marine Ding
+  - Marine Do
+  - Marine Dong
+  - Marine Doo
+  - Marine Du
+  - Marine Duan
+  - Marine Dung
+  - Marine Eng
+  - Marine Fan
+  - Marine Fang
+  - Marine Fei
+  - Marine Feng
+  - Marine Fok
+  - Marine Fong
+  - Marine Foo
+  - Marine Fu
+  - Marine Fung
+  - Marine Gan
+  - Marine Gang
+  - Marine Gao
+  - Marine Gau
+  - Marine Ge
+  - Marine Geng
+  - Marine Go
+  - Marine Goh
+  - Marine Gong
+  - Marine Gu
+  - Marine Guan
+  - Marine Guo
+  - Marine Ha
+  - Marine Hai
+  - Marine Han
+  - Marine Hang
+  - Marine Hao
+  - Marine Hau
+  - Marine He
+  - Marine Ho
+  - Marine Hoh
+  - Marine Hom
+  - Marine Hon
+  - Marine Hong
+  - Marine Hoo
+  - Marine Hou
+  - Marine Hsi
+  - Marine Hsia
+  - Marine Hsiao
+  - Marine Hsieh
+  - Marine Hsiung
+  - Marine Hsu
+  - Marine Hsueh
+  - Marine Hu
+  - Marine Hua
+  - Marine Huang
+  - Marine Hui
+  - Marine Huie
+  - Marine Hum
+  - Marine Hung
+  - Marine Huo
+  - Marine Hwang
+  - Marine Hy
+  - Marine Ing
+  - Marine Ip
+  - Marine Jan
+  - Marine Jang
+  - Marine Jen
+  - Marine Jeng
+  - Marine Jeung
+  - Marine Jew
+  - Marine Ji
+  - Marine Jia
+  - Marine Jian
+  - Marine Jiang
+  - Marine Jiao
+  - Marine Jim
+  - Marine Jin
+  - Marine Jing
+  - Marine Jo
+  - Marine Joe
+  - Marine Jong
+  - Marine Joo
+  - Marine Jou
+  - Marine Jow
+  - Marine Ju
+  - Marine Jue
+  - Marine Jung
+  - Marine Kam
+  - Marine Kan
+  - Marine Kang
+  - Marine Kao
+  - Marine Kau
+  - Marine Ke
+  - Marine Keng
+  - Marine Kho
+  - Marine Khoo
+  - Marine Kiang
+  - Marine King
+  - Marine Ko
+  - Marine Koh
+  - Marine Kong
+  - Marine Koo
+  - Marine Kook
+  - Marine Kou
+  - Marine Ku
+  - Marine Kuan
+  - Marine Kuang
+  - Marine Kuk
+  - Marine Kung
+  - Marine Kuang
+  - Marine Kuo
+  - Marine Kwan
+  - Marine Kwock
+  - Marine Kwok
+  - Marine Kwon
+  - Marine Kwong
+  - Marine Lai
+  - Marine Lam
+  - Marine Lan
+  - Marine Lang
+  - Marine Lao
+  - Marine Lau
+  - Marine Lee
+  - Marine Lei
+  - Marine Leng
+  - Marine Leong
+  - Marine Leung
+  - Marine Lew
+  - Marine Li
+  - Marine Lian
+  - Marine Liang
+  - Marine Liao
+  - Marine Liaw
+  - Marine Lien
+  - Marine Liew
+  - Marine Lim
+  - Marine Lin
+  - Marine Ling
+  - Marine Liou
+  - Marine Liu
+  - Marine Lo
+  - Marine Loh
+  - Marine Lok
+  - Marine Long
+  - Marine Loo
+  - Marine Lou
+  - Marine Louie
+  - Marine Lu
+  - Marine Lua
+  - Marine Lui
+  - Marine Luk
+  - Marine Lum
+  - Marine Lung
+  - Marine Luo
+  - Marine Ma
+  - Marine Mah
+  - Marine Mai
+  - Marine Mak
+  - Marine Man
+  - Marine Mao
+  - Marine Mar
+  - Marine Mau
+  - Marine May
+  - Marine Mei
+  - Marine Meng
+  - Marine Miao
+  - Marine Min
+  - Marine Ming
+  - Marine Miu
+  - Marine Mo
+  - Marine Mok
+  - Marine Mon
+  - Marine Mou
+  - Marine Moy
+  - Marine Mu
+  - Marine Mui
+  - Marine Na
+  - Marine Ng
+  - Marine Ngai
+  - Marine Ngan
+  - Marine Ngo
+  - Marine Ni
+  - Marine Nie
+  - Marine Ning
+  - Marine Niu
+  - Marine On
+  - Marine Ong
+  - Marine Ou
+  - Marine Ou Yang
+  - Marine Ow
+  - Marine Owyang
+  - Marine Pan
+  - Marine Pang
+  - Marine Pao
+  - Marine Pei
+  - Marine Peng
+  - Marine Pi
+  - Marine Ping
+  - Marine Po
+  - Marine Pon
+  - Marine Pong
+  - Marine Poon
+  - Marine Pu
+  - Marine Pun
+  - Marine Qi
+  - Marine Qian
+  - Marine Qiao
+  - Marine Qin
+  - Marine Qiu
+  - Marine Qu
+  - Marine Quan
+  - Marine Que
+  - Marine Rao
+  - Marine Ren
+  - Marine Rong
+  - Marine Ruan
+  - Marine Sam
+  - Marine San
+  - Marine Sang
+  - Marine Seto
+  - Marine Sha
+  - Marine Sham
+  - Marine Shan
+  - Marine Shang
+  - Marine Shao
+  - Marine Shaw
+  - Marine Shek
+  - Marine Shen
+  - Marine Sheng
+  - Marine Sheu
+  - Marine Shi
+  - Marine Shiau
+  - Marine Shieh
+  - Marine Shih
+  - Marine Shing
+  - Marine Shiu
+  - Marine Shu
+  - Marine Shum
+  - Marine Shy
+  - Marine Shyu
+  - Marine Si
+  - Marine Sieh
+  - Marine Sin
+  - Marine Sing
+  - Marine Sit
+  - Marine Situ
+  - Marine Siu
+  - Marine So
+  - Marine Soh
+  - Marine Song
+  - Marine Soo
+  - Marine Soo Hoo
+  - Marine Soon
+  - Marine Soong
+  - Marine Su
+  - Marine Suen
+  - Marine Sui
+  - Marine Sum
+  - Marine Sun
+  - Marine Sung
+  - Marine Sze
+  - Marine Szeto
+  - Marine Tai
+  - Marine Tam
+  - Marine Tan
+  - Marine Tang
+  - Marine Tao
+  - Marine Tay
+  - Marine Te
+  - Marine Teh
+  - Marine Teng
+  - Marine Teo
+  - Marine Tian
+  - Marine Tien
+  - Marine Tin
+  - Marine Ting
+  - Marine Tiu
+  - Marine To
+  - Marine Toh
+  - Marine Tom
+  - Marine Tong
+  - Marine Tsai
+  - Marine Tsang
+  - Marine Tsao
+  - Marine Tsay
+  - Marine Tse
+  - Marine Tseng
+  - Marine Tso
+  - Marine Tsoi
+  - Marine Tsou
+  - Marine Tsu
+  - Marine Tsui
+  - Marine Tu
+  - Marine Tuan
+  - Marine Tung
+  - Marine Tzeng
+  - Marine U
+  - Marine Un
+  - Marine Ung
+  - Marine Wah
+  - Marine Wai
+  - Marine Wan
+  - Marine Wang
+  - Marine Wee
+  - Marine Wei
+  - Marine Wen
+  - Marine Weng
+  - Marine Wing
+  - Marine Wong
+  - Marine Woo
+  - Marine Woon
+  - Marine Wu
+  - Marine Xi
+  - Marine Xia
+  - Marine Xiang
+  - Marine Xiao
+  - Marine Xie
+  - Marine Xin
+  - Marine Xing
+  - Marine Xiong
+  - Marine Xu
+  - Marine Xue
+  - Marine Yam
+  - Marine Yan
+  - Marine Yang
+  - Marine Yao
+  - Marine Yap
+  - Marine Yau
+  - Marine Yaw
+  - Marine Ye
+  - Marine Yee
+  - Marine Yeh
+  - Marine Yen
+  - Marine Yep
+  - Marine Yeung
+  - Marine Yi
+  - Marine Yim
+  - Marine Yin
+  - Marine Ying
+  - Marine Yip
+  - Marine Yiu
+  - Marine Yong
+  - Marine Yoo
+  - Marine Yoon
+  - Marine You
+  - Marine Young
+  - Marine Yu
+  - Marine Yuan
+  - Marine Yue
+  - Marine Yuen
+  - Marine Yun
+  - Marine Yung
+  - Marine Zang
+  - Marine Zeng
+  - Marine Zha
+  - Marine Zhan
+  - Marine Zhang
+  - Marine Zhao
+  - Marine Zhen
+  - Marine Zheng
+  - Marine Zhong
+  - Marine Zhou
+  - Marine Zhu
+  - Marine Zhuang
+  - Marine Zhuo
+  - Marine Zong
+  - Marine Zou
+maleLast:
+  - An
+  - Bao
+  - Bo
+  - Bing
+  - Cai
+  - Chen
+  - Cheng
+  - Chung
+  - Confucius
+  - Cong
+  - De
+  - Deshi
+  - Dewei
+  - Dong
+  - Feng
+  - Fo-hai
+  - Fo-hsing
+  - Gan
+  - Gan
+  - Gao
+  - Genjo
+  - Guo
+  - Ho
+  - Hsin
+  - Hu
+  - Hui
+  - Hui-chao
+  - Huik'o
+  - Jian
+  - Jiang
+  - Jie
+  - Jin
+  - Jing
+  - Jun
+  - Kang
+  - Kong
+  - Lao-Tzu
+  - Lee
+  - Lei
+  - Li
+  - Liang
+  - Liko
+  - Li-liang
+  - Long
+  - Manchu
+  - Meng
+  - Ming
+  - Niao-ka
+  - Ning
+  - On
+  - Peng
+  - Qiang
+  - Qing-Nan
+  - Quon
+  - Shen
+  - Shi
+  - Shing
+  - Song
+  - Sun
+  - Tao
+  - Tian
+  - Tung
+  - Uang
+  - Wang
+  - Wei
+  - Wen
+  - Woo
+  - Wu-pen
+  - Xiaoping
+  - Yao
+  - Ye
+  - Yo
+  - Yong
+  - Yu
+  - Yuan
+  - Zong
+  - Zhu
+  - Zhuang
+femaleLast:
+  - Ah lam
+  - Ai
+  - An
+  - Bao
+  - Bi
+  - Cai
+  - Chan
+  - Chen
+  - Chen-chio
+  - Chen-tao
+  - Chow
+  - Chu hua
+  - Chun
+  - Chyou
+  - Cui
+  - Dai
+  - Da-Shin
+  - Dan
+  - Da-xia
+  - E
+  - Fai
+  - Fang
+  - Fang hua
+  - Feng
+  - Genji
+  - Guanyin
+  - Hong
+  - Hua
+  - Huan
+  - Hui
+  - Hui fang
+  - Jiao
+  - Jing Wei
+  - Ju
+  - Juan
+  - Jun
+  - Kimora
+  - Lan
+  - Le
+  - Lee
+  - Lei
+  - Lian
+  - Lien
+  - Li Hua
+  - Li Mei
+  - Li Ming
+  - Lin
+  - Ling
+  - Lixue
+  - Mee
+  - Mei
+  - Mingmei
+  - Quan
+  - Shu Fang
+  - Ting
+  - Ushi
+  - Xiang
+  - Xiao-Niao
+  - Xiao-Xing
+  - Xin
+  - Xiu Mei
+  - Yin
+  - Yu
+  - Zan
+  - Zhengqiu
+  - Zhi
+  - Zhijuan
+  - Zi

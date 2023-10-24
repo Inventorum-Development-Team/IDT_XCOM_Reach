@@ -1,0 +1,266 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - ODST Aleksandar
+  - ODST Andon
+  - ODST Andrey
+  - ODST Andrian
+  - ODST Anton
+  - ODST Antoni
+  - ODST Angel
+  - ODST Apostol
+  - ODST Atanas
+  - ODST Bogdan
+  - ODST Bogomil
+  - ODST Borislav
+  - ODST Boyko
+  - ODST Damyan
+  - ODST Danail
+  - ODST Desislav
+  - ODST Dimitar
+  - ODST Dragomir
+  - ODST Gavrail
+  - ODST Georgi
+  - ODST Hristo
+  - ODST Ilian
+  - ODST Iliya
+  - ODST Ivan
+  - ODST Ivaylo
+  - ODST Ivo
+  - ODST Kaloyan
+  - ODST Kiril
+  - ODST Konstantin
+  - ODST Krasimir
+  - ODST Krastyo
+  - ODST Lyuben
+  - ODST Lyubomir
+  - ODST Lyudmil
+  - ODST Marko
+  - ODST Miroslav
+  - ODST Momchil
+  - ODST Nikola
+  - ODST Ognyan
+  - ODST Penko
+  - ODST Petar
+  - ODST Plamen
+  - ODST Radomir
+  - ODST Samuil
+  - ODST Spas
+  - ODST Stanimir
+  - ODST Stanislav
+  - ODST Stoyan
+  - ODST Teodor
+  - ODST Tihomir
+  - ODST Todor
+  - ODST Toma
+  - ODST Tsvetan
+  - ODST Vasil
+  - ODST Ventsislav
+  - ODST Viktor
+  - ODST Vladimir
+  - ODST Vladislav
+  - ODST Yanko
+  - ODST Yoan
+  - ODST Yordan
+  - ODST Yosif
+  - ODST Zahari
+  - ODST Zhivko
+  - ODST Zlatko
+femaleFirst:
+  - ODST Ana
+  - ODST Antonia
+  - ODST Bilyana
+  - ODST Bisera
+  - ODST Bogomila
+  - ODST Borislava
+  - ODST Boyana
+  - ODST Desislava
+  - ODST Elisaveta
+  - ODST Emiliya
+  - ODST Gergana
+  - ODST Hristina
+  - ODST Iva
+  - ODST Ivana
+  - ODST Ivelina
+  - ODST Ivet
+  - ODST Izabela
+  - ODST Krasimira
+  - ODST Lidiya
+  - ODST Lilyana
+  - ODST Lyubina
+  - ODST Lyubomira
+  - ODST Lyudmila
+  - ODST Maya
+  - ODST Mirela
+  - ODST Miroslava
+  - ODST Nadejda
+  - ODST Nevena
+  - ODST Nikolina
+  - ODST Pavla
+  - ODST Pavlina
+  - ODST Radomira
+  - ODST Radoslava
+  - ODST Radostina
+  - ODST Rayna
+  - ODST Rosa
+  - ODST Rositsa
+  - ODST Silviya
+  - ODST Simona
+  - ODST Snezhana
+  - ODST Sofiya
+  - ODST Stanislava
+  - ODST Stanka
+  - ODST Stoyanka
+  - ODST Svetla
+  - ODST Svetlana
+  - ODST Tanya
+  - ODST Tatyana
+  - ODST Teodora
+  - ODST Tereza
+  - ODST Tsveta
+  - ODST Tsvetelina
+  - ODST Veselina
+  - ODST Viktoria
+  - ODST Violeta
+  - ODST Vladimira
+  - ODST Yana
+  - ODST Yoana
+  - ODST Yordanka
+maleLast:
+  - Aleksandrov
+  - Andonov
+  - Andreev
+  - Antonov
+  - Antoniev
+  - Angelov
+  - Apostolov
+  - Atanasov
+  - Bogdanov
+  - Bogomilov
+  - Borislavov
+  - Boykov
+  - Damyanov
+  - Danailov
+  - Desislavov
+  - Dimitrov
+  - Dragomirov
+  - Gavrailov
+  - Georgiev
+  - Hristov
+  - Ilianov
+  - Iliev
+  - Ivanov
+  - Ivaylov
+  - Kaloyan
+  - Kirilov
+  - Konstantinov
+  - Krasimirov
+  - Lyubenov
+  - Lyubomirov
+  - Lyudmilov
+  - Markov
+  - Miroslavov
+  - Momchilov
+  - Nikolaev
+  - Ognyanov
+  - Penkov
+  - Petrov
+  - Plamenov
+  - Radomirov
+  - Samuilov
+  - Spasov
+  - Stanimirov
+  - Stanislavov
+  - Stoyanov
+  - Teodorov
+  - Tihomirov
+  - Todorov
+  - Tomov
+  - Tsvetanov
+  - Vasilev
+  - Ventsislavov
+  - Vladimirov
+  - Vladislavov
+  - Yordanov
+  - Yosifov
+  - Zahariev
+  - Zhivkov
+  - Zlatkov
+femaleLast:
+  - Aleksandrova
+  - Andonova
+  - Andreeva
+  - Antonova
+  - Antonieva
+  - Angelova
+  - Apostolova
+  - Atanasova
+  - Bogdanova
+  - Bogomilova
+  - Borislavova
+  - Boykova
+  - Damyanova
+  - Danailova
+  - Desislavova
+  - Dimitrova
+  - Dragomirova
+  - Gavrailova
+  - Georgieva
+  - Hristova
+  - Ilianova
+  - Ilieva
+  - Ivanova
+  - Ivaylova
+  - Kaloyana
+  - Kirilova
+  - Konstantinova
+  - Krasimirova
+  - Lyubenova
+  - Lyubomirova
+  - Lyudmilova
+  - Markova
+  - Miroslavova
+  - Momchilova
+  - Nikolaeva
+  - Ognyanova
+  - Penkova
+  - Petrova
+  - Plamenova
+  - Radomirova
+  - Samuilova
+  - Stanimirova
+  - Stanislavova
+  - Stoyanova
+  - Stoykova
+  - Teodorova
+  - Tihomirova
+  - Todorova
+  - Tomova
+  - Tsvetanova
+  - Vasileva
+  - Ventsislavova
+  - Vladimirova
+  - Vladislavova
+  - Yordanova
+  - Yosifova
+  - Zaharieva
+  - Zhivkova
+  - Zlatkov
+  - Petrova
+  - Popova
+  - Romanova
+  - Semyonova
+  - Sergeeva
+  - Smirnova
+  - Sokolova
+  - Solovyova
+  - Stepanova
+  - Vasilyeva
+  - Volkova
+  - Vorobyova
+  - Yakovleva
+  - Zaitseva
+  - Zaharova

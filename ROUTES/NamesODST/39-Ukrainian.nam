@@ -1,0 +1,88 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - ODST Andriy
+  - ODST Borys
+  - ODST Dmytro
+  - ODST Ihor
+  - ODST Ivan
+  - ODST Kostyantyn
+  - ODST Kyrylo
+  - ODST Leonid
+  - ODST Maksym
+  - ODST Mykhaylo
+  - ODST Mykola
+  - ODST Oleksandr
+  - ODST Oleksiy
+  - ODST Orest
+  - ODST Pavlo
+  - ODST Petro
+  - ODST Roman
+  - ODST Ruslan
+  - ODST Serhiy
+  - ODST Stanislav
+  - ODST Taras
+  - ODST Vasyl
+  - ODST Viktor
+  - ODST Vladyslav
+  - ODST Volodymyr
+  - ODST Yehor
+  - ODST Yuriy
+femaleFirst:
+  - ODST Anastasiya
+  - ODST Hanna
+  - ODST Kateryna
+  - ODST Lyubomyra
+  - ODST Lyubov
+  - ODST Mariya
+  - ODST Mikhaylyna
+  - ODST Myroslava
+  - ODST Nadiya
+  - ODST Natalya
+  - ODST Oksana
+  - ODST Oleksandra
+  - ODST Olena
+  - ODST Olha
+  - ODST Romana
+  - ODST Ruslana
+  - ODST Snizhana
+  - ODST Sofiya
+  - ODST Svitlana
+  - ODST Svyatoslava
+  - ODST Tetyana
+  - ODST Vasylyna
+  - ODST Vira
+  - ODST Yaroslava
+  - ODST Yuliya
+  - ODST Zoryana
+maleLast:
+  - Bondar
+  - Bondarenko
+  - Boyko
+  - Gavrilyuk
+  - Lisenko
+  - Klimenko
+  - Koval
+  - Kovalenko
+  - Kovalchuk
+  - Kravchenko
+  - Kravchuk
+  - Kuzmienko
+  - Marchenko
+  - Melnik
+  - Moroz
+  - Oliynik
+  - Pawlenko
+  - Petrenko
+  - Polishuk
+  - Rudenko
+  - Savchenko
+  - Savchuk
+  - Shevchenko
+  - Shevchuk
+  - Shved
+  - Tkachenko
+  - Tkachuk

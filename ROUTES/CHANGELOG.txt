@@ -1,0 +1,71 @@
+8-Nov-2022 v0.2
+Changes made:
+*Updated to OXCE v7.7.3
+*Added Armor Abilities to Spartans; script by Filip-H, sprites by efrenespartano & Filip-H
+*Orange flash on shield break, by Filip-H
+*Removed craftWeapons from being buyable, by Filip-H
+*Updated ammosprite script, now loaded weapons in Ufopedia, by Filip-H
+*Fixed MAC Cannon string issue, by Filip-H
+*Spartan armor colour can now be changed, by Filip-H
+*Fixed marines and troopes being able to use SPI, by Filip-H
+*Enabled Medikit and Flare to store, increased MA37 accuracy, added custom fire modes to Covenant rifles too, by efrenespartano
+*Elite Minors are now light blue instead of dark blue, by efrenespartano
+*Recolored and expanded Alien Base, now Covenant base/ship, by efrenespartano
+*New Spirit, added two-stage missions on Capital ships, by efrenespartano
+*Updates and tweaks to covenant weaponry entries in en-US, by Ikhanad
+*Addendum to pedia entries, corrections and revisions to spanish version by Ikhanad
+*removed duplicate ufopedia article, commented out redundant articles, by Filip-H
+*fixed loft issues, moved droppod from mad edge to prevent stuck troops by Filip-H
+*droppods deploy on turn 2 instead of trough knife, fixed pelican dropship issues, by Filip-H
+*reduced enemy grenade amount, by Filip-H
+*reduced odst camo values to more reasonable levels, by Filip-H
+*Removed hitAnimation on ballistic weapons to make the bullets go faster, by efrenespartano
+
+25-Jan-2022 v0.1.1 Open Beta
+Changes made:
+*Disabled specialUseEmptyHandShow
+*Minor balance changes (Plasma weapons do more damage to Shields)
+*Added missing Covenant weapon Pedia text
+*Changed fontset
+*reworked final mission reinforcements, fixed issue where they spawned as civilians, by Filip-H
+25-Jan-2022 v0.1 Open Beta
+Changes made:
+*Updated to OXCE v7.4.4
+*Added CMP Extended terrains
+*Brand new planet Reach, custom regions and cities
+*2 month-long fast campaign
+*Halo Reach, 3, ODST and Halo Wars music
+*English(US) and Spanish (LATAM 419) supported
+*Added UNSC units & armors
+- SPARTAN-III [SPI Armor, four color variants]
+- ODST [ODST Battle Armor]
+- Marine [Marine BDU (Standard, Balaclava, Light, Service Cap variants)]
+- Army Trooper [Army BDU (Standard, Balaclava, Light, Service Cap variants)]
+*Added UNSC weapons
+- SPARTAN/ODST: M6/SOCOM, M7S, SRS99
+- Marine Corps: MA5B, BR55, M6C
+- Army: MA37, M392, M6G
+- Improved diemaco's original weapon sprites
+- New Medikit sprite
+- Integrated specialWeapon Knife weapon
+*Added UNSC ships & weapons
+- Capital Ships: Paris-class Heavy Frigate, Stalward-class Light Frigate
+- Combat Craft: Sabre Fighter, Longsword Interceptor
+- Transport Craft: Falcon Gunship, Falcon Transport, Pelican Dropship
+- Weapons: MAC, 30mm Cannon, 50mm Cannon, AA Battery, 70mm Chaingun, SHIVA-class Nuke, Archer Missile, ST/Medusa Missile, ASGM-10 Missile
+*Added Covenant units
+- Sangheili (Minor, Major, Ultra, Zealot)
+- Kig-Yar (Minor, Major, Sniper)
+- Unggoy (Minor, Major, Heavy, Ultra)
+*Added Covenant weapons
+- Type-25 Pistol, Type-25 Plasma Rifle/Elite-pattern, Type-25 Plasma Rifle/Brute-pattern, Type-51 Plasma Repeater, Type-33 'Needler' GLM, Type-51 Carbine, Type-1 Antipersonnel 'Plasma' Grenade, Type-33 'Fuel Rod Gun' LAAW, Type-1 Energy Sword, Jackal Minor Shield Gauntlet, Jackal Major Shield Gauntlet
+*Added Covenant ships
+- Capital Ships: SDV-class Heavy Corvette, CPV-class Heavy Destroyer, CCS-class Battlecruiser, CAS-class Assault Carrier
+- Combat Craft: Banshee Fighter Wing, Seraph Fighter
+- Transport Craft: Spirit Dropship
+
+8-Aug-2014 r0002 Harvest
+Changes made:
+*Added T25 Plasma Pistol, Plasma Rifle, PR/I, and T51.
+*Added MA37 ICWS and SRS99.
+*Added M6C and M6C/SOCOM. 

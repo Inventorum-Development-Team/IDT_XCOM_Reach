@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - ODST Aimé Dorian
+  - ODST Alban
+  - ODST Ange
+  - ODST Annoud Prestige
+  - ODST Appollinaire
+  - ODST Arcel
+  - ODST Archange
+  - ODST Aristide
+  - ODST Armand
+  - ODST Arthur
+  - ODST Awax
+  - ODST Baurion
+  - ODST Ben
+  - ODST Benjamin
+  - ODST Bensadaa
+  - ODST Bonte
+  - ODST Boris
+  - ODST Bouse
+  - ODST Calice
+  - ODST Céléstin
+  - ODST Chatel
+  - ODST Cherald
+  - ODST Cherubin
+  - ODST Chriss
+  - ODST Christian
+  - ODST Claude
+  - ODST Davy
+  - ODST Dbacom
+  - ODST Donnel
+  - ODST Dorian
+  - ODST Dos
+  - ODST Dulcine
+  - ODST Eden
+  - ODST Edvin
+  - ODST Elyse
+  - ODST Eudes
+  - ODST Evrard
+  - ODST Fred
+  - ODST Fresnel
+  - ODST Gata
+  - ODST Geslin
+  - ODST Giordani
+  - ODST Guychel
+  - ODST Harold
+  - ODST Heldora
+  - ODST Hilde
+  - ODST Japhet
+  - ODST Joad Louad
+  - ODST Jules
+  - ODST Julle
+  - ODST Karome
+  - ODST Leonce
+  - ODST Lima
+  - ODST Lionel
+  - ODST Lucien
+  - ODST Mack
+  - ODST Marzin
+  - ODST Mbayo
+  - ODST Milan
+  - ODST Murphy
+  - ODST Oudry
+  - ODST Pascal
+  - ODST Paterne
+  - ODST Patrick
+  - ODST Prevner
+  - ODST Prince
+  - ODST Ray
+  - ODST Régis
+  - ODST Resnik
+  - ODST Rishi
+  - ODST Rodrigue
+  - ODST Rudolf
+  - ODST Sajila
+  - ODST Severin
+  - ODST Shabani
+  - ODST Stanis
+  - ODST Stephane
+  - ODST Sylvio
+  - ODST Thierry
+  - ODST Van Carrel
+  - ODST Yohan
+femaleFirst:
+  - ODST Arich
+  - ODST Arrielle
+  - ODST Ashley
+  - ODST Aubierge
+  - ODST Aude
+  - ODST Belcha
+  - ODST Belvie
+  - ODST Brunelle
+  - ODST Capricia
+  - ODST Carole
+  - ODST Cecile
+  - ODST Celvie
+  - ODST Chanfrelle
+  - ODST Christelle
+  - ODST Christiane
+  - ODST Clavidia
+  - ODST Darlène
+  - ODST Deborah
+  - ODST Diche
+  - ODST Dina
+  - ODST Docile
+  - ODST Djany
+  - ODST Emmanuelle
+  - ODST Estelle
+  - ODST Fallone
+  - ODST Fernande
+  - ODST Florèse
+  - ODST Gaelle
+  - ODST Garcia
+  - ODST Geanna
+  - ODST Giovanna
+  - ODST Gloire
+  - ODST Grace
+  - ODST Granie
+  - ODST Jaelle
+  - ODST Jannie
+  - ODST Jeanny
+  - ODST Jelvie
+  - ODST Jessica
+  - ODST Jen
+  - ODST Jodrey
+  - ODST Jolienne
+  - ODST Judith
+  - ODST Julie
+  - ODST Jupsie
+  - ODST Keicha
+  - ODST Liu
+  - ODST Lys
+  - ODST Melaine
+  - ODST Merveille
+  - ODST Michelle
+  - ODST Parfaite
+  - ODST Patrique
+  - ODST Polly
+  - ODST Privel
+  - ODST Lirna
+  - ODST Madelenne
+  - ODST Manu
+  - ODST Mary
+  - ODST Mbeko
+  - ODST Milyne
+  - ODST Monia
+  - ODST Nardelie
+  - ODST Nathalie
+  - ODST Nel
+  - ODST Nicia
+  - ODST Nuptia
+  - ODST Opportune
+  - ODST Patricia
+  - ODST Pitchou
+  - ODST Raan-sady
+  - ODST Reine
+  - ODST Rose
+  - ODST Rosa
+  - ODST Rudelle
+  - ODST Sabrina
+  - ODST Sagely
+  - ODST Sidorelle
+  - ODST Sony
+  - ODST Staelle
+  - ODST Synthyche
+  - ODST Tan
+  - ODST Vanessa
+  - ODST Winnie
+  - ODST Yornella
+maleLast:
+  - Akindele
+  - Alphonse
+  - Anaclet
+  - Augustin
+  - Aurelie
+  - Axele
+  - Badibanga
+  - Bakaji
+  - Bakwamba
+  - Bangamba
+  - Bantu
+  - Biampata
+  - Bilenga
+  - Bilenge
+  - Bilengi
+  - Bilonda
+  - Bilumbu
+  - Bitala
+  - Bitelu
+  - Biumba
+  - Buabu
+  - Buikalu
+  - Bukaka
+  - Buluba
+  - Busasa
+  - Buta
+  - Dikembe
+  - Dikengu
+  - Dikiyu
+  - Dishi
+  - Diyoka
+  - Evariste
+  - Felicien
+  - Francky
+  - Francois
+  - Gabriel
+  - Ganeramba
+  - Gaston
+  - Gilbert
+  - Gourmand
+  - Henri
+  - Honore
+  - Ilunga
+  - Jean
+  - Joseph
+  - Justin
+  - Kabala
+  - Kabamba
+  - Kabanda
+  - Kabanga
+  - Kabasela
+  - Kabemba
+  - Kabeya
+  - Kaboka
+  - Kabombo
+  - Kabongo
+  - Kabukala
+  - Kabunda
+  - Kabundangoji
+  - Kabungama
+  - Kabwa
+  - Kabwaya
+  - Kadilu
+  - Kadimu
+  - Kajangala
+  - Kajila
+  - Kajimba
+  - Kakokopo
+  - Kalala
+  - Kalanga
+  - Kalawanda
+  - Kalengedi
+  - Kaleuka
+  - Kalombo
+  - Kalonji
+  - Kalubi
+  - Kalunguji
+  - Kamanga
+  - Kambaja
+  - Kambala
+  - Kamulete
+  - Kamwania
+  - Kanda
+  - Kankolongo
+  - Kankonda
+  - Kanku
+  - Kanungu
+  - Kanyandu
+  - Kanyinda
+  - Kapinga
+  - Kapongo
+  - Kasala
+  - Kasampu
+  - Kasenga
+  - Kasongo
+  - Kasuku
+  - Kasulu
+  - Kaswaswa
+  - Katamba
+  - Katanda
+  - Katanga
+  - Katekelayi
+  - Katuku
+  - Katundu
+  - Kayemba
+  - Kayembe
+  - Kayowa
+  - Kilunsila
+  - Kimba
+  - Kishi
+  - Koloyi
+  - Komba
+  - Konji
+  - Kulondi
+  - Kutemba
+  - Lala
+  - Lemba
+  - Lengela
+  - Leonard
+  - Lisa
+  - Londa
+  - Longa
+  - Luadia
+  - Luamba
+  - Luangoyi
+  - Lubanga
+  - Lubanza
+  - Lubuya
+  - Lukodi
+  - Lukoji
+  - Lukusa
+  - Luluabourg
+  - Lumbala
+  - Lumbombo
+  - Lupenzu
+  - Lusamba
+  - Lutexa
+  - Lutonga
+  - Lutundula
+  - Mabele
+  - Mabixa
+  - Malumba
+  - Mampuya
+  - Manyangana
+  - Martin
+  - Matamba
+  - Matembela
+  - Mayi
+  - Mbayi
+  - Mbimbi
+  - Mbiya
+  - Mbiyamuenza
+  - Mbiye
+  - Mbombo
+  - Mbuyamba
+  - Mbuyangudi
+  - Mbuyi
+  - Mbwaya
+  - Meso
+  - Meta
+  - Mfunyi
+  - Miabi
+  - Mianbabu
+  - Milabi
+  - Misenga
+  - Moise
+  - Mokola
+  - Moyo
+  - Mpala
+  - Mpanda
+  - Mpoloto
+  - Mpoyi
+  - Mpuka
+  - Mpunga
+  - Mpungapoyi
+  - Muadi
+  - Muamba
+  - Muanza
+  - Mubenga
+  - Mubiayi
+  - Mubimalu
+  - Mubitende
+  - Mudiayi
+  - Mudipuekesha
+  - Mufika
+  - Mufonkola
+  - Mufuansanyi
+  - Mujinga
+  - Mukadi
+  - Mukala
+  - Mukanda
+  - Mukanya
+  - Mukendi
+  - Mukenga
+  - Mukinda
+  - Mukuma
+  - Mulaja
+  - Mulanga
+  - Mulelalupu
+  - Mulenda
+  - Mulombo
+  - Mulopo
+  - Mulopue
+  - Mulowaluendu
+  - Muluila
+  - Mulumba
+  - Mundamunya
+  - Munsense
+  - Muntshiamba
+  - Munyampala
+  - Mupompa
+  - Mupoyi
+  - Musalu
+  - Musebela
+  - Mushikila
+  - Mushiya
+  - Musuamba
+  - Mutombo
+  - Muya
+  - Mvita
+  - Mwamba
+  - Mwanankesa
+  - Mwenza
+  - Mwepu
+  - Ndanda
+  - Ndaya
+  - Ndelela
+  - Ngalula
+  - Ngandu
+  - Ngeleka
+  - Ngelema
+  - Ngomba
+  - Ngonga
+  - Ngoyi
+  - Ninette
+  - Nkanda
+  - Nkitabungi
+  - Nkomo
+  - Nkongolo
+  - Noel
+  - Norbert
+  - Nseya
+  - Nshila
+  - Nshinga
+  - Nsombamanya
+  - Nsudila
+  - Ntalaja
+  - Ntambwe
+  - Ntita
+  - Ntombolo
+  - Ntondolo
+  - Ntumba
+  - Nyanzala
+  - Nyenyempa
+  - Nyoka
+  - Nzambi
+  - Nzangula
+  - Nzemba
+  - Odia
+  - Phillipe
+  - Pierre
+  - Rachelle
+  - Samuela
+  - Shaddai
+  - Stella
+  - Talatala
+  - Thomas
+  - Tshanda
+  - Tshiabu
+  - Tshialu
+  - Tshiamanina
+  - Tshiambi
+  - Tshiambula
+  - Tshiambwaya
+  - Tshianzambonga
+  - Tshibaka
+  - Tshibala
+  - Tshibalabala
+  - Tshibangu
+  - Tshibelu
+  - Tshibola
+  - Tshibwabwa
+  - Tshidibi
+  - Tshidindu
+  - Tshidingi
+  - Tshiebelela
+  - Tshiepela
+  - Tshifunka
+  - Tshikondo
+  - Tshikulu
+  - Tshikumini
+  - Tshilenga
+  - Tshimanga
+  - Tshimbi
+  - Tshimbombo
+  - Tshimini
+  - Tshiminyi
+  - Tshimowa
+  - Tshimpaka
+  - Tshimwena
+  - Tshipanda
+  - Tshipayayi
+  - Tshisekedi
+  - Tshiswaka
+  - Tshitambala
+  - Tshitoko
+  - Tshiula
+  - Tshiyola
+  - Tuendela
+  - Yabukalanga
+  - Yamba
+  - Yampanya
+  - Yowa

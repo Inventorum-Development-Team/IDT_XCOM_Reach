@@ -1,0 +1,786 @@
+lookWeights:
+  - 49
+  - 49
+  - 2
+  - 0
+maleFirst:
+  - ODST Absalon
+  - ODST Adam
+  - ODST Adolf
+  - ODST Albert
+  - ODST Alex
+  - ODST Alexander
+  - ODST Alf
+  - ODST Alfred
+  - ODST Allan
+  - ODST Anders
+  - ODST Andreas
+  - ODST Anker
+  - ODST Anton
+  - ODST Arne
+  - ODST Arnold
+  - ODST Aron
+  - ODST Arthur
+  - ODST Arvid
+  - ODST Asbjoorn
+  - ODST Asger
+  - ODST Aske
+  - ODST Asmus
+  - ODST August
+  - ODST Axel
+  - ODST Bendt
+  - ODST Benjamin
+  - ODST Benny
+  - ODST Bent
+  - ODST Bernhard
+  - ODST Bernt
+  - ODST Bertel
+  - ODST Berthel
+  - ODST Bertram
+  - ODST Birger
+  - ODST Bjarke
+  - ODST Bjarne
+  - ODST Bjork
+  - ODST Bjorn
+  - ODST Bo
+  - ODST Boje
+  - ODST Borge
+  - ODST Boye
+  - ODST Brian
+  - ODST Bruno
+  - ODST Carsten
+  - ODST Casper
+  - ODST Chresten
+  - ODST Chris
+  - ODST Christen
+  - ODST Christian
+  - ODST Christoffer
+  - ODST Christopher
+  - ODST Claus
+  - ODST Daniel
+  - ODST Danni
+  - ODST Danny
+  - ODST David
+  - ODST Dennis
+  - ODST Ditlev
+  - ODST Edvard
+  - ODST Edvin
+  - ODST Egon
+  - ODST Eigil
+  - ODST Ejgil
+  - ODST Ejnar
+  - ODST Ejner
+  - ODST Ejvind
+  - ODST Elias
+  - ODST Elmer
+  - ODST Elo
+  - ODST Emanuel
+  - ODST Emil
+  - ODST Erik
+  - ODST Erland
+  - ODST Erling
+  - ODST Ernst
+  - ODST Esajas
+  - ODST Esben
+  - ODST Eskild
+  - ODST Evald
+  - ODST Ferdinand
+  - ODST Filip
+  - ODST Finn
+  - ODST Flemming
+  - ODST Frands
+  - ODST Frank
+  - ODST Frans
+  - ODST Freddy
+  - ODST Frede
+  - ODST Frederik
+  - ODST Frithiof
+  - ODST Frithjof
+  - ODST Frits
+  - ODST Frode
+  - ODST Georg
+  - ODST Gerhard
+  - ODST Germund
+  - ODST Gert
+  - ODST Gorm
+  - ODST Gotfred
+  - ODST Gregers
+  - ODST Gunder
+  - ODST Gunnar
+  - ODST Gunner
+  - ODST Gustav
+  - ODST Harald
+  - ODST Hardy
+  - ODST Harry
+  - ODST Helge
+  - ODST Helmer
+  - ODST Hemming
+  - ODST Henning
+  - ODST Henrik
+  - ODST Henry
+  - ODST Herman
+  - ODST Hjalmar
+  - ODST Hjalte
+  - ODST Holger
+  - ODST Hugo
+  - ODST Immanuel
+  - ODST Ingolf
+  - ODST Ivan
+  - ODST Ivar
+  - ODST Iver
+  - ODST Jacob
+  - ODST Jakob
+  - ODST Jan
+  - ODST Jannick
+  - ODST Jannik
+  - ODST Jens
+  - ODST Jeppe
+  - ODST Jeremias
+  - ODST Jes
+  - ODST Jesper
+  - ODST Jim
+  - ODST Jimmi
+  - ODST Jimmy
+  - ODST Joachim
+  - ODST Joakim
+  - ODST Joel
+  - ODST Johan
+  - ODST Johannes
+  - ODST John
+  - ODST Johnny
+  - ODST Jon
+  - ODST Jonas
+  - ODST Jonatan
+  - ODST Jonathan
+  - ODST Jorgen
+  - ODST Jorn
+  - ODST Josef
+  - ODST Jul
+  - ODST Julian
+  - ODST Julius
+  - ODST Just
+  - ODST Kaj
+  - ODST Kaleb
+  - ODST Karl
+  - ODST Karsten
+  - ODST Kasper
+  - ODST Keld
+  - ODST Ken
+  - ODST Kenneth
+  - ODST Kent
+  - ODST Kevin
+  - ODST Kim
+  - ODST Kjeld
+  - ODST Klaus
+  - ODST Knud
+  - ODST Kresten
+  - ODST Kristen
+  - ODST Kristian
+  - ODST Kristoffer
+  - ODST Kurt
+  - ODST Lars
+  - ODST Lasse
+  - ODST Lau
+  - ODST Lauge
+  - ODST Laurids
+  - ODST Laurits
+  - ODST Lauritz
+  - ODST Laurs
+  - ODST Laust
+  - ODST Lave
+  - ODST Leif
+  - ODST Lennart
+  - ODST Leo
+  - ODST Leon
+  - ODST Lucas
+  - ODST Ludvig
+  - ODST Lukas
+  - ODST Lykke
+  - ODST Mads
+  - ODST Magnus
+  - ODST Malte
+  - ODST Malthe
+  - ODST Marc
+  - ODST Marcus
+  - ODST Marinus
+  - ODST Marius
+  - ODST Mark
+  - ODST Markus
+  - ODST Martin
+  - ODST Mathias
+  - ODST Mathies
+  - ODST Matthaeus
+  - ODST Matthias
+  - ODST Max
+  - ODST Michael
+  - ODST Mikael
+  - ODST Mike
+  - ODST Mikkel
+  - ODST Mogens
+  - ODST Morten
+  - ODST Mourits
+  - ODST Nick
+  - ODST Nicki
+  - ODST Nicklas
+  - ODST Nicolai
+  - ODST Nicolaj
+  - ODST Niels
+  - ODST Niklas
+  - ODST Nikolai
+  - ODST Nikolaj
+  - ODST Nils
+  - ODST Nis
+  - ODST Noah
+  - ODST Olaf
+  - ODST Olav
+  - ODST Ole
+  - ODST Oliver
+  - ODST Oluf
+  - ODST Orla
+  - ODST Oscar
+  - ODST Oskar
+  - ODST Osvald
+  - ODST Otto
+  - ODST Ove
+  - ODST Palle
+  - ODST Patrick
+  - ODST Paul
+  - ODST Paulus
+  - ODST Paw
+  - ODST Peder
+  - ODST Per
+  - ODST Peter
+  - ODST Philip
+  - ODST Phillip
+  - ODST Poul
+  - ODST Povl
+  - ODST Preben
+  - ODST Rasmus
+  - ODST Rene
+  - ODST Richard
+  - ODST Robert
+  - ODST Robin
+  - ODST Rolf
+  - ODST Ronald
+  - ODST Ronni
+  - ODST Ronnie
+  - ODST Rune
+  - ODST Samuel
+  - ODST Sebastian
+  - ODST Severin
+  - ODST Sigfred
+  - ODST Sigurd
+  - ODST Silas
+  - ODST Simon
+  - ODST Sofus
+  - ODST Sonny
+  - ODST Sophus
+  - ODST Soren
+  - ODST Steen
+  - ODST Stefan
+  - ODST Steffen
+  - ODST Sten
+  - ODST Stephan
+  - ODST Steven
+  - ODST Stig
+  - ODST Storm
+  - ODST Sune
+  - ODST Svend
+  - ODST Tage
+  - ODST Teddy
+  - ODST Theis
+  - ODST Theodor
+  - ODST Thomas
+  - ODST Thor
+  - ODST Thorbjorn
+  - ODST Thorkild
+  - ODST Thorvald
+  - ODST Thyge
+  - ODST Tim
+  - ODST Tobias
+  - ODST Toke
+  - ODST Tom
+  - ODST Tomas
+  - ODST Tommy
+  - ODST Tonni
+  - ODST Tonny
+  - ODST Tony
+  - ODST Torben
+  - ODST Torkild
+  - ODST Torsten
+  - ODST Troels
+  - ODST Tue
+  - ODST Uffe
+  - ODST Ulf
+  - ODST Ulrik
+  - ODST Vagn
+  - ODST Valdemar
+  - ODST Valentin
+  - ODST Verner
+  - ODST Victor
+  - ODST Viggo
+  - ODST Viktor
+  - ODST Vilhelm
+  - ODST Villads
+  - ODST Villy
+  - ODST William
+  - ODST Willy
+  - ODST Zacharias
+  - ODST Zakarias
+  - ODST Hans
+femaleFirst:
+  - ODST Abellona
+  - ODST Abelone
+  - ODST Abigale
+  - ODST Adela
+  - ODST Agneta
+  - ODST Alberte
+  - ODST Albertha
+  - ODST Alisa
+  - ODST Almeta
+  - ODST Alvilda
+  - ODST Ane
+  - ODST Anesa
+  - ODST Anina
+  - ODST Annalisa
+  - ODST Anndrea
+  - ODST Annelise
+  - ODST Annemette
+  - ODST Annina
+  - ODST Aren
+  - ODST Arisje
+  - ODST Arvada
+  - ODST Asa
+  - ODST Astrid
+  - ODST Belenda
+  - ODST Belinde
+  - ODST Bente
+  - ODST Bergitte
+  - ODST Bergliot
+  - ODST Birgita
+  - ODST Birgitte
+  - ODST Birte
+  - ODST Britta
+  - ODST Brunhilde
+  - ODST Caia
+  - ODST Caja
+  - ODST Cathrine
+  - ODST Clady
+  - ODST Dagmar
+  - ODST Dana
+  - ODST Ditte
+  - ODST Dorete
+  - ODST Dorothea
+  - ODST Ebba
+  - ODST Elle
+  - ODST Else
+  - ODST Eva
+  - ODST Federikke
+  - ODST Freja
+  - ODST Freya
+  - ODST Fritz
+  - ODST Gelsomina
+  - ODST Gerdi
+  - ODST Gitte
+  - ODST Gjerta
+  - ODST Greta
+  - ODST Grete
+  - ODST Grethe
+  - ODST Gry
+  - ODST Gudrun
+  - ODST Gulla
+  - ODST Gullan
+  - ODST Gunilla
+  - ODST Gytha
+  - ODST Hanne
+  - ODST Helle
+  - ODST Ide
+  - ODST Idunn
+  - ODST Inga
+  - ODST Ingeborg
+  - ODST Ingelise
+  - ODST Inger
+  - ODST Ingred
+  - ODST Janne
+  - ODST Jannicke
+  - ODST Jensine
+  - ODST Johanne
+  - ODST Kaia
+  - ODST Kaja
+  - ODST Karen
+  - ODST Karin
+  - ODST Karon
+  - ODST Karoline
+  - ODST Karren
+  - ODST Karrin
+  - ODST Karyn
+  - ODST Katrine
+  - ODST Kirsten
+  - ODST Kolinka
+  - ODST Kristine
+  - ODST Laila
+  - ODST Larina
+  - ODST Larine
+  - ODST Laerke
+  - ODST Lecia
+  - ODST Lisbet
+  - ODST Lise
+  - ODST Lone
+  - ODST Lovise
+  - ODST Magdalone
+  - ODST Malene
+  - ODST Maren
+  - ODST Margareta
+  - ODST Margarete
+  - ODST Margaretha
+  - ODST Margarethe
+  - ODST Margerethe
+  - ODST Marika
+  - ODST Marike
+  - ODST Mathilde
+  - ODST Matilde
+  - ODST Merete
+  - ODST Meta
+  - ODST Metalise
+  - ODST Mettalisa
+  - ODST Mettalise
+  - ODST Mia
+  - ODST Pernille
+  - ODST Rebekka
+  - ODST Rikke
+  - ODST Silje
+  - ODST Solvej
+  - ODST Stefania
+  - ODST Thorbjorg
+  - ODST Thorborg
+  - ODST Thordis
+  - ODST Thorid
+  - ODST Thurid
+  - ODST Torbjorg
+  - ODST Torid
+  - ODST Toril
+  - ODST Ulrica
+  - ODST Ulrike
+  - ODST Urd
+  - ODST Vibeke
+  - ODST Anne
+  - ODST Mette
+  - ODST Anna
+  - ODST Susanne
+  - ODST Lene
+  - ODST Inge
+  - ODST Maria
+  - ODST Marianne
+  - ODST Camilla
+  - ODST Pia
+  - ODST Jette
+  - ODST Charlotte
+  - ODST Louise
+maleLast:
+  - Adriansen
+  - Andersen
+  - Andreasen
+  - Andresen
+  - Any
+  - Arge
+  - Arneborg
+  - Assenbjerg
+  - Auken
+  - Bach
+  - Bak
+  - Bang
+  - Bau
+  - Bech
+  - Beck
+  - Bekker
+  - Berg
+  - Bertelsen
+  - Berthelsen
+  - Billes
+  - Binzer
+  - Bjerregaard
+  - Blach
+  - Bock
+  - Bogedal
+  - Bondo
+  - Bonnikson
+  - Brahe
+  - Brandhorst
+  - Brandt
+  - Branstedt
+  - Broberg
+  - Brondun
+  - Bruun
+  - Burmeister
+  - Cabble
+  - Carlsen
+  - Carstensen
+  - Ceder
+  - Chemnitz
+  - Christensen
+  - Christiansen
+  - Christoffersen
+  - Clahn
+  - Clausen
+  - Claussen
+  - Colding
+  - Crumlin
+  - Dahl
+  - Dalum
+  - Dam
+  - Damgaard
+  - Damsgaard
+  - Danielsen
+  - Danielsson
+  - Didenksen
+  - Drusse
+  - Ebel
+  - Eberlein
+  - Ejlersgaard
+  - Eldjarn
+  - Ellegaard
+  - Eriksen
+  - Espersen
+  - Fajl
+  - Falkoner
+  - Fallingborg
+  - Fenger
+  - Fetterlein
+  - Fine
+  - Fog
+  - Follerup
+  - Frandsen
+  - Frandson
+  - Frederiksen
+  - Fredskild
+  - Friis
+  - Fynbo
+  - Gade
+  - Gimsing
+  - Glob
+  - Goldbaek
+  - Gram
+  - Gran
+  - Gregersen
+  - Greve
+  - Grimlot
+  - Gruntvig
+  - Guildenstern
+  - Guldbrandsen
+  - Haeg
+  - Halkenhvad
+  - Hamburger
+  - Hammer
+  - Hamsun
+  - Hannestad
+  - Hansen
+  - Hardenberg
+  - Hasso
+  - Hedegaard
+  - Hedhoft
+  - Heiberg
+  - Heintze
+  - Helveg
+  - Henriksen
+  - Hermansen
+  - Hjelmslev
+  - Hoegh
+  - Hogh
+  - Holby
+  - Holm
+  - Holst
+  - Horby
+  - Hoyer
+  - Hvass
+  - Hviid
+  - Hylgaard
+  - Iversen
+  - Jacobsen
+  - Jakkelsen
+  - Jakobsen
+  - Jamissen
+  - Jaspersen
+  - Jensen
+  - Jeppesen
+  - Jepsen
+  - Jespersen
+  - Jessen
+  - Johannsen
+  - Johansen
+  - Johansson
+  - Johnsen
+  - Jorgensen
+  - Juhl
+  - Junge
+  - Karlsen
+  - Karseffni
+  - Kaustrop
+  - Kingo
+  - Kirkeby
+  - Kjaer
+  - Kjeldsen
+  - Kjolbye
+  - Klausen
+  - Klindt
+  - Knudsen
+  - Knutzen
+  - Koch
+  - Kock
+  - Kofod
+  - Kolb
+  - Kotzebue
+  - Krak
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogh
+  - Kruhl
+  - Kruse
+  - Lagermann
+  - Lander
+  - Langvardt
+  - Larsen
+  - Lassen
+  - Laudrup
+  - Laugeson
+  - Laundsen
+  - Lauridsen
+  - Lauritsen
+  - Lauritzen
+  - Laursen
+  - Lavrsen
+  - Licht
+  - Lillesoe
+  - Lind
+  - Lobing
+  - Lorenz
+  - Loyen
+  - Lund
+  - Lundgaard
+  - Lundgard
+  - Lundvall
+  - Lynnerup
+  - Madsen
+  - Maj
+  - Majland
+  - Mandelbrot
+  - Markert
+  - Mathiasen
+  - Mathiesen
+  - Meindl
+  - Meinert
+  - Meling
+  - Meulengracht
+  - Mikkelsen
+  - Milling
+  - Moesgaard
+  - Mogensen
+  - Moller
+  - Molnar
+  - Moltke
+  - Mortensen
+  - Most
+  - Munk
+  - Nerhus
+  - Niebuhr
+  - Nielsen
+  - Nielson
+  - Nilsson
+  - Nissen
+  - Norgaard
+  - Nygaard
+  - Nylen
+  - Obel
+  - Olesen
+  - Olrik
+  - Olsen
+  - Orum
+  - Ostergaard
+  - Ostgerg
+  - Ottesen
+  - Overgaard
+  - Pallesen
+  - Palsson
+  - Paulsen
+  - Pedersen
+  - Petersen
+  - Piechnik
+  - Pilegaard
+  - Poertner
+  - Poulsen
+  - Qvist
+  - Raaby
+  - Rasmussen
+  - Ravn
+  - Reuter
+  - Rieper
+  - Riis
+  - Rink
+  - Riseger
+  - Roesdahl
+  - Rohrmann
+  - Ronholt
+  - Ronne
+  - Rosenkrantz
+  - Rriis
+  - Rude
+  - Sand
+  - Sandstrod
+  - Schjonberg
+  - Schmeichel
+  - Schmidt
+  - Schou
+  - Schultz
+  - Seidenfaden
+  - Sellevold
+  - Simonsen
+  - Skaarup
+  - Skou
+  - Skov
+  - Skovgaard
+  - Soerensen
+  - Solvig
+  - Sondergaard
+  - Sonne
+  - Sorensen
+  - Sponneck
+  - Staer
+  - Steffensen
+  - Steincke
+  - Stenger
+  - Storegaard
+  - Stubbe
+  - Stuer
+  - Svendsen
+  - Tarnovius
+  - Teglbjaerg
+  - Telling
+  - Thodberg
+  - Thomsen
+  - Thornom
+  - Thorsen
+  - Thunmark
+  - Thygesen
+  - Thyregod
+  - Tilling
+  - Toefting
+  - Toft
+  - Toksvig
+  - Tommen
+  - Tyllesen
+  - Uhre
+  - Vestergaard
+  - Vilfort
+  - Villadsen
+  - Villumsen
+  - Ving
+  - Virl
+  - Wain
+  - Werlauff
+  - Wieghorst
+  - Willadsen
+  - Winther
+  - Witzke
+  - Wiuff
+  - Zinck
+  - Zoega

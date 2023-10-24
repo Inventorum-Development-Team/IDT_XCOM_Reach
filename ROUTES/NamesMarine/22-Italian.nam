@@ -1,0 +1,110 @@
+lookWeights:
+  - 47
+  - 50
+  - 2
+  - 1
+maleFirst:
+  - Marine Francesco
+  - Marine Alessandro
+  - Marine Andrea
+  - Marine Lorenzo
+  - Marine Matteo
+  - Marine Mattia
+  - Marine Gabriele
+  - Marine Riccardo
+  - Marine Davide
+  - Marine Leonardo
+  - Marine Federico
+  - Marine Luca
+  - Marine Marco
+  - Marine Giuseppe
+  - Marine Tommaso
+  - Marine Antonio
+  - Marine Simone
+  - Marine Giovanni
+  - Marine Samuele
+  - Marine Christian
+  - Marine Alessio
+  - Marine Nicola
+  - Marine Diego
+  - Marine Pietro
+  - Marine Filippo
+  - Marine Edoardo
+  - Marine Cristian
+  - Marine Daniele
+  - Marine Emanuele
+  - Marine Michele
+  - Marine Gennaro
+  - Marine Vincenzo
+  - Marine Pasquale
+  - Marine Carmine
+  - Marine Carmelo
+  - Marine Paolo
+femaleFirst:
+  - Marine Sofia
+  - Marine Giulia
+  - Marine Sara
+  - Marine Martina
+  - Marine Giorgia
+  - Marine Chiara
+  - Marine Aurora
+  - Marine Alice
+  - Marine Emma
+  - Marine Alessia
+  - Marine Anna
+  - Marine Francesca
+  - Marine Noemi
+  - Marine Elisa
+  - Marine Matilde
+  - Marine Giada
+  - Marine Gaia
+  - Marine Greta
+  - Marine Elena
+  - Marine Beatrice
+  - Marine Viola
+  - Marine Rebecca
+  - Marine Nicole
+  - Marine Arianna
+  - Marine Ginevra
+  - Marine Vittoria
+  - Marine Asia
+  - Marine Ilaria
+  - Marine Federica
+  - Marine Marta
+maleLast:
+  - Rossi
+  - Russo
+  - Ferrari
+  - Esposito
+  - Bianchi
+  - Romano
+  - Colombo
+  - Ricci
+  - Marino
+  - Greco
+  - Bruno
+  - Gallo
+  - Conti
+  - De Luca
+  - Mancini
+  - Costa
+  - Giordano
+  - Rizzo
+  - Lombardi
+  - Moretti
+  - Barbieri
+  - Fontana
+  - Santoro
+  - Mariani
+  - Rinaldi
+  - Caruso
+  - Ferrara
+  - Galli
+  - Martini
+  - Leone
+  - Abate
+  - De Simone
+  - Albanese
+  - Genovese
+  - Sansone
+  - Zanon

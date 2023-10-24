@@ -1,0 +1,560 @@
+lookWeights:
+  - 50
+  - 43
+  - 7
+  - 0
+maleFirst:
+  - Marine Adrian
+  - Marine Aleksander
+  - Marine Alexander
+  - Marine Alf
+  - Marine Alfred
+  - Marine Anders
+  - Marine Andreas
+  - Marine Anton
+  - Marine Arne
+  - Marine Artur
+  - Marine Arvid
+  - Marine Asbjoorn
+  - Marine Atle
+  - Marine Balder
+  - Marine Baldur
+  - Marine Benjamin
+  - Marine Bjorn
+  - Marine Boone
+  - Marine Borg
+  - Marine Brander
+  - Marine Burnaby
+  - Marine Burr
+  - Marine Busby
+  - Marine Cadby
+  - Marine Canute
+  - Marine Carr
+  - Marine Cawley
+  - Marine Christian
+  - Marine Christoffer
+  - Marine Colby
+  - Marine Dag
+  - Marine Danby
+  - Marine Delling
+  - Marine Daniel
+  - Marine Didrik
+  - Marine Edvard
+  - Marine Einar
+  - Marine Eirik
+  - Marine Elvis
+  - Marine Emil
+  - Marine Eric
+  - Marine Erik
+  - Marine Erlend
+  - Marine Erling
+  - Marine Espen
+  - Marine Even
+  - Marine Fredrik
+  - Marine Frode
+  - Marine Gunnar
+  - Marine Haakon
+  - Marine Haavard
+  - Marine Hans
+  - Marine Harald
+  - Marine Havard
+  - Marine Henning
+  - Marine Henrik
+  - Marine Ivar
+  - Marine Jakob
+  - Marine Jan
+  - Marine Jens
+  - Marine Joachim
+  - Marine Joakim
+  - Marine Johan
+  - Marine Jokkum
+  - Marine Jon
+  - Marine Jonas
+  - Marine Jorgen
+  - Marine Julius
+  - Marine Kare
+  - Marine Karl
+  - Marine Kjell
+  - Marine Knut
+  - Marine knute
+  - Marine Kristian
+  - Marine Kristoffer
+  - Marine Lars
+  - Marine Leif
+  - Marine Ludvik
+  - Marine Mads
+  - Marine Magnus
+  - Marine Marcus
+  - Marine Marius
+  - Marine Martin
+  - Marine Martinus
+  - Marine Mathias
+  - Marine Matias
+  - Marine Mats
+  - Marine Mikkel
+  - Marine Mons
+  - Marine Nikolai
+  - Marine Nils
+  - Marine Olaf
+  - Marine Olan
+  - Marine Ole
+  - Marine Pal
+  - Marine Paul
+  - Marine Peder
+  - Marine Per
+  - Marine Petter
+  - Marine Reidar
+  - Marine Rolf
+  - Marine Sander
+  - Marine Sebastian
+  - Marine Sigurd
+  - Marine Simen
+  - Marine Sindre
+  - Marine Stian
+  - Marine Svein
+  - Marine Svend
+  - Marine Sverre
+  - Marine Thomas
+  - Marine Thor
+  - Marine Tobias
+  - Marine Tomas
+  - Marine Tor
+  - Marine Vegar
+  - Marine Vegard
+femaleFirst:
+  - Marine Abigael
+  - Marine Adelis
+  - Marine Agot
+  - Marine Alberte
+  - Marine Alfhild
+  - Marine Ane
+  - Marine Annbjorg
+  - Marine Annborg
+  - Marine Arnbjorg
+  - Marine Asdis
+  - Marine Aslaug
+  - Marine Benedikte
+  - Marine Bergit
+  - Marine Bergliot
+  - Marine Berit
+  - Marine Brigit
+  - Marine Canutte
+  - Marine Cathrine
+  - Marine Dagrun
+  - Marine Fredrika
+  - Marine Gerdy
+  - Marine Grete
+  - Marine Grethe
+  - Marine Gry
+  - Marine Gudlaug
+  - Marine Gunnhild
+  - Marine Gunnvor
+  - Marine Halldora
+  - Marine Hege
+  - Marine Heidrun
+  - Marine Hjordis
+  - Marine Idunn
+  - Marine Inge
+  - Marine Ingebjorg
+  - Marine Ingfrid
+  - Marine Inghild
+  - Marine Ingvild
+  - Marine Janne
+  - Marine Johanne
+  - Marine Jorunn
+  - Marine Kanutte
+  - Marine Kari
+  - Marine Karita
+  - Marine Karoline
+  - Marine Kirsten
+  - Marine Kjellfrid
+  - Marine Kjersti
+  - Marine Kjerstin
+  - Marine Kristi
+  - Marine Kristine
+  - Marine Lise
+  - Marine Lovise
+  - Marine Magnhild
+  - Marine Margarete
+  - Marine Margarethe
+  - Marine Margrethe
+  - Marine Marit
+  - Marine Rebekka
+  - Marine Silje
+  - Marine Sofia
+  - Marine Solaug
+  - Marine Thorbjorg
+  - Marine Torbjorg
+  - Marine Torhilda
+  - Marine Torid
+  - Marine Toril
+  - Marine Urd
+  - Marine Valdis
+  - Marine Vendela
+  - Marine Vibeke
+  - Marine Viva
+  - Marine Waldis
+  - Marine Yngvild
+maleLast:
+  - Aamodt
+  - Aas
+  - Aasen
+  - Aasgaard
+  - Abel
+  - Abrahamsen
+  - Alsgaard
+  - Alving
+  - Amundsen
+  - Amundson
+  - Andersen
+  - Andreassen
+  - Andresen
+  - Andsnes
+  - Antonisen
+  - Antonsen
+  - Arnesen
+  - Arup
+  - Asheim
+  - Aune
+  - Bakke
+  - Bakken
+  - Balle
+  - Baltzersen
+  - Berg
+  - Berge
+  - Berntsen
+  - Birkeland
+  - Birknes
+  - Bjoenkaer
+  - Bjoerndalen
+  - Bjone
+  - Bjordal
+  - Bjorlo
+  - Bjornebye
+  - Bjornson
+  - Bjornstad
+  - Blix
+  - Bo
+  - Bocklin
+  - Boe
+  - Borkman
+  - Brack
+  - Brandes
+  - Brat
+  - Brataas
+  - Bredesen
+  - Brekke
+  - Brenden
+  - Brogger
+  - Brovik
+  - Buraas
+  - Burass
+  - Christensen
+  - Christiansen
+  - Daehle
+  - Daehlie
+  - Dahl
+  - Dahn
+  - Dahue
+  - Danielsen
+  - Dybendahl
+  - Edvardsen
+  - Eftevang
+  - Eggen
+  - Eide
+  - Eliassen
+  - Elieson
+  - Ellingsen
+  - Elvsted
+  - Engen
+  - Enger
+  - Englund
+  - Engstrand
+  - Eriksen
+  - Ertzgard
+  - Evensen
+  - Fagerberg
+  - Fagernes
+  - Falck
+  - Fjaerestad
+  - Fjortoft
+  - Flemmen
+  - Flo
+  - Folkow
+  - Fosli
+  - Franck
+  - Fredriksen
+  - Fretheim
+  - Fuglesang
+  - Fuglestad
+  - Furuseth
+  - Gabler
+  - Gabrielsen
+  - Garborg
+  - Gimle
+  - Gjeldnes
+  - Gjelland
+  - Gjessing
+  - Grieg
+  - Grimseth
+  - Grimsmo
+  - Gritdal
+  - Grodas
+  - Groenvold
+  - Gronelv
+  - Guidon
+  - Gulbrandsen
+  - Gundersen
+  - Gunderson
+  - Gunnestad
+  - Gylfason
+  - Haakonsen
+  - Haarberg
+  - Haarland
+  - Haartz
+  - Hagen
+  - Halskar
+  - Halvorsen
+  - Hammer
+  - Hanevold
+  - Hanke
+  - Hansen
+  - Hanssen
+  - Hanstveit
+  - Hartmark
+  - Hasso
+  - Hasund
+  - Haug
+  - Hauge
+  - Haugen
+  - Haugland
+  - Haugsrud
+  - Heiberg
+  - Helgeland
+  - Helgerod
+  - Helland
+  - Helmer
+  - Henriksen
+  - Herdal
+  - Heyerdahl
+  - Hoan
+  - Hoeg
+  - Hoen
+  - Holm
+  - Holmann
+  - Holth
+  - Hopen
+  - Horn
+  - Hultgreen
+  - Hustveit
+  - Ibsen
+  - Ingebriktsson
+  - Ingstad
+  - Isaksen
+  - Iversen
+  - Jacobsen
+  - Jagge
+  - Jakobsen
+  - Jasperson
+  - Jelesens
+  - Jensen
+  - Jenssen
+  - Jevne
+  - Johannessen
+  - Johansen
+  - Johnsen
+  - Jorgensen
+  - Juell
+  - Kaland
+  - Karlan
+  - Karlsen
+  - Kase
+  - Kildal
+  - Kippe
+  - Kjeldaas
+  - Kjelstrup
+  - Kjorestad
+  - Kjorsvik
+  - Klovstod
+  - Knudsen
+  - Knutsen
+  - Koht
+  - Koss
+  - Krafft
+  - Kristensen
+  - Kristiansen
+  - Kristoffersen
+  - Krogstad
+  - Kultin
+  - Kvarme
+  - Landa
+  - Langslet
+  - Lanser
+  - Larsen
+  - Leirfall
+  - Leonhardsen
+  - Lid
+  - Lie
+  - Lien
+  - Lier
+  - Lind
+  - Lindahl
+  - Linde
+  - Listow
+  - Ljoekelsoey
+  - Loevaas
+  - Lorch
+  - Lous
+  - Lovborg
+  - Ludwigsen
+  - Lund
+  - Lunde
+  - Lyen
+  - Malmros
+  - Malmstrom
+  - Manders
+  - Marken
+  - Martinsen
+  - Mathiesen
+  - Mathisen
+  - Meling
+  - Meyer
+  - Midttun
+  - Mikkelsen
+  - Mikkelsplass
+  - Mo
+  - Moen
+  - Mork
+  - Mostue
+  - Munch
+  - Myhre
+  - Mykland
+  - Myklebust
+  - Myrland
+  - Naess
+  - Nanstveit
+  - Naustvik
+  - Neilsen
+  - Nerhus
+  - Nielsen
+  - Nilsen
+  - Njerve
+  - Njos
+  - Noberg
+  - Nore
+  - Nyberg
+  - Nygard
+  - Odegard
+  - Oedegaard
+  - Oesten
+  - Olsen
+  - Omholt
+  - Orden
+  - Orthe
+  - Ostenstad
+  - Ottesen
+  - Paldan
+  - Paulsen
+  - Pedersen
+  - Pederssen
+  - Pettersen
+  - Poulsen
+  - Prydz
+  - Quisling
+  - Ramsfeld
+  - Ramsfjell
+  - Rank
+  - Ranning
+  - Rasmussen
+  - Ratkje
+  - Rekdal
+  - Resi
+  - Retter
+  - Ribur
+  - Riseth
+  - Rodahl
+  - Rovlund
+  - Ruud
+  - Saeterstoel
+  - Saether
+  - Salvesen
+  - Sandvik
+  - Schei
+  - Schjerven
+  - Schroder
+  - Schwane
+  - Schytte
+  - Selle
+  - Selling
+  - Selvik
+  - Sikveland
+  - Simonsen
+  - Sivertsen
+  - Sivertson
+  - Sivlee
+  - Sjo
+  - Sjovold
+  - Skarsgaard
+  - Skarsgard
+  - Skavlan
+  - Skjelbraid
+  - Skjolsvold
+  - Skovgaard
+  - Skreien
+  - Smilla
+  - Solbakken
+  - Solbakker
+  - Solberg
+  - Solheim
+  - Solness
+  - Solskaer
+  - Sondral
+  - Sorensen
+  - Stamso
+  - Steen
+  - Stensrud
+  - Stianson
+  - Stirner
+  - Storelid
+  - Stram
+  - Strand
+  - Strandli
+  - Svasand
+  - Svendson
+  - Svenoy
+  - Syversen
+  - Tangen
+  - Tangvik
+  - Tesman
+  - Thomassen
+  - Thonstad
+  - Thoresen
+  - Thorsen
+  - Thue
+  - Thulesius
+  - Thune
+  - Thymann
+  - Tobiassen
+  - Tonder
+  - Tonsberg
+  - Torgereen
+  - Torp
+  - Traa
+  - Tunold
+  - Tveit
+  - Ulstein
+  - Ulving
+  - Utskjoer
+  - Veitberg
+  - Vigeland
+  - Vik
+  - Vind
+  - Waldum
+  - Wangel
+  - Wangen
+  - Wassmo
+  - Wikborg
+  - Wullum
+  - Yons
+  - Ytterhus
+  - Zakariassen

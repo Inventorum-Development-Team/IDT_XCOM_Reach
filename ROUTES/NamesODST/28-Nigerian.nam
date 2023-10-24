@@ -1,0 +1,410 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - ODST Abassi
+  - ODST Abayomi
+  - ODST Abejide
+  - ODST Abiodun
+  - ODST Abiola
+  - ODST Adebayo
+  - ODST Adejola
+  - ODST Adisa
+  - ODST Adunbi
+  - ODST Ajala
+  - ODST Ajani
+  - ODST Akanni
+  - ODST Akin
+  - ODST Akinlabi
+  - ODST Akinlana
+  - ODST Akins
+  - ODST Akono
+  - ODST Amadi
+  - ODST Aniweta
+  - ODST Apara
+  - ODST Ayodele
+  - ODST Azagba
+  - ODST Babafemi
+  - ODST Bem
+  - ODST Boseda
+  - ODST Chidike
+  - ODST Chijioke
+  - ODST Chike
+  - ODST Chukwuma
+  - ODST Dada
+  - ODST David
+  - ODST Dumaka
+  - ODST Ehioze
+  - ODST Ekundayo
+  - ODST Emeka
+  - ODST Emmanuel
+  - ODST Ewansiha
+  - ODST Ezekiel
+  - ODST Fasina
+  - ODST Gowo
+  - ODST Idowu
+  - ODST Imarogbe
+  - ODST Isah
+  - ODST Iyapo
+  - ODST Jaja
+  - ODST Jumoke
+  - ODST Kayode
+  - ODST Kehinde
+  - ODST Kosoko
+  - ODST Kwame
+  - ODST Madu
+  - ODST Mazi
+  - ODST Modupe
+  - ODST Morihinze
+  - ODST Moses
+  - ODST Ndulu
+  - ODST Ngozi
+  - ODST Nosakhere
+  - ODST Nwabudike
+  - ODST Obasi
+  - ODST Obataiye
+  - ODST Obayana
+  - ODST Obi
+  - ODST Obike
+  - ODST Ode
+  - ODST Odion
+  - ODST Ogbonna
+  - ODST Okechuku
+  - ODST Okpara
+  - ODST Oladele
+  - ODST Olafemi
+  - ODST Olaniyan
+  - ODST Olawale
+  - ODST Olawutobi
+  - ODST Olubayo
+  - ODST Olufemi
+  - ODST Olugbala
+  - ODST Olujimi
+  - ODST Olumide
+  - ODST Olumiji
+  - ODST Olushola
+  - ODST Oluwa
+  - ODST Oluwaseyi
+  - ODST Oluyemi
+  - ODST Omolara
+  - ODST Omorede
+  - ODST Onuwachi
+  - ODST Opeyemi
+  - ODST Osahar
+  - ODST Osakwe
+  - ODST Osayaba
+  - ODST Osayande
+  - ODST Osayimwese
+  - ODST Osaze
+  - ODST Samuel
+  - ODST Stanley
+  - ODST Sunday
+  - ODST Taiwo
+  - ODST Tobi
+  - ODST Echechi
+  - ODST Uzoma
+  - ODST Weke
+  - ODST Worie
+femaleFirst:
+  - ODST Abagbe
+  - ODST Abagebe
+  - ODST Abayomi
+  - ODST Abebi
+  - ODST Abegbe
+  - ODST Abeje
+  - ODST Abeke
+  - ODST Abena
+  - ODST Abeo
+  - ODST Abidemi
+  - ODST Abimbola
+  - ODST Abiona
+  - ODST Abisola
+  - ODST Adamma
+  - ODST Adanna
+  - ODST Adanya
+  - ODST Adebola
+  - ODST Adebomi
+  - ODST Adedagbo
+  - ODST Adedewe
+  - ODST Adedoja
+  - ODST Adeleke
+  - ODST Adenrele
+  - ODST Adeola
+  - ODST Aderinola
+  - ODST Adesimbo
+  - ODST Adesina
+  - ODST Adeyemi
+  - ODST Adio
+  - ODST Adjoa
+  - ODST Aduke
+  - ODST Aina
+  - ODST Aiyetoro
+  - ODST Ajala
+  - ODST Ajani
+  - ODST Akanke
+  - ODST Alaba
+  - ODST Alke
+  - ODST Ama
+  - ODST Amonke
+  - ODST Annakiya
+  - ODST Anuli
+  - ODST Arria
+  - ODST Asabi
+  - ODST Auta
+  - ODST Ayo
+  - ODST Ayobami
+  - ODST Ayobunmi
+  - ODST Ayodele
+  - ODST Ayofemi
+  - ODST Ayoka
+  - ODST Ayoluwa
+  - ODST Ayomide
+  - ODST Ayoola
+  - ODST Azalee
+  - ODST Baderinwa
+  - ODST Baina
+  - ODST Bayo
+  - ODST Becca
+  - ODST Bekide
+  - ODST Binah
+  - ODST Bolade
+  - ODST Bolanile
+  - ODST Bunmi
+  - ODST Chidimma
+  - ODST Chika
+  - ODST Chinonso
+  - ODST Chinue
+  - ODST Chioma
+  - ODST Chisom
+  - ODST Chizoba
+  - ODST Cynthia
+  - ODST Dada
+  - ODST Danuwa
+  - ODST Daurama
+  - ODST Dayo
+  - ODST Dubaku
+  - ODST Dumaka
+  - ODST Ebele
+  - ODST Ebun
+  - ODST Edenausegbo
+  - ODST Ehizemen
+  - ODST Ekaghogho
+  - ODST Exenesenarh
+  - ODST Enomwoyi
+  - ODST Esosa
+  - ODST Etinosa
+  - ODST Fabayo
+  - ODST Faraa
+  - ODST Farih
+  - ODST Fayola
+  - ODST Fayolla
+  - ODST Femi
+  - ODST Fola
+  - ODST Folade
+  - ODST Folami
+  - ODST Folashade
+  - ODST Dolayan
+  - ODST Foluke
+  - ODST Gimbya
+  - ODST Hanna
+  - ODST Hasana
+  - ODST Hazika
+  - ODST Hembadoon
+  - ODST Idowu
+  - ODST Ifama
+  - ODST Ife
+  - ODST Ifetayo
+  - ODST Ige
+  - ODST Ijaba
+  - ODST Ikuseghan
+  - ODST Innya
+  - ODST Irawagbon
+  - ODST Isoke
+  - ODST Iverem
+  - ODST Iyabo
+  - ODST Izegbe
+  - ODST Joy
+  - ODST Jumoke
+  - ODST Kehinde
+  - ODST Kinah
+  - ODST Kiziah
+  - ODST Kokumo
+  - ODST Limber
+  - ODST Lina
+  - ODST Lisha
+  - ODST Marjorie
+  - ODST Mbafor
+  - ODST Mbeke
+  - ODST Mhonum
+  - ODST Monifa
+  - ODST Morayo
+  - ODST Natashenka
+  - ODST Ngozi
+  - ODST Nkiruka
+  - ODST Nneka
+  - ODST Nnenaya
+  - ODST Nnenia
+  - ODST Nsia
+  - ODST Nourbese
+  - ODST Nwakaeo
+  - ODST Obioma
+  - ODST Ode
+  - ODST Ofure
+  - ODST Olabunmi
+  - ODST Olaniyi
+  - ODST Olateju
+  - ODST Olayinka
+  - ODST Olubayo
+  - ODST Olubunmi
+  - ODST Olufemi
+  - ODST Olufunke
+  - ODST Olufunmilayo
+  - ODST Oluremi
+  - ODST Omalara
+  - ODST Omolara
+  - ODST Omorenoniwara
+  - ODST Omorose
+  - ODST Omosede
+  - ODST Omosupe
+  - ODST omusupe
+  - ODST Oni
+  - ODST Onyeka
+  - ODST Osayioniwabo
+  - ODST Osemweoyenmwen
+  - ODST Oseye
+  - ODST Sade
+  - ODST Shade
+  - ODST Shiminege
+  - ODST Tanisha
+  - ODST Thema
+  - ODST Theresa
+  - ODST Titilayo
+  - ODST Tobi
+  - ODST Uchefuna
+  - ODST Urbi
+  - ODST Yahimba
+  - ODST Yejide
+  - ODST Yetunde
+  - ODST Yewande
+  - ODST Zuna
+maleLast:
+  - Abdul
+  - Abiodun
+  - Abubakar
+  - Achebe
+  - Adebayo
+  - Adebiyi
+  - Adeyemi
+  - Ahmadu
+  - Aimeihi
+  - Ajuonuma
+  - Akubueze
+  - Alamieyeseigha
+  - Alli
+  - Alvana
+  - Amadi
+  - Amaechi
+  - Amaka
+  - Anakobe
+  - Anjola
+  - Anyene
+  - Arokoyo
+  - Awani
+  - Awiyetu
+  - Awolowo
+  - Aynaw
+  - Ayoola
+  - Babangida
+  - Bugaje
+  - Chidinma
+  - Chinwe
+  - Chukwu
+  - Claaseen
+  - Dhose
+  - Ebuka
+  - Ehi
+  - Ehimen
+  - Ejogo
+  - Eke
+  - Ekwensi
+  - Enuma
+  - Eseoghene
+  - Eventus
+  - Eze
+  - Ezugo
+  - Falmata
+  - Farida
+  - Femi
+  - Garba
+  - Hope
+  - Ibe
+  - Ibori
+  - Ibrahim
+  - Ibru
+  - Ibukun
+  - Iheme
+  - Iniebong
+  - Inusa
+  - Itsifanus
+  - Jangana
+  - Jonathan
+  - Jolawole
+  - Lamidi
+  - Lawal
+  - Madaki
+  - Mahmud
+  - Maikudi
+  - Mantakari
+  - Martins
+  - Mbana
+  - Mbanefo
+  - Memuna
+  - Mohammed
+  - Mshelia
+  - Ngwube
+  - Njoku
+  - Obiola
+  - Obrutse
+  - Ochigbo
+  - Ochonogo
+  - Ogechi
+  - Okah
+  - Okafor
+  - Okeke
+  - Okere
+  - Okereke
+  - Okonkwo
+  - Okoye
+  - Olaoluwa
+  - Olugbenga
+  - Olukayode
+  - Olumide
+  - Olumodeji
+  - Olusanmi
+  - Oluwadamilare
+  - Oluwakemi
+  - Oluwayomi
+  - Oni
+  - Onita
+  - Onyinjuke
+  - Opara
+  - Orakwe
+  - Otaru
+  - Otatoru
+  - Rajuli
+  - Raphael
+  - Saraki
+  - Sekibo
+  - Shuta
+  - Sunny
+  - Temitope
+  - Tosin
+  - Uba
+  - Udoh
+  - Ugbabio
+  - Usman
+  - Wale
+  - Yar-adua
+  - Yindadi

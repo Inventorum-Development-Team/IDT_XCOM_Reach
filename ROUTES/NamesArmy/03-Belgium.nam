@@ -1,0 +1,75 @@
+# Simplified: Belgium has two main languages regions, the
+# Flemish(Dutch) speaking part and the Walloon(French) speaking region.
+# This difference is reflected in the names. I used the 60% Flemish vs 40% French
+# ratio 
+# Distribution of lastNames can be visualised at http://www.familienaam.be
+# 12 Flemish/8 French (names from statbel.fgov.be)
+lookWeights:
+  - 70
+  - 28
+  - 1
+  - 1
+maleFirst:
+  - Trooper Nathan
+  - Trooper Wouter
+  - Trooper Seppe
+  - Trooper Robbe
+  - Trooper Kobe
+  - Trooper Bart
+  - Trooper Ruben
+  - Trooper Mark
+  - Trooper David
+  - Trooper Jef
+  - Trooper Emiel
+  - Trooper Lowie
+  - Trooper Pierre
+  - Trooper Victor
+  - Trooper Jules
+  - Trooper Leo
+  - Trooper Mathieu
+  - Trooper Emilien
+  - Trooper Bastien
+  - Trooper Quentin
+femaleFirst:
+  - Trooper Lotte
+  - Trooper Kato
+  - Trooper Julie
+  - Trooper Noor
+  - Trooper Els
+  - Trooper Wendy
+  - Trooper Laura
+  - Trooper Sarah
+  - Trooper Charlotte
+  - Trooper Emma
+  - Trooper Marie
+  - Trooper Lisa
+  - Trooper Clara
+  - Trooper Emma
+  - Trooper Elise
+  - Trooper Louise
+  - Trooper Ines
+  - Trooper Justine
+  - Trooper Laura
+  - Trooper Lucie
+maleLast:
+  - Peeters
+  - Janssens
+  - Maes
+  - Jacobs
+  - Willems
+  - Mertens
+  - Claes
+  - Wouters
+  - Goossens
+  - De Smet
+  - Vermeulen
+  - Pauwels
+  - Dubois
+  - Lambert
+  - Martin
+  - Dupont
+  - Simon
+  - Leclercq
+  - Leroy
+  - Lejeune
+

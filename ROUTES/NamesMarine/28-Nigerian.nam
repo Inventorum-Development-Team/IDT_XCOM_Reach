@@ -1,0 +1,410 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Marine Abassi
+  - Marine Abayomi
+  - Marine Abejide
+  - Marine Abiodun
+  - Marine Abiola
+  - Marine Adebayo
+  - Marine Adejola
+  - Marine Adisa
+  - Marine Adunbi
+  - Marine Ajala
+  - Marine Ajani
+  - Marine Akanni
+  - Marine Akin
+  - Marine Akinlabi
+  - Marine Akinlana
+  - Marine Akins
+  - Marine Akono
+  - Marine Amadi
+  - Marine Aniweta
+  - Marine Apara
+  - Marine Ayodele
+  - Marine Azagba
+  - Marine Babafemi
+  - Marine Bem
+  - Marine Boseda
+  - Marine Chidike
+  - Marine Chijioke
+  - Marine Chike
+  - Marine Chukwuma
+  - Marine Dada
+  - Marine David
+  - Marine Dumaka
+  - Marine Ehioze
+  - Marine Ekundayo
+  - Marine Emeka
+  - Marine Emmanuel
+  - Marine Ewansiha
+  - Marine Ezekiel
+  - Marine Fasina
+  - Marine Gowo
+  - Marine Idowu
+  - Marine Imarogbe
+  - Marine Isah
+  - Marine Iyapo
+  - Marine Jaja
+  - Marine Jumoke
+  - Marine Kayode
+  - Marine Kehinde
+  - Marine Kosoko
+  - Marine Kwame
+  - Marine Madu
+  - Marine Mazi
+  - Marine Modupe
+  - Marine Morihinze
+  - Marine Moses
+  - Marine Ndulu
+  - Marine Ngozi
+  - Marine Nosakhere
+  - Marine Nwabudike
+  - Marine Obasi
+  - Marine Obataiye
+  - Marine Obayana
+  - Marine Obi
+  - Marine Obike
+  - Marine Ode
+  - Marine Odion
+  - Marine Ogbonna
+  - Marine Okechuku
+  - Marine Okpara
+  - Marine Oladele
+  - Marine Olafemi
+  - Marine Olaniyan
+  - Marine Olawale
+  - Marine Olawutobi
+  - Marine Olubayo
+  - Marine Olufemi
+  - Marine Olugbala
+  - Marine Olujimi
+  - Marine Olumide
+  - Marine Olumiji
+  - Marine Olushola
+  - Marine Oluwa
+  - Marine Oluwaseyi
+  - Marine Oluyemi
+  - Marine Omolara
+  - Marine Omorede
+  - Marine Onuwachi
+  - Marine Opeyemi
+  - Marine Osahar
+  - Marine Osakwe
+  - Marine Osayaba
+  - Marine Osayande
+  - Marine Osayimwese
+  - Marine Osaze
+  - Marine Samuel
+  - Marine Stanley
+  - Marine Sunday
+  - Marine Taiwo
+  - Marine Tobi
+  - Marine Echechi
+  - Marine Uzoma
+  - Marine Weke
+  - Marine Worie
+femaleFirst:
+  - Marine Abagbe
+  - Marine Abagebe
+  - Marine Abayomi
+  - Marine Abebi
+  - Marine Abegbe
+  - Marine Abeje
+  - Marine Abeke
+  - Marine Abena
+  - Marine Abeo
+  - Marine Abidemi
+  - Marine Abimbola
+  - Marine Abiona
+  - Marine Abisola
+  - Marine Adamma
+  - Marine Adanna
+  - Marine Adanya
+  - Marine Adebola
+  - Marine Adebomi
+  - Marine Adedagbo
+  - Marine Adedewe
+  - Marine Adedoja
+  - Marine Adeleke
+  - Marine Adenrele
+  - Marine Adeola
+  - Marine Aderinola
+  - Marine Adesimbo
+  - Marine Adesina
+  - Marine Adeyemi
+  - Marine Adio
+  - Marine Adjoa
+  - Marine Aduke
+  - Marine Aina
+  - Marine Aiyetoro
+  - Marine Ajala
+  - Marine Ajani
+  - Marine Akanke
+  - Marine Alaba
+  - Marine Alke
+  - Marine Ama
+  - Marine Amonke
+  - Marine Annakiya
+  - Marine Anuli
+  - Marine Arria
+  - Marine Asabi
+  - Marine Auta
+  - Marine Ayo
+  - Marine Ayobami
+  - Marine Ayobunmi
+  - Marine Ayodele
+  - Marine Ayofemi
+  - Marine Ayoka
+  - Marine Ayoluwa
+  - Marine Ayomide
+  - Marine Ayoola
+  - Marine Azalee
+  - Marine Baderinwa
+  - Marine Baina
+  - Marine Bayo
+  - Marine Becca
+  - Marine Bekide
+  - Marine Binah
+  - Marine Bolade
+  - Marine Bolanile
+  - Marine Bunmi
+  - Marine Chidimma
+  - Marine Chika
+  - Marine Chinonso
+  - Marine Chinue
+  - Marine Chioma
+  - Marine Chisom
+  - Marine Chizoba
+  - Marine Cynthia
+  - Marine Dada
+  - Marine Danuwa
+  - Marine Daurama
+  - Marine Dayo
+  - Marine Dubaku
+  - Marine Dumaka
+  - Marine Ebele
+  - Marine Ebun
+  - Marine Edenausegbo
+  - Marine Ehizemen
+  - Marine Ekaghogho
+  - Marine Exenesenarh
+  - Marine Enomwoyi
+  - Marine Esosa
+  - Marine Etinosa
+  - Marine Fabayo
+  - Marine Faraa
+  - Marine Farih
+  - Marine Fayola
+  - Marine Fayolla
+  - Marine Femi
+  - Marine Fola
+  - Marine Folade
+  - Marine Folami
+  - Marine Folashade
+  - Marine Dolayan
+  - Marine Foluke
+  - Marine Gimbya
+  - Marine Hanna
+  - Marine Hasana
+  - Marine Hazika
+  - Marine Hembadoon
+  - Marine Idowu
+  - Marine Ifama
+  - Marine Ife
+  - Marine Ifetayo
+  - Marine Ige
+  - Marine Ijaba
+  - Marine Ikuseghan
+  - Marine Innya
+  - Marine Irawagbon
+  - Marine Isoke
+  - Marine Iverem
+  - Marine Iyabo
+  - Marine Izegbe
+  - Marine Joy
+  - Marine Jumoke
+  - Marine Kehinde
+  - Marine Kinah
+  - Marine Kiziah
+  - Marine Kokumo
+  - Marine Limber
+  - Marine Lina
+  - Marine Lisha
+  - Marine Marjorie
+  - Marine Mbafor
+  - Marine Mbeke
+  - Marine Mhonum
+  - Marine Monifa
+  - Marine Morayo
+  - Marine Natashenka
+  - Marine Ngozi
+  - Marine Nkiruka
+  - Marine Nneka
+  - Marine Nnenaya
+  - Marine Nnenia
+  - Marine Nsia
+  - Marine Nourbese
+  - Marine Nwakaeo
+  - Marine Obioma
+  - Marine Ode
+  - Marine Ofure
+  - Marine Olabunmi
+  - Marine Olaniyi
+  - Marine Olateju
+  - Marine Olayinka
+  - Marine Olubayo
+  - Marine Olubunmi
+  - Marine Olufemi
+  - Marine Olufunke
+  - Marine Olufunmilayo
+  - Marine Oluremi
+  - Marine Omalara
+  - Marine Omolara
+  - Marine Omorenoniwara
+  - Marine Omorose
+  - Marine Omosede
+  - Marine Omosupe
+  - Marine omusupe
+  - Marine Oni
+  - Marine Onyeka
+  - Marine Osayioniwabo
+  - Marine Osemweoyenmwen
+  - Marine Oseye
+  - Marine Sade
+  - Marine Shade
+  - Marine Shiminege
+  - Marine Tanisha
+  - Marine Thema
+  - Marine Theresa
+  - Marine Titilayo
+  - Marine Tobi
+  - Marine Uchefuna
+  - Marine Urbi
+  - Marine Yahimba
+  - Marine Yejide
+  - Marine Yetunde
+  - Marine Yewande
+  - Marine Zuna
+maleLast:
+  - Abdul
+  - Abiodun
+  - Abubakar
+  - Achebe
+  - Adebayo
+  - Adebiyi
+  - Adeyemi
+  - Ahmadu
+  - Aimeihi
+  - Ajuonuma
+  - Akubueze
+  - Alamieyeseigha
+  - Alli
+  - Alvana
+  - Amadi
+  - Amaechi
+  - Amaka
+  - Anakobe
+  - Anjola
+  - Anyene
+  - Arokoyo
+  - Awani
+  - Awiyetu
+  - Awolowo
+  - Aynaw
+  - Ayoola
+  - Babangida
+  - Bugaje
+  - Chidinma
+  - Chinwe
+  - Chukwu
+  - Claaseen
+  - Dhose
+  - Ebuka
+  - Ehi
+  - Ehimen
+  - Ejogo
+  - Eke
+  - Ekwensi
+  - Enuma
+  - Eseoghene
+  - Eventus
+  - Eze
+  - Ezugo
+  - Falmata
+  - Farida
+  - Femi
+  - Garba
+  - Hope
+  - Ibe
+  - Ibori
+  - Ibrahim
+  - Ibru
+  - Ibukun
+  - Iheme
+  - Iniebong
+  - Inusa
+  - Itsifanus
+  - Jangana
+  - Jonathan
+  - Jolawole
+  - Lamidi
+  - Lawal
+  - Madaki
+  - Mahmud
+  - Maikudi
+  - Mantakari
+  - Martins
+  - Mbana
+  - Mbanefo
+  - Memuna
+  - Mohammed
+  - Mshelia
+  - Ngwube
+  - Njoku
+  - Obiola
+  - Obrutse
+  - Ochigbo
+  - Ochonogo
+  - Ogechi
+  - Okah
+  - Okafor
+  - Okeke
+  - Okere
+  - Okereke
+  - Okonkwo
+  - Okoye
+  - Olaoluwa
+  - Olugbenga
+  - Olukayode
+  - Olumide
+  - Olumodeji
+  - Olusanmi
+  - Oluwadamilare
+  - Oluwakemi
+  - Oluwayomi
+  - Oni
+  - Onita
+  - Onyinjuke
+  - Opara
+  - Orakwe
+  - Otaru
+  - Otatoru
+  - Rajuli
+  - Raphael
+  - Saraki
+  - Sekibo
+  - Shuta
+  - Sunny
+  - Temitope
+  - Tosin
+  - Uba
+  - Udoh
+  - Ugbabio
+  - Usman
+  - Wale
+  - Yar-adua
+  - Yindadi

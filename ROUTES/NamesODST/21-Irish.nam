@@ -1,0 +1,99 @@
+lookWeights:
+  - 48
+  - 48
+  - 2
+  - 2
+maleFirst:
+  - ODST Aidan
+  - ODST Andrew
+  - ODST Brendon
+  - ODST Cathal
+  - ODST Cian
+  - ODST Cillian
+  - ODST Conor
+  - ODST Cormac
+  - ODST Daniel
+  - ODST Darragh
+  - ODST David
+  - ODST Donal
+  - ODST Eoghan
+  - ODST Eoin
+  - ODST Finn
+  - ODST Jack
+  - ODST James
+  - ODST John
+  - ODST Liam
+  - ODST Luke
+  - ODST Michael
+  - ODST Mick
+  - ODST Oisin
+  - ODST Owen
+  - ODST Paddy
+  - ODST Padraig
+  - ODST Pat
+  - ODST Patrick
+  - ODST Pete
+  - ODST Ronan
+  - ODST Rory
+  - ODST Sean
+  - ODST Thomas
+femaleFirst:
+  - ODST Aine
+  - ODST Aisling
+  - ODST Aoife
+  - ODST Caoimhe
+  - ODST Ciara
+  - ODST Clara
+  - ODST Fiona
+  - ODST Grainne
+  - ODST Karen
+  - ODST Kate
+  - ODST Kathleen
+  - ODST Lisa
+  - ODST Lorna
+  - ODST Mary
+  - ODST Michelle
+  - ODST Niamh
+  - ODST Orla
+  - ODST Rachel
+  - ODST Roisin
+  - ODST Saoirse
+  - ODST Sarah
+  - ODST Shauna
+  - ODST Sinead
+  - ODST Siobhan
+maleLast:
+  - Brennan
+  - Burke
+  - Byrne
+  - Campbell
+  - Clarke
+  - Collins
+  - Doherty
+  - Doyle
+  - Dunn
+  - Duffy
+  - Farrell
+  - Flanagan
+  - Fitzgerald
+  - Fitzpatrick
+  - Flynn
+  - Gallagher
+  - Kavanagh
+  - Kelly
+  - Kennedy
+  - Lynch
+  - Maguire
+  - McCarthy
+  - McGrath
+  - Moore
+  - Murphy
+  - O'Brien
+  - O'Donnell
+  - O'Neill
+  - Quinn
+  - Reilly
+  - Ryan
+  - Sullivan
+  - Walsh  
+  - Whelan

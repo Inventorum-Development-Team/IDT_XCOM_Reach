@@ -1,0 +1,400 @@
+lookWeights:
+  - 8
+  - 16
+  - 8
+  - 1
+maleFirst:
+  - ODST Abdullah
+  - ODST Adem
+  - ODST Adil
+  - ODST Adnan
+  - ODST Ahmet
+  - ODST Akif
+  - ODST Ali
+  - ODST Alp
+  - ODST Alper
+  - ODST Altan
+  - ODST Arda
+  - ODST Arif
+  - ODST Atilla
+  - ODST Aydemir
+  - ODST Ayhan
+  - ODST Aykut
+  - ODST Aziz
+  - ODST Baha
+  - ODST Bahri
+  - ODST Barlas
+  - ODST Bedri
+  - ODST Bekir
+  - ODST Berk
+  - ODST Bilal
+  - ODST Birol
+  - ODST Bora
+  - ODST Burak
+  - ODST Burhan
+  - ODST Cahit
+  - ODST Can
+  - ODST Caner
+  - ODST Cem
+  - ODST Cemal
+  - ODST Cengiz
+  - ODST Cenk
+  - ODST Cihan
+  - ODST Cumhur
+  - ODST Davut
+  - ODST Doruk
+  - ODST Dursun
+  - ODST Efe
+  - ODST Ekrem
+  - ODST Emin
+  - ODST Emrah
+  - ODST Emre
+  - ODST Engin
+  - ODST Enver
+  - ODST Erdal
+  - ODST Eren
+  - ODST Erhan
+  - ODST Erkan
+  - ODST Erol
+  - ODST Ethem
+  - ODST Fahri
+  - ODST Faruk
+  - ODST Fatih
+  - ODST Fehmi
+  - ODST Ferdi
+  - ODST Ferhat
+  - ODST Feridun
+  - ODST Fikret
+  - ODST Furkan
+  - ODST Hakan
+  - ODST Halil
+  - ODST Haluk
+  - ODST Hamdi
+  - ODST Hamza
+  - ODST Harun
+  - ODST Hasan
+  - ODST Hayri
+  - ODST Hikmet
+  - ODST Hilmi
+  - ODST Kaan
+  - ODST Kadir
+  - ODST Kemal
+  - ODST Kenan
+  - ODST Kerem
+  - ODST Koray
+  - ODST Korhan
+  - ODST Levent
+  - ODST Mahir
+  - ODST Mahmut
+  - ODST Mehmet
+  - ODST Melih
+  - ODST Mert
+  - ODST Mete
+  - ODST Metin
+  - ODST Mithat
+  - ODST Muammer
+  - ODST Muhammet
+  - ODST Muhsin
+  - ODST Murat
+  - ODST Musa
+  - ODST Mustafa
+  - ODST Muzaffer
+  - ODST Naci
+  - ODST Nazmi
+  - ODST Necdet
+  - ODST Nihat
+  - ODST Niyazi
+  - ODST Nuri
+  - ODST Okan
+  - ODST Oktay
+  - ODST Onur
+  - ODST Orhan
+  - ODST Osman
+  - ODST Ozan
+  - ODST Ramazan
+  - ODST Remzi
+  - ODST Sabri
+  - ODST Salih
+  - ODST Sedat
+  - ODST Selim
+  - ODST Semih
+  - ODST Sercan
+  - ODST Serdar
+  - ODST Serhat
+  - ODST Serkan
+  - ODST Sinan
+  - ODST Soner
+  - ODST Taha
+  - ODST Tahir
+  - ODST Tahsin
+  - ODST Taner
+  - ODST Tarkan
+  - ODST Tayfun
+  - ODST Tayyar
+  - ODST Temel
+  - ODST Teoman
+  - ODST Tevfik
+  - ODST Timur
+  - ODST Tolga
+  - ODST Tosun
+  - ODST Tuna
+  - ODST Tuncay
+  - ODST Turan
+  - ODST Turgut
+  - ODST Ufuk
+  - ODST Umut
+  - ODST Utku
+  - ODST Uzay
+  - ODST Vedat
+  - ODST Veli
+  - ODST Veysel
+  - ODST Volkan
+  - ODST Vural
+  - ODST Yahya
+  - ODST Yakup
+  - ODST Yasin
+  - ODST Yavuz
+  - ODST Yusuf
+  - ODST Zafer
+  - ODST Zeki
+  - ODST Zeynel
+  - ODST Ziya
+femaleFirst:
+  - ODST Adile
+  - ODST Alev
+  - ODST Arzu
+  - ODST Asena
+  - ODST Ayda
+  - ODST Aydan
+  - ODST Ayla
+  - ODST Aylin
+  - ODST Aysel
+  - ODST Aysu
+  - ODST Aysun
+  - ODST Bahar
+  - ODST Bengi
+  - ODST Bilge
+  - ODST Birsen
+  - ODST Burcu
+  - ODST Canan
+  - ODST Ceren
+  - ODST Ceyda
+  - ODST Damla
+  - ODST Demet
+  - ODST Deniz
+  - ODST Didem
+  - ODST Dilara
+  - ODST Duygu
+  - ODST Ebru
+  - ODST Ece
+  - ODST Eda
+  - ODST Elif
+  - ODST Emel
+  - ODST Emine
+  - ODST Esra
+  - ODST Evrim
+  - ODST Eylem
+  - ODST Ezgi
+  - ODST Fatma
+  - ODST Filiz
+  - ODST Gamze
+  - ODST Gizem
+  - ODST Hande
+  - ODST Hatice
+  - ODST Irmak
+  - ODST Jale
+  - ODST Lale
+  - ODST Leyla
+  - ODST Melis
+  - ODST Meltem
+  - ODST Meral
+  - ODST Merve
+  - ODST Meryem
+  - ODST Nalan
+  - ODST Nazan
+  - ODST Nesrin
+  - ODST Nezihe
+  - ODST Nihan
+  - ODST Nil
+  - ODST Nur
+  - ODST Olcay
+  - ODST Oya
+  - ODST Pervin
+  - ODST Rabia
+  - ODST Reyhan
+  - ODST Sabiha
+  - ODST Safiye
+  - ODST Sanem
+  - ODST Seda
+  - ODST Selma
+  - ODST Semiha
+  - ODST Sevgi
+  - ODST Sevil
+  - ODST Sevim
+  - ODST Sibel
+  - ODST Sinem
+  - ODST Suna
+  - ODST Yaprak
+  - ODST Yasemin
+  - ODST Yeliz
+  - ODST Yonca
+  - ODST Zehra
+  - ODST Zekiye
+  - ODST Zeynep
+maleLast:
+  - Acar
+  - Ak
+  - Akarsu
+  - Akkaya
+  - Aksoy
+  - Akturan
+  - Albayrak
+  - Alkan
+  - Alpsoy
+  - Altay
+  - Altuner
+  - Aras
+  - Arslan
+  - Atakan
+  - Atalay
+  - Atasoy
+  - Atik
+  - Atmaca
+  - Ay
+  - Ayaz
+  - Balaban
+  - Barlas
+  - Batu
+  - Baycan
+  - Bayraktar
+  - Bozkurt
+  - Bulut
+  - Can
+  - Canatan
+  - Cansu
+  - Cesur
+  - Davulcu
+  - Demirci
+  - Dikmen
+  - Doruk
+  - Durak
+  - Durmaz
+  - Dursun
+  - Durukan
+  - Eker
+  - Ekinci
+  - Elvan
+  - Erdem
+  - Eren
+  - Erken
+  - Erkmen
+  - Erkulu
+  - Ersoy
+  - Eser
+  - Gencer
+  - Gezer
+  - Hakyemez
+  - Hamarat
+  - Haznedar
+  - Kahraman
+  - Kalender
+  - Kalyoncu
+  - Kaplan
+  - Kara
+  - Karabulut
+  - Karaca
+  - Karaduman
+  - Karakaya
+  - Karakurt
+  - Karaman
+  - Karatay
+  - Karpuzcu
+  - Kartal
+  - Kavlak
+  - Kavuncu
+  - Kaya
+  - Kayahan
+  - Kayhan
+  - Kaymaz
+  - Kazak
+  - Kazan
+  - Kesen
+  - Keskin
+  - Kocaman
+  - Konuk
+  - Koparan
+  - Korkmaz
+  - Korkusuz
+  - Korkut
+  - Koyuncu
+  - Kozan
+  - Kurt
+  - Kutlu
+  - Kuyumcu
+  - Kuzucu
+  - Mercan
+  - Mutlu
+  - Nurlu
+  - Ocak
+  - Okan
+  - Okuyan
+  - Okyay
+  - Olcay
+  - Oray
+  - Ordu
+  - Pala
+  - Pehlivan
+  - Peker
+  - Polat
+  - Poyraz
+  - Sancaktar
+  - Sayan
+  - Saydam
+  - Sazak
+  - Semerci
+  - Sert
+  - Seymen
+  - Sezer
+  - Solak
+  - Solmaz
+  - Soysal
+  - Sunay
+  - Sungur
+  - Sur
+  - Tahmaz
+  - Tan
+  - Tarhan
+  - Tekcan
+  - Tekin
+  - Tezcan
+  - Tezel
+  - Topal
+  - Toprak
+  - Torun
+  - Tufan
+  - Tuncer
+  - Turna
+  - Ulucan
+  - Ulusoy
+  - Ural
+  - Uslu
+  - Usta
+  - Uyar
+  - Uygun
+  - Uysal
+  - Uzel
+  - Uzuner
+  - Varan
+  - Vardar
+  - Vural
+  - Vurgun
+  - Yalman
+  - Yaman
+  - Yazgan
+  - Yener
+  - Yolcu
+  - Yorulmaz
+  - Yurdakul
+  - Yurtseven
+  - Zeren
+  - Zorlu

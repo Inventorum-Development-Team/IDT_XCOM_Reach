@@ -1,0 +1,80 @@
+﻿lookWeights:
+  - 8
+  - 20
+  - 10
+  - 1
+maleFirst:
+  - ODST Ali
+  - ODST Shayan
+  - ODST Mohammad
+  - ODST Alireza
+  - ODST Mahdi
+  - ODST Mohsen
+  - ODST Pooria
+  - ODST Ehsan
+  - ODST Hamid
+  - ODST Mojtaba
+  - ODST Iman
+  - ODST Sajad
+  - ODST Siavash
+  - ODST Mobin
+  - ODST Sina
+  - ODST Erfan
+  - ODST Mehdi
+  - ODST Reza
+  - ODST Masoud
+  - ODST Edris
+  - ODST Yaser
+  - ODST Arman
+  - ODST Moein
+  - ODST Kamran
+  - ODST Ashkan
+  - ODST Hossein
+  - ODST Masood
+  - ODST Bale
+femaleFirst:
+  - ODST Maryam
+  - ODST Zahra
+  - ODST Fatemeh
+  - ODST Negin
+  - ODST Sara
+  - ODST Shaghayegh
+  - ODST Mary
+  - ODST Niloofar
+  - ODST Mohadeseh
+  - ODST Mina
+  - ODST Nasrin
+  - ODST Sisily
+  - ODST Saba
+  - ODST Fatima
+  - ODST Raheleh
+  - ODST Maki
+  - ODST Ada
+  - ODST Layla
+  - ODST Mehmaz
+  - ODST Niyusha
+  - ODST Mahdie
+  - ODST Azin
+  - ODST Neda
+  - ODST Gouya
+  - ODST Sarina
+  - ODST Sahar
+  - ODST Qazal
+maleLast:
+  - Mohammadi
+  - Goudarzi
+  - Zare
+  - Salari
+  - Hosseini
+  - Ahmadi
+  - Rezaei
+  - Saidi
+  - Hashemi
+  - Askari
+  - Râdfaer
+  - Dâdfaer
+  - Habibi
+  - Rahimi
+  - Hatami
+  - Soleymaini
+  - Bagheri

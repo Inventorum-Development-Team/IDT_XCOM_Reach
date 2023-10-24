@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - ODST Aaron
+  - ODST Adan
+  - ODST Alberto
+  - ODST Alejandro
+  - ODST Alfonso
+  - ODST Andres
+  - ODST Angel
+  - ODST Antonio
+  - ODST Augusto
+  - ODST Benedicto
+  - ODST Benjamin
+  - ODST Carlos
+  - ODST Daniel
+  - ODST David
+  - ODST Diego
+  - ODST Eduardo
+  - ODST Elias
+  - ODST Eliseo
+  - ODST Enrique
+  - ODST Emanuel
+  - ODST Eric
+  - ODST Ernesto
+  - ODST Esteban
+  - ODST Fabio
+  - ODST Felipe
+  - ODST Felix
+  - ODST Fernando
+  - ODST Fidel
+  - ODST Fortunato
+  - ODST Francisco
+  - ODST Gabriel
+  - ODST Gerardo
+  - ODST Hugo
+  - ODST Humberto
+  - ODST Ismael
+  - ODST Ivan
+  - ODST Jacobo
+  - ODST Jaime
+  - ODST Javier
+  - ODST Jesus
+  - ODST Joel
+  - ODST Jorge
+  - ODST Jose
+  - ODST Juan
+  - ODST Julian
+  - ODST Leo
+  - ODST Leonardo
+  - ODST Lucas
+  - ODST Luis
+  - ODST Manuel
+  - ODST Marco
+  - ODST Marcos
+  - ODST Martin
+  - ODST Matias
+  - ODST Mateo
+  - ODST Maximiliano
+  - ODST Miguel
+  - ODST Nataniel
+  - ODST Nicolas
+  - ODST Noe
+  - ODST Octavio
+  - ODST Orlando
+  - ODST Oscar
+  - ODST Pablo
+  - ODST Pedro
+  - ODST Rafael
+  - ODST Ramon
+  - ODST Raul
+  - ODST Rene
+  - ODST Ricardo
+  - ODST Roberto
+  - ODST Rolando
+  - ODST Salvador
+  - ODST Santiago
+  - ODST Sebastian
+  - ODST Sergio
+  - ODST Silvestre
+  - ODST Stefano
+  - ODST Teodoro
+  - ODST Tito
+  - ODST Tomas
+  - ODST Valentin
+  - ODST Vicente
+  - ODST Victor
+  - ODST Xavier
+femaleFirst:
+  - ODST Adriana
+  - ODST Aida
+  - ODST Alejandra
+  - ODST Alexia
+  - ODST Alma
+  - ODST Ana
+  - ODST Angela
+  - ODST Angelica
+  - ODST Aurora
+  - ODST Barbara
+  - ODST Bianca
+  - ODST Brenda
+  - ODST Carina
+  - ODST Carla
+  - ODST Carolina
+  - ODST Casandra
+  - ODST Catalina
+  - ODST Claudia
+  - ODST Cristina
+  - ODST Dolores
+  - ODST Dora
+  - ODST Elena
+  - ODST Eliana
+  - ODST Elvira
+  - ODST Ema
+  - ODST Esmeralda
+  - ODST Eva
+  - ODST Felicia
+  - ODST Fiona
+  - ODST Gabriela
+  - ODST Gloria
+  - ODST Guadalupe
+  - ODST Ines
+  - ODST Isabel
+  - ODST Jesica
+  - ODST Juana
+  - ODST Laura
+  - ODST Lidia
+  - ODST Liliana
+  - ODST Linda
+  - ODST Lisa
+  - ODST Lorena
+  - ODST Magdalena
+  - ODST Marcela
+  - ODST Margarita
+  - ODST Maria
+  - ODST Mariana
+  - ODST Marisol
+  - ODST Monica
+  - ODST Nadia
+  - ODST Nancy
+  - ODST Natalia
+  - ODST Noemi
+  - ODST Olivia
+  - ODST Patricia
+  - ODST Paulina
+  - ODST Raquel
+  - ODST Rosa
+  - ODST Selena
+  - ODST Sofia
+  - ODST Sonia
+  - ODST Talia
+  - ODST Tatiana
+  - ODST Teresa
+  - ODST Vanesa
+  - ODST Veronica
+  - ODST Victoria
+  - ODST Yolanda
+maleLast:
+  - Aguilar
+  - Alba
+  - Alonso
+  - Alvarado
+  - Alvarez
+  - Avila
+  - Calderon
+  - Campos
+  - Cardenas
+  - Castilla
+  - Cervantes
+  - Chavez
+  - Cortez
+  - Cruz
+  - De La Cruz
+  - De La Rosa
+  - De Soto
+  - Diaz
+  - Dominguez
+  - Estrada
+  - Falcon
+  - Fernandez
+  - Figueroa
+  - Flores
+  - Fuentes
+  - Garcia
+  - Garza
+  - Gomez
+  - Gonzalez
+  - Guerrero
+  - Gutierrez
+  - Guzman
+  - Hernandez
+  - Herrera
+  - Jimenez
+  - Juarez
+  - Leon
+  - Lima
+  - Lopez
+  - Loya
+  - Lucio
+  - Luna
+  - Martinez
+  - Medina
+  - Mejia
+  - Mendez
+  - Mendoza
+  - Miranda
+  - Montero
+  - Montes
+  - Morales
+  - Moreno
+  - Munoz
+  - Navarro
+  - Nunez
+  - Ortega
+  - Ortiz
+  - Pacheco
+  - Pascual
+  - Perez
+  - Ramirez
+  - Ramos
+  - Reyes
+  - Rios
+  - Rivera
+  - Rodriguez
+  - Romero
+  - Rosa
+  - Ruiz
+  - Sanchez
+  - Sandoval
+  - Santa Cruz
+  - Santana
+  - Santiago
+  - Santos
+  - Sosa
+  - Suarez
+  - Tapia
+  - Torres
+  - Trejo
+  - Trevino
+  - Trujillo
+  - Valdez
+  - Vasquez
+  - Vega
+  - Velasquez

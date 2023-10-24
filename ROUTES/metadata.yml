@@ -1,0 +1,12 @@
+name: "Reach: The Fall"
+version: "0.2"
+author: "efrenespartano, Filip-H, Hans Woofington, Ikhanad + IDT"
+description: "The year is 2552. You're part of the defenders of the last human fortress among the stars... now under siege."
+id: Halo_Mod
+isMaster: true
+master: xcom1
+loadResources:
+  - UFO
+reservedSpace: 5
+requiredExtendedVersion: "7.4.4"
+resourceConfig: transparency.rul
