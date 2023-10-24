@@ -9,6 +9,7 @@ Credits:
 *Filip H: beta tester, ideas and scripts
 *Hans Woofington: beta tester, ideas and armor parts used in SPI paperdoll, ODST, army and marine fatigues paperdoll template.
 *Ikhanad: lead design, Pedia entries text
+*Kretus: UNSC weapon code and sprites
 
 -Meridian: ruleset reference, OXCE dev
 -SupSuper: globe markers template, OXC dev
