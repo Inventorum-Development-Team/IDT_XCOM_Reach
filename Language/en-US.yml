@@ -198,17 +198,18 @@ en-US:
   STR_M7S_UFOPEDIA: "Variant of the M7 Caseless SMG attached with an M49 suppressor, flashlight, and SLS/V 5B smart scope, issued to Spec-Ops units."
   STR_M7_MAG: 5x23mm SMG Magazine
   STR_M45_SHOTGUN: M45 Tactical Shotgun
-  STR_M45_SHOTGUN_UFOPEDIA: "CQC firearm used for boarding action and urban combat. Has a dual-tubular magazine chambered in 8 gauge magnum."
+  STR_M45_SHOTGUN_UFOPEDIA: "CQC firearm used for boarding action and urban combat. Has a dual-tubular, 6-shot magazine chambered in 8 gauge magnum. The pellets feature a thighter spread and harder impact than other shotgun models."
   STR_M90_SHOTGUN: M90 CAWS
-  STR_M90_SHOTGUN_UFOPEDIA: "A functionally identical and cheaper clone of the M45E model. Fires up to 12 shots of 8 gauge magnum."  
-  STR_8GAUGE_SHELLS: 8-Gauge Shotgun Speedloader
+  STR_M90_SHOTGUN_UFOPEDIA: "A functionally identical and cheaper clone of the M45E model. Fires up to 12 shots of 8 gauge magnum. A larger pellet spread helps to clean larger groups of enemies."  
+  STR_8GAUGE_SHELLS: M45 8-Gauge Shotgun Speedloader
+  STR_M90_8GAUGE_SHELLS: M90 8-Gauge Shotgun Speedloader
   STR_M319: M319 Grenade Launcher
   STR_M319_GRENADE: 40mm Grenade
   STR_M319_UFOPEDIA: "A single-shot, break-action explosives launcher produced by Misriah Armory. Although it is less effective against energy shielded Covenant foes, it can be used to deadly effect against unshielded targets."
   STR_GL_DIRECT: Direct Shot
   STR_GL_ARC: Arcing Shot
   STR_M247H_MG: M247H Machine Gun
-  STR_M247H_MG_UFOPEDIA: "A widely used turreted machinegun. Incredibly heavy and thus can only be used by exceptionally strong units."
+  STR_M247H_MG_UFOPEDIA: "A widely used turreted machine gun. Incredibly heavy and thus can only be used by exceptionally strong units."
   STR_BR55: BR55HB-SR Battle Rifle
   STR_BR55_UFOPEDIA: "Select-Fire, Heavy Barrel variant of the Battle Rifle, commonly used for medium to long range engagements in it's 3-round burst mode. Uses the M634 X-HP-SAP experimental cartridge and a 2x KFA Scope."
   STR_BR55_MAG: 9.5x40mm BR55 Magazine
@@ -220,6 +221,8 @@ en-US:
   STR_SRS99_MAG: 14.5x114mm SRS99 Magazine
   STR_MA37: MA37 ICWS
   STR_MA37_UFOPEDIA: "Skeletonized, simpler and more reliable early variant of the MA5, with over a century of service. Includes a flash hider and an external, modular electronics suite, uses M118 FMJ rounds."
+  STR_MA5K: "MA5K Carbine"
+  STR_MA5K_UFOPEDIA: "Compact and lightweight version of the MA5 line, used by special UNSC units - usually SPARTANS. By removing the electronics compartment and replacing it with a carrying handle, the operator's mobility is facilitated. It uses the same loaders as the MA37."
   STR_MA37_MAG: 7.62x51mm MA37 Magazine
   STR_MA5B: MA5B Assault Rifle
   STR_MA5B_UFOPEDIA: "The bulkier, heavier variant of the MA37, used by the Marine Corps, comes with an integrated flashlight and electronics suite, as well as a large 60-round magazine chambered in M118 FMJ."

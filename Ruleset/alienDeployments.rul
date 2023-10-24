@@ -138,8 +138,8 @@ alienDeployments:
   - type: STR_SDV_CLASS_HEAVY_CORVETTE_INTERIOR
     data:
       - alienRank: 5
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 5
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -150,8 +150,8 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
       - alienRank: 4
-        lowQty: 3
-        highQty: 6
+        lowQty: 1
+        highQty: 3
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -164,8 +164,8 @@ alienDeployments:
             - STR_PLASMA_GRENADE
             - STR_PLASMA_GRENADE
       - alienRank: 3
-        lowQty: 3
-        highQty: 6
+        lowQty: 1
+        highQty: 3
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -178,8 +178,8 @@ alienDeployments:
             - STR_PLASMA_GRENADE
             - STR_PLASMA_GRENADE
       - alienRank: 2
-        lowQty: 2
-        highQty: 8
+        lowQty: 1
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -194,7 +194,7 @@ alienDeployments:
       - alienRank: 1
         lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -208,7 +208,7 @@ alienDeployments:
       - alienRank: 0
         lowQty: 1
         highQty: 1
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -232,7 +232,7 @@ alienDeployments:
       - UBASE
     shade: 7
     script: ALIENBASE
-    race: STR_SANGHEILI_LANCE
+    race: STR_UNGGOY_LANCE
     objectiveType: 3
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
@@ -294,36 +294,36 @@ alienDeployments:
   - type: STR_CPV_CLASS_HEAVY_DESTROYER_INTERIOR
     data:
       - alienRank: 6
-        lowQty: 2
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 50
         itemSets:
           - []
       - alienRank: 5
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 5
         dQty: 1
         percentageOutsideUfo: 60
         itemSets:
           - []
       - alienRank: 4
-        lowQty: 4
-        highQty: 8
+        lowQty: 2
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 55
         itemSets:
           - []
       - alienRank: 3
-        lowQty: 3
-        highQty: 8
+        lowQty: 2
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 45
         itemSets:
           - []
       - alienRank: 2
-        lowQty: 4
-        highQty: 10
+        lowQty: 2
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 25
         itemSets:
@@ -348,7 +348,7 @@ alienDeployments:
       - UBASE
     shade: 7
     script: ALIENBASE
-    race: STR_SANGHEILI_LANCE
+    race: STR_STANDARD_LANCE
     objectiveType: 3
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
@@ -439,9 +439,9 @@ alienDeployments:
   - type: STR_CCS_CLASS_BATTLECRUISER_INTERIOR
     data:
       - alienRank: 7
-        lowQty: 2
+        lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -451,9 +451,9 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
       - alienRank: 6
-        lowQty: 2
+        lowQty: 1
         highQty: 2
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -463,8 +463,8 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
       - alienRank: 5
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 5
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
@@ -475,28 +475,28 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
       - alienRank: 4
-        lowQty: 5
-        highQty: 10
+        lowQty: 2
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 3
-        lowQty: 5
-        highQty: 10
+        lowQty: 2
+        highQty: 4
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 2
-        lowQty: 5
-        highQty: 10
-        dQty: 1
+        lowQty: 2
+        highQty: 5
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 1
-        lowQty: 2
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
@@ -505,7 +505,7 @@ alienDeployments:
       - alienRank: 0
         lowQty: 1
         highQty: 1
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           - []
@@ -587,50 +587,50 @@ alienDeployments:
   - type: STR_CAS_CLASS_ASSAULT_CARRIER_INTERIOR
     data:
       - alienRank: 7
-        lowQty: 2
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 6
-        lowQty: 2
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 5
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 4
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 3
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 2
-        lowQty: 5
-        highQty: 10
+        lowQty: 2
+        highQty: 5
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           - []
       - alienRank: 1
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:

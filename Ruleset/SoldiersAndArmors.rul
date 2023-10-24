@@ -1,10 +1,10 @@
 soldiers:
   - delete: STR_SOLDIER
   - type: STR_SPARTAN_III
-    costBuy: 5000000
+    costBuy: 1000000
     transferTime: 24
     minStats:
-      tu: 90
+      tu: 100
       stamina: 90
       health: 50
       bravery: 90
@@ -17,7 +17,7 @@ soldiers:
       melee: 70
       mana: 0
     maxStats:
-      tu: 100
+      tu: 120
       stamina: 100
       health: 60
       bravery: 100
