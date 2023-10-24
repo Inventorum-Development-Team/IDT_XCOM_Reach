@@ -65,7 +65,7 @@ startingBase:
           ammo: 200
       items:
         STR_GRENADE: 8
-        STR_MA37: 5
+        STR_MA5K: 5
         STR_MA37_MAG: 10
         STR_M392: 2
         STR_M392_MAG: 4
@@ -130,7 +130,7 @@ startingBase:
       status: STR_READY
   items:
     STR_GRENADE: 5
-    STR_MA37: 5
+    STR_MA5K: 5
     STR_MA37_MAG: 10
     STR_M392: 3
     STR_M392_MAG: 9
