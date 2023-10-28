@@ -183,9 +183,9 @@ items:
     costBuy: 1686
     costSell: 1265
     weight: 5
-    bigSprite: 240
-    floorSprite: 240
-    handSprite: 240
+    bigSprite: 248
+    floorSprite: 248
+    handSprite: 248
     fireSound: [132, 133, 134]
     reloadSound: [135, 136, 137]
     compatibleAmmo:
