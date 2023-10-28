@@ -737,9 +737,17 @@ alienDeployments:
       - INDUSTRIALSLUM
       - REFINERY
       - INDUSTRIALSLUM
-      - IDT_VILLAGE
-      - RURAL
+      - POLIS
+      - APARTMENT
       - IDT_AIRPORT
+      - MADCITY
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
+      - DOWNTOWN
+      - DOWNTOWN
+      - AIRFIELD1
+      - AIRFIELD2
+      - AIRFIELD3
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
