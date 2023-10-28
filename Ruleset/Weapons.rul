@@ -448,7 +448,7 @@ items:
     explosionSpeed: 30
     bulletSprite: 14
     bulletSpeed: 20
-    power: 100
+    power: 120
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
@@ -658,8 +658,8 @@ items:
     autoRange: 8
     accuracyAuto: 50
     accuracySnap: 60
-    tuSnap: 10
-    tuAuto: 15
+    tuSnap: 4
+    tuAuto: 6
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
@@ -1045,7 +1045,7 @@ items:
   - type: STR_H165_ORBITAL_STRIKE
     categories: [STR_WEAPONS, STR_UNSC_EQUIPMENT, STR_GADGETS]
     size: 0.1
-    costBuy: 5000000
+    costBuy: 1000000
     costSell: 100
     weight: 5
     floorSprite: 976
@@ -1171,6 +1171,7 @@ items:
     hitAnimation: 90
     bulletSprite: 21
     bulletSpeed: 10
+    explosionSpeed: 3
     power: 34
     damageAlter:
       RandomType: 3
@@ -1357,6 +1358,7 @@ items:
     hitAnimation: 120
     bulletSprite: 23
     bulletSpeed: 10
+    explosionSpeed: 5
     power: 35
     damageAlter:
       RandomType: 3
@@ -1381,9 +1383,9 @@ items:
     compatibleAmmo:         #Battle Stats
       - STR_NEEDLER_CANISTER  #
     accuracyAimed: 65       #
-    accuracySnap: 50
-    tuAimed: 10             #
-    tuSnap: 10
+    accuracySnap: 45
+    tuAimed: 40             #
+    tuSnap: 20
     confAimed:
       spendPerShot: 8        # 4x battery consumption for 2x power
       name: STR_SUPERCOMBINED
@@ -1412,7 +1414,7 @@ items:
     hitAnimation: 130
     bulletSprite: 19
     bulletSpeed: 10
-    power: 35
+    power: 30
     damageType: 4
     damageAlter:
       RandomType: 3

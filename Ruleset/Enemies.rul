@@ -419,7 +419,7 @@ units:
       stamina: 95
       health: 45
       bravery: 90
-      reactions: 45
+      reactions: 40
       firing: 60
       throwing: 50
       strength: 55
@@ -501,9 +501,9 @@ units:
     race: STR_SANGHEILI
     rank: STR_LIVE_LEADER
     stats:
-      tu: 80
+      tu: 90
       stamina: 95
-      health: 45
+      health: 50
       bravery: 100
       reactions: 45
       firing: 70
@@ -544,11 +544,11 @@ units:
     race: STR_SANGHEILI
     rank: STR_LIVE_LEADER
     stats:
-      tu: 80
+      tu: 100
       stamina: 95
-      health: 45
-      bravery: 100
-      reactions: 45
+      health: 55
+      bravery: 120
+      reactions: 50
       firing: 70
       throwing: 50
       strength: 55
@@ -633,7 +633,7 @@ units:
     stats:
       tu: 90
       stamina: 120
-      health: 30
+      health: 35
       bravery: 60
       reactions: 90
       firing: 70
@@ -720,8 +720,8 @@ units:
       stamina: 50
       health: 30
       bravery: 20
-      reactions: 50
-      firing: 50
+      reactions: 20
+      firing: 30
       throwing: 30
       strength: 30
       psiStrength: 80
@@ -761,10 +761,10 @@ units:
     stats:
       tu: 60
       stamina: 50
-      health: 40
+      health: 30
       bravery: 30
-      reactions: 55
-      firing: 55
+      reactions: 25
+      firing: 40
       throwing: 30
       strength: 30
       psiStrength: 80
@@ -804,10 +804,10 @@ units:
     stats:
       tu: 60
       stamina: 50
-      health: 50
+      health: 35
       bravery: 40
-      reactions: 50
-      firing: 60
+      reactions: 30
+      firing: 50
       throwing: 30
       strength: 30
       psiStrength: 80
@@ -844,10 +844,10 @@ units:
     stats:
       tu: 50
       stamina: 50
-      health: 90
+      health: 40
       bravery: 60
-      reactions: 50
-      firing: 70
+      reactions: 45
+      firing: 60
       throwing: 30
       strength: 30
       psiStrength: 80
