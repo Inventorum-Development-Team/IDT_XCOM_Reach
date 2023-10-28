@@ -11,6 +11,7 @@ Credits:
 *Ikhanad: lead design, Pedia entries text
 *Kretus: UNSC weapon code and sprites
 
+-Hobbes: Terrain Pack lead dev (https://github.com/Hobbes74/Terrain-Pack)
 -Meridian: ruleset reference, OXCE dev
 -SupSuper: globe markers template, OXC dev
 -Yankes: OXCE dev
