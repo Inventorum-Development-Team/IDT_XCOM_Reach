@@ -953,6 +953,20 @@ extraSprites:
       1510: Resources/HumanArmors/UNSCMarine/MARINE_LIGHT_BDU_CORPSE_FLOOROB.png
       1511: Resources/HumanArmors/UNSCMarine/MARINE_SARGE_BDU_CORPSE_FLOOROB.png
       1512: Resources/HumanArmors/UNSCMarine/MARINE_STANDARD_BDU_CORPSE_FLOOROB.png
+      #Marine EVA suit
+      #Marine Medic suit
+      #Marine Heavy armor
+      1520: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Lime Green
+      1521: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Red
+      1522: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Blue
+      1523: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Gray
+      1524: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Green
+      1525: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Light Blue 
+      1526: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Cyan
+      1527: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Brown
+      1528: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Tan
+      1529: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Purple
+      1530: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Pink
 ###################################
   - type: SPI_ARMOR_SPRITESHEET.PCK
     subX: 32
