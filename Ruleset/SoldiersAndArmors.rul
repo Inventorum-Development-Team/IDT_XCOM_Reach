@@ -914,6 +914,131 @@ items:
       armor: 50
       recover: false
 
+    - type: STR_MJOLNIR_ARMOR_UC
+      size: 0.8
+      costBuy: 2000000
+      costSell: 2000000
+    - type: STR_CORPSE_MJOLNIR_ARMOR
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1520
+      floorSprite: 1520
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_RED
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1521
+      floorSprite: 1521
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_BLUE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1522
+      floorSprite: 1522
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_GRAY
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1523
+      floorSprite: 1523
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_GREEN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1524
+      floorSprite: 1524
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_LIGHT_BLUE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1525
+      floorSprite: 1525
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_CYAN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1526
+      floorSprite: 1526
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_BROWN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1527
+      floorSprite: 1527
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_TAN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1528
+      floorSprite: 1528
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_PURPLE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1529
+      floorSprite: 1529
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_PINK
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1530
+      floorSprite: 1530
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_ORANGE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1531
+      floorSprite: 1531
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -933,6 +1058,21 @@ extraSprites:
       1510: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
       1511: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
       1512: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
+      #Marine EVA suit
+      #Marine Medic suit
+      #Marine Heavy armor
+      1520: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Lime Green
+      1521: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Red
+      1522: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Blue
+      1523: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Gray
+      1524: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Green
+      1525: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Light Blue 
+      1526: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Cyan
+      1527: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Brown
+      1528: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Tan
+      1529: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Purple
+      1530: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Pink
+      1531: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Orange
 
 
   - type: FLOOROB.PCK
@@ -967,6 +1107,8 @@ extraSprites:
       1528: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Tan
       1529: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Purple
       1530: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Pink
+      1531: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Orange
+      
 ###################################
   - type: SPI_ARMOR_SPRITESHEET.PCK
     subX: 32
@@ -1004,6 +1146,94 @@ extraSprites:
  #############
  
   - type: MJOLNIR_ARMOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_RED.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_BLUE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_GRAY.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+    - type: MJOLNIR_ARMOR_SPRITESHEET_GREEN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_CYAN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_BROWN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_TAN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_PURPLE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_PINK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+ 
+   - type: MJOLNIR_ARMOR_SPRITESHEET_ORANGE.PCK
     subX: 32
     subY: 40
     width: 512
