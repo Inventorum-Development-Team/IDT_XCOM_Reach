@@ -300,18 +300,21 @@ items:
     bigSprite: 272
     floorSprite: 272
     handSprite: 272
-    fireSound: [100, 101, 102, 103, 104, 105, 106]
+    #fireSound: [100, 101, 102, 103, 104, 105, 106]
+    fireSound: [155, 156, 157, 158, 159]
     reloadSound: [107, 108, 109]
     compatibleAmmo:
       - STR_BR55_MAG
     confAimed:
-      shots: 3
+      #shots: 3
       name: STR_AIMED_BURST
       shortName: STR_AIMED_BURST
+      spendPerShot: 3
     confSnap:
-      shots: 3
+      #shots: 3
       name: STR_BURST
       shortName: STR_BURST
+      spendPerShot: 3
     accuracySnap: 50
     accuracyAimed: 70
     tuSnap: 15
@@ -326,7 +329,7 @@ items:
     autoRange: 22
     minRange: 3
     dropoff: 3
-    autoShots: 3
+    #autoShots: 3
   - type: STR_BR55_MAG         #BR55 magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.1
@@ -337,7 +340,7 @@ items:
     floorSprite: 280
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
-    explosionSpeed: 30
+    #explosionSpeed: 30
     bulletSprite: 12
     power: 44
     bulletSpeed: 20
@@ -349,6 +352,10 @@ items:
       ToHealth: 1.2
       ToMana: 0.5
     damageType: 1
+    shotgunBehavior: 1
+    shotgunChoke: 0
+    shotgunPellets: 3
+    shotgunSpread: 10
     clipSize: 36
     battleType: 2
     armor: 12
