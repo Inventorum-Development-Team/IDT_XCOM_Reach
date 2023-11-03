@@ -89,6 +89,23 @@ en-US:
   STR_ASGM10_MISSILE_STRING: "ASGM-10 MISSILE"
   STR_ASGM10_MISSILE_UC_UFOPEDIA: "Heavy missile, employed in combat against capital ships by bombers. Its powerful explosive charge can rip apart a Destroyer in half, if it hits the target with shields down."
 ######################
+  STR_MANA: "SHIELDS"
+  STR_MANA_POOL: "SHIELD RESERVE"
+  STR_MANA_MISSING: "SHIELD MISSING"
+  STR_MANA_RECOVERY: "SHIELD RECOVERY> {ALT}{0}"
+  STR_NOT_ENOUGH_MANA: "Shields are low!"
+  STR_MANA_ABBREVIATION: "SHLD"
+  STR_MANA_CURRENT: "CURRENT SHIELD"
+  STR_MANA_NORMALIZED: "NORMALIZED SHIELD"
+  STR_COST_MANA: "shields"
+  manaExperience: "Shield experience"
+  manaRequired: "Shield required?"
+  ToMana: "Shield dmg multiplier"
+  RandomMana: "Shield dmg RNG?"
+  mana: "Shield"
+  manaRecoveryPerDay: "Shield per day"
+
+######################
   STR_UNSC_ARMORS: "UNSC ARMORS"
   STR_SPARTAN_III: "SPARTAN-III"
   STR_SPI_ARMOR_UC: "SPI Armor (Green)"
@@ -97,6 +114,11 @@ en-US:
   STR_SPI_ARMOR_GRAY_UC: "SPI Armor (Gray)"
   STR_SPI_ARMOR: "SPI Armor"
   STR_SPI_ARMOR_UFOPEDIA: "Semi-Powered Infiltration armor is a UNSC combat armor system designed with an emphasis on stealth through the use of special photoreactive panels, issued to SPARTAN-III teams."
+  
+  STR_MJOLNIR_ARMOR_UC: "MJOLNIR Mark V[B] Armor"
+  STR_MJOLNIR_ARMOR_UC_GRAY: "MJOLNIR Mark V[B] Armor (Gray)"
+  STR_MJOLNIR_ARMOR_UC_UFOPEDIA: "Prototype version of the newest powered armor, planned to be equipped by SPARTAN-II and SPARTAN-III teams. High emphasis on modularity. A newly implemented shielding generator provides another layer of defense."
+
   STR_ARMY_TROOPER: "Army Trooper"
   STR_ARMOR_ARMY_TROOPER: "Army BDU"
   STR_ARMOR_ARMY_TROOPER_UC: "ARMY BDU"

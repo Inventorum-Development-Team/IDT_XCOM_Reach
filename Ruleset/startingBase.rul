@@ -141,3 +141,4 @@ startingBase:
     STR_M6C_SOCOM: 2
     STR_M6C_MAG: 6
     STR_SMOKE_GRENADE: 5
+    STR_MJOLNIR_ARMOR_UC: 8

@@ -96,6 +96,12 @@ ufopaedia:
   #   type_id: 5
   #   section: STR_UNSC_ARMORS
   #   text: STR_SPI_ARMOR_UFOPEDIA
+
+  - id: STR_MJOLNIR_ARMOR_UC
+    type_id: 5
+    section: STR_UNSC_ARMORS
+    text: STR_MJOLNIR_ARMOR_UC_UFOPEDIA
+
 ##############
   - id: STR_ARMOR_ODST_UC
     type_id: 5

@@ -345,17 +345,17 @@ armors:
     spriteSheet: MJOLNIR_ARMOR_SPRITESHEET.PCK
     layersDefaultPrefix: HUMAN
     layersDefinition:
-      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
-      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
-      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
-      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
-      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
-      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
-      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
-      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "SECURITY_HELMET", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "SECURITY_HELMET", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SECURITY_HELMET", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "SECURITY_HELMET", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_V_SHADOW_HELMET", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET", "", ""]
     corpseBattle:
-      - STR_CORPSE_SPI_ARMOR
-    storeItem: STR_NONE
+      - STR_CORPSE_MJOLNIR_ARMOR
+    storeItem: STR_MJOLNIR_ARMOR_UC
     frontArmor: 40
     sideArmor: 30
     rearArmor: 30
@@ -377,7 +377,51 @@ armors:
     loftempsSet: [ 3 ]
     forcedTorso: 0  
     stats:
-        mana: 200
+        mana: 300
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_GRAY
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_GRAY.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "EVA_HELMET_GRAY", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_GRAY
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 40
+    sideArmor: 30
+    rearArmor: 30
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0  
+    stats:
+        mana: 300
         tu: 15
         reactions: 10
         firing: 12
@@ -1061,10 +1105,10 @@ extraSprites:
       #Marine EVA suit
       #Marine Medic suit
       #Marine Heavy armor
-      1520: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Lime Green
+      1520: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB.png #Lime Green
       1521: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Red
       1522: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Blue
-      1523: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Gray
+      1523: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_GRAY.png #Gray
       1524: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Green
       1525: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Light Blue 
       1526: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB.png #Cyan
@@ -1096,10 +1140,10 @@ extraSprites:
       #Marine EVA suit
       #Marine Medic suit
       #Marine Heavy armor
-      1520: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Lime Green
+      1520: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB.png #Lime Green
       1521: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Red
       1522: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Blue
-      1523: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Gray
+      1523: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_GRAY.png #Gray
       1524: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Green
       1525: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Light Blue 
       1526: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Cyan
@@ -1151,9 +1195,9 @@ extraSprites:
     width: 512
     height: 720
     files:
-      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET.png
  
-   - type: MJOLNIR_ARMOR_SPRITESHEET_RED.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_RED.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1169,7 +1213,15 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
  
-   - type: MJOLNIR_ARMOR_SPRITESHEET_GRAY.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_GRAY.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GRAY.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_GREEN.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1177,7 +1229,7 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
  
-    - type: MJOLNIR_ARMOR_SPRITESHEET_GREEN.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1185,7 +1237,7 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
  
-   - type: MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_CYAN.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1193,7 +1245,7 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
  
-   - type: MJOLNIR_ARMOR_SPRITESHEET_CYAN.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_BROWN.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1201,7 +1253,7 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
  
-   - type: MJOLNIR_ARMOR_SPRITESHEET_BROWN.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_TAN.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1209,7 +1261,7 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
  
-   - type: MJOLNIR_ARMOR_SPRITESHEET_TAN.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_PURPLE.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1217,7 +1269,7 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
  
-   - type: MJOLNIR_ARMOR_SPRITESHEET_PURPLE.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_PINK.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1225,15 +1277,7 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
  
-   - type: MJOLNIR_ARMOR_SPRITESHEET_PINK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
- 
-   - type: MJOLNIR_ARMOR_SPRITESHEET_ORANGE.PCK
+  - type: MJOLNIR_ARMOR_SPRITESHEET_ORANGE.PCK
     subX: 32
     subY: 40
     width: 512
@@ -1481,6 +1525,30 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MarineChestArmor.png
   - typeSingle: HUMAN__3__ODST_FULL_ARMOR
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODSTArmor.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_BLUE.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_BROWN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_BROWN.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_CYAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_CYAN.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_GRAY.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_GREEN.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_LIGHT_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_LIGHT_BLUE.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_ORANGE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_ORANGE.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_PINK
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_PINK.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_PURPLE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_PURPLE.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_RED
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_RED.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_TAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_TAN.png
 # Leg armor
   - typeSingle: HUMAN__4__ARMY_ARMORED_BOOTS
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/ArmyArmoredBoots.png
@@ -1490,6 +1558,14 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MarineArmoredBoots.png
   - typeSingle: HUMAN__4__MARINE_SOFT_LEG_ARMOR
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MarineSoftLegArmor.png
+  - typeSingle: HUMAN__4__MJOLNIR_DEFAULT_KNEEGUARD
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MJOLNIR_DEFAULT_KNEEGUARD.png
+  - typeSingle: HUMAN__4__MJOLNIR_DEFAULT_KNEEGUARD_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MJOLNIR_DEFAULT_KNEEGUARD_GRAY.png
+  - typeSingle: HUMAN__4__MJOLNIR_PARA_KNEEGUARD
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MJOLNIR_PARA_KNEEGUARD.png
+  - typeSingle: HUMAN__4__MJOLNIR_PARA_KNEEGUARD_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MJOLNIR_PARA_KNEEGUARD_GRAY.png
 # Shoulder armor
   - typeSingle: HUMAN__5__ARMY_SHOULDER_ARMOR_1
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/ArmyShoulderArmor1.png
@@ -1505,6 +1581,15 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor2.png
   - typeSingle: HUMAN__5__MARINE_SHOULDER_ARMOR_3
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor3.png
+  - typeSingle: HUMAN__5__MJOLNIR_ODST_PAULDRONS_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MJOLNIR_ODST_PAULDRONS_GRAY.png
+  - typeSingle: HUMAN__5__MJOLNIR_COMMANDO_PAULDRONS_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MJOLNIR_COMMANDO_PAULDRONS_GRAY.png
+  - typeSingle: HUMAN__5__MJOLNIR_GUNGNIR_PAULDRONS_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MJOLNIR_GUNGNIR_PAULDRONS_GRAY.png
+  - typeSingle: HUMAN__5__MJOLNIR_PARA_PAULDRONS_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MJOLNIR_PARA_PAULDRONS_GRAY.png
+
 # Head covering
   - typeSingle: HUMAN__6__ARMY_CAP
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ArmyCap.png
@@ -1514,6 +1599,44 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MarineCap.png
   - typeSingle: HUMAN__6__MARINE_HELMET
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MarineHelmet.png
+  - typeSingle: HUMAN__6__MARK_VB_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_VB_HELMET.png
+  - typeSingle: HUMAN__6__MARK_VB_HELMET_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_VB_HELMET_GRAY.png
+  - typeSingle: HUMAN__6__MARK_VB_HELMET_RED
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_VB_HELMET_RED.png
+  - typeSingle: HUMAN__6__AIR_ASSAULT_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/AIR_ASSAULT_HELMET.png
+  - typeSingle: HUMAN__6__AIR_ASSAULT_HELMET_CYAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/AIR_ASSAULT_HELMET_CYAN.png
+  - typeSingle: HUMAN__6__COMMANDO_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/COMMANDO_HELMET.png
+  - typeSingle: HUMAN__6__COMMANDO_HELMET_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/COMMANDO_HELMET_BLUE.png
+  - typeSingle: HUMAN__6__EVA_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/EVA_HELMET.png
+  - typeSingle: HUMAN__6__EVA_HELMET_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/EVA_HELMET_GRAY.png
+  - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET.png
+  - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET_BROWN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_BROWN.png
+  - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_GREEN.png
+  - typeSingle: HUMAN__6__ODST_HELMET_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ODST_HELMET_BLUE.png
+  - typeSingle: HUMAN__6__ODST_HELMET_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ODST_HELMET_GRAY.png
+  - typeSingle: HUMAN__6__SECURITY_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/SECURITY_HELMET.png
+  - typeSingle: HUMAN__6__MJOLNIR_MARK_VB_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MJOLNIR_MARK_VB_HELMET.png
+  - typeSingle: HUMAN__6__MJOLNIR_MARK_VB_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MJOLNIR_MARK_VB_HELMET.png
+  - typeSingle: HUMAN__6__MJOLNIR_MARK_VB_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MJOLNIR_MARK_VB_HELMET.png
+  - typeSingle: HUMAN__6__MJOLNIR_MARK_VB_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MJOLNIR_MARK_VB_HELMET.png
 # Eye accessories
   - typeSingle: HUMAN__8__BLUE_GLASSES
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/BlueGlasses.png
