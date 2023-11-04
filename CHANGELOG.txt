@@ -1,11 +1,17 @@
-28-Oct-2023 v0.4
+X-Nov-2023 v0.4
 Changes made:
-* Added Terrain Pack terrains
+* Added Terrain Pack terrains, originally made by Hobbes
+* Added MJOLNIR Mark V[B] Armor with shielding, exclusively for SPARTAN-IIIs, sprites by efrenespartano, Hans Woofington and Kretus
 * Decreased TU cost of M7 SMG to increase the ROF
 * Reduced cost of Target Locator from 5 million to 1 million
 * Nerfed Needler damage (was 35, now 30), increased TU costs
 * Rebalanced Grunts, Elites and Jackals stats (reduced reactions, health in regular units, buffed stats on Ultras and Zealots)
 * Increased hitAnimation speed on Plasma Rifle and Plasma Repeater
+* Added custom ranks for all UNSC units
+* Solved issues with several Covenant maps
+* New cursor sprites, Halo Wars style
+* Battle Rifle now behaves like a shotgun and consumes 3 bullets per shot, updated sound effects
+* Minor bugfixing
 
 23-Oct-2023 v0.3
 Changes made: 

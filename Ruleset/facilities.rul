@@ -31,3 +31,15 @@ facilities:
     sightRange: 9999
     sightChance: 1000
     mapName: XBASE_04
+
+extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      0: Resources/Facilities/EARTH_BASEBITS.png
+      1: Resources/Facilities/SQUARE_BASEBITS.png
+      2: Resources/Facilities/OCTAGON_BASEBITS.png
+      3: Resources/Facilities/CROSS_BASEBITS.png
+      9: Resources/Facilities/HANGAR_1.png
+      10: Resources/Facilities/HANGAR_2.png
+      11: Resources/Facilities/HANGAR_3.png
+      12: Resources/Facilities/HANGAR_4.png
