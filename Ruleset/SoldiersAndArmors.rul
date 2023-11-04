@@ -377,7 +377,7 @@ armors:
     loftempsSet: [ 3 ]
     forcedTorso: 0  
     stats:
-        mana: 300
+        mana: 500
         tu: 15
         reactions: 10
         firing: 12
@@ -421,7 +421,7 @@ armors:
     loftempsSet: [ 3 ]
     forcedTorso: 0  
     stats:
-        mana: 300
+        mana: 500
         tu: 15
         reactions: 10
         firing: 12

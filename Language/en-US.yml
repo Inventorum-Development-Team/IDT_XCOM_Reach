@@ -94,7 +94,7 @@ en-US:
   STR_MANA_MISSING: "SHIELD MISSING"
   STR_MANA_RECOVERY: "SHIELD RECOVERY> {ALT}{0}"
   STR_NOT_ENOUGH_MANA: "Shields are low!"
-  STR_MANA_ABBREVIATION: "SHLD"
+  STR_MANA_ABBREVIATION: "SHD"
   STR_MANA_CURRENT: "CURRENT SHIELD"
   STR_MANA_NORMALIZED: "NORMALIZED SHIELD"
   STR_COST_MANA: "shields"
@@ -136,7 +136,7 @@ en-US:
   STR_ARMOR_MARINE_SARGE_BDU_UC: "Marine BDU (Service Cap)"
   STR_ARMOR_MARINE_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet. UNSC Marine Corps variant, issued with desert fatigues and green camo plates."
   STR_ODST: "ODST"
-  STR_ARMOR_ODST_UC: "ODST BATTLE ARMOR"
+  STR_ARMOR_ODST_UC: "ODST Battle Armor"
   STR_ARMOR_ODST: "ODST Battle Armor"
   STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with VISR tech."
 ######################
