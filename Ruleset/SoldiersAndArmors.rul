@@ -43,6 +43,14 @@ soldiers:
       melee: 100
       mana: 0
     armor: STR_SPI_ARMOR_UC
+    rankSprite: 800         # default 42 # basebits.pck
+    rankBattleSprite: 800   # default 20 # smoke.pck
+    rankStrings:
+    - STR_WARRANT_OFFICER
+    - STR_WARRANT_OFFICER_I
+    - STR_WARRANT_OFFICER_II
+    - STR_WARRANT_OFFICER_III
+    - STR_CAPTAIN_II
     standHeight: 22
     kneelHeight: 14
     value: 300
@@ -94,6 +102,15 @@ soldiers:
       melee: 100
       mana: 0
     armor: STR_ARMOR_ODST_UC
+    rankSprite: 805       # default 42 # basebits.pck
+    rankBattleSprite: 805   # default 20 # smoke.pck
+    rankStrings:
+    - STR_MARINE_PRIVATE
+    - STR_MARINE_CORPORAL
+    - STR_MARINE_SERGEANT
+    - STR_MARINE_LIEUTENANT
+    - STR_MARINE_CAPTAIN
+    - STR_MARINE_MAJOR
     standHeight: 22
     kneelHeight: 14
     value: 200
@@ -144,6 +161,15 @@ soldiers:
       melee: 90
       mana: 0
     armor: STR_ARMOR_ARMY_STANDARD_BDU_UC
+    rankSprite: 811       # default 42 # basebits.pck
+    rankBattleSprite: 811   # default 20 # smoke.pck
+    rankStrings:
+    - STR_ARMY_PRIVATE
+    - STR_ARMY_CORPORAL
+    - STR_ARMY_SERGEANT
+    - STR_ARMY_WARRANT_OFFICER
+    - STR_ARMY_CAPTAIN
+    - STR_ARMY_MAJOR
     standHeight: 22
     kneelHeight: 14
     value: 50
@@ -197,6 +223,15 @@ soldiers:
       melee: 90
       mana: 0
     armor: STR_ARMOR_MARINE_STANDARD_BDU_UC
+    rankSprite: 805       # default 42 # basebits.pck
+    rankBattleSprite: 805   # default 20 # smoke.pck
+    rankStrings:
+    - STR_MARINE_PRIVATE
+    - STR_MARINE_CORPORAL
+    - STR_MARINE_SERGEANT
+    - STR_MARINE_LIEUTENANT
+    - STR_MARINE_CAPTAIN
+    - STR_MARINE_MAJOR
     standHeight: 22
     kneelHeight: 14
     value: 50
@@ -1654,3 +1689,43 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/GreenHoloEyepatch.png
   - typeSingle: HUMAN__8__LIME_HOLO_EYE_PATCH
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/LimeHoloEyepatch.png
+
+  - type: BASEBITS.PCK
+    files:
+      800: Resources/HumanArmors/RankSprites/Basebits/Rank_0_A.png
+      801: Resources/HumanArmors/RankSprites/Basebits/Rank_1_A.png
+      802: Resources/HumanArmors/RankSprites/Basebits/Rank_2_A.png
+      803: Resources/HumanArmors/RankSprites/Basebits/Rank_3_A.png
+      804: Resources/HumanArmors/RankSprites/Basebits/Rank_4_A.png
+      805: Resources/HumanArmors/RankSprites/Basebits/Rank_0_B.png
+      806: Resources/HumanArmors/RankSprites/Basebits/Rank_1_B.png
+      807: Resources/HumanArmors/RankSprites/Basebits/Rank_2_B.png
+      808: Resources/HumanArmors/RankSprites/Basebits/Rank_3_B.png
+      809: Resources/HumanArmors/RankSprites/Basebits/Rank_4_B.png
+      810: Resources/HumanArmors/RankSprites/Basebits/Rank_5_B.png
+      811: Resources/HumanArmors/RankSprites/Basebits/Rank_0_C.png
+      812: Resources/HumanArmors/RankSprites/Basebits/Rank_1_C.png
+      813: Resources/HumanArmors/RankSprites/Basebits/Rank_2_C.png
+      814: Resources/HumanArmors/RankSprites/Basebits/Rank_3_C.png
+      815: Resources/HumanArmors/RankSprites/Basebits/Rank_4_C.png
+      816: Resources/HumanArmors/RankSprites/Basebits/Rank_5_C.png
+
+  - type: SMOKE.PCK
+    files:
+      800: Resources/HumanArmors/RankSprites/Smoke/Rank_0_A.png
+      801: Resources/HumanArmors/RankSprites/Smoke/Rank_1_A.png
+      802: Resources/HumanArmors/RankSprites/Smoke/Rank_2_A.png
+      803: Resources/HumanArmors/RankSprites/Smoke/Rank_3_A.png
+      804: Resources/HumanArmors/RankSprites/Smoke/Rank_4_A.png
+      805: Resources/HumanArmors/RankSprites/Smoke/Rank_0_B.png
+      806: Resources/HumanArmors/RankSprites/Smoke/Rank_1_B.png
+      807: Resources/HumanArmors/RankSprites/Smoke/Rank_2_B.png
+      808: Resources/HumanArmors/RankSprites/Smoke/Rank_3_B.png
+      809: Resources/HumanArmors/RankSprites/Smoke/Rank_4_B.png
+      810: Resources/HumanArmors/RankSprites/Smoke/Rank_5_B.png
+      811: Resources/HumanArmors/RankSprites/Smoke/Rank_0_C.png
+      812: Resources/HumanArmors/RankSprites/Smoke/Rank_1_C.png
+      813: Resources/HumanArmors/RankSprites/Smoke/Rank_2_C.png
+      814: Resources/HumanArmors/RankSprites/Smoke/Rank_3_C.png
+      815: Resources/HumanArmors/RankSprites/Smoke/Rank_4_C.png
+      816: Resources/HumanArmors/RankSprites/Smoke/Rank_5_C.png
