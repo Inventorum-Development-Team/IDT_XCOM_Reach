@@ -3,12 +3,15 @@ facilities:
   - delete: STR_SMALL_RADAR_SYSTEM
   - delete: STR_LARGE_RADAR_SYSTEM
 
+  - type: STR_GENERAL_STORES
+  - type: STR_LIVING_QUARTERS
+    buildTime: 10
   - type: STR_HANGAR
     spriteShape: 9
     spriteFacility: 9
     size: 2
     buildCost: 200000
-    buildTime: 25
+    buildTime: 12
     storage: 50
     monthlyCost: 25000
     crafts: 2
@@ -23,7 +26,7 @@ facilities:
     spriteShape: 2
     spriteFacility: 21
     buildCost: 500000
-    buildTime: 12
+    buildTime: 5
     monthlyCost: 10000
     radarRange: 9999
     hyper: true

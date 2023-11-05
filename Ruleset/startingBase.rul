@@ -53,6 +53,7 @@ startingBase:
         STR_M7_MAG: 15
         STR_M6C_SOCOM: 8
         STR_M6C_MAG: 24
+        STR_MEDI_KIT: 12
       status: STR_READY
     - type: STR_FALCON_GUNSHIP
       id: 1
@@ -71,6 +72,7 @@ startingBase:
         STR_M392_MAG: 4
         STR_M6G: 8
         STR_M6G_MAG: 24
+        STR_MEDI_KIT: 8
       status: STR_READY
     - type: STR_SABRE_FIGHTER
       id: 1
@@ -142,3 +144,11 @@ startingBase:
     STR_M6C_MAG: 6
     STR_SMOKE_GRENADE: 5
     STR_MJOLNIR_ARMOR_UC: 8
+    STR_MEDI_KIT: 20
+    STR_SPRINT_ITEM: 2
+    STR_CAMO_ITEM: 1
+    STR_DROP_SHIELD_ITEM: 1
+    STR_HOLO_ITEM: 1
+    STR_LOCK_ITEM: 1
+  scientists: 0
+  engineers: 0

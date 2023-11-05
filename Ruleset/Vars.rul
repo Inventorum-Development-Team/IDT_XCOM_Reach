@@ -29,6 +29,8 @@ hunterKillerFastRetarget: true
 maxViewDistance: 30
 stunningImprovesMorale: true
 showFullNameInAlienInventory: true
+hireEngineersUnlockResearch: STR_ALIENS_ONLY
+hireScientistsUnlockResearch: STR_ALIENS_ONLY
 mana:
  enabled: true
  battleUI: true

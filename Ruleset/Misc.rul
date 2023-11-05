@@ -173,6 +173,12 @@ research:
   - delete: STR_PLASMA_PISTOL
   - delete: STR_ALIEN_GRENADE
 
+  - name: STR_ALIENS_ONLY
+    cost: 999
+    points: 1
+    requires:
+      - STR_ALIENS_ONLY
+
 manufacture:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING

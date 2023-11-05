@@ -11,7 +11,8 @@ Changes made:
 * Solved issues with several Covenant maps
 * New cursor sprites, Halo Wars style
 * Battle Rifle now behaves like a shotgun and consumes 3 bullets per shot, updated sound effects
-* Recolored Base Sprites to green
+* Recolored Base Sprites to green, added Medikits and Armor Abilities to starting base
+* Disabled hiring of Scientists and Engineers
 * Minor bugfixing
 
 23-Oct-2023 v0.3
