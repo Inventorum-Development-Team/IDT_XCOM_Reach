@@ -183,7 +183,7 @@ items:
   - type: STR_DROP_SHIELD_ITEM
     size: 0.1
     weight: 10
-    costBuy: 1000000
+    costBuy: 500000
     bigSprite: 103
     battleType: 1
     power: 1
