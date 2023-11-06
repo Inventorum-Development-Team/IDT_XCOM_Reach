@@ -1121,6 +1121,60 @@ items:
     battleType: 10
     armor: 8
 
+############################
+# vehicle guns
+
+  - type: STR_M41_VULCAN_CHAINGUN
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_UNSC_EQUIPMENT, STR_GADGETS]
+    size: 0.2
+    costBuy: 10000
+    costSell: 1265
+    weight: 60
+    bigSprite: 1400    #inventory sprite
+    #floorSprite: 968  #battlescape floor sprite
+    #handSprite: 968
+    fireSound: [1626, 1627, 1628]
+    confAuto:
+      shots: 20
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confSnap:
+      shots: 10
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
+    accuracyAuto: 35
+    accuracySnap: 50
+    accuracyAimed: 65
+    tuAuto: 50
+    tuSnap: 35
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    #turretType: 0 # Important, as this defines which turret grab from the sheet
+    maxRange: 200
+    aimRange: 10
+    minRange: 1
+    dropoff: 20
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11
+    bulletSpeed: 45
+    power: 45
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.9
+      ToArmor: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
+      ToMana: 0.6
+    damageType: 1
+    clipSize: -1 #200
+
+
 ######################################################
   - type: STR_PLASMA_RIFLE_ELITE       #Type25 Plasma Rifle
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
@@ -1730,6 +1784,8 @@ extraSprites:
       952: Resources/CovenantEquipment/BigMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/BigMajorShieldGauntlet.png
 
+      1400: Resources/Vehicles/BigM41Vulcan.png
+
   - type: FLOOROB.PCK
     files:
       200: Resources/HumanEquipment/FloorMA5B_noammo.png
@@ -1782,7 +1838,9 @@ extraSprites:
 #      576: Resources/HumanEquipment/FloorFlashbangGrenade.png
 #      584: Resources/HumanEquipment/FloorMachete.png
       592: Resources/HumanEquipment/FloorHealthPack.png
-#      600: Resources/HumanEquipment/FloorBioFoamCanister.png
+#      600: Resources/HumanEquipment/FloorBioFoamCanister.png 
+
+
 ######################
       608: Resources/CovenantEquipment/FloorPlasmaRifle_noammo.png
       616: Resources/CovenantEquipment/FloorPlasmaRifle_ammo.png
@@ -1830,6 +1888,7 @@ extraSprites:
       952: Resources/CovenantEquipment/FloorMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/FloorMajorShieldGauntlet.png
 
+#     1400: Resources/Vehicles/BigM41Vulcan.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -1882,6 +1941,8 @@ extraSprites:
 #      600: Resources/HumanEquipment/HandBioFoamCanister.png
       968: Resources/HumanEquipment/HandM247Machinegun.png
       976: Resources/HumanEquipment/HandH165OrbitalStrike.png
+
+      #1400: Resources/Vehicles/BigM41Vulcan.png
 ######################
       608: Resources/CovenantEquipment/HandPlasmaRifle_noammo.png
       616: Resources/CovenantEquipment/HandPlasmaRifle_ammo.png

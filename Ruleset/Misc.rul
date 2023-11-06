@@ -176,7 +176,7 @@ research:
   - name: STR_ALIENS_ONLY
     cost: 999
     points: 1
-    requires:
+    dependencies:
       - STR_ALIENS_ONLY
 
 manufacture:

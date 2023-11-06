@@ -844,6 +844,49 @@ armors:
       - STR_MARINE
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
 
+####################
+# VEHICLES
+
+  - type: STR_CHAINGUN_WARTHOG_ARMOR
+    spriteSheet: TURRET_HOG_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: CHAINGUN_WARTHOG_INV.SPK
+    corpseBattle:
+      - TANK_CORPSE_1
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 100
+    storeItem: STR_CHAINGUN_WARTHOG_ITEM
+    drawingRoutine: 2
+    constantAnimation: false
+    movementType: 0
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.75
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    units:
+      - STR_SPARTAN_III
+      - STR_ODST
+      - STR_ARMY_TROOPER
+      - STR_MARINE
+    builtInWeapons:
+      - STR_M41_VULCAN_CHAINGUN
+
+
+
 items:
     - type: STR_SPI_ARMOR
      # name: STR_SPI_ARMOR_UC
@@ -1118,6 +1161,12 @@ items:
       armor: 50
       recover: false
 
+    - type: STR_CHAINGUN_WARTHOG_ITEM
+     # name: STR_SPI_ARMOR_UC
+      size: 0.8
+      costSell: 30000
+      costBuy: 50000
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -1187,7 +1236,23 @@ extraSprites:
       1529: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Purple
       1530: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Pink
       1531: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB.png #Orange
-      
+
+###################################
+# VEHICLES
+
+  - type: CHAINGUN_WARTHOG_INV.SPK
+    singleImage: true
+    files:
+      0: Resources/Vehicles/INVENTORY/CHAINGUN_WARTHOG_INV.png
+
+  - type: TURRET_HOG_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/Vehicles/TURRET_HOG_SPRITESHEET.png
+
 ###################################
   - type: SPI_ARMOR_SPRITESHEET.PCK
     subX: 32
