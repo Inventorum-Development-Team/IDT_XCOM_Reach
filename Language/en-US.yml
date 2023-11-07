@@ -55,7 +55,7 @@ en-US:
   STR_MAC_UC: "MAC"
   STR_MAC_LAUNCHER: "MAC"
   STR_MAC_STRING: "MAC"
-  STR_MAC_UFOPEDIA: "Mark II, Light Coil - 52A6F9/MAC. Magnetic Acceleration Cannon, employs ferric tungsten rounds at supersonic velocities. The most powerful weapon available to a UNSC ship, capable of shield damage and ship penetration in equal measure. The low rate of fire of the 'light MAC' is its greatest disadvantage."
+  STR_MAC_UFOPEDIA: "Mark II, Light Coil - 52A6F9/MAC. Magnetic Acceleration Cannon, employs ferric tungsten rounds at supersonic velocities. The most powerful weapon available to a UNSC ship, capable of shield damage and ship penetration in equal measure."
   STR_30MM_CANNON_UC: "30MM CANNON"
   STR_30MM_CANNON_LAUNCHER: "30mm Cannon"
   STR_30MM_CANNON_STRING: "30MM CANNON"
@@ -75,7 +75,7 @@ en-US:
   STR_SHIVA_NUKE_UC: "SHIVA-CLASS TACTICAL NUKE"
   STR_SHIVA_NUKE_LAUNCHER: "Shiva-class Tactical Nuke"
   STR_SHIVA_STRING: "SHIVA-CLASS TACTICAL NUKE"
-  STR_SHIVA_NUKE_UC_UFOPEDIA: "UNSC standard thermonuclear weapon. Its explosive charge is widely configurable. Its electronic guidance system makes it quite reliable, although some Covenant ships are known to be able to withstand a direct hit. It can be detonated with proximity fuzes or radio-transmitted codes."
+  STR_SHIVA_NUKE_UC_UFOPEDIA: "UNSC standard thermonuclear weapon. Its explosive charge is widely configurable. Its electronic guidance system makes it quite reliable, although some Covenant ships are known to be able to withstand a direct hit. It can be detonated with proximity fuzes or radio codes."
   STR_ARCHER_MISSILE_UC: "ARCHER SHIP-TO-SHIP MISSILE"
   STR_ARCHER_MISSILE_LAUNCHER: "Archer Ship-to-Ship Missile"
   STR_ARCHER_MISSILE_STRING: "ARCHER SHIP-TO-SHIP MISSILE"
@@ -137,8 +137,19 @@ en-US:
   STR_ARMOR_MARINE_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet. UNSC Marine Corps variant, issued with desert fatigues and green camo plates."
   STR_ODST: "ODST"
   STR_ARMOR_ODST_UC: "ODST Battle Armor"
+  STR_ARMOR_ODST_UC_RED: "ODST Battle Armor (Gray)"
+  STR_ARMOR_ODST_UC_BLUE: "ODST Battle Armor (Blue)"
+  STR_ARMOR_ODST_UC_GREEN: "ODST Battle Armor (Green)"
+  STR_ARMOR_ODST_UC_ORANGE: "ODST Battle Armor (Orange)"
+  
   STR_ARMOR_ODST: "ODST Battle Armor"
   STR_ARMOR_ODST_UFOPEDIA: "Vaccuum-rated, titanium-ceramic plated BDU tougher against plasma and bullets, outfitted with VISR tech."
+  
+  STR_CHAINGUN_WARTHOG_ARMOR: "M12 Chaingun Warthog LRV"
+  STR_CHAINGUN_WARTHOG_ARMOR_UFOPEDIA: "The M12 Light Reconnaissance Vehicle is a fast and agile motorized platform, widely used since the Insurrection. Difficult to drive for rookie personnel, it's very appreciated for its maneuverability. Equipped with a M41 Vulcan Chaingun." 
+  STR_M41_VULCAN_CHAINGUN: "M41 Vulcan Chaingun"
+  STR_M41_VULCAN_CHAINGUN_UFOPEDIA: "The M41 Light Anti-Aircraft Gun is a fully automatic heavy, tri-barreled chaingun mounted on the Warthog. Chambered in the powerful 12.7x99mm round, its accuracy is greatly diminished in sustained fire."
+  
 ######################
   STR_ODST_INFANTRY: "ODST Soldier"
   STR_ARMY_RIFLEMAN: "Army Rifleman"
