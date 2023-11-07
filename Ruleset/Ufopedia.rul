@@ -141,6 +141,15 @@ ufopaedia:
     type_id: 5
     section: STR_UNSC_ARMORS
     text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
+
+  - id: STR_CHAINGUN_WARTHOG_ARMOR
+    type_id: 5
+    section: STR_UNSC_ARMORS
+    text: STR_CHAINGUN_WARTHOG_ARMOR_UFOPEDIA 
+  - id: STR_M41_VULCAN_CHAINGUN
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    text: STR_M41_VULCAN_CHAINGUN_UFOPEDIA    
 ####################
 #### WEAPONS ######
 ##################
