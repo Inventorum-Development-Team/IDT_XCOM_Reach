@@ -856,10 +856,10 @@ armors:
       - TANK_CORPSE_2
       - TANK_CORPSE_3
       - TANK_CORPSE_4
-    frontArmor: 130
-    sideArmor: 130
-    rearArmor: 130
-    underArmor: 100
+    frontArmor: 60
+    sideArmor: 60
+    rearArmor: 50
+    underArmor: 40
     storeItem: STR_CHAINGUN_WARTHOG_ITEM
     drawingRoutine: 2
     constantAnimation: false
