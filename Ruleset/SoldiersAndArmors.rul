@@ -1164,8 +1164,8 @@ items:
     - type: STR_CHAINGUN_WARTHOG_ITEM
      # name: STR_SPI_ARMOR_UC
       size: 0.8
-      costSell: 30000
-      costBuy: 50000
+      costSell: 62000
+      costBuy: 60000
 
 extraSprites:
   - type: BIGOBS.PCK
