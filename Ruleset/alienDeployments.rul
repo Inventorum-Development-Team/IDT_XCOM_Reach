@@ -10,7 +10,7 @@ alienDeployments:
           - []
     width: 40
     length: 40
-    height: 10
+    height: 11
     briefing:
       palette: 6
 #      textOffset: -36
@@ -28,7 +28,7 @@ alienDeployments:
           - []
     width: 40
     length: 40
-    height: 10
+    height: 11
     briefing:
       palette: 5
       #textOffset: -16
@@ -74,7 +74,7 @@ alienDeployments:
           - []
     width: 50
     length: 50
-    height: 10
+    height: 11
     briefing:
       palette: 5
       #textOffset: -16
@@ -127,7 +127,7 @@ alienDeployments:
           - []
     width: 50
     length: 50
-    height: 10
+    height: 11
     nextStage: STR_SDV_CLASS_HEAVY_CORVETTE_INTERIOR
     briefing:
       palette: 6
@@ -283,7 +283,7 @@ alienDeployments:
           - []
     width: 50
     length: 50
-    height: 10
+    height: 11
     nextStage: STR_CPV_CLASS_HEAVY_DESTROYER_INTERIOR
     briefing:
       palette: 6
@@ -428,7 +428,7 @@ alienDeployments:
             - STR_PLASMA_GRENADE
     width: 50
     length: 50
-    height: 10
+    height: 11
     nextStage: STR_CCS_CLASS_BATTLECRUISER_INTERIOR
     briefing:
       palette: 6
@@ -576,7 +576,7 @@ alienDeployments:
           - []
     width: 50
     length: 50
-    height: 10
+    height: 11
     nextStage: STR_CAS_CLASS_ASSAULT_CARRIER_INTERIOR
     briefing:
       palette: 6
@@ -758,7 +758,7 @@ alienDeployments:
     despawnPenalty: 1000
     width: 50
     length: 50
-    height: 10
+    height: 11
 
   - type: STR_ALIEN_BASE_ASSAULT
     data:
@@ -1080,7 +1080,7 @@ alienDeployments:
              - []
     width: 60
     length: 60
-    height: 10
+    height: 11
     finalDestination: true
     loseCutscene: loseGame
     abortCutscene: loseGame
