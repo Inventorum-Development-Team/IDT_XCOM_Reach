@@ -385,7 +385,7 @@ armors:
       F2: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SECURITY_HELMET", "", ""]
       F3: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "SECURITY_HELMET", "", ""]
       M0: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET", "", ""]
-      M1: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "MARK_V_SHADOW_HELMET", "", ""]
       M2: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_V_SHADOW_HELMET", "", ""]
       M3: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET", "", ""]
     corpseBattle:
@@ -410,7 +410,10 @@ armors:
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-    forcedTorso: 0  
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
     stats:
         mana: 500
         tu: 15
@@ -454,7 +457,10 @@ armors:
       - 1.0
       - 0.0
     loftempsSet: [ 3 ]
-    forcedTorso: 0  
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
     stats:
         mana: 500
         tu: 15
