@@ -13,7 +13,11 @@ Changes made:
 * Battle Rifle now behaves like a shotgun and consumes 3 bullets per shot, updated sound effects
 * Recolored Base Sprites to green, added Medikits and Armor Abilities to starting base
 * Disabled hiring of Scientists and Engineers
-* Increased height of the alienDeployments to avoid crashes with Ship Gravlift mapBlock, reported by Generic Scout
+* Increased height of the alienDeployments to avoid crashes with Ship Gravlift mapBlock, reported by Generic_Scout
+* Increased damage done to shields on SRS-99 Sniper Rifle from 100% to 250%
+* Reduced M7 SMG effective range, reduced TU cost, increased close-quarters accuracy; suggested by Generic_Scout
+* Reduced accuracy dropoff of M247H Machine Gun from 20 to 2; suggested by Generic_Scout
+* Increased Energy Sword damage to shields from 200% to 300%
 * Minor bugfixing
 
 23-Oct-2023 v0.3
