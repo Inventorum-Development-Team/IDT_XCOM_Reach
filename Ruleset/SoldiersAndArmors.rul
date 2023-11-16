@@ -391,9 +391,9 @@ armors:
     corpseBattle:
       - STR_CORPSE_MJOLNIR_ARMOR
     storeItem: STR_MJOLNIR_ARMOR_UC
-    frontArmor: 40
-    sideArmor: 30
-    rearArmor: 30
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
     underArmor: 10
     movementType: 0
     camouflageAtDark: -5
@@ -438,9 +438,9 @@ armors:
     corpseBattle:
       - STR_CORPSE_MJOLNIR_ARMOR_GRAY
     storeItem: STR_MJOLNIR_ARMOR_UC
-    frontArmor: 40
-    sideArmor: 30
-    rearArmor: 30
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
     underArmor: 10
     movementType: 0
     camouflageAtDark: -5
@@ -485,9 +485,9 @@ armors:
     corpseBattle:
       - STR_CORPSE_MJOLNIR_ARMOR_RED
     storeItem: STR_MJOLNIR_ARMOR_UC
-    frontArmor: 40
-    sideArmor: 30
-    rearArmor: 30
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
     underArmor: 10
     movementType: 0
     camouflageAtDark: -5
@@ -532,9 +532,9 @@ armors:
     corpseBattle:
       - STR_CORPSE_MJOLNIR_ARMOR_BLUE
     storeItem: STR_MJOLNIR_ARMOR_UC
-    frontArmor: 40
-    sideArmor: 30
-    rearArmor: 30
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
     underArmor: 10
     movementType: 0
     camouflageAtDark: -5
@@ -579,9 +579,9 @@ armors:
     corpseBattle:
       - STR_CORPSE_MJOLNIR_ARMOR_LIGHT_BLUE
     storeItem: STR_MJOLNIR_ARMOR_UC
-    frontArmor: 40
-    sideArmor: 30
-    rearArmor: 30
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
     underArmor: 10
     movementType: 0
     camouflageAtDark: -5
@@ -611,8 +611,8 @@ armors:
     units:
       - STR_SPARTAN_III
 
-  - type: STR_MJOLNIR_ARMOR_UC_RED
-    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_RED.PCK
+  - type: STR_MJOLNIR_ARMOR_UC_GREEN
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_GREEN.PCK
     layersDefaultPrefix: HUMAN
     layersDefinition:
       F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "EVA_HELMET_GRAY", "", ""]
@@ -624,11 +624,246 @@ armors:
       M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
       M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
     corpseBattle:
-      - STR_CORPSE_MJOLNIR_ARMOR_RED
+      - STR_CORPSE_MJOLNIR_ARMOR_GREEN
     storeItem: STR_MJOLNIR_ARMOR_UC
-    frontArmor: 40
-    sideArmor: 30
-    rearArmor: 30
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_CYAN
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_CYAN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "EVA_HELMET_GRAY", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_CYAN
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_BROWN
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_BROWN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "EVA_HELMET_GRAY", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_BROWN
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_TAN
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_TAN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "EVA_HELMET_GRAY", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_TAN
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_PINK
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_PINK.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "EVA_HELMET_GRAY", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_PINK
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_PURPLE
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_PURPLE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "EVA_HELMET_GRAY", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_PURPLE
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
     underArmor: 10
     movementType: 0
     camouflageAtDark: -5
@@ -1924,20 +2159,24 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_BROWN.png
   - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET_GREEN
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_GREEN.png
+  - typeSingle: HUMAN__6__GRENADIER_HELMET_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_GREEN.png    
   - typeSingle: HUMAN__6__ODST_HELMET_BLUE
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ODST_HELMET_BLUE.png
   - typeSingle: HUMAN__6__ODST_HELMET_GRAY
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ODST_HELMET_GRAY.png
   - typeSingle: HUMAN__6__SECURITY_HELMET
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/SECURITY_HELMET.png
-  - typeSingle: HUMAN__6__MJOLNIR_MARK_VB_HELMET
+  - typeSingle: HUMAN__6__SCOUT_HELMET_LIGHT_BLUE
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MJOLNIR_MARK_VB_HELMET.png
-  - typeSingle: HUMAN__6__MJOLNIR_MARK_VB_HELMET
+  - typeSingle: HUMAN__6__RECON_HELMET_LIGHT_BLUE
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MJOLNIR_MARK_VB_HELMET.png
-  - typeSingle: HUMAN__6__MJOLNIR_MARK_VB_HELMET
+  - typeSingle: HUMAN__6__HAZOP_HELMET
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MJOLNIR_MARK_VB_HELMET.png
-  - typeSingle: HUMAN__6__MJOLNIR_MARK_VB_HELMET
+  - typeSingle: HUMAN__6__HAZOP_HELMET_CYAN
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MJOLNIR_MARK_VB_HELMET.png
+  - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_GREEN.png    
 # Eye accessories
   - typeSingle: HUMAN__8__BLUE_GLASSES
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/BlueGlasses.png
