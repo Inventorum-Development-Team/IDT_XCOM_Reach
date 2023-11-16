@@ -42,6 +42,7 @@ Credits:
 *starslab: adapted Amiga fontset and ruleset
 *Stephen Rippy: original Halo Wars soundtrack
 *Tal'Raziid: tester
+*ValeriusPaipikus: explosion sprite
 *Wallz2296: All Sangheili paperdolls (modified to fit OXC size and palettes)
 *XOps: Covenant ship and craft tiles (changed color)
 *XROSS: UI ruleset template
