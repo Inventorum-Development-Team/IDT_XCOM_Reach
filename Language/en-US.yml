@@ -136,8 +136,8 @@ en-US:
   STR_ARMOR_MARINE_SARGE_BDU_UC: "Marine BDU (Service Cap)"
   STR_ARMOR_MARINE_UFOPEDIA: "Battle Dress Uniform outfitted with M52B body armor, VZG7 armored boots and CH252 helmet. UNSC Marine Corps variant, issued with desert fatigues and green camo plates."
   STR_ODST: "ODST"
-  STR_ARMOR_ODST_UC: "ODST Battle Armor"
-  STR_ARMOR_ODST_UC_RED: "ODST Battle Armor (Gray)"
+  STR_ARMOR_ODST_UC: "ODST Battle Armor (Gray)"
+  STR_ARMOR_ODST_UC_RED: "ODST Battle Armor (Red)"
   STR_ARMOR_ODST_UC_BLUE: "ODST Battle Armor (Blue)"
   STR_ARMOR_ODST_UC_GREEN: "ODST Battle Armor (Green)"
   STR_ARMOR_ODST_UC_ORANGE: "ODST Battle Armor (Orange)"
@@ -149,7 +149,7 @@ en-US:
   STR_CHAINGUN_WARTHOG_ARMOR_UFOPEDIA: "The M12 Light Reconnaissance Vehicle is a fast and agile motorized platform, widely used since the Insurrection. Difficult to drive for rookie personnel, it's very appreciated for its maneuverability. Equipped with a M41 Vulcan Chaingun." 
   STR_M41_VULCAN_CHAINGUN: "M41 Vulcan Chaingun"
   STR_M41_VULCAN_CHAINGUN_UFOPEDIA: "The M41 Light Anti-Aircraft Gun is a fully automatic heavy, tri-barreled chaingun mounted on the Warthog. Chambered in the powerful 12.7x99mm round, its accuracy is greatly diminished in sustained fire."
-  
+  STR_CHAINGUN_WARTHOG_ITEM: "M12 Chaingun Warthog LRV"
 ######################
   STR_ODST_INFANTRY: "ODST Soldier"
   STR_ARMY_RIFLEMAN: "Army Rifleman"
