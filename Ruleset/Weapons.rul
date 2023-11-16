@@ -664,11 +664,10 @@ items:
       arcing: false
       followProjectiles: false
     autoRange: 8
-    tuSnap: 14
     accuracyAuto: 50
     accuracySnap: 60
-    tuSnap: 10
-    tuAuto: 5
+    tuSnap: 5
+    tuAuto: 10
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
@@ -862,15 +861,15 @@ items:
     damageAlter:
       IgnoreOverKill: false
       ArmorEffectiveness: 0.75
-      ToArmorPrePre: 0.3
+      ToArmorPre: 0.3
       RadiusReduction: 30
       IgnoreSelfDestruct: true
       ToWound: 1.3
       RandomWound: true
       ToTile: 0.90
       ToStun: 1.2
-      ToMana: 1.0
-      ToArmorPre: 1.6
+      ToMana: 1.5
+      ToArmor: 1.6
       FixRadius: 2
     powerForAnimation: 40
     explosionHitSound: [1613, 1614, 1615, 1616, 1617, 1618]
@@ -935,7 +934,7 @@ items:
     damageAlter:
       IgnoreOverKill: false
       ArmorEffectiveness: 0.75
-      ToArmorPrePre: 0.3
+      ToArmorPre: 0.3
       RadiusReduction: 30
       IgnoreSelfDestruct: true
       ToWound: 1.3
@@ -1036,7 +1035,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmorPrePre: 0.4
+      ToArmor: 0.4
       ToArmorPre: 1.2
       ToWound: 1.2
       ToHealth: 1.2
@@ -1076,7 +1075,7 @@ items:
     damageAlter:
       RandomType: 3
       ToTile: 2 #obliterate the earth
-      ToArmorPrePre: 1 #annihilate the armor
+      ToArmorPre: 1 #annihilate the armor
       FireThreshold: 1 #incinerate the sea
       FixRadius: 6 #melt the map
       ToMorale: 5 #mash the mind
@@ -1135,7 +1134,7 @@ items:
     bigSprite: 1400    #inventory sprite
     #floorSprite: 968  #battlescape floor sprite
     #handSprite: 968
-    fireSound: [1626, 1627, 1628]
+    fireSound: [160, 161, 162, 163]
     confAuto:
       shots: 20
       name: STR_FULL_AUTO
@@ -1148,18 +1147,18 @@ items:
       followProjectiles: false
     accuracyAuto: 35
     accuracySnap: 50
-    accuracyAimed: 65
-    tuAuto: 50
-    tuSnap: 35
+    tuAuto: 30
+    tuSnap: 20
     battleType: 1
     fixedWeapon: true
     invWidth: 2
     invHeight: 3
     #turretType: 0 # Important, as this defines which turret grab from the sheet
     maxRange: 200
-    aimRange: 10
+    autoRange: 20
+    snapRange: 24
     minRange: 1
-    dropoff: 20
+    dropoff: 3
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     explosionSpeed: 30
@@ -1580,7 +1579,7 @@ items:
     damageAlter:
       IgnoreOverKill: false
       ArmorEffectiveness: 0.75
-      ToArmorPrePre: 0.3
+      ToArmorPre: 0.3
       RadiusReduction: 40
       IgnoreSelfDestruct: true
       ToWound: 1.3

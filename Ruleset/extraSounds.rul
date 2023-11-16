@@ -62,11 +62,11 @@ extraSounds:
       157: Resources/Sounds/WeaponSounds/UNSC/battle_rifle_burst3.wav
       158: Resources/Sounds/WeaponSounds/UNSC/battle_rifle_burst4.wav
       159: Resources/Sounds/WeaponSounds/UNSC/battle_rifle_burst5.wav
-#      160: Resources/Sounds/WeaponSounds/UNSC/mg36reload.wav
-#      161: Resources/Sounds/WeaponSounds/UNSC/mg36shoot.wav
-#      162: Resources/Sounds/WeaponSounds/UNSC/mg36shoots.wav
-#      163: Resources/Sounds/WeaponSounds/UNSC/mk14reload.wav
-#      164: Resources/Sounds/WeaponSounds/UNSC/mk14shoot.wav
+      160: Resources/Sounds/WeaponSounds/UNSC/chaingun_fire_h3_1.wav
+      161: Resources/Sounds/WeaponSounds/UNSC/chaingun_fire_h3_2.wav
+      162: Resources/Sounds/WeaponSounds/UNSC/chaingun_fire_h3_3.wav
+      163: Resources/Sounds/WeaponSounds/UNSC/chaingun_fire_h3_4.wav
+      164: Resources/Sounds/WeaponSounds/UNSC/chaingun_fire_h3_5.wav
 #      165: Resources/Sounds/WeaponSounds/UNSC/mk14shoots.wav
 #      166: Resources/Sounds/WeaponSounds/UNSC/mk46reload.wav
 #      167: Resources/Sounds/WeaponSounds/UNSC/mk46shoot.wav

@@ -862,9 +862,9 @@ armors:
       - TANK_CORPSE_2
       - TANK_CORPSE_3
       - TANK_CORPSE_4
-    frontArmor: 60
-    sideArmor: 60
-    rearArmor: 50
+    frontArmor: 100
+    sideArmor: 80
+    rearArmor: 70
     underArmor: 40
     storeItem: STR_CHAINGUN_WARTHOG_ITEM
     drawingRoutine: 2
@@ -883,6 +883,9 @@ armors:
       - 0.4
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
+    stats:
+        tu: 100
+        stamina: 100
     units:
       - STR_SPARTAN_III
       - STR_ODST
