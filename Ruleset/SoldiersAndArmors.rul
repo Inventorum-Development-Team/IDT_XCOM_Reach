@@ -863,9 +863,11 @@ armors:
       - TANK_CORPSE_3
       - TANK_CORPSE_4
     frontArmor: 100
-    sideArmor: 80
+    sideArmor: 90
     rearArmor: 70
     underArmor: 40
+    #deathSound: 23
+    moveSound: 14
     storeItem: STR_CHAINGUN_WARTHOG_ITEM
     drawingRoutine: 2
     constantAnimation: false

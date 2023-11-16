@@ -232,7 +232,7 @@ crafts:
           length: 20
     craftInventoryTile: [9, 9, 1]
     deployment:
-      - [9, 10, 1, 2]
+      - [9, 5, 1, 4 ] # Vehicle hardpoint
       - [11, 10, 1, 6]
       - [9, 11, 1, 2]
       - [11, 11, 1, 6]
@@ -351,7 +351,7 @@ crafts:
 
 ######################
   - type: STR_FINAL_AIRPORT_SPAWN
-    soldiers: 12
+    soldiers: 20
     battlescapeTerrainData:
       name: FINAL_EVACUATION_ZONE
       mapDataSets:
