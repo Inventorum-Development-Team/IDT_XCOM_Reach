@@ -117,6 +117,16 @@ en-US:
   
   STR_MJOLNIR_ARMOR_UC: "MJOLNIR Mark V[B]"
   STR_MJOLNIR_ARMOR_UC_GRAY: "MJOLNIR Mark V[B] (Gray)"
+  STR_MJOLNIR_ARMOR_UC_RED: "MJOLNIR Mark V[B] (Red)"
+  STR_MJOLNIR_ARMOR_UC_BLUE: "MJOLNIR Mark V[B] (Dark Blue)"
+  STR_MJOLNIR_ARMOR_UC_LIGHT_BLUE: "MJOLNIR Mark V[B] (Blue)"
+  STR_MJOLNIR_ARMOR_UC_GREEN: "MJOLNIR Mark V[B] (Green)"
+  STR_MJOLNIR_ARMOR_UC_CYAN: "MJOLNIR Mark V[B] (Cyan)"
+  STR_MJOLNIR_ARMOR_UC_BROWN: "MJOLNIR Mark V[B] (Brown)"
+  STR_MJOLNIR_ARMOR_UC_TAN: "MJOLNIR Mark V[B] (Tan)"
+  STR_MJOLNIR_ARMOR_UC_ORANGE: "MJOLNIR Mark V[B] (Orange)"
+  STR_MJOLNIR_ARMOR_UC_PINK: "MJOLNIR Mark V[B] (Pink)"
+  STR_MJOLNIR_ARMOR_UC_PURPLE: "MJOLNIR Mark V[B] (Purple)"
   STR_MJOLNIR_ARMOR_UC_UFOPEDIA: "Prototype version of the newest powered armor, planned to be equipped by SPARTAN-II and SPARTAN-III teams. High emphasis on modularity. A newly implemented shielding generator provides another layer of defense."
 
   STR_ARMY_TROOPER: "Army Trooper"

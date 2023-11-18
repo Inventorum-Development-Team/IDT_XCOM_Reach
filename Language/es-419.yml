@@ -100,6 +100,17 @@ es-419:
   
   STR_MJOLNIR_ARMOR_UC: "MJOLNIR Mark V[B]"
   STR_MJOLNIR_ARMOR_UC_GRAY: "MJOLNIR Mark V[B] (Gris)"
+  STR_MJOLNIR_ARMOR_UC_RED: "MJOLNIR Mark V[B] (Rojo)"
+  STR_MJOLNIR_ARMOR_UC_BLUE: "MJOLNIR Mark V[B] (Azul oscuro)"
+  STR_MJOLNIR_ARMOR_UC_LIGHT_BLUE: "MJOLNIR Mark V[B] (Azul)"
+  STR_MJOLNIR_ARMOR_UC_GREEN: "MJOLNIR Mark V[B] (Verde)"
+  STR_MJOLNIR_ARMOR_UC_CYAN: "MJOLNIR Mark V[B] (Cyan)"
+  STR_MJOLNIR_ARMOR_UC_BROWN: "MJOLNIR Mark V[B] (Café)"
+  STR_MJOLNIR_ARMOR_UC_TAN: "MJOLNIR Mark V[B] (Beige)"
+  STR_MJOLNIR_ARMOR_UC_ORANGE: "MJOLNIR Mark V[B] (Naranja)"
+  STR_MJOLNIR_ARMOR_UC_PINK: "MJOLNIR Mark V[B] (Rosa)"
+  STR_MJOLNIR_ARMOR_UC_PURPLE: "MJOLNIR Mark V[B] (Púrpura)"
+
   STR_MJOLNIR_ARMOR_UC_UFOPEDIA: "Versión prototipo de la más reciente armadura potenciada, planeada para ser equipada por los equipos SPARTAN-II y SPARTAN-III. Gran énfasis en la modularidad. Un generador de blindaje recién implementado proporciona otra capa de defensa.."
 
   STR_ARMY_TROOPER: "Soldado de infantería"
@@ -122,6 +133,13 @@ es-419:
   STR_ARMOR_ODST_UC: "ARMADURA DE BATALLA SCDO"
   STR_ARMOR_ODST: "Armadura de batalla SCDO"
   STR_ARMOR_ODST_UFOPEDIA: "Uniforme de Combate con placas de un compuesto titanio-cerámico con capacidad de actividad extravehicular, más resistente al plasma y las balas, equipado con tecnología VISR."
+
+  STR_CHAINGUN_WARTHOG_ARMOR: "M12 Chaingun Warthog LRV"
+  STR_CHAINGUN_WARTHOG_ARMOR_UFOPEDIA: "El Vehículo Ligero de Reconocimiento M12 es una plataforma motorizada rápida y ágil, muy utilizada desde la Insurrección. Difícil de conducir para el personal novato, es muy apreciado por su maniobrabilidad. Equipado con una torreta M41 Vulcan" 
+  STR_M41_VULCAN_CHAINGUN: "Torreta M41 Vulcan"
+  STR_M41_VULCAN_CHAINGUN_UFOPEDIA: "El Cañón Antiaéreo Ligero M41 es una ametralladora pesada de cadena, de tres cañones totalmente automática montada en el Warthog. Equipado con el potente proyectil de 12,7x99 mm, su precisión disminuye considerablemente en fuego sostenido."
+  STR_CHAINGUN_WARTHOG_ITEM: "M12 Chaingun Warthog LRV"
+
 ######################
   STR_WARRANT_OFFICER: "Subteniente"
   STR_WARRANT_OFFICER_I: "Subteniente Grado 1"
