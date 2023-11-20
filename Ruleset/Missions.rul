@@ -124,7 +124,7 @@ alienMissions:
   - type: STR_COVENANT_QUICK_SECTOR_INVASION #Covenant sneaks one base early
     points: 100 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_COVENANT_SPIRE
     spawnZone: 4 #Mission zone for alien bases
     endlessInfiltration: false
     raceWeights:
@@ -139,7 +139,7 @@ alienMissions:
   - type: STR_COVENANT_SECTOR_INVASION_EARLY #Covenant attempts to overrun the UNSC regional commands
     points: 100 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_COVENANT_SPIRE
     spawnZone: 4 #Mission zone for alien bases
     endlessInfiltration: false
     raceWeights:
@@ -170,7 +170,7 @@ alienMissions:
   - type: STR_COVENANT_SECTOR_INVASION_LATE #Covenant attempts to overrun the UNSC regional commands
     points: 100 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_COVENANT_SPIRE
     spawnZone: 4 #Mission zone for alien bases
     endlessInfiltration: false
     raceWeights:
