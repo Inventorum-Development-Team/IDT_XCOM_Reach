@@ -234,8 +234,8 @@ alienDeployments:
     script: ALIENBASE
     race: STR_UNGGOY_LANCE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE
 ###########################################
   - type: STR_CPV_CLASS_HEAVY_DESTROYER
     data:
@@ -350,8 +350,8 @@ alienDeployments:
     script: ALIENBASE
     race: STR_STANDARD_LANCE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE
 
 #########################################
   - type: STR_CCS_CLASS_BATTLECRUISER
@@ -524,8 +524,8 @@ alienDeployments:
     script: ALIENBASE
     race: STR_SANGHEILI_LANCE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE
 ##############################################
   - type: STR_CAS_CLASS_ASSAULT_CARRIER
     data:
@@ -657,8 +657,8 @@ alienDeployments:
     script: ALIENBASE
     race: STR_SANGHEILI_LANCE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_NAVIGATION_SYSTEMS_DISABLED_POPUP
 
 #####################################
 
@@ -760,7 +760,8 @@ alienDeployments:
     length: 50
     height: 11
 
-  - type: STR_ALIEN_BASE_ASSAULT
+  #- delete: STR_ALIEN_BASE_ASSAULT
+  - type: STR_COVENANT_SPIRE
     data:
       - alienRank: 7
         lowQty: 2
@@ -868,22 +869,31 @@ alienDeployments:
             - STR_PLASMA_GRENADE
           -
             - STR_PLASMA_GRENADE
-    width: 20
+    width: 60
     length: 60
-    height: 2
+    height: 15
+    civiliansByType:
+      STR_ODST_INFANTRY: 2
+      STR_MARINE_RIFLEMAN: 2
+      STR_MARINE_ASSAULT: 2
+      STR_MARINE_SUPPORT: 1
+      STR_MARINE_MEDIC: 1
+      STR_MARINE_OFFICER: 1
+    customUfo: STR_COVENANT_SPIRE
     briefing:
       palette: 6
       #textOffset: -16
       background: BACK16.SCR
+      desc: STR_COVENANT_SPIRE_BRIEFING
       showTarget: true
       showCraft: true
-    terrains:
-      - UBASE
-    shade: 7
-    script: ALIENBASE
+   ## terrains:
+      #- DESERT_GRASSLAND
+    #shade: 7
+    #script: ALIENBASE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_COVENANT_SPIRE_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_COVENANT_SPIRE_DISABLED_POPUP
 
 #####################################
 

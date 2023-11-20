@@ -18,6 +18,7 @@ alienDeployments:
   - delete: STR_SMALL_SCOUT
   - delete: STR_MEDIUM_SCOUT
   - delete: STR_LARGE_SCOUT
+  - delete: STR_ALIEN_BASE_ASSAULT
 
 missionScripts:
   - delete: gameStart
