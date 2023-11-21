@@ -1094,6 +1094,9 @@ items:
     bigSprite: 19
     floorSprite: 19
     power: 50
+    damageAlter:
+      ToTile: 0.9
+      ToWound: 1.1
     damageType: 3
     battleType: 4
     blastRadius: 5
