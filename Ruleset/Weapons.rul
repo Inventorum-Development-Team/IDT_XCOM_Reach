@@ -973,7 +973,7 @@ items:
       followProjectiles: false
     accuracyAuto: 35
     accuracySnap: 50
-    accuracyAimed: 65
+    #accuracyAimed: 65
     tuAuto: 50
     tuSnap: 35
     battleType: 1
@@ -1509,7 +1509,7 @@ items:
       AIMED_10X_POWER: 1
     accuracySnap: 40        #
     accuracyAimed: 75       #
-    tuSnap: 18              #
+    tuSnap: 10              #
     tuAimed: 30             #
     maxRange: 100           #
     aimRange: 20            #
