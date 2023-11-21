@@ -761,7 +761,7 @@ alienDeployments:
     height: 11
 
   #- delete: STR_ALIEN_BASE_ASSAULT
-  - type: STR_COVENANT_SPIRE
+  - type: STR_COVENANT_SPIRE_DEPLOYMENT
     data:
       - alienRank: 7
         lowQty: 2
@@ -887,13 +887,29 @@ alienDeployments:
       desc: STR_COVENANT_SPIRE_BRIEFING
       showTarget: true
       showCraft: true
-   ## terrains:
-      #- DESERT_GRASSLAND
+    terrains:
+      - DESERT_GRASSLAND
+      - DESERT_SAVANNA
+      - DESERT_STEPPE
+      - DESERT_MOUNT_GRASSLAND
+      - DESERT_MOUNT_SAVANNA
+      - DESERT_MOUNT_STEPPE
+      - FOREST_GRASSLAND
+      - FOREST_SAVANNA
+      - FOREST_STEPPE
+      - FOREST_MOUNT_GRASSLAND
+      - FOREST_MOUNT_SAVANNA
+      - FOREST_MOUNT_STEPPE
     #shade: 7
     #script: ALIENBASE
     objectiveType: 3
     objectiveComplete: [STR_COVENANT_SPIRE_DISABLED_COMPLETE, 500]
     objectivePopup: STR_COVENANT_SPIRE_DISABLED_POPUP
+    alert: STR_COVENANT_SPIRE_ALERT
+    markerName: STR_COVENANT_SPIRE_MARKERNAME
+    markerIcon: 7
+    duration: [999, 999]
+    despawnPenalty: 1000
 
 #####################################
 

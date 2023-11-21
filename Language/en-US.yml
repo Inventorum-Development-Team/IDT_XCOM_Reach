@@ -410,9 +410,11 @@ en-US:
   STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE: "NAVIGATION SYSTEMS DISABLED"
   STR_NAVIGATION_SYSTEMS_DISABLED_POPUP: "{SMALLLINE}NAVIGATION SYSTEMS DISABLED{NEWLINE}Ship navigation systems are disabled, retreat to entrance and abort."
   
-  STR_ALIEN_BASE_ASSAULT: "BEACH HEAD COUNTEROFFENSIVE"
+  STR_COVENANT_SPIRE_DEPLOYMENT: "BEACH-HEAD COUNTEROFFENSIVE"
+  STR_COVENANT_SPIRE_MARKERNAME_: "COVENANT SPIRE" 
   STR_COVENANT_SPIRE: "Covenant Spire"
-  STR_COVENANT_SPIRE_BRIEFING: "A large structure has been detected in the area. The tower is the direct link of the Covenant ground forces and their fleet in orbit. Infiltrate the spire and destroy all the computers and comm links inside, to disable the enemy ability to relay orders and ferry reinforcements, then retreat to extraction."
+  STR_COVENANT_SPIRE_ALERT: "ENEMY STRUCTURE SIGHTED"
+  STR_COVENANT_SPIRE_BRIEFING: "A large structure has been detected in the area. The tower is the direct link of the Covenant ground forces and their fleet in orbit. An offensive was launched to deny the enemy of a beach-head. Infiltrate the spire and destroy all the computers and comm links inside, to disable the enemy ability to relay orders and ferry reinforcements, then retreat to extraction."
   STR_COVENANT_SPIRE_DISABLED_COMPLETE: "SPIRE NO LONGER OPERATIONAL"
   STR_COVENANT_SPIRE_DISABLED_POPUP: "{SMALLLINE}SPIRE COMMAND CENTER DISABLED{NEWLINE}Enemy structure systems are destroyed, return to vehicle for EVAC."
 #####################

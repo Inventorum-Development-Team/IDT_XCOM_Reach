@@ -124,7 +124,7 @@ alienMissions:
   - type: STR_COVENANT_QUICK_SECTOR_INVASION #Covenant sneaks one base early
     points: 100 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_COVENANT_SPIRE
+    siteType: STR_COVENANT_SPIRE_DEPLOYMENT
     spawnZone: 4 #Mission zone for alien bases
     endlessInfiltration: false
     raceWeights:
@@ -139,7 +139,7 @@ alienMissions:
   - type: STR_COVENANT_SECTOR_INVASION_EARLY #Covenant attempts to overrun the UNSC regional commands
     points: 100 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_COVENANT_SPIRE
+    siteType: STR_COVENANT_SPIRE_DEPLOYMENT
     spawnZone: 4 #Mission zone for alien bases
     endlessInfiltration: false
     raceWeights:
@@ -170,7 +170,7 @@ alienMissions:
   - type: STR_COVENANT_SECTOR_INVASION_LATE #Covenant attempts to overrun the UNSC regional commands
     points: 100 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_COVENANT_SPIRE
+    siteType: STR_COVENANT_SPIRE_DEPLOYMENT
     spawnZone: 4 #Mission zone for alien bases
     endlessInfiltration: false
     raceWeights:
@@ -259,8 +259,8 @@ alienMissions:
       0:
         STR_SANGHEILI_LANCE: 100
     waves:
-      - ufo: STR_BANSHEE_FIGHTER
-        count: 3
+      - ufo: STR_SPIRIT_DROPSHIP
+        count: 1
         trajectory: P2
         timer: 1440
         huntMode: 0
