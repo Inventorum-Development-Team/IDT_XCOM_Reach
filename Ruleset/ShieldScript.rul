@@ -123,6 +123,7 @@ extended:
           var int frame;
           var int breakhit;
           var int newshade;
+          var int faction;
 
           unit.getTag frame Tag.HitFrame;
           if neq frame 0;
@@ -135,10 +136,17 @@ extended:
               if lt newshade 0;
                 set newshade 0;
               end;
+              unit.getFaction faction;
               if eq breakhit 1;
                 set_color new_pixel COLOR_X1_BROWN1;
+                if eq faction FACTION_PLAYER;
+                  set_color new_pixel COLOR_X1_SILVER;
+                end;
               else neq breakhit 1;
                 set_color new_pixel COLOR_X1_SILVER;
+                if eq faction FACTION_PLAYER;
+                  set_color new_pixel COLOR_X1_BROWN1;
+                end;
               end;
             end;
           end;
