@@ -152,6 +152,13 @@ armors:
       - 0.0
     tags:
       Hologram: 1
+
+
+
+  # - type: INSERT STEALTH ARMOR HERE
+  #   tags:
+  #     CamoVisual: 1
+
 items:
 
   - type: STR_SPRINT_ITEM
@@ -302,6 +309,7 @@ extended:
     RuleArmor:
       DropShield: int
       Hologram: int
+      CamoVisual: int
     BattleGame:
       ShieldDeployed: int
       GenderCarry: int
@@ -603,13 +611,15 @@ extended:
         - offset: 2
           code: |
             var int activecamo;
+            var int camovisual;
             var int frame;
             var int temp;
             var int newshade;
 
             unit.getTag activecamo Tag.ActiveCamo;
+            unit.getTag camovisual Tag.CamoVisual;
 
-            if eq activecamo 1;
+            if or eq camovisual 1 eq activecamo 1;
               set frame anim_frame;
               if gt frame 20;
                 set temp frame;
