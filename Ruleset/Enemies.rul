@@ -33,7 +33,6 @@ items:
     floorSprite: 2002
     invWidth: 2
     invHeight: 3
-
     battleType: 11
     recover: false
     armor: 40
@@ -46,7 +45,55 @@ items:
     floorSprite: 2003
     invWidth: 2
     invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_SPECOPS_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2005
+    floorSprite: 2005
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_STEALTH_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2006
+    floorSprite: 2006
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
 
+  - type: STR_SANGHEILI_SHIPMASTER_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2002
+    floorSprite: 2002
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_FLEETMASTER_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2003
+    floorSprite: 2003
+    invWidth: 2
+    invHeight: 3
     battleType: 11
     recover: false
     armor: 40
@@ -150,7 +197,7 @@ armors:
       mana: 200
     recovery:
       mana:
-        flatOne: 5
+        flatOne: 75
     damageModifier: # ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -181,7 +228,7 @@ armors:
       mana: 300
     recovery:
       mana:
-        flatOne: 5
+        flatOne: 75
     damageModifier: # ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -212,7 +259,7 @@ armors:
       mana: 400
     recovery:
       mana:
-        flatOne: 5
+        flatOne: 75
     damageModifier: # ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -243,7 +290,7 @@ armors:
       mana: 500
     recovery:
       mana:
-        flatOne: 5
+        flatOne: 75
     damageModifier: # ARMOR
       - 1.0 #none
       - 1.0 #AP
@@ -257,9 +304,79 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
 
-  - type: STR_KIG_YAR_MINOR_ARMOR
+  - type: STR_SANGHEILI_SPECOPS_ARMOR
     visibilityAtDay: 25
     visibilityAtDark: 20
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    spriteSheet: SANGHEILI_SPECOPS_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_SPECOPS_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_SPECOPS_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 500
+    recovery:
+      mana:
+        flatOne: 100
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+    tags:
+       CamoVisual: 1
+
+  - type: STR_SANGHEILI_STEALTH_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    camouflageAtDark: 5
+    camouflageAtDay: 7
+    spriteSheet: SANGHEILI_STEALTH_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_STEALTH_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_STEALTH_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 150
+    recovery:
+      mana:
+        flatOne: 150
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+    tags:
+       CamoVisual: 1
+
+  - type: STR_KIG_YAR_MINOR_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 23
     spriteSheet: KIG_YAR_MINOR_SPRITESHEET.PCK
     spriteInv: KIG_YAR_MINOR_INVENTORY
     corpseBattle:
@@ -284,10 +401,10 @@ armors:
     loftempsSet: [ 3 ]
 
   - type: STR_KIG_YAR_MAJOR_ARMOR
-    visibilityAtDay: 25
-    visibilityAtDark: 20
+    visibilityAtDay: 30
+    visibilityAtDark: 25
     spriteSheet: KIG_YAR_MAJOR_SPRITESHEET.PCK
-    spriteInv: KIG_YAR_MINOR_INVENTORY
+    spriteInv: KIG_YAR_MAJOR_INVENTORY
     corpseBattle:
       - STR_KIG_YAR_MAJOR_CORPSE
     frontArmor: 20
@@ -540,6 +657,49 @@ units:
        - STR_ENERGY_SWORD_BATTERY
        - STR_PLASMA_GRENADE
 
+  - type: STR_SANGHEILI_ZEALOT
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 100
+      stamina: 95
+      health: 55
+      bravery: 120
+      reactions: 50
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_ZEALOT_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 100
+    aggroSound: 1500
+    berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
+    deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
+    panicSound: [1527, 1528, 1529]
+    spotter: 2
+    intelligence: 10
+    aggression: 10
+    builtInWeaponSets:
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+
   - type: STR_SANGHEILI_SPECOPS
     race: STR_SANGHEILI
     rank: STR_LIVE_LEADER
@@ -598,7 +758,7 @@ units:
       psiStrength: 80
       psiSkill: 0
       melee: 45
-    armor: STR_SANGHEILI_SPECOPS_ARMOR
+    armor: STR_SANGHEILI_STEALTH_ARMOR
     standHeight: 19
     kneelHeight: 15
     value: 100
@@ -1042,6 +1202,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/CovenantArmors/KigYar/KIG_YAR_INVENTORY.png
+  - type: KIG_YAR_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_INVENTORY.png
 
   - type: UNGGOY_MINOR_INVENTORY
     singleImage: true
@@ -1067,8 +1231,8 @@ extraSprites:
       2002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_BIGOB.png
       2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.png
 #      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_BIGOB.png
-#      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_BIGOB.png
-#      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_CORPSE_BIGOB.png
+      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.PNG #SANGHEILI_SPECOPS_CORPSE_BIGOB.png
+      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.PNG #SANGHEILI_STEALTH_CORPSE_BIGOB.png
       2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_BIGOB.png
       2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_BIGOB.png
       2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_BIGOB.png
@@ -1083,8 +1247,8 @@ extraSprites:
       2002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_FLOOROB.png
       2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png
 #      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_FLOOROB.png
-#      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
-#      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_CORPSE_FLOOROB.png
+      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png #SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
+      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png #SANGHEILI_STEALTH_CORPSE_FLOOROB.png
       2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_FLOOROB.png
       2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_FLOOROB.png
       2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_FLOOROB.png
