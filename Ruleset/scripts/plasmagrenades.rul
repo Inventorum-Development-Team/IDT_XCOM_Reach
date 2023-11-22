@@ -1,0 +1,171 @@
+items:
+  - type: STR_PLASMA_GRENADE
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: 888
+    floorSprite: 888
+    handSprite: 888
+    power: 1
+    damageType: 3
+    battleType: 4
+    recoveryPoints: 1
+    blastRadius: 5
+
+  - type: STR_PLASMA_GRENADE_INV
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: 888
+    floorSprite: 888
+    handSprite: 888
+    power: 90
+    damageType: 3
+    battleType: 4
+    recoveryPoints: 1
+    blastRadius: 5
+    fixedWeapon: true
+    isExplodingInHands: true
+    defaultInventorySlot: STR_GRENADE_SLOTS
+  - type: STR_PLASMA_GRENADE_PRIMED
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    costSell: 14850
+    weight: 999
+    bigSprite: 888
+    floorSprite: 888
+    handSprite: 888
+    power: 90
+    damageType: 3
+    battleType: 4
+    recoveryPoints: 1
+    blastRadius: 5
+    fixedWeapon: true
+    isExplodingInHands: true
+    defaultInventorySlot: STR_GRENADE_SLOTS
+invs:
+  - id: STR_GRENADE_SLOTS
+    x: 0
+    y: 0
+    slots:
+      - [0, 0]
+
+
+armors:
+
+  - type: STR_SPI_ARMOR_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_SPI_ARMOR_RED_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_SPI_ARMOR_BLUE_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_SPI_ARMOR_GRAY_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_GRAY
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_RED
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_BLUE
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_LIGHT_BLUE
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_GREEN
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_CYAN
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_BROWN
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_TAN
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_ORANGE
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_PINK
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_MJOLNIR_ARMOR_UC_PURPLE
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ODST_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ARMY_STANDARD_BDU_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ARMY_LIGHT_BDU_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ARMY_SARGE_BDU_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_MARINE_STANDARD_BDU_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_MARINE_BALACLAVA_BDU_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_MARINE_LIGHT_BDU_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_MARINE_SARGE_BDU_UC
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_SANGHEILI_MINOR_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_SANGHEILI_MAJOR_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_SANGHEILI_ULTRA_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_SANGHEILI_ZEALOT_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_KIG_YAR_MINOR_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_KIG_YAR_MAJOR_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_UNGGOY_MINOR_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_UNGGOY_MAJOR_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_UNGGOY_HEAVY_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_UNGGOY_ULTRA_ARMOR
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+
+
+  - type: STR_CHAINGUN_WARTHOG_ARMOR
+    builtInWeapons:
+      - STR_M41_VULCAN_CHAINGUN
+      - STR_PLASMA_GRENADE_INV
+      - STR_PLASMA_GRENADE_INV
+      - STR_PLASMA_GRENADE_INV
+      - STR_PLASMA_GRENADE_INV
