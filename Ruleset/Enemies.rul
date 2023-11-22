@@ -540,7 +540,7 @@ units:
        - STR_ENERGY_SWORD_BATTERY
        - STR_PLASMA_GRENADE
 
-  - type: STR_SANGHEILI_ZEALOT
+  - type: STR_SANGHEILI_SPECOPS
     race: STR_SANGHEILI
     rank: STR_LIVE_LEADER
     stats:
@@ -555,7 +555,50 @@ units:
       psiStrength: 80
       psiSkill: 0
       melee: 45
-    armor: STR_SANGHEILI_ZEALOT_ARMOR
+    armor: STR_SANGHEILI_SPECOPS_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 100
+    aggroSound: 1500
+    berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
+    deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
+    panicSound: [1527, 1528, 1529]
+    spotter: 2
+    intelligence: 10
+    aggression: 10
+    builtInWeaponSets:
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_STEALTH
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 100
+      stamina: 95
+      health: 55
+      bravery: 120
+      reactions: 50
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_SPECOPS_ARMOR
     standHeight: 19
     kneelHeight: 15
     value: 100
@@ -911,6 +954,20 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_SPRITESHEET.png
+  - type: SANGHEILI_SPECOPS_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_SPRITESHEET.png
+  - type: SANGHEILI_STEALTH_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_SPRITESHEET.png
 
   - type: KIG_YAR_MINOR_SPRITESHEET.PCK
     subX: 32
@@ -972,6 +1029,14 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_INVENTORY.png
+  - type: SANGHEILI_SPECOPS_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_INVENTORY.png
+  - type: SANGHEILI_STEALTH_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_INVENTORY.png
 
   - type: KIG_YAR_MINOR_INVENTORY
     singleImage: true
@@ -1003,7 +1068,7 @@ extraSprites:
       2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.png
 #      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_BIGOB.png
 #      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_BIGOB.png
-#      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_GENERAL_CORPSE_BIGOB.png
+#      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_CORPSE_BIGOB.png
       2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_BIGOB.png
       2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_BIGOB.png
       2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_BIGOB.png
@@ -1019,7 +1084,7 @@ extraSprites:
       2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png
 #      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_FLOOROB.png
 #      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
-#      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_GENERAL_CORPSE_FLOOROB.png
+#      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_CORPSE_FLOOROB.png
       2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_FLOOROB.png
       2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_FLOOROB.png
       2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_FLOOROB.png
