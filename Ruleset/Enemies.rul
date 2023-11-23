@@ -374,6 +374,68 @@ armors:
     tags:
        CamoVisual: 1
 
+  - type: STR_SANGHEILI_SHIPMASTER_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_ULTRA_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_SHIPMASTER_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10 
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 400
+    recovery:
+      mana:
+        flatOne: 75
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_SANGHEILI_FLEETMASTER_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_ZEALOT_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_ZEALOT_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_FLEETMASTER_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 500
+    recovery:
+      mana:
+        flatOne: 75
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
   - type: STR_KIG_YAR_MINOR_ARMOR
     visibilityAtDay: 28
     visibilityAtDark: 23
@@ -718,7 +780,7 @@ units:
     armor: STR_SANGHEILI_SPECOPS_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 100
+    value: 120
     aggroSound: 1500
     berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
     deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
@@ -728,10 +790,100 @@ units:
     aggression: 10
     builtInWeaponSets:
      -
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_ELITE       
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+     -
+       - STR_ENERGY_SWORD
        - STR_ENERGY_SWORD
        - STR_ENERGY_SWORD_BATTERY
-       - STR_PLASMA_REPEATER_CELL
+       - STR_ENERGY_SWORD_BATTERY       
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
        - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_STEALTH
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 120
+      stamina: 120
+      health: 45
+      bravery: 120
+      reactions: 65
+      firing: 50
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_STEALTH_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 40
+    aggroSound: 1500
+    berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
+    deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
+    panicSound: [1527, 1528, 1529]
+    spotter: 2
+    intelligence: 10
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE       
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY     
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_SHIPMASTER
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 90
+      stamina: 95
+      health: 50
+      bravery: 150
+      reactions: 45
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 70
+    armor: STR_SANGHEILI_SHIPMASTER_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 150
+    aggroSound: 1500
+    berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
+    deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
+    panicSound: [1527, 1528, 1529]
+    spotter: 2
+    intelligence: 10
+    aggression: 5
+    builtInWeaponSets:
      -
        - STR_ENERGY_SWORD
        - STR_ENERGY_SWORD_BATTERY
@@ -742,26 +894,31 @@ units:
        - STR_FUEL_ROD_GUN_RACK
        - STR_FUEL_ROD_GUN_RACK
        - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
 
-  - type: STR_SANGHEILI_STEALTH
+  - type: STR_SANGHEILI_FLEETMASTER
     race: STR_SANGHEILI
     rank: STR_LIVE_LEADER
     stats:
       tu: 100
       stamina: 95
       health: 55
-      bravery: 120
-      reactions: 50
+      bravery: 160
+      reactions: 60
       firing: 70
       throwing: 50
       strength: 55
       psiStrength: 80
       psiSkill: 0
-      melee: 45
-    armor: STR_SANGHEILI_STEALTH_ARMOR
+      melee: 80
+    armor: STR_SANGHEILI_FLEETMASTER_ARMOR
     standHeight: 19
     kneelHeight: 15
-    value: 100
+    value: 200
     aggroSound: 1500
     berserkSound: [1509, 1510, 1511, 1512, 1513, 1514]
     deathSound: [1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525]
@@ -1269,7 +1426,7 @@ alienRaces:
   - id: STR_SANGHEILI_LANCE
     membersRandom:
       - [STR_SANGHEILI_ZEALOT]
-      - [STR_SANGHEILI_ULTRA]
+      - [STR_SANGHEILI_ULTRA, STR_SANGHEILI_STEALTH]
       - [STR_SANGHEILI_MAJOR]
       - [STR_SANGHEILI_MINOR]
       - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MAJOR, STR_UNGGOY_HEAVY]
@@ -1279,7 +1436,7 @@ alienRaces:
 
   - id: STR_STANDARD_LANCE
     membersRandom:
-      - [STR_SANGHEILI_MAJOR, STR_SANGHEILI_MINOR]
+      - [STR_SANGHEILI_MAJOR, STR_SANGHEILI_STEALTH]
       - [STR_SANGHEILI_MINOR, STR_SANGHEILI_MINOR, STR_SANGHEILI_MAJOR]
       - [STR_KIG_YAR_MINOR, STR_UNGGOY_HEAVY]
       - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MAJOR]
