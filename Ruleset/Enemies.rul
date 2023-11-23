@@ -107,7 +107,6 @@ items:
     floorSprite: 2011
     invWidth: 2
     invHeight: 3
-
     battleType: 11
     recover: false
     armor: 40
@@ -120,7 +119,18 @@ items:
     floorSprite: 2012
     invWidth: 2
     invHeight: 3
-
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_KIG_YAR_SNIPER_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2013
+    floorSprite: 2013
+    invWidth: 2
+    invHeight: 3
     battleType: 11
     recover: false
     armor: 40
@@ -437,7 +447,7 @@ armors:
     loftempsSet: [ 3 ]
 
   - type: STR_KIG_YAR_MINOR_ARMOR
-    visibilityAtDay: 28
+    visibilityAtDay: 26
     visibilityAtDark: 23
     spriteSheet: KIG_YAR_MINOR_SPRITESHEET.PCK
     spriteInv: KIG_YAR_MINOR_INVENTORY
@@ -462,9 +472,35 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
 
+  - type: STR_KIG_YAR_SNIPER_ARMOR
+    visibilityAtDay: 32
+    visibilityAtDark: 26
+    spriteSheet: KIG_YAR_SNIPER_SPRITESHEET.PCK
+    spriteInv: KIG_YAR_SNIPER_INVENTORY
+    corpseBattle:
+      - STR_KIG_YAR_SNIPER_CORPSE
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 10 #Muton
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
   - type: STR_KIG_YAR_MAJOR_ARMOR
-    visibilityAtDay: 30
-    visibilityAtDark: 25
+    visibilityAtDay: 28
+    visibilityAtDark: 23
     spriteSheet: KIG_YAR_MAJOR_SPRITESHEET.PCK
     spriteInv: KIG_YAR_MAJOR_INVENTORY
     corpseBattle:
@@ -489,8 +525,8 @@ armors:
     loftempsSet: [ 3 ]
 
   - type: STR_UNGGOY_MINOR_ARMOR
-    visibilityAtDay: 25
-    visibilityAtDark: 20
+    visibilityAtDay: 15
+    visibilityAtDark: 10
     spriteSheet: UNGGOY_MINOR_SPRITESHEET.PCK
     spriteInv: UNGGOY_MINOR_INVENTORY
     corpseBattle:
@@ -514,8 +550,8 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
   - type: STR_UNGGOY_MAJOR_ARMOR
-    visibilityAtDay: 25
-    visibilityAtDark: 20
+    visibilityAtDay: 18
+    visibilityAtDark: 12
     spriteSheet: UNGGOY_MAJOR_SPRITESHEET.PCK
     spriteInv: UNGGOY_MAJOR_INVENTORY
     corpseBattle:
@@ -539,8 +575,8 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
   - type: STR_UNGGOY_HEAVY_ARMOR
-    visibilityAtDay: 25
-    visibilityAtDark: 20
+    visibilityAtDay: 18
+    visibilityAtDark: 12
     spriteSheet: UNGGOY_HEAVY_SPRITESHEET.PCK
     spriteInv: UNGGOY_HEAVY_INVENTORY
     corpseBattle:
@@ -564,8 +600,8 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
   - type: STR_UNGGOY_ULTRA_ARMOR
-    visibilityAtDay: 25
-    visibilityAtDark: 20
+    visibilityAtDay: 20
+    visibilityAtDark: 15
     spriteSheet: UNGGOY_ULTRA_SPRITESHEET.PCK
     spriteInv: UNGGOY_ULTRA_INVENTORY
     corpseBattle:
@@ -1046,7 +1082,7 @@ units:
       psiStrength: 80
       psiSkill: 0
       melee: 25
-    armor: STR_KIG_YAR_MINOR_ARMOR
+    armor: STR_KIG_YAR_SNIPER_ARMOR
     standHeight: 19
     kneelHeight: 15
     value: 25
@@ -1300,6 +1336,13 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_SPRITESHEET.png
+  - type: KIG_YAR_SNIPER_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_SPRITESHEET.png
 
   - type: UNGGOY_MINOR_SPRITESHEET.PCK
     subX: 32
@@ -1359,6 +1402,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/CovenantArmors/KigYar/KIG_YAR_INVENTORY.png
+  - type: KIG_YAR_SNIPER_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_INVENTORY.png      
   - type: KIG_YAR_MAJOR_INVENTORY
     singleImage: true
     files:
@@ -1396,7 +1443,7 @@ extraSprites:
       2010: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_CORPSE_BIGOB.png
       2011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_BIGOB.png
       2012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_BIGOB.png
-#      2013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_BIGOB.png
+      2013: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
       2000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_FLOOROB.png
@@ -1412,7 +1459,7 @@ extraSprites:
       2010: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_CORPSE_FLOOROB.png
       2011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_FLOOROB.png
       2012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_FLOOROB.png
-#      2013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_FLOOROB.png
+      2013: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_FLOOROB.png
 
 
 
@@ -1433,6 +1480,28 @@ alienRaces:
       - [STR_KIG_YAR_MAJOR, STR_UNGGOY_MAJOR, STR_UNGGOY_MINOR]
       - [STR_UNGGOY_HEAVY]
       - [STR_SANGHEILI_MINOR]
+
+  - id: STR_SHIPMASTER_CREW
+    membersRandom:
+      - [STR_SANGHEILI_SHIPMASTER]
+      - [STR_SANGHEILI_STEALTH, STR_SANGHEILI_STEALTH]
+      - [STR_SANGHEILI_MAJOR, STR_KIG_YAR_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_SANGHEILI_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MINOR, STR_UNGGOY_MAJOR]
+      - [STR_UNGGOY_MINOR]
+      - [STR_UNGGOY_HEAVY]
+      - [STR_SANGHEILI_STEALTH]
+
+  - id: STR_FLEETMASTER_CREW
+    membersRandom:
+      - [STR_SANGHEILI_FLEETMASTER]
+      - [STR_SANGHEILI_SPECOPS]
+      - [STR_SANGHEILI_ULTRA, STR_SANGHEILI_MAJOR]
+      - [STR_KIG_YAR_SNIPER, STR_SANGHEILI_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MINOR, STR_UNGGOY_MAJOR]
+      - [STR_UNGGOY_MINOR]
+      - [STR_UNGGOY_HEAVY]
+      - [STR_SANGHEILI_STEALTH]
 
   - id: STR_STANDARD_LANCE
     membersRandom:
