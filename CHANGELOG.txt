@@ -3,10 +3,11 @@ Changes made:
 * Added Terrain Pack terrains, originally made by Hobbes
 * Added MJOLNIR Mark V[B] Armor with shielding, exclusively for SPARTAN-IIIs; sprites by efrenespartano, Hans Woofington and Kretus
 * Added new Covenant units, active camo script by Filip-H:
-- Elite Stealth
-- Elite SpecOps
-- Elite Shipmaster
-- Elite Fleetmaster
+- Sangheili: Stealth, SpecOps, Shipmaster, Fleetmaster
+* Added Covenant Weapons, by Kretus 
+- Type-51 Needle Rifle 
+* Added M12 Warthog as 2x2 armor, with built-in M41 Chaingun 
+* Replaced vanilla Alien Base with Covenant Spire map after a successful infiltration
 * Decreased TU cost of M7 SMG to increase the rate of fire
 * Reduced cost of Target Locator from 5 million to 1 million
 * Nerfed Needler damage (was 35, now 30), increased TU costs
