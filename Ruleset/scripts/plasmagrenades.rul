@@ -13,20 +13,19 @@ items:
     recoveryPoints: 1
     fuseType: -2
     spawnItem: STR_PLASMA_GRENADE_PRIMED
-    fuseTriggerEvents:
-      throwTrigger: true
     damageAlter:
       FixRadius: 1
       RadiusReduction: 1
     tags:
       PlasmaGrenade: 1
+      STRIKE: 1
 
   - type: STR_PLASMA_GRENADE_INV
     categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     costSell: 14850
-    weight: 3
-    bigSprite: 888
+    weight: 0
+    bigSprite: 1000
     floorSprite: 888
     handSprite: 888
     power: 90
@@ -54,14 +53,11 @@ items:
     recoveryPoints: 1
     blastRadius: 5
     fuseType: 1
+    inventoryMoveCost: 
+      basePercent: 100000
+    isExplodingInHands: true
     tags:
       FloorGrenade: 1
-invs:
-  - id: STR_GRENADE_SLOTS
-    x: 0
-    y: 0
-    slots:
-      - [0, 0]
 
 
 armors:
@@ -171,7 +167,12 @@ armors:
   - type: STR_UNGGOY_ULTRA_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-
+  - type: CIVM_ARMOR #ignoreDuplicate
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: CIVF_ARMOR #ignoreDuplicate
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
 
   - type: STR_CHAINGUN_WARTHOG_ARMOR #ignoreDuplicate
     builtInWeapons:
@@ -184,6 +185,12 @@ extended:
       PlasmaGrenade: int
       InvGrenade: int
       FloorGrenade: int
+      STRIKE: int
+    BattleUnit:
+      Lock: int
+    RuleArmor:
+      DropShield: int
+      Hologram: int
     BattleGame: 
       DontPrimePlasma: int
   scripts:
@@ -192,6 +199,9 @@ extended:
         code: |
           var int plasmagrenade;
           var int primed;
+          var int lock;
+          var int dropshield;
+          var int hologram;
 
           var ptr RuleInventory grenade_slot;
           var ptre BattleItem grenade_item;
@@ -200,6 +210,18 @@ extended:
             rules.getRuleInventory grenade_slot "STR_GRENADE_SLOTS";
             unit.getInventoryItem grenade_item grenade_slot;
             grenade_item.isFuseEnabled primed;
+            unit.getTag lock Tag.Lock;
+            if eq lock 1;
+              return power part side;
+            end;
+            unit.getTag hologram Tag.Hologram;
+            if eq hologram 1;
+              return power part side;
+            end;
+            unit.getTag dropshield Tag.DropShield;
+            if eq dropshield 1;
+              return power part side;
+            end;
             if neq primed 1;
               battle_game.setTag Tag.DontPrimePlasma 1;
               grenade_item.setFuseTimer 1;
@@ -243,3 +265,37 @@ extended:
           end;
 
           return;
+    selectItemSprite:
+       - offset: 2 # Air Strike Smoke sprite Script
+         code: |
+          var int x;
+          var int y;
+          item.getTag x Tag.STRIKE;
+          item.isFuseEnabled y;
+          if and eq x 1 eq y 1;
+            add sprite_index 8;
+          end;
+          return sprite_index;
+       - offset: 3
+         code: |
+          var int x;
+          var int y;
+          item.getTag x Tag.InvGrenade;
+          item.isFuseEnabled y;
+          if and eq x 1 eq y 1;
+            if eq blit_part blit_item_big;
+              add sprite_index 1;
+            end;
+          end;
+          return sprite_index;
+    recolorItemSprite: 
+       - offset: 2 
+         code: |
+          var int x;
+          var int y;
+          item.getTag x Tag.FloorGrenade;
+          item.isFuseEnabled y;
+          if and eq x 1 neq y 1;
+            set new_pixel 0;
+          end;
+          return new_pixel;
