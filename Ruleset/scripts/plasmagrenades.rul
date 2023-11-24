@@ -1,5 +1,5 @@
 items:
-  - type: STR_PLASMA_GRENADE
+  - type: STR_PLASMA_GRENADE #ignoreDuplicate
     categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
     size: 0.1
     costSell: 14850
@@ -11,7 +11,15 @@ items:
     damageType: 3
     battleType: 4
     recoveryPoints: 1
-    blastRadius: 5
+    fuseType: -2
+    spawnItem: STR_PLASMA_GRENADE_PRIMED
+    fuseTriggerEvents:
+      throwTrigger: true
+    damageAlter:
+      FixRadius: 1
+      RadiusReduction: 1
+    tags:
+      PlasmaGrenade: 1
 
   - type: STR_PLASMA_GRENADE_INV
     categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
@@ -28,7 +36,10 @@ items:
     blastRadius: 5
     fixedWeapon: true
     isExplodingInHands: true
+    fuseType: 1
     defaultInventorySlot: STR_GRENADE_SLOTS
+    tags:
+      InvGrenade: 1
   - type: STR_PLASMA_GRENADE_PRIMED
     categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
     size: 0.1
@@ -42,9 +53,9 @@ items:
     battleType: 4
     recoveryPoints: 1
     blastRadius: 5
-    fixedWeapon: true
-    isExplodingInHands: true
-    defaultInventorySlot: STR_GRENADE_SLOTS
+    fuseType: 1
+    tags:
+      FloorGrenade: 1
 invs:
   - id: STR_GRENADE_SLOTS
     x: 0
@@ -55,117 +66,180 @@ invs:
 
 armors:
 
-  - type: STR_SPI_ARMOR_UC
+  - type: STR_SPI_ARMOR_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_SPI_ARMOR_RED_UC
+  - type: STR_SPI_ARMOR_RED_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_SPI_ARMOR_BLUE_UC
+  - type: STR_SPI_ARMOR_BLUE_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_SPI_ARMOR_GRAY_UC
+  - type: STR_SPI_ARMOR_GRAY_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC
+  - type: STR_MJOLNIR_ARMOR_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_GRAY
+  - type: STR_MJOLNIR_ARMOR_UC_GRAY #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_RED
+  - type: STR_MJOLNIR_ARMOR_UC_RED #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_BLUE
+  - type: STR_MJOLNIR_ARMOR_UC_BLUE #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_LIGHT_BLUE
+  - type: STR_MJOLNIR_ARMOR_UC_LIGHT_BLUE #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_GREEN
+  - type: STR_MJOLNIR_ARMOR_UC_GREEN #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_CYAN
+  - type: STR_MJOLNIR_ARMOR_UC_CYAN #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_BROWN
+  - type: STR_MJOLNIR_ARMOR_UC_BROWN #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_TAN
+  - type: STR_MJOLNIR_ARMOR_UC_TAN #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_ORANGE
+  - type: STR_MJOLNIR_ARMOR_UC_ORANGE #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_PINK
+  - type: STR_MJOLNIR_ARMOR_UC_PINK #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_MJOLNIR_ARMOR_UC_PURPLE
+  - type: STR_MJOLNIR_ARMOR_UC_PURPLE #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_ODST_UC
+  - type: STR_ARMOR_ODST_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_ARMY_STANDARD_BDU_UC
+  - type: STR_ARMOR_ARMY_STANDARD_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_ARMY_BALACLAVA_BDU_UC
+  - type: STR_ARMOR_ARMY_BALACLAVA_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_ARMY_LIGHT_BDU_UC
+  - type: STR_ARMOR_ARMY_LIGHT_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_ARMY_SARGE_BDU_UC
+  - type: STR_ARMOR_ARMY_SARGE_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_MARINE_STANDARD_BDU_UC
+  - type: STR_ARMOR_MARINE_STANDARD_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_MARINE_BALACLAVA_BDU_UC
+  - type: STR_ARMOR_MARINE_BALACLAVA_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_MARINE_LIGHT_BDU_UC
+  - type: STR_ARMOR_MARINE_LIGHT_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_ARMOR_MARINE_SARGE_BDU_UC
+  - type: STR_ARMOR_MARINE_SARGE_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_SANGHEILI_MINOR_ARMOR
+  - type: STR_SANGHEILI_MINOR_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_SANGHEILI_MAJOR_ARMOR
+  - type: STR_SANGHEILI_MAJOR_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_SANGHEILI_ULTRA_ARMOR
+  - type: STR_SANGHEILI_ULTRA_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_SANGHEILI_ZEALOT_ARMOR
+  - type: STR_SANGHEILI_ZEALOT_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_KIG_YAR_MINOR_ARMOR
+  - type: STR_KIG_YAR_MINOR_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_KIG_YAR_MAJOR_ARMOR
+  - type: STR_KIG_YAR_MAJOR_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_UNGGOY_MINOR_ARMOR
+  - type: STR_UNGGOY_MINOR_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_UNGGOY_MAJOR_ARMOR
+  - type: STR_UNGGOY_MAJOR_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_UNGGOY_HEAVY_ARMOR
+  - type: STR_UNGGOY_HEAVY_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
-  - type: STR_UNGGOY_ULTRA_ARMOR
+  - type: STR_UNGGOY_ULTRA_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
 
 
-  - type: STR_CHAINGUN_WARTHOG_ARMOR
+  - type: STR_CHAINGUN_WARTHOG_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_M41_VULCAN_CHAINGUN
       - STR_PLASMA_GRENADE_INV
-      - STR_PLASMA_GRENADE_INV
-      - STR_PLASMA_GRENADE_INV
-      - STR_PLASMA_GRENADE_INV
+
+extended:
+  tags:
+    RuleItem: 
+      PlasmaGrenade: int
+      InvGrenade: int
+      FloorGrenade: int
+    BattleGame: 
+      DontPrimePlasma: int
+  scripts:
+    hitUnit:
+      - offset: 1
+        code: |
+          var int plasmagrenade;
+          var int primed;
+
+          var ptr RuleInventory grenade_slot;
+          var ptre BattleItem grenade_item;
+          damaging_item.getTag plasmagrenade Tag.PlasmaGrenade;
+          if eq plasmagrenade 1;
+            rules.getRuleInventory grenade_slot "STR_GRENADE_SLOTS";
+            unit.getInventoryItem grenade_item grenade_slot;
+            grenade_item.isFuseEnabled primed;
+            if neq primed 1;
+              battle_game.setTag Tag.DontPrimePlasma 1;
+              grenade_item.setFuseTimer 1;
+            end;
+          end;
+          return power part side;
+      - offset: 2
+        code: |
+          var int firstid;
+          var int secondid;
+          var int invgrenade;
+          var ptr BattleUnit owner;
+
+          damaging_item.getTag invgrenade Tag.InvGrenade;
+          if eq invgrenade 1;
+            damaging_item.getOwner owner;
+            owner.getId firstid;
+            unit.getId secondid;
+            if eq firstid secondid;
+             set power 999;
+            end;
+
+          end;
+
+          return power part side;
+
+    createItem:
+      - offset: 1
+        code: |
+          var int floorgrenade;
+          var int dontprimeplasma;
+
+          item.getTag floorgrenade Tag.FloorGrenade;
+          if eq floorgrenade 1;
+            battle_game.getTag dontprimeplasma Tag.DontPrimePlasma;
+            if eq dontprimeplasma 1;
+              battle_game.setTag Tag.DontPrimePlasma 0;
+              return;
+            end;
+            item.setFuseTimer 1;
+          end;
+
+          return;
