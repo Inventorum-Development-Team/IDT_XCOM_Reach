@@ -1313,14 +1313,14 @@ extraSprites:
     width: 512
     height: 720
     files:
-      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_SPRITESHEET.png
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_SPRITESHEET.png
   - type: SANGHEILI_STEALTH_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
     height: 720
     files:
-      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_SPRITESHEET.png
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_SPRITESHEET.png
 
   - type: KIG_YAR_MINOR_SPRITESHEET.PCK
     subX: 32
@@ -1342,7 +1342,7 @@ extraSprites:
     width: 512
     height: 720
     files:
-      0: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_SPRITESHEET.png
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_SPRITESHEET.png
 
   - type: UNGGOY_MINOR_SPRITESHEET.PCK
     subX: 32
@@ -1392,11 +1392,11 @@ extraSprites:
   - type: SANGHEILI_SPECOPS_INVENTORY
     singleImage: true
     files:
-      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_INVENTORY.png
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_INVENTORY.png
   - type: SANGHEILI_STEALTH_INVENTORY
     singleImage: true
     files:
-      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_INVENTORY.png
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_INVENTORY.png
 
   - type: KIG_YAR_MINOR_INVENTORY
     singleImage: true
@@ -1405,7 +1405,7 @@ extraSprites:
   - type: KIG_YAR_SNIPER_INVENTORY
     singleImage: true
     files:
-      0: Resources/CovenantArmors/KigYar/KIG_YAR_INVENTORY.png      
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_INVENTORY.png      
   - type: KIG_YAR_MAJOR_INVENTORY
     singleImage: true
     files:
@@ -1435,8 +1435,8 @@ extraSprites:
       2002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_BIGOB.png
       2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.png
 #      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_BIGOB.png
-      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.PNG #SANGHEILI_SPECOPS_CORPSE_BIGOB.png
-      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.PNG #SANGHEILI_STEALTH_CORPSE_BIGOB.png
+      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_BIGOB.png
+      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_CORPSE_BIGOB.png
       2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_BIGOB.png
       2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_BIGOB.png
       2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_BIGOB.png
@@ -1451,8 +1451,8 @@ extraSprites:
       2002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_FLOOROB.png
       2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png
 #      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_FLOOROB.png
-      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png #SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
-      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png #SANGHEILI_STEALTH_CORPSE_FLOOROB.png
+      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
+      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_CORPSE_FLOOROB.png
       2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_FLOOROB.png
       2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_FLOOROB.png
       2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_FLOOROB.png
