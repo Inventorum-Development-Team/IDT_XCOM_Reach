@@ -1,0 +1,5 @@
+extraSprites:
+  - type: BIGOBS.PCK
+    files: #blank bigobs for invisible items
+      1000: Resources/Blank/1x1_NULL.png
+      1001: Resources/Blank/BigPlasmaGrenade_primednull.png

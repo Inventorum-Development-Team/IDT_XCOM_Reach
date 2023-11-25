@@ -1598,19 +1598,7 @@ items:
     blastRadius: 5
 #    listOrder: 248
 
-  - type: STR_PLASMA_GRENADE
-    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
-    size: 0.1
-    costSell: 14850
-    weight: 3
-    bigSprite: 888
-    floorSprite: 888
-    handSprite: 888
-    power: 90
-    damageType: 3
-    battleType: 4
-    recoveryPoints: 1
-    blastRadius: 5
+  - type: STR_PLASMA_GRENADE #see scripts/plasma grenade
 
   - type: STR_ENERGY_SWORD # Type-1 Energy Sword
     categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]

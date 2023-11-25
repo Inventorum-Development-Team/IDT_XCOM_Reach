@@ -498,7 +498,7 @@ extended:
 
 
     hitUnit:
-        - offset: 1
+        - offset: 2
           code: |
             var int shieldeployed;
             var int unit_x;
@@ -582,7 +582,7 @@ extended:
 
 
 
-        - offset: 2
+        - offset: 3
           code: |
             var int lock;
 
