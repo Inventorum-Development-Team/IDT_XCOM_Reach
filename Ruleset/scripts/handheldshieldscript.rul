@@ -16,7 +16,7 @@ extended:
 
 
      hitUnit: 
-         - offset: 3 #Shield Script
+         - offset: 6 #Shield Script
            code: |
             var ptr BattleItem righthand;
             var ptr BattleItem lefthand;

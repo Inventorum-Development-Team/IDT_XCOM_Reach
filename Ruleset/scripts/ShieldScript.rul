@@ -20,7 +20,7 @@ extended:
 #Shield-breaking hit might currently deal less wounds than if the shield-piercing amount of damage would hit a unshielded unit
 
     hitUnit:
-      - offset: 3
+      - offset: 10
         code: | #Revised shield script
           var int mana;
           var int frame;
