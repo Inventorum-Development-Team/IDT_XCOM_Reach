@@ -1131,7 +1131,7 @@ items:
   - type: STR_M41_VULCAN_CHAINGUN
     categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_UNSC_EQUIPMENT, STR_GADGETS]
     size: 0.2
-    costBuy: 10000
+    costBuy: 0
     costSell: 1265
     weight: 60
     bigSprite: 1400    #inventory sprite
@@ -1881,6 +1881,10 @@ extraSprites:
       960: Resources/CovenantEquipment/FloorMajorShieldGauntlet.png
 
 #     1400: Resources/Vehicles/BigM41Vulcan.png
+      1401: Resources/Vehicles/FloorChaingunWarthogWreck0.png
+      1402: Resources/Vehicles/FloorChaingunWarthogWreck1.png
+      1403: Resources/Vehicles/FloorChaingunWarthogWreck2.png
+      1404: Resources/Vehicles/FloorChaingunWarthogWreck3.png
   - type: HANDOB.PCK
     width: 256
     height: 40
