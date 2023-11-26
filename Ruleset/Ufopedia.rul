@@ -102,6 +102,20 @@ ufopaedia:
     section: STR_UNSC_ARMORS
     text: STR_MJOLNIR_ARMOR_UC_UFOPEDIA
 
+  - id: STR_MJOLNIR_MKVB_ARMOR
+    type_id: 7
+    section: STR_ARMOR_ABILITIES_UC
+    image_id: MJOLNIR_MKVB_ARMOR_IMAGE
+    text: STR_MJOLNIR_MKVB_ARMOR_UFOPEDIA
+    text_width: 135
+
+  - id: STR_ENERGY_SHIELDS
+    type_id: 7
+    section: STR_ARMOR_ABILITIES_UC
+    image_id: ENERGY_SHIELDS_IMAGE
+    text: STR_ENERGY_SHIELDS_UFOPEDIA
+    text_width: 135
+
 ##############
   - id: STR_ARMOR_ODST_UC
     type_id: 5
@@ -545,6 +559,12 @@ ufopaedia:
     image_id: ARMOR_ABILITY_SHIELD_LOCK_IMAGE
     text: STR_LOCK_SKILL_UFOPEDIA
     text_width: 135
+  - id: STR_JETPACK_SKILL
+    type_id: 7
+    section: STR_ARMOR_ABILITIES_UC
+    image_id: ARMOR_ABILITY_JETPACK_REPORT_IMAGE
+    text: STR_JETPACK_SKILL_UFOPEDIA
+    text_width: 135
 
 extraSprites:
 #########################################
@@ -574,6 +594,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/ARMY_TROOPER_REPORT_IMAGE.PNG
+  - type: MJOLNIR_MKVB_ARMOR_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/MJOLNIR_MKVB_ARMOR_IMAGE.PNG
+  - type: ENERGY_SHIELDS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ENERGY_SHIELDS_IMAGE.PNG
 ###########################
   - type: ARMOR_ABILITY_IMAGE
     singleImage: true
@@ -617,6 +649,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE.PNG
+  - type: ARMOR_ABILITY_JETPACK_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_JETPACK_REPORT_IMAGE.PNG
 ###########################
   - type: ELITE_MINOR_REPORT_IMAGE
     singleImage: true
