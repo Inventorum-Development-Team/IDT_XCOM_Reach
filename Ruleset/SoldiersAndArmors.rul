@@ -897,14 +897,14 @@ armors:
     spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_PURPLE.PCK
     layersDefaultPrefix: HUMAN
     layersDefinition:
-      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "SCOUT_HELMET_PURPLE", "", ""]
-      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "SCOUT_HELMET_PURPLE", "", ""]
-      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "SCOUT_HELMET_PURPLE", "", ""]
-      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "SCOUT_HELMET_PURPLE", "", ""]
-      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "CQB_HELMET_PURPLE", "", ""]
-      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "CQB_HELMET_PURPLE", "", ""]
-      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "CQB_HELMET_PURPLE", "", ""]
-      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "CQB_HELMET_PURPLE", "", ""]
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "CQB_HELMET_PURPLE", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "CQB_HELMET_PURPLE", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "CQB_HELMET_PURPLE", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "CQB_HELMET_PURPLE", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SCOUT_HELMET_PURPLE", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "SCOUT_HELMET_PURPLE", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SCOUT_HELMET_PURPLE", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "SCOUT_HELMET_PURPLE", "", ""]
     corpseBattle:
       - STR_CORPSE_MJOLNIR_ARMOR_PURPLE
     storeItem: STR_MJOLNIR_ARMOR_UC
@@ -984,6 +984,180 @@ armors:
     units:
       - STR_ODST
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_ODST_UC_RED
+    spriteSheet: ODST_BDU_SPRITESHEET_RED.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU_RED
+    storeItem: STR_ARMOR_ODST
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    units:
+      - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_ODST_UC_BLUE
+    spriteSheet: ODST_BDU_SPRITESHEET_BLUE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU_BLUE
+    storeItem: STR_ARMOR_ODST
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    units:
+      - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_ODST_UC_GREEN
+    spriteSheet: ODST_BDU_SPRITESHEET_GREEN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU_GREEN
+    storeItem: STR_ARMOR_ODST
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    units:
+      - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_ODST_UC_ORANGE
+    spriteSheet: ODST_BDU_SPRITESHEET_ORANGE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU_ORANGE
+    storeItem: STR_ARMOR_ODST
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    units:
+      - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+########################################
 
   - type: STR_ARMOR_ARMY_STANDARD_BDU_UC
     spriteSheet: ARMY_TROOPER_STANDARD_BDU_SPRITESHEET.PCK
@@ -1430,6 +1604,46 @@ items:
       invHeight: 3
       armor: 50
       recover: false
+    - type: STR_CORPSE_ODST_BDU_RED
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1490
+      floorSprite: 1490
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ODST_BDU_BLUE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1491
+      floorSprite: 1491
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ODST_BDU_GREEN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1492
+      floorSprite: 1492
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ODST_BDU_ORANGE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1493
+      floorSprite: 1493
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
 
 #    - type: STR_ARMOR_ARMY_TROOPER
 #      size: 0.8
@@ -1653,6 +1867,10 @@ items:
 extraSprites:
   - type: BIGOBS.PCK
     files:
+      1490: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB_RED.png
+      1491: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB_BLUE.png
+      1492: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB_GREEN.png
+      1493: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB_ORANGE.png
       1497: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_RED.png
       1498: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_BLUE.png
       1499: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_GRAY.png
@@ -1688,6 +1906,10 @@ extraSprites:
 
   - type: FLOOROB.PCK
     files:
+      1490: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB_RED.png
+      1491: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB_BLUE.png
+      1492: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB_GREEN.png
+      1493: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB_ORANGE.png    
       1497: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_RED.png
       1498: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_BLUE.png
       1499: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_GRAY.png
@@ -1769,6 +1991,38 @@ extraSprites:
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY.png
       1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+  - type: SPI_ARMOR_SPRITESHEET_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_JETPACK.png
+      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+  - type: SPI_ARMOR_SPRITESHEET_RED_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_RED_JETPACK.png
+      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+  - type: SPI_ARMOR_SPRITESHEET_BLUE_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_BLUE_JETPACK.png
+      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+  - type: SPI_ARMOR_SPRITESHEET_GRAY_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY_JETPACK.png
+      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png      
  
  #############
  
@@ -1867,7 +2121,103 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_ORANGE.png
+
+  - type: MJOLNIR_ARMOR_SPRITESHEET_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_JETPACK.png
  
+  - type: MJOLNIR_ARMOR_SPRITESHEET_RED_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_RED_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_BLUE_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BLUE_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_GRAY_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GRAY_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_GREEN_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GREEN_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_CYAN_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_CYAN_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_BROWN_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BROWN_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_TAN_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_TAN_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_PURPLE_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PURPLE_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_PINK_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PINK_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_ORANGE_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_ORANGE_JETPACK.png
+
  #############
       
   - type: ODST_BDU_SPRITESHEET.PCK
@@ -1877,6 +2227,69 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET.png
+  - type: ODST_BDU_SPRITESHEET_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_JETPACK.png
+  - type: ODST_BDU_SPRITESHEET_BLUE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_BLUE.png
+  - type: ODST_BDU_SPRITESHEET_BLUE_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_BLUE_JETPACK.png
+  - type: ODST_BDU_SPRITESHEET_RED.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_RED.png
+  - type: ODST_BDU_SPRITESHEET_RED_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_RED_JETPACK.png
+  - type: ODST_BDU_SPRITESHEET_GREEN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_GREEN.png
+  - type: ODST_BDU_SPRITESHEET_GREEN_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_GREEN_JETPACK.png
+  - type: ODST_BDU_SPRITESHEET_ORANGE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_ORANGE.png
+  - type: ODST_BDU_SPRITESHEET_ORANGE_JETPACK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_ORANGE_JETPACK.png
 
   - type: ARMY_TROOPER_BALACLAVA_BDU_SPRITESHEET.PCK
     subX: 32
@@ -2108,6 +2521,14 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MarineChestArmor.png
   - typeSingle: HUMAN__3__ODST_FULL_ARMOR
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODSTArmor.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODST_Blue.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR_RED
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODST_Red.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODST_Green.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR_ORANGE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODST_Orange.png
   - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY.png
   - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_BLUE
