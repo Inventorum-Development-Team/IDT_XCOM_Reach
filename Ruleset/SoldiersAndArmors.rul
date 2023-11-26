@@ -1504,10 +1504,10 @@ armors:
     allowInv: true
     spriteInv: CHAINGUN_WARTHOG_INV.SPK
     corpseBattle:
-      - TANK_CORPSE_1
-      - TANK_CORPSE_2
-      - TANK_CORPSE_3
-      - TANK_CORPSE_4
+      - CHAINGUN_WARTHOG_CORPSE_1
+      - CHAINGUN_WARTHOG_CORPSE_2
+      - CHAINGUN_WARTHOG_CORPSE_3
+      - CHAINGUN_WARTHOG_CORPSE_4
     frontArmor: 100
     sideArmor: 90
     rearArmor: 70
@@ -1863,6 +1863,31 @@ items:
       size: 0.8
       costSell: 62000
       costBuy: 60000
+
+    - type: CHAINGUN_WARTHOG_CORPSE_1
+      floorSprite: 1401
+      invWidth: 0
+      invHeight: 0
+      battleType: 11
+      recover: false
+    - type: CHAINGUN_WARTHOG_CORPSE_2
+      floorSprite: 1402
+      invWidth: 0
+      invHeight: 0
+      battleType: 11
+      recover: false
+    - type: CHAINGUN_WARTHOG_CORPSE_3
+      floorSprite: 1403
+      invWidth: 0
+      invHeight: 0
+      battleType: 11
+      recover: false
+    - type: CHAINGUN_WARTHOG_CORPSE_4
+      floorSprite: 1404
+      invWidth: 0
+      invHeight: 0
+      battleType: 11
+      recover: false
 
 extraSprites:
   - type: BIGOBS.PCK
