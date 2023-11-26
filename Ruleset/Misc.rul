@@ -971,6 +971,6 @@ extraSprites:
     height: 24
     files:
       2: Resources/specialWeapons/spicon_knife.png
-      10: Resources/specialWeapons/spicon_placeholder.png
+      #10: Resources/specialWeapons/spicon_placeholder.png
 
   

@@ -11,16 +11,24 @@ skills:
     tags:
       ArmorAbility: 2
       AbilityCooldown: 4
-  - type: STR_DROP_SHIELD_SKILL
+  # - type: STR_DROP_SHIELD_SKILL
+  #   costUse:
+  #     time: 1 
+  #   compatibleWeapons:
+  #     - STR_DROP_SHIELD_ITEM
+  #   checkHandsOnly: false
+  #   targetMode: 9
+  #   tags:
+  #     ArmorAbility: 3
+  #     AbilityCooldown: 5
+
+  - type: STR_JETPACK_SKILL
     costUse:
       time: 1 
-    compatibleWeapons:
-      - STR_DROP_SHIELD_ITEM
-    checkHandsOnly: false
-    targetMode: 9
     tags:
       ArmorAbility: 3
-      AbilityCooldown: 5
+      AbilityCooldown: 3 
+
   - type: STR_HOLO_SKILL
     costUse:
       time: 1
@@ -44,30 +52,37 @@ soldiers:
     skillIconSprite: 10
     skills:
       - STR_SPRINT_SKILL
-      - STR_DROP_SHIELD_SKILL
+      #- STR_DROP_SHIELD_SKILL
+      - STR_JETPACK_SKILL
       - STR_HOLO_SKILL
       - STR_CAMO_SKILL
       - STR_LOCK_SKILL
+
+  - type: STR_ODST #ignoreDuplicate 
+    skillIconSprite: 10
+    skills:
+      - STR_JETPACK_SKILL
+
 units:
-  - type: STR_DROP_SHIELD
-    stats:
-      tu: 0
-      stamina: 0
-      health: 10
-      bravery: 500
-      reactions: 0
-      firing: 0
-      throwing: 0
-      strength: 0
-      psiStrength: 80
-      psiSkill: 0
-      melee: 0
-    armor: STR_DROP_SHIELD_UC
-    standHeight: 12
-    canPanic: false
-    canBeMindControlled: false
-    moraleLossWhenKilled: 0
-    showFullNameInAlienInventory: 1
+  # - type: STR_DROP_SHIELD
+  #   stats:
+  #     tu: 0
+  #     stamina: 0
+  #     health: 10
+  #     bravery: 500
+  #     reactions: 0
+  #     firing: 0
+  #     throwing: 0
+  #     strength: 0
+  #     psiStrength: 80
+  #     psiSkill: 0
+  #     melee: 0
+  #   armor: STR_DROP_SHIELD_UC
+  #   standHeight: 12
+  #   canPanic: false
+  #   canBeMindControlled: false
+  #   moraleLossWhenKilled: 0
+  #   showFullNameInAlienInventory: 1
 
   - type: STR_HOLOGRAM
     stats:
@@ -187,26 +202,39 @@ items:
     recover: true
     tags:
       ItemAbility: 2
-  - type: STR_DROP_SHIELD_ITEM
+  - type: STR_JETPACK_ITEM
     size: 0.1
     weight: 10
-    costBuy: 500000
-    bigSprite: 103
-    battleType: 1
+    costBuy: 300000
+    bigSprite: 100
+    battleType: 10
     power: 1
-    clipSize: -1
-    tuAimed: 101
-    accuracyAimed: 100
-    maxRange: 1
-    spawnUnit: STR_DROP_SHIELD
-    spawnUnitFaction: 2
-    hitAnimation: -1
     armor: 60
     invWidth: 2
     invHeight: 2
     recover: true
     tags:
       ItemAbility: 3
+  # - type: STR_DROP_SHIELD_ITEM
+  #   size: 0.1
+  #   weight: 10
+  #   costBuy: 500000
+  #   bigSprite: 103
+  #   battleType: 1
+  #   power: 1
+  #   clipSize: -1
+  #   tuAimed: 101
+  #   accuracyAimed: 100
+  #   maxRange: 1
+  #   spawnUnit: STR_DROP_SHIELD
+  #   spawnUnitFaction: 2
+  #   hitAnimation: -1
+  #   armor: 60
+  #   invWidth: 2
+  #   invHeight: 2
+  #   recover: true
+  #   tags:
+  #     ItemAbility: 3
   - type: STR_HOLO_ITEM
     size: 0.1
     weight: 10
@@ -286,7 +314,7 @@ extraSprites:
       2013: Resources/ArmorAbilities/FloorShieldCorpse.png
       2014: Resources/ArmorAbilities/FloorHologramCorpse.png
 
-  - type: SPICONS.DAT
+  - type: SPICONS.DAT #ignoreDuplicate
     width: 32
     height: 24
     files:
@@ -304,6 +332,7 @@ extended:
       ActiveCamo: int
       Sprint: int
       Lock: int
+      JetPack: int
       DropShieldHitFrame: int
       Gender: int
     RuleArmor:
@@ -311,7 +340,7 @@ extended:
       Hologram: int
       CamoVisual: int
     BattleGame:
-      ShieldDeployed: int
+  #    ShieldDeployed: int
       GenderCarry: int
 
 
@@ -329,7 +358,8 @@ extended:
           var int maxtu;
           var int maxreaction;
 
-          var int shieldeployed;
+          #var int shieldeployed;
+          var int jetpack;
 
           var ptr GeoscapeSoldier soldier;
 
@@ -362,9 +392,14 @@ extended:
             sub lock 1;
             unit.setTag Tag.Lock lock;
             
-            battle_game.getTag shieldeployed Tag.ShieldDeployed;
-            set shieldeployed 0;
-            battle_game.setTag Tag.ShieldDeployed shieldeployed;
+            #battle_game.getTag shieldeployed Tag.ShieldDeployed;
+            #set shieldeployed 0;
+            #battle_game.setTag Tag.ShieldDeployed shieldeployed;
+            unit.getTag jetpack Tag.JetPack;
+            if eq jetpack 1;
+             unit.setTag Tag.JetPack 0;
+             unit.setMovementType movement_type_walk;
+            end;
 
 
 
@@ -464,10 +499,15 @@ extended:
             actor.setTag Tag.ActiveCamo 1;
           end;
 
-          if eq armorability 3; #Shield
-            battle_game.getTag shieldeployed Tag.ShieldDeployed;
-            add shieldeployed 1;
-            battle_game.setTag Tag.ShieldDeployed shieldeployed;
+          #if eq armorability 3; #Shield
+            #battle_game.getTag shieldeployed Tag.ShieldDeployed;
+            #add shieldeployed 1;
+            #battle_game.setTag Tag.ShieldDeployed shieldeployed;
+          #end;
+
+          if eq armorability 3; #JetPack
+            actor.setTag Tag.JetPack 1;
+            actor.setMovementType movement_type_fly;
           end;
 
           if eq armorability 4; #Holo
@@ -496,89 +536,89 @@ extended:
 
             return current_visibility visibility_mode;
 
-
-    hitUnit:
-        - offset: 2
-          code: |
-            var int shieldeployed;
-            var int unit_x;
-            var int unit_y;
-            var int unit_z;
-            var int cord_x;
-            var int cord_y;
-            var int cord_z;
-            var int dropshield;
-            var int distanceattacker;
-            var int distancedefender;
-            var int frame;
-
-            var ptr BattleUnit shield_unit;
-            var ptr Tile unit_tile;
-            var ptr Tile attacker_tile;
-            var ptr Tile tile;
-
-            unit.getTag dropshield Tag.DropShield;
-            if eq dropshield 1;
-              BattleUnit.getPosition.getX unit unit_x;
-              BattleUnit.getPosition.getY unit unit_y;
-              BattleUnit.getPosition.getZ unit unit_z;
-              battle_game.getTile unit_tile unit_x unit_y unit_z;
-              BattleUnit.getPosition.getX attacker cord_x;
-              BattleUnit.getPosition.getY attacker cord_y;
-              BattleUnit.getPosition.getZ attacker cord_z;
-              battle_game.getTile attacker_tile cord_x cord_y cord_z;
-              Tile.getDistanceTile unit_tile distanceattacker attacker_tile;
-              if le distanceattacker 1;
-                return power part side;
-              end;
-              BattleGame.getAnimFrame battle_game frame; #Shield hit flash
-              unit.setTag Tag.DropShieldHitFrame frame;
-              set power 0;
-              return power part side;
-            end;
-
-            battle_game.getTag shieldeployed Tag.ShieldDeployed;
-            if ge shieldeployed 1;
-              BattleUnit.getPosition.getX unit unit_x;
-              BattleUnit.getPosition.getY unit unit_y;
-              BattleUnit.getPosition.getZ unit unit_z;
-
-              battle_game.getTile unit_tile unit_x unit_y unit_z;
-
-              set cord_x unit_x;
-              set cord_y unit_y;
-              set cord_z unit_z;
-              sub cord_x 1;
-              sub cord_y 1;
-
-              loop var loop_y 2;
-                loop var loop_x 2;
-                  battle_game.getTile tile cord_x cord_y cord_z;
-
-                  tile.getUnit shield_unit;
-                  shield_unit.getTag dropshield Tag.DropShield;
-                  if eq dropshield 1;
-                    Tile.getDistanceTile unit_tile distancedefender tile;
-                    BattleUnit.getPosition.getX attacker unit_x;
-                    BattleUnit.getPosition.getY attacker unit_y;
-                    BattleUnit.getPosition.getZ attacker unit_z;
-                    battle_game.getTile attacker_tile unit_x unit_y unit_z;
-                    Tile.getDistanceTile attacker_tile distanceattacker tile;
-                    if and le distancedefender 1 gt distanceattacker 1;
-                      set power 0;
-                      BattleGame.getAnimFrame battle_game frame; #Shield hit flash
-                      unit.setTag Tag.DropShieldHitFrame frame;
-                      return power part side;
-                    end;
-                  end;
-                  add cord_x 1;
-                end;
-                sub cord_x 2;
-                add cord_y 1;
-              end;
-
-            end;
-            return power part side;
+#
+#    hitUnit:
+#        - offset: 2
+#          code: |
+#            var int shieldeployed;
+#            var int unit_x;
+#            var int unit_y;
+#            var int unit_z;
+#            var int cord_x;
+#            var int cord_y;
+#            var int cord_z;
+#            var int dropshield;
+#            var int distanceattacker;
+#            var int distancedefender;
+#            var int frame;
+#
+#            var ptr BattleUnit shield_unit;
+#            var ptr Tile unit_tile;
+#            var ptr Tile attacker_tile;
+#            var ptr Tile tile;
+#
+#            unit.getTag dropshield Tag.DropShield;
+#            if eq dropshield 1;
+#              BattleUnit.getPosition.getX unit unit_x;
+#              BattleUnit.getPosition.getY unit unit_y;
+#              BattleUnit.getPosition.getZ unit unit_z;
+#              battle_game.getTile unit_tile unit_x unit_y unit_z;
+#              BattleUnit.getPosition.getX attacker cord_x;
+#              BattleUnit.getPosition.getY attacker cord_y;
+#              BattleUnit.getPosition.getZ attacker cord_z;
+#              battle_game.getTile attacker_tile cord_x cord_y cord_z;
+#              Tile.getDistanceTile unit_tile distanceattacker attacker_tile;
+#              if le distanceattacker 1;
+#                return power part side;
+#              end;
+#              BattleGame.getAnimFrame battle_game frame; #Shield hit flash
+#              unit.setTag Tag.DropShieldHitFrame frame;
+#              set power 0;
+#              return power part side;
+#            end;
+#
+#            battle_game.getTag shieldeployed Tag.ShieldDeployed;
+#            if ge shieldeployed 1;
+#              BattleUnit.getPosition.getX unit unit_x;
+#              BattleUnit.getPosition.getY unit unit_y;
+#              BattleUnit.getPosition.getZ unit unit_z;
+#
+#              battle_game.getTile unit_tile unit_x unit_y unit_z;
+#
+#              set cord_x unit_x;
+#              set cord_y unit_y;
+#              set cord_z unit_z;
+#              sub cord_x 1;
+#              sub cord_y 1;
+#
+#              loop var loop_y 2;
+#                loop var loop_x 2;
+#                  battle_game.getTile tile cord_x cord_y cord_z;
+#
+#                  tile.getUnit shield_unit;
+#                  shield_unit.getTag dropshield Tag.DropShield;
+#                  if eq dropshield 1;
+#                    Tile.getDistanceTile unit_tile distancedefender tile;
+#                    BattleUnit.getPosition.getX attacker unit_x;
+#                    BattleUnit.getPosition.getY attacker unit_y;
+#                    BattleUnit.getPosition.getZ attacker unit_z;
+#                    battle_game.getTile attacker_tile unit_x unit_y unit_z;
+#                    Tile.getDistanceTile attacker_tile distanceattacker tile;
+#                    if and le distancedefender 1 gt distanceattacker 1;
+#                      set power 0;
+#                      BattleGame.getAnimFrame battle_game frame; #Shield hit flash
+#                      unit.setTag Tag.DropShieldHitFrame frame;
+#                      return power part side;
+#                    end;
+#                  end;
+#                  add cord_x 1;
+#                end;
+#                sub cord_x 2;
+#                add cord_y 1;
+#              end;
+#
+#            end;
+#            return power part side;
 
 
 
@@ -602,7 +642,6 @@ extended:
             unit.getTag gender Tag.Gender;
             if eq gender 1;
               add sprite_index 1000;
-              debug_log "test";
             end;
             return sprite_index;
 
@@ -685,26 +724,26 @@ extended:
             return new_pixel;
 
 
-        - offset: 5
-          code: | #Drop shield hit flash
-            var int frame;
-            var int breakhit;
-            var int newshade;
+        #- offset: 5
+          #code: | #Drop shield hit flash
+            #var int frame;
+            #var int breakhit;
+            #var int newshade;
 
-            unit.getTag frame Tag.DropShieldHitFrame;
-            if neq frame 0;
-              sub frame anim_frame;
-              if gt frame -2;
-                get_shade newshade new_pixel;
-                add newshade frame;
-                set_shade new_pixel newshade;
-                if lt newshade 0;
-                  set newshade 0;
-                end;
-                set_color new_pixel COLOR_X1_BLUE2;
-              end;
-            end;
-            return new_pixel; 
+            #unit.getTag frame Tag.DropShieldHitFrame;
+            #if neq frame 0;
+              #sub frame anim_frame;
+              #if gt frame -2;
+                #get_shade newshade new_pixel;
+                #add newshade frame;
+                #set_shade new_pixel newshade;
+                #if lt newshade 0;
+                  #set newshade 0;
+                #end;
+                #set_color new_pixel COLOR_X1_BLUE2;
+              #end;
+            #end;
+            #return new_pixel; 
 
 
         - offset: 6
