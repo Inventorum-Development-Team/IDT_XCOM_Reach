@@ -1966,7 +1966,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+      300: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_JETPACK.png
   - type: SPI_ARMOR_SPRITESHEET_RED.PCK
     subX: 32
     subY: 40
@@ -1974,7 +1974,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_RED.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+      300: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_RED_JETPACK.png
   - type: SPI_ARMOR_SPRITESHEET_BLUE.PCK
     subX: 32
     subY: 40
@@ -1982,7 +1982,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_BLUE.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+      300: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_BLUE_JETPACK.png
   - type: SPI_ARMOR_SPRITESHEET_GRAY.PCK
     subX: 32
     subY: 40
@@ -1990,39 +1990,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
-  - type: SPI_ARMOR_SPRITESHEET_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_JETPACK.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
-  - type: SPI_ARMOR_SPRITESHEET_RED_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_RED_JETPACK.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
-  - type: SPI_ARMOR_SPRITESHEET_BLUE_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_BLUE_JETPACK.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
-  - type: SPI_ARMOR_SPRITESHEET_GRAY_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY_JETPACK.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png      
+      300: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY_JETPACK.png    
  
  #############
  
@@ -2033,6 +2001,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_RED.PCK
     subX: 32
@@ -2041,6 +2010,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_RED.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_RED_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_BLUE.PCK
     subX: 32
@@ -2049,6 +2019,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BLUE.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BLUE_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_GRAY.PCK
     subX: 32
@@ -2057,6 +2028,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GRAY.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GRAY_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_GREEN.PCK
     subX: 32
@@ -2065,6 +2037,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GREEN.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GREEN_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE.PCK
     subX: 32
@@ -2073,6 +2046,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_CYAN.PCK
     subX: 32
@@ -2081,6 +2055,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_CYAN.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_CYAN_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_BROWN.PCK
     subX: 32
@@ -2089,6 +2064,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BROWN.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BROWN_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_TAN.PCK
     subX: 32
@@ -2097,6 +2073,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_TAN.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_TAN_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_PURPLE.PCK
     subX: 32
@@ -2105,6 +2082,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PURPLE.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PURPLE_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_PINK.PCK
     subX: 32
@@ -2113,6 +2091,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PINK.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PINK_JETPACK.png
  
   - type: MJOLNIR_ARMOR_SPRITESHEET_ORANGE.PCK
     subX: 32
@@ -2121,102 +2100,9 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_ORANGE.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_ORANGE_JETPACK.png
 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_RED_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_RED_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_BLUE_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BLUE_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_GRAY_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GRAY_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_GREEN_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GREEN_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_CYAN_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_CYAN_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_BROWN_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BROWN_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_TAN_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_TAN_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_PURPLE_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PURPLE_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_PINK_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PINK_JETPACK.png
- 
-  - type: MJOLNIR_ARMOR_SPRITESHEET_ORANGE_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_ORANGE_JETPACK.png
+
 
  #############
       
@@ -2227,13 +2113,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET.png
-  - type: ODST_BDU_SPRITESHEET_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_JETPACK.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_JETPACK.png
   - type: ODST_BDU_SPRITESHEET_BLUE.PCK
     subX: 32
     subY: 40
@@ -2241,13 +2121,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_BLUE.png
-  - type: ODST_BDU_SPRITESHEET_BLUE_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_BLUE_JETPACK.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_BLUE_JETPACK.png
   - type: ODST_BDU_SPRITESHEET_RED.PCK
     subX: 32
     subY: 40
@@ -2255,13 +2129,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_RED.png
-  - type: ODST_BDU_SPRITESHEET_RED_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_RED_JETPACK.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_RED_JETPACK.png
   - type: ODST_BDU_SPRITESHEET_GREEN.PCK
     subX: 32
     subY: 40
@@ -2269,13 +2137,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_GREEN.png
-  - type: ODST_BDU_SPRITESHEET_GREEN_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_GREEN_JETPACK.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_GREEN_JETPACK.png
   - type: ODST_BDU_SPRITESHEET_ORANGE.PCK
     subX: 32
     subY: 40
@@ -2283,13 +2145,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_ORANGE.png
-  - type: ODST_BDU_SPRITESHEET_ORANGE_JETPACK.PCK
-    subX: 32
-    subY: 40
-    width: 512
-    height: 720
-    files:
-      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_ORANGE_JETPACK.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_ORANGE_JETPACK.png
 
   - type: ARMY_TROOPER_BALACLAVA_BDU_SPRITESHEET.PCK
     subX: 32

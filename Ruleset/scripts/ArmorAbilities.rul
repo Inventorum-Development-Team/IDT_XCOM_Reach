@@ -536,8 +536,8 @@ extended:
 
             return current_visibility visibility_mode;
 
-#
-#    hitUnit:
+
+    hitUnit:
 #        - offset: 2
 #          code: |
 #            var int shieldeployed;
@@ -641,9 +641,21 @@ extended:
             var int gender;
             unit.getTag gender Tag.Gender;
             if eq gender 1;
-              add sprite_index 1000;
+              add sprite_index 235;
             end;
             return sprite_index;
+        - offset: 3
+          code: |
+            var int faction;
+            var int jetpack;
+            var ptr RuleInventory ability_slot;
+            var ptr BattleItem ability_item;
+
+            unit.getTag jetpack Tag.JetPack;
+            if eq jetpack 1;
+              add sprite_index 300;
+            end;
+            return sprite_index; 
 
 
     recolorUnitSprite:
