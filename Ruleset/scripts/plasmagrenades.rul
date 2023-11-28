@@ -113,6 +113,18 @@ armors:
   - type: STR_ARMOR_ODST_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ODST_UC_RED #ignoreDuplicate
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ODST_UC_BLUE #ignoreDuplicate
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ODST_UC_GREEN #ignoreDuplicate
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
+  - type: STR_ARMOR_ODST_UC_ORANGE #ignoreDuplicate
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
   - type: STR_ARMOR_ARMY_STANDARD_BDU_UC #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
