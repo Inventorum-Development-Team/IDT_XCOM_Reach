@@ -27,7 +27,7 @@ skills:
       time: 1 
     tags:
       ArmorAbility: 3
-      AbilityCooldown: 3 
+      AbilityCooldown: 2 
 
   - type: STR_HOLO_SKILL
     costUse:

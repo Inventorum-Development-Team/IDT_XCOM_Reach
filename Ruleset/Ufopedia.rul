@@ -541,12 +541,12 @@ ufopaedia:
     image_id: ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE
     text: STR_CAMO_SKILL_UFOPEDIA
     text_width: 135
-  - id: STR_DROP_SHIELD_SKILL
-    type_id: 7
-    section: STR_ARMOR_ABILITIES_UC
-    image_id: ARMOR_ABILITY_DROP_SHIELD_IMAGE
-    text: STR_DROP_SHIELD_SKILL_UFOPEDIA
-    text_width: 135
+  # - id: STR_DROP_SHIELD_SKILL
+  #   type_id: 7
+  #   section: STR_ARMOR_ABILITIES_UC
+  #   image_id: ARMOR_ABILITY_DROP_SHIELD_IMAGE
+  #   text: STR_DROP_SHIELD_SKILL_UFOPEDIA
+  #   text_width: 135
   - id: STR_HOLO_SKILL
     type_id: 7
     section: STR_ARMOR_ABILITIES_UC
