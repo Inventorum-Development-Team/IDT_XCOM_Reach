@@ -324,6 +324,7 @@ en-US:
   STR_CAMO_ITEM: "Active Camouflage"
   STR_DROP_SHIELD_ITEM: "Drop Shield"
   STR_HOLO_ITEM: "Hologram"
+  STR_HOLOGRAM: "Hologram"
   STR_LOCK_ITEM: "Armor Lock"
   STR_JETPACK_ITEM: "JetPack"
   STR_SPRINT_SKILL: "Sprint"
