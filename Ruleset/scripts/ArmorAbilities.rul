@@ -137,7 +137,7 @@ armors:
       DropShield: 1
 
   - type: STR_HOLOGRAM_UC
-    spriteSheet: SPI_ARMOR_SPRITESHEET.PCK
+    spriteSheet: HOLOGRAM_SPRITESHEET.PCK
     allowInv: false
     corpseBattle:
       - STR_HOLOGRAM_CORPSE
@@ -168,7 +168,42 @@ armors:
     tags:
       Hologram: 1
 
-
+  - type: STR_MJOLNIR_ARMOR_UC #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_GRAY #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_RED #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_BLUE #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_LIGHT_BLUE #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_GREEN #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_CYAN #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_BROWN #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_TAN #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_ORANGE #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_PINK #ignoreDuplicate
+    tags:
+      Mjolnir: 1
+  - type: STR_MJOLNIR_ARMOR_UC_PURPLE #ignoreDuplicate
+    tags:
+      Mjolnir: 1
 
   # - type: INSERT STEALTH ARMOR HERE
   #   tags:
@@ -319,7 +354,14 @@ extraSprites:
     height: 24
     files:
       10: Resources/specialWeapons/spicon_armor_skills.png
-
+  - type: HOLOGRAM_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET.png
 extended:
   tags:
     RuleItem:
@@ -339,6 +381,7 @@ extended:
       DropShield: int
       Hologram: int
       CamoVisual: int
+      Mjolnir: int
     BattleGame:
   #    ShieldDeployed: int
       GenderCarry: int
@@ -639,9 +682,18 @@ extended:
         - offset: 2
           code: |
             var int gender;
-            unit.getTag gender Tag.Gender;
-            if eq gender 1;
-              add sprite_index 235;
+            var int hologram;
+            var int mjolnir;
+            unit.getTag hologram Tag.Hologram;
+            if eq hologram 1;
+              unit.getTag gender Tag.Gender;
+              if and eq gender 1 eq blit_part blit_torso;
+                add sprite_index 235;
+              end;
+              unit.getTag mjolnir Tag.Mjolnir;
+              if eq mjolnir 1;
+                add sprite_index 300;
+              end;
             end;
             return sprite_index;
         - offset: 3
