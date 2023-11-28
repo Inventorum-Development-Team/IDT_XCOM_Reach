@@ -1177,3 +1177,4 @@ alienDeployments:
     objectiveType: 8
     objectivePopup: STR_OBJECTIVE_COMPLETED
     height: 11
+    objectivesRequired: 1
