@@ -1149,7 +1149,7 @@ alienDeployments:
       - alienRank: 5
         lowQty: 1
         highQty: 1
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 50
         itemSets:
           - []
@@ -1174,7 +1174,7 @@ alienDeployments:
     despawnPenalty: 1000
     width: 50
     length: 50
+    height: 11
     objectiveType: 8
     objectivePopup: STR_OBJECTIVE_COMPLETED
-    height: 11
     objectivesRequired: 1

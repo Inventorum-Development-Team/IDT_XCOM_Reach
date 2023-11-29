@@ -1513,3 +1513,6 @@ en-US:
   SECTOPOD_WEAPON: "Sectopod Weapon"
   ZOMBIE_WEAPON: "Zombie Weapon"
   ALIEN_PSI_WEAPON: "Alien Psi Weapon"
+
+
+  STR_OBJECTIVE_COMPLETED: "Objective Completed"

@@ -536,8 +536,8 @@ extended:
 
             return current_visibility visibility_mode;
 
-#
-#    hitUnit:
+
+    hitUnit:
 #        - offset: 2
 #          code: |
 #            var int shieldeployed;
