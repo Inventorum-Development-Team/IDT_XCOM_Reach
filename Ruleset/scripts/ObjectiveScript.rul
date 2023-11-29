@@ -16,6 +16,9 @@ items:
     invWidth: 0
     invHeight: 0
     battleType: 4
+    explosionSpeed: 100
+    explosionHitSound: 99
+    hitAnimation: 16
     armor: 255
     recover: false
     hiddenOnMinimap: true
