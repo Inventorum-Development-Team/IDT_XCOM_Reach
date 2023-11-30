@@ -956,7 +956,7 @@ armors:
       M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
     corpseBattle:
       - STR_CORPSE_ODST_BDU
-    storeItem: STR_ARMOR_ODST
+    storeItem: STR_NONE
     frontArmor: 30
     sideArmor: 25
     rearArmor: 20
@@ -999,7 +999,7 @@ armors:
       M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
     corpseBattle:
       - STR_CORPSE_ODST_BDU_RED
-    storeItem: STR_ARMOR_ODST
+    storeItem: STR_NONE
     frontArmor: 30
     sideArmor: 25
     rearArmor: 20
@@ -1042,7 +1042,7 @@ armors:
       M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
     corpseBattle:
       - STR_CORPSE_ODST_BDU_BLUE
-    storeItem: STR_ARMOR_ODST
+    storeItem: STR_NONE
     frontArmor: 30
     sideArmor: 25
     rearArmor: 20
@@ -1085,7 +1085,7 @@ armors:
       M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
     corpseBattle:
       - STR_CORPSE_ODST_BDU_GREEN
-    storeItem: STR_ARMOR_ODST
+    storeItem: STR_NONE
     frontArmor: 30
     sideArmor: 25
     rearArmor: 20
@@ -1128,7 +1128,7 @@ armors:
       M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
     corpseBattle:
       - STR_CORPSE_ODST_BDU_ORANGE
-    storeItem: STR_ARMOR_ODST
+    storeItem: STR_NONE
     frontArmor: 30
     sideArmor: 25
     rearArmor: 20
