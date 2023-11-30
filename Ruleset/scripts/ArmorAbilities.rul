@@ -241,7 +241,7 @@ items:
     size: 0.1
     weight: 10
     costBuy: 300000
-    bigSprite: 100
+    bigSprite: 106
     battleType: 10
     power: 1
     armor: 60
@@ -342,6 +342,7 @@ extraSprites:
       103: Resources/ArmorAbilities/BigDropShield.png
       104: Resources/ArmorAbilities/BigHolo.png
       105: Resources/ArmorAbilities/BigArmorLock.png
+      106: Resources/ArmorAbilities/BigJetpack.png
       2013: Resources/ArmorAbilities/BigShieldCorpse.png
       2014: Resources/ArmorAbilities/BigHologramCorpse.png
   - type: FLOOROB.PCK
