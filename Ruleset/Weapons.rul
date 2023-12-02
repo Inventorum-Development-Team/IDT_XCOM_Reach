@@ -1091,8 +1091,8 @@ items:
     costBuy: 300
     costSell: 240
     weight: 3
-    bigSprite: 19
-    floorSprite: 19
+    bigSprite: 568
+    floorSprite: 568
     power: 50
     damageAlter:
       ToTile: 0.9
@@ -1100,6 +1100,9 @@ items:
     damageType: 3
     battleType: 4
     blastRadius: 5
+    vaporColorSurface: 10
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 100
   - type: STR_SMOKE_GRENADE
     categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
     size: 0.1
@@ -1724,7 +1727,7 @@ extraSprites:
 #      560: Resources/HumanEquipment/BigM7057FlamethrowerFuelTank.png
       968: Resources/HumanEquipment/BigM247Machinegun.png
       976: Resources/HumanEquipment/BigH165OrbitalStrike.png
-#      568: Resources/HumanEquipment/BigFragGrenade.png
+      568: Resources/HumanEquipment/BigFragGrenade.png
 #      576: Resources/HumanEquipment/BigFlashbangGrenade.png
 #      584: Resources/HumanEquipment/BigMachete.png
       592: Resources/HumanEquipment/BigHealthPack.png
@@ -1826,7 +1829,7 @@ extraSprites:
 #      560: Resources/HumanEquipment/FloorM7057FlamethrowerFuelTank.png
       968: Resources/HumanEquipment/FloorM247Machinegun.png
       976: Resources/HumanEquipment/FloorH165OrbitalStrike.png
-#      568: Resources/HumanEquipment/FloorFragGrenade.png
+      568: Resources/HumanEquipment/FloorFragGrenade.png
 #      576: Resources/HumanEquipment/FloorFlashbangGrenade.png
 #      584: Resources/HumanEquipment/FloorMachete.png
       592: Resources/HumanEquipment/FloorHealthPack.png
@@ -1930,7 +1933,7 @@ extraSprites:
 #      544: Resources/HumanEquipment/HandM6SpartanLaserBattery.png
 #      552: Resources/HumanEquipment/HandM7057Flamethrower.png
 #      560: Resources/HumanEquipment/HandM7057FlamethrowerFuelTank.png
-#      568: Resources/HumanEquipment/HandFragGrenade.png
+      568: Resources/HumanEquipment/HandFragGrenade.png
 #      576: Resources/HumanEquipment/HandFlashbangGrenade.png
 #      584: Resources/HumanEquipment/HandMachete.png
       592: Resources/HumanEquipment/HandHealthPack.png
