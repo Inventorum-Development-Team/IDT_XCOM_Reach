@@ -1,7 +1,7 @@
 soldiers:
   - delete: STR_SOLDIER
   - type: STR_SPARTAN_III
-    costBuy: 1000000
+    costBuy: 4000000
     transferTime: 24
     minStats:
       tu: 100
@@ -59,7 +59,7 @@ soldiers:
       - NamesSpartan/
 
   - type: STR_ODST
-    costBuy: 200000
+    costBuy: 175000
     costSalary: 100000
     transferTime: 24
     minStats:
@@ -119,7 +119,7 @@ soldiers:
       - NamesODST/
 
   - type: STR_ARMY_TROOPER
-    costBuy: 40000
+    costBuy: 20000
     costSalary: 20000
     minStats:
       tu: 55
@@ -172,7 +172,7 @@ soldiers:
     - STR_ARMY_MAJOR
     standHeight: 22
     kneelHeight: 14
-    value: 50
+    value: 10
     femaleFrequency: 50
     soldierNames:
       - NamesArmy/
@@ -181,7 +181,7 @@ soldiers:
     allowPiloting: false
 
   - type: STR_MARINE
-    costBuy: 40000
+    costBuy: 30000
     costSalary: 20000
     minStats:
       tu: 50
@@ -234,7 +234,7 @@ soldiers:
     - STR_MARINE_MAJOR
     standHeight: 22
     kneelHeight: 14
-    value: 50
+    value: 15
     femaleFrequency: 50
     soldierNames:
       - NamesMarine/

@@ -697,6 +697,11 @@ units:
     aggression: 5
     builtInWeaponSets:
      -
+       - STR_NEEDLE_RIFLE
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_PLASMA_GRENADE
+     -
        - STR_PLASMA_REPEATER
        - STR_PLASMA_REPEATER_CELL
        - STR_PLASMA_REPEATER_CELL
@@ -739,6 +744,11 @@ units:
     intelligence: 10
     aggression: 5
     builtInWeaponSets:
+     -
+       - STR_NEEDLE_RIFLE
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_PLASMA_GRENADE
      -
        - STR_ENERGY_SWORD
        - STR_ENERGY_SWORD_BATTERY
@@ -1096,9 +1106,9 @@ units:
     aggression: 2
     builtInWeaponSets:
      -
-       - STR_PLASMA_CARBINE
-       - STR_PLASMA_CARBINE_MAG
-       - STR_PLASMA_CARBINE_MAG
+       - STR_NEEDLE_RIFLE
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_NEEDLE_RIFLE_CANISTER
      -
        - STR_PLASMA_CARBINE
        - STR_PLASMA_CARBINE_MAG

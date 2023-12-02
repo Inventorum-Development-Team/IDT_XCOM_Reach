@@ -310,6 +310,9 @@ en-US:
   STR_ENERGY_SWORD_BATTERY: "Type-1 Energy Sword Battery"
   STR_MINOR_SHIELD_GAUNTLET: "Jackal Minor Shield Gauntlet"
   STR_MAJOR_SHIELD_GAUNTLET: "Jackal Major Shield Gauntlet"
+  STR_NEEDLE_RIFLE: "Type-31 Needle Rifle"
+  STR_NEEDLE_RIFLE_CANISTER: "Type-31 Needle Rifle Canister"
+  
 
   STR_TYPE_25_PLASMA_PISTOL_UFOPEDIA: "Probably the most widespread infantry weapon in the entire enemy arsenal. It employs a single plasma generator, giving it a compact appearance. It may look somewhat weak, but it features a secondary fire mode that greatly boosts the weapon's damage, at the cost of consuming the battery much faster."
   STR_PLASMA_RIFLE_ELITE_UFOPEDIA: "Standard infantry weapon of Covenant units, similar in use to our assault rifles. It employs two parallel-mounted plasma generators, linked by the trigger guard. This doubles its rate of fire, compared to using a single generator. However, its accuracy declines with distance."
@@ -320,6 +323,7 @@ en-US:
   STR_FUEL_ROD_GUN_UFOPEDIA: "A launcher of heavy radioactive projectiles composed of an incendiary gel that explodes violently on contact. Its ability to launch such fuel cartridges in a parabolic trajectory makes it a weapon of care. It is suggested to consider eliminating users of such launchers as a priority."
   STR_ENERGY_SWORD_UFOPEDIA: "This close combat weapon is a symbol of power and status in the Covenant hierarchy. Sangheili users are often the equivalent of lords and knights in medieval Europe. It is a devastating weapon that employs superheated plasma along two thin blades. The curved hilt contains the plasma generator and two magnetic generators. Its battery is consumed with each thrust and can be recharged."
   STR_JACKAL_SHIELD_GAUNTLET_UFOPEDIA: "Employed on the forearm of Jackal soldiers, this shield employs a 'linear energy field' that deflects projectiles and absorbs projectile energy until the energy generator is saturated and collapses. The color of the shield reflects the user's rank."
+  STR_NEEDLE_RIFLE_UFOPEDIA: "A long ranged iteration of the needler. Sacrifices close range, automatic killing power for accuracy and long ranged support."
   STR_SPRINT_ITEM: "Sprint"
   STR_CAMO_ITEM: "Active Camouflage"
   STR_DROP_SHIELD_ITEM: "Drop Shield"

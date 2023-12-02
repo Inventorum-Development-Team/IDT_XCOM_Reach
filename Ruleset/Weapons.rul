@@ -342,7 +342,7 @@ items:
     hitAnimation: 26
     #explosionSpeed: 30
     bulletSprite: 12
-    power: 44
+    power: 48
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
@@ -401,7 +401,7 @@ items:
     hitAnimation: 26
     explosionSpeed: 30
     bulletSprite: 11
-    power: 55
+    power: 60
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
@@ -619,16 +619,16 @@ items:
       ammoSlot: 0
       arcing: false
       followProjectiles: false
-    accuracyAuto: 25
-    accuracySnap: 35
+    dropoff: 16
+    autoRange: 4
+    snapRange: 6
+    accuracyAuto: 34
+    accuracySnap: 44
     tuSnap: 5
     tuAuto: 10
     accuracyCloseQuarters: 200
     tuLoad: 15
-    snapRange: 10
-    autoRange: 8
     maxRange: 60
-    dropoff: 3
     kneelBonus: 125
     costThrow:
       energy: 12
@@ -855,7 +855,9 @@ items:
     weight: 5
     bigSprite: 512
     floorSprite: 512
-    power: 275
+    power: 220
+    blastRadius: 3
+    powerForAnimation: 70
     bulletSprite: 0
     bulletSpeed: 1
     damageAlter:
@@ -871,13 +873,11 @@ items:
       ToMana: 1.5
       ToArmor: 1.6
       FixRadius: 2
-    powerForAnimation: 40
     explosionHitSound: [1613, 1614, 1615, 1616, 1617, 1618]
     damageType: 3
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 2
     clipSize: 2
     vaporColorSurface: 11
     vaporDensitySurface: 2
@@ -929,7 +929,9 @@ items:
     weight: 3
     bigSprite: 528
     floorSprite: 528
-    power: 125
+    power: 150
+    blastRadius: 2
+    powerForAnimation: 60
     bulletSprite: 0
     damageAlter:
       IgnoreOverKill: false
@@ -944,11 +946,9 @@ items:
       ToHealth: 1.5
       ToMana: 0.8
       FixRadius: 2
-    powerForAnimation: 40
     explosionHitSound: [1622, 1623, 1624]
     damageType: 3
     battleType: 2
-    blastRadius: 2
     clipSize: 1
 
   - type: STR_M247H_MG
@@ -974,8 +974,9 @@ items:
     accuracyAuto: 35
     accuracySnap: 50
     #accuracyAimed: 65
-    tuAuto: 50
-    tuSnap: 35
+    tuAuto: 40
+    tuSnap: 20
+    power: 70
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -989,7 +990,6 @@ items:
     explosionSpeed: 30
     bulletSprite: 11
     bulletSpeed: 45
-    power: 45
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.9
@@ -1031,7 +1031,7 @@ items:
     clipSize: 100
     bulletSprite: 14
     bulletSpeed: 40
-    power: 400
+    power: 600
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
@@ -1093,13 +1093,14 @@ items:
     weight: 3
     bigSprite: 568
     floorSprite: 568
-    power: 50
+    power: 140
+    blastRadius: 2
+    powerForAnimation: 60
     damageAlter:
       ToTile: 0.9
       ToWound: 1.1
     damageType: 3
     battleType: 4
-    blastRadius: 5
     vaporColorSurface: 10
     vaporDensitySurface: 3
     vaporProbabilitySurface: 100
@@ -1369,6 +1370,57 @@ items:
     battleType: 2
     armor: 12
 
+  - type: STR_NEEDLE_RIFLE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    costSell: 125000
+    size: 0.5
+    battleType: 1
+    weight: 9
+    compatibleAmmo:
+      - STR_NEEDLE_RIFLE_CANISTER 
+    accuracySnap: 70
+    accuracyAimed: 95
+    tuSnap: 20
+    tuAimed: 34
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 100
+    snapRange: 25
+    autoRange: 22
+    minRange: 3
+    dropoff: 3
+    fireSound: [645, 646, 647]
+    reloadSound: [642, 643, 644]
+    bigSprite: 736    #inventory sprite
+    floorSprite: 736  #battlescape floor sprite
+    handSprite: 736
+  - type: STR_NEEDLE_RIFLE_CANISTER
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    costBuy: 1      #--DEBUG--
+    costSell: 1550
+    weight: 4
+    bigSprite: 744
+    floorSprite: 744
+    hitSound: [648, 649, 650, 651, 652, 653]
+    hitAnimation: 130
+    bulletSprite: 19
+    bulletSpeed: 20
+    power: 70
+    damageType: 4
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
+      ToMana: 2.0
+    clipSize: 12
+    battleType: 2
+    armor: 12
+
   - type: STR_PLASMA_REPEATER       #Type51 Repeater
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
     #costBuy: 1     #--DEBUG--
@@ -1580,7 +1632,9 @@ items:
     floorSprite: 840
     hitSound: 0
     hitAnimation: 0
-    power: 150
+    power: 300
+    blastRadius: 2
+    powerForAnimation: 80
     damageType: 3
     damageAlter:
       IgnoreOverKill: false
@@ -1598,7 +1652,6 @@ items:
     invWidth: 1
     invHeight: 2
     recoveryPoints: 1
-    blastRadius: 5
 #    listOrder: 248
 
   - type: STR_PLASMA_GRENADE #see scripts/plasma grenade
@@ -1639,7 +1692,7 @@ items:
     floorSprite: 928
     damageType: 5
     meleeAnimation: 150
-    meleePower: 200
+    meleePower: 550
     meleeAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
@@ -1748,9 +1801,9 @@ extraSprites:
       704: Resources/CovenantEquipment/BigNeedler_noammo.png
       712: Resources/CovenantEquipment/BigNeedler_ammo.png
       720: Resources/CovenantEquipment/BigNeedlerCanister.png
-#      728: Resources/CovenantEquipment/BigNeedleRifle_noammo.png
-#      736: Resources/CovenantEquipment/BigNeedleRifle_ammo.png
-#      744: Resources/CovenantEquipment/BigNeedleRifleCanister.png
+      728: Resources/CovenantEquipment/BigNeedleRifle_noammo.png
+      736: Resources/CovenantEquipment/BigNeedleRifle_ammo.png
+      744: Resources/CovenantEquipment/BigNeedleRifleCanister.png
 #      752: Resources/CovenantEquipment/BigSpiker_noammo.png
 #      760: Resources/CovenantEquipment/BigSpiker_ammo.png
 #      768: Resources/CovenantEquipment/BigSpikerAmmo.png
@@ -1852,9 +1905,9 @@ extraSprites:
       704: Resources/CovenantEquipment/FloorNeedler_noammo.png
       712: Resources/CovenantEquipment/FloorNeedler_ammo.png
       720: Resources/CovenantEquipment/FloorNeedlerCanister.png
-#      728: Resources/CovenantEquipment/FloorNeedleRifle_noammo.png
-#      736: Resources/CovenantEquipment/FloorNeedleRifle_ammo.png
-#      744: Resources/CovenantEquipment/FloorNeedleRifleCanister.png
+      728: Resources/CovenantEquipment/FloorNeedleRifle_noammo.png
+      736: Resources/CovenantEquipment/FloorNeedleRifle_ammo.png
+      744: Resources/CovenantEquipment/FloorNeedleRifleCanister.png
 #      752: Resources/CovenantEquipment/FloorSpiker_noammo.png
 #      760: Resources/CovenantEquipment/FloorSpiker_ammo.png
 #      768: Resources/CovenantEquipment/FloorSpikerAmmo.png
@@ -1954,8 +2007,8 @@ extraSprites:
 #      696: Resources/CovenantEquipment/HandPlasmaCarbineAmmo.png
       704: Resources/CovenantEquipment/HandNeedler_noammo.png
       712: Resources/CovenantEquipment/HandNeedler_ammo.png
-#      728: Resources/CovenantEquipment/HandNeedleRifle_noammo.png
-#      736: Resources/CovenantEquipment/HandNeedleRifle_ammo.png
+      728: Resources/CovenantEquipment/HandNeedleRifle_noammo.png
+      736: Resources/CovenantEquipment/HandNeedleRifle_ammo.png
 #      744: Resources/CovenantEquipment/HandNeedleRifleCanister.png
 #      752: Resources/CovenantEquipment/HandSpiker_noammo.png
 #      760: Resources/CovenantEquipment/HandSpiker_ammo.png

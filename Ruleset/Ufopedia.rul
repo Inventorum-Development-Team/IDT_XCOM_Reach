@@ -473,6 +473,13 @@ ufopaedia:
   - id: STR_PLASMA_CARBINE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_NEEDLE_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_NEEDLE_RIFLE_UFOPEDIA
+  - id: STR_NEEDLE_RIFLE_CANISTER
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_REPEATER
     type_id: 4
     section: STR_ALIEN_ARTIFACTS

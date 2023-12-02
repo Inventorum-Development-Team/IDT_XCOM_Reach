@@ -164,6 +164,9 @@ armors:
   - type: STR_KIG_YAR_MINOR_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV
+  - type: STR_KIG_YAR_SNIPER_ARMOR #ignoreDuplicate
+    builtInWeapons:
+      - STR_PLASMA_GRENADE_INV
   - type: STR_KIG_YAR_MAJOR_ARMOR #ignoreDuplicate
     builtInWeapons:
       - STR_PLASMA_GRENADE_INV

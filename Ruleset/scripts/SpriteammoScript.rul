@@ -154,6 +154,12 @@ items:
   - type: STR_PLASMA_CARBINE_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_NEEDLE_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_NEEDLE_RIFLE_CANISTER # ignoreDuplicate
+    tags:
+      AmmoNo: 1
   - type: STR_FUEL_ROD_GUN # ignoreDuplicate
     tags:
       AmmoReSprite: 3

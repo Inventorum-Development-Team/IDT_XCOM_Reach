@@ -228,6 +228,18 @@ extraSounds:
       402: Resources/Sounds/WeaponHits/plasma_proj18.wav
       403: Resources/Sounds/WeaponHits/plasma_proj19.wav
       404: Resources/Sounds/WeaponHits/plasma_proj20.wav
+      642: Resources/Sounds/WeaponSounds/Covenant/fp_needle_rifle_reload01new.wav
+      643: Resources/Sounds/WeaponSounds/Covenant/fp_needle_rifle_reload02new.wav
+      644: Resources/Sounds/WeaponSounds/Covenant/fp_needle_rifle_reload03new.wav
+      645: Resources/Sounds/WeaponSounds/Covenant/needle_rifle_fire1.wav
+      646: Resources/Sounds/WeaponSounds/Covenant/needle_rifle_fire2.wav
+      647: Resources/Sounds/WeaponSounds/Covenant/needle_rifle_fire3.wav
+      648: Resources/Sounds/WeaponHits/n_rifle_bolt_attach1.wav
+      649: Resources/Sounds/WeaponHits/n_rifle_bolt_attach2.wav
+      650: Resources/Sounds/WeaponHits/n_rifle_bolt_attach3.wav
+      651: Resources/Sounds/WeaponHits/n_rifle_bolt_attach4.wav
+      652: Resources/Sounds/WeaponHits/n_rifle_bolt_attach5.wav
+      653: Resources/Sounds/WeaponHits/n_rifle_bolt_attach6.wav
 ############################
 ############################
       1500: Resources/Sounds/UnitSounds/Sangheili/aggroSound/aggro1.wav
