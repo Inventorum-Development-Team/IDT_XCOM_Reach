@@ -1508,15 +1508,30 @@ armors:
       - CHAINGUN_WARTHOG_CORPSE_2
       - CHAINGUN_WARTHOG_CORPSE_3
       - CHAINGUN_WARTHOG_CORPSE_4
-    frontArmor: 100
-    sideArmor: 90
-    rearArmor: 70
+    frontArmor: 130
+    sideArmor: 120
+    rearArmor: 110
     underArmor: 40
     #deathSound: 23
     moveSound: 14
     storeItem: STR_CHAINGUN_WARTHOG_ITEM
     drawingRoutine: 2
     constantAnimation: false
+    allowsRunning: true
+    allowsStrafing: true
+    moveCost:
+      #fist level of multipliers
+      basePercent: [100, 100] #overall move cost
+
+      #second level of multipliers
+      baseNormalPercent: [100, 100] #move cost for ground
+      baseFlyPercent: [100, 100] #move cost for flying
+
+      #third level of multipliers
+      walkPercent: [50, 50] #cost of normal move type
+      runPercent: [25, 25] #cost of run aka with `ctrl`
+      strafePercent: [50, 25] #cost of strafe when `ctrl` and only one tile aside
+    weight: -80
     movementType: 0
     size: 2
     damageModifier:
@@ -1524,16 +1539,17 @@ armors:
       - 1.0
       - 0.4
       - 0.75
-      - 1.0
-      - 1.0
+      - 0.8
+      - 0.8
       - 0.0
       - 0.9
       - 0.4
       - 0.0
     loftempsSet: [ 92, 89, 90, 91 ]
     stats:
-        tu: 100
-        stamina: 100
+      tu: 50
+      stamina: 100
+      health: 50
     units:
       - STR_SPARTAN_III
       - STR_ODST
