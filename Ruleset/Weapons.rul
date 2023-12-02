@@ -1154,8 +1154,8 @@ items:
       followProjectiles: false
     accuracyAuto: 35
     accuracySnap: 50
-    tuAuto: 30
-    tuSnap: 20
+    tuAuto: 15
+    tuSnap: 10
     battleType: 1
     fixedWeapon: true
     invWidth: 2
