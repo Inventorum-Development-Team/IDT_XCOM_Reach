@@ -26,7 +26,7 @@ items:
       ObjectiveGrenade: 1
 
 armors:
-  - type: STR_UNGGOY_MINOR_ARMOR
+  - type: STR_ARMOR_INSURGENT_LEADER_UC #ignoreDuplicate
     tags: 
       Target: 1
 

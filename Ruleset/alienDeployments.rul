@@ -1,3 +1,10 @@
+startingConditions:
+  - type: STR_ASSASINATION
+    allowedCraft:
+      - STR_FALCON_DROPSHIP
+
+
+
 alienDeployments:
   - type: STR_BANSHEE_FIGHTER
     data:
@@ -1144,34 +1151,35 @@ alienDeployments:
 
 
 
-  - type: STR_ASSASINATION_TEST
+  - type: STR_INSURGENT_ASSASINATION
     data:
       - alienRank: 5
+        lowQty: 15
+        highQty: 25
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          - []
+      - alienRank: 0
         lowQty: 1
         highQty: 1
         dQty: 0
         percentageOutsideUfo: 50
         itemSets:
           - []
-      - alienRank: 4
-        lowQty: 1
-        highQty: 1
-        dQty: 1
-        percentageOutsideUfo: 50
-        itemSets:
-          - []
           - []
     civilians: 0 # no random civilians
     terrains:
-      - URBAN
-    alert: STR_ALIENS_TERRORISE
+      - INDUSTRIAL
+    alert: STR_INSURGENT_ASSASINATION
     alertBackground: BACK03.SCR
     briefing:
       palette: 3
       music: GMENBASE
-    markerName: STR_TERROR_SITE
+    markerName: STR_ASSASINATION_SITE
     duration: [4, 10]
     despawnPenalty: 1000
+    startingCondition: STR_ASSASINATION
     width: 50
     length: 50
     height: 11
