@@ -625,7 +625,145 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
 
+  - type: STR_ARMOR_INSURGENT_UC
+    spriteSheet: INSURGENT_SPRITESHEET.PCK
+    spriteInv: INSURGENT_INVENTORY
+    corpseBattle:
+      - STR_CORPSE_ARMY_BALACLAVA_BDU
+    storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_INSURGENT_LEADER_UC
+    spriteSheet: INSURGENT_LEADER_SPRITESHEET.PCK
+    spriteInv: INSURGENT_LEADER_INVENTORY
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU
+    storeItem: STR_NONE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
 units:
+### Insurgent ###
+
+  - type: STR_INSURGENT
+    race: STR_INSURGENTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 40
+      health: 30
+      bravery: 30
+      reactions: 30
+      firing: 60
+      throwing: 40
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_INSURGENT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 2
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_MA37
+        - STR_MA37_MAG
+        - STR_MA37_MAG
+        - STR_GRENADE
+      - 
+        - STR_MA37
+        - STR_MA37_MAG
+        - STR_MA37_MAG
+        - STR_GRENADE
+      - 
+        - STR_M392
+        - STR_M392_MAG
+        - STR_M392_MAG
+        - STR_GRENADE
+
+  - type: STR_INSURGENT_LEADER
+    race: STR_INSURGENTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 50
+      strength: 50
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+      mana: 0
+    armor: STR_ARMOR_INSURGENT_LEADER_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    deathSound: [44, 45, 46]
+    intelligence: 10
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_GRENADE
+### Covenant ###
   - type: STR_SANGHEILI_MINOR
     race: STR_SANGHEILI
     rank: STR_LIVE_SOLDIER
@@ -1382,6 +1520,20 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_SPRITESHEET.png
+  - type: INSURGENT_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_SPRITESHEET.png
+  - type: INSURGENT_LEADER_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_SPRITESHEET.png
 
   - type: SANGHEILI_MINOR_INVENTORY
     singleImage: true
@@ -1437,6 +1589,14 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_INVENTORY.png
+  - type: INSURGENT_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_INVENTORY.png
+  - type: INSURGENT_LEADER_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_INVENTORY.png
 
   - type: BIGOBS.PCK
     files:
@@ -1534,3 +1694,13 @@ alienRaces:
       - [STR_UNGGOY_MINOR]
       - [STR_KIG_YAR_SNIPER]
       - [STR_KIG_YAR_MINOR]
+  - id: STR_INSURGENTS
+    members:
+      - STR_INSURGENT_LEADER
+      - STR_INSURGENT_LEADER
+      - STR_INSURGENT
+      - STR_INSURGENT
+      - STR_INSURGENT
+      - STR_INSURGENT
+      - STR_INSURGENT
+      - STR_INSURGENT
