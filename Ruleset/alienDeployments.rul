@@ -1141,3 +1141,40 @@ alienDeployments:
     civilianSpawnNodeRank: 1
     turnLimit: 7
     chronoTrigger: 2
+
+
+
+  - type: STR_ASSASINATION_TEST
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          - []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          - []
+          - []
+    civilians: 0 # no random civilians
+    terrains:
+      - URBAN
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 3
+      music: GMENBASE
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+    width: 50
+    length: 50
+    height: 11
+    objectiveType: 8
+    objectivePopup: STR_OBJECTIVE_COMPLETED
+    objectivesRequired: 1

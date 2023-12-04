@@ -1,6 +1,7 @@
 extraSounds:
   - type: BATTLE.CAT
     files:
+      99: Resources/Sounds/Explosions/Blank.wav
       100: Resources/Sounds/WeaponSounds/UNSC/battle_rifle_fire2.wav
       101: Resources/Sounds/WeaponSounds/UNSC/battle_rifle_fire3.wav
       102: Resources/Sounds/WeaponSounds/UNSC/battle_rifle_fire4.wav
