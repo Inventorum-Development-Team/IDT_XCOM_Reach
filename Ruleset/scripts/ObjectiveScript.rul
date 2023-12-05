@@ -38,10 +38,11 @@ extended:
       Objective: int
       NoOfTargets: int
       PrimeObjective: int
-      TurnTargets: int
       Completed: int
     RuleItem:
       ObjectiveGrenade: int
+    BattleUnit:
+      Dead: int
 
   scripts:
     createUnit:
@@ -58,23 +59,31 @@ extended:
           end;
           return;
 
-    # newTurnUnit:
-    #   - offset: 1
-    #     code: |
-    #       var int target;
-    #       var int nooftargets;
-    #       var int turntargets;
-    #       var int objective;
-    #       battle_game.getTag objective Tag.Objective;
-    #       if eq objective 1;
-    #         unit.getTag target Tag.Target;
-    #         if eq target 1;
-    #           battle_game.getTag turntargets Tag.TurnTargets;
-    #           add turntargets 1;
-    #           battle_game.setTag Tag.TurnTargets turntargets;
-    #         end;
-    #       end;
-    #       return;
+    newTurnUnit:
+      - offset: 1
+        code: |
+          var int target;
+          var int nooftargets;
+          var int objective;
+          var int factionturn;
+          var int dead;
+          var int health;
+          unit.getTag target Tag.Target;
+          battle_game.getTag objective Tag.Objective;
+          if and eq objective 1 eq target 1;
+            unit.getTag dead Tag.Dead;
+            if eq dead 1;
+              return;
+            end;
+            unit.getHealth health;
+            if le health 0;
+              battle_game.getTag nooftargets Tag.NoOfTargets;
+              sub nooftargets 1;
+              battle_game.setTag Tag.NoOfTargets nooftargets;  
+              unit.setTag Tag.Dead 1;
+            end;
+          end;
+          return;
 
 
     damageUnit:
@@ -90,6 +99,7 @@ extended:
             battle_game.getTag nooftargets Tag.NoOfTargets;
             sub nooftargets 1;
             battle_game.setTag Tag.NoOfTargets nooftargets;  
+            unit.setTag Tag.Dead 1;
             end;
           end;
           return;

@@ -51,8 +51,8 @@ extended:
             unit.getFaction faction;
 
             unit.getPosition.getX unitx;
-            unit.getPosition.getX unity;
-            unit.getPosition.getX unitz;
+            unit.getPosition.getY unity;
+            unit.getPosition.getZ unitz;
             sub unitx radious;
             sub unity radious;
             sub unitz heightradious;
