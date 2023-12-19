@@ -402,3 +402,11 @@ extraSounds:
       1639: Resources/Sounds/WeaponSounds/UNSC/targetlocator_exp2.wav
       1640: Resources/Sounds/WeaponSounds/UNSC/targetlocator_exp3.wav
       1641: Resources/Sounds/WeaponSounds/UNSC/targetlocator_exp4.wav
+
+      1700: Resources/Sounds/UnitSounds/Vehicles/Warthog/horn.wav
+      1701: Resources/Sounds/UnitSounds/Vehicles/Warthog/move.wav
+      #1702: Resources/Sounds/UnitSounds/Vehicles/Warthog/destroyed.wav
+      1703: Resources/Sounds/UnitSounds/Vehicles/Ghost/move.wav
+      1704: Resources/Sounds/UnitSounds/Vehicles/Ghost/ghost_fire.wav
+      1705: Resources/Sounds/UnitSounds/Vehicles/Ghost/ghost_destroyed.wav
+

@@ -269,6 +269,8 @@ en-US:
   STR_M319_UFOPEDIA: "A single-shot, break-action explosives launcher produced by Misriah Armory. Although it is less effective against energy shielded Covenant foes, it can be used to deadly effect against unshielded targets."
   STR_GL_DIRECT: Direct Shot
   STR_GL_ARC: Arcing Shot
+  STR_GRENADE: "M9 Frag Grenade"
+  STR_GRENADE_UFOPEDIA: "M9 Dual-Purpose, High-Explosive (M9 DP-HE) fragmentation grenades are very useful gadgets for clearing large groups of enemies, especially if they are not armored. The metal casing explodes on contact, obliterating nearby enemies."
   STR_M247H_MG: M247H Machine Gun
   STR_M247H_MG_UFOPEDIA: "A widely used turreted machine gun. Incredibly heavy and thus can only be used by exceptionally strong units."
   STR_BR55: BR55HB-SR Battle Rifle
@@ -312,6 +314,7 @@ en-US:
   STR_MAJOR_SHIELD_GAUNTLET: "Jackal Major Shield Gauntlet"
   STR_NEEDLE_RIFLE: "Type-31 Needle Rifle"
   STR_NEEDLE_RIFLE_CANISTER: "Type-31 Needle Rifle Canister"
+  STR_PLASMA_GHOST_CANNON: "Class-2 Plasma Gun"
   
 
   STR_TYPE_25_PLASMA_PISTOL_UFOPEDIA: "Probably the most widespread infantry weapon in the entire enemy arsenal. It employs a single plasma generator, giving it a compact appearance. It may look somewhat weak, but it features a secondary fire mode that greatly boosts the weapon's damage, at the cost of consuming the battery much faster."
@@ -324,6 +327,7 @@ en-US:
   STR_ENERGY_SWORD_UFOPEDIA: "This close combat weapon is a symbol of power and status in the Covenant hierarchy. Sangheili users are often the equivalent of lords and knights in medieval Europe. It is a devastating weapon that employs superheated plasma along two thin blades. The curved hilt contains the plasma generator and two magnetic generators. Its battery is consumed with each thrust and can be recharged."
   STR_JACKAL_SHIELD_GAUNTLET_UFOPEDIA: "Employed on the forearm of Jackal soldiers, this shield employs a 'linear energy field' that deflects projectiles and absorbs projectile energy until the energy generator is saturated and collapses. The color of the shield reflects the user's rank."
   STR_NEEDLE_RIFLE_UFOPEDIA: "A long ranged iteration of the Needler. Sacrifices close range, automatic killing power for accuracy and long ranged support."
+  STR_PLASMA_GHOST_CANNON_UFOPEDIA: "Class-2s are very powerful automatic energy weapons, designed for combat against infantry at short ranges. They are usually mounted in pairs on Type-32 'Ghost' reconnaissance and support vehicles, although they are not well suited to engage heavy armor."
   STR_SPRINT_ITEM: "Sprint"
   STR_CAMO_ITEM: "Active Camouflage"
   STR_DROP_SHIELD_ITEM: "Drop Shield"
@@ -417,6 +421,11 @@ en-US:
   STR_UNGGOY_ULTRA: "Grunt Ultra"
   STR_UNGGOY_ULTRA_ARMOR: "Grunt Combat Harness"
   STR_UNGGOY_ULTRA_CORPSE: "Grunt Ultra Corpse"
+  STR_GHOST_ARMOR: "Nanolaminate hull plating"
+  STR_SANGHEILI_GHOST_ARMOR: "Nanolaminate hull & Energy shielding"
+  STR_GHOST_CORPSE: "Type-32 'Ghost' Wreck"
+  STR_GHOST_UNGGOY_TERRORIST: "Type-32 'Ghost' RAV"
+  STR_GHOST_SANGHEILI_TERRORIST: "Type-32 'Scout Shield Ghost' RAV"
 #####################
   STR_BANSHEE_FIGHTER: "Banshee Fighter Wing"
   STR_SERAPH_FIGHTER: "Seraph Fighter"
@@ -1129,7 +1138,6 @@ en-US:
   STR_LASER_PISTOL_UFOPEDIA: "The laser pistol is an effective implementation of new technology. It has the convenience of a pistol with faster and more accurate firing."
   STR_LASER_RIFLE_UFOPEDIA: "The laser rifle is a more powerful and accurate version of the earlier pistol design."
   STR_HEAVY_LASER_UFOPEDIA: "The heavy laser is cumbersome, but extremely effective."
-  STR_GRENADE_UFOPEDIA: "This standard issue grenade has an accurate and sophisticated timer for precision control."
   STR_SMOKE_GRENADE_UFOPEDIA: "Smoke grenades are useful for providing cover in exposed combat situations. Use with care because they can benefit the enemy as well."
   STR_PROXIMITY_GRENADE_UFOPEDIA: "A proximity grenade can be thrown like an ordinary grenade but is triggered by nearby movement after it lands. Great skill and care is required to use these devices properly."
   STR_HIGH_EXPLOSIVE_UFOPEDIA: "This explosive should only be used for demolition purposes. Keep personnel clear of demolition sites."
@@ -1289,7 +1297,6 @@ en-US:
   STR_SMALL_ROCKET: "Small Rocket"
   STR_LARGE_ROCKET: "Large Rocket"
   STR_INCENDIARY_ROCKET: "Incendiary Rocket"
-  STR_GRENADE: "Grenade"
   STR_SMOKE_GRENADE: "Smoke Grenade"
   STR_PROXIMITY_GRENADE: "Proximity Grenade"
   STR_HIGH_EXPLOSIVE: "High Explosive"

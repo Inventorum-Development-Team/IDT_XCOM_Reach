@@ -243,6 +243,8 @@ es-419:
   STR_GL_ARC: "Disparo en arco"
   STR_M247H_MG: "Ametralladora M247H"
   STR_M247H_MG_UFOPEDIA: "Ametralladora de torreta muy utilizada. Increíblemente pesada, por lo que sólo puede ser empleada por unidades excepcionalmente fuertes."
+  STR_GRENADE: "Granada M9"
+  STR_GRENADE_UFOPEDIA: "Las granadas de fragmentación M9 de doble propósito, altamente explosivas son artefactos muy útiles para despejar grandes grupos de enemigos, sobretodo si no están blindados. La cubierta de metal se rompe en pequeños fragmentos uniformes en cuanto explota al contacto, afectando objetivos cercanos. "
   STR_BR55: "Rifle de Batalla BR55HB-SR"
   STR_BR55_UFOPEDIA: "Variante de Barril Pesado del Rifle de Batalla con selector de disparo, usado comunmente para enfrentamientos de media a larga distancia, configurado para disparar en ráfagas de 3, usando el cartucho experimental M634 X-HP-SAP y una mira KFA 2x."
   STR_BR55S: "BR55HB-SR/SOCOM"
@@ -294,7 +296,9 @@ es-419:
   STR_NEEDLE_RIFLE_UFOPEDIA: "Versión de largo alcance del Aguijoneador. Sacrifica capacidad de mortalidad a corto alcance por precisión en distancias extendidas."
   STR_NEEDLE_RIFLE: "Rifle 'Aguijoneador' Tipo-31"
   STR_NEEDLE_RIFLE_CANISTER: "Contenedor de Rifle 'Aguijoneador' Tipo-31"
-  
+  STR_PLASMA_GHOST_CANNON: "Arma de Plasma Clase-2"
+  STR_PLASMA_GHOST_CANNON_UFOPEDIA: "Las Clase-2 son armas automáticas de energía muy potentes, diseñadas para combate contra infantería en cortas distancias. Suelen montarse en pares sobre vehículos de reconocimiento y apoyo Tipo-32 'Ghost', aunque no están muy acondicionadas para enfrentarse a blindaje pesado."
+
   STR_SPRINT_ITEM: "Sprint"
   STR_CAMO_ITEM: "Camuflaje Activo"
   STR_DROP_SHIELD_ITEM: "Escudo desplegable"
@@ -313,13 +317,13 @@ es-419:
   STR_NOT_KNEELING: "¡Debes arrodillarte primero!"
   STR_ARMOR_ABILITIES: "Habilidades de armadura"
   STR_ARMOR_ABILITIES_UC: "HABILIDADES DE ARMADURA"
-  STR_ARMOR_ABILITIES_UFOPEDIA: "Las habilidades de armadura consisten en una serie de accesorios que proporcionan a los Spartans nuevas opciones tácticas. {NEWLINE}{NEWLINE}{ALT}Para usar una habilidad, muévela a la ranura 'Habilidad' del inventario de una unidad y actívala mediante el botón de arma especial".
+  STR_ARMOR_ABILITIES_UFOPEDIA: "Las habilidades de armadura consisten en una serie de accesorios que proporcionan a los Spartans nuevas opciones tácticas. {NEWLINE}{NEWLINE}{ALT}Para usar una habilidad, muévela a la ranura 'Habilidad' del inventario de una unidad y actívala mediante el botón de arma especial"
   STR_SPRINT_SKILL_UFOPEDIA: "La habilidad Sprint permite al usuario empujar su armadura más allá de los límites de seguridad para un aumento momentáneo de la velocidad. {NEWLINE}{NEWLINE}{ALT}Otorga 40 unidades de tiempo, aunque también reduce las reacciones en 40 durante un turno: 1 turno"
   STR_CAMO_SKILL_UFOPEDIA: "El Camuflaje Activo permite al usuario mimetizarse con su entorno, volviéndose prácticamente invisible para todos los sentidos excepto para los más agudos. {NEWLINE}{NEWLINE}{ALT}Oculta al usuario de cualquier unidad que se encuentre a más de 5 casillas de distancia durante un turno: 3 turnos"
   STR_DROP_SHIELD_SKILL_UFOPEDIA: "El Escudo desplegable permite al usuario colocar un emisor que proyecta un escudo de energía protector esférico, protegiendo a cualquiera que se encuentre en su interior de ataques externos.{NEWLINE}{NEWLINE}{ALT}Cualquier unidad en un radio de un cuadro del emisor es impermeable a cualquier ataque desde fuera del radio."
   STR_HOLO_SKILL_UFOPEDIA: "La habilidad Holograma permite al usuario crear una copia holográfica de sí mismo para engañar al enemigo y atraer su fuego.{NEWLINE}{NEWLINE}{ALT}El holograma se disipará tras un turno.{NEWLINE}{NEWLINE}Enfriamiento: 1 turno"
   STR_LOCK_SKILL_UFOPEDIA: "La habilidad Bloqueo de armadura permite al usuario proyectar un poderoso escudo de energía a su alrededor, haciéndolo casi invulnerable a cualquier daño. Sin embargo, el usuario permanece inmóvil mientras el escudo está activo. {NEWLINE}{NEWLINE}{ALT}Hace al usuario inmune a todo el daño durante un turno, todas las unidades de tiempo se gastan en la activación. {NEWLINE}{NEWLINE}El usuario debe estar arrodillado al activar la habilidad: 3 turnos"
-  STR_JETPACK_SKILL_UFOPEDIA: "La habilidad Mochila cohete permite al usuario utilizar el Jetpack Serie 8 para volar temporalmente.{NEWLINE}{NEWLINE}{ALT}Permite al usuario volar durante un turno. Si sigue en el aire al comienzo de su siguiente turno, caerá sobre el cuadro inferior.{NEWLINE}{NEWLINE}Los soldados de SCDO también pueden usar esta habilidad.{NEWLINE}{NEWLINE}Enfriamiento: 1 turno".
+  STR_JETPACK_SKILL_UFOPEDIA: "La habilidad Mochila cohete permite al usuario utilizar el Jetpack Serie 8 para volar temporalmente.{NEWLINE}{NEWLINE}{ALT}Permite al usuario volar durante un turno. Si sigue en el aire al comienzo de su siguiente turno, caerá sobre el cuadro inferior.{NEWLINE}{NEWLINE}Los soldados de SCDO también pueden usar esta habilidad.{NEWLINE}{NEWLINE}Enfriamiento: 1 turno"
 
 
 ######################
@@ -376,6 +380,11 @@ es-419:
   STR_UNGGOY_ULTRA: "Grunt Ultra"
   STR_UNGGOY_ULTRA_ARMOR: "Arnés de combate Grunt"
   STR_UNGGOY_ULTRA_CORPSE: "Cadáver de Grunt Ultra"
+  STR_GHOST_ARMOR: "Coraza de Nanolaminado"
+  STR_SANGHEILI_GHOST_ARMOR: "Coraza de Nanolaminado y Escudo de energía"
+  STR_GHOST_CORPSE: "Chatarra de Tipo-32 'Ghost'"
+  STR_GHOST_UNGGOY_TERRORIST: "Tipo-32 'Ghost' RAV"
+  STR_GHOST_SANGHEILI_TERRORIST: "Tipo-32 'Ghost Escudo' RAV"
 ######################
   STR_BANSHEE_FIGHTER: "Escuadrón de Cazas Banshee"
   STR_SERAPH_FIGHTER: "Caza Seraph"
@@ -1077,7 +1086,7 @@ es-419:
   STR_LASER_PISTOL_UFOPEDIA: "La pistola láser es una implementacion eficaz de nueva tecnología. Tiene la facilidad de manejo de una pistola pero el tiro es más veloz y preciso"
   STR_LASER_RIFLE_UFOPEDIA: "El fusil láser es un modelo más potente y preciso basado en el diseño anterior de pistola."
   STR_HEAVY_LASER_UFOPEDIA: "El láser pesado abulta mucho pero es muy eficaz."
-  STR_GRENADE_UFOPEDIA: "Esta granada tiene un temporizador sofisticado y preciso para un control más exacto."
+  
   STR_SMOKE_GRENADE_UFOPEDIA: "Las granadas de humo sirven para proveer cobertura en situaciones de combate expuestas. Utilícelas con cuidado porque también pueden beneficiar al enemigo "
   STR_PROXIMITY_GRENADE_UFOPEDIA: "La granada de proximidad se lanza como las normales, pero lo que la activa es el movimiento que se produzca cerca de ella una vez que ha caído. Para utilizarla debidamente se necesitan habilidad y práctica."
   STR_HIGH_EXPLOSIVE_UFOPEDIA: "Este explosivo debe emplearse únicamente para demolición. Mantenga a su personal lejos de los puntos de demolición."
@@ -1262,7 +1271,6 @@ es-419:
   STR_SMALL_ROCKET: "Cohete Pequeño"
   STR_LARGE_ROCKET: "Cohete Grande"
   STR_INCENDIARY_ROCKET: "Cohete Incendiario"
-  STR_GRENADE: "Granada"
   STR_SMOKE_GRENADE: "Granada de Humo"
   STR_PROXIMITY_GRENADE: "Granada de Proximidad"
   STR_HIGH_EXPLOSIVE: "Explosivo de Demolición"

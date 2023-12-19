@@ -189,6 +189,78 @@ items:
     armor: 40
     listOrder: 1000
 
+  - type: STR_GHOST_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+    power: 120
+    blastRadius: 2
+  - type: GHOST_CORPSE_1
+    name: STR_GHOST_CORPSE
+    floorSprite: 2014
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+    power: 120
+    blastRadius: 2
+  - type: GHOST_CORPSE_2
+    floorSprite: 2015
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: GHOST_CORPSE_3
+    name: STR_GHOST_CORPSE
+    floorSprite: 2016
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: GHOST_CORPSE_4
+    name: STR_GHOST_CORPSE
+    floorSprite: 2017
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_SANGHEILI_GHOST_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+    power: 120
+    blastRadius: 2
+  - type: SANGHEILI_GHOST_CORPSE_1
+    name: STR_GHOST_CORPSE
+    floorSprite: 2018
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+    power: 120
+    blastRadius: 2
+  - type: SANGHEILI_GHOST_CORPSE_2
+    floorSprite: 2019
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SANGHEILI_GHOST_CORPSE_3
+    name: STR_GHOST_CORPSE
+    floorSprite: 2020
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SANGHEILI_GHOST_CORPSE_4
+    name: STR_GHOST_CORPSE
+    floorSprite: 2021
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
 armors:
   - type: STR_SANGHEILI_MINOR_ARMOR
     visibilityAtDay: 25
@@ -624,6 +696,104 @@ armors:
       - 0.5 #ACID
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
+
+  - type: STR_GHOST_ARMOR
+    spriteSheet: GHOST_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: GHOST_INVENTORY
+    corpseBattle:
+      - GHOST_CORPSE_1
+      - GHOST_CORPSE_2
+      - GHOST_CORPSE_3
+      - GHOST_CORPSE_4
+    #corpseGeo: STR_GHOST_CORPSE
+    frontArmor: 80
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 20
+    drawingRoutine: 3
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    allowsRunning: true
+    allowsStrafing: true
+    moveCost:
+      #fist level of multipliers
+      basePercent: [100, 100] #overall move cost
+
+      #second level of multipliers
+      baseNormalPercent: [100, 100] #move cost for ground
+      baseFlyPercent: [100, 100] #move cost for flying
+
+      #third level of multipliers
+      walkPercent: [50, 50] #cost of normal move type
+      runPercent: [25, 25] #cost of run aka with `ctrl`
+      strafePercent: [50, 25] #cost of strafe when `ctrl` and only one tile aside
+    weight: -80
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    builtInWeapons:
+      - STR_PLASMA_GHOST_CANNON
+      - STR_PLASMA_GHOST_CANNON
+
+  - type: STR_SANGHEILI_GHOST_ARMOR
+    spriteSheet: SANGHEILI_GHOST_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: SANGHEILI_GHOST_INVENTORY
+    corpseBattle:
+      - SANGHEILI_GHOST_CORPSE_1
+      - SANGHEILI_GHOST_CORPSE_2
+      - SANGHEILI_GHOST_CORPSE_3
+      - SANGHEILI_GHOST_CORPSE_4
+    #corpseGeo: STR_GHOST_CORPSE
+    frontArmor: 80
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 20
+    drawingRoutine: 3
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    allowsRunning: true
+    allowsStrafing: true
+    moveCost:
+      #fist level of multipliers
+      basePercent: [100, 100] #overall move cost
+
+      #second level of multipliers
+      baseNormalPercent: [100, 100] #move cost for ground
+      baseFlyPercent: [100, 100] #move cost for flying
+
+      #third level of multipliers
+      walkPercent: [50, 50] #cost of normal move type
+      runPercent: [25, 25] #cost of run aka with `ctrl`
+      strafePercent: [50, 25] #cost of strafe when `ctrl` and only one tile aside
+    weight: -80
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    builtInWeapons:
+      - STR_PLASMA_GHOST_CANNON
+      - STR_PLASMA_GHOST_CANNON
 
   - type: STR_ARMOR_INSURGENT_UC
     spriteSheet: INSURGENT_SPRITESHEET.PCK
@@ -1426,6 +1596,75 @@ units:
        - STR_NEEDLER_CANISTER
        - STR_PLASMA_GRENADE
 
+  - type: STR_GHOST_SANGHEILI_TERRORIST
+    race: STR_GHOST
+    rank: STR_LIVE_TERRORIST
+    liveAlien: ""
+    stats:
+      tu: 90
+      stamina: 150
+      health: 120
+      bravery: 150
+      reactions: 70
+      firing: 80
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+      mana: 200
+    armor: STR_SANGHEILI_GHOST_ARMOR
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
+    value: 20
+    deathSound: 1705
+    moveSound: 1703
+    intelligence: 5
+    aggression: 8
+    energyRecovery: 50
+    specab: 1
+    #livingWeapon: true
+    capturable: false
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_GHOST_CANNON
+       - STR_PLASMA_GHOST_CANNON
+
+  - type: STR_GHOST_UNGGOY_TERRORIST
+    race: STR_GHOST
+    rank: STR_LIVE_TERRORIST
+    liveAlien: ""
+    stats:
+      tu: 62
+      stamina: 150
+      health: 120
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: STR_GHOST_ARMOR
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
+    value: 20
+    deathSound: 1705
+    moveSound: 1703
+    intelligence: 5
+    aggression: 8
+    energyRecovery: 50
+    specab: 1
+    #livingWeapon: true
+    capturable: false
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_GHOST_CANNON
+       - STR_PLASMA_GHOST_CANNON
+
 extraSprites:
   - type: SANGHEILI_MINOR_SPRITESHEET.PCK
     subX: 32
@@ -1520,6 +1759,20 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_SPRITESHEET.png
+  - type: GHOST_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Vehicles/GHOST_SPRITESHEET.png
+  - type: SANGHEILI_GHOST_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Vehicles/SANGHEILI_GHOST_SPRITESHEET.png
   - type: INSURGENT_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -1534,6 +1787,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_SPRITESHEET.png
+
 
   - type: SANGHEILI_MINOR_INVENTORY
     singleImage: true
@@ -1589,6 +1843,17 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_INVENTORY.png
+
+  - type: GHOST_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/Vehicles/INVENTORY/GHOST_INVENTORY.png
+  - type: SANGHEILI_GHOST_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/Vehicles/INVENTORY/SANGHEILI_GHOST_INVENTORY.png
+
+
   - type: INSURGENT_INVENTORY
     singleImage: true
     files:
@@ -1613,7 +1878,11 @@ extraSprites:
       2010: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_CORPSE_BIGOB.png
       2011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_BIGOB.png
       2012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_BIGOB.png
-      2013: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_BIGOB.png
+      2013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_BIGOB.png
+      2014: Resources/Vehicles/BigGhostPlasmaCannon.png
+      #2015: Resources/Vehicles/FloorGhostWreck0.png
+      #2016: Resources/Vehicles/FloorGhostWreck0.png
+      #2017: Resources/Vehicles/FloorGhostWreck0.png
   - type: FLOOROB.PCK
     files:
       2000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_FLOOROB.png
@@ -1629,9 +1898,15 @@ extraSprites:
       2010: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_CORPSE_FLOOROB.png
       2011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_FLOOROB.png
       2012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_FLOOROB.png
-      2013: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_FLOOROB.png
-
-
+      2013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_FLOOROB.png
+      2014: Resources/Vehicles/FloorGhostWreck0.png
+      2015: Resources/Vehicles/FloorGhostWreck1.png
+      2016: Resources/Vehicles/FloorGhostWreck2.png
+      2017: Resources/Vehicles/FloorGhostWreck3.png
+      2018: Resources/Vehicles/FloorSangheiliGhostWreck0.png
+      2019: Resources/Vehicles/FloorSangheiliGhostWreck1.png
+      2020: Resources/Vehicles/FloorSangheiliGhostWreck2.png
+      2021: Resources/Vehicles/FloorSangheiliGhostWreck3.png
 
 alienRaces:
   - delete: STR_FLOATER
@@ -1648,8 +1923,8 @@ alienRaces:
       - [STR_SANGHEILI_MINOR]
       - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MAJOR, STR_UNGGOY_HEAVY]
       - [STR_KIG_YAR_MAJOR, STR_UNGGOY_MAJOR, STR_UNGGOY_MINOR]
-      - [STR_UNGGOY_HEAVY]
-      - [STR_SANGHEILI_MINOR]
+      - [STR_GHOST_SANGHEILI_TERRORIST]
+      - [STR_GHOST_UNGGOY_TERRORIST, STR_UNGGOY_HEAVY]
 
   - id: STR_SHIPMASTER_CREW
     membersRandom:
@@ -1681,8 +1956,8 @@ alienRaces:
       - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MAJOR]
       - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MINOR, STR_UNGGOY_MAJOR]
       - [STR_UNGGOY_MINOR]
-      - [STR_UNGGOY_HEAVY]
-      - [STR_KIG_YAR_MINOR]
+      - [STR_GHOST_UNGGOY_TERRORIST, STR_UNGGOY_HEAVY]
+      - [STR_GHOST_UNGGOY_TERRORIST]
 
   - id: STR_UNGGOY_LANCE
     membersRandom:

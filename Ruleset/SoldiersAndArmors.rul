@@ -1557,6 +1557,7 @@ armors:
       - STR_MARINE
     builtInWeapons:
       - STR_M41_VULCAN_CHAINGUN
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
 
 
 

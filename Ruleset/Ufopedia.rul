@@ -285,6 +285,10 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_H165_ORBITAL_STRIKE_UFOPEDIA
+  - id: STR_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GRENADE_UFOPEDIA
 ####################
 ##### SHIPS #######
 ##################
@@ -452,6 +456,10 @@ ufopaedia:
 ###############################
 ##### COVENANT WEAPONS #######
 ##############################
+  - id: STR_PLASMA_GHOST_CANNON
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_PLASMA_GHOST_CANNON_UFOPEDIA
   - id: STR_PLASMA_RIFLE_ELITE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS

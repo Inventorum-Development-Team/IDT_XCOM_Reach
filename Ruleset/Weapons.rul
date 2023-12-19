@@ -1094,6 +1094,7 @@ items:
     bigSprite: 568
     floorSprite: 568
     power: 140
+    fuseType: -2
     blastRadius: 2
     powerForAnimation: 60
     damageAlter:
@@ -1730,6 +1731,52 @@ items:
     clipSize: -1
     invWidth: 2
     invHeight: 3
+
+  - type: STR_PLASMA_GHOST_CANNON       #Type 2 Plasma Cannon
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    #costSell: 125000
+    size: 0.1         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    bigSprite: 2014
+    battleType: 1     # 1 = firearm
+    weight: 20
+    confAuto:
+      shots: 8
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: true
+      spendPerShot: 6
+    confSnap:
+      shots: 4
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: true
+      spendPerShot: 6
+    accuracyAimed: 70       #
+    accuracyAuto: 40            #
+    tuAimed: 15             #
+    tuAuto: 10
+    maxRange: 100           #
+    aimRange: 30            #
+    dropoff: 6              #
+    fireSound: 1704
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
+    hitAnimation: 90
+    bulletSprite: 21
+    bulletSpeed: 10
+    fixedWeapon: true
+    explosionSpeed: 5
+    power: 35
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.5
+      ToMorale: 1.2
+      ToMana: 2.0
+    damageType: 5
+    clipSize: -1
 
 extraSprites:
   - type: BIGOBS.PCK
