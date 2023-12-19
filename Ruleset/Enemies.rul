@@ -198,6 +198,7 @@ items:
   - type: GHOST_CORPSE_1
     name: STR_GHOST_CORPSE
     floorSprite: 2014
+    armor: 200
     invWidth: 0
     invHeight: 0
     battleType: 11
@@ -206,6 +207,7 @@ items:
     blastRadius: 2
   - type: GHOST_CORPSE_2
     floorSprite: 2015
+    armor: 200
     invWidth: 0
     invHeight: 0
     battleType: 11
@@ -213,6 +215,7 @@ items:
   - type: GHOST_CORPSE_3
     name: STR_GHOST_CORPSE
     floorSprite: 2016
+    armor: 200
     invWidth: 0
     invHeight: 0
     battleType: 11
@@ -220,6 +223,7 @@ items:
   - type: GHOST_CORPSE_4
     name: STR_GHOST_CORPSE
     floorSprite: 2017
+    armor: 200
     invWidth: 0
     invHeight: 0
     battleType: 11
@@ -234,6 +238,7 @@ items:
   - type: SANGHEILI_GHOST_CORPSE_1
     name: STR_GHOST_CORPSE
     floorSprite: 2018
+    armor: 200
     invWidth: 0
     invHeight: 0
     battleType: 11
@@ -242,6 +247,7 @@ items:
     blastRadius: 2
   - type: SANGHEILI_GHOST_CORPSE_2
     floorSprite: 2019
+    armor: 200
     invWidth: 0
     invHeight: 0
     battleType: 11
@@ -249,6 +255,7 @@ items:
   - type: SANGHEILI_GHOST_CORPSE_3
     name: STR_GHOST_CORPSE
     floorSprite: 2020
+    armor: 200
     invWidth: 0
     invHeight: 0
     battleType: 11
@@ -256,6 +263,7 @@ items:
   - type: SANGHEILI_GHOST_CORPSE_4
     name: STR_GHOST_CORPSE
     floorSprite: 2021
+    armor: 200
     invWidth: 0
     invHeight: 0
     battleType: 11
