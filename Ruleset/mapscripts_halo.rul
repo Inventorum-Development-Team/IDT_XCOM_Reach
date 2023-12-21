@@ -1,0 +1,6 @@
+# mapScripts:
+#   - type: AA_OUTPOST 
+#     commands:
+#     - type: addCraft
+#       #size: [6,6,11]
+      

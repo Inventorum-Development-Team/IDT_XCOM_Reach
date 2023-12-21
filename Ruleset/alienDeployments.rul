@@ -3,6 +3,11 @@ startingConditions:
     allowedCraft:
       - STR_FALCON_DROPSHIP
 
+  # - type: STR_AA_DEFENCE
+  #   allowedCraft:
+  #     - STR_PELICAN_DROPSHIP
+  #   craftTransformations:
+  #       STR_PELICAN_DROPSHIP: STR_PELICAN_DROPSHIP_AA
 
 
 alienDeployments:
@@ -1186,3 +1191,28 @@ alienDeployments:
     objectiveType: 8
     objectivePopup: STR_OBJECTIVE_COMPLETED
     objectivesRequired: 1
+
+#  - type: STR_SWORD_BASE_AA_DEFENCE
+#    data:
+#      - alienRank: 5
+#        lowQty: 1
+#        highQty: 1
+#        dQty: 0
+#        itemSets:
+#          - []
+#    civilians: 0 # no random civilians
+#    terrains:
+#      - HALO_SWORD_BASE_AA
+#    briefing:
+#      palette: 3
+#      music: GMENBASE
+#    markerName: STR_SWORD_BASE_AA_MARKER
+#    duration: [4, 10]
+#    despawnPenalty: 1000
+#    startingCondition: STR_AA_DEFENCE
+#    width: 60
+#    length: 60
+#    height: 12
+#    objectiveType: 8
+#    objectivePopup: STR_RETREAT_ORDERED
+#    objectivesRequired: 1

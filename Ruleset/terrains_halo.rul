@@ -1,0 +1,16 @@
+# terrains:
+#     - name: HALO_SWORD_BASE_AA
+#       mapScripts: 
+#        - AA_OUTPOST
+#       mapDataSets:
+#         - BLANKS
+#         - ICE-MOUNTSNOW
+#         - ICE-OUTPOST1
+#         - ICE-OUTPOST2
+#         - ICE-POLARHR
+#       mapBlocks:
+#         - name: SWORDBASEAA
+#           width: 60
+#           length: 60
+#           #height: 11
+#           groups: 1
