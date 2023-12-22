@@ -12,5 +12,23 @@ terrains:
         - name: SWORDBASEAA
           width: 60
           length: 60
-          height: 12
+          height: 11
           groups: 1
+
+    - name: HALO_SWORD_BASE_PELICAN
+      mapDataSets:
+        - BLANKS
+        - BD_PLANE
+        - PELICAN_COCKPIT
+        - PELICAN_CARGO_BAY
+        - ELEVATOR_TILES
+        - OBJECTIVE
+      mapBlocks:
+        - name: PELICAN_DROPSHIP_AA
+          width: 60
+          length: 60
+          height: 11
+          groups: 2
+          items:
+            STR_OBJECTIVE_BOMB: 
+             - [0,0,10]

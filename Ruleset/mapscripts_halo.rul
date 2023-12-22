@@ -1,5 +1,14 @@
 mapScripts:
   - type: AA_OUTPOST 
     commands:
-    - type: addCraft
+    - type: addBlock
       size: [6,6,11]
+      verticalLevels:
+       - type: ground
+         size: [6,6,11]
+         groups: 1
+       - type: ground
+         terrain: PELICAN_DROPSHIP_AA
+         groups: 2
+         size: [6,6,11]
+     
