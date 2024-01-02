@@ -1211,7 +1211,7 @@ alienDeployments:
     despawnPenalty: 1000
     width: 60
     length: 60
-    height: 11
+    height: 25
     objectiveType: 8
     objectivePopup: STR_RETREAT_ORDERED
     objectivesRequired: 1

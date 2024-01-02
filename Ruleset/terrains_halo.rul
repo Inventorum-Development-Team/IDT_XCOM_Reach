@@ -13,6 +13,11 @@ terrains:
           width: 60
           length: 60
           height: 11
+          groups: 0
+        - name: Flat
+          width: 60
+          length: 60
+          height: 11
           groups: 1
 
     - name: HALO_SWORD_BASE_PELICAN
@@ -28,7 +33,7 @@ terrains:
           width: 60
           length: 60
           height: 11
-          groups: 2
-          items:
-            STR_OBJECTIVE_BOMB: 
-             - [0,0,10]
+          groups: 6
+          # items:
+          #   STR_OBJECTIVE_BOMB: 
+          #    - [0,0,10]

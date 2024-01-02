@@ -2,13 +2,13 @@ mapScripts:
   - type: AA_OUTPOST 
     commands:
     - type: addBlock
-      size: [6,6,11]
+      size: [6,6,25]
       verticalLevels:
-       - type: ground
+ 
+       - type: decoration
          size: [6,6,11]
-         groups: 1
-       - type: ground
-         terrain: PELICAN_DROPSHIP_AA
-         groups: 2
-         size: [6,6,11]
-     
+         groups: 0
+       - type: middle
+         terrain: HALO_SWORD_BASE_PELICAN
+         groups: 6
+         size: [6,6,11]     
