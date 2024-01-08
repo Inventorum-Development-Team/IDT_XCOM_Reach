@@ -6,6 +6,10 @@
 #Updated Dioxine's Industrial Slum and added Commercial mapScripts
 ###########################
 mapScripts:
+  - type: SURFACE_BASE
+    commands:
+    - type: fillArea
+      blocks: 20
   - type: DEFAULT # forest, mountain
     commands:
     - type: addUFO
