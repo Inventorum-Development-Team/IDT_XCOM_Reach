@@ -1,0 +1,222 @@
+items:
+
+  - type: STR_GAUSS_TURRET_SPAWNER
+    spawnUnit: STR_GAUSS_TURRET
+    spawnUnitFaction: 2
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+
+  - type: STR_OBJECTIVE_BOMB #ignoreDuplicate
+    tags:
+      ObjectiveGrenade: 1
+
+armors:
+  - type: GAUSS_AA_ARMOR #ignoreDuplicate
+    tags:
+      ObjectiveGauss: 1
+      No_Of_Frames: 2
+      Frames_Per_Frame: 1
+      Frames_Between_Cycles: 30
+extended:
+  tags:
+    RuleItem:
+      ObjectiveGrenade: int
+    RuleArmor:
+      ObjectiveGauss: int    
+      No_Of_Frames: int # how many frames (separate BigObs) the items animation consists of
+      Frames_Per_Frame: int  # how many ingame anim_frames should each frame display for. Note: No_Of_Frames must be a multiple of Frames_Per_Frame
+      Frames_Between_Cycles: int # how many anim_frames should be between each time the animation plays
+    BattleGame:
+      AAObjective: int
+      DeadTurrets: int
+      AAOnline: int
+      CountDownTurn: int
+      Completed: int
+    BattleUnit:
+      Activated: int
+
+  scripts:
+    createUnit:
+      - offset: 1
+        code: |
+          var int objectivegauss;
+
+          unit.getTag objectivegauss Tag.ObjectiveGauss;
+          if eq objectivegauss 1;
+            battle_game.setTag Tag.AAObjective 1;
+          end;
+          return;
+    newTurnUnit:
+      - offset: 1
+        code: |
+          var int objectivegauss;
+          var int activated;
+          var int x;
+          var int y;
+          var int z;
+          var int cordx;
+          var int cordy;
+          var int cordz;
+          var int faction;
+          var int aaonline;
+          var int health;
+
+          var ptr BattleUnit target;
+          var ptr Tile tile;
+          unit.getTag objectivegauss Tag.ObjectiveGauss;
+          unit.getTag activated Tag.Activated;
+          if and eq objectivegauss 1 neq activated 1;
+            unit.getPosition.getX x;
+            unit.getPosition.getY y;
+            unit.getPosition.getZ z;
+            sub x 1;
+            sub y 1;
+            set cordx x;
+            set cordy y;
+            set cordz z;
+
+            loop var loop_y 4;
+              loop var loop_x 4;
+                  battle_game.getTile tile cordx cordy cordz;
+                  tile.getUnit target;
+                  target.getFaction faction;
+                  target.getHealth health;
+                  if and eq faction FACTION_PLAYER gt health 0;
+                    battle_game.getTag aaonline Tag.AAOnline;
+                    add aaonline 1;
+                    battle_game.setTag Tag.AAOnline aaonline;
+                    unit.setTag Tag.Activated 1;
+                    return;
+                  end;
+                  add cordx 1;
+              end;
+                set cordx x;
+                add cordy 1;
+            end;
+
+          end;
+          return;
+
+    newTurnItem:
+      - offset: 1
+        code: |
+          var int aaobjective;
+          var int aaonline;
+          var int countdownturn;
+          battle_game.getTag aaobjective Tag.AAObjective;
+          if eq aaobjective 1;
+            battle_game.getTag aaonline Tag.AAOnline;
+            if eq aaonline 2;
+              battle_game.getTag countdownturn Tag.CountDownTurn;
+              if eq countdownturn 0;
+                set countdownturn turn;
+                add countdownturn 7;
+                battle_game.setTag Tag.CountDownTurn countdownturn;
+                debug_log "countdownturn: " countdownturn;
+              end;
+            end;
+          end;
+          return;
+
+      - offset: 2
+        code: |
+          var int objectivegrenade;
+          var int deadturrets;
+          var int completed;
+          var int countdownturn;
+          var int aaobjective;
+          item.getTag objectivegrenade Tag.ObjectiveGrenade;
+          battle_game.getTag aaobjective Tag.AAObjective;
+          if and eq objectivegrenade 1 eq aaobjective 1;
+            battle_game.getTag deadturrets Tag.DeadTurrets;
+            battle_game.getTag countdownturn Tag.CountDownTurn;
+            if eq countdownturn 0;
+              return;
+            end;
+            
+            if and le deadturrets 1 eq countdownturn turn;
+              battle_game.getTag completed Tag.Completed;
+              if neq completed 1;
+                item.setFuseTimer 0;
+                battle_game.setTag Tag.Completed 1;
+              end;
+            end;
+          end;
+          return;
+
+    damageUnit:
+      - offset: 1
+        code: |
+          var int health;
+          var int deadturrets;
+          var int objectivegauss;
+          unit.getTag objectivegauss Tag.ObjectiveGauss;
+
+          if eq objectivegauss 1;
+            unit.getHealth health;
+            if gt health 0;
+              battle_game.getTag deadturrets Tag.DeadTurrets;
+              add deadturrets 1;
+              battle_game.setTag Tag.DeadTurrets deadturrets;
+            end;
+          end;
+          return;
+
+
+
+
+    selectUnitSprite: 
+      - offset: 1
+        code: | #Universal BigOb animation script, adapted for units for gauss turret
+           var int NoOfFrames;
+           var int FramesPerFrame;
+           var int FramesBetweenCycles;
+           var int TotalCycle;
+           var int frame;
+           var int activated;
+           var int temp;
+  
+
+           unit.getTag NoOfFrames Tag.No_Of_Frames;
+           unit.getTag activated Tag.Activated;
+
+           if and ge NoOfFrames 1 eq activated 1;
+
+             unit.getTag FramesPerFrame Tag.Frames_Per_Frame;
+             mod NoOfFrames FramesPerFrame;
+          
+             if neq NoOfFrames 0;
+               debug_log "No_Of_Frames must be a multiple of Frames_Per_Frame";
+               return sprite_index;
+             else eq NoOfFrames 0;
+               unit.getTag NoOfFrames Tag.No_Of_Frames;
+             end;
+
+
+             unit.getTag FramesBetweenCycles Tag.Frames_Between_Cycles;
+             set TotalCycle NoOfFrames;
+             add TotalCycle FramesBetweenCycles;
+
+             set frame anim_frame;
+             set temp frame;
+             mod temp TotalCycle;
+             sub frame temp;
+             div frame TotalCycle;
+             set temp frame;
+             set frame anim_frame;
+             mul temp TotalCycle;
+             sub frame temp;
+             if gt frame NoOfFrames;
+               return sprite_index;
+             end; 
+             set temp frame;
+             mod temp FramesPerFrame;
+             sub frame temp;
+             div frame FramesPerFrame;
+             mul frame 40;
+             add sprite_index frame;
+
+           end;
+           return sprite_index;
+    

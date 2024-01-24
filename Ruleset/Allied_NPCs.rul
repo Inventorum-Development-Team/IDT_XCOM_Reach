@@ -506,3 +506,66 @@ units:
         - STR_MA5B_MAG
         - STR_MEDI_KIT
         - STR_GRENADE
+
+  - type: STR_GAUSS_TURRET
+    race: STR_HUMANS
+    stats:
+      tu: 0
+      stamina: 0
+      health: 40
+      bravery: 200
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    armor: GAUSS_AA_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    showFullNameInAlienInventory: 1
+armors:
+
+  - type: GAUSS_AA_ARMOR
+    spriteSheet: GAUSSTURRET.PCK
+    allowInv: false
+    corpseBattle:
+      - SECTOPOD_CORPSE_4
+      - SECTOPOD_CORPSE_4
+      - SECTOPOD_CORPSE_4
+      - SECTOPOD_CORPSE_4
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 50
+    drawingRoutine: 12
+    bleedImmune: true
+    painImmune: true
+    alwaysVisible: true
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+extraSprites:
+
+  - type: GAUSSTURRET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 200
+    files:
+      0: Resources/Objectives/GaussTurret_1.png
+      40: Resources/Objectives/GaussTurret_2.png
+      80: Resources/Objectives/GaussTurret_3.png

@@ -14,6 +14,13 @@ terrains:
           length: 60
           height: 11
           groups: 0
+          items:
+             STR_GAUSS_TURRET_SPAWNER: 
+              - [53,23,5]
+              - [53,30,5]
+          fuseTimers:
+            STR_GAUSS_TURRET_SPAWNER: [0,0]
+
         - name: Flat
           width: 60
           length: 60
@@ -34,6 +41,6 @@ terrains:
           length: 60
           height: 11
           groups: 6
-          # items:
-          #   STR_OBJECTIVE_BOMB: 
-          #    - [0,0,10]
+          items:
+             STR_OBJECTIVE_BOMB: 
+              - [0,0,10]
