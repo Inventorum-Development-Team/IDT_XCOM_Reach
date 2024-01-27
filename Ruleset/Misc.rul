@@ -963,8 +963,6 @@ extraSprites:
     height: 48
     files:
       99: Resources/specialWeapons/BigKnife.png
-      100: Resources/ArmorAbilities/PlaceHolder.png
-      101: Resources/ArmorAbilities/BigActiveCamo.png
 
   - type: SPICONS.DAT
     width: 32

@@ -3,24 +3,18 @@ facilities:
   - delete: STR_SMALL_RADAR_SYSTEM
   - delete: STR_LARGE_RADAR_SYSTEM
 
-  - type: STR_GENERAL_STORES
+  - type: STR_ACCESS_LIFT
+    connectorsDisabled: true
+
   - type: STR_LIVING_QUARTERS
     buildTime: 10
-  - type: STR_HANGAR
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 200000
-    buildTime: 12
-    storage: 50
-    monthlyCost: 25000
-    crafts: 2
-    craftSlots:
-      - [-10, 4, 0]
-      - [10, -4, 0]
-    mapName: XBASE_16
-    storageTiles:
-      - [0, 9, 0]
+    connectorsDisabled: true
+
+  - type: STR_LABORATORY
+    connectorsDisabled: true
+
+  - type: STR_WORKSHOP
+    connectorsDisabled: true
 
   - type: STR_SMALL_RADAR_SYSTEM
     spriteShape: 2
@@ -33,16 +27,54 @@ facilities:
     radarChance: 50
     sightRange: 9999
     sightChance: 1000
+    connectorsDisabled: true    
     mapName: XBASE_04
+  - type: STR_MISSILE_DEFENSES
+    spriteShape: 1
+    connectorsDisabled: true  
+  - type: STR_LASER_DEFENSES
+    spriteShape: 1
+    connectorsDisabled: true  
+  - type: STR_PLASMA_DEFENSES
+    spriteShape: 1
+    connectorsDisabled: true  
+  - type: STR_FUSION_BALL_DEFENSES
+    spriteShape: 1
+    connectorsDisabled: true
+  - type: STR_GRAV_SHIELD
+    spriteShape: 1
+    connectorsDisabled: true
+  - type: STR_MIND_SHIELD
+    spriteShape: 1
+    connectorsDisabled: true
+  - type: STR_HYPER_WAVE_DECODER
+    spriteShape: 1
+    connectorsDisabled: true
+####### Testing
+  - type: STR_GENERAL_STORES
+    storageTiles:
+      - [5, 5, 1]
+      - [7, 5, 1]
+      - [2, 1, 1]
+      - [1, 7, 0]
+    connectorsDisabled: true
 
-extraSprites:
-  - type: BASEBITS.PCK
-    files:
-      0: Resources/Facilities/EARTH_BASEBITS.png
-      1: Resources/Facilities/SQUARE_BASEBITS.png
-      2: Resources/Facilities/OCTAGON_BASEBITS.png
-      3: Resources/Facilities/CROSS_BASEBITS.png
-      9: Resources/Facilities/HANGAR_1.png
-      10: Resources/Facilities/HANGAR_2.png
-      11: Resources/Facilities/HANGAR_3.png
-      12: Resources/Facilities/HANGAR_4.png
+  - type: STR_HANGAR
+    size: 2
+    buildCost: 200000
+    buildTime: 12
+    storage: 50
+    monthlyCost: 25000
+    crafts: 2
+    craftSlots:
+      - [-10, 4, 0]
+      - [10, -4, 0]
+    mapName: XBASE_16
+    spriteShape: 9
+    spriteFacility: 9
+    storageTiles:
+      - [18, 17, 0]
+      - [17, 17, 0]
+      - [17, 18, 0]
+      - [18, 18, 0]   
+    connectorsDisabled: true

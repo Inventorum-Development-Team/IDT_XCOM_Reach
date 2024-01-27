@@ -767,6 +767,10 @@ alienDeployments:
     length: 50
     height: 11
 
+  - type: STR_BASE_DEFENSE
+    height: 6
+
+
   #- delete: STR_ALIEN_BASE_ASSAULT
   - type: STR_COVENANT_SPIRE_DEPLOYMENT
     data:
