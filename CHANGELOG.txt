@@ -1,5 +1,6 @@
 26-January-2024: v1.0
 Changes made:
+* Updated to OXCE v7.11
 * Added Terrain Pack terrains, originally made by Hobbes
 * Added MJOLNIR Mark V[B] Armor with shielding, exclusively for SPARTAN-IIIs; sprites by efrenespartano, Hans Woofington and Kretus
 * Added UNSC Surface Base, by b1ackwolf & efrenespartano

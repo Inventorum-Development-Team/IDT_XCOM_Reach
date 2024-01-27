@@ -120,6 +120,17 @@ missionScripts:
     startDelay: 41760 # Technically 29 days
     executionOdds: 100
 
+  - type: Retaliation
+    missionWeights:
+      0:
+        STR_COVENANT_RETALIATION: 100
+    startDelay: 20
+    randomDelay: 43500
+    targetBaseOdds: 100
+    #minScore: 1000
+    firstMonth: 1
+    useTable: false
+
 alienMissions:
   - type: STR_COVENANT_QUICK_SECTOR_INVASION #Covenant sneaks one base early
     points: 100 #Pact score only awarded on month end
@@ -287,6 +298,27 @@ alienMissions:
         trajectory: P2
         timer: 1440
         huntMode: 2
+        escort: true
+
+  - type: STR_COVENANT_RETALIATION
+    points: 0
+    objective: 4
+    spawnUfo: STR_SPIRIT_DROPSHIP # Spawned for the final retaliation run
+    raceWeights:
+      0:
+        STR_SANGHEILI_LANCE: 60
+        STR_STANDARD_LANCE: 40
+    waves:
+      - ufo: STR_SPIRIT_DROPSHIP
+        count: 1
+        trajectory: P2
+        timer: 1440
+        huntMode: 0
+      - ufo: STR_SERAPH_FIGHTER
+        count: 3
+        trajectory: P2
+        timer: 5000
+        huntMode: 1
         escort: true
 
   - type: STR_CAMPAIGN_FINAL_EVACUATION_MISSION
