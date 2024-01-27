@@ -819,7 +819,7 @@ items:
     armor: 12
 
   - type: STR_M41 #SPNKR
-    categories: [STR_WEAPONS, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_ARTILLERY, STR_UNSC_EQUIPMENT]
     size: 0.2
     costBuy: 30000
     costSell: 860
@@ -848,7 +848,7 @@ items:
     twoHanded: true
 
   - type: STR_M41_ROCKETS
-    categories: [STR_WEAPONS, STR_MAGAZINES, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_MAGAZINES, STR_ARTILLERY, STR_UNSC_EQUIPMENT]
     size: 0.1
     costBuy: 2000
     costSell: 240
@@ -858,6 +858,7 @@ items:
     power: 220
     blastRadius: 3
     powerForAnimation: 70
+    hitAnimation: 200
     bulletSprite: 0
     bulletSpeed: 1
     damageAlter:
@@ -884,7 +885,7 @@ items:
     vaporProbabilitySurface: 100
 
   - type: STR_M319 #Grenade launcher
-    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_ARTILLERY, STR_GRENADES, STR_UNSC_EQUIPMENT]
     size: 0.2
     costBuy: 15000
     costSell: 860
@@ -922,7 +923,7 @@ items:
     twoHanded: true
 
   - type: STR_M319_GRENADE
-    categories: [STR_WEAPONS, STR_MAGAZINES, STR_GRENADES, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_MAGAZINES, STR_GRENADES, STR_ARTILLERY, STR_UNSC_EQUIPMENT]
     size: 0.1
     costBuy: 500
     costSell: 240
@@ -932,6 +933,7 @@ items:
     power: 150
     blastRadius: 2
     powerForAnimation: 60
+    hitAnimation: 200
     bulletSprite: 0
     damageAlter:
       IgnoreOverKill: false
@@ -1001,7 +1003,7 @@ items:
     clipSize: 200
 
   - type: STR_M6V       #Spartan Laser
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_GADGETS, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
     costBuy: 1000000     # buy/sell data
     costSell: 100000
     size: 1         # size in gen. stores
@@ -1051,7 +1053,7 @@ items:
     vaporProbabilitySurface: 100
 
   - type: STR_H165_ORBITAL_STRIKE
-    categories: [STR_WEAPONS, STR_UNSC_EQUIPMENT, STR_GADGETS]
+    categories: [STR_WEAPONS, STR_UNSC_EQUIPMENT, STR_GADGETS, STR_ARTILLERY]
     size: 0.1
     costBuy: 1000000
     costSell: 100
@@ -1069,7 +1071,7 @@ items:
     maxRange: 200
     twoHanded: false
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 200
     power: 1250
     damageType: 3
     damageAlter:
@@ -1097,6 +1099,7 @@ items:
     fuseType: -2
     blastRadius: 2
     powerForAnimation: 60
+    hitAnimation: 200
     damageAlter:
       ToTile: 0.9
       ToWound: 1.1
@@ -1632,10 +1635,10 @@ items:
     bigSprite: 840
     floorSprite: 840
     hitSound: 0
-    hitAnimation: 0
     power: 300
     blastRadius: 2
     powerForAnimation: 80
+    hitAnimation: 220
     damageType: 3
     damageAlter:
       IgnoreOverKill: false
@@ -2128,6 +2131,15 @@ extraSprites:
       840: Resources/bulletSprites/Rocket.png #24
       875: Resources/bulletSprites/SpartanLaserBullet.png #25
       910: Resources/bulletSprites/SpikerBullet.png #26
+  - type: X1.PCK
+    height: 73
+    width: 1024
+    subX: 128
+    subY: 64
+    files:
+      200: Resources/hitAnimation/explosion_VP.png
+      210: Resources/hitAnimation/explosion_plasma_anna_wizard.png
+      220: Resources/hitAnimation/explosion_fuel_rod_anna_wizard.png
 
 extended:
   tags:

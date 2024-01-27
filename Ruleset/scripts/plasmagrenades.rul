@@ -7,6 +7,7 @@ items:
     bigSprite: 888
     floorSprite: 888
     handSprite: 888
+    hitAnimation: 210
     power: 1
     damageType: 3
     battleType: 4
@@ -28,6 +29,7 @@ items:
     bigSprite: 1000
     floorSprite: 888
     handSprite: 888
+    hitAnimation: 210
     power: 90
     damageType: 3
     battleType: 4
@@ -47,6 +49,7 @@ items:
     bigSprite: 888
     floorSprite: 888
     handSprite: 888
+    hitAnimation: 210
     power: 90
     damageType: 3
     battleType: 4
