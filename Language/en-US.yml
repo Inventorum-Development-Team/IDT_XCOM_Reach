@@ -129,6 +129,11 @@ en-US:
   STR_MJOLNIR_ARMOR_UC_PURPLE: "MJOLNIR Mark V[B] (Purple)"
   STR_MJOLNIR_ARMOR_UC_UFOPEDIA: "Prototype version of the newest powered armor, planned to be equipped by SPARTAN-II and SPARTAN-III teams. High emphasis on modularity. A newly implemented shielding generator provides another layer of defense."
 
+  STR_MJOLNIR_MKVB_ARMOR: "MJOLRNIR Mark V[B] Armor"
+  STR_MJOLNIR_MKVB_ARMOR_UFOPEDIA: "The MJOLNIR Powered Assault Armor System is one of the most important projects of the UNSC. Used only by the superhuman Spartans, it greatly amplify their enhanced strength, speed and endurance. The outer armor plating is impervious to regular ballistic rifle and can resist a limited amount of plasma fire."
+  STR_ENERGY_SHIELDS: "Energy Shields"
+  STR_ENERGY_SHIELDS_UFOPEDIA: "A staple of the Covenant's superior technological might, the infantry-based energy shielding is able to absorb and deflect incoming damage, either ballistic or plasma-based. The result of a long research and reverse-engineering on Jackal Point Defense Gauntlets, the Shields provided by the Mark V[B] prototype armor are considerably stronger than the ones used by the Elites. Take cover if your Shields get too low."
+
   STR_ARMY_TROOPER: "Army Trooper"
   STR_ARMOR_ARMY_TROOPER: "Army BDU"
   STR_ARMOR_ARMY_TROOPER_UC: "ARMY BDU"
@@ -231,7 +236,7 @@ en-US:
   STR_DAMAGE_ARMOR_PIERCING: "ARMOR PIERCING"
   STR_DAMAGE_INCENDIARY: "INCENDIARY"
   STR_DAMAGE_HIGH_EXPLOSIVE: "HIGH EXPLOSIVE"
-  STR_DAMAGE_LASER_BEAM: "ALIEN BALLISTIC"
+  STR_DAMAGE_LASER_BEAM: "RADIATION"
   STR_DAMAGE_PLASMA_BEAM: "PLASMA ENERGY"
 ######################
   STR_UNARMED_REGULAR_HUMAN: "CQB Knife"

@@ -195,7 +195,7 @@ items:
     battleType: 11
     power: 120
     blastRadius: 2
-    hitAnimation: 210
+    
   - type: GHOST_CORPSE_1
     name: STR_GHOST_CORPSE
     floorSprite: 2014
@@ -236,7 +236,7 @@ items:
     battleType: 11
     power: 120
     blastRadius: 2
-    hitAnimation: 210
+    
   - type: SANGHEILI_GHOST_CORPSE_1
     name: STR_GHOST_CORPSE
     floorSprite: 2018

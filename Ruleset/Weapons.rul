@@ -1697,6 +1697,7 @@ items:
     damageType: 5
     meleeAnimation: 150
     meleePower: 550
+    power: 500
     meleeAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
@@ -1716,6 +1717,7 @@ items:
     handSprite: 952
     floorSprite: 952
     flatRate: true
+    hidePower: true
     battleType: 3
     clipSize: -1
     invWidth: 2
@@ -1730,6 +1732,7 @@ items:
     handSprite: 960
     floorSprite: 960
     flatRate: true
+    hidePower: true
     battleType: 3
     clipSize: -1
     invWidth: 2

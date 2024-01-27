@@ -33,7 +33,7 @@ es-419:
   STR_DEPLOYMENTS_TACTIC_REPORT:  "Tácticas: Despligues de combate"
   STR_DEPLOYMENTS_TACTIC_REPORT_UFOPEDIA: "Tenemos a nuestra disposición un gran número de naves, adecuada para roles distintos. Las Fragatas son útiles para combatir contra naves capitales ligeras y para suavizar los escudos de plasma del enemigo. Los misiles golpean duro, pero no pueden penetrar escudos. Los cañones y ametralladoras suelen saturar los generadores de energía, por lo tanto son efectivos en derribar los escudos."
   STR_COVENANT_SHIPS_TACTIC_REPORT: "Tácticas: Naves capitales Covenant"
-  STR_COVENANT_SHIPS_TACTIC_REPORT_UFOPEDIA: "Las naves principales que componen las flotas enemigas suelen ser Cruceros y Destructores. Los Cruceros de asalto suelen liderar asaltos a planetas importantes y son naves de mucho cuidado. Las Corbetas suelen ser más fáciles de combatir, nuestras Fragatas están a la par. La mejor opción que tenemos para destruir las naves más grandes es esperar a que aterricen sus transportes, eliminar a la tripulación y mandar de vuelta a su nave nodriza, cargada con tantos explosivos sean posible (esta última parte suele ser realizada por otros equipos especializados en explosivos, nuestra misión termina al eliminar a la tripulación)."
+  STR_COVENANT_SHIPS_TACTIC_REPORT_UFOPEDIA: "Las principales naves que componen las flotas enemigas suelen ser Cruceros y Destructores. Los Cruceros de Asalto suelen liderar los asaltos a planetas importantes y son naves muy peligrosas. Las Corbetas suelen ser más fáciles de combatir, nuestras Fragatas están a la par. La mejor opción que tenemos para destruir las naves más grandes es esperar a que aterricen sus transportes, eliminar al personal de tierra alrededor de su ascensor gravitatorio y abordarlo. Una vez dentro, eliminar los módulos de mando o la tripulación."
   STR_COVENANT_DROPSHIPS_TACTIC_REPORT: "Tácticas: Transportes de tropas Covenant"
   STR_COVENANT_DROPSHIPS_TACTIC_REPORT_UFOPEDIA: "Los transportes enemigos generalmente viajan escoltados por cazas armados, aunque no debería suponer un problema para nuestros interceptores."
 ######################
@@ -55,7 +55,7 @@ es-419:
   STR_MAC_UC: "CAÑÓN MAC"
   STR_MAC_LAUNCHER: "Cañón MAC"
   STR_MAC_STRING: "CAÑÓN MAC"
-  STR_MAC_UFOPEDIA: "Mark II, Bobina Ligera - 52A6F9/MAC. Cañón de Aceleración Magnética, emplea rondas de tungsteno férrico a velocidades supersónicas. El arma más poderosa que cuenta una nave de la UNSC, capaz de dañar escudos y penetrar naves por igual. La baja cadencia de tiro de los 'MAC ligeros' es su mayor desventaja."
+  STR_MAC_UFOPEDIA: "Mark II, Bobina Ligera - 52A6F9/MAC. Cañón de Aceleración Magnética, emplea rondas de tungsteno férrico a velocidades supersónicas. El arma más poderosa que cuenta una nave de la UNSC, capaz de dañar escudos y penetrar naves por igual."
   STR_30MM_CANNON_UC: "CAÑÓN DE 30MM"
   STR_30MM_CANNON_LAUNCHER: "Cañón de 30mm"
   STR_30MM_CANNON_STRING: "CAÑON DE 30MM"
@@ -75,7 +75,7 @@ es-419:
   STR_SHIVA_NUKE_UC: "OJIVA TÁCTICA CLASE-SHIVA"
   STR_SHIVA_NUKE_LAUNCHER: "Ojiva Táctica clase-Shiva"
   STR_SHIVA_STRING: "OJIVA TÁCTICA CLASE-SHIVA"
-  STR_SHIVA_NUKE_UC_UFOPEDIA: "Arma termonuclear estándar de la UNSC. Su carga explosiva es ampliamente configurable. Su sistema de guía electrónico lo hace bastante confiable, aunque es sabido que algunas naves Covenant pueden llegar a resistir un impacto directo. Se puede detonar con espoletas de proximidad o códigos radio-transmitidos."
+  STR_SHIVA_NUKE_UC_UFOPEDIA: "Arma termonuclear estándar de la UNSC. Su carga explosiva es ampliamente configurable. Su sistema de guía electrónico lo hace bastante confiable, aunque es sabido que algunas naves Covenant pueden llegar a resistir un impacto directo."
   STR_ARCHER_MISSILE_UC: "MISIL ANTI-BUQUE ARCHER"
   STR_ARCHER_MISSILE_LAUNCHER: "Misil anti-buque Archer"
   STR_ARCHER_MISSILE_STRING: "MISIL ANTI-BUQUE ARCHER"
@@ -88,6 +88,23 @@ es-419:
   STR_ASGM10_MISSILE_LAUNCHER: "Misil ASGM-10"
   STR_ASGM10_MISSILE_STRING: "MISIL ASGM-10"
   STR_ASGM10_MISSILE_UC_UFOPEDIA: "Misil pesado, empleado en combate contra naves capitales por bombarderos. Su poderosa carga explosiva puede partir a un Destructor por la mitad, si impacta al objetivo con los escudos abajo."
+######################
+  STR_MANA: "ESCUDOS"
+  STR_MANA_POOL: "RESERVA DE ESCUDOS"
+  STR_MANA_MISSING: "ESCUDOS FALTANTES"
+  STR_MANA_RECOVERY: "RECUPERACIÓN DE ESCUDOS> {ALT}{0}"
+  STR_NOT_ENOUGH_MANA: "¡Escudos bajos!"
+  STR_MANA_ABBREVIATION: "ESC"
+  STR_MANA_CURRENT: "ESCUDO ACTUAL"
+  STR_MANA_NORMALIZED: "ESCUDO NORMALIZADO"
+  STR_COST_MANA: "Escudos"
+  manaExperience: "Experiencia de Escudos"
+  manaRequired: "¿Escudos requeridos?"
+  ToMana: "Multiplicador daño a Escudos"
+  RandomMana: "¿Daño aleatorio a Escudos?"
+  mana: "Escudos"
+  manaRecoveryPerDay: "Escudos por día"
+
 ######################
   STR_UNSC_ARMORS: "ARMADURAS UNSC"
   STR_SPARTAN_III: "SPARTAN-III"
@@ -113,6 +130,11 @@ es-419:
 
   STR_MJOLNIR_ARMOR_UC_UFOPEDIA: "Versión prototipo de la más reciente armadura potenciada, planeada para ser equipada por los equipos SPARTAN-II y SPARTAN-III. Gran énfasis en la modularidad. Un generador de blindaje recién implementado proporciona otra capa de defensa.."
 
+  STR_MJOLNIR_MKVB_ARMOR: "Armadura MJOLRNIR Mark V[B]"
+  STR_MJOLNIR_MKVB_ARMOR_UFOPEDIA: "La Armadura Potenciada de Asalto MJOLNIR es uno de los proyectos más importantes del UNSC. Utilizado únicamente por los Spartans superhumanos, amplifica enormemente su fuerza, velocidad y resistencia mejoradas. El revestimiento exterior de la armadura es impermeable a los rifles balísticos normales y puede resistir una cantidad limitada de fuego de plasma."
+  STR_ENERGY_SHIELDS: "Escudos de energía"
+  STR_ENERGY_SHIELDS_UFOPEDIA: "Un distintivo del poderío tecnológico superior del Covenant, el escudo de energía destinado a la infantería es capaz de absorber y desviar el daño entrante, ya sea balístico o basado en plasma. Fruto de una larga investigación y de ingeniería inversa sobre los Guanteletes Jackal, los Escudos proporcionados por el prototipo de armadura Mark V[B] son considerablemente más fuertes que los utilizados por los Élites. Cúbrete si tus Escudos bajan demasiado."
+  
   STR_ARMY_TROOPER: "Soldado de infantería"
   STR_ARMOR_ARMY_TROOPER: "Uniforme de Combate de Infantería"
   STR_ARMOR_ARMY_TROOPER_UC: "UNIFORME DE COMBATE DE INFANTERÍA"
@@ -134,11 +156,11 @@ es-419:
   STR_ARMOR_ODST: "Armadura de batalla SCDO"
   STR_ARMOR_ODST_UFOPEDIA: "Uniforme de Combate con placas de un compuesto titanio-cerámico con capacidad de actividad extravehicular, más resistente al plasma y las balas, equipado con tecnología VISR."
 
-  STR_CHAINGUN_WARTHOG_ARMOR: "M12 Chaingun Warthog LRV"
+  STR_CHAINGUN_WARTHOG_ARMOR: "M12 Warthog LRV Ametralladora"
   STR_CHAINGUN_WARTHOG_ARMOR_UFOPEDIA: "El Vehículo Ligero de Reconocimiento M12 es una plataforma motorizada rápida y ágil, muy utilizada desde la Insurrección. Difícil de conducir para el personal novato, es muy apreciado por su maniobrabilidad. Equipado con una torreta M41 Vulcan" 
   STR_M41_VULCAN_CHAINGUN: "Torreta M41 Vulcan"
   STR_M41_VULCAN_CHAINGUN_UFOPEDIA: "El Cañón Antiaéreo Ligero M41 es una ametralladora pesada de cadena, de tres cañones totalmente automática montada en el Warthog. Equipado con el potente proyectil de 12,7x99 mm, su precisión disminuye considerablemente en fuego sostenido."
-  STR_CHAINGUN_WARTHOG_ITEM: "M12 Chaingun Warthog LRV"
+  STR_CHAINGUN_WARTHOG_ITEM: "M12 Warthog LRV Ametralladora"
 
 ######################
   STR_WARRANT_OFFICER: "Subteniente"
@@ -208,6 +230,10 @@ es-419:
   STR_DOUBLE_TAP: "Disparo doble"
   STR_SHORT_BURST: "Ráfaga corta"
 ######################
+  STR_DAMAGE_LASER_BEAM: "BALÍSTICO ALIEN"
+  STR_DAMAGE_PLASMA_BEAM: "ENERGÍA PLASMA"
+
+######################
   STR_UNARMED_REGULAR_HUMAN: "Cuchillo"
   STR_KNIFE: "Usar cuchillo"
   STR_UNARMED_REGULAR_HUMAN_UFOPEDIA: "El Cuchillo de combate es un arma estándar de último recurso para todos los soldados y oficiales de la UNSC. Data sus orígenes desde la prehistoria y mantiene su utilidad en el Siglo XXVI. Su hoja está hecha de una aleación de titanio que nunca pierde el filo. El daño de los cortes se multiplica por 1.5 con la estadística de Fuerza y por 2.0 por la estadística de Melee, por lo que un soldado fuerte y habilidoso hará mejor uso del arma."
@@ -222,6 +248,7 @@ es-419:
   STR_M6C_SOCOM_UFOPEDIA: "Variante con supresor integrado, freno de boca y una mira telescópica SMARTLINK 4x. Tipicamente equipadas a unidades UNSC como las SCDO."
   STR_M6C_MAG: "Cargador M6C .50 SAP-HP"
   STR_M6G: "Magnum M6G"
+  STR_M6G_UFOPEDIA: "Modelo 2546, esta variante de la M6 es usada por el Ejército del UNSC. Equipada con una mira 2x y puntero láser. Dispara balas de alto calibre Alto Explosivo, Semi-Perforantes (HE-SAP)."
   STR_M6G_MAG: "Cargador 12.7mm de Magnum M6G"
   STR_M6V: "Láser Spartan M6/V"
   STR_M6V_UFOPEDIA: "El Arma/Anti-Vehículo Modelo 6/V Rifle No Lineal Grindell/Galileano es un arma exorbitantemente cara que tiene casi garantizado acabar con cualquier cosa que alcance con un láser de estado sólido."
@@ -431,7 +458,7 @@ es-419:
   STR_FARKAL_LAKE_LABEL: "LAGO FARKAL"
   STR_HIGHLAND_MOUNTAINS_LABEL: "MONTAÑAS HIGHLAND"
   STR_ARANY_BASIN_LABEL: "CUENCA ARANY"
-  STR_BABD_CATHA_ICE_SHELF_LABEL: "PLATAFORMA DE HIELO BABD CATHA"
+  STR_BABD_CATHA_ICE_SHELF_LABEL: "GLACIAR BABD CATHA"
   STR_SZURDOK_RIDGE_LABEL: "COLINA DE SZURDOK"
   STR_FENYOT_BASIN_LABEL: "CUENCA FENYOT"
   STR_BIG_HORN_RIVER_LABEL: "RÍO BIG HORN"
@@ -841,8 +868,6 @@ es-419:
   STR_DAMAGE_ARMOR_PIERCING: "PERFORANTE"
   STR_DAMAGE_INCENDIARY: "INCENDIARIO"
   STR_DAMAGE_HIGH_EXPLOSIVE: "EXPLOSIVO"
-  STR_DAMAGE_LASER_BEAM: "RAYO LÁSER"
-  STR_DAMAGE_PLASMA_BEAM: "RAYO PLASMA"
   STR_DAMAGE_STUN: "ATURDIR"
   STR_DAMAGE_MELEE: "CUERPO A CUERPO"
   STR_DAMAGE_ACID: "ÁCIDO"
@@ -854,7 +879,7 @@ es-419:
   STR_AMMO: "MUNICIÓN"
   STR_SHOT_TYPE_AUTO: "Automático"
   STR_SHOT_TYPE_SNAP: "Simple"
-  STR_SHOT_TYPE_AIMED: "Precisión"
+  STR_SHOT_TYPE_AIMED: "Apuntando"
   STR_CONSTRUCTION_TIME: "Tiempo de construcción"
   STR_CONSTRUCTION_COST: "Costo de construcción"
   STR_MAINTENANCE_COST: "Costo de mantenimiento"
