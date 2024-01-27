@@ -1,4 +1,11 @@
 extraSprites:
+  - type: CURSOR.PCK
+    width: 554
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/UI/CURSOR.png
   - type: WpnActive
     width: 36
     height: 52

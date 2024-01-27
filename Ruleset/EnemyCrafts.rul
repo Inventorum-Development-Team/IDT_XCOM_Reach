@@ -197,3 +197,28 @@ ufos:
         - name: CBASE_GRAVLIFT
           width: 20
           length: 20
+
+  - type: STR_COVENANT_SPIRE
+    modSprite: Spirit_Interwin
+    size: STR_SMALL
+    damageMax: 300
+    speedMax: 450
+    power: 100
+    range: 40
+    score: 1000
+    reload: 30
+    breakOffTime: 80
+    battlescapeTerrainData:
+      name: COVENANT_SPIRE
+      mapDataSets:
+        - BLANKS
+        - COVENANT_XOPS_EXT_BLUE
+        - COVENANT_XOPS_FLOORS_BLUE
+        - COVENANT_XOPS_ITEMS1_BLUE
+        - COVENANT_XOPS_ITEMS2_BLUE
+        - COVENANT_XOPS_WALLS_BLUE
+        - GRAVLIFT_LIGHT_BEAM
+      mapBlocks:
+        - name: COVENANT_SPIRE01
+          width: 20
+          length: 20

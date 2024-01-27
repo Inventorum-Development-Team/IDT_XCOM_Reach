@@ -19,6 +19,7 @@ alienDeployments:
   - delete: STR_MEDIUM_SCOUT
   - delete: STR_LARGE_SCOUT
 
+
 missionScripts:
   - delete: gameStart
   - delete: recon
@@ -173,6 +174,12 @@ research:
   - delete: STR_PLASMA_PISTOL
   - delete: STR_ALIEN_GRENADE
 
+  - name: STR_ALIENS_ONLY
+    cost: 999
+    points: 1
+    dependencies:
+      - STR_ALIENS_ONLY
+
 manufacture:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING
@@ -324,6 +331,57 @@ items:
   - delete: STR_PLASMA_PISTOL
   - delete: STR_ALIEN_GRENADE
 
+  - type: STR_STINGRAY_LAUNCHER
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.8
+    costBuy: 0
+    costSell: 12000
+    transferTime: 48
+  - type: STR_STINGRAY_MISSILES
+    size: 0.4
+    requires:
+      - STR_ALIENS_ONLY
+    costBuy: 0
+    costSell: 2400
+    transferTime: 48
+    clipSize: 1
+  - type: STR_AVALANCHE_LAUNCHER
+    size: 1
+    requires:
+      - STR_ALIENS_ONLY
+    costBuy: 0
+    costSell: 12750
+    transferTime: 48
+  - type: STR_AVALANCHE_MISSILES
+    size: 1.5
+    requires:
+      - STR_ALIENS_ONLY
+    costBuy: 0
+    costSell: 7200
+    transferTime: 48
+    clipSize: 1
+  - type: STR_CANNON
+    size: 1.5
+    requires:
+      - STR_ALIENS_ONLY
+    costBuy: 0
+    costSell: 22500
+    transferTime: 48
+  - type: STR_CANNON_ROUNDS_X50
+    size: 0.1
+    requires:
+      - STR_ALIENS_ONLY
+    costBuy: 0
+    costSell: 1012
+    transferTime: 96
+    clipSize: 50
+  - type: STR_HWP_CANNON_SHELLS
+    size: 0.1
+    costBuy: 0
+    requires:
+      - STR_ALIENS_ONLY
+
 ufopaedia:
   - delete: STR_SKYRANGER
   - delete: STR_TANK_CANNON
@@ -374,9 +432,6 @@ ufopaedia:
   - delete: STR_LIGHTNING
   - delete: STR_INTERCEPTOR
   - delete: STR_FIRESTORM
-  - delete: STR_STINGRAY
-  - delete: STR_AVALANCHE
-  - delete: STR_CANNON_UC
   - delete: STR_FUSION_BALL_UC
   - delete: STR_LASER_CANNON_UC
   - delete: STR_PLASMA_BEAM_UC
@@ -448,7 +503,46 @@ ufopaedia:
   - delete: STR_EXAMINATION_ROOM
   - delete: STR_ALIEN_ALLOYS
 
+  - id: STR_STINGRAY
+    requires:
+      - STR_ALIENS_ONLY
+    type_id: 2
+    section: STR_CRAFT_WEAPONS
+    image_id: UP006.SPK
+    text: STR_STINGRAY_UFOPEDIA
+  - id: STR_AVALANCHE
+    type_id: 2
+    requires:
+      - STR_ALIENS_ONLY
+    section: STR_CRAFT_WEAPONS
+    image_id: UP007.SPK
+    text: STR_AVALANCHE_UFOPEDIA
+  - id: STR_CANNON_UC
+    type_id: 2
+    requires:
+      - STR_ALIENS_ONLY
+    section: STR_CRAFT_WEAPONS
+    image_id: UP008.SPK
+    text: STR_CANNON_UFOPEDIA
+
 invs:
+
+  - id: STR_GRENADE_SLOTS
+    x: 244
+    y: 72
+    slots:
+      - [0, 0]
+    costs:
+      STR_BELT: 999
+      STR_GROUND: 999
+      STR_LEFT_HAND: 999
+      STR_LEFT_LEG: 999
+      STR_LEFT_SHOULDER: 999
+      STR_RIGHT_HAND: 999
+      STR_RIGHT_LEG: 999
+      STR_RIGHT_SHOULDER: 999
+      STR_ARMOR_ABILITY_SLOT: 999
+
   - id: STR_ARMOR_ABILITY_SLOT
     x: 246
     y: 104 
@@ -466,6 +560,7 @@ invs:
       STR_RIGHT_HAND: 8
       STR_RIGHT_LEG: 16
       STR_RIGHT_SHOULDER: 14
+      STR_GRENADE_SLOTS: 0
 
   - id: STR_BELT
     x: 172
@@ -479,6 +574,7 @@ invs:
       STR_RIGHT_HAND: 4
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 12
+      STR_GRENADE_SLOTS: 0
 
   - id: STR_BACK_PACK
     x: 172 
@@ -492,6 +588,7 @@ invs:
       STR_RIGHT_HAND: 8
       STR_RIGHT_LEG: 16
       STR_RIGHT_SHOULDER: 14
+      STR_GRENADE_SLOTS: 0
 
   - id: STR_GROUND
     costs:
@@ -504,6 +601,7 @@ invs:
       STR_RIGHT_HAND: 8
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 12
+      STR_GRENADE_SLOTS: 0
   - id: STR_RIGHT_HAND
     costs:
       STR_ARMOR_ABILITY_SLOT: 14
@@ -515,6 +613,7 @@ invs:
       STR_LEFT_SHOULDER: 10
       STR_RIGHT_LEG: 8
       STR_RIGHT_SHOULDER: 10
+      STR_GRENADE_SLOTS: 0
   - id: STR_LEFT_HAND
     costs:
       STR_ARMOR_ABILITY_SLOT: 14
@@ -526,6 +625,7 @@ invs:
       STR_RIGHT_HAND: 4
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 10
+      STR_GRENADE_SLOTS: 0
   - id: STR_RIGHT_LEG
     costs:
       STR_ARMOR_ABILITY_SLOT: 18
@@ -537,6 +637,7 @@ invs:
       STR_LEFT_SHOULDER: 10
       STR_RIGHT_HAND: 4
       STR_RIGHT_SHOULDER: 10
+      STR_GRENADE_SLOTS: 0
   - id: STR_LEFT_LEG
     costs:
       STR_ARMOR_ABILITY_SLOT: 18
@@ -548,6 +649,7 @@ invs:
       STR_RIGHT_HAND: 6
       STR_RIGHT_LEG: 10
       STR_RIGHT_SHOULDER: 10
+      STR_GRENADE_SLOTS: 0
   - id: STR_RIGHT_SHOULDER
     costs:
       STR_ARMOR_ABILITY_SLOT: 16
@@ -559,6 +661,7 @@ invs:
       STR_LEFT_SHOULDER: 8
       STR_RIGHT_HAND: 3
       STR_RIGHT_LEG: 12
+      STR_GRENADE_SLOTS: 0
   - id: STR_LEFT_SHOULDER
     costs:
       STR_ARMOR_ABILITY_SLOT: 16
@@ -570,6 +673,7 @@ invs:
       STR_RIGHT_HAND: 3
       STR_RIGHT_LEG: 12
       STR_RIGHT_SHOULDER: 8
+      STR_GRENADE_SLOTS: 0
 
 extraSprites:
   - type: GEOBORD.SCR #Space
@@ -859,14 +963,12 @@ extraSprites:
     height: 48
     files:
       99: Resources/specialWeapons/BigKnife.png
-      100: Resources/ArmorAbilities/PlaceHolder.png
-      101: Resources/ArmorAbilities/BigActiveCamo.png
 
   - type: SPICONS.DAT
     width: 32
     height: 24
     files:
       2: Resources/specialWeapons/spicon_knife.png
-      10: Resources/specialWeapons/spicon_placeholder.png
+      #10: Resources/specialWeapons/spicon_placeholder.png
 
   

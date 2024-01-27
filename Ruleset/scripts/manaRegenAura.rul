@@ -1,0 +1,105 @@
+extended:
+  tags:
+    RuleArmor:
+      RegenAura: int
+    BattleGame:
+      GlobalAura: int
+
+  scripts:
+    createUnit:
+      - offset: 1
+        code: |
+          var int regenaura;
+          var int globalaura;
+          unit.getTag regenaura Tag.RegenAura;
+          if eq regenaura 1;
+            battle_game.getTag globalaura Tag.GlobalAura;
+            add globalaura 1;
+            battle_game.setTag Tag.GlobalAura globalaura;
+          end;
+          return;
+
+
+    newTurnUnit:
+      - offset: 1
+        code: |
+          var int regenaura;
+          var int globalaura;
+          var int targetaura;
+          var int faction;
+          var int targetfaction;
+          var int regen;
+          var int radious;
+          var int heightradious;
+          var int unitx;
+          var int unity;
+          var int unitz;
+          var int cordx;
+          var int cordy;
+          var int cordz;
+
+          var ptr BattleUnit target;
+          var ptr Tile tile;
+
+          unit.getTag regenaura Tag.RegenAura;
+          battle_game.getTag globalaura Tag.GlobalAura;
+
+          if and eq globalaura 1 neq regenaura 1;
+            set regen 50; #adjust value for amount of mana regenerated;
+            set radious 5; #adjust for radius of ability
+            set heightradious 1;
+            unit.getFaction faction;
+
+            unit.getPosition.getX unitx;
+            unit.getPosition.getY unity;
+            unit.getPosition.getZ unitz;
+            sub unitx radious;
+            sub unity radious;
+            sub unitz heightradious;
+            set cordx unitx;
+            set cordy unity;
+            set cordz unitz;
+            mul radious 2;
+            mul heightradious 2;
+
+            loop var loop_z heightradious; 
+              loop var loop_y radious;
+                loop var loop_x radious;
+                  battle_game.getTile tile cordx cordy cordz;
+                  tile.getUnit target;
+                  target.getTag targetaura Tag.RegenAura;
+                  if eq targetaura 1;
+                    target.getFaction targetfaction;
+                    if eq targetfaction faction;
+                      unit.addMana regen;
+                    end;
+                  end;
+                  add cordx 1;
+                end;
+                set cordx unitx;
+                add cordy 1;
+              end;
+              set cordx unitx;
+              set cordy unity;
+              add cordz 1;
+            end;
+          end;
+          return;
+
+    damageUnit:
+      - offset: 1
+        code: |
+          var int regenaura;
+          var int globalaura;
+          var int health;
+
+          unit.getTag regenaura Tag.RegenAura;
+          if eq regenaura 1;
+            if le health to_health;
+              battle_game.getTag globalaura Tag.GlobalAura;
+              sub globalaura 1;
+              battle_game.setTag Tag.GlobalAura globalaura;
+            end;
+          end;
+
+          return;

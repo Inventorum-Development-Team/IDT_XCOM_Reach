@@ -1,0 +1,157 @@
+
+extended:
+
+  tags:
+    BattleGame:
+      ManaDamage: int
+    BattleUnit:
+      HitFrame: int
+      BreakHit: int
+
+  scripts:
+
+#Shield script notes
+#Uses Mana as shield strenght
+#Requires
+#  damageAlter:
+#    ToMana: 
+#on all weapons for them to deal damage
+#This script currently will break any weapon designed to deal negative damage (i.e to heal or buff units)
+#Shield-breaking hit might currently deal less wounds than if the shield-piercing amount of damage would hit a unshielded unit
+
+    hitUnit:
+      - offset: 10
+        code: | #Revised shield script
+          var int mana;
+          var int frame;
+          var int origPower;
+          var int toMana;
+          var ptr RuleItem damagingRuleItem;
+          var ptr RuleDamageType damagingRuleDamage;
+
+          unit.getMana mana;
+          if gt mana 0;
+            BattleGame.getAnimFrame battle_game frame; #Shield hit flash
+            unit.setTag Tag.HitFrame frame;
+            unit.setTag Tag.BreakHit 0;
+
+            set origPower power;
+            sub power mana;
+            if lt power 0;
+              set power 0;
+            end;
+
+            damaging_item.getRuleItem damagingRuleItem;
+            damagingRuleItem.getDamageType damagingRuleDamage;
+            damagingRuleDamage.getDamageToMana toMana 100;
+            muldiv origPower toMana 100;
+            #debug_log origPower;
+            sub mana origPower;
+            if le mana 0;
+              set mana 0;
+              unit.setTag Tag.BreakHit 1;
+            end;
+
+            unit.setMana mana;
+          end;
+          return power part side;
+
+
+
+
+    # damageUnit: 
+    #   - offset: 1
+    #     code: | #Shield hit flash, Based on Yankes hit flash script
+    #       var int frame;
+    #       var int mana;
+    #       unit.Stats.getManaPool mana;
+    #       if gt mana 0;
+    #         BattleGame.getAnimFrame battle_game frame;
+    #         unit.setTag Tag.HitFrame frame;
+    #       end;
+    #       return;
+
+    #   - offset: 2
+    #     code: | #Main shield script #NEEDS REWORK
+    #       var int mana;
+    #       unit.Stats.getManaPool mana;
+    #       if le orig_power mana;
+    #         set to_armor 0;
+    #         set to_energy 0;
+    #         set to_health 0;
+    #         set to_morale 0;
+    #         set to_stun 0;
+    #         set to_time 0;
+    #         set to_wound 0;
+    #       else gt orig_power mana;
+    #         sub to_armor mana;
+    #         sub to_energy mana;
+    #         sub to_health mana;
+    #         sub to_morale mana;
+    #         sub to_stun mana;
+    #         sub to_time mana;
+    #         sub to_wound mana;
+
+    #         if lt to_armor 0;
+    #           set to_armor 0;
+    #         end;
+    #         if lt to_energy 0;
+    #           set to_energy 0;
+    #         end;
+    #         if lt to_health 0;
+    #           set to_health 0;
+    #         end;
+    #         if lt to_morale 0;
+    #           set to_morale 0;
+    #         end;
+    #         if lt to_stun 0;
+    #           set to_stun 0;
+    #         end;
+    #         if lt to_time 0;
+    #           set to_time 0;
+    #         end;
+    #         if lt to_wound 0;
+    #           set to_wound 0;
+    #         end;
+    #       end;
+    #       return;
+        
+
+    recolorUnitSprite:
+      - offset: 4
+        code: | #Shield hit flash
+          var int frame;
+          var int breakhit;
+          var int newshade;
+          var int faction;
+
+          unit.getTag frame Tag.HitFrame;
+          if neq frame 0;
+            sub frame anim_frame;
+            if gt frame -2;
+              get_shade newshade new_pixel;
+              add newshade frame;
+              set_shade new_pixel newshade;
+              unit.getTag breakhit Tag.BreakHit;
+              if lt newshade 0;
+                set newshade 0;
+              end;
+              unit.getFaction faction;
+              if eq breakhit 1;
+                set_color new_pixel COLOR_X1_BROWN1;
+                if eq faction FACTION_PLAYER;
+                  set_color new_pixel COLOR_X1_SILVER;
+                end;
+              else neq breakhit 1;
+                set_color new_pixel COLOR_X1_SILVER;
+                if eq faction FACTION_PLAYER;
+                  set_color new_pixel COLOR_X1_BROWN1;
+                end;
+              end;
+            end;
+          end;
+          return new_pixel; 
+
+
+      
+

@@ -1,7 +1,7 @@
 soldiers:
   - delete: STR_SOLDIER
   - type: STR_SPARTAN_III
-    costBuy: 1000000
+    costBuy: 4000000
     transferTime: 24
     minStats:
       tu: 100
@@ -43,6 +43,14 @@ soldiers:
       melee: 100
       mana: 0
     armor: STR_SPI_ARMOR_UC
+    rankSprite: 800         # default 42 # basebits.pck
+    rankBattleSprite: 800   # default 20 # smoke.pck
+    rankStrings:
+    - STR_WARRANT_OFFICER
+    - STR_WARRANT_OFFICER_I
+    - STR_WARRANT_OFFICER_II
+    - STR_WARRANT_OFFICER_III
+    - STR_CAPTAIN_II
     standHeight: 22
     kneelHeight: 14
     value: 300
@@ -51,7 +59,7 @@ soldiers:
       - NamesSpartan/
 
   - type: STR_ODST
-    costBuy: 200000
+    costBuy: 175000
     costSalary: 100000
     transferTime: 24
     minStats:
@@ -94,6 +102,15 @@ soldiers:
       melee: 100
       mana: 0
     armor: STR_ARMOR_ODST_UC
+    rankSprite: 805       # default 42 # basebits.pck
+    rankBattleSprite: 805   # default 20 # smoke.pck
+    rankStrings:
+    - STR_MARINE_PRIVATE
+    - STR_MARINE_CORPORAL
+    - STR_MARINE_SERGEANT
+    - STR_MARINE_LIEUTENANT
+    - STR_MARINE_CAPTAIN
+    - STR_MARINE_MAJOR
     standHeight: 22
     kneelHeight: 14
     value: 200
@@ -102,7 +119,7 @@ soldiers:
       - NamesODST/
 
   - type: STR_ARMY_TROOPER
-    costBuy: 40000
+    costBuy: 20000
     costSalary: 20000
     minStats:
       tu: 55
@@ -144,9 +161,18 @@ soldiers:
       melee: 90
       mana: 0
     armor: STR_ARMOR_ARMY_STANDARD_BDU_UC
+    rankSprite: 811       # default 42 # basebits.pck
+    rankBattleSprite: 811   # default 20 # smoke.pck
+    rankStrings:
+    - STR_ARMY_PRIVATE
+    - STR_ARMY_CORPORAL
+    - STR_ARMY_SERGEANT
+    - STR_ARMY_WARRANT_OFFICER
+    - STR_ARMY_CAPTAIN
+    - STR_ARMY_MAJOR
     standHeight: 22
     kneelHeight: 14
-    value: 50
+    value: 10
     femaleFrequency: 50
     soldierNames:
       - NamesArmy/
@@ -155,7 +181,7 @@ soldiers:
     allowPiloting: false
 
   - type: STR_MARINE
-    costBuy: 40000
+    costBuy: 30000
     costSalary: 20000
     minStats:
       tu: 50
@@ -197,9 +223,18 @@ soldiers:
       melee: 90
       mana: 0
     armor: STR_ARMOR_MARINE_STANDARD_BDU_UC
+    rankSprite: 805       # default 42 # basebits.pck
+    rankBattleSprite: 805   # default 20 # smoke.pck
+    rankStrings:
+    - STR_MARINE_PRIVATE
+    - STR_MARINE_CORPORAL
+    - STR_MARINE_SERGEANT
+    - STR_MARINE_LIEUTENANT
+    - STR_MARINE_CAPTAIN
+    - STR_MARINE_MAJOR
     standHeight: 22
     kneelHeight: 14
-    value: 50
+    value: 15
     femaleFrequency: 50
     soldierNames:
       - NamesMarine/
@@ -341,6 +376,572 @@ armors:
     units:
       - STR_SPARTAN_III
 
+  - type: STR_MJOLNIR_ARMOR_UC
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "SECURITY_HELMET", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "SECURITY_HELMET", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SECURITY_HELMET", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "SECURITY_HELMET", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "MARK_V_SHADOW_HELMET", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_V_SHADOW_HELMET", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_GRAY
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_GRAY.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "EVA_HELMET_GRAY", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "EVA_HELMET_GRAY", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_GRAY", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GRAY", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_GRAY", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_GRAY
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_RED
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_RED.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_RED", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "CQB_HELMET_RED", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_RED", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "CQB_HELMET_RED", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_RED", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "CQB_HELMET_RED", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_RED", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "CQB_HELMET_RED", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_RED", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_RED", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_RED", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "MARK_VB_HELMET_RED", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_RED", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_RED", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_RED", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_RED", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_RED
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_BLUE
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_BLUE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_BLUE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "ODST_HELMET_BLUE", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_BLUE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "ODST_HELMET_BLUE", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_BLUE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "ODST_HELMET_BLUE", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_BLUE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "ODST_HELMET_BLUE", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_BLUE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "COMMANDO_HELMET_BLUE", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_BLUE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "COMMANDO_HELMET_BLUE", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_BLUE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "COMMANDO_HELMET_BLUE", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_BLUE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "COMMANDO_HELMET_BLUE", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_BLUE
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_LIGHT_BLUE
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_LIGHT_BLUE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "RECON_HELMET_LIGHT_BLUE", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_LIGHT_BLUE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "RECON_HELMET_LIGHT_BLUE", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_LIGHT_BLUE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "RECON_HELMET_LIGHT_BLUE", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_LIGHT_BLUE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "RECON_HELMET_LIGHT_BLUE", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_LIGHT_BLUE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SCOUT_HELMET_LIGHT_BLUE", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_LIGHT_BLUE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "SCOUT_HELMET_LIGHT_BLUE", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_LIGHT_BLUE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SCOUT_HELMET_LIGHT_BLUE", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_LIGHT_BLUE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "SCOUT_HELMET_LIGHT_BLUE", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_LIGHT_BLUE
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_GREEN
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_GREEN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_GREEN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "MARK_V_SHADOW_HELMET_GREEN", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_GREEN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET_GREEN", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_GREEN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET_GREEN", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_GREEN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET_GREEN", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_GREEN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "GRENADIER_HELMET_GREEN", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_GREEN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "GRENADIER_HELMET_GREEN", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_GREEN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "GRENADIER_HELMET_GREEN", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_GREEN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "GRENADIER_HELMET_GREEN", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_GREEN
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_CYAN
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_CYAN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_CYAN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "AIR_ASSAULT_HELMET_CYAN", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_CYAN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "AIR_ASSAULT_HELMET_CYAN", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_CYAN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "AIR_ASSAULT_HELMET_CYAN", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_CYAN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "AIR_ASSAULT_HELMET_CYAN", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_CYAN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "HAZOP_HELMET_CYAN", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_CYAN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "HAZOP_HELMET_CYAN", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_CYAN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "HAZOP_HELMET_CYAN", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_CYAN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "HAZOP_HELMET_CYAN", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_CYAN
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_BROWN
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_BROWN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_BROWN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "MARK_VB_HELMET_BROWN", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_BROWN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "MARK_VB_HELMET_BROWN", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_BROWN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_VB_HELMET_BROWN", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_BROWN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "MARK_VB_HELMET_BROWN", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_BROWN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "GRENADIER_HELMET_BROWN", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_BROWN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "GRENADIER_HELMET_BROWN", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_BROWN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "GRENADIER_HELMET_BROWN", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_BROWN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "GRENADIER_HELMET_BROWN", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_BROWN
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_TAN
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_TAN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_TAN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "COMMANDO_HELMET_TAN", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_TAN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "COMMANDO_HELMET_TAN", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_TAN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "COMMANDO_HELMET_TAN", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_TAN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "COMMANDO_HELMET_TAN", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_TAN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "RECON_HELMET_TAN", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_TAN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "RECON_HELMET_TAN", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_TAN", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "RECON_HELMET_TAN", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_TAN", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "RECON_HELMET_TAN", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_TAN
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_ORANGE
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_ORANGE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_ORANGE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "GRENADIER_HELMET_ORANGE", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_ORANGE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "GRENADIER_HELMET_ORANGE", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_ORANGE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "GRENADIER_HELMET_ORANGE", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_ORANGE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "GRENADIER_HELMET_ORANGE", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_ORANGE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "HAZOP_HELMET_ORANGE", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_ORANGE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "HAZOP_HELMET_ORANGE", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_ORANGE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "HAZOP_HELMET_ORANGE", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_ORANGE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "HAZOP_HELMET_ORANGE", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_ORANGE
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_PINK
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_PINK.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_PINK", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "MARK_V_SHADOW_HELMET_PINK", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_PINK", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET_PINK", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_PINK", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET_PINK", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_PINK", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "MARK_V_SHADOW_HELMET_PINK", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_PINK", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "AIR_ASSAULT_HELMET_PINK", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_PINK", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "AIR_ASSAULT_HELMET_PINK", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_PINK", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "AIR_ASSAULT_HELMET_PINK", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_PINK", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "AIR_ASSAULT_HELMET_PINK", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_PINK
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+  - type: STR_MJOLNIR_ARMOR_UC_PURPLE
+    spriteSheet: MJOLNIR_ARMOR_SPRITESHEET_PURPLE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "", "CQB_HELMET_PURPLE", "", ""]
+      F1: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_GUNGNIR_PAULDRONS_GRAY", "CQB_HELMET_PURPLE", "", ""]
+      F2: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "CQB_HELMET_PURPLE", "", ""]
+      F3: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_PARA_PAULDRONS_GRAY", "CQB_HELMET_PURPLE", "", ""]
+      M0: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SCOUT_HELMET_PURPLE", "", ""]
+      M1: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_COMMANDO_PAULDRONS_GRAY", "SCOUT_HELMET_PURPLE", "", ""]
+      M2: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_PARA_KNEEGUARD_GRAY", "", "SCOUT_HELMET_PURPLE", "", ""]
+      M3: ["", "", "", "MJOLNIR_FULL_ARMOR_PURPLE", "MJOLNIR_DEFAULT_KNEEGUARD_GRAY", "MJOLNIR_ODST_PAULDRONS_GRAY", "SCOUT_HELMET_PURPLE", "", ""]
+    corpseBattle:
+      - STR_CORPSE_MJOLNIR_ARMOR_PURPLE
+    storeItem: STR_MJOLNIR_ARMOR_UC
+    frontArmor: 55
+    sideArmor: 40
+    rearArmor: 20
+    underArmor: 10
+    movementType: 0
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 0 
+    recovery:
+      mana:
+        flatOne: 50
+    stats:
+        mana: 500
+        tu: 15
+        reactions: 10
+        firing: 12
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+    units:
+      - STR_SPARTAN_III
+
+#############
+
   - type: STR_ARMOR_ODST_UC
     spriteSheet: ODST_BDU_SPRITESHEET.PCK
     layersDefaultPrefix: HUMAN
@@ -355,7 +956,7 @@ armors:
       M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR", "", "", "", "", ""]
     corpseBattle:
       - STR_CORPSE_ODST_BDU
-    storeItem: STR_ARMOR_ODST
+    storeItem: STR_NONE
     frontArmor: 30
     sideArmor: 25
     rearArmor: 20
@@ -383,6 +984,180 @@ armors:
     units:
       - STR_ODST
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_ODST_UC_RED
+    spriteSheet: ODST_BDU_SPRITESHEET_RED.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_RED", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU_RED
+    storeItem: STR_NONE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    units:
+      - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_ODST_UC_BLUE
+    spriteSheet: ODST_BDU_SPRITESHEET_BLUE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_BLUE", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU_BLUE
+    storeItem: STR_NONE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    units:
+      - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_ODST_UC_GREEN
+    spriteSheet: ODST_BDU_SPRITESHEET_GREEN.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_GREEN", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU_GREEN
+    storeItem: STR_NONE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    units:
+      - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_ODST_UC_ORANGE
+    spriteSheet: ODST_BDU_SPRITESHEET_ORANGE.PCK
+    layersDefaultPrefix: HUMAN
+    layersDefinition:
+      F0: ["F0_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      M0: ["M0_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "", "ODST_FULL_ARMOR_ORANGE", "", "", "", "", ""]
+    corpseBattle:
+      - STR_CORPSE_ODST_BDU_ORANGE
+    storeItem: STR_NONE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    units:
+      - STR_ODST
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+########################################
 
   - type: STR_ARMOR_ARMY_STANDARD_BDU_UC
     spriteSheet: ARMY_TROOPER_STANDARD_BDU_SPRITESHEET.PCK
@@ -721,6 +1496,71 @@ armors:
       - STR_MARINE
     specialWeapon: STR_UNARMED_REGULAR_HUMAN
 
+####################
+# VEHICLES
+
+  - type: STR_CHAINGUN_WARTHOG_ARMOR
+    spriteSheet: TURRET_HOG_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: CHAINGUN_WARTHOG_INV.SPK
+    corpseBattle:
+      - CHAINGUN_WARTHOG_CORPSE_1
+      - CHAINGUN_WARTHOG_CORPSE_2
+      - CHAINGUN_WARTHOG_CORPSE_3
+      - CHAINGUN_WARTHOG_CORPSE_4
+    frontArmor: 130
+    sideArmor: 120
+    rearArmor: 110
+    underArmor: 40
+    #deathSound: 23
+    moveSound: 14
+    storeItem: STR_CHAINGUN_WARTHOG_ITEM
+    drawingRoutine: 2
+    constantAnimation: false
+    allowsRunning: true
+    allowsStrafing: true
+    moveCost:
+      #fist level of multipliers
+      basePercent: [100, 100] #overall move cost
+
+      #second level of multipliers
+      baseNormalPercent: [100, 100] #move cost for ground
+      baseFlyPercent: [100, 100] #move cost for flying
+
+      #third level of multipliers
+      walkPercent: [50, 50] #cost of normal move type
+      runPercent: [25, 25] #cost of run aka with `ctrl`
+      strafePercent: [50, 25] #cost of strafe when `ctrl` and only one tile aside
+    weight: -80
+    movementType: 0
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.75
+      - 0.8
+      - 0.8
+      - 0.0
+      - 0.9
+      - 0.4
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    stats:
+      tu: 50
+      stamina: 100
+      health: 50
+    units:
+      - STR_SPARTAN_III
+      - STR_ODST
+      - STR_ARMY_TROOPER
+      - STR_MARINE
+    builtInWeapons:
+      - STR_M41_VULCAN_CHAINGUN
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+
+
 items:
     - type: STR_SPI_ARMOR
      # name: STR_SPI_ARMOR_UC
@@ -776,6 +1616,46 @@ items:
       weight: 22
       bigSprite: 1501
       floorSprite: 1501
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ODST_BDU_RED
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1490
+      floorSprite: 1490
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ODST_BDU_BLUE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1491
+      floorSprite: 1491
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ODST_BDU_GREEN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1492
+      floorSprite: 1492
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_ODST_BDU_ORANGE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1493
+      floorSprite: 1493
       battleType: 11
       invWidth: 2
       invHeight: 3
@@ -870,9 +1750,169 @@ items:
       armor: 50
       recover: false
 
+    - type: STR_MJOLNIR_ARMOR_UC
+      size: 0.8
+      costBuy: 2000000
+      costSell: 2000000
+    - type: STR_CORPSE_MJOLNIR_ARMOR
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1520
+      floorSprite: 1520
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_RED
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1521
+      floorSprite: 1521
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_BLUE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1522
+      floorSprite: 1522
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_GRAY
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1523
+      floorSprite: 1523
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_GREEN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1524
+      floorSprite: 1524
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_LIGHT_BLUE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1525
+      floorSprite: 1525
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_CYAN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1526
+      floorSprite: 1526
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_BROWN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1527
+      floorSprite: 1527
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_TAN
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1528
+      floorSprite: 1528
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_PURPLE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1529
+      floorSprite: 1529
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_PINK
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1530
+      floorSprite: 1530
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+    - type: STR_CORPSE_MJOLNIR_ARMOR_ORANGE
+      name: STR_CORPSE
+      weight: 22
+      bigSprite: 1531
+      floorSprite: 1531
+      battleType: 11
+      invWidth: 2
+      invHeight: 3
+      armor: 50
+      recover: false
+
+    - type: STR_CHAINGUN_WARTHOG_ITEM
+     # name: STR_SPI_ARMOR_UC
+      size: 0.8
+      costSell: 62000
+      costBuy: 60000
+
+    - type: CHAINGUN_WARTHOG_CORPSE_1
+      floorSprite: 1401
+      invWidth: 0
+      invHeight: 0
+      battleType: 11
+      recover: false
+    - type: CHAINGUN_WARTHOG_CORPSE_2
+      floorSprite: 1402
+      invWidth: 0
+      invHeight: 0
+      battleType: 11
+      recover: false
+    - type: CHAINGUN_WARTHOG_CORPSE_3
+      floorSprite: 1403
+      invWidth: 0
+      invHeight: 0
+      battleType: 11
+      recover: false
+    - type: CHAINGUN_WARTHOG_CORPSE_4
+      floorSprite: 1404
+      invWidth: 0
+      invHeight: 0
+      battleType: 11
+      recover: false
+
 extraSprites:
   - type: BIGOBS.PCK
     files:
+      1490: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB_RED.png
+      1491: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB_BLUE.png
+      1492: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB_GREEN.png
+      1493: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_BIGOB_ORANGE.png
       1497: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_RED.png
       1498: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_BLUE.png
       1499: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_BIGOB_GRAY.png
@@ -889,10 +1929,29 @@ extraSprites:
       1510: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
       1511: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
       1512: Resources/HumanArmors/UNSCMarine/MARINE_PLACEHOLDER_CORPSE_BIGOB.png
+      #Marine EVA suit
+      #Marine Medic suit
+      #Marine Heavy armor
+      1520: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB.png #Lime Green
+      1521: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_RED.png #Red
+      1522: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_BLUE.png #Blue
+      1523: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_GRAY.png #Gray
+      1524: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_GREEN.png #Green
+      1525: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_LIGHT_BLUE.png #Light Blue 
+      1526: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_CYAN.png #Cyan
+      1527: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_BROWN.png #Brown
+      1528: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_TAN.png #Tan
+      1529: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_PURPLE.png #Purple
+      1530: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_PINK.png #Pink
+      1531: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_BIGOB_ORANGE.png #Orange
 
 
   - type: FLOOROB.PCK
     files:
+      1490: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB_RED.png
+      1491: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB_BLUE.png
+      1492: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB_GREEN.png
+      1493: Resources/HumanArmors/ODST/ODST_BDU_CORPSE_FLOOROB_ORANGE.png    
       1497: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_RED.png
       1498: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_BLUE.png
       1499: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_CORPSE_FLOOROB_GRAY.png
@@ -909,6 +1968,38 @@ extraSprites:
       1510: Resources/HumanArmors/UNSCMarine/MARINE_LIGHT_BDU_CORPSE_FLOOROB.png
       1511: Resources/HumanArmors/UNSCMarine/MARINE_SARGE_BDU_CORPSE_FLOOROB.png
       1512: Resources/HumanArmors/UNSCMarine/MARINE_STANDARD_BDU_CORPSE_FLOOROB.png
+      #Marine EVA suit
+      #Marine Medic suit
+      #Marine Heavy armor
+      1520: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB.png #Lime Green
+      1521: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_RED.png #Red
+      1522: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_BLUE.png #Blue
+      1523: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_GRAY.png #Gray
+      1524: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_GREEN.png #Green
+      1525: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_LIGHT_BLUE.png #Light Blue 
+      1526: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_CYAN.png #Cyan
+      1527: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_BROWN.png #Brown
+      1528: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_TAN.png #Tan
+      1529: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_PURPLE.png #Purple
+      1530: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_PINK.png #Pink
+      1531: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_CORPSE_FLOOROB_ORANGE.png #Orange
+
+###################################
+# VEHICLES
+
+  - type: CHAINGUN_WARTHOG_INV.SPK
+    singleImage: true
+    files:
+      0: Resources/Vehicles/INVENTORY/CHAINGUN_WARTHOG_INV.png
+
+  - type: TURRET_HOG_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1480
+    files:
+      0: Resources/Vehicles/TURRET_HOG_SPRITESHEET.png
+
 ###################################
   - type: SPI_ARMOR_SPRITESHEET.PCK
     subX: 32
@@ -917,7 +2008,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+      300: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_JETPACK.png
   - type: SPI_ARMOR_SPRITESHEET_RED.PCK
     subX: 32
     subY: 40
@@ -925,7 +2016,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_RED.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+      300: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_RED_JETPACK.png
   - type: SPI_ARMOR_SPRITESHEET_BLUE.PCK
     subX: 32
     subY: 40
@@ -933,7 +2024,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_BLUE.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+      300: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_BLUE_JETPACK.png
   - type: SPI_ARMOR_SPRITESHEET_GRAY.PCK
     subX: 32
     subY: 40
@@ -941,7 +2032,122 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY.png
-      1000: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GENDERSWAPPED.png
+      300: Resources/HumanArmors/SPARTAN_III/SPI_ARMOR_SPRITESHEET_GRAY_JETPACK.png    
+ 
+ #############
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_RED.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_RED.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_RED_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_BLUE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BLUE.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BLUE_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_GRAY.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GRAY.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GRAY_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_GREEN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GREEN.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_GREEN_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_LIGHT_BLUE_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_CYAN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_CYAN.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_CYAN_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_BROWN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BROWN.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_BROWN_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_TAN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_TAN.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_TAN_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_PURPLE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PURPLE.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PURPLE_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_PINK.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PINK.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_PINK_JETPACK.png
+ 
+  - type: MJOLNIR_ARMOR_SPRITESHEET_ORANGE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_ORANGE.png
+      300: Resources/HumanArmors/SPARTAN_III/MJOLNIR_ARMOR_SPRITESHEET_ORANGE_JETPACK.png
+
+
+
+ #############
+      
   - type: ODST_BDU_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -949,6 +2155,39 @@ extraSprites:
     height: 720
     files:
       0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_JETPACK.png
+  - type: ODST_BDU_SPRITESHEET_BLUE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_BLUE.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_BLUE_JETPACK.png
+  - type: ODST_BDU_SPRITESHEET_RED.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_RED.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_RED_JETPACK.png
+  - type: ODST_BDU_SPRITESHEET_GREEN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_GREEN.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_GREEN_JETPACK.png
+  - type: ODST_BDU_SPRITESHEET_ORANGE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_ORANGE.png
+      300: Resources/HumanArmors/ODST/ODST_BDU_SPRITESHEET_ORANGE_JETPACK.png
 
   - type: ARMY_TROOPER_BALACLAVA_BDU_SPRITESHEET.PCK
     subX: 32
@@ -1180,6 +2419,38 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MarineChestArmor.png
   - typeSingle: HUMAN__3__ODST_FULL_ARMOR
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODSTArmor.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODST_Blue.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR_RED
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODST_Red.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODST_Green.png
+  - typeSingle: HUMAN__3__ODST_FULL_ARMOR_ORANGE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/ODST_Orange.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_BLUE.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_BROWN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_BROWN.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_CYAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_CYAN.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_GRAY.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_GREEN.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_LIGHT_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_LIGHT_BLUE.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_ORANGE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_ORANGE.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_PINK
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_PINK.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_PURPLE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_PURPLE.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_RED
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_RED.png
+  - typeSingle: HUMAN__3__MJOLNIR_FULL_ARMOR_TAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/03-ChestArmor/MJOLNIR_ARMOR_INVENTORY_TAN.png
 # Leg armor
   - typeSingle: HUMAN__4__ARMY_ARMORED_BOOTS
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/ArmyArmoredBoots.png
@@ -1189,6 +2460,14 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MarineArmoredBoots.png
   - typeSingle: HUMAN__4__MARINE_SOFT_LEG_ARMOR
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MarineSoftLegArmor.png
+  - typeSingle: HUMAN__4__MJOLNIR_DEFAULT_KNEEGUARD
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MJOLNIR_DEFAULT_KNEEGUARD.png
+  - typeSingle: HUMAN__4__MJOLNIR_DEFAULT_KNEEGUARD_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MJOLNIR_DEFAULT_KNEEGUARD_GRAY.png
+  - typeSingle: HUMAN__4__MJOLNIR_PARA_KNEEGUARD
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MJOLNIR_PARA_KNEEGUARD.png
+  - typeSingle: HUMAN__4__MJOLNIR_PARA_KNEEGUARD_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/04-LegArmor/MJOLNIR_PARA_KNEEGUARD_GRAY.png
 # Shoulder armor
   - typeSingle: HUMAN__5__ARMY_SHOULDER_ARMOR_1
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/ArmyShoulderArmor1.png
@@ -1204,6 +2483,15 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor2.png
   - typeSingle: HUMAN__5__MARINE_SHOULDER_ARMOR_3
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MarineShoulderArmor3.png
+  - typeSingle: HUMAN__5__MJOLNIR_ODST_PAULDRONS_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MJOLNIR_ODST_PAULDRONS_GRAY.png
+  - typeSingle: HUMAN__5__MJOLNIR_COMMANDO_PAULDRONS_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MJOLNIR_COMMANDO_PAULDRONS_GRAY.png
+  - typeSingle: HUMAN__5__MJOLNIR_GUNGNIR_PAULDRONS_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MJOLNIR_GUNGNIR_PAULDRONS_GRAY.png
+  - typeSingle: HUMAN__5__MJOLNIR_PARA_PAULDRONS_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/05-ShoulderArmor/MJOLNIR_PARA_PAULDRONS_GRAY.png
+
 # Head covering
   - typeSingle: HUMAN__6__ARMY_CAP
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ArmyCap.png
@@ -1213,6 +2501,78 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MarineCap.png
   - typeSingle: HUMAN__6__MARINE_HELMET
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MarineHelmet.png
+  - typeSingle: HUMAN__6__MARK_VB_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_VB_HELMET.png
+  - typeSingle: HUMAN__6__MARK_VB_HELMET_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_VB_HELMET_GRAY.png
+  - typeSingle: HUMAN__6__MARK_VB_HELMET_RED
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_VB_HELMET_RED.png
+  - typeSingle: HUMAN__6__MARK_VB_HELMET_BROWN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_VB_HELMET_BROWN.png
+  - typeSingle: HUMAN__6__MARK_VB_HELMET_PINK
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_VB_HELMET_PINK.png
+  - typeSingle: HUMAN__6__AIR_ASSAULT_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/AIR_ASSAULT_HELMET.png
+  - typeSingle: HUMAN__6__AIR_ASSAULT_HELMET_CYAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/AIR_ASSAULT_HELMET_CYAN.png
+  - typeSingle: HUMAN__6__AIR_ASSAULT_HELMET_PINK
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/AIR_ASSAULT_HELMET_PINK.png
+  - typeSingle: HUMAN__6__COMMANDO_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/COMMANDO_HELMET.png
+  - typeSingle: HUMAN__6__COMMANDO_HELMET_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/COMMANDO_HELMET_BLUE.png
+  - typeSingle: HUMAN__6__COMMANDO_HELMET_TAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/COMMANDO_HELMET_TAN.png
+  - typeSingle: HUMAN__6__CQB_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/CQB_HELMET.png
+  - typeSingle: HUMAN__6__CQB_HELMET_PURPLE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/CQB_HELMET_PURPLE.png
+  - typeSingle: HUMAN__6__CQB_HELMET_RED
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/CQB_HELMET_RED.png
+  - typeSingle: HUMAN__6__EVA_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/EVA_HELMET.png
+  - typeSingle: HUMAN__6__EVA_HELMET_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/EVA_HELMET_GRAY.png
+  - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET.png
+  - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET_BROWN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_BROWN.png
+  - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_GREEN.png
+  - typeSingle: HUMAN__6__MARK_V_SHADOW_HELMET_PINK
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/MARK_V_SHADOW_HELMET_PINK.png
+  - typeSingle: HUMAN__6__GRENADIER_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/GRENADIER_HELMET.png
+  - typeSingle: HUMAN__6__GRENADIER_HELMET_BROWN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/GRENADIER_HELMET_BROWN.png 
+  - typeSingle: HUMAN__6__GRENADIER_HELMET_GREEN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/GRENADIER_HELMET_GREEN.png
+  - typeSingle: HUMAN__6__GRENADIER_HELMET_ORANGE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/GRENADIER_HELMET_ORANGE.png 
+  - typeSingle: HUMAN__6__ODST_HELMET_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ODST_HELMET_BLUE.png
+  - typeSingle: HUMAN__6__ODST_HELMET_GRAY
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/ODST_HELMET_GRAY.png
+  - typeSingle: HUMAN__6__SECURITY_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/SECURITY_HELMET.png
+  - typeSingle: HUMAN__6__SCOUT_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/SCOUT_HELMET.png
+  - typeSingle: HUMAN__6__SCOUT_HELMET_LIGHT_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/SCOUT_HELMET_LIGHT_BLUE.png
+  - typeSingle: HUMAN__6__SCOUT_HELMET_PURPLE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/SCOUT_HELMET_PURPLE.png
+  - typeSingle: HUMAN__6__RECON_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/RECON_HELMET.png
+  - typeSingle: HUMAN__6__RECON_HELMET_LIGHT_BLUE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/RECON_HELMET_LIGHT_BLUE.png
+  - typeSingle: HUMAN__6__RECON_HELMET_TAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/RECON_HELMET_TAN.png
+  - typeSingle: HUMAN__6__HAZOP_HELMET
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/HAZOP_HELMET.png
+  - typeSingle: HUMAN__6__HAZOP_HELMET_CYAN
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/HAZOP_HELMET_CYAN.png
+  - typeSingle: HUMAN__6__HAZOP_HELMET_ORANGE
+    fileSingle: Resources/HumanArmors/LayeredPaperdolls/06-Helmet/HAZOP_HELMET_ORANGE.png    
 # Eye accessories
   - typeSingle: HUMAN__8__BLUE_GLASSES
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/BlueGlasses.png
@@ -1230,3 +2590,43 @@ extraSprites:
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/GreenHoloEyepatch.png
   - typeSingle: HUMAN__8__LIME_HOLO_EYE_PATCH
     fileSingle: Resources/HumanArmors/LayeredPaperdolls/08-EyeItems/LimeHoloEyepatch.png
+
+  - type: BASEBITS.PCK
+    files:
+      800: Resources/HumanArmors/RankSprites/Basebits/Rank_0_A.png
+      801: Resources/HumanArmors/RankSprites/Basebits/Rank_1_A.png
+      802: Resources/HumanArmors/RankSprites/Basebits/Rank_2_A.png
+      803: Resources/HumanArmors/RankSprites/Basebits/Rank_3_A.png
+      804: Resources/HumanArmors/RankSprites/Basebits/Rank_4_A.png
+      805: Resources/HumanArmors/RankSprites/Basebits/Rank_0_B.png
+      806: Resources/HumanArmors/RankSprites/Basebits/Rank_1_B.png
+      807: Resources/HumanArmors/RankSprites/Basebits/Rank_2_B.png
+      808: Resources/HumanArmors/RankSprites/Basebits/Rank_3_B.png
+      809: Resources/HumanArmors/RankSprites/Basebits/Rank_4_B.png
+      810: Resources/HumanArmors/RankSprites/Basebits/Rank_5_B.png
+      811: Resources/HumanArmors/RankSprites/Basebits/Rank_0_C.png
+      812: Resources/HumanArmors/RankSprites/Basebits/Rank_1_C.png
+      813: Resources/HumanArmors/RankSprites/Basebits/Rank_2_C.png
+      814: Resources/HumanArmors/RankSprites/Basebits/Rank_3_C.png
+      815: Resources/HumanArmors/RankSprites/Basebits/Rank_4_C.png
+      816: Resources/HumanArmors/RankSprites/Basebits/Rank_5_C.png
+
+  - type: SMOKE.PCK
+    files:
+      800: Resources/HumanArmors/RankSprites/Smoke/Rank_0_A.png
+      801: Resources/HumanArmors/RankSprites/Smoke/Rank_1_A.png
+      802: Resources/HumanArmors/RankSprites/Smoke/Rank_2_A.png
+      803: Resources/HumanArmors/RankSprites/Smoke/Rank_3_A.png
+      804: Resources/HumanArmors/RankSprites/Smoke/Rank_4_A.png
+      805: Resources/HumanArmors/RankSprites/Smoke/Rank_0_B.png
+      806: Resources/HumanArmors/RankSprites/Smoke/Rank_1_B.png
+      807: Resources/HumanArmors/RankSprites/Smoke/Rank_2_B.png
+      808: Resources/HumanArmors/RankSprites/Smoke/Rank_3_B.png
+      809: Resources/HumanArmors/RankSprites/Smoke/Rank_4_B.png
+      810: Resources/HumanArmors/RankSprites/Smoke/Rank_5_B.png
+      811: Resources/HumanArmors/RankSprites/Smoke/Rank_0_C.png
+      812: Resources/HumanArmors/RankSprites/Smoke/Rank_1_C.png
+      813: Resources/HumanArmors/RankSprites/Smoke/Rank_2_C.png
+      814: Resources/HumanArmors/RankSprites/Smoke/Rank_3_C.png
+      815: Resources/HumanArmors/RankSprites/Smoke/Rank_4_C.png
+      816: Resources/HumanArmors/RankSprites/Smoke/Rank_5_C.png

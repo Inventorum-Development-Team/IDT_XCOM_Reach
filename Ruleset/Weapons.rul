@@ -168,7 +168,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 0.5
@@ -183,9 +183,9 @@ items:
     costBuy: 1686
     costSell: 1265
     weight: 5
-    bigSprite: 240
-    floorSprite: 240
-    handSprite: 240
+    bigSprite: 248
+    floorSprite: 248
+    handSprite: 248
     fireSound: [132, 133, 134]
     reloadSound: [135, 136, 137]
     compatibleAmmo:
@@ -282,7 +282,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 0.5
@@ -300,18 +300,21 @@ items:
     bigSprite: 272
     floorSprite: 272
     handSprite: 272
-    fireSound: [100, 101, 102, 103, 104, 105, 106]
+    #fireSound: [100, 101, 102, 103, 104, 105, 106]
+    fireSound: [155, 156, 157, 158, 159]
     reloadSound: [107, 108, 109]
     compatibleAmmo:
       - STR_BR55_MAG
     confAimed:
-      shots: 3
+      #shots: 3
       name: STR_AIMED_BURST
       shortName: STR_AIMED_BURST
+      spendPerShot: 3
     confSnap:
-      shots: 3
+      #shots: 3
       name: STR_BURST
       shortName: STR_BURST
+      spendPerShot: 3
     accuracySnap: 50
     accuracyAimed: 70
     tuSnap: 15
@@ -326,7 +329,7 @@ items:
     autoRange: 22
     minRange: 3
     dropoff: 3
-    autoShots: 3
+    #autoShots: 3
   - type: STR_BR55_MAG         #BR55 magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.1
@@ -337,18 +340,22 @@ items:
     floorSprite: 280
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
-    explosionSpeed: 30
+    #explosionSpeed: 30
     bulletSprite: 12
-    power: 44
+    power: 48
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 0.5
     damageType: 1
+    shotgunBehavior: 1
+    shotgunChoke: 0
+    shotgunPellets: 3
+    shotgunSpread: 10
     clipSize: 36
     battleType: 2
     armor: 12
@@ -394,12 +401,12 @@ items:
     hitAnimation: 26
     explosionSpeed: 30
     bulletSprite: 11
-    power: 55
+    power: 60
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 0.5
@@ -448,14 +455,14 @@ items:
     explosionSpeed: 30
     bulletSprite: 14
     bulletSpeed: 20
-    power: 100
+    power: 120
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
-      ToMana: 1.0
+      ToMana: 2.5
     damageType: 1
     clipSize: 4
     battleType: 2
@@ -529,7 +536,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 0.5
@@ -578,7 +585,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 0.5
@@ -612,15 +619,16 @@ items:
       ammoSlot: 0
       arcing: false
       followProjectiles: false
-    autoRange: 8
-    accuracyAuto: 30
-    accuracySnap: 40
-    tuSnap: 10
-    tuAuto: 15
-    accuracyCloseQuarters: 100
-    tuLoad: 20
+    dropoff: 16
+    autoRange: 4
+    snapRange: 6
+    accuracyAuto: 34
+    accuracySnap: 44
+    tuSnap: 5
+    tuAuto: 10
+    accuracyCloseQuarters: 200
+    tuLoad: 15
     maxRange: 60
-    dropoff: 1
     kneelBonus: 125
     costThrow:
       energy: 12
@@ -658,8 +666,8 @@ items:
     autoRange: 8
     accuracyAuto: 50
     accuracySnap: 60
-    tuSnap: 10
-    tuAuto: 15
+    tuSnap: 5
+    tuAuto: 10
     accuracyCloseQuarters: 100
     tuLoad: 20
     maxRange: 60
@@ -690,7 +698,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 0.5
@@ -743,7 +751,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 1.0
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.5
       ToMana: 1.5
@@ -798,7 +806,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 1.0
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.5
       ToMana: 1.5
@@ -811,7 +819,7 @@ items:
     armor: 12
 
   - type: STR_M41 #SPNKR
-    categories: [STR_WEAPONS, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_ARTILLERY, STR_UNSC_EQUIPMENT]
     size: 0.2
     costBuy: 30000
     costSell: 860
@@ -840,14 +848,17 @@ items:
     twoHanded: true
 
   - type: STR_M41_ROCKETS
-    categories: [STR_WEAPONS, STR_MAGAZINES, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_MAGAZINES, STR_ARTILLERY, STR_UNSC_EQUIPMENT]
     size: 0.1
     costBuy: 2000
     costSell: 240
     weight: 5
     bigSprite: 512
     floorSprite: 512
-    power: 275
+    power: 220
+    blastRadius: 3
+    powerForAnimation: 70
+    hitAnimation: 200
     bulletSprite: 0
     bulletSpeed: 1
     damageAlter:
@@ -860,23 +871,21 @@ items:
       RandomWound: true
       ToTile: 0.90
       ToStun: 1.2
-      ToMana: 1.0
+      ToMana: 1.5
       ToArmor: 1.6
       FixRadius: 2
-    powerForAnimation: 40
     explosionHitSound: [1613, 1614, 1615, 1616, 1617, 1618]
     damageType: 3
     battleType: 2
     invWidth: 1
     invHeight: 3
-    blastRadius: 2
     clipSize: 2
     vaporColorSurface: 11
     vaporDensitySurface: 2
     vaporProbabilitySurface: 100
 
   - type: STR_M319 #Grenade launcher
-    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_ARTILLERY, STR_GRENADES, STR_UNSC_EQUIPMENT]
     size: 0.2
     costBuy: 15000
     costSell: 860
@@ -914,14 +923,17 @@ items:
     twoHanded: true
 
   - type: STR_M319_GRENADE
-    categories: [STR_WEAPONS, STR_MAGAZINES, STR_GRENADES, STR_GADGETS, STR_UNSC_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_MAGAZINES, STR_GRENADES, STR_ARTILLERY, STR_UNSC_EQUIPMENT]
     size: 0.1
     costBuy: 500
     costSell: 240
     weight: 3
     bigSprite: 528
     floorSprite: 528
-    power: 125
+    power: 150
+    blastRadius: 2
+    powerForAnimation: 60
+    hitAnimation: 200
     bulletSprite: 0
     damageAlter:
       IgnoreOverKill: false
@@ -936,11 +948,9 @@ items:
       ToHealth: 1.5
       ToMana: 0.8
       FixRadius: 2
-    powerForAnimation: 40
     explosionHitSound: [1622, 1623, 1624]
     damageType: 3
     battleType: 2
-    blastRadius: 2
     clipSize: 1
 
   - type: STR_M247H_MG
@@ -965,9 +975,10 @@ items:
       followProjectiles: false
     accuracyAuto: 35
     accuracySnap: 50
-    accuracyAimed: 65
-    tuAuto: 50
-    tuSnap: 35
+    #accuracyAimed: 65
+    tuAuto: 40
+    tuSnap: 20
+    power: 70
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -975,17 +986,16 @@ items:
     maxRange: 200
     aimRange: 10
     minRange: 1
-    dropoff: 20
+    dropoff: 2
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     explosionSpeed: 30
     bulletSprite: 11
     bulletSpeed: 45
-    power: 45
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.9
-      ToArmor: 0.3
+      ToArmorPre: 0.3
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 0.6
@@ -993,7 +1003,7 @@ items:
     clipSize: 200
 
   - type: STR_M6V       #Spartan Laser
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_GADGETS, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
     costBuy: 1000000     # buy/sell data
     costSell: 100000
     size: 1         # size in gen. stores
@@ -1023,12 +1033,12 @@ items:
     clipSize: 100
     bulletSprite: 14
     bulletSpeed: 40
-    power: 400
+    power: 600
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.7
-      ToArmorPre: 0.4
-      ToArmor: 1.2
+      ToArmor: 0.4
+      ToArmorPre: 1.2
       ToWound: 1.2
       ToHealth: 1.2
       ToMana: 1.2
@@ -1043,9 +1053,9 @@ items:
     vaporProbabilitySurface: 100
 
   - type: STR_H165_ORBITAL_STRIKE
-    categories: [STR_WEAPONS, STR_UNSC_EQUIPMENT, STR_GADGETS]
+    categories: [STR_WEAPONS, STR_UNSC_EQUIPMENT, STR_GADGETS, STR_ARTILLERY]
     size: 0.1
-    costBuy: 5000000
+    costBuy: 1000000
     costSell: 100
     weight: 5
     floorSprite: 976
@@ -1061,7 +1071,7 @@ items:
     maxRange: 200
     twoHanded: false
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 200
     power: 1250
     damageType: 3
     damageAlter:
@@ -1083,12 +1093,21 @@ items:
     costBuy: 300
     costSell: 240
     weight: 3
-    bigSprite: 19
-    floorSprite: 19
-    power: 50
+    bigSprite: 568
+    floorSprite: 568
+    power: 140
+    fuseType: -2
+    blastRadius: 2
+    powerForAnimation: 60
+    hitAnimation: 200
+    damageAlter:
+      ToTile: 0.9
+      ToWound: 1.1
     damageType: 3
     battleType: 4
-    blastRadius: 5
+    vaporColorSurface: 10
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 100
   - type: STR_SMOKE_GRENADE
     categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_UNSC_EQUIPMENT]
     size: 0.1
@@ -1113,6 +1132,60 @@ items:
     power: 15
     battleType: 10
     armor: 8
+
+############################
+# vehicle guns
+
+  - type: STR_M41_VULCAN_CHAINGUN
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_UNSC_EQUIPMENT, STR_GADGETS]
+    size: 0.2
+    costBuy: 0
+    costSell: 1265
+    weight: 60
+    bigSprite: 1400    #inventory sprite
+    #floorSprite: 968  #battlescape floor sprite
+    #handSprite: 968
+    fireSound: [160, 161, 162, 163]
+    confAuto:
+      shots: 20
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confSnap:
+      shots: 10
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
+    accuracyAuto: 35
+    accuracySnap: 50
+    tuAuto: 15
+    tuSnap: 10
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    #turretType: 0 # Important, as this defines which turret grab from the sheet
+    maxRange: 200
+    autoRange: 20
+    snapRange: 24
+    minRange: 1
+    dropoff: 3
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11
+    bulletSpeed: 45
+    power: 45
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.9
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
+      ToMana: 0.6
+    damageType: 1
+    clipSize: -1 #200
+
 
 ######################################################
   - type: STR_PLASMA_RIFLE_ELITE       #Type25 Plasma Rifle
@@ -1171,11 +1244,12 @@ items:
     hitAnimation: 90
     bulletSprite: 21
     bulletSpeed: 10
+    explosionSpeed: 3
     power: 34
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
-      ToArmor: 0.5
+      ToArmorPre: 0.5
       ToMorale: 1.2
       ToMana: 2.0
     damageType: 5
@@ -1242,7 +1316,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
-      ToArmor: 0.5
+      ToArmorPre: 0.5
       ToMorale: 1.2
       ToMana: 2.0
     damageType: 5
@@ -1292,11 +1366,62 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
-      ToArmor: 0.5
+      ToArmorPre: 0.5
       ToMorale: 1.2
       ToMana: 2.0
     damageType: 4
     clipSize: 15
+    battleType: 2
+    armor: 12
+
+  - type: STR_NEEDLE_RIFLE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    costSell: 125000
+    size: 0.5
+    battleType: 1
+    weight: 9
+    compatibleAmmo:
+      - STR_NEEDLE_RIFLE_CANISTER 
+    accuracySnap: 70
+    accuracyAimed: 95
+    tuSnap: 20
+    tuAimed: 34
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 100
+    snapRange: 25
+    autoRange: 22
+    minRange: 3
+    dropoff: 3
+    fireSound: [645, 646, 647]
+    reloadSound: [642, 643, 644]
+    bigSprite: 736    #inventory sprite
+    floorSprite: 736  #battlescape floor sprite
+    handSprite: 736
+  - type: STR_NEEDLE_RIFLE_CANISTER
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    costBuy: 1      #--DEBUG--
+    costSell: 1550
+    weight: 4
+    bigSprite: 744
+    floorSprite: 744
+    hitSound: [648, 649, 650, 651, 652, 653]
+    hitAnimation: 130
+    bulletSprite: 19
+    bulletSpeed: 20
+    power: 70
+    damageType: 4
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmor: 0.5
+      ToMorale: 1.2
+      ToMana: 2.0
+    clipSize: 12
     battleType: 2
     armor: 12
 
@@ -1357,11 +1482,12 @@ items:
     hitAnimation: 120
     bulletSprite: 23
     bulletSpeed: 10
+    explosionSpeed: 5
     power: 35
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
-      ToArmor: 0.5
+      ToArmorPre: 0.5
       ToMorale: 1.2
       ToMana: 2.0
     damageType: 5
@@ -1381,9 +1507,9 @@ items:
     compatibleAmmo:         #Battle Stats
       - STR_NEEDLER_CANISTER  #
     accuracyAimed: 65       #
-    accuracySnap: 50
-    tuAimed: 10             #
-    tuSnap: 10
+    accuracySnap: 45
+    tuAimed: 40             #
+    tuSnap: 20
     confAimed:
       spendPerShot: 8        # 4x battery consumption for 2x power
       name: STR_SUPERCOMBINED
@@ -1412,12 +1538,12 @@ items:
     hitAnimation: 130
     bulletSprite: 19
     bulletSpeed: 10
-    power: 35
+    power: 30
     damageType: 4
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
-      ToArmor: 0.5
+      ToArmorPre: 0.5
       ToMorale: 1.2
       ToMana: 2.0
     clipSize: 16
@@ -1445,7 +1571,7 @@ items:
       AIMED_10X_POWER: 1
     accuracySnap: 40        #
     accuracyAimed: 75       #
-    tuSnap: 18              #
+    tuSnap: 10              #
     tuAimed: 30             #
     maxRange: 100           #
     aimRange: 20            #
@@ -1472,7 +1598,7 @@ items:
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
-      ToArmor: 0.5
+      ToArmorPre: 0.5
       ToMorale: 1.2
       ToMana: 1.6
     damageType: 5
@@ -1509,8 +1635,10 @@ items:
     bigSprite: 840
     floorSprite: 840
     hitSound: 0
-    hitAnimation: 0
-    power: 150
+    power: 300
+    blastRadius: 2
+    powerForAnimation: 80
+    hitAnimation: 220
     damageType: 3
     damageAlter:
       IgnoreOverKill: false
@@ -1528,22 +1656,9 @@ items:
     invWidth: 1
     invHeight: 2
     recoveryPoints: 1
-    blastRadius: 5
 #    listOrder: 248
 
-  - type: STR_PLASMA_GRENADE
-    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
-    size: 0.1
-    costSell: 14850
-    weight: 3
-    bigSprite: 888
-    floorSprite: 888
-    handSprite: 888
-    power: 90
-    damageType: 3
-    battleType: 4
-    recoveryPoints: 1
-    blastRadius: 5
+  - type: STR_PLASMA_GRENADE #see scripts/plasma grenade
 
   - type: STR_ENERGY_SWORD # Type-1 Energy Sword
     categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]
@@ -1581,13 +1696,14 @@ items:
     floorSprite: 928
     damageType: 5
     meleeAnimation: 150
-    meleePower: 200
+    meleePower: 550
+    power: 500
     meleeAlter:
       RandomType: 3
       ArmorEffectiveness: 0.5
-      ToArmor: 0.5
+      ToArmorPre: 0.5
       ToMorale: 1.2
-      ToMana: 2.0
+      ToMana: 3.0
     clipSize: 100
     battleType: 2
     armor: 12
@@ -1601,6 +1717,7 @@ items:
     handSprite: 952
     floorSprite: 952
     flatRate: true
+    hidePower: true
     battleType: 3
     clipSize: -1
     invWidth: 2
@@ -1615,10 +1732,57 @@ items:
     handSprite: 960
     floorSprite: 960
     flatRate: true
+    hidePower: true
     battleType: 3
     clipSize: -1
     invWidth: 2
     invHeight: 3
+
+  - type: STR_PLASMA_GHOST_CANNON       #Type 2 Plasma Cannon
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    #costSell: 125000
+    size: 0.1         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    bigSprite: 2014
+    battleType: 1     # 1 = firearm
+    weight: 20
+    confAuto:
+      shots: 8
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: true
+      spendPerShot: 6
+    confSnap:
+      shots: 4
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: true
+      spendPerShot: 6
+    accuracyAimed: 70       #
+    accuracyAuto: 40            #
+    tuAimed: 15             #
+    tuAuto: 10
+    maxRange: 100           #
+    aimRange: 30            #
+    dropoff: 6              #
+    fireSound: 1704
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
+    hitAnimation: 90
+    bulletSprite: 21
+    bulletSpeed: 10
+    fixedWeapon: true
+    explosionSpeed: 5
+    power: 35
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.5
+      ToMorale: 1.2
+      ToMana: 2.0
+    damageType: 5
+    clipSize: -1
 
 extraSprites:
   - type: BIGOBS.PCK
@@ -1669,7 +1833,7 @@ extraSprites:
 #      560: Resources/HumanEquipment/BigM7057FlamethrowerFuelTank.png
       968: Resources/HumanEquipment/BigM247Machinegun.png
       976: Resources/HumanEquipment/BigH165OrbitalStrike.png
-#      568: Resources/HumanEquipment/BigFragGrenade.png
+      568: Resources/HumanEquipment/BigFragGrenade.png
 #      576: Resources/HumanEquipment/BigFlashbangGrenade.png
 #      584: Resources/HumanEquipment/BigMachete.png
       592: Resources/HumanEquipment/BigHealthPack.png
@@ -1690,9 +1854,9 @@ extraSprites:
       704: Resources/CovenantEquipment/BigNeedler_noammo.png
       712: Resources/CovenantEquipment/BigNeedler_ammo.png
       720: Resources/CovenantEquipment/BigNeedlerCanister.png
-#      728: Resources/CovenantEquipment/BigNeedleRifle_noammo.png
-#      736: Resources/CovenantEquipment/BigNeedleRifle_ammo.png
-#      744: Resources/CovenantEquipment/BigNeedleRifleCanister.png
+      728: Resources/CovenantEquipment/BigNeedleRifle_noammo.png
+      736: Resources/CovenantEquipment/BigNeedleRifle_ammo.png
+      744: Resources/CovenantEquipment/BigNeedleRifleCanister.png
 #      752: Resources/CovenantEquipment/BigSpiker_noammo.png
 #      760: Resources/CovenantEquipment/BigSpiker_ammo.png
 #      768: Resources/CovenantEquipment/BigSpikerAmmo.png
@@ -1720,6 +1884,8 @@ extraSprites:
       944: Resources/CovenantEquipment/BigEnergySwordBattery.png
       952: Resources/CovenantEquipment/BigMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/BigMajorShieldGauntlet.png
+
+      1400: Resources/Vehicles/BigM41Vulcan.png
 
   - type: FLOOROB.PCK
     files:
@@ -1769,11 +1935,13 @@ extraSprites:
 #      560: Resources/HumanEquipment/FloorM7057FlamethrowerFuelTank.png
       968: Resources/HumanEquipment/FloorM247Machinegun.png
       976: Resources/HumanEquipment/FloorH165OrbitalStrike.png
-#      568: Resources/HumanEquipment/FloorFragGrenade.png
+      568: Resources/HumanEquipment/FloorFragGrenade.png
 #      576: Resources/HumanEquipment/FloorFlashbangGrenade.png
 #      584: Resources/HumanEquipment/FloorMachete.png
       592: Resources/HumanEquipment/FloorHealthPack.png
-#      600: Resources/HumanEquipment/FloorBioFoamCanister.png
+#      600: Resources/HumanEquipment/FloorBioFoamCanister.png 
+
+
 ######################
       608: Resources/CovenantEquipment/FloorPlasmaRifle_noammo.png
       616: Resources/CovenantEquipment/FloorPlasmaRifle_ammo.png
@@ -1790,9 +1958,9 @@ extraSprites:
       704: Resources/CovenantEquipment/FloorNeedler_noammo.png
       712: Resources/CovenantEquipment/FloorNeedler_ammo.png
       720: Resources/CovenantEquipment/FloorNeedlerCanister.png
-#      728: Resources/CovenantEquipment/FloorNeedleRifle_noammo.png
-#      736: Resources/CovenantEquipment/FloorNeedleRifle_ammo.png
-#      744: Resources/CovenantEquipment/FloorNeedleRifleCanister.png
+      728: Resources/CovenantEquipment/FloorNeedleRifle_noammo.png
+      736: Resources/CovenantEquipment/FloorNeedleRifle_ammo.png
+      744: Resources/CovenantEquipment/FloorNeedleRifleCanister.png
 #      752: Resources/CovenantEquipment/FloorSpiker_noammo.png
 #      760: Resources/CovenantEquipment/FloorSpiker_ammo.png
 #      768: Resources/CovenantEquipment/FloorSpikerAmmo.png
@@ -1821,6 +1989,11 @@ extraSprites:
       952: Resources/CovenantEquipment/FloorMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/FloorMajorShieldGauntlet.png
 
+#     1400: Resources/Vehicles/BigM41Vulcan.png
+      1401: Resources/Vehicles/FloorChaingunWarthogWreck0.png
+      1402: Resources/Vehicles/FloorChaingunWarthogWreck1.png
+      1403: Resources/Vehicles/FloorChaingunWarthogWreck2.png
+      1404: Resources/Vehicles/FloorChaingunWarthogWreck3.png
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -1866,13 +2039,15 @@ extraSprites:
 #      544: Resources/HumanEquipment/HandM6SpartanLaserBattery.png
 #      552: Resources/HumanEquipment/HandM7057Flamethrower.png
 #      560: Resources/HumanEquipment/HandM7057FlamethrowerFuelTank.png
-#      568: Resources/HumanEquipment/HandFragGrenade.png
+      568: Resources/HumanEquipment/HandFragGrenade.png
 #      576: Resources/HumanEquipment/HandFlashbangGrenade.png
 #      584: Resources/HumanEquipment/HandMachete.png
       592: Resources/HumanEquipment/HandHealthPack.png
 #      600: Resources/HumanEquipment/HandBioFoamCanister.png
       968: Resources/HumanEquipment/HandM247Machinegun.png
       976: Resources/HumanEquipment/HandH165OrbitalStrike.png
+
+      #1400: Resources/Vehicles/BigM41Vulcan.png
 ######################
       608: Resources/CovenantEquipment/HandPlasmaRifle_noammo.png
       616: Resources/CovenantEquipment/HandPlasmaRifle_ammo.png
@@ -1885,8 +2060,8 @@ extraSprites:
 #      696: Resources/CovenantEquipment/HandPlasmaCarbineAmmo.png
       704: Resources/CovenantEquipment/HandNeedler_noammo.png
       712: Resources/CovenantEquipment/HandNeedler_ammo.png
-#      728: Resources/CovenantEquipment/HandNeedleRifle_noammo.png
-#      736: Resources/CovenantEquipment/HandNeedleRifle_ammo.png
+      728: Resources/CovenantEquipment/HandNeedleRifle_noammo.png
+      736: Resources/CovenantEquipment/HandNeedleRifle_ammo.png
 #      744: Resources/CovenantEquipment/HandNeedleRifleCanister.png
 #      752: Resources/CovenantEquipment/HandSpiker_noammo.png
 #      760: Resources/CovenantEquipment/HandSpiker_ammo.png
@@ -1959,6 +2134,15 @@ extraSprites:
       840: Resources/bulletSprites/Rocket.png #24
       875: Resources/bulletSprites/SpartanLaserBullet.png #25
       910: Resources/bulletSprites/SpikerBullet.png #26
+  - type: X1.PCK
+    height: 73
+    width: 1024
+    subX: 128
+    subY: 64
+    files:
+      200: Resources/hitAnimation/explosion_VP.png
+      210: Resources/hitAnimation/explosion_plasma_anna_wizard.png
+      220: Resources/hitAnimation/explosion_fuel_rod_anna_wizard.png
 
 extended:
   tags:

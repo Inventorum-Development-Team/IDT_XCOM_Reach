@@ -210,7 +210,8 @@ crafts:
       - STR_70MM_CHAINGUN_STRING
     fixedWeapons: ["STR_70MM_CHAINGUN_UC"]
     soldiers: 12
-    vehicles: 0
+    vehicles: 1
+    maxLargeSoldiers: 1
     costBuy: 900000
     costRent: 480000
     refuelRate: 1000
@@ -231,7 +232,7 @@ crafts:
           length: 20
     craftInventoryTile: [9, 9, 1]
     deployment:
-      - [9, 10, 1, 2]
+      - [9, 5, 1, 4 ] # Vehicle hardpoint
       - [11, 10, 1, 6]
       - [9, 11, 1, 2]
       - [11, 11, 1, 6]
@@ -280,10 +281,15 @@ crafts:
         - BD_PLANE
         - BD_OSPREY_ROTOR
         - ELEVATOR_TILES
+        - OBJECTIVE
       mapBlocks:
         - name: FALCON_DROPSHIP
           width: 20
           length: 20
+          height: 11
+          items:
+            STR_OBJECTIVE_BOMB: 
+             - [0,0,10]
     craftInventoryTile: [10, 12, 1]
     deployment:
       - [11, 11, 1, 2]
@@ -350,7 +356,7 @@ crafts:
 
 ######################
   - type: STR_FINAL_AIRPORT_SPAWN
-    soldiers: 12
+    soldiers: 20
     battlescapeTerrainData:
       name: FINAL_EVACUATION_ZONE
       mapDataSets:
@@ -610,7 +616,7 @@ items:
       ToArmor: 0.0
       ToItem: 0.0
       ToHealth: 0.0
-      ToTile: 244.0
+      ToTile: 255.0
       RadiusReduction: 0.0
       ToWound: 0
       RandomType: 3

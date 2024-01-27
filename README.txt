@@ -5,45 +5,48 @@ A small total conversion, focused on the Fall of Reach: a major battle in the Ha
 
 
 Credits:
-*efrenespartano: lead design, sprites and rulesets
-*Filip H: beta tester, ideas and scripts
-*Hans Woofington: beta tester, ideas and armor parts used in SPI paperdoll, ODST, army and marine fatigues paperdoll template.
-*Ikhanad: lead design, Pedia entries text
-*Kretus: UNSC weapon code and sprites
+* efrenespartano: lead design, sprites and rulesets
+* Filip H: beta tester, ideas and scripts
+* Hans Woofington: beta tester, ideas and armor parts used in SPI paperdoll, ODST, army and marine fatigues paperdoll template.
+* Ikhanad: lead design, Pedia entries text
+* Kretus: UNSC weapon code and sprites
 
--Meridian: ruleset reference, OXCE dev
--SupSuper: globe markers template, OXC dev
--Yankes: OXCE dev
--Warboy: OXC dev
+- Hobbes: Terrain Pack lead dev (https://github.com/Hobbes74/Terrain-Pack)
+- Meridian: ruleset reference, OXCE dev
+- SupSuper: globe markers template, OXC dev
+- Yankes: OXCE dev
+- Warboy: OXC dev
 
-*Alnoaht: beta tester
-*BaileyJIII: menu backgrounds
-*b1ackwolf: beta tester
-*Bohemond: Unit Sprite Studio and Globe Editor tools
-*bulletdesigner: original Pelican, Falcon, Shuttles tilesets (modified)
-*Buscher: tester
-*cfowler7: Evacuation mission background image
-*CMP Staff: geoscape textures, terrain files 
-*Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
-*Drakon: tester
-*Drages: Plasma and Needler hitAnimations
-*Grand-Lobster-King: All Grunts paperdolls (modified to fit OXC size and palettes)
-*InnerRyag & NRE Team: Jackal Shield Gauntlets, Sangheili & Jackal Corpse sprites, Covenant supply box tiles (modified)
-*Isaac Hannaford: conceptual art used on menu backgrounds
-*Kael Schwabauer: testers
-*Kenny Magnusson: conceptual art used on menu backgrounds
-*Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template, tester
-*liberation: original region data ruleset
-*LordHayabusa357: Marine report image
-*Martin O'Donnell: original Halo Reach, Halo 3 and Halo 3: ODST soundtrack
-*Michael Salvatori: Halo Reach, Halo 3 and Halo 3: ODST soundtrack
-*ohartenstein23: SPI spritesheets template
-*starslab: adapted Amiga fontset and ruleset
-*Stephen Rippy: original Halo Wars soundtrack
-*Tal'Raziid: tester
-*Wallz2296: All Sangheili paperdolls (modified to fit OXC size and palettes)
-*XOps: Covenant ship and craft tiles (changed color)
-*XROSS: UI ruleset template
+* Alnoaht: beta tester
+* anna_wizard: Plasma and Fuel Rod explosion animations
+* BaileyJIII: menu backgrounds
+* b1ackwolf: beta tester & Surface Base
+* Bohemond: Unit Sprite Studio and Globe Editor tools
+* bulletdesigner: original Pelican, Falcon, Shuttles tilesets (modified)
+* Buscher: tester
+* cfowler7: Evacuation mission background image
+* CMP Staff: geoscape textures, terrain files 
+* Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
+* Drakon: tester
+* Drages: Plasma and Needler hitAnimations
+* Grand-Lobster-King: All Grunts paperdolls (modified to fit OXC size and palettes)
+* InnerRyag & NRE Team: Jackal Shield Gauntlets, Sangheili & Jackal Corpse sprites, Covenant supply box tiles (modified)
+* Isaac Hannaford: conceptual art used on menu backgrounds
+* Kael Schwabauer: testers
+* Kenny Magnusson: conceptual art used on menu backgrounds
+* Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template, tester
+* liberation: original region data ruleset
+* LordHayabusa357: Marine report image
+* Martin O'Donnell: original Halo Reach, Halo 3 and Halo 3: ODST soundtrack
+* Michael Salvatori: Halo Reach, Halo 3 and Halo 3: ODST soundtrack
+* ohartenstein23: SPI spritesheets template
+* starslab: adapted Amiga fontset and ruleset
+* Stephen Rippy: original Halo Wars soundtrack
+* Tal'Raziid: tester
+* ValeriusPaipikus: explosion sprite
+* Wallz2296: All Sangheili paperdolls (modified to fit OXC size and palettes)
+* XOps: Covenant ship and craft tiles (changed color)
+* XROSS: UI ruleset template
 
 
 ==================================================

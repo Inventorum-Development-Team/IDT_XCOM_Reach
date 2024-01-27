@@ -1,0 +1,13 @@
+extraSprites:
+  - type: BIGOBS.PCK
+    files: #blank bigobs for invisible items
+      1000: Resources/Blank/1x1_NULL.png
+      1001: Resources/Blank/BigPlasmaGrenade_primednull.png
+
+  - type: X1.PCK
+    width: 512
+    height: 128
+    subX: 128
+    subY: 64
+    files: 
+      16: Resources/hitAnimation/BlankExplosion.png

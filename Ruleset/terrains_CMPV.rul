@@ -102,7 +102,79 @@ terrains:
       - name: AIRBASE31
         width: 20
         length: 20
-
+  - name: XBASE
+    mapDataSets:
+      - BLANKS
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+    script: SURFACE_BASE
+    mapBlocks:
+      - name: XBASE_00 # Access Lift
+        width: 10
+        length: 10
+      - name: XBASE_01 # Living Quarters
+        width: 10
+        length: 10
+      - name: XBASE_02 # Laboratory
+        width: 10
+        length: 10
+      - name: XBASE_03 # Workshop
+        width: 10
+        length: 10
+      - name: XBASE_04 # Small Radar
+        width: 10
+        length: 10
+      - name: XBASE_05 # Large Radar
+        width: 10
+        length: 10
+      - name: XBASE_06 # Missiles Defence
+        width: 10
+        length: 10
+      - name: XBASE_07 # General Stores
+        width: 10
+        length: 10
+      - name: XBASE_08 # Alien Containment
+        width: 10
+        length: 10
+      - name: XBASE_09 # Laser Defence
+        width: 10
+        length: 10
+      - name: XBASE_10 # Plasma Defence
+        width: 10
+        length: 10
+      - name: XBASE_11 # Fusion Ball Defence
+        width: 10
+        length: 10
+      - name: XBASE_12 # Grav Shield
+        width: 10
+        length: 10
+      - name: XBASE_13 # Mind Shield
+        width: 10
+        length: 10
+      - name: XBASE_14 # Psi- Lab
+        width: 10
+        length: 10
+      - name: XBASE_15 # Hyper-Wave Decoder
+        width: 10
+        length: 10
+      - name: XBASE_16 # Hangar NW Block
+        width: 10
+        length: 10
+      - name: XBASE_17 # Hangar NE Block
+        width: 10
+        length: 10
+      - name: XBASE_18 # Hangar SW Block
+        width: 10
+        length: 10
+      - name: XBASE_19 # Hangar SE Block
+        width: 10
+        length: 10
+      - name: XBASE_20 # Dirt Fill block
+        width: 10
+        length: 10
   - name: RICE_FARM # by IDT - Luke83
     script: RICE_FARM_SCRIPT
     mapDataSets:

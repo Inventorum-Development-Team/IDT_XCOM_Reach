@@ -3,12 +3,66 @@ facilities:
   - delete: STR_SMALL_RADAR_SYSTEM
   - delete: STR_LARGE_RADAR_SYSTEM
 
+  - type: STR_ACCESS_LIFT
+    connectorsDisabled: true
+
+  - type: STR_LIVING_QUARTERS
+    buildTime: 10
+    connectorsDisabled: true
+
+  - type: STR_LABORATORY
+    connectorsDisabled: true
+
+  - type: STR_WORKSHOP
+    connectorsDisabled: true
+
+  - type: STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 500000
+    buildTime: 5
+    monthlyCost: 10000
+    radarRange: 9999
+    hyper: true
+    radarChance: 50
+    sightRange: 9999
+    sightChance: 1000
+    connectorsDisabled: true    
+    mapName: XBASE_04
+  - type: STR_MISSILE_DEFENSES
+    spriteShape: 1
+    connectorsDisabled: true  
+  - type: STR_LASER_DEFENSES
+    spriteShape: 1
+    connectorsDisabled: true  
+  - type: STR_PLASMA_DEFENSES
+    spriteShape: 1
+    connectorsDisabled: true  
+  - type: STR_FUSION_BALL_DEFENSES
+    spriteShape: 1
+    connectorsDisabled: true
+  - type: STR_GRAV_SHIELD
+    spriteShape: 1
+    connectorsDisabled: true
+  - type: STR_MIND_SHIELD
+    spriteShape: 1
+    connectorsDisabled: true
+  - type: STR_HYPER_WAVE_DECODER
+    spriteShape: 1
+    connectorsDisabled: true
+####### Testing
+  - type: STR_GENERAL_STORES
+    storageTiles:
+      - [5, 5, 1]
+      - [7, 5, 1]
+      - [2, 1, 1]
+      - [1, 7, 0]
+    connectorsDisabled: true
+
   - type: STR_HANGAR
-    spriteShape: 9
-    spriteFacility: 9
     size: 2
     buildCost: 200000
-    buildTime: 25
+    buildTime: 12
     storage: 50
     monthlyCost: 25000
     crafts: 2
@@ -16,18 +70,11 @@ facilities:
       - [-10, 4, 0]
       - [10, -4, 0]
     mapName: XBASE_16
+    spriteShape: 9
+    spriteFacility: 9
     storageTiles:
-      - [0, 9, 0]
-
-  - type: STR_SMALL_RADAR_SYSTEM
-    spriteShape: 2
-    spriteFacility: 21
-    buildCost: 500000
-    buildTime: 12
-    monthlyCost: 10000
-    radarRange: 9999
-    hyper: true
-    radarChance: 50
-    sightRange: 9999
-    sightChance: 1000
-    mapName: XBASE_04
+      - [18, 17, 0]
+      - [17, 17, 0]
+      - [17, 18, 0]
+      - [18, 18, 0]   
+    connectorsDisabled: true

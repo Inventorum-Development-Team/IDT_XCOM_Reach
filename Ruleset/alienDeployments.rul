@@ -1,3 +1,10 @@
+startingConditions:
+  - type: STR_ASSASINATION
+    allowedCraft:
+      - STR_FALCON_DROPSHIP
+
+
+
 alienDeployments:
   - type: STR_BANSHEE_FIGHTER
     data:
@@ -10,7 +17,7 @@ alienDeployments:
           - []
     width: 40
     length: 40
-    height: 10
+    height: 11
     briefing:
       palette: 6
 #      textOffset: -36
@@ -28,7 +35,7 @@ alienDeployments:
           - []
     width: 40
     length: 40
-    height: 10
+    height: 11
     briefing:
       palette: 5
       #textOffset: -16
@@ -74,7 +81,7 @@ alienDeployments:
           - []
     width: 50
     length: 50
-    height: 10
+    height: 11
     briefing:
       palette: 5
       #textOffset: -16
@@ -127,7 +134,7 @@ alienDeployments:
           - []
     width: 50
     length: 50
-    height: 10
+    height: 11
     nextStage: STR_SDV_CLASS_HEAVY_CORVETTE_INTERIOR
     briefing:
       palette: 6
@@ -234,8 +241,8 @@ alienDeployments:
     script: ALIENBASE
     race: STR_UNGGOY_LANCE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE
 ###########################################
   - type: STR_CPV_CLASS_HEAVY_DESTROYER
     data:
@@ -283,7 +290,7 @@ alienDeployments:
           - []
     width: 50
     length: 50
-    height: 10
+    height: 11
     nextStage: STR_CPV_CLASS_HEAVY_DESTROYER_INTERIOR
     briefing:
       palette: 6
@@ -350,8 +357,8 @@ alienDeployments:
     script: ALIENBASE
     race: STR_STANDARD_LANCE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE
 
 #########################################
   - type: STR_CCS_CLASS_BATTLECRUISER
@@ -428,7 +435,7 @@ alienDeployments:
             - STR_PLASMA_GRENADE
     width: 50
     length: 50
-    height: 10
+    height: 11
     nextStage: STR_CCS_CLASS_BATTLECRUISER_INTERIOR
     briefing:
       palette: 6
@@ -524,8 +531,8 @@ alienDeployments:
     script: ALIENBASE
     race: STR_SANGHEILI_LANCE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE
 ##############################################
   - type: STR_CAS_CLASS_ASSAULT_CARRIER
     data:
@@ -576,7 +583,7 @@ alienDeployments:
           - []
     width: 50
     length: 50
-    height: 10
+    height: 11
     nextStage: STR_CAS_CLASS_ASSAULT_CARRIER_INTERIOR
     briefing:
       palette: 6
@@ -657,8 +664,8 @@ alienDeployments:
     script: ALIENBASE
     race: STR_SANGHEILI_LANCE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_NAVIGATION_SYSTEMS_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_NAVIGATION_SYSTEMS_DISABLED_POPUP
 
 #####################################
 
@@ -737,9 +744,17 @@ alienDeployments:
       - INDUSTRIALSLUM
       - REFINERY
       - INDUSTRIALSLUM
-      - IDT_VILLAGE
-      - RURAL
+      - POLIS
+      - APARTMENT
       - IDT_AIRPORT
+      - MADCITY
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
+      - DOWNTOWN
+      - DOWNTOWN
+      - AIRFIELD1
+      - AIRFIELD2
+      - AIRFIELD3
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -750,9 +765,14 @@ alienDeployments:
     despawnPenalty: 1000
     width: 50
     length: 50
-    height: 10
+    height: 11
 
-  - type: STR_ALIEN_BASE_ASSAULT
+  - type: STR_BASE_DEFENSE
+    height: 6
+
+
+  #- delete: STR_ALIEN_BASE_ASSAULT
+  - type: STR_COVENANT_SPIRE_DEPLOYMENT
     data:
       - alienRank: 7
         lowQty: 2
@@ -860,22 +880,47 @@ alienDeployments:
             - STR_PLASMA_GRENADE
           -
             - STR_PLASMA_GRENADE
-    width: 20
+    width: 60
     length: 60
-    height: 2
+    height: 15
+    civiliansByType:
+      STR_ODST_INFANTRY: 2
+      STR_MARINE_RIFLEMAN: 2
+      STR_MARINE_ASSAULT: 2
+      STR_MARINE_SUPPORT: 1
+      STR_MARINE_MEDIC: 1
+      STR_MARINE_OFFICER: 1
+    customUfo: STR_COVENANT_SPIRE
     briefing:
       palette: 6
       #textOffset: -16
       background: BACK16.SCR
+      desc: STR_COVENANT_SPIRE_BRIEFING
       showTarget: true
       showCraft: true
     terrains:
-      - UBASE
-    shade: 7
-    script: ALIENBASE
+      - DESERT_GRASSLAND
+      - DESERT_SAVANNA
+      - DESERT_STEPPE
+      - DESERT_MOUNT_GRASSLAND
+      - DESERT_MOUNT_SAVANNA
+      - DESERT_MOUNT_STEPPE
+      - FOREST_GRASSLAND
+      - FOREST_SAVANNA
+      - FOREST_STEPPE
+      - FOREST_MOUNT_GRASSLAND
+      - FOREST_MOUNT_SAVANNA
+      - FOREST_MOUNT_STEPPE
+    #shade: 7
+    #script: ALIENBASE
     objectiveType: 3
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_COVENANT_SPIRE_DISABLED_COMPLETE, 500]
+    objectivePopup: STR_COVENANT_SPIRE_DISABLED_POPUP
+    alert: STR_COVENANT_SPIRE_ALERT
+    markerName: STR_COVENANT_SPIRE_MARKERNAME
+    markerIcon: 7
+    duration: [999, 999]
+    despawnPenalty: 1000
 
 #####################################
 
@@ -1072,7 +1117,7 @@ alienDeployments:
              - []
     width: 60
     length: 60
-    height: 10
+    height: 11
     finalDestination: true
     loseCutscene: loseGame
     abortCutscene: loseGame
@@ -1107,3 +1152,41 @@ alienDeployments:
     civilianSpawnNodeRank: 1
     turnLimit: 7
     chronoTrigger: 2
+
+
+
+  - type: STR_INSURGENT_ASSASINATION
+    data:
+      - alienRank: 5
+        lowQty: 15
+        highQty: 25
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          - []
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          - []
+          - []
+    civilians: 0 # no random civilians
+    terrains:
+      - INDUSTRIAL
+    alert: STR_INSURGENT_ASSASINATION
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 3
+      music: GMENBASE
+    markerName: STR_ASSASINATION_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+    startingCondition: STR_ASSASINATION
+    width: 50
+    length: 50
+    height: 11
+    objectiveType: 8
+    objectivePopup: STR_OBJECTIVE_COMPLETED
+    objectivesRequired: 1

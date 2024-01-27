@@ -1,3 +1,34 @@
+26-January-2024: v1.0
+Changes made:
+* Updated to OXCE v7.11
+* Added Terrain Pack terrains, originally made by Hobbes
+* Added MJOLNIR Mark V[B] Armor with shielding, exclusively for SPARTAN-IIIs; sprites by efrenespartano, Hans Woofington and Kretus
+* Added UNSC Surface Base, by b1ackwolf & efrenespartano
+* Added new Covenant units, active camo script by Filip-H:
+- Sangheili: Stealth, SpecOps, Shipmaster, Fleetmaster
+* Added Covenant Weapons, by Kretus 
+- Type-51 Needle Rifle 
+* Added M12 Warthog as 2x2 armor, with built-in M41 Chaingun 
+* Replaced vanilla Alien Base with Covenant Spire map after a successful infiltration
+* Decreased TU cost of M7 SMG to increase the rate of fire
+* Reduced cost of Target Locator from 5 million to 1 million
+* Nerfed Needler damage (was 35, now 30), increased TU costs
+* Rebalanced Grunts, Elites and Jackals stats (reduced reactions, health in regular units, buffed stats on Ultras and Zealots)
+* Increased hitAnimation speed on Plasma Rifle and Plasma Repeater
+* Added custom ranks for all UNSC units
+* Solved issues with several Covenant maps
+* New cursor sprites, Halo Wars style
+* Battle Rifle now behaves like a shotgun and consumes 3 bullets per shot, updated sound effects
+* Recolored Base Sprites to green, added Medikits and Armor Abilities to starting base
+* Disabled hiring of Scientists and Engineers
+* Increased height of the alienDeployments to avoid crashes with Ship Gravlift mapBlock, reported by Generic_Scout
+* Increased damage done to shields on SRS-99 Sniper Rifle from 100% to 250%
+* Reduced M7 SMG effective range, reduced TU cost, increased close-quarters accuracy; suggested by Generic_Scout
+* Reduced accuracy dropoff of M247H Machine Gun from 20 to 2, increased damage by 70, by Kretus; suggested by Generic_Scout
+* Increased Energy Sword damage to shields from 200% to 300%
+* Added new explosion animations to UNSC and Covenant Artillery & Grenades
+* Minor bugfixing
+
 23-Oct-2023 v0.3
 Changes made: 
 * Updated to OXCE v7.9.8
@@ -39,6 +70,7 @@ Changes made:
 *Added missing Covenant weapon Pedia text
 *Changed fontset
 *reworked final mission reinforcements, fixed issue where they spawned as civilians, by Filip-H
+
 25-Jan-2022 v0.1 Open Beta
 Changes made:
 *Updated to OXCE v7.4.4

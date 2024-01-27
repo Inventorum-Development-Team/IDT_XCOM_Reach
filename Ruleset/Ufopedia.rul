@@ -96,6 +96,26 @@ ufopaedia:
   #   type_id: 5
   #   section: STR_UNSC_ARMORS
   #   text: STR_SPI_ARMOR_UFOPEDIA
+
+  - id: STR_MJOLNIR_ARMOR_UC
+    type_id: 5
+    section: STR_UNSC_ARMORS
+    text: STR_MJOLNIR_ARMOR_UC_UFOPEDIA
+
+  - id: STR_MJOLNIR_MKVB_ARMOR
+    type_id: 7
+    section: STR_ARMOR_ABILITIES_UC
+    image_id: MJOLNIR_MKVB_ARMOR_IMAGE
+    text: STR_MJOLNIR_MKVB_ARMOR_UFOPEDIA
+    text_width: 135
+
+  - id: STR_ENERGY_SHIELDS
+    type_id: 7
+    section: STR_ARMOR_ABILITIES_UC
+    image_id: ENERGY_SHIELDS_IMAGE
+    text: STR_ENERGY_SHIELDS_UFOPEDIA
+    text_width: 135
+
 ##############
   - id: STR_ARMOR_ODST_UC
     type_id: 5
@@ -135,6 +155,15 @@ ufopaedia:
     type_id: 5
     section: STR_UNSC_ARMORS
     text: STR_ARMOR_ARMY_TROOPER_UFOPEDIA
+
+  - id: STR_CHAINGUN_WARTHOG_ARMOR
+    type_id: 5
+    section: STR_UNSC_ARMORS
+    text: STR_CHAINGUN_WARTHOG_ARMOR_UFOPEDIA 
+  - id: STR_M41_VULCAN_CHAINGUN
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    text: STR_M41_VULCAN_CHAINGUN_UFOPEDIA    
 ####################
 #### WEAPONS ######
 ##################
@@ -256,6 +285,10 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_H165_ORBITAL_STRIKE_UFOPEDIA
+  - id: STR_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GRENADE_UFOPEDIA
 ####################
 ##### SHIPS #######
 ##################
@@ -423,6 +456,10 @@ ufopaedia:
 ###############################
 ##### COVENANT WEAPONS #######
 ##############################
+  - id: STR_PLASMA_GHOST_CANNON
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_PLASMA_GHOST_CANNON_UFOPEDIA
   - id: STR_PLASMA_RIFLE_ELITE
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
@@ -442,6 +479,13 @@ ufopaedia:
     section: STR_ALIEN_ARTIFACTS
     text: STR_PLASMA_CARBINE_UFOPEDIA
   - id: STR_PLASMA_CARBINE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_NEEDLE_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_NEEDLE_RIFLE_UFOPEDIA
+  - id: STR_NEEDLE_RIFLE_CANISTER
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_PLASMA_REPEATER
@@ -479,10 +523,10 @@ ufopaedia:
   - id: STR_ENERGY_SWORD
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
+    text: STR_ENERGY_SWORD_UFOPEDIA
   - id: STR_ENERGY_SWORD_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
-    text: STR_ENERGY_SWORD_UFOPEDIA
   - id: STR_MINOR_SHIELD_GAUNTLET
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
@@ -512,12 +556,12 @@ ufopaedia:
     image_id: ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE
     text: STR_CAMO_SKILL_UFOPEDIA
     text_width: 135
-  - id: STR_DROP_SHIELD_SKILL
-    type_id: 7
-    section: STR_ARMOR_ABILITIES_UC
-    image_id: ARMOR_ABILITY_DROP_SHIELD_IMAGE
-    text: STR_DROP_SHIELD_SKILL_UFOPEDIA
-    text_width: 135
+  # - id: STR_DROP_SHIELD_SKILL
+  #   type_id: 7
+  #   section: STR_ARMOR_ABILITIES_UC
+  #   image_id: ARMOR_ABILITY_DROP_SHIELD_IMAGE
+  #   text: STR_DROP_SHIELD_SKILL_UFOPEDIA
+  #   text_width: 135
   - id: STR_HOLO_SKILL
     type_id: 7
     section: STR_ARMOR_ABILITIES_UC
@@ -529,6 +573,12 @@ ufopaedia:
     section: STR_ARMOR_ABILITIES_UC
     image_id: ARMOR_ABILITY_SHIELD_LOCK_IMAGE
     text: STR_LOCK_SKILL_UFOPEDIA
+    text_width: 135
+  - id: STR_JETPACK_SKILL
+    type_id: 7
+    section: STR_ARMOR_ABILITIES_UC
+    image_id: ARMOR_ABILITY_JETPACK_REPORT_IMAGE
+    text: STR_JETPACK_SKILL_UFOPEDIA
     text_width: 135
 
 extraSprites:
@@ -559,6 +609,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/ARMY_TROOPER_REPORT_IMAGE.PNG
+  - type: MJOLNIR_MKVB_ARMOR_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/MJOLNIR_MKVB_ARMOR_IMAGE.PNG
+  - type: ENERGY_SHIELDS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ENERGY_SHIELDS_IMAGE.PNG
 ###########################
   - type: ARMOR_ABILITY_IMAGE
     singleImage: true
@@ -602,6 +664,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/ARMOR_ABILITY_ACTIVE_CAMO_REPORT_IMAGE.PNG
+  - type: ARMOR_ABILITY_JETPACK_REPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Pedia/ARMOR_ABILITY_JETPACK_REPORT_IMAGE.PNG
 ###########################
   - type: ELITE_MINOR_REPORT_IMAGE
     singleImage: true
