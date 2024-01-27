@@ -1,7 +1,8 @@
-X-Nov-2023 v0.4
+26-January-2024: v1.0
 Changes made:
 * Added Terrain Pack terrains, originally made by Hobbes
 * Added MJOLNIR Mark V[B] Armor with shielding, exclusively for SPARTAN-IIIs; sprites by efrenespartano, Hans Woofington and Kretus
+* Added UNSC Surface Base, by b1ackwolf & efrenespartano
 * Added new Covenant units, active camo script by Filip-H:
 - Sangheili: Stealth, SpecOps, Shipmaster, Fleetmaster
 * Added Covenant Weapons, by Kretus 
@@ -24,6 +25,7 @@ Changes made:
 * Reduced M7 SMG effective range, reduced TU cost, increased close-quarters accuracy; suggested by Generic_Scout
 * Reduced accuracy dropoff of M247H Machine Gun from 20 to 2, increased damage by 70, by Kretus; suggested by Generic_Scout
 * Increased Energy Sword damage to shields from 200% to 300%
+* Added new explosion animations to UNSC and Covenant Artillery & Grenades
 * Minor bugfixing
 
 23-Oct-2023 v0.3
