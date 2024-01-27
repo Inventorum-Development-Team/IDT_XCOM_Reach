@@ -775,7 +775,7 @@ alienDeployments:
   - type: STR_COVENANT_SPIRE_DEPLOYMENT
     data:
       - alienRank: 7
-        lowQty: 2
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 70
@@ -787,7 +787,7 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
       - alienRank: 6
-        lowQty: 2
+        lowQty: 1
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 50
@@ -799,8 +799,8 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
       - alienRank: 5
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 5
         dQty: 1
         percentageOutsideUfo: 50
         itemSets:
@@ -811,8 +811,8 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
       - alienRank: 4
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 5
         dQty: 1
         percentageOutsideUfo: 50
         itemSets:
@@ -825,8 +825,8 @@ alienDeployments:
             - STR_PLASMA_GRENADE
             - STR_PLASMA_GRENADE
       - alienRank: 3
-        lowQty: 5
-        highQty: 10
+        lowQty: 2
+        highQty: 5
         dQty: 1
         percentageOutsideUfo: 25
         itemSets:
@@ -839,8 +839,8 @@ alienDeployments:
             - STR_PLASMA_GRENADE
             - STR_PLASMA_GRENADE
       - alienRank: 2
-        lowQty: 5
-        highQty: 10
+        lowQty: 3
+        highQty: 6
         dQty: 1
         percentageOutsideUfo: 25
         itemSets:
@@ -853,8 +853,8 @@ alienDeployments:
           -
             - STR_PLASMA_GRENADE
       - alienRank: 1
-        lowQty: 2
-        highQty: 4
+        lowQty: 1
+        highQty: 2
         dQty: 1
         percentageOutsideUfo: 0
         itemSets:
