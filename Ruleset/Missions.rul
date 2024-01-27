@@ -128,7 +128,7 @@ missionScripts:
     randomDelay: 43500
     targetBaseOdds: 100
     #minScore: 1000
-    firstMonth: 1
+    firstMonth: 0
     useTable: false
 
 alienMissions:
@@ -314,12 +314,6 @@ alienMissions:
         trajectory: P2
         timer: 1440
         huntMode: 0
-      - ufo: STR_SERAPH_FIGHTER
-        count: 3
-        trajectory: P2
-        timer: 5000
-        huntMode: 1
-        escort: true
 
   - type: STR_CAMPAIGN_FINAL_EVACUATION_MISSION
     points: 10
