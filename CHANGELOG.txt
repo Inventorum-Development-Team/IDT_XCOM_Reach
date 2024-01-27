@@ -1,4 +1,4 @@
-27-January-2024: v1.0
+X-January-2024: v1.0
 Changes made:
 * Updated to OXCE v7.11
 * Added Terrain Pack terrains, originally made by Hobbes & collaborators
@@ -27,6 +27,7 @@ Changes made:
 * Reduced accuracy dropoff of M247H Machine Gun from 20 to 2, increased damage by 70, by Kretus; suggested by Generic_Scout
 * Increased Energy Sword damage to shields from 200% to 300%
 * Added new explosion animations to UNSC and Covenant Artillery & Grenades
+* Fixed droppods and gravlift tile issues, reported by Rclipse
 * Minor bugfixing
 
 23-Oct-2023 v0.3
