@@ -1,6 +1,6 @@
 name: "Reach: The Fall"
 version: "1.0"
-author: "efrenespartano, Filip-H, Hans Woofington, Ikhanad , Kretus + IDT"
+author: "Inventorum Development Team + B1ackwolf"
 description: "2252. The last human fortress among the stars... is now under siege."
 id: Halo_Mod
 isMaster: true
@@ -8,5 +8,5 @@ master: xcom1
 loadResources:
   - UFO
 reservedSpace: 5
-requiredExtendedVersion: "7.4.4"
+requiredExtendedVersion: "7.9.8"
 resourceConfig: transparency.rul
