@@ -1215,3 +1215,166 @@ alienDeployments:
     objectiveType: 8
     objectivePopup: STR_RETREAT_ORDERED
     objectivesRequired: 1
+    race: STR_STANDARD_LANCE
+    reinforcements:
+      - type: FIRST_WAVE
+        briefing: 
+          desc: STR_AA_FIRST_WAVE_BRIEFING
+        turns: [3]
+        data:
+          - alienRank: 5 #soldier
+            lowQty: 7
+            highQty: 10
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 4 #Navigator
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 3 #Medic
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 2 #Engineer
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 1 #Leader
+            lowQty: 0
+            highQty: 0
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 6 #Terrorist
+            lowQty: 0
+            highQty: 0
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+
+
+      - type: SECOND_WAVE
+        briefing: 
+          desc: STR_AA_SECOND_WAVE_BRIEFING
+        turns: [5]
+        data:
+          - alienRank: 5 #soldier
+            lowQty: 10
+            highQty: 15
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 4 #Navigator
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 3 #Medic
+            lowQty: 1
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 2 #Engineer
+            lowQty: 2
+            highQty: 3
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 1 #Leader
+            lowQty: 3
+            highQty: 6
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 6 #Terrorist
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+
+
+      - type: THIRD_WAVE
+        turns: [6]
+        data:
+          - alienRank: 5 #soldier
+            lowQty: 0
+            highQty: 0
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 4 #Navigator
+            lowQty: 4
+            highQty: 8
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 3 #Medic
+            lowQty: 2
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 2 #Engineer
+            lowQty: 0
+            highQty: 0
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 1 #Leader
+            lowQty: 0
+            highQty: 0
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
+          - alienRank: 6 #Terrorist
+            lowQty: 0
+            highQty: 0
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+             - []
