@@ -10,6 +10,7 @@ Credits:
 * Hans Woofington: beta tester, ideas and armor parts used in SPI paperdoll, ODST, army and marine fatigues paperdoll template.
 * Ikhanad: lead design, Pedia entries text
 * Kretus: UNSC weapon code and sprites
+* wethan2: debugging support
 
 - Hobbes: Terrain Pack lead dev (https://github.com/Hobbes74/Terrain-Pack)
 - Meridian: ruleset reference, OXCE dev
@@ -30,8 +31,10 @@ Credits:
 * Drakon: tester
 * Drages: Plasma and Needler hitAnimations
 * Grand-Lobster-King: All Grunts paperdolls (modified to fit OXC size and palettes)
+* himalayan rock salt overdose: tester
 * InnerRyag & NRE Team: Jackal Shield Gauntlets, Sangheili & Jackal Corpse sprites, Covenant supply box tiles (modified)
 * Isaac Hannaford: conceptual art used on menu backgrounds
+* jamesbrand97: tester
 * Kael Schwabauer: testers
 * Kenny Magnusson: conceptual art used on menu backgrounds
 * Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template, tester

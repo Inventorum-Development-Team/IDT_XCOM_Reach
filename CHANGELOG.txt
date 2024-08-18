@@ -1,5 +1,6 @@
 18-August-2024: v1.1
 Changes made:
+* Updated to OXCE v7.13
 * Solved fatal crash with gravlift on Spire missions, by wethan2
 * Small buff to Grunts bravery, suggested by himalayan rock salt overdose & jamesbrand97
 - Minor: 20 to 30
