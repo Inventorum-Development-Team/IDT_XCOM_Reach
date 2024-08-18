@@ -670,7 +670,7 @@ items:
     tuAuto: 10
     accuracyCloseQuarters: 100
     tuLoad: 20
-    maxRange: 60
+    maxRange: 70
     dropoff: 1
     kneelBonus: 125
     costThrow:
@@ -1510,6 +1510,16 @@ items:
     accuracySnap: 45
     tuAimed: 40             #
     tuSnap: 20
+    tuMelee: 15
+    accuracyMelee: 70
+    meleeAnimation: 150
+    meleePower: 100
+    meleeAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.6
+      ToMorale: 1.0
+      ToMana: 1.5
     confAimed:
       spendPerShot: 8        # 4x battery consumption for 2x power
       name: STR_SUPERCOMBINED
@@ -1601,6 +1611,7 @@ items:
       ToArmorPre: 0.5
       ToMorale: 1.2
       ToMana: 1.6
+      ToStun: 0.5
     damageType: 5
     clipSize: 100
     battleType: 2

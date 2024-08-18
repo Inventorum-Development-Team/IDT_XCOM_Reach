@@ -1,3 +1,15 @@
+18-August-2024: v1.1
+Changes made:
+* Solved fatal crash with gravlift on Spire missions, by wethan2
+* Small buff to Grunts bravery, suggested by himalayan rock salt overdose & jamesbrand97
+- Minor: 20 to 30
+- Major: 30 to 40 
+- Heavy: 40 to 45
+- Ultra: 60 to 70
+* Added melee attack on Needler, suggested by himalayan rock salt overdose & jamesbrand97
+* Plasma Pistol does 50% of stun damage
+* Small buff to M7S SMG effective range, suggestd by jamesbrand97
+
 01-February-2024: v1.0
 Changes made:
 * Updated to OXCE v7.11
