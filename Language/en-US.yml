@@ -431,6 +431,17 @@ en-US:
   STR_GHOST_CORPSE: "Type-32 'Ghost' Wreck"
   STR_GHOST_UNGGOY_TERRORIST: "Type-32 'Ghost' RAV"
   STR_GHOST_SANGHEILI_TERRORIST: "Type-32 'Scout Shield Ghost' RAV"
+
+  STR_INSURGENTS: "Insurrectionists"
+  STR_INSURGENT_HEAVY: "Innie Heavy"
+  STR_ARMOR_INSURGENT_UC: "Insurrectionist BDU"
+  STR_INSURGENT_MEDIUM: "Innie Rifleman"
+  STR_ARMOR_INSURGENT_MEDIUM_UC: "Insurrectionist BDU"
+  STR_INSURGENT_LIGHT: "Innie Bodyguard"
+  STR_ARMOR_INSURGENT_LIGHT_UC: "Insurrectionist BDU"
+  STR_INSURGENT_LEADER: "Innie Leader"
+  STR_ARMOR_INSURGENT_LEADER_UC: "Traitor Helljumper BDU"
+
 #####################
   STR_BANSHEE_FIGHTER: "Banshee Fighter Wing"
   STR_SERAPH_FIGHTER: "Seraph Fighter"
@@ -540,25 +551,34 @@ en-US:
   GMMARS: "Through Your Hoops"
 #####################
   STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT: "Battle of Sigma Octanus IV"
-  STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_DESCRIPTION: "A major victory for the UNSC has just taken place on the fourth planet of the Sigma Octanus system. The enemy force jumped into the system cloaked, but the brave action of the UNSC destroyer Iroquois allowed more time for a fleet of 48 Navy ships, which engaged a Covenant fleet in an impressive naval battle. UNSC troops and a SPARTAN-II squadron managed to maintain control of the planet's surface. This victory is certainly as important as the Liberation of Harvest."
-  STR_WINTER_CONTINGENCY_EVENT: "WINTER CONTIGENCY Activated."
-  STR_WINTER_CONTINGENCY_EVENT_DESCRIPTION: "The Army's special operations squad, NOBLE Team, has confirmed the presence of Covenant forces in Reach. This corroborates the sighting of several unknown signals in other parts of the planet. All military forces have been mobilized to counterattack the enemy before they can establish a beachhead."
+  STR_BATTLE_OF_SIGMA_OCTANUS_IV_EVENT_DESCRIPTION: "A major victory for the UNSC has taken place on the fourth planet of the Sigma Octanus system. The enemy entered the system cloaked, but the valor of the UNSC destroyer Iroquois bought enough time for a fleet of 48 Navy ships to engage the Covenant in an intense naval battle. UNSC ground forces and a SPARTAN-II squad successfully maintained control of the planet’s surface. This victory is considered as significant as the Liberation of Harvest."
+
+  STR_WINTER_CONTINGENCY_EVENT: "WINTER CONTINGENCY Activated."
+  STR_WINTER_CONTINGENCY_EVENT_DESCRIPTION: "The Army’s special operations unit, NOBLE Team, has confirmed the presence of Covenant forces on Reach. Their report corroborates multiple unidentified sensor readings observed across the planet. All military forces have been mobilized for counterattack before the enemy can establish a permanent foothold."
+
   STR_BATTLE_SZURDOK_RIDGE_EVENT: "Battle of Szurdok Ridge"
-  STR_BATTLE_SZURDOK_RIDGE_EVENT_DESCRIPTION: "A long offensive has taken place on the plains of Ütközet, where the presence of tower-like Covenant structures known as 'Spires' has been confirmed. The purpose of these is unknown, although it is believed to project an energy shield protecting enemy camps and forward bases. Our troops achieved a tactical victory, but the Covenant unveiled their presence on the planet, a CSO-class Super Carrier. Alternatives to combat this capital ship are being analyzed."
+  STR_BATTLE_SZURDOK_RIDGE_EVENT_DESCRIPTION: "A large-scale offensive has occurred across the plains of Ütközet, where several tower-like Covenant structures, known as 'Spires,' have been confirmed. Their exact purpose remains unknown, but evidence suggests they generate powerful energy shields protecting enemy encampments. Although our troops achieved a tactical victory, the Covenant revealed the presence of a CSO-class Supercarrier in orbit. Countermeasures against this capital ship are under review."
+
   STR_OPERATION_UPPER_CUT_EVENT: "Operation UPPER CUT"
-  STR_OPERATION_UPPER_CUT_EVENT_DESCRIPTION: "Through a daring raid on the CSO-class Super Carrier by NOBLE Team and Army airmen, the impressive enemy warship was successfully destroyed. A slipspace breach within the CSO was confirmed. However, shortly thereafter reports came in of numerous Covenant ships jumping directly over the planet. We should prepare for the worst."
-  STR_EVACUATION_EFFORTS_ONGOING_EVENT: "Evacuation efforts underway"
-  STR_EVACUATION_EFFORTS_ONGOING_EVENT_DESCRIPTION: "Civilian evacuation ships, escorted by the Navy, have managed to get numerous citizens off the planet out of the war zones. The enemy is particularly keen to shoot them down, but our efforts controlling Reach airspace have enabled such evacuation operations. Keep it up! Our fighters clear the way."
-  STR_EVACUATION_HALTED_EVENT: "Evacuations cancelled at {0}"
-  STR_EVACUATION_HALTED_EVENT_DESCRIPTION: "The evacuation post set up by UNSC armed forces has been overrun by Covenant infantry and their defenses overwhelmed. There are reports of a Heavy Corvette that has been shooting down evacuation ferries leaving the area. High Command has cancelled evacuations from this point until further notice."
-  STR_UNSC_FLEET_INCOMING_EVENT: "UNSC Fleet en route"
-  STR_UNSC_FLEET_INCOMING_EVENT_DESCRIPTION: "As of two days ago, High Command has ordered 60% of the fleets near the Epsilon Eridani system to return to Reach and support in planetary defense. They are expected to arrive in the next few hours, although the difficulties and low accuracy of the slipspace jumps complicate the coordination of the newly arrived ships."
-  STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT: "UNSC forces engaging the enemy."
-  STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_DESCRIPTION: "According to the WINTER CONTIGENCY, our infantry and armored forces are engaged in intense combat across the planet's surface. Tactical withdrawals are not ceasing, but at least we are keeping the Covenant at bay."
-  STR_COVENANT_GLASSING_EVENT: "Covenant ships glass {0}"
-  STR_COVENANT_GLASSING_EVENT_DESCRIPTION: "All communication has been lost with UNSC garrisons in the city. Latest reports confirm the sighting of multiple CSS-class Battlecruisers above the urban core, as well as high levels of plasma radiation. This confirms that the city has been glassed. Casualties are yet unknown."
-  STR_COVENANT_FLEET_INCOMING_EVENT: "Slipspace ruptures detected."
-  STR_COVENANT_FLEET_INCOMING_EVENT_DESCRIPTION: "Our long-range sensors have detected a huge signal coming from delayspace. A gigantic fleet has jumped into the system, the likes of which we have never seen before. Our ships are overwhelmed and the Orbital Defense Platforms are not enough to keep the Covenant at bay. It is possible that the planet is on the verge of collapse."
+  STR_OPERATION_UPPER_CUT_EVENT_DESCRIPTION: "Through a daring joint operation led by NOBLE Team and UNSC Air Force personnel, the CSO-class Supercarrier was successfully destroyed. A slipspace rupture within the vessel was confirmed, eliminating the ship entirely. However, moments later, multiple Covenant signatures were detected entering the system from slipspace directly above Reach. High Command advises all forces to prepare for planetary-scale engagement."
+
+  STR_EVACUATION_EFFORTS_ONGOING_EVENT: "Evacuation Efforts Underway"
+  STR_EVACUATION_EFFORTS_ONGOING_EVENT_DESCRIPTION: "Evacuation convoys escorted by the Navy have successfully transported thousands of civilians out of active war zones. Despite heavy Covenant attacks on fleeing transports, aerial superiority over Reach has allowed continued rescue operations. Maintain pressure on enemy interceptor groups and keep flight corridors clear for civilian ships."
+
+  STR_EVACUATION_HALTED_EVENT: "Evacuations Cancelled at {0}"
+  STR_EVACUATION_HALTED_EVENT_DESCRIPTION: "The evacuation post established by UNSC forces has been overrun by Covenant infantry, and defenses have been completely overwhelmed. A heavy Covenant Corvette has been targeting civilian ferries leaving the area, inflicting significant losses. High Command has ordered the immediate suspension of evacuation operations from this location until further notice."
+
+  STR_UNSC_FLEET_INCOMING_EVENT: "UNSC Fleet En Route"
+  STR_UNSC_FLEET_INCOMING_EVENT_DESCRIPTION: "Two days ago, High Command ordered 60 percent of all fleet assets within the Epsilon Eridani sector to redeploy to Reach for planetary defense. Arrival is expected within several hours, although slipspace timing errors and navigation interference have complicated coordination of the incoming task forces."
+
+  STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT: "UNSC Forces Engaged in Combat"
+  STR_UNSC_FORCES_ENGAGED_IN_COMBAT_EVENT_DESCRIPTION: "Under the WINTER CONTINGENCY protocols, UNSC infantry, armor, and air units are engaged in fierce combat across multiple planetary fronts. Tactical retreats continue where needed, yet defenders remain steadfast. For now, our forces are holding the Covenant lines at bay."
+
+  STR_COVENANT_GLASSING_EVENT: "Covenant Ships Glass {0}"
+  STR_COVENANT_GLASSING_EVENT_DESCRIPTION: "All communication has been lost with UNSC garrisons in the city. Final transmissions reported multiple CSS-class Battlecruisers entering low orbit over the urban center, followed by extreme plasma radiation readings. This confirms that the city has been glassed. Casualty figures remain unconfirmed."
+
+  STR_COVENANT_FLEET_INCOMING_EVENT: "Slipspace Ruptures Detected."
+  STR_COVENANT_FLEET_INCOMING_EVENT_DESCRIPTION: "Long-range sensors have detected a massive energy signature originating from slipspace. A Covenant fleet of unprecedented scale has arrived within the system. UNSC naval forces are being overwhelmed, and the Orbital Defense Platforms are failing to contain the assault. It is increasingly likely that Reach’s fall is imminent."
 #####################
   STR_CENTER_ON_SITE_TIME_5_SECONDS: "CENTER ON SITE-TIME=5 Secs"
   STR_CANCEL_UC: "CANCEL"
