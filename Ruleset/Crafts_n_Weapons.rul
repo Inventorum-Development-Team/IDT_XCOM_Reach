@@ -32,11 +32,15 @@ crafts:
         - BLANKS
         - SOEIV_DROPPOD
         - SOEIV_DROPPOD_BITS
+        - OBJECTIVE
       mapBlocks:
         - name: PARIS_FRIGATE_DROPPODS
           width: 10
           length: 20
+          height: 11
           items:
+            STR_OBJECTIVE_BOMB: 
+              - [0,0,10]
             STR_DROPPOD_BOMB:
               - [1, 4, 0]
               - [4, 1, 0]
@@ -93,11 +97,15 @@ crafts:
         - BLANKS
         - SOEIV_DROPPOD
         - SOEIV_DROPPOD_BITS
+        - OBJECTIVE
       mapBlocks:
         - name: CHARON_FRIGATE_DROPPODS
           width: 20
           length: 20
+          height: 11
           items:
+            STR_OBJECTIVE_BOMB: 
+             - [0,0,10]
             STR_DROPPOD_BOMB:
               - [1, 2, 0]
               - [6, 1, 0]
@@ -226,10 +234,15 @@ crafts:
         - PELICAN_COCKPIT
         - PELICAN_CARGO_BAY
         - ELEVATOR_TILES
+        - OBJECTIVE
       mapBlocks:
         - name: PELICAN_DROPSHIP
           width: 20
           length: 20
+          height: 11
+          items:
+            STR_OBJECTIVE_BOMB: 
+             - [0,0,10]
     craftInventoryTile: [9, 9, 1]
     deployment:
       - [9, 5, 1, 4 ] # Vehicle hardpoint
@@ -337,10 +350,15 @@ crafts:
         - BD_PLANE
         - BD_OSPREY_ROTOR
         - ELEVATOR_TILES
+        - OBJECTIVE
       mapBlocks:
         - name: FALCON_GUNSHIP
           width: 20
           length: 20
+          height: 11
+          items:
+            STR_OBJECTIVE_BOMB: 
+             - [0,0,10]
     craftInventoryTile: [10, 13, 1]
     deployment:
       - [11, 12, 1, 2]
