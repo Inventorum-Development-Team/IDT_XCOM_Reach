@@ -957,6 +957,7 @@ armors:
     rearArmor: 20
     underArmor: 15
     movementType: 0
+    bleedImmune: true
     camouflageAtDark: -3
     camouflageAtDay: -1
     damageModifier:
