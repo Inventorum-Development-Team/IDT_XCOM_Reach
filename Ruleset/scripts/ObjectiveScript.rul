@@ -1,4 +1,7 @@
 items:
+  - type: STR_ALIEN_SURGERY
+    recoveryDividers:
+      STR_OTHER: 100000
   - type: STR_OBJECTIVE_BOMB #For destroying the objective
     power: 1
     weight: 999
