@@ -151,6 +151,49 @@ items:
     autoRange: 22
     minRange: 3
     dropoff: 3
+  - type: STR_CM300_FRONTIER_CARBINE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_INSURGENT_EQUIPMENT]
+    size: 0.2
+    costSell: 950
+    weight: 7
+    bigSprite: 208
+    floorSprite: 208
+    handSprite: 208
+    fireSound: [132, 133, 134]
+    reloadSound: [135, 136, 137]
+    compatibleAmmo:
+      - STR_MA5B_MAG
+    confAuto:
+      shots: 10
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
+    accuracyAuto: 25
+    accuracySnap: 40
+    accuracyAimed: 50
+    tuAuto: 5
+    tuSnap: 10
+    tuAimed: 5
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 50
+    snapRange: 20
+    autoRange: 15
+    minRange: 3
+    dropoff: 5
   - type: STR_MA5B_MAG         #MA5B magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
     size: 0.1
