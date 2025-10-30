@@ -295,6 +295,10 @@ en-US:
   STR_MA5B: MA5B Assault Rifle
   STR_MA5B_UFOPEDIA: "The bulkier, heavier variant of the MA37, used by the Marine Corps, comes with an integrated flashlight and electronics suite, as well as a large 60-round magazine chambered in M118 FMJ."
   STR_MA5B_MAG: 7.62x51mm MA5B Magazine
+  
+  STR_VK78_COMMANDO_RIFLE: "VK78 Commando DMR"
+  STR_VK78_COMMANDO_RIFLE_UFOPEDIA: "Old battle rifle of the Colonial Military Administration, it entered service in 2495. Meant to replace the aging HMG-38, the Colonial Military "
+  
   STR_TYPE_25_PLASMA_PISTOL: Type-25 Pistol
   STR_PLASMA_PISTOL_CELL: Type-25 Pistol Battery
   STR_PLASMA_RIFLE_ELITE: Type-25 Plasma Rifle/Elite-pattern
