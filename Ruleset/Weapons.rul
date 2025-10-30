@@ -1120,43 +1120,35 @@ items:
     reloadSound: [135, 136, 137]
     compatibleAmmo:
       - STR_HMG38_MONITOR_RIFLE_MAG
+    fireSound: [1626, 1627, 1628]
     confAuto:
-      shots: 10
+      shots: 20
       name: STR_FULL_AUTO
       shortName: STR_FULL_AUTO
       followProjectiles: false
-    confAimed:
-      shots: 2
-      name: STR_DOUBLE_TAP
-      shortName: STR_DOUBLE_TAP
-      followProjectiles: false
     confSnap:
-      shots: 3
+      shots: 10
       name: STR_SHORT_BURST
       shortName: STR_BURST
       followProjectiles: false
     accuracyAuto: 25
-    accuracySnap: 40
-    accuracyAimed: 50
-    tuAuto: 5
-    tuSnap: 10
-    tuAimed: 15
+    accuracySnap: 35
+    tuAuto: 15
+    tuSnap: 20
     battleType: 1
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     maxRange: 200
-    aimRange: 35
     snapRange: 20
     autoRange: 15
-    minRange: 3
-    dropoff: 5
+    minRange: 2
+    dropoff: 3
   - type: STR_HMG38_MONITOR_RIFLE_MAG         #HMG-38 magazine
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_INSURGENT_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_MAGAZINES, STR_INSURGENT_EQUIPMENT]
     size: 0.1
-    costBuy: 60
-    costSell: 48
-    weight: 2
+    costBuy: 150
+    weight: 4
     bigSprite: 216
     floorSprite: 216
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
@@ -1167,10 +1159,10 @@ items:
     power: 45
     damageAlter:
       RandomType: 3
-      ArmorEffectiveness: 0.7
+      ArmorEffectiveness: 0.5
       ToArmorPre: 0.3
       ToWound: 1.2
-      ToHealth: 1.2
+      ToHealth: 1.4
       ToMana: 0.5
     damageType: 1
     clipSize: 40
