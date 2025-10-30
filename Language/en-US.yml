@@ -297,10 +297,12 @@ en-US:
   STR_MA5B_MAG: 7.62x51mm MA5B Magazine
   
   STR_VK78_COMMANDO_RIFLE: "VK78 Commando DMR"
-  STR_VK78_COMMANDO_RIFLE_UFOPEDIA: "The old standard-issue battle rifle of the Colonial Military Authority, it entered service in 2495. Meant to replace the aging HMG-38, the Colonial Military stockpiled large numbers of VK78s; many of them were provided to planetary militias."
+  STR_VK78_COMMANDO_RIFLE_UFOPEDIA: "Standard-issue battle rifle of the Colonial Military Authority, it entered service in 2495, now retired from frontline service. Meant to replace the aging HMG-38, the Colonial Military stockpiled large numbers of VK78s; many of them were provided to planetary militias to equip their self-defense forces. "
   STR_VK78_COMMANDO_RIFLE_MAG: "6.5x48mm VK78 Magazine"
   STR_HMG38_MONITOR_RIFLE: "HMG-38 Monitor Rifle"
-  STR_HMG38_MONITOR_RIFLE_UFOPEDIA: "Old and outdated heavy automatic rifle. Originally configured as a squad support weapon, many were adapted to become handheld rifles. Cumbersome and somewhat difficult to aim, it was the "
+  STR_HMG38_MONITOR_RIFLE_UFOPEDIA: "Old and outdated heavy automatic rifle. Originally configured as a squad support weapon, many were adapted to become handheld rifles. Cumbersome, unpopular and somewhat difficult to aim, it was the used for more than 200 years. Many were smuggled by corrupt CMA officials and made their way to the insurgent arsenals, where its appreciated for its easy maintenance and high rate of fire."
+  STR_CM300_FRONTIER_CARBINE: "CM300 Frontier Carbine"
+  STR_CM300_FRONTIER_CARBINE_UFOPEDIA: "Nicknamed 'The Confetti Maker' fir its insane rate of fire, able to empty its magazine in seconds. "
   
   STR_TYPE_25_PLASMA_PISTOL: Type-25 Pistol
   STR_PLASMA_PISTOL_CELL: Type-25 Pistol Battery
