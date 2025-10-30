@@ -195,7 +195,7 @@ items:
     minRange: 3
     dropoff: 5
   - type: STR_MA5B_MAG         #MA5B magazine
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT, STR_INSURGENT_EQUIPMENT]
     size: 0.1
     costBuy: 60
     costSell: 48
@@ -416,8 +416,8 @@ items:
     reloadSound: [113, 114, 115]
     compatibleAmmo:
       - STR_M392_MAG
-    accuracySnap: 65
-    accuracyAimed: 75
+    accuracySnap: 75
+    accuracyAimed: 90
     accuracyMultiplier:
       firing: [0.0, 0.0175]
     tuSnap: 13
@@ -455,6 +455,69 @@ items:
       ToMana: 0.5
     damageType: 1
     clipSize: 15
+    battleType: 2
+    armor: 12
+
+  - type: STR_VK78_COMMANDO_RIFLE # VK78 Commando
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    size: 0.2
+    costBuy: 1686
+    costSell: 1265
+    weight: 10
+    bigSprite: 296
+    floorSprite: 296
+    handSprite: 296
+    fireSound: [110, 111, 112]
+    reloadSound: [113, 114, 115]
+    compatibleAmmo:
+      - STR_VK78_COMMANDO_RIFLE_MAG
+    accuracySnap: 65
+    accuracyAimed: 75
+    accuracyAuto: 45
+    accuracyCloseQuarters: 15
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    accuracyMultiplier:
+      firing: [0.0, 0.0175]
+    tuSnap: 17
+    tuAimed: 19
+    tuAuto: 15
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 100
+    snapRange: 25
+    autoRange: 15
+    minRange: 3
+    dropoff: 3
+  - type: STR_VK78_COMMANDO_RIFLE_MAG         #VK78 magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 2
+    bigSprite: 304
+    floorSprite: 304
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11
+    power: 50
+    bulletSpeed: 20
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
+      ToMana: 0.5
+    damageType: 1
+    clipSize: 20
     battleType: 2
     armor: 12
 
