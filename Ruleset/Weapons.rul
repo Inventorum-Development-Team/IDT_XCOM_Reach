@@ -183,13 +183,13 @@ items:
     accuracyAimed: 50
     tuAuto: 5
     tuSnap: 10
-    tuAimed: 5
+    tuAimed: 15
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
     maxRange: 200
-    aimRange: 50
+    aimRange: 35
     snapRange: 20
     autoRange: 15
     minRange: 3
@@ -474,7 +474,7 @@ items:
     accuracySnap: 65
     accuracyAimed: 75
     accuracyAuto: 45
-    accuracyCloseQuarters: 15
+    accuracyCloseQuarters: 45
     confAuto:
       shots: 5
       name: STR_FULL_AUTO
@@ -494,12 +494,12 @@ items:
     snapRange: 25
     autoRange: 15
     minRange: 3
-    dropoff: 3
+    dropoff: 4
   - type: STR_VK78_COMMANDO_RIFLE_MAG         #VK78 magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.1
-    costBuy: 60
-    costSell: 48
+    costBuy: 55
+    costSell: 50
     weight: 2
     bigSprite: 304
     floorSprite: 304
@@ -511,10 +511,10 @@ items:
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
-      ArmorEffectiveness: 0.7
+      ArmorEffectiveness: 0.6
       ToArmorPre: 0.3
-      ToWound: 1.2
-      ToHealth: 1.2
+      ToWound: 1.1
+      ToHealth: 1.1
       ToMana: 0.5
     damageType: 1
     clipSize: 20
@@ -1107,6 +1107,75 @@ items:
       ToMana: 0.6
     damageType: 1
     clipSize: 200
+
+  - type: STR_HMG38_MONITOR_RIFLE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_INSURGENT_EQUIPMENT STR_GADGETS]
+    size: 0.2
+    costSell: 950
+    weight: 7
+    bigSprite: 208
+    floorSprite: 208
+    handSprite: 208
+    fireSound: [132, 133, 134]
+    reloadSound: [135, 136, 137]
+    compatibleAmmo:
+      - STR_HMG38_MONITOR_RIFLE_MAG
+    confAuto:
+      shots: 10
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
+    accuracyAuto: 25
+    accuracySnap: 40
+    accuracyAimed: 50
+    tuAuto: 5
+    tuSnap: 10
+    tuAimed: 15
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 35
+    snapRange: 20
+    autoRange: 15
+    minRange: 3
+    dropoff: 5
+  - type: STR_HMG38_MONITOR_RIFLE_MAG         #HMG-38 magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_INSURGENT_EQUIPMENT]
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 2
+    bigSprite: 216
+    floorSprite: 216
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11
+    bulletSpeed: 20
+    power: 45
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.2
+      ToMana: 0.5
+    damageType: 1
+    clipSize: 40
+    battleType: 2
+    armor: 12
 
   - type: STR_M6V       #Spartan Laser
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
