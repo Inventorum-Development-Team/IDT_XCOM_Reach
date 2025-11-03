@@ -151,8 +151,51 @@ items:
     autoRange: 22
     minRange: 3
     dropoff: 3
+  - type: STR_CM300_FRONTIER_CARBINE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_INSURGENT_EQUIPMENT]
+    size: 0.2
+    costSell: 950
+    weight: 7
+    bigSprite: 208
+    floorSprite: 208
+    handSprite: 208
+    fireSound: [132, 133, 134]
+    reloadSound: [135, 136, 137]
+    compatibleAmmo:
+      - STR_MA5B_MAG
+    confAuto:
+      shots: 10
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: false
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
+    accuracyAuto: 25
+    accuracySnap: 40
+    accuracyAimed: 50
+    tuAuto: 5
+    tuSnap: 10
+    tuAimed: 15
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 35
+    snapRange: 20
+    autoRange: 15
+    minRange: 3
+    dropoff: 5
   - type: STR_MA5B_MAG         #MA5B magazine
-    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT]
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_MARINE_EQUIPMENT, STR_INSURGENT_EQUIPMENT]
     size: 0.1
     costBuy: 60
     costSell: 48
@@ -373,8 +416,8 @@ items:
     reloadSound: [113, 114, 115]
     compatibleAmmo:
       - STR_M392_MAG
-    accuracySnap: 65
-    accuracyAimed: 75
+    accuracySnap: 75
+    accuracyAimed: 90
     accuracyMultiplier:
       firing: [0.0, 0.0175]
     tuSnap: 13
@@ -412,6 +455,69 @@ items:
       ToMana: 0.5
     damageType: 1
     clipSize: 15
+    battleType: 2
+    armor: 12
+
+  - type: STR_VK78_COMMANDO_RIFLE # VK78 Commando
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    size: 0.2
+    costBuy: 1686
+    costSell: 1265
+    weight: 10
+    bigSprite: 296
+    floorSprite: 296
+    handSprite: 296
+    fireSound: [110, 111, 112]
+    reloadSound: [113, 114, 115]
+    compatibleAmmo:
+      - STR_VK78_COMMANDO_RIFLE_MAG
+    accuracySnap: 65
+    accuracyAimed: 75
+    accuracyAuto: 45
+    accuracyCloseQuarters: 45
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    accuracyMultiplier:
+      firing: [0.0, 0.0175]
+    tuSnap: 17
+    tuAimed: 19
+    tuAuto: 15
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 200
+    aimRange: 100
+    snapRange: 25
+    autoRange: 15
+    minRange: 3
+    dropoff: 4
+  - type: STR_VK78_COMMANDO_RIFLE_MAG         #VK78 magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
+    size: 0.1
+    costBuy: 55
+    costSell: 50
+    weight: 2
+    bigSprite: 304
+    floorSprite: 304
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11
+    power: 50
+    bulletSpeed: 20
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.6
+      ToArmorPre: 0.3
+      ToWound: 1.1
+      ToHealth: 1.1
+      ToMana: 0.5
+    damageType: 1
+    clipSize: 20
     battleType: 2
     armor: 12
 
@@ -1001,6 +1107,67 @@ items:
       ToMana: 0.6
     damageType: 1
     clipSize: 200
+
+  - type: STR_HMG38_OR_RIFLE
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_INSURGENT_EQUIPMENT STR_GADGETS]
+    size: 0.2
+    costSell: 950
+    weight: 7
+    bigSprite: 208
+    floorSprite: 208
+    handSprite: 208
+    fireSound: [132, 133, 134]
+    reloadSound: [135, 136, 137]
+    compatibleAmmo:
+      - STR_HMG38_OR_RIFLE_MAG
+    fireSound: [1626, 1627, 1628]
+    confAuto:
+      shots: 20
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: false
+    confSnap:
+      shots: 10
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: false
+    accuracyAuto: 25
+    accuracySnap: 35
+    tuAuto: 15
+    tuSnap: 20
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 200
+    snapRange: 20
+    autoRange: 15
+    minRange: 2
+    dropoff: 3
+  - type: STR_HMG38_OR_RIFLE_MAG         #HMG-38 magazine
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_MAGAZINES, STR_INSURGENT_EQUIPMENT]
+    size: 0.1
+    costBuy: 150
+    weight: 4
+    bigSprite: 216
+    floorSprite: 216
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    explosionSpeed: 30
+    bulletSprite: 11
+    bulletSpeed: 20
+    power: 45
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.4
+      ToMana: 0.5
+    damageType: 1
+    clipSize: 40
+    battleType: 2
+    armor: 12
 
   - type: STR_M6V       #Spartan Laser
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_UNSC_EQUIPMENT, STR_UNSC_SPARTAN_EQUIPMENT]
@@ -1895,6 +2062,15 @@ extraSprites:
       944: Resources/CovenantEquipment/BigEnergySwordBattery.png
       952: Resources/CovenantEquipment/BigMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/BigMajorShieldGauntlet.png
+      ##
+      960: Resources/HumanEquipment/BigVK78CommandoRifle_noammo.png
+      960: Resources/HumanEquipment/BigVK78CommandoRifle_ammo.png
+      960: Resources/HumanEquipment/BigVK78CommandoRifleMag.png
+      960: Resources/HumanEquipment/BigCM300FrontierRifle_noammo.png
+      960: Resources/HumanEquipment/BigCM300FrontierRifle_ammo.png
+      960: Resources/HumanEquipment/BigHMG38MonitorRifle_noammo.png
+      960: Resources/HumanEquipment/BigHMG38MonitorRifle_ammo.png
+      960: Resources/HumanEquipment/BigHMG38MonitorRifleMag.png
 
       1400: Resources/Vehicles/BigM41Vulcan.png
 
