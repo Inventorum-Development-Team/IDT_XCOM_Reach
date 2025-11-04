@@ -2062,6 +2062,11 @@ extraSprites:
       944: Resources/CovenantEquipment/BigEnergySwordBattery.png
       952: Resources/CovenantEquipment/BigMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/BigMajorShieldGauntlet.png
+      #928: Resources/CovenantEquipment/BigBeamRifle_noammo.png
+      #936: Resources/CovenantEquipment/BigBeamRifle_ammo.png
+      #944: Resources/CovenantEquipment/BigLongRifle_noammo.png
+      #952: Resources/CovenantEquipment/BigLongRifle_ammo.png
+      #960: Resources/CovenantEquipment/BigBeamRifleBattery.png
       ##
       960: Resources/HumanEquipment/BigVK78CommandoRifle_noammo.png
       960: Resources/HumanEquipment/BigVK78CommandoRifle_ammo.png
