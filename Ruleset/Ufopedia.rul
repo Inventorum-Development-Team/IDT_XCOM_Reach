@@ -186,7 +186,18 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
     text: STR_MA5B_UFOPEDIA
+  - id: STR_CM300_FRONTIER_CARBINE
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    text: STR_CM300_FRONTIER_CARBINE_UFOPEDIA
   - id: STR_MA5B_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HMG38_MONITOR_RIFLE
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    text: STR_HMG38_MONITOR_RIFLE_UFOPEDIA
+  - id: STR_HMG38_MONITOR_RIFLE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_M6C
@@ -244,12 +255,18 @@ ufopaedia:
   - id: STR_M392
     section: STR_WEAPONS_AND_EQUIPMENT
     type_id: 4
-    listOrder: 2606
     text: STR_M392_UFOPEDIA
   - id: STR_M392S
     section: STR_NOT_AVAILABLE
     type_id: 4
   - id: STR_M392_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_VK78_COMMANDO_RIFLE
+    section: STR_WEAPONS_AND_EQUIPMENT
+    type_id: 4
+    text: STR_VK78_COMMANDO_RIFLE_UFOPEDIA
+  - id: STR_VK78_COMMANDO_RIFLE_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_SRS99
