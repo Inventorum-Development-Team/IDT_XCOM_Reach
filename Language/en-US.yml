@@ -294,7 +294,7 @@ en-US:
   STR_MA37_MAG: 7.62x51mm MA37 Magazine
   STR_MA5B: MA5B Assault Rifle
   STR_MA5B_UFOPEDIA: "The bulkier, heavier variant of the MA37, used by the Marine Corps, comes with an integrated flashlight and electronics suite, as well as a large 60-round magazine chambered in M118 FMJ."
-  STR_MA5B_MAG: 7.62x51mm MA5B Magazine
+  STR_MA5B_MAG: "7.62x51mm MA5B Magazine"
   
   STR_VK78_COMMANDO_RIFLE: "VK78 Commando DMR"
   STR_VK78_COMMANDO_RIFLE_UFOPEDIA: "Former standard-issue battle rifle of the disbanded Colonial Military Authority, it entered service in 2495, now retired from frontline service. Meant to replace the aging HMG-38, the Colonial Military stockpiled large numbers of VK78s; many of them were provided to planetary militias to equip their self-defense forces. "
@@ -320,7 +320,7 @@ en-US:
   STR_PLASMA_GRENADE: "Type-1 Antipersonnel 'Plasma' Grenade"
   STR_PLASMA_GRENADE_INV: " "
   STR_PLASMA_GRENADE_PRIMED: "Type-1 Antipersonnel 'Plasma' Grenade"
-  STR_PLASMA_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast."
+  STR_PLASMA_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, it can {ALT} stick to both human and Covenant units {ALT}. It contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast."
   STR_FUEL_ROD_GUN: "Type-33 'Fuel Rod Gun' LAAW"
   STR_FUEL_ROD_GUN_RACK: "Type-33 LAAW Radioactive Rod Rack"
   STR_ENERGY_SWORD: "Type-1 Energy Sword"
@@ -336,8 +336,8 @@ en-US:
   STR_PLASMA_RIFLE_ELITE_UFOPEDIA: "Standard infantry weapon of Covenant units, similar in use to our assault rifles. It employs two parallel-mounted plasma generators, linked by the trigger guard. This doubles its rate of fire, compared to using a single generator. However, its accuracy declines with distance."
   STR_PLASMA_RIFLE_BRUTE_UFOPEDIA: "Variant of the Plasma Rifle, employed only by Brute units. It seems that its rate of fire and damage has been increased. It has not been reported to be used by any other Covenant units, the reason remains unknown."
   STR_PLASMA_REPEATER_UFOPEDIA: "We consider this weapon an improved variant of the Plasma Rifle. Even more similar to our assault rifles, its firepower is superior, as is its rate of fire. However, it is very rare to find these weapons on the battlefield, they have only recently been listed as part of the Covenant arsenal. Their automatic fire is inaccurate and overheats the weapon, but single shots have considerable aim."
-  STR_NEEDLER_UFOPEDIA: "A peculiar weapon that fires small, razor-sharp explosive crystals. How it reloads has not been correctly identified, although it has been noted that the crystals protrude from the top of the shell, like protrusions. Perhaps a way to indicate the amount of ammunition remaining, or perhaps the manner of storing such projectiles, is a mystery."
-  STR_PLASMA_CARBINE_UFOPEDIA: "A powerful long-range weapon, seen occasionally since 2526, but identified only last year. Instead of employing superheated plasma, it fires radioactive projectiles of an extremely toxic exotic material, not found on the periodic table. It fires at supersonic speed. It features a sight that is somewhat cumbersome to use, but allows for accurate firing once the user gets used to it."
+  STR_NEEDLER_UFOPEDIA: "A peculiar weapon that fires small, razor-sharp explosive crystals. How it reloads has not been correctly identified, although it has been noted that the crystals protrude from the top of the shell, like 'needles'. Perhaps a way to indicate the amount of ammunition remaining, or perhaps the manner of storing such projectiles... is truly a mystery."
+  STR_PLASMA_CARBINE_UFOPEDIA: "A powerful long-range weapon, seen occasionally since 2526, but identified only last year. Instead of employing superheated plasma, it fires radioactive projectiles of an extremely toxic exotic material, not found on the periodic table. It fires at supersonic speed. It features a sight that is somewhat cumbersome to employ, but allows for accurate firing once the user gets used to it."
   STR_FUEL_ROD_GUN_UFOPEDIA: "A launcher of heavy radioactive projectiles composed of an incendiary gel that explodes violently on contact. Its ability to launch such fuel cartridges in a parabolic trajectory makes it a weapon of care. It is suggested to consider eliminating users of such launchers as a priority."
   STR_ENERGY_SWORD_UFOPEDIA: "This close combat weapon is a symbol of power and status in the Covenant hierarchy. Sangheili users are often the equivalent of lords and knights in medieval Europe. It is a devastating weapon that employs superheated plasma along two thin blades. The curved hilt contains the plasma generator and two magnetic generators. Its battery is consumed with each thrust and can be recharged."
   STR_JACKAL_SHIELD_GAUNTLET_UFOPEDIA: "Employed on the forearm of Jackal soldiers, this shield employs a 'linear energy field' that deflects projectiles and absorbs projectile energy until the energy generator is saturated and collapses. The color of the shield reflects the user's rank."
@@ -361,7 +361,7 @@ en-US:
   STR_NOT_KNEELING: "Soldier not kneeling!"
   STR_ARMOR_ABILITIES: "Armor Abilities"
   STR_ARMOR_ABILITIES_UC: "ARMOR ABILITIES"
-  STR_ARMOR_ABILITIES_UFOPEDIA: "Armor abilities consists of a series of attachments that provide spartans with new tactical options. {NEWLINE}{NEWLINE}{ALT}To use an ability move it onto the 'Ability' slot in a units inventory, and activate it trough the special weapon button."
+  STR_ARMOR_ABILITIES_UFOPEDIA: "Armor abilities consists of a series of attachments that provide Spartans with new tactical options. {NEWLINE}{NEWLINE}{ALT}To use an ability move it onto the 'Ability' slot in a units inventory, and activate it trough the special weapon button."
   STR_SPRINT_SKILL_UFOPEDIA: "The Sprint ability allows the user to push their armor past safe limits for a momentary increase in speed. {NEWLINE}{NEWLINE}{ALT}Grants 40 time units, however also reduces reactions by 40 for one turn.{NEWLINE}{NEWLINE}Cooldown: 1 turn"
   STR_CAMO_SKILL_UFOPEDIA: "The Active Camouflage allows the user to blend themselves into their surroundings, practically becoming invisible to all but the keenest of senses. {NEWLINE}{NEWLINE}{ALT}Hides the user from any unit further than 5 tiles away for one turn.{NEWLINE}{NEWLINE}Cooldown: 3 turns"
   STR_DROP_SHIELD_SKILL_UFOPEDIA: "The Drop Shield allows the user to place a emitter that projects a spherical protective energy shield, protecting anyone within it from outside attacks.{NEWLINE}{NEWLINE}{ALT}Any unit within a one tile radius of the emitter is impervious to any attacks from outside the one tile radius."
