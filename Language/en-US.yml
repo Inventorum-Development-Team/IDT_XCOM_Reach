@@ -290,7 +290,7 @@ en-US:
   STR_MA37: MA37 ICWS
   STR_MA37_UFOPEDIA: "Skeletonized, simpler and more reliable early variant of the MA5, with over a century of service. Includes a flash hider and an external, modular electronics suite, uses M118 FMJ rounds."
   STR_MA5K: "MA5K Carbine"
-  STR_MA5K_UFOPEDIA: "Compact and lightweight version of the MA5 line, used by special UNSC units - usually SPARTANS. By removing the electronics compartment and replacing it with a carrying handle, the operator's mobility is facilitated. It uses the same loaders as the MA37."
+  STR_MA5K_UFOPEDIA: "Compact and lightweight version of the MA5 line, used by special UNSC units - usually SPARTANS. By removing the electronics compartment and replacing it with a carrying handle, the operator's mobility is facilitated. It uses the same magazines as the MA37."
   STR_MA37_MAG: 7.62x51mm MA37 Magazine
   STR_MA5B: MA5B Assault Rifle
   STR_MA5B_UFOPEDIA: "The bulkier, heavier variant of the MA37, used by the Marine Corps, comes with an integrated flashlight and electronics suite, as well as a large 60-round magazine chambered in M118 FMJ."
