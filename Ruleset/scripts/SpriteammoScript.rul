@@ -118,6 +118,21 @@ items:
   - type: STR_M7_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_VK78_COMMANDO_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_VK78_COMMANDO_RIFLE_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_CM300_FRONTIER_CARBINE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HMG38_MONITOR_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_HMG38_MONITOR_RIFLE_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
   - type: STR_PLASMA_RIFLE_ELITE # ignoreDuplicate
     tags:
       AmmoReSprite: 3

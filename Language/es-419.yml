@@ -412,6 +412,17 @@ es-419:
   STR_GHOST_CORPSE: "Chatarra de Tipo-32 'Ghost'"
   STR_GHOST_UNGGOY_TERRORIST: "Tipo-32 'Ghost' RAV"
   STR_GHOST_SANGHEILI_TERRORIST: "Tipo-32 'Ghost Escudo' RAV"
+
+  STR_INSURGENTS: "Insurrecionistas"
+  STR_INSURGENT_HEAVY: "Pesado Insurrecto"
+  STR_ARMOR_INSURGENT_UC: "Uniforme de Combate Rebelde"
+  STR_INSURGENT_MEDIUM: "Fusilero Insurrecto"
+  STR_ARMOR_INSURGENT_MEDIUM_UC: "Uniforme de Combate Rebelde"
+  STR_INSURGENT_LIGHT: "Escolta Insurrecto"
+  STR_ARMOR_INSURGENT_LIGHT_UC: "Uniforme de Combate Rebelde"
+  STR_INSURGENT_LEADER: "Líder Insurrecto"
+  STR_ARMOR_INSURGENT_LEADER_UC: "Uniforme de Combate Helljumper Traidor"
+
 ######################
   STR_BANSHEE_FIGHTER: "Escuadrón de Cazas Banshee"
   STR_SERAPH_FIGHTER: "Caza Seraph"

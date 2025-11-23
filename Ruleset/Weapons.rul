@@ -156,9 +156,9 @@ items:
     size: 0.2
     costSell: 950
     weight: 7
-    bigSprite: 208
-    floorSprite: 208
-    handSprite: 208
+    bigSprite: 1080
+    floorSprite: 1080
+    handSprite: 1080
     fireSound: [132, 133, 134]
     reloadSound: [135, 136, 137]
     compatibleAmmo:
@@ -464,9 +464,9 @@ items:
     costBuy: 1686
     costSell: 1265
     weight: 10
-    bigSprite: 296
-    floorSprite: 296
-    handSprite: 296
+    bigSprite: 1056
+    floorSprite: 1056
+    handSprite: 1056
     fireSound: [110, 111, 112]
     reloadSound: [113, 114, 115]
     compatibleAmmo:
@@ -501,8 +501,8 @@ items:
     costBuy: 55
     costSell: 50
     weight: 2
-    bigSprite: 304
-    floorSprite: 304
+    bigSprite: 1064
+    floorSprite: 1064
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     explosionSpeed: 30
@@ -1108,18 +1108,17 @@ items:
     damageType: 1
     clipSize: 200
 
-  - type: STR_HMG38_OR_RIFLE
+  - type: STR_HMG38_MONITOR_RIFLE
     categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_INSURGENT_EQUIPMENT STR_GADGETS]
     size: 0.2
     costSell: 950
     weight: 7
-    bigSprite: 208
-    floorSprite: 208
-    handSprite: 208
-    fireSound: [132, 133, 134]
+    bigSprite: 1096
+    floorSprite: 1096
+    handSprite: 1096
     reloadSound: [135, 136, 137]
     compatibleAmmo:
-      - STR_HMG38_OR_RIFLE_MAG
+      - STR_HMG38_MONITOR_RIFLE_MAG
     fireSound: [1626, 1627, 1628]
     confAuto:
       shots: 20
@@ -1144,13 +1143,13 @@ items:
     autoRange: 15
     minRange: 2
     dropoff: 3
-  - type: STR_HMG38_OR_RIFLE_MAG         #HMG-38 magazine
+  - type: STR_HMG38_MONITOR_RIFLE_MAG         #HMG-38 magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_LMGS, STR_MAGAZINES, STR_INSURGENT_EQUIPMENT]
     size: 0.1
     costBuy: 150
     weight: 4
-    bigSprite: 216
-    floorSprite: 216
+    bigSprite: 1104
+    floorSprite: 1104
     hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
     hitAnimation: 26
     explosionSpeed: 30
@@ -2062,6 +2061,23 @@ extraSprites:
       944: Resources/CovenantEquipment/BigEnergySwordBattery.png
       952: Resources/CovenantEquipment/BigMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/BigMajorShieldGauntlet.png
+      #984: Resources/CovenantEquipment/BigBeamRifle_noammo.png
+      #992: Resources/CovenantEquipment/BigBeamRifle_ammo.png
+      #1000: Resources/CovenantEquipment/BigLongRifle_noammo.png
+      #1008: Resources/CovenantEquipment/BigLongRifle_ammo.png
+      #1016: Resources/CovenantEquipment/BigBeamRifleBattery.png
+      #1024: Resources/CovenantEquipment/BigMauler_noammo.png
+      #1032: Resources/CovenantEquipment/BigMauler_ammo.png
+      #1040: Resources/CovenantEquipment/BigMaulerAmmo.png
+      ##
+      1048: Resources/HumanEquipment/BigVK78Commando_noammo.png
+      1056: Resources/HumanEquipment/BigVK78Commando_ammo.png
+      1064: Resources/HumanEquipment/BigVK78CommandoAmmo.png
+      1072: Resources/HumanEquipment/BigCM300_noammo.png
+      1080: Resources/HumanEquipment/BigCM300_ammo.png
+      1088: Resources/HumanEquipment/BigHMG38_noammo.png
+      1096: Resources/HumanEquipment/BigHMG38_ammo.png
+      1104: Resources/HumanEquipment/BigHMG38Ammo.png
 
       1400: Resources/Vehicles/BigM41Vulcan.png
 
@@ -2166,6 +2182,23 @@ extraSprites:
       936: Resources/CovenantEquipment/FloorEnergySword_ammo.png
       952: Resources/CovenantEquipment/FloorMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/FloorMajorShieldGauntlet.png
+      #984: Resources/CovenantEquipment/FloorBeamRifle_noammo.png
+      #992: Resources/CovenantEquipment/FloorBeamRifle_ammo.png
+      #1000: Resources/CovenantEquipment/FloorLongRifle_noammo.png
+      #1008: Resources/CovenantEquipment/FloorLongRifle_ammo.png
+      #1016: Resources/CovenantEquipment/FloorBeamRifleBattery.png
+      #1024: Resources/CovenantEquipment/FloorMauler_noammo.png
+      #1032: Resources/CovenantEquipment/FloorMauler_ammo.png
+      #1040: Resources/CovenantEquipment/FloorMaulerAmmo.png
+      ##
+      1048: Resources/HumanEquipment/FloorVK78Commando_noammo.png
+      1056: Resources/HumanEquipment/FloorVK78Commando_ammo.png
+      1064: Resources/HumanEquipment/FloorVK78CommandoAmmo.png
+      1072: Resources/HumanEquipment/FloorCM300_noammo.png
+      1080: Resources/HumanEquipment/FloorCM300_ammo.png
+      1088: Resources/HumanEquipment/FloorHMG38_noammo.png
+      1096: Resources/HumanEquipment/FloorHMG38_ammo.png
+      1104: Resources/HumanEquipment/FloorHMG38Ammo.png
 
 #     1400: Resources/Vehicles/BigM41Vulcan.png
       1401: Resources/Vehicles/FloorChaingunWarthogWreck0.png
@@ -2225,6 +2258,7 @@ extraSprites:
       968: Resources/HumanEquipment/HandM247Machinegun.png
       976: Resources/HumanEquipment/HandH165OrbitalStrike.png
 
+
       #1400: Resources/Vehicles/BigM41Vulcan.png
 ######################
       608: Resources/CovenantEquipment/HandPlasmaRifle_noammo.png
@@ -2266,6 +2300,23 @@ extraSprites:
       936: Resources/CovenantEquipment/HandEnergySword_ammo.png
       952: Resources/CovenantEquipment/HandMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/HandMajorShieldGauntlet.png
+      #984: Resources/CovenantEquipment/HandBeamRifle_noammo.png
+      #992: Resources/CovenantEquipment/HandBeamRifle_ammo.png
+      #1000: Resources/CovenantEquipment/HandLongRifle_noammo.png
+      #1008: Resources/CovenantEquipment/HandLongRifle_ammo.png
+      #1016: Resources/CovenantEquipment/HandBeamRifleBattery.png
+      #1024: Resources/CovenantEquipment/HandMauler_noammo.png
+      #1032: Resources/CovenantEquipment/HandMauler_ammo.png
+      #1040: Resources/CovenantEquipment/HandMaulerAmmo.png
+      ##
+      1048: Resources/HumanEquipment/HandVK78Commando_noammo.png
+      1056: Resources/HumanEquipment/HandVK78Commando_ammo.png
+      #1064: Resources/HumanEquipment/HandVK78CommandoAmmo.png
+      1072: Resources/HumanEquipment/HandCM300_noammo.png
+      1080: Resources/HumanEquipment/HandCM300_ammo.png
+      1088: Resources/HumanEquipment/HandHMG38_noammo.png
+      1096: Resources/HumanEquipment/HandHMG38_ammo.png
+      #1104: Resources/HumanEquipment/HandHMG38Ammo.png
 
   - type: SMOKE.PCK
     height: 40
