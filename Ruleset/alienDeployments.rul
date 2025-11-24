@@ -1192,6 +1192,7 @@ alienDeployments:
     briefing:
       palette: 3
       music: GMENBASE
+      background: INSURRECTIONIST_BACKGROUND
     markerName: STR_ASSASINATION_SITE
     duration: [4, 10]
     despawnPenalty: 1000
@@ -1202,3 +1203,14 @@ alienDeployments:
     objectiveType: 8
     objectivePopup: STR_OBJECTIVE_COMPLETED
     objectivesRequired: 1
+
+extraSprites:
+############################################
+######### BACKGROUND IMAGES ###############
+#########################################
+  - type: INSURRECTIONIST_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/INSURRECTIONIST_BACKGROUND.PNG

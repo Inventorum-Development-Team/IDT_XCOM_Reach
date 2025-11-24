@@ -467,8 +467,8 @@ items:
     bigSprite: 1056
     floorSprite: 1056
     handSprite: 1056
-    fireSound: [110, 111, 112]
-    reloadSound: [113, 114, 115]
+    fireSound: [165, 166, 167]
+    reloadSound: [168]
     compatibleAmmo:
       - STR_VK78_COMMANDO_RIFLE_MAG
     accuracySnap: 65

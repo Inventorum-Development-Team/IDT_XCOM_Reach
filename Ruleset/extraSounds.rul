@@ -68,10 +68,10 @@ extraSounds:
       162: Resources/Sounds/WeaponSounds/UNSC/chaingun_fire_h3_3.wav
       163: Resources/Sounds/WeaponSounds/UNSC/chaingun_fire_h3_4.wav
       164: Resources/Sounds/WeaponSounds/UNSC/chaingun_fire_h3_5.wav
-#      165: Resources/Sounds/WeaponSounds/UNSC/mk14shoots.wav
-#      166: Resources/Sounds/WeaponSounds/UNSC/mk46reload.wav
-#      167: Resources/Sounds/WeaponSounds/UNSC/mk46shoot.wav
-#      168: Resources/Sounds/WeaponSounds/UNSC/mk46shoots.wav
+      165: Resources/Sounds/WeaponSounds/UNSC/commando_fire1.wav
+      166: Resources/Sounds/WeaponSounds/UNSC/commando_fire2.wav
+      167: Resources/Sounds/WeaponSounds/UNSC/commando_fire3.wav
+      168: Resources/Sounds/WeaponSounds/UNSC/commando_reload.wav
 #      169: Resources/Sounds/WeaponSounds/UNSC/model1887reload.wav
 #      170: Resources/Sounds/WeaponSounds/UNSC/model1887shoot.wav
 #      171: Resources/Sounds/WeaponSounds/UNSC/mp5reload.wav
