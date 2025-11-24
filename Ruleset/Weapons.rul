@@ -174,24 +174,24 @@ items:
       shortName: STR_DOUBLE_TAP
       followProjectiles: false
     confSnap:
-      shots: 3
+      shots: 5
       name: STR_SHORT_BURST
       shortName: STR_BURST
       followProjectiles: false
     accuracyAuto: 25
     accuracySnap: 40
     accuracyAimed: 50
-    tuAuto: 5
-    tuSnap: 10
-    tuAimed: 15
+    tuAuto: 3
+    tuSnap: 5
+    tuAimed: 7
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
     maxRange: 200
-    aimRange: 35
-    snapRange: 20
-    autoRange: 15
+    aimRange: 18
+    snapRange: 16
+    autoRange: 12
     minRange: 3
     dropoff: 5
   - type: STR_MA5B_MAG         #MA5B magazine
@@ -368,8 +368,8 @@ items:
     invHeight: 3
     maxRange: 200
     aimRange: 100
-    snapRange: 25
-    autoRange: 22
+    snapRange: 30
+    autoRange: 26
     minRange: 3
     dropoff: 3
     #autoShots: 3
@@ -385,7 +385,7 @@ items:
     hitAnimation: 26
     #explosionSpeed: 30
     bulletSprite: 12
-    power: 48
+    power: 54
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
@@ -428,8 +428,8 @@ items:
     invHeight: 3
     maxRange: 200
     aimRange: 100
-    snapRange: 25
-    autoRange: 22
+    snapRange: 32
+    autoRange: 28
     minRange: 3
     dropoff: 3
   - type: STR_M392_MAG         #M392 magazine
@@ -444,7 +444,7 @@ items:
     hitAnimation: 26
     explosionSpeed: 30
     bulletSprite: 11
-    power: 60
+    power: 65
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
@@ -482,17 +482,17 @@ items:
       followProjectiles: false
     accuracyMultiplier:
       firing: [0.0, 0.0175]
-    tuSnap: 17
-    tuAimed: 19
-    tuAuto: 15
+    tuSnap: 16
+    tuAimed: 20
+    tuAuto: 14
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
     maxRange: 200
     aimRange: 100
-    snapRange: 25
-    autoRange: 15
+    snapRange: 30
+    autoRange: 25
     minRange: 3
     dropoff: 4
   - type: STR_VK78_COMMANDO_RIFLE_MAG         #VK78 magazine
@@ -1862,6 +1862,7 @@ items:
     maxRange: 2
     aimRange: 2
     snapRange: 1
+    hidePower: true
 
   - type: STR_ENERGY_SWORD_BATTERY         #
     categories: [STR_WEAPONS, STR_MELEE, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
