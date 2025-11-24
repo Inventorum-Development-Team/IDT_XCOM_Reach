@@ -9,6 +9,7 @@ items:
     handSprite: 888
     hitAnimation: 210
     power: 1
+    hidePower: true
     damageType: 3
     battleType: 4
     recoveryPoints: 1
