@@ -122,3 +122,44 @@ interfaces:
         color2: 16 # 16
       - id: textSlots
         color: 112
+
+  - type: articleItem
+    elements:
+      - id: ammoColor
+        color: 32    # red
+      - id: ammoColorDTAP
+        color: 98     # yellow, AP
+      - id: ammoColorDTIN
+        color: 147    # orange, Incendiary
+      - id: ammoColorDTHE
+        color: 39    # dark red, HE
+      - id: ammoColorDTLaser
+        color: 196    # purple
+      - id: ammoColorDTPlasma
+        color: 210    # cyan, Plasma
+      - id: ammoColorDTStun
+        color: 195    # purple, Stun
+      - id: ammoColorDTMelee
+        color: 176    # fleshy pink, Melee
+      - id: ammoColorDTAcid
+        color: 64    # lime green, Acid
+      - id: ammoColorDTSmoke
+        color: 232    # light purple Smoke
+      #- id: ammoColorDT11
+      #  color: 32    # red
+      #- id: ammoColorDT12
+      #  color: 32    # red
+      #- id: ammoColorDT13
+      #  color: 32    # red
+      #- id: ammoColorDT14
+      #  color: 32    # red
+      #- id: ammoColorDT15
+      #  color: 32    # red
+      #- id: ammoColorDT16
+      #  color: 32    # red
+      #- id: ammoColorDT17
+      #  color: 32    # red
+      #- id: ammoColorDT18
+      #  color: 32    # red
+      #- id: ammoColorDT19
+      #  color: 32    # red

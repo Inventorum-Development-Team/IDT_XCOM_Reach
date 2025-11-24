@@ -320,7 +320,7 @@ en-US:
   STR_PLASMA_GRENADE: "Type-1 Antipersonnel 'Plasma' Grenade"
   STR_PLASMA_GRENADE_INV: " "
   STR_PLASMA_GRENADE_PRIMED: "Type-1 Antipersonnel 'Plasma' Grenade"
-  STR_PLASMA_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, it can {ALT} stick to both human and Covenant units {ALT}. It contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast with {ALT} 90 points of damage {ALT}."
+  STR_PLASMA_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, it can {ALT}stick to both human and Covenant units{ALT}. It contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast with {ALT}90 points of damage{ALT}."
   STR_FUEL_ROD_GUN: "Type-33 'Fuel Rod Gun' LAAW"
   STR_FUEL_ROD_GUN_RACK: "Type-33 LAAW Radioactive Rod Rack"
   STR_ENERGY_SWORD: "Type-1 Energy Sword"

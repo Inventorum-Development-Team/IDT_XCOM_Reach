@@ -2,14 +2,14 @@
 Changes made:
 * Updated to OXCE v8.4.0
 * New mission: Insurgent Assassination, by Filip-H
-* Added UNSC weapons:
+* Added UNSC weapons, by efrenespartano:
   - Marine Corps: VK78 Commando Rifle
 * Added Insurrectionist units, by Filip-H and efrenespartano
   - Innie Leader
   - Innie Heavy 
   - Innie Rifleman
   - Innie Bodyguard
-* Added Insurrectionist weapons;
+* Added Insurrectionist weapons, by efrenespartano;
   - CM300 Frontier Rifle
   - HMG-38 Monitor Rifle
 * Spellcheck on en-US Language file
@@ -20,6 +20,7 @@ Changes made:
 * Ghosts are no longer recoverable, reported by wethan2
 * Buffed BR55 and M392 DMR effective damage (now above 30 tiles) and damage
 * Enabled back Grenade and Electro-flares
+* New Damage color palette for Pedia reports (instead of all being red, each one has a different color for quick identification)
 
 17-April-2025: v1.2
 Changes made:
