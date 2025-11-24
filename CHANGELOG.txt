@@ -3,14 +3,14 @@ Changes made:
 * Updated to OXCE v8.4.0
 * New mission: Insurgent Assassination, by Filip-H
 * Added UNSC weapons, by efrenespartano:
-  - Marine Corps: VK78 Commando Rifle
+  - Marine Corps: VK78 Commando DMR
 * Added Insurrectionist units, by Filip-H and efrenespartano
   - Innie Leader
   - Innie Heavy 
   - Innie Rifleman
   - Innie Bodyguard
 * Added Insurrectionist weapons, by efrenespartano;
-  - CM300 Frontier Rifle
+  - CM300 Frontier Carbine
   - HMG-38 Monitor Rifle
 * Spellcheck on en-US Language file
 * Fixed issue where having a different skin on the Pelican and Falcons crashed the Final Evacuation mission, reported by n7kopper
