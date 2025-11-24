@@ -290,6 +290,19 @@ es-419:
   STR_MA5B: "Rifle de Asalto MA5B"
   STR_MA5B_UFOPEDIA: "Variante más pesada del MA37, usado por el Cuerpo de Marines, incluye una lámpara y módulo de electrónica integrados, al igual que cargadores grandes con capacidad de 60 balas."
   STR_MA5B_MAG: "Cargador MA5B 7.62x51mm"
+
+  STR_VK78_COMMANDO_RIFLE: "Rifle Commando VK78"
+  STR_VK78_COMMANDO_RIFLE_UFOPEDIA: "Antiguo rifle de combate estándar de la disuelta Autoridad Militar Colonial (CMA, por sus siglas en inglés), entró en servicio en 2495 y ahora está retirado del servicio de primera línea. Con el fin de sustituir al antiguo HMG-38, el Ejército Colonial almacenó grandes cantidades de VK78, muchos de los cuales se proporcionaron a las milicias planetarias para equipar a sus fuerzas de autodefensa"
+  STR_VK78_COMMANDO_RIFLE_MAG: "Cargador VK78 de 6,5 x 48 mm"
+  STR_HMG38_MONITOR_RIFLE: "Rifle Monitor HMG-38"
+  STR_HMG38_MONITOR_RIFLE_MAG: "Cargador HMG-38 de 8.6x39mm"
+  STR_HMG38_MONITOR_RIFLE_UFOPEDIA: "Rifle automático pesado antiguo y obsoleto. Originalmente configurado como arma de apoyo para escuadrones, muchos se adaptaron para convertirse en rifles portátiles. A pesar de ser pesado, impopular y algo difícil de apuntar, se utilizó durante más de 200 años. Muchos fueron contrabandeados por funcionarios corruptos de la CMA y llegaron a los arsenales insurgentes, donde se aprecia por su fácil mantenimiento y alta cadencia de fuego"
+  STR_CM300_FRONTIER_CARBINE: "Carabina CM300"
+  STR_CM300_FRONTIER_CARBINE_UFOPEDIA: "Apodada 'La confetiadora' por su increíble cadencia de tiro, capaz de vaciar un cargador completo en segundos. Es una variante carabina de la serie MA3, muy extendida entre los numerosos colonos de finales del siglo XXIV. Rápidamente copiada y reproducida en el mercado negro, se convirtió en un elemento básico del movimiento insurreccionista, ya que es su arma preferida. Adaptada para utilizar cargadores MA5B."
+  
+
+
+
   STR_TYPE_25_PLASMA_PISTOL: Pistola Tipo-25
   STR_PLASMA_PISTOL_CELL: Batería de Pistola-Tipo 25
   STR_PLASMA_RIFLE_ELITE: Rifle de Plasma Tipo-25/Patrón Elite
@@ -306,7 +319,7 @@ es-419:
   STR_FUEL_ROD_GUN_RACK: "Racimo Radioactivo Tipo 33 'Cañón de Combustible'"
   STR_PLASMA_GRENADE: "Granada 'de Plasma' Antipersonal Tipo 1"
   STR_PLASMA_GRENADE_INV: " "
-  STR_PLASMA_GRENADE_UFOPEDIA: "Granada de mano estándar de la infatería Covenant. Contiene un pequeño generador de plasma que empieza a ventilar su refrigerante una vez activada. Cuando termina de ventilar, la integridad se pierde y explota, liberando una gran descarga de energía de plasma."
+  STR_PLASMA_GRENADE_UFOPEDIA: "Granada de mano estándar de la infantería del Covenant, puede {ALT} adherirse tanto a unidades humanas como del Covenant {ALT}. Contiene un pequeño generador de plasma que libera su refrigerante una vez activado y, una vez descargado por completo, explota, liberando una gran explosión de energía con {ALT} 90 puntos de daño {ALT}."
   STR_ENERGY_SWORD: "Espada de Energía Tipo 1"
   STR_ENERGY_SWORD_BATTERY: "Batería de Espada de Energía Tipo 1"
   STR_MINOR_SHIELD_GAUNTLET: "Escudo Guantelete de Jackal Menor"

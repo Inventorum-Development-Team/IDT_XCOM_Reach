@@ -300,7 +300,7 @@ en-US:
   STR_VK78_COMMANDO_RIFLE_UFOPEDIA: "Former standard-issue battle rifle of the disbanded Colonial Military Authority, it entered service in 2495, now retired from frontline service. Meant to replace the aging HMG-38, the Colonial Military stockpiled large numbers of VK78s; many of them were provided to planetary militias to equip their self-defense forces. "
   STR_VK78_COMMANDO_RIFLE_MAG: "6.5x48mm VK78 Magazine"
   STR_HMG38_MONITOR_RIFLE: "HMG-38 Monitor Rifle"
-  STR_HMG38_MONITOR_RIFLE_MAG: "7.92x57mm HMG-38 Magazine"
+  STR_HMG38_MONITOR_RIFLE_MAG: "8.6x39mm HMG-38 Magazine"
   STR_HMG38_MONITOR_RIFLE_UFOPEDIA: "Old and outdated heavy automatic rifle. Originally configured as a squad support weapon, many were adapted to become handheld rifles. Despite being cumbersome, unpopular and somewhat difficult to aim, it was used for more than 200 years. Many were smuggled by corrupt CMA officials and made their way to the insurgent arsenals, where it's appreciated for its easy maintenance and high rate of fire."
   STR_CM300_FRONTIER_CARBINE: "CM300 Frontier Carbine"
   STR_CM300_FRONTIER_CARBINE_UFOPEDIA: "Nicknamed 'The Confetti Maker' for its insane rate of fire, able to empty a full magazine in seconds. A carbine variant of the MA3 series, it was very widespread among the numerous late-24th Century colonial settlers. Quickly copied and reproduced across the black market, it became a staple of the Insurrectionist movement, as its their preferred weapon of choice. Adapted to use MA5B magazines."
@@ -320,7 +320,7 @@ en-US:
   STR_PLASMA_GRENADE: "Type-1 Antipersonnel 'Plasma' Grenade"
   STR_PLASMA_GRENADE_INV: " "
   STR_PLASMA_GRENADE_PRIMED: "Type-1 Antipersonnel 'Plasma' Grenade"
-  STR_PLASMA_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, it can {ALT} stick to both human and Covenant units {ALT}. It contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast."
+  STR_PLASMA_GRENADE_UFOPEDIA: "Standard hand grenade of Covenant infantry, it can {ALT} stick to both human and Covenant units {ALT}. It contains a small plasma generator which vents it's coolant once primed, and once all has been discharged explodes, unleashing a big energy blast with {ALT} 90 points of damage {ALT}."
   STR_FUEL_ROD_GUN: "Type-33 'Fuel Rod Gun' LAAW"
   STR_FUEL_ROD_GUN_RACK: "Type-33 LAAW Radioactive Rod Rack"
   STR_ENERGY_SWORD: "Type-1 Energy Sword"
@@ -451,6 +451,11 @@ en-US:
   STR_ARMOR_INSURGENT_LIGHT_UC: "Insurrectionist BDU"
   STR_INSURGENT_LEADER: "Innie Leader"
   STR_ARMOR_INSURGENT_LEADER_UC: "Traitor Helljumper BDU"
+#####################
+  STR_INSURGENT_ASSASINATION: "INSURGENT ASSASINATION"
+  STR_INSURGENT_ASSASINATION_DESC: "A key rebel leader has been spotted in the outskirts of an urban center. We've been dispatched to eliminate them before they could put more civilian lives in danger or worst, compromise UNSC assets in the local area. This mission requires you to track down and kill the rebel leader to complete the mission. Once they have been silenced, wait one turn and proceed back to the transport, then click the 'Abort' button."
+  STR_ASSASINATION_SITE: "Rebel HVT found"
+  STR_ASSASINATION: "Covert Operation"
 
 #####################
   STR_BANSHEE_FIGHTER: "Banshee Fighter Wing"
@@ -491,7 +496,7 @@ en-US:
 #####################
   STR_CAMPAIGN_FINAL_EVACUATION_ALERT: "Final evacuation ready"
   STR_CAMPAIGN_FINAL_EVACUATION_ALERT_DESCRIPTION: "The last civilian transports that will be able to take off are concentrated near a small airfield on the outskirts of the city. We are the only operational unit that answered the call." 
-  STR_CAMPAIGN_FINAL_EVACUATION: "Final Evacuation"
+  STR_CAMPAIGN_FINAL_EVACUATION: "FINAL EVACUATION"
   STR_CAMPAIGN_FINAL_EVACUATION_BRIEFING: "Our mission is to protect civilians while the transports take off. UNSC troops that accompanied the civilians to the evacuation zone are in the area and will fight alongside us. Intelligence reports large numbers of hostiles approaching the evacuation site. We must hold out for 7 turns."
   STR_CAMPAIGN_FINAL_EVACUATION_MARKERNAME: "Last available airfield"
   STR_COVENANT_REINFORCEMENTS_TITLE: "Covenant reinforcements arriving"
