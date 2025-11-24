@@ -10,6 +10,16 @@ missionScripts:
   - delete: superhumanRetaliation
   - delete: recurringTerror
 
+  - type: innieLeaderAssassination
+    missionWeights:
+      0:
+        STR_INSURGENT_ASSASINATION_MISSION: 100
+    firstMonth: 0
+    maxRuns: 3
+    varName: innieLeaderAssassination
+    startDelay: 7200
+    executionOdds: 100
+
   - type: startingRecon
     missionWeights:
       0:
@@ -314,6 +324,21 @@ alienMissions:
         trajectory: P2
         timer: 1440
         huntMode: 0
+
+  - type: STR_INSURGENT_ASSASINATION_MISSION
+    points: 10
+    objective: 3
+    spawnZone: 0
+    siteType: STR_INSURGENT_ASSASINATION
+    raceWeights:
+      0:
+          STR_INSURGENTS: 100
+    waves:
+      - ufo: STR_INSURGENT_ASSASINATION
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
 
   - type: STR_CAMPAIGN_FINAL_EVACUATION_MISSION
     points: 10

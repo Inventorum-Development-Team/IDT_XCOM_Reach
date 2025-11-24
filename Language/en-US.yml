@@ -452,8 +452,9 @@ en-US:
   STR_INSURGENT_LEADER: "Innie Leader"
   STR_ARMOR_INSURGENT_LEADER_UC: "Traitor Helljumper BDU"
 #####################
+  STR_INSURGENT_ASSASINATION_MISSION: "Insurgent Assassination"
   STR_INSURGENT_ASSASINATION: "INSURGENT ASSASINATION"
-  STR_INSURGENT_ASSASINATION_DESC: "A key rebel leader has been spotted in the outskirts of an urban center. We've been dispatched to eliminate them before they could put more civilian lives in danger or worst, compromise UNSC assets in the local area. This mission requires you to track down and kill the rebel leader to complete the mission. Once they have been silenced, wait one turn and proceed back to the transport, then click the 'Abort' button."
+  STR_INSURGENT_ASSASINATION_BRIEFING: "A key rebel leader has been spotted in the outskirts of an urban center. We've been dispatched to eliminate them before they could put more civilian lives in danger or worst, compromise UNSC assets in the local area. This mission requires you to track down and kill the rebel leader to complete the mission. Once they have been silenced, wait one turn and proceed back to the transport, then click the 'Abort' button."
   STR_ASSASINATION_SITE: "Rebel HVT found"
   STR_ASSASINATION: "Covert Operation"
 

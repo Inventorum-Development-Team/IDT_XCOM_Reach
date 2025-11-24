@@ -863,7 +863,7 @@ armors:
     spriteInv: INSURGENT_INVENTORY
     corpseBattle:
       - STR_INSURGENT_CORPSE
-    storeItem: STR_NONE
+    #storeItem: STR_NONE
     frontArmor: 20
     sideArmor: 15
     rearArmor: 15
@@ -893,7 +893,7 @@ armors:
     spriteInv: INSURGENT_MEDIUM_INVENTORY
     corpseBattle:
       - STR_INSURGENT_MEDIUM_CORPSE
-    storeItem: STR_NONE
+    #storeItem: STR_NONE
     frontArmor: 20
     sideArmor: 15
     rearArmor: 15
@@ -923,7 +923,7 @@ armors:
     spriteInv: INSURGENT_LIGHT_INVENTORY
     corpseBattle:
       - STR_INSURGENT_LIGHT_CORPSE
-    storeItem: STR_NONE
+    #storeItem: STR_NONE
     frontArmor: 20
     sideArmor: 15
     rearArmor: 15
@@ -953,7 +953,7 @@ armors:
     spriteInv: INSURGENT_LEADER_INVENTORY
     corpseBattle:
       - STR_INSURGENT_LEADER_CORPSE
-    storeItem: STR_NONE
+    #storeItem: STR_NONE
     frontArmor: 30
     sideArmor: 25
     rearArmor: 20
@@ -1020,9 +1020,9 @@ units:
         - STR_M319_GRENADE
         - STR_M319_GRENADE
       - 
-        - STR_M392
-        - STR_M392_MAG
-        - STR_M392_MAG
+        - STR_CM300_FRONTIER_CARBINE
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
         - STR_GRENADE
 
   - type: STR_INSURGENT_MEDIUM
@@ -1052,19 +1052,19 @@ units:
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
       - 
-        - STR_MA37
-        - STR_MA37_MAG
-        - STR_MA37_MAG
+        - STR_CM300_FRONTIER_CARBINE
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
         - STR_GRENADE
       - 
-        - STR_MA37
-        - STR_MA37_MAG
-        - STR_MA37_MAG
+        - STR_HMG38_MONITOR_RIFLE
+        - STR_HMG38_MONITOR_RIFLE_MAG
+        - STR_HMG38_MONITOR_RIFLE_MAG
         - STR_GRENADE
       - 
-        - STR_M392
-        - STR_M392_MAG
-        - STR_M392_MAG
+        - STR_VK78_COMMANDO_RIFLE
+        - STR_VK78_COMMANDO_RIFLE_MAG
+        - STR_VK78_COMMANDO_RIFLE_MAG
         - STR_GRENADE
 
   - type: STR_INSURGENT_LIGHT

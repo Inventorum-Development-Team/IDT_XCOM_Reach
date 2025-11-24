@@ -435,6 +435,12 @@ es-419:
   STR_ARMOR_INSURGENT_LIGHT_UC: "Uniforme de Combate Rebelde"
   STR_INSURGENT_LEADER: "Líder Insurrecto"
   STR_ARMOR_INSURGENT_LEADER_UC: "Uniforme de Combate Helljumper Traidor"
+######################
+  STR_INSURGENT_ASSASINATION_MISSION: "Asesinato de líder Insurgente"
+  STR_INSURGENT_ASSASINATION: "ASESINATO DE LÍDER INSURGENTE"
+  STR_INSURGENT_ASSASINATION_BRIEFING: "Un líder rebelde clave ha sido avistado en las afueras de un centro urbano. Nos han enviado para eliminarlo antes de que pueda poner en peligro la vida de más civiles o, peor aún, comprometer los recursos del UNSC en la zona. Esta misión requiere que localices y elimines al líder rebelde para completarla. Una vez silenciado, espera un turno, regresa al transporte y pulsa el botón 'Abortar'."
+  STR_ASSASINATION_SITE: "VIP Rebelde encontrado"
+  STR_ASSASINATION: "Operación Encubierta"  
 
 ######################
   STR_BANSHEE_FIGHTER: "Escuadrón de Cazas Banshee"
