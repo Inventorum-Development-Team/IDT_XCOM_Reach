@@ -13,7 +13,12 @@ Changes made:
 * Added Insurrectionist weapons;
   - CM300 Frontier Rifle
   - HMG-38 Monitor Rifle
-* Spellcheck on 
+* Spellcheck on en-US Language file
+* Fixed issue where having a different skin on the Pelican and Falcons crashed the Final Evacuation mission, reported by n7kopper
+* Fixed issue with inconsistent height on Craft Preview, reported by n7kopper
+* Armor abilities now go to their Ufopedia pages when middle clicked, reported by wethan2
+* Fixed weird walking sound on Spire gravlift beam tile, reported by several players
+* Ghosts are no longer recoverable, reported by wethan2
 
 17-April-2025: v1.2
 Changes made:
