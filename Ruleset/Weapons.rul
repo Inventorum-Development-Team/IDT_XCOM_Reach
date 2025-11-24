@@ -474,7 +474,7 @@ items:
     accuracySnap: 65
     accuracyAimed: 75
     accuracyAuto: 45
-    accuracyCloseQuarters: 45
+    accuracyCloseQuarters: 55
     confAuto:
       shots: 5
       name: STR_FULL_AUTO
@@ -492,9 +492,9 @@ items:
     maxRange: 200
     aimRange: 100
     snapRange: 30
-    autoRange: 25
+    autoRange: 26
     minRange: 3
-    dropoff: 4
+    dropoff: 2
   - type: STR_VK78_COMMANDO_RIFLE_MAG         #VK78 magazine
     categories: [STR_WEAPONS, STR_FIREARMS, STR_BATTLE_RIFLES_DMRS, STR_MAGAZINES, STR_UNSC_EQUIPMENT, STR_UNSC_ARMY_EQUIPMENT]
     size: 0.1
@@ -507,7 +507,7 @@ items:
     hitAnimation: 26
     explosionSpeed: 30
     bulletSprite: 11
-    power: 50
+    power: 55
     bulletSpeed: 20
     damageAlter:
       RandomType: 3
