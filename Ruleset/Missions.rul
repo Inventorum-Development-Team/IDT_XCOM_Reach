@@ -328,7 +328,7 @@ alienMissions:
   - type: STR_INSURGENT_ASSASINATION_MISSION
     points: 10
     objective: 3
-    spawnZone: 0
+    spawnZone: 3
     siteType: STR_INSURGENT_ASSASINATION
     raceWeights:
       0:
