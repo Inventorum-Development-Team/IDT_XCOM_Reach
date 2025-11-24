@@ -213,6 +213,7 @@ items:
 
   - type: STR_SPRINT_ITEM
     size: 0.1
+    ufopediaType: STR_SPRINT_SKILL
     weight: 10
     costBuy: 200000
     bigSprite: 101
@@ -226,6 +227,7 @@ items:
       ItemAbility: 1
   - type: STR_CAMO_ITEM
     size: 0.1
+    ufopediaType: STR_CAMO_SKILL
     weight: 10
     costBuy: 500000
     bigSprite: 102
@@ -239,6 +241,7 @@ items:
       ItemAbility: 2
   - type: STR_JETPACK_ITEM
     size: 0.1
+    ufopediaType: STR_JETPACK_SKILL
     weight: 10
     costBuy: 300000
     bigSprite: 106
@@ -272,6 +275,7 @@ items:
   #     ItemAbility: 3
   - type: STR_HOLO_ITEM
     size: 0.1
+    ufopediaType: STR_HOLO_SKILL
     weight: 10
     costBuy: 200000
     bigSprite: 104
@@ -292,6 +296,7 @@ items:
       ItemAbility: 4
   - type: STR_LOCK_ITEM
     size: 0.1
+    ufopediaType: STR_LOCK_SKILL
     weight: 10
     costBuy: 500000
     bigSprite: 105
