@@ -192,6 +192,7 @@ items:
     battleType: 11
     power: 120
     blastRadius: 2
+    recover: false
     
   - type: GHOST_CORPSE_1
     name: STR_GHOST_CORPSE
@@ -233,6 +234,7 @@ items:
     battleType: 11
     power: 120
     blastRadius: 2
+    recover: false
     
   - type: SANGHEILI_GHOST_CORPSE_1
     name: STR_GHOST_CORPSE
