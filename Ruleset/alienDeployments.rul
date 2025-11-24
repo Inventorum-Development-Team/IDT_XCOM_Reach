@@ -2,10 +2,22 @@ startingConditions:
   - type: STR_ASSASINATION
     allowedCraft:
       - STR_FALCON_DROPSHIP
+      - STR_FALCON_GUNSHIP
+      - STR_PELICAN_DROPSHIP
+      - STR_CHARON_CLASS_LIGHT_FRIGATE
+      - STR_PARIS_CLASS_HEAVY_FRIGATE
 
 
 
 alienDeployments:
+  - type: STR_CRAFT_DEPLOYMENT_PREVIEW
+    isHidden: true
+    width: 10
+    length: 10
+    height: 10
+    terrains:
+      - CULTA
+    script: STR_CRAFT_DEPLOYMENT_PREVIEW
   - type: STR_BANSHEE_FIGHTER
     data:
       - alienRank: 1
