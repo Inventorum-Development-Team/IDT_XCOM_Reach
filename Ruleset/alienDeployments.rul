@@ -1187,6 +1187,8 @@ alienDeployments:
     civilians: 0 # no random civilians
     terrains:
       - INDUSTRIAL
+      - REFINERY
+      - INDUSTRIALSLUM
     alert: STR_INSURGENT_ASSASINATION
     alertBackground: BACK03.SCR
     briefing:
