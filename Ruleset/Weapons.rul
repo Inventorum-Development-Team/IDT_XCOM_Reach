@@ -1916,6 +1916,530 @@ items:
     invWidth: 2
     invHeight: 3
 
+
+#############################################
+########## JIRALHANAE WEAPONRY #############
+###########################################
+
+  - type: STR_SPIKER       #Type-25 Spike Rifle
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    costSell: 68000
+    size: 0.2         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 12
+    twoHanded: true
+    compatibleAmmo:         #Battle Stats
+      - STR_SPIKER_MAG
+    confAuto:
+      shots: 6
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO
+      followProjectiles: true
+      spendPerShot: 1
+    confSnap:
+      shots: 3
+      name: STR_SHORT_BURST
+      shortName: STR_BURST
+      followProjectiles: true
+      spendPerShot: 1
+    confAimed:
+      shots: 2
+      name: STR_DOUBLE_TAP
+      shortName: STR_DOUBLE_TAP
+      followProjectiles: true
+      spendPerShot: 1
+    accuracyAuto: 16        #
+    accuracySnap: 30        #
+    accuracyAimed: 48       #
+    tuAuto: 14              #
+    tuSnap: 14              #
+    tuAimed: 16             #
+    accuracyMelee: 90       # bayonet blades
+    tuMelee: 12
+    meleeAnimation: 150
+    meleePower: 55
+    meleeAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.8
+      ToArmorPre: 0.3
+      ToWound: 1.4
+      ToMorale: 1.3
+    maxRange: 80            #
+    aimRange: 16            #
+    snapRange: 8            #
+    dropoff: 9              #
+    fireSound: [206, 207, 208]          #
+    reloadSound: [209, 210, 211]
+    bigSprite: 760    #inventory sprite
+    floorSprite: 760  #battlescape floor sprite
+    handSprite: 760
+  - type: STR_SPIKER_MAG         #T25 spike drum
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_MAGAZINES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1450
+    weight: 4
+    bigSprite: 768
+    floorSprite: 768
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    bulletSprite: 26
+    bulletSpeed: 20
+    power: 26
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.9
+      ToArmorPre: 0.4
+      ToWound: 1.5
+      ToHealth: 1.2
+      ToMorale: 1.2
+      ToMana: 0.8
+    damageType: 1
+    clipSize: 40
+    battleType: 2
+    armor: 12
+
+  - type: STR_MAULER       #Type-52 Pistol
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_HANDGUNS, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    costSell: 54000
+    size: 0.1         # size in gen. stores
+    invWidth: 2       # 2x2 in inventory.
+    invHeight: 2
+    battleType: 1     # 1 = firearm
+    weight: 8
+    compatibleAmmo:         #Battle Stats
+      - STR_MAULER_MAG
+    accuracySnap: 34        #
+    accuracyAimed: 52       #
+    tuSnap: 12              #
+    tuAimed: 20             #
+    accuracyMelee: 85       # underslung blade
+    tuMelee: 12
+    meleeAnimation: 150
+    meleePower: 50
+    meleeAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.8
+      ToArmorPre: 0.3
+      ToWound: 1.3
+      ToMorale: 1.3
+    maxRange: 12            #
+    aimRange: 5             #
+    snapRange: 4            #
+    minRange: 1             #
+    dropoff: 10             #
+    fireSound: [125, 126, 127]          #
+    reloadSound: [218, 219]
+    bigSprite: 1032   #inventory sprite
+    floorSprite: 1032 #battlescape floor sprite
+    handSprite: 1032
+  - type: STR_MAULER_MAG         #T52 shell cylinder
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_MAGAZINES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 1300
+    weight: 2
+    bigSprite: 1040
+    floorSprite: 1040
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    bulletSprite: 11
+    bulletSpeed: 20
+    power: 30
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 1.0
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.4
+      ToMana: 1.0
+    damageType: 1
+    shotgunBehavior: 1
+    shotgunSpread: 30
+    shotgunPellets: 10
+    clipSize: 5
+    battleType: 2
+    armor: 12
+
+  - type: STR_BRUTE_SHOT       #Type-25 Grenade Launcher
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_GRENADES, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    costSell: 96000
+    size: 0.3         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 16
+    twoHanded: true
+    arcingShot: true
+    compatibleAmmo:         #Battle Stats
+      - STR_BRUTE_SHOT_GRENADE_RACK
+    accuracySnap: 45        #
+    accuracyAimed: 70       #
+    tuSnap: 25              #
+    tuAimed: 42             #
+    tuLoad: 25
+    accuracyMelee: 95       # rear blade
+    tuMelee: 14
+    meleeAnimation: 150
+    meleePower: 85
+    meleeAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.7
+      ToArmorPre: 0.3
+      ToWound: 1.6
+      ToMorale: 1.5
+    maxRange: 120           #
+    aimRange: 30            #
+    snapRange: 14           #
+    dropoff: 4              #
+    fireSound: [1619, 1620, 1621]       #
+    reloadSound: [1625]
+    bigSprite: 848    #inventory sprite
+    floorSprite: 848  #battlescape floor sprite
+    handSprite: 848
+    armor: 30
+  - type: STR_BRUTE_SHOT_GRENADE_RACK         #T25 GL grenade rack
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_MAGAZINES, STR_COVENANT_EQUIPMENT]
+    size: 0.2
+    #costBuy: 1      #--DEBUG--
+    costSell: 1900
+    weight: 5
+    bigSprite: 856
+    floorSprite: 856
+    power: 110
+    blastRadius: 2
+    powerForAnimation: 55
+    hitAnimation: 200
+    bulletSprite: 0
+    bulletSpeed: 12
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.8
+      ToArmorPre: 0.3
+      RadiusReduction: 40
+      IgnoreSelfDestruct: true
+      ToWound: 1.3
+      RandomWound: true
+      ToTile: 0.85
+      ToStun: 1.2
+      ToMana: 1.2
+      FixRadius: 2
+    explosionHitSound: [1622, 1623, 1624]
+    damageType: 3
+    clipSize: 6
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 1
+
+  - type: STR_CONCUSSION_RIFLE       #Type-50 Concussion Rifle
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    costSell: 118000
+    size: 0.2         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 14
+    twoHanded: true
+    arcingShot: true
+    compatibleAmmo:         #Battle Stats
+      - STR_CONCUSSION_RIFLE_BATTERY
+    confSnap:
+      shots: 1
+      name: STR_SINGLE_SHOT
+      spendPerShot: 1
+    confAimed:
+      shots: 1
+      name: STR_AIMED_SHOT
+      spendPerShot: 1
+    accuracySnap: 48        #
+    accuracyAimed: 72       #
+    tuSnap: 22              #
+    tuAimed: 38             #
+    maxRange: 110           #
+    aimRange: 28            #
+    snapRange: 12           #
+    dropoff: 4              #
+    fireSound: [215, 216, 217]          #
+    reloadSound: [220, 221, 222]
+    bigSprite: 872    #inventory sprite
+    floorSprite: 872  #battlescape floor sprite
+    handSprite: 872
+  - type: STR_CONCUSSION_RIFLE_BATTERY         #T50 concussion cell
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 2100
+    weight: 4
+    bigSprite: 880
+    floorSprite: 880
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
+    hitAnimation: 210
+    bulletSprite: 23
+    bulletSpeed: 12
+    explosionSpeed: 6
+    power: 80
+    blastRadius: 2
+    powerForAnimation: 45
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.6
+      ToArmorPre: 0.4
+      RadiusReduction: 45
+      ToMorale: 1.6
+      ToStun: 1.6
+      ToMana: 2.0
+      ToTile: 0.60
+      FixRadius: 2
+    damageType: 5
+    clipSize: 6
+    battleType: 2
+    armor: 12
+
+  - type: STR_BEAM_RIFLE       #Type-50 Particle Beam Rifle
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    costSell: 168000
+    size: 0.3         # size in gen. stores
+    invWidth: 1       # 1x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 10
+    twoHanded: true
+    compatibleAmmo:         #Battle Stats
+      - STR_BEAM_RIFLE_BATTERY
+    confSnap:
+      shots: 1
+      name: STR_SINGLE_SHOT
+      spendPerShot: 1
+    confAimed:
+      shots: 1
+      name: STR_AIMED_SHOT
+      spendPerShot: 1
+    accuracySnap: 62        #
+    accuracyAimed: 110      #
+    tuSnap: 26              #
+    tuAimed: 46             #
+    kneelBonus: 120
+    maxRange: 250           #
+    aimRange: 120           #
+    snapRange: 30           #
+    minRange: 4             #
+    dropoff: 2              #
+    fireSound: [230, 231]               #
+    reloadSound: [232, 233, 234]
+    bigSprite: 992    #inventory sprite
+    floorSprite: 992  #battlescape floor sprite
+    handSprite: 992
+  - type: STR_BEAM_RIFLE_BATTERY         #T50 beam cell
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SNIPER_RIFLES, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 2600
+    weight: 3
+    bigSprite: 1016
+    floorSprite: 1016
+    hitSound: [375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404]
+    hitAnimation: 140
+    bulletSprite: 18
+    bulletSpeed: 40
+    power: 115
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.6
+      ToHealth: 1.3
+      ToWound: 1.2
+      ToMorale: 1.4
+      ToMana: 2.0
+    damageType: 4
+    clipSize: 8
+    battleType: 2
+    armor: 12
+
+  - type: STR_SKEWER       #Type-71 Skewer
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_SNIPER_RIFLES, STR_COVENANT_EQUIPMENT]
+    #costBuy: 1     #--DEBUG--
+    costSell: 185000
+    size: 0.3         # size in gen. stores
+    invWidth: 2       # 2x3 in inventory.
+    invHeight: 3
+    battleType: 1     # 1 = firearm
+    weight: 20
+    twoHanded: true
+    compatibleAmmo:         #Battle Stats
+      - STR_SKEWER_SPIKE
+    confSnap:
+      shots: 1
+      name: STR_SINGLE_SHOT
+      spendPerShot: 1
+    confAimed:
+      shots: 1
+      name: STR_AIMED_SHOT
+      spendPerShot: 1
+    accuracySnap: 40        #
+    accuracyAimed: 95       #
+    tuSnap: 35              #
+    tuAimed: 60             #
+    tuLoad: 30
+    kneelBonus: 115
+    maxRange: 200           #
+    aimRange: 90            #
+    snapRange: 20           #
+    minRange: 3             #
+    dropoff: 3              #
+    fireSound: [238]                    #
+    reloadSound: [229]
+    bigSprite: 1144   #inventory sprite
+    floorSprite: 1144 #battlescape floor sprite
+    handSprite: 1144
+    armor: 35
+  - type: STR_SKEWER_SPIKE         #T71 skewer spike
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_MAGAZINES, STR_COVENANT_EQUIPMENT]
+    size: 0.2
+    #costBuy: 1      #--DEBUG--
+    costSell: 3200
+    weight: 5
+    bigSprite: 1152
+    floorSprite: 1152
+    hitSound: [350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371]
+    hitAnimation: 26
+    bulletSprite: 26
+    bulletSpeed: 30
+    power: 210
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 1.2
+      ToArmorPre: 0.7
+      ToHealth: 1.4
+      ToWound: 1.8
+      RandomWound: true
+      ToMorale: 1.5
+      ToMana: 1.0
+    damageType: 1
+    clipSize: 3
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    recoveryPoints: 1
+
+  - type: STR_GRAVITY_HAMMER # Type-2 Gravity Hammer
+    categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]
+    size: 0.4
+    costSell: 145000
+    weight: 22
+    bigSprite: 1120
+    floorSprite: 1120
+    handSprite: 1120
+    meleeHitSound: [223, 224, 225, 226, 227, 228]
+    meleeAnimation: 150
+    reloadSound: 229
+    compatibleAmmo:
+      - STR_GRAVITY_HAMMER_BATTERY
+    accuracyMelee: 95
+    tuMelee: 25
+    confMelee:
+      spendPerShot: 20
+      name: STR_SMASH
+    battleType: 3
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 2
+    aimRange: 2
+    snapRange: 1
+    hidePower: true
+    armor: 45
+  - type: STR_GRAVITY_HAMMER_BATTERY         #T2 gravitic cell
+    categories: [STR_WEAPONS, STR_MELEE, STR_BATTERIES, STR_COVENANT_EQUIPMENT]
+    size: 0.2
+    #costBuy: 1      #--DEBUG--
+    costSell: 16000
+    weight: 4
+    bigSprite: 1128
+    floorSprite: 1128
+    damageType: 7
+    meleeAnimation: 150
+    meleePower: 420
+    power: 380
+    meleeAlter:
+      RandomType: 3
+      ArmorEffectiveness: 1.3
+      ToArmorPre: 0.8
+      ToHealth: 1.3
+      ToWound: 1.5
+      RandomWound: true
+      ToMorale: 2.5
+      ToStun: 1.8
+      ToTile: 1.5
+      ToMana: 1.5
+    clipSize: 100
+    battleType: 2
+    armor: 12
+
+  - type: STR_SPIKE_GRENADE #Type-2 Antipersonnel Fragmentation Grenade
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 4200
+    weight: 4
+    bigSprite: 904
+    floorSprite: 904
+    power: 125
+    fuseType: -2
+    blastRadius: 2
+    powerForAnimation: 55
+    hitAnimation: 200
+    damageAlter:
+      ArmorEffectiveness: 1.1
+      ToArmorPre: 0.4
+      RadiusReduction: 50
+      ToTile: 0.85
+      ToWound: 1.8
+      RandomWound: true
+      ToMorale: 1.4
+      FixRadius: 2
+    damageType: 3
+    battleType: 4
+    vaporColorSurface: 10
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 100
+
+  - type: STR_INCENDIARY_GRENADE #Type-3 Incendiary Grenade
+    categories: [STR_WEAPONS, STR_GADGETS, STR_GRENADES, STR_COVENANT_EQUIPMENT]
+    size: 0.1
+    #costBuy: 1      #--DEBUG--
+    costSell: 4800
+    weight: 4
+    bigSprite: 920
+    floorSprite: 920
+    power: 85
+    fuseType: -2
+    blastRadius: 3
+    powerForAnimation: 40
+    hitAnimation: 210
+    damageAlter:
+      ArmorEffectiveness: 0.6
+      ToArmorPre: 0.2
+      RadiusReduction: 20
+      ToTile: 0.50
+      ToWound: 1.6
+      ToHealth: 1.3
+      ToMorale: 2.0
+      FixRadius: 3
+    damageType: 2
+    battleType: 4
+    vaporColorSurface: 5
+    vaporDensitySurface: 4
+    vaporProbabilitySurface: 100
+
   - type: STR_PLASMA_GHOST_CANNON       #Type 2 Plasma Cannon
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
     #costBuy: 1     #--DEBUG--
@@ -2035,9 +2559,9 @@ extraSprites:
       728: Resources/CovenantEquipment/BigNeedleRifle_noammo.png
       736: Resources/CovenantEquipment/BigNeedleRifle_ammo.png
       744: Resources/CovenantEquipment/BigNeedleRifleCanister.png
-#      752: Resources/CovenantEquipment/BigSpiker_noammo.png
-#      760: Resources/CovenantEquipment/BigSpiker_ammo.png
-#      768: Resources/CovenantEquipment/BigSpikerAmmo.png
+      752: Resources/CovenantEquipment/BigSpiker_noammo.png
+      760: Resources/CovenantEquipment/BigSpiker_ammo.png
+      768: Resources/CovenantEquipment/BigSpikerAmmo.png
       776: Resources/CovenantEquipment/BigPlasmaPistol_noammo.png
       784: Resources/CovenantEquipment/BigPlasmaPistol_ammo.png
       792: Resources/CovenantEquipment/BigPlasmaPistolBattery.png
@@ -2047,29 +2571,29 @@ extraSprites:
       824: Resources/CovenantEquipment/BigFuelRodGun_noammo.png
       832: Resources/CovenantEquipment/BigFuelRodGun_ammo.png
       840: Resources/CovenantEquipment/BigFuelRodGunRack.png
-#      848: Resources/CovenantEquipment/BigBruteShot.png
-#      856: Resources/CovenantEquipment/BigBruteShotGrenadeRack.png
-#      864: Resources/CovenantEquipment/BigConcussionRifle_noammo.png
-#      872: Resources/CovenantEquipment/BigConcussionRifle_ammo.png
-#      880: Resources/CovenantEquipment/BigConcussionRifleBattery.png
+      848: Resources/CovenantEquipment/BigBruteShot.png
+      856: Resources/CovenantEquipment/BigBruteShotGrenadeRack.png
+      864: Resources/CovenantEquipment/BigConcussionRifle_noammo.png
+      872: Resources/CovenantEquipment/BigConcussionRifle_ammo.png
+      880: Resources/CovenantEquipment/BigConcussionRifleBattery.png
       888: Resources/CovenantEquipment/BigPlasmaGrenade_unprimed.png
       896: Resources/CovenantEquipment/BigPlasmaGrenade_primed.png
-#      904: Resources/CovenantEquipment/BigSpikeGrenade_unprimed.png
-#      912: Resources/CovenantEquipment/BigSpikeGrenade_primed.png
-#      920: Resources/CovenantEquipment/BigIncendiaryGrenade.png
+      904: Resources/CovenantEquipment/BigSpikeGrenade_unprimed.png
+      912: Resources/CovenantEquipment/BigSpikeGrenade_primed.png
+      920: Resources/CovenantEquipment/BigIncendiaryGrenade.png
       928: Resources/CovenantEquipment/BigEnergySword_noammo.png
       936: Resources/CovenantEquipment/BigEnergySword_ammo.png
       944: Resources/CovenantEquipment/BigEnergySwordBattery.png
       952: Resources/CovenantEquipment/BigMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/BigMajorShieldGauntlet.png
-      #984: Resources/CovenantEquipment/BigBeamRifle_noammo.png
-      #992: Resources/CovenantEquipment/BigBeamRifle_ammo.png
+      984: Resources/CovenantEquipment/BigBeamRifle_noammo.png
+      992: Resources/CovenantEquipment/BigBeamRifle_ammo.png
       #1000: Resources/CovenantEquipment/BigLongRifle_noammo.png
       #1008: Resources/CovenantEquipment/BigLongRifle_ammo.png
-      #1016: Resources/CovenantEquipment/BigBeamRifleBattery.png
-      #1024: Resources/CovenantEquipment/BigMauler_noammo.png
-      #1032: Resources/CovenantEquipment/BigMauler_ammo.png
-      #1040: Resources/CovenantEquipment/BigMaulerAmmo.png
+      1016: Resources/CovenantEquipment/BigBeamRifleBattery.png
+      1024: Resources/CovenantEquipment/BigMauler_noammo.png
+      1032: Resources/CovenantEquipment/BigMauler_ammo.png
+      1040: Resources/CovenantEquipment/BigMaulerAmmo.png
       ##
       1048: Resources/HumanEquipment/BigVK78Commando_noammo.png
       1056: Resources/HumanEquipment/BigVK78Commando_ammo.png
@@ -2079,6 +2603,12 @@ extraSprites:
       1088: Resources/HumanEquipment/BigHMG38_noammo.png
       1096: Resources/HumanEquipment/BigHMG38_ammo.png
       1104: Resources/HumanEquipment/BigHMG38Ammo.png
+      1112: Resources/CovenantEquipment/BigGravityHammer_noammo.png
+      1120: Resources/CovenantEquipment/BigGravityHammer_ammo.png
+      1128: Resources/CovenantEquipment/BigGravityHammerBattery.png
+      1136: Resources/CovenantEquipment/BigSkewer_noammo.png
+      1144: Resources/CovenantEquipment/BigSkewer_ammo.png
+      1152: Resources/CovenantEquipment/BigSkewerSpike.png
 
       1400: Resources/Vehicles/BigM41Vulcan.png
 
@@ -2156,9 +2686,9 @@ extraSprites:
       728: Resources/CovenantEquipment/FloorNeedleRifle_noammo.png
       736: Resources/CovenantEquipment/FloorNeedleRifle_ammo.png
       744: Resources/CovenantEquipment/FloorNeedleRifleCanister.png
-#      752: Resources/CovenantEquipment/FloorSpiker_noammo.png
-#      760: Resources/CovenantEquipment/FloorSpiker_ammo.png
-#      768: Resources/CovenantEquipment/FloorSpikerAmmo.png
+      752: Resources/CovenantEquipment/FloorSpiker_noammo.png
+      760: Resources/CovenantEquipment/FloorSpiker_ammo.png
+      768: Resources/CovenantEquipment/FloorSpikerAmmo.png
       776: Resources/CovenantEquipment/FloorPlasmaPistol_noammo.png
       784: Resources/CovenantEquipment/FloorPlasmaPistol_ammo.png
       792: Resources/CovenantEquipment/FloorPlasmaPistolBattery.png
@@ -2168,29 +2698,29 @@ extraSprites:
       824: Resources/CovenantEquipment/FloorFuelRodGun_noammo.png
       832: Resources/CovenantEquipment/FloorFuelRodGun_ammo.png
       840: Resources/CovenantEquipment/FloorFuelRodGunRack.png
-#      848: Resources/CovenantEquipment/FloorBruteShot.png
-#      856: Resources/CovenantEquipment/FloorBruteShotGrenadeRack.png
-#      864: Resources/CovenantEquipment/FloorConcussionRifle_noammo.png
-#      872: Resources/CovenantEquipment/FloorConcussionRifle_ammo.png
-#      880: Resources/CovenantEquipment/FloorConcussionRifleBattery.png
+      848: Resources/CovenantEquipment/FloorBruteShot.png
+      856: Resources/CovenantEquipment/FloorBruteShotGrenadeRack.png
+      864: Resources/CovenantEquipment/FloorConcussionRifle_noammo.png
+      872: Resources/CovenantEquipment/FloorConcussionRifle_ammo.png
+      880: Resources/CovenantEquipment/FloorConcussionRifleBattery.png
       888: Resources/CovenantEquipment/FloorPlasmaGrenade_unprimed.png
       896: Resources/CovenantEquipment/FloorPlasmaGrenade_primed.png
-#      904: Resources/CovenantEquipment/FloorSpikeGrenade_unprimed.png
-#      912: Resources/CovenantEquipment/FloorSpikeGrenade_primed.png
-#      920: Resources/CovenantEquipment/FloorIncendiaryGrenade.png
+      904: Resources/CovenantEquipment/FloorSpikeGrenade_unprimed.png
+      912: Resources/CovenantEquipment/FloorSpikeGrenade_primed.png
+      920: Resources/CovenantEquipment/FloorIncendiaryGrenade.png
 #      928: Resources/CovenantEquipment/FloorIncendiaryGrenade.png
       928: Resources/CovenantEquipment/FloorEnergySword_noammo.png
       936: Resources/CovenantEquipment/FloorEnergySword_ammo.png
       952: Resources/CovenantEquipment/FloorMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/FloorMajorShieldGauntlet.png
-      #984: Resources/CovenantEquipment/FloorBeamRifle_noammo.png
-      #992: Resources/CovenantEquipment/FloorBeamRifle_ammo.png
+      984: Resources/CovenantEquipment/FloorBeamRifle_noammo.png
+      992: Resources/CovenantEquipment/FloorBeamRifle_ammo.png
       #1000: Resources/CovenantEquipment/FloorLongRifle_noammo.png
       #1008: Resources/CovenantEquipment/FloorLongRifle_ammo.png
-      #1016: Resources/CovenantEquipment/FloorBeamRifleBattery.png
-      #1024: Resources/CovenantEquipment/FloorMauler_noammo.png
-      #1032: Resources/CovenantEquipment/FloorMauler_ammo.png
-      #1040: Resources/CovenantEquipment/FloorMaulerAmmo.png
+      1016: Resources/CovenantEquipment/FloorBeamRifleBattery.png
+      1024: Resources/CovenantEquipment/FloorMauler_noammo.png
+      1032: Resources/CovenantEquipment/FloorMauler_ammo.png
+      1040: Resources/CovenantEquipment/FloorMaulerAmmo.png
       ##
       1048: Resources/HumanEquipment/FloorVK78Commando_noammo.png
       1056: Resources/HumanEquipment/FloorVK78Commando_ammo.png
@@ -2200,6 +2730,12 @@ extraSprites:
       1088: Resources/HumanEquipment/FloorHMG38_noammo.png
       1096: Resources/HumanEquipment/FloorHMG38_ammo.png
       1104: Resources/HumanEquipment/FloorHMG38Ammo.png
+      1112: Resources/CovenantEquipment/FloorGravityHammer_noammo.png
+      1120: Resources/CovenantEquipment/FloorGravityHammer_ammo.png
+      1128: Resources/CovenantEquipment/FloorGravityHammerBattery.png
+      1136: Resources/CovenantEquipment/FloorSkewer_noammo.png
+      1144: Resources/CovenantEquipment/FloorSkewer_ammo.png
+      1152: Resources/CovenantEquipment/FloorSkewerSpike.png
 
 #     1400: Resources/Vehicles/BigM41Vulcan.png
       1401: Resources/Vehicles/FloorChaingunWarthogWreck0.png
@@ -2276,9 +2812,9 @@ extraSprites:
       728: Resources/CovenantEquipment/HandNeedleRifle_noammo.png
       736: Resources/CovenantEquipment/HandNeedleRifle_ammo.png
 #      744: Resources/CovenantEquipment/HandNeedleRifleCanister.png
-#      752: Resources/CovenantEquipment/HandSpiker_noammo.png
-#      760: Resources/CovenantEquipment/HandSpiker_ammo.png
-#      768: Resources/CovenantEquipment/HandSpikerAmmo.png
+      752: Resources/CovenantEquipment/HandSpiker_noammo.png
+      760: Resources/CovenantEquipment/HandSpiker_ammo.png
+      768: Resources/CovenantEquipment/HandSpikerAmmo.png
       776: Resources/CovenantEquipment/HandPlasmaPistol_noammo.png
       784: Resources/CovenantEquipment/HandPlasmaPistol_ammo.png
 #      800: Resources/CovenantEquipment/HandFocusRifle_noammo.png
@@ -2287,28 +2823,28 @@ extraSprites:
       824: Resources/CovenantEquipment/HandFuelRodGun_noammo.png
       832: Resources/CovenantEquipment/HandFuelRodGun_ammo.png
 #      840: Resources/CovenantEquipment/HandFuelRodGunRack.png
-#      848: Resources/CovenantEquipment/HandBruteShot.png
-#      856: Resources/CovenantEquipment/HandBruteShotGrenadeRack.png
-#      864: Resources/CovenantEquipment/HandConcussionRifle_noammo.png
-#      872: Resources/CovenantEquipment/HandConcussionRifle_ammo.png
-#      880: Resources/CovenantEquipment/HandConcussionRifleBattery.png
+      848: Resources/CovenantEquipment/HandBruteShot.png
+      856: Resources/CovenantEquipment/HandBruteShotGrenadeRack.png
+      864: Resources/CovenantEquipment/HandConcussionRifle_noammo.png
+      872: Resources/CovenantEquipment/HandConcussionRifle_ammo.png
+      880: Resources/CovenantEquipment/HandConcussionRifleBattery.png
       888: Resources/CovenantEquipment/HandPlasmaGrenade_unprimed.png
       896: Resources/CovenantEquipment/HandPlasmaGrenade_primed.png
-#      904: Resources/CovenantEquipment/HandSpikeGrenade_unprimed.png
-#      912: Resources/CovenantEquipment/HandSpikeGrenade_primed.png
-#      920: Resources/CovenantEquipment/HandIncendiaryGrenade.png
+      904: Resources/CovenantEquipment/HandSpikeGrenade_unprimed.png
+      912: Resources/CovenantEquipment/HandSpikeGrenade_primed.png
+      920: Resources/CovenantEquipment/HandIncendiaryGrenade.png
       928: Resources/CovenantEquipment/HandEnergySword_noammo.png
       936: Resources/CovenantEquipment/HandEnergySword_ammo.png
       952: Resources/CovenantEquipment/HandMinorShieldGauntlet.png
       960: Resources/CovenantEquipment/HandMajorShieldGauntlet.png
-      #984: Resources/CovenantEquipment/HandBeamRifle_noammo.png
-      #992: Resources/CovenantEquipment/HandBeamRifle_ammo.png
+      984: Resources/CovenantEquipment/HandBeamRifle_noammo.png
+      992: Resources/CovenantEquipment/HandBeamRifle_ammo.png
       #1000: Resources/CovenantEquipment/HandLongRifle_noammo.png
       #1008: Resources/CovenantEquipment/HandLongRifle_ammo.png
-      #1016: Resources/CovenantEquipment/HandBeamRifleBattery.png
-      #1024: Resources/CovenantEquipment/HandMauler_noammo.png
-      #1032: Resources/CovenantEquipment/HandMauler_ammo.png
-      #1040: Resources/CovenantEquipment/HandMaulerAmmo.png
+      1016: Resources/CovenantEquipment/HandBeamRifleBattery.png
+      1024: Resources/CovenantEquipment/HandMauler_noammo.png
+      1032: Resources/CovenantEquipment/HandMauler_ammo.png
+      1040: Resources/CovenantEquipment/HandMaulerAmmo.png
       ##
       1048: Resources/HumanEquipment/HandVK78Commando_noammo.png
       1056: Resources/HumanEquipment/HandVK78Commando_ammo.png
@@ -2318,6 +2854,12 @@ extraSprites:
       1088: Resources/HumanEquipment/HandHMG38_noammo.png
       1096: Resources/HumanEquipment/HandHMG38_ammo.png
       #1104: Resources/HumanEquipment/HandHMG38Ammo.png
+      1112: Resources/CovenantEquipment/HandGravityHammer_noammo.png
+      1120: Resources/CovenantEquipment/HandGravityHammer_ammo.png
+      #1128: Resources/CovenantEquipment/HandGravityHammerBattery.png
+      1136: Resources/CovenantEquipment/HandSkewer_noammo.png
+      1144: Resources/CovenantEquipment/HandSkewer_ammo.png
+      #1152: Resources/CovenantEquipment/HandSkewerSpike.png
 
   - type: SMOKE.PCK
     height: 40

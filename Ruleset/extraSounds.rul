@@ -368,6 +368,49 @@ extraSounds:
       1606: Resources/Sounds/UnitSounds/Unggoy/panicSound/panic8.wav
       1607: Resources/Sounds/UnitSounds/Unggoy/panicSound/panic9.wav
 ############################
+############################
+############################
+      1800: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro1.wav
+#      1801: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro2.wav
+#      1802: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro3.wav
+#      1803: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro4.wav
+#      1804: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro5.wav
+#      1805: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro6.wav
+#      1806: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro7.wav
+#      1807: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro8.wav
+#      1808: Resources/Sounds/UnitSounds/Jiralhanae/aggroSound/aggro9.wav
+############################
+      1809: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk1.wav
+      1810: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk2.wav
+      1811: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk3.wav
+      1812: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk4.wav
+#      1813: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk5.wav
+#      1814: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk6.wav
+#      1815: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk7.wav
+#      1816: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk8.wav
+#      1817: Resources/Sounds/UnitSounds/Jiralhanae/berserkSound/berserk9.wav
+
+############################
+      1818: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death1.wav
+      1819: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death2.wav
+      1820: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death3.wav
+      1821: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death4.wav
+#      1822: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death5.wav
+#      1823: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death6.wav
+#      1824: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death7.wav
+#      1825: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death8.wav
+#      1826: Resources/Sounds/UnitSounds/Jiralhanae/deathSound/death9.wav
+############################
+      1827: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic1.wav
+      1828: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic2.wav
+      1829: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic3.wav
+      1830: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic4.wav
+#      1831: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic5.wav
+#      1832: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic6.wav
+#      1833: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic7.wav
+#      1834: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic8.wav
+#      1835: Resources/Sounds/UnitSounds/Jiralhanae/panicSound/panic9.wav
+############################
       1608: Resources/Sounds/WeaponSounds/UNSC/m41_fire1.wav
       1609: Resources/Sounds/WeaponSounds/UNSC/m41_fire2.wav
       1610: Resources/Sounds/WeaponSounds/UNSC/m41_fire3.wav

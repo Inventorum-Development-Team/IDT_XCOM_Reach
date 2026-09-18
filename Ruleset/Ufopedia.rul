@@ -553,6 +553,66 @@ ufopaedia:
     section: STR_ALIEN_ARTIFACTS
     text: STR_JACKAL_SHIELD_GAUNTLET_UFOPEDIA
 ###############################
+##### JIRALHANAE WEAPONS #####
+##############################
+  - id: STR_SPIKER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_SPIKER_UFOPEDIA
+  - id: STR_SPIKER_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MAULER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_MAULER_UFOPEDIA
+  - id: STR_MAULER_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BRUTE_SHOT
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_BRUTE_SHOT_UFOPEDIA
+  - id: STR_BRUTE_SHOT_GRENADE_RACK
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_CONCUSSION_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_CONCUSSION_RIFLE_UFOPEDIA
+  - id: STR_CONCUSSION_RIFLE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BEAM_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_BEAM_RIFLE_UFOPEDIA
+  - id: STR_BEAM_RIFLE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SKEWER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_SKEWER_UFOPEDIA
+  - id: STR_SKEWER_SPIKE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_GRAVITY_HAMMER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_GRAVITY_HAMMER_UFOPEDIA
+  - id: STR_GRAVITY_HAMMER_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPIKE_GRENADE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_SPIKE_GRENADE_UFOPEDIA
+  - id: STR_INCENDIARY_GRENADE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_INCENDIARY_GRENADE_UFOPEDIA
+###############################
 ##### COVENANT WEAPONS #######
 ##############################
   - id: STR_ARMOR_ABILITIES
