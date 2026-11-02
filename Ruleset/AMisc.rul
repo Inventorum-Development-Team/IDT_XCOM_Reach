@@ -381,6 +381,10 @@ items:
       - STR_ALIENS_ONLY
 
 ufopaedia:
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_MEDI_KIT
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_RIFLE
   - delete: STR_SKYRANGER
   - delete: STR_TANK_CANNON
   - delete: STR_TANK_ROCKET_LAUNCHER
