@@ -1,3 +1,15 @@
+2-November-2026: v1.4
+Changes made:
+* Updated to OXCE v8.7.1
+* Fixed crash on start due to missing references to deleted facilities
+* Fixed crash on polar maps ("craft/ufo map is too tall?"), reported by Gongled, Eidos8, Lollipop_Anus, et al
+* Fixed crash within Spire maps where explosions hitting the Gravlifts would crash the game, reported by Tim "Baby Legs" O'houliham, Lollipop_Anus, Lord_Scourch, et al
+* Minor missing strings
+* Three new songs, collected by Sedra Music Mixes:
+  - GMTACTIC7: "Brothers in Arms (Halo CE)"
+  - GMTACTIC8: "Brothers in Arms (Halo CEA)"
+  - GMTACTIC9: "Last of the Brave + This is Our Land"
+
 23-November-2025: v1.3
 Changes made:
 * Updated to OXCE v8.4.0

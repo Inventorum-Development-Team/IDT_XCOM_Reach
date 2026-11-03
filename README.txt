@@ -30,6 +30,8 @@ Credits:
 * Diemaco: T25 Plasma Pistol, Plasma Rifle, PR/I, T51, SRS99, M6C and M6C/SOCOM sprites and rulesets (modified)
 * Drakon: tester
 * Drages: Plasma and Needler hitAnimations
+* Eidos8: tester
+* Gongled: tester
 * Grand-Lobster-King: All Grunts paperdolls (modified to fit OXC size and palettes)
 * himalayan rock salt overdose: tester
 * InnerRyag & NRE Team: Jackal Shield Gauntlets, Sangheili & Jackal Corpse sprites, Covenant supply box tiles (modified)
@@ -39,6 +41,8 @@ Credits:
 * Kenny Magnusson: conceptual art used on menu backgrounds
 * Leflair: Kig-Yar, Sangheili, Unggoy spritesheet template, tester
 * liberation: original region data ruleset
+* Lollipop_Anus: tester
+* Lord_Scourch: tester
 * LordHayabusa357: Marine report image
 * Martin O'Donnell: original Halo Reach, Halo 3 and Halo 3: ODST soundtrack
 * Michael Salvatori: Halo Reach, Halo 3 and Halo 3: ODST soundtrack
@@ -46,6 +50,7 @@ Credits:
 * starslab: adapted Amiga fontset and ruleset
 * Stephen Rippy: original Halo Wars soundtrack
 * Tal'Raziid: tester
+* Tim "Baby Legs" O'houliham: tester
 * ValeriusPaipikus: explosion sprite
 * Wallz2296: All Sangheili paperdolls (modified to fit OXC size and palettes)
 * XOps: Covenant ship and craft tiles (changed color)
