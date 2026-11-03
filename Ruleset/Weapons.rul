@@ -44,10 +44,12 @@ itemCategories:
     listOrder: 23
   - type: STR_UNSC_MILITIA_EQUIPMENT
     listOrder: 25
+  - type: STR_INSURGENT_EQUIPMENT
+    listOrder: 26
   - type: STR_COVENANT_EQUIPMENT
-    listOrder: 25
+    listOrder: 27
   - type: STR_TANKS
-    listOrder: 25
+    listOrder: 28
 
 #Items
 items:
