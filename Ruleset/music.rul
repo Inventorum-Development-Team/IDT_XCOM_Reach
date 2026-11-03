@@ -41,6 +41,12 @@ musics:
     normalization: 1.0
   - type: GMTACTIC6
     normalization: 1.0
+  - type: GMTACTIC7
+    normalization: 1.0
+  - type: GMTACTIC8
+    normalization: 1.0
+  - type: GMTACTIC9
+    normalization: 1.0
   - type: GMWIN
     catPos: 11
     normalization: 0.84

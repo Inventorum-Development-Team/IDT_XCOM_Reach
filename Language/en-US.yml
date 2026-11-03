@@ -219,6 +219,7 @@ en-US:
   STR_UNSC_ARMY_EQUIPMENT: "Army Equipment"
   STR_UNSC_MILITIA_EQUIPMENT: "Militia Equipment"
   STR_COVENANT_EQUIPMENT: "Covenant Equipment"
+  STR_INSURGENT_EQUIPMENT: "Insurgent Equipment"
   STR_TANKS: "Tanks"
 ######################
   STR_SHIELD_S: "Shield is {}%!"
@@ -495,6 +496,7 @@ en-US:
   STR_COVENANT_SECTOR_INVASION_LATE: "Late Sector Invasion"
   STR_COVENANT_QUICK_SECTOR_INVASION: "Infiltration"
 #####################
+  STR_FINAL_AIRPORT_SPAWN: "FINAL AIRPORT"
   STR_CAMPAIGN_FINAL_EVACUATION_ALERT: "Final evacuation ready"
   STR_CAMPAIGN_FINAL_EVACUATION_ALERT_DESCRIPTION: "The last civilian transports that will be able to take off are concentrated near a small airfield on the outskirts of the city. We are the only operational unit that answered the call." 
   STR_CAMPAIGN_FINAL_EVACUATION: "FINAL EVACUATION"
@@ -556,7 +558,10 @@ en-US:
   GMTACTIC4: "Inbound Imminent"
   GMTACTIC5: "The Menagerie"
   GMTACTIC6: "Covenant Dance"
-  GMDEFEND: "Desperate Measure"
+  GMTACTIC7: "Brothers in Arms (Halo CE)"
+  GMTACTIC8: "Brothers in Arms (Halo CEA)"
+  GMTACTIC9: "Last of the Brave + This is Our Land"
+  GMDEFEND: "Desperate Measures"
   GMENBASE: "Rescue Mission"
   GMLOSE: "Cortana (No More Dead Heroes)"
   GMINTER: "Dead Ahead"
