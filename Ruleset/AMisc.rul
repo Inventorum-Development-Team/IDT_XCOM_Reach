@@ -180,6 +180,12 @@ research:
     dependencies:
       - STR_ALIENS_ONLY
 
+  - name: STR_IMPOSSIBLE_RESEARCH
+    cost: 999
+    points: 1
+    dependencies:
+      - STR_ALIENS_ONLY
+
 manufacture:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING

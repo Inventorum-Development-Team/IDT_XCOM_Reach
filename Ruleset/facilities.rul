@@ -40,48 +40,7 @@ facilities:
     spriteShape: 1
     connectorsDisabled: true
     
-  - type: STR_LASER_DEFENSES
-    spriteShape: 1
-    connectorsDisabled: true
-    mapName: XBASE_09
-    dependencies:
-      - STR_ALIENS_ONLY
-  - type: STR_PLASMA_DEFENSES
-    spriteShape: 1
-    connectorsDisabled: true
-    mapName: XBASE_09
-    dependencies:
-      - STR_ALIENS_ONLY
-  - type: STR_FUSION_BALL_DEFENSES
-    spriteShape: 1
-    connectorsDisabled: true
-    mapName: XBASE_09
-    dependencies:
-      - STR_ALIENS_ONLY
-  - type: STR_GRAV_SHIELD
-    spriteShape: 1
-    connectorsDisabled: true
-    mapName: XBASE_09
-    dependencies:
-      - STR_ALIENS_ONLY
-  - type: STR_PSIONIC_LABORATORY
-    spriteShape: 1
-    connectorsDisabled: true
-    mapName: XBASE_09
-    dependencies:
-      - STR_ALIENS_ONLY
-  - type: STR_MIND_SHIELD
-    spriteShape: 1
-    connectorsDisabled: true
-    mapName: XBASE_09
-    dependencies:
-      - STR_ALIENS_ONLY
-  - type: STR_HYPER_WAVE_DECODER
-    spriteShape: 1
-    connectorsDisabled: true
-    mapName: XBASE_09
-    dependencies:
-      - STR_ALIENS_ONLY
+
 ####### Testing
   - type: STR_GENERAL_STORES
     storageTiles:
