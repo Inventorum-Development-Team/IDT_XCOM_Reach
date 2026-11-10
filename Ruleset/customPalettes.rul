@@ -1,0 +1,16 @@
+customPalettes:
+  - type: PAL_BATTLESCAPE_CUSTOM
+    target: PAL_BATTLESCAPE
+    file: Resources/Pals/PAL_BATTLESCAPE_REACH-1.pal
+  - type: PAL_BATTLESCAPE_LATE_GAME
+    target: PAL_BATTLESCAPE_LATE_GAME # dark and somber palette, meant for late-game missions
+    file: Resources/Pals/PAL_BATTLESCAPE_REACH_BARCODE.pal
+  - type: PAL_BASESCAPE_CUSTOM
+    target: PAL_BASESCAPE
+    file: Resources/Pals/PAL_BASESCAPE_REACH.pal
+  - type: PAL_GEOSCAPE_CUSTOM
+    target: PAL_GEOSCAPE
+    file: Resources/Pals/PAL_GEOSCAPE_REACH_CURVA-2.pal
+  - type: PAL_BATTLEPEDIA_CUSTOM
+    target: PAL_BATTLEPEDIA
+    file: Resources/Pals/PAL_BATTLEPEDIA_REACH.pal
