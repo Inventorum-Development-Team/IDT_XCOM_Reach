@@ -1,0 +1,2951 @@
+items:
+  - type: STR_SANGHEILI_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2000
+    floorSprite: 2000
+    invWidth: 2
+    invHeight: 3
+
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2001
+    floorSprite: 2001
+    invWidth: 2
+    invHeight: 3
+
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_ULTRA_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2002
+    floorSprite: 2002
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_ZEALOT_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2003
+    floorSprite: 2003
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_SPECOPS_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2005
+    floorSprite: 2005
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_STEALTH_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2006
+    floorSprite: 2006
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+
+  - type: STR_SANGHEILI_SHIPMASTER_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2002
+    floorSprite: 2002
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_SANGHEILI_FLEETMASTER_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2003
+    floorSprite: 2003
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+
+  - type: STR_KIG_YAR_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2011
+    floorSprite: 2011
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_KIG_YAR_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2012
+    floorSprite: 2012
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_KIG_YAR_SNIPER_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2013
+    floorSprite: 2013
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+
+  - type: STR_UNGGOY_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2007
+    floorSprite: 2007
+    invWidth: 2
+    invHeight: 3
+
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_UNGGOY_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2008
+    floorSprite: 2008
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_UNGGOY_HEAVY_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2010
+    floorSprite: 2010
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_UNGGOY_ULTRA_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2009
+    floorSprite: 2009
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+
+  - type: STR_GHOST_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+    power: 120
+    blastRadius: 2
+    recover: false
+    
+  - type: GHOST_CORPSE_1
+    name: STR_GHOST_CORPSE
+    floorSprite: 2014
+    armor: 200
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+    power: 120
+    blastRadius: 2
+  - type: GHOST_CORPSE_2
+    floorSprite: 2015
+    armor: 200
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: GHOST_CORPSE_3
+    name: STR_GHOST_CORPSE
+    floorSprite: 2016
+    armor: 200
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: GHOST_CORPSE_4
+    name: STR_GHOST_CORPSE
+    floorSprite: 2017
+    armor: 200
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_SANGHEILI_GHOST_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+    power: 120
+    blastRadius: 2
+    recover: false
+    
+  - type: SANGHEILI_GHOST_CORPSE_1
+    name: STR_GHOST_CORPSE
+    floorSprite: 2018
+    armor: 200
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+    power: 120
+    blastRadius: 2
+  - type: SANGHEILI_GHOST_CORPSE_2
+    floorSprite: 2019
+    armor: 200
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SANGHEILI_GHOST_CORPSE_3
+    name: STR_GHOST_CORPSE
+    floorSprite: 2020
+    armor: 200
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SANGHEILI_GHOST_CORPSE_4
+    name: STR_GHOST_CORPSE
+    floorSprite: 2021
+    armor: 200
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_INSURGENT_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 2030
+    floorSprite: 2030
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    #listOrder: 1000
+  - type: STR_INSURGENT_MEDIUM_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 2031
+    floorSprite: 2031
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    #listOrder: 1000
+  - type: STR_INSURGENT_LIGHT_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 2032
+    floorSprite: 2032
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    #listOrder: 1000
+  - type: STR_INSURGENT_LEADER_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 2033
+    floorSprite: 2033
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    #listOrder: 1000
+
+
+######################################
+########## JIRALHANAE ###############
+####################################
+
+  - type: STR_JIRALHANAE_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 35
+    bigSprite: 2034
+    floorSprite: 2034
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_JIRALHANAE_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 35
+    bigSprite: 2035
+    floorSprite: 2035
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_JIRALHANAE_ULTRA_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 35
+    bigSprite: 2036
+    floorSprite: 2036
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_JIRALHANAE_STALKER_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 35
+    bigSprite: 2037
+    floorSprite: 2037
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_JIRALHANAE_CAPTAIN_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 35
+    bigSprite: 2038
+    floorSprite: 2038
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_JIRALHANAE_CAPTAIN_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 35
+    bigSprite: 2039
+    floorSprite: 2039
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_JIRALHANAE_CAPTAIN_ULTRA_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 35
+    bigSprite: 2040
+    floorSprite: 2040
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+
+
+armors:
+  - type: STR_SANGHEILI_MINOR_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_MINOR_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_MINOR_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_MINOR_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 200
+    recovery:
+      mana:
+        flatOne: 75
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_SANGHEILI_MAJOR_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_MAJOR_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_MAJOR_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_MAJOR_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 10
+    drawingRoutine: 0 #Muton
+    movementType: 0 #default walking
+    stats:
+      mana: 300
+    recovery:
+      mana:
+        flatOne: 75
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_SANGHEILI_ULTRA_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_ULTRA_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_ULTRA_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10 
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 400
+    recovery:
+      mana:
+        flatOne: 75
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_SANGHEILI_ZEALOT_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_ZEALOT_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_ZEALOT_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_ZEALOT_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 500
+    recovery:
+      mana:
+        flatOne: 75
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_SANGHEILI_SPECOPS_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    camouflageAtDark: -5
+    camouflageAtDay: -7
+    spriteSheet: SANGHEILI_SPECOPS_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_SPECOPS_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_SPECOPS_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 500
+    recovery:
+      mana:
+        flatOne: 100
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+    tags:
+       CamoVisual: 1
+
+  - type: STR_SANGHEILI_STEALTH_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    camouflageAtDark: 5
+    camouflageAtDay: 7
+    spriteSheet: SANGHEILI_STEALTH_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_STEALTH_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_STEALTH_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 150
+    recovery:
+      mana:
+        flatOne: 150
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+    tags:
+       CamoVisual: 1
+
+  - type: STR_SANGHEILI_SHIPMASTER_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_ULTRA_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_SHIPMASTER_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10 
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 400
+    recovery:
+      mana:
+        flatOne: 75
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_SANGHEILI_FLEETMASTER_ARMOR
+    visibilityAtDay: 25
+    visibilityAtDark: 20
+    spriteSheet: SANGHEILI_ZEALOT_SPRITESHEET.PCK
+    spriteInv: SANGHEILI_ZEALOT_INVENTORY
+    corpseBattle:
+      - STR_SANGHEILI_FLEETMASTER_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    stats:
+      mana: 500
+    recovery:
+      mana:
+        flatOne: 75
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_KIG_YAR_MINOR_ARMOR
+    visibilityAtDay: 26
+    visibilityAtDark: 23
+    spriteSheet: KIG_YAR_MINOR_SPRITESHEET.PCK
+    spriteInv: KIG_YAR_MINOR_INVENTORY
+    corpseBattle:
+      - STR_KIG_YAR_MINOR_CORPSE
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 10 #Muton
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_KIG_YAR_SNIPER_ARMOR
+    visibilityAtDay: 32
+    visibilityAtDark: 26
+    spriteSheet: KIG_YAR_SNIPER_SPRITESHEET.PCK
+    spriteInv: KIG_YAR_SNIPER_INVENTORY
+    corpseBattle:
+      - STR_KIG_YAR_SNIPER_CORPSE
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 10 #Muton
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_KIG_YAR_MAJOR_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 23
+    spriteSheet: KIG_YAR_MAJOR_SPRITESHEET.PCK
+    spriteInv: KIG_YAR_MAJOR_INVENTORY
+    corpseBattle:
+      - STR_KIG_YAR_MAJOR_CORPSE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    drawingRoutine: 10 #Muton
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_UNGGOY_MINOR_ARMOR
+    visibilityAtDay: 15
+    visibilityAtDark: 10
+    spriteSheet: UNGGOY_MINOR_SPRITESHEET.PCK
+    spriteInv: UNGGOY_MINOR_INVENTORY
+    corpseBattle:
+      - STR_UNGGOY_MINOR_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_UNGGOY_MAJOR_ARMOR
+    visibilityAtDay: 18
+    visibilityAtDark: 12
+    spriteSheet: UNGGOY_MAJOR_SPRITESHEET.PCK
+    spriteInv: UNGGOY_MAJOR_INVENTORY
+    corpseBattle:
+      - STR_UNGGOY_MAJOR_CORPSE
+    frontArmor: 15
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_UNGGOY_HEAVY_ARMOR
+    visibilityAtDay: 18
+    visibilityAtDark: 12
+    spriteSheet: UNGGOY_HEAVY_SPRITESHEET.PCK
+    spriteInv: UNGGOY_HEAVY_INVENTORY
+    corpseBattle:
+      - STR_UNGGOY_HEAVY_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_UNGGOY_ULTRA_ARMOR
+    visibilityAtDay: 20
+    visibilityAtDark: 15
+    spriteSheet: UNGGOY_ULTRA_SPRITESHEET.PCK
+    spriteInv: UNGGOY_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_UNGGOY_ULTRA_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 20
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.6 #INC
+      - 0.6 #HE Resistance 
+      - 1.0 #LAS
+      - 0.8 #PLASMA
+      - 0.6 #STUN
+      - 1.2 #MELEE
+      - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_GHOST_ARMOR
+    spriteSheet: GHOST_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: GHOST_INVENTORY
+    corpseBattle:
+      - GHOST_CORPSE_1
+      - GHOST_CORPSE_2
+      - GHOST_CORPSE_3
+      - GHOST_CORPSE_4
+    #corpseGeo: STR_GHOST_CORPSE
+    frontArmor: 80
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 20
+    drawingRoutine: 3
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    allowsRunning: true
+    allowsStrafing: true
+    moveCost:
+      #fist level of multipliers
+      basePercent: [100, 100] #overall move cost
+
+      #second level of multipliers
+      baseNormalPercent: [100, 100] #move cost for ground
+      baseFlyPercent: [100, 100] #move cost for flying
+
+      #third level of multipliers
+      walkPercent: [50, 50] #cost of normal move type
+      runPercent: [25, 25] #cost of run aka with `ctrl`
+      strafePercent: [50, 25] #cost of strafe when `ctrl` and only one tile aside
+    weight: -80
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    builtInWeapons:
+      - STR_PLASMA_GHOST_CANNON
+      - STR_PLASMA_GHOST_CANNON
+
+  - type: STR_SANGHEILI_GHOST_ARMOR
+    spriteSheet: SANGHEILI_GHOST_SPRITESHEET.PCK
+    allowInv: true
+    spriteInv: SANGHEILI_GHOST_INVENTORY
+    corpseBattle:
+      - SANGHEILI_GHOST_CORPSE_1
+      - SANGHEILI_GHOST_CORPSE_2
+      - SANGHEILI_GHOST_CORPSE_3
+      - SANGHEILI_GHOST_CORPSE_4
+    #corpseGeo: STR_GHOST_CORPSE
+    frontArmor: 80
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 20
+    drawingRoutine: 3
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    allowsRunning: true
+    allowsStrafing: true
+    moveCost:
+      #fist level of multipliers
+      basePercent: [100, 100] #overall move cost
+
+      #second level of multipliers
+      baseNormalPercent: [100, 100] #move cost for ground
+      baseFlyPercent: [100, 100] #move cost for flying
+
+      #third level of multipliers
+      walkPercent: [50, 50] #cost of normal move type
+      runPercent: [25, 25] #cost of run aka with `ctrl`
+      strafePercent: [50, 25] #cost of strafe when `ctrl` and only one tile aside
+    weight: -80
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    builtInWeapons:
+      - STR_PLASMA_GHOST_CANNON
+      - STR_PLASMA_GHOST_CANNON
+
+######################################
+####### INSURRECTIONISTS ############
+####################################
+
+  - type: STR_ARMOR_INSURGENT_UC
+    spriteSheet: INSURGENT_SPRITESHEET.PCK
+    spriteInv: INSURGENT_INVENTORY
+    corpseBattle:
+      - STR_INSURGENT_CORPSE
+    #storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_INSURGENT_MEDIUM_UC
+    spriteSheet: INSURGENT_MEDIUM_SPRITESHEET.PCK
+    spriteInv: INSURGENT_MEDIUM_INVENTORY
+    corpseBattle:
+      - STR_INSURGENT_MEDIUM_CORPSE
+    #storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_INSURGENT_LIGHT_UC
+    spriteSheet: INSURGENT_LIGHT_SPRITESHEET.PCK
+    spriteInv: INSURGENT_LIGHT_INVENTORY
+    corpseBattle:
+      - STR_INSURGENT_LIGHT_CORPSE
+    #storeItem: STR_NONE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    movementType: 0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+  - type: STR_ARMOR_INSURGENT_LEADER_UC
+    spriteSheet: INSURGENT_LEADER_SPRITESHEET.PCK
+    spriteInv: INSURGENT_LEADER_INVENTORY
+    corpseBattle:
+      - STR_INSURGENT_LEADER_CORPSE
+    #storeItem: STR_NONE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    movementType: 0
+    bleedImmune: true
+    camouflageAtDark: -3
+    camouflageAtDay: -1
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.0
+      - 0.7
+      - 0.9
+      - 0.8
+      - 0.8
+      - 0.8
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1  
+    stats:
+        bravery: 10
+        reactions: 10
+        firing: 10
+    specialWeapon: STR_UNARMED_REGULAR_HUMAN
+
+######################################
+########## JIRALHANAE ###############
+####################################
+
+  - type: STR_JIRALHANAE_MINOR_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 22
+    spriteSheet: JIRALHANAE_MINOR_SPRITESHEET.PCK
+    spriteInv: JIRALHANAE_MINOR_INVENTORY
+    corpseBattle:
+      - STR_JIRALHANAE_MINOR_CORPSE
+    frontArmor: 30
+    sideArmor: 18
+    rearArmor: 8
+    underArmor: 8
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.8 #INC
+      - 0.7 #HE Resistance 
+      - 1.0 #LAS
+      - 0.9 #PLASMA
+      - 0.4 #STUN
+      - 0.8 #MELEE
+      - 0.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_JIRALHANAE_MAJOR_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 22
+    spriteSheet: JIRALHANAE_MAJOR_SPRITESHEET.PCK
+    spriteInv: JIRALHANAE_MAJOR_INVENTORY
+    corpseBattle:
+      - STR_JIRALHANAE_MAJOR_CORPSE
+    frontArmor: 35
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.8 #INC
+      - 0.7 #HE Resistance 
+      - 1.0 #LAS
+      - 0.9 #PLASMA
+      - 0.4 #STUN
+      - 0.8 #MELEE
+      - 0.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_JIRALHANAE_ULTRA_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 22
+    spriteSheet: JIRALHANAE_ULTRA_SPRITESHEET.PCK
+    spriteInv: JIRALHANAE_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_JIRALHANAE_ULTRA_CORPSE
+    frontArmor: 45
+    sideArmor: 25
+    rearArmor: 12
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.8 #INC
+      - 0.7 #HE Resistance 
+      - 1.0 #LAS
+      - 0.9 #PLASMA
+      - 0.4 #STUN
+      - 0.8 #MELEE
+      - 0.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_JIRALHANAE_STALKER_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 22
+    camouflageAtDark: 5
+    camouflageAtDay: 6
+    spriteSheet: JIRALHANAE_STALKER_SPRITESHEET.PCK
+    spriteInv: JIRALHANAE_STALKER_INVENTORY
+    corpseBattle:
+      - STR_JIRALHANAE_STALKER_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.8 #INC
+      - 0.7 #HE Resistance 
+      - 1.0 #LAS
+      - 0.9 #PLASMA
+      - 0.4 #STUN
+      - 0.8 #MELEE
+      - 0.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+    tags:
+       CamoVisual: 1
+
+  - type: STR_JIRALHANAE_CAPTAIN_MINOR_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 22
+    spriteSheet: JIRALHANAE_CAPTAIN_MINOR_SPRITESHEET.PCK
+    spriteInv: JIRALHANAE_CAPTAIN_MINOR_INVENTORY
+    corpseBattle:
+      - STR_JIRALHANAE_CAPTAIN_MINOR_CORPSE
+    frontArmor: 50
+    sideArmor: 28
+    rearArmor: 14
+    underArmor: 12
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.8 #INC
+      - 0.7 #HE Resistance 
+      - 1.0 #LAS
+      - 0.9 #PLASMA
+      - 0.4 #STUN
+      - 0.8 #MELEE
+      - 0.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_JIRALHANAE_CAPTAIN_MAJOR_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 22
+    spriteSheet: JIRALHANAE_CAPTAIN_MAJOR_SPRITESHEET.PCK
+    spriteInv: JIRALHANAE_CAPTAIN_MAJOR_INVENTORY
+    corpseBattle:
+      - STR_JIRALHANAE_CAPTAIN_MAJOR_CORPSE
+    frontArmor: 60
+    sideArmor: 32
+    rearArmor: 16
+    underArmor: 12
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.8 #INC
+      - 0.7 #HE Resistance 
+      - 1.0 #LAS
+      - 0.9 #PLASMA
+      - 0.4 #STUN
+      - 0.8 #MELEE
+      - 0.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_JIRALHANAE_CAPTAIN_ULTRA_ARMOR
+    visibilityAtDay: 28
+    visibilityAtDark: 22
+    spriteSheet: JIRALHANAE_CAPTAIN_ULTRA_SPRITESHEET.PCK
+    spriteInv: JIRALHANAE_CAPTAIN_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_JIRALHANAE_CAPTAIN_ULTRA_CORPSE
+    frontArmor: 70
+    sideArmor: 38
+    rearArmor: 18
+    underArmor: 15
+    drawingRoutine: 0 #Human/Sectoid
+    movementType: 0 #default walking
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 0.8 #INC
+      - 0.7 #HE Resistance 
+      - 1.0 #LAS
+      - 0.9 #PLASMA
+      - 0.4 #STUN
+      - 0.8 #MELEE
+      - 0.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+
+units:
+### Insurgent ###
+
+  - type: STR_INSURGENT_HEAVY
+    race: STR_INSURGENTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 40
+      health: 30
+      bravery: 30
+      reactions: 30
+      firing: 60
+      throwing: 40
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_INSURGENT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 2
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M41
+        - STR_M41_ROCKETS
+        - STR_M41_ROCKETS
+      - 
+        - STR_M319
+        - STR_M319_GRENADE
+        - STR_M319_GRENADE
+        - STR_M319_GRENADE
+      - 
+        - STR_CM300_FRONTIER_CARBINE
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_GRENADE
+
+  - type: STR_INSURGENT_MEDIUM
+    race: STR_INSURGENTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 40
+      health: 30
+      bravery: 30
+      reactions: 30
+      firing: 60
+      throwing: 40
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_INSURGENT_MEDIUM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 2
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_CM300_FRONTIER_CARBINE
+        - STR_MA5B_MAG
+        - STR_MA5B_MAG
+        - STR_GRENADE
+      - 
+        - STR_HMG38_MONITOR_RIFLE
+        - STR_HMG38_MONITOR_RIFLE_MAG
+        - STR_HMG38_MONITOR_RIFLE_MAG
+        - STR_GRENADE
+      - 
+        - STR_VK78_COMMANDO_RIFLE
+        - STR_VK78_COMMANDO_RIFLE_MAG
+        - STR_VK78_COMMANDO_RIFLE_MAG
+        - STR_GRENADE
+
+  - type: STR_INSURGENT_LIGHT
+    race: STR_INSURGENTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 55
+      stamina: 40
+      health: 30
+      bravery: 30
+      reactions: 30
+      firing: 60
+      throwing: 40
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 45
+      mana: 0
+    armor: STR_ARMOR_INSURGENT_LIGHT_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 2
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M6C
+        - STR_M6C
+        - STR_M6C_MAG
+        - STR_M6C_MAG
+        - STR_M6C_MAG
+        - STR_M6C_MAG
+        - STR_GRENADE
+      - 
+        - STR_M6G
+        - STR_M6G
+        - STR_M6G_MAG
+        - STR_M6G_MAG
+        - STR_M6G_MAG
+        - STR_M6G_MAG
+        - STR_GRENADE
+      - 
+        - STR_M7
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_M7_MAG
+        - STR_GRENADE
+
+  - type: STR_INSURGENT_LEADER
+    race: STR_INSURGENTS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 60
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 50
+      strength: 50
+      psiStrength: 100
+      psiSkill: 16
+      melee: 55
+      mana: 0
+    armor: STR_ARMOR_INSURGENT_LEADER_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 50
+    deathSound: [44, 45, 46]
+    intelligence: 10
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M247H_MG
+        - STR_GRENADE
+        - STR_GRENADE
+        - STR_GRENADE
+### Covenant ###
+  - type: STR_SANGHEILI_MINOR
+    race: STR_SANGHEILI
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 95
+      health: 45
+      bravery: 90
+      reactions: 40
+      firing: 60
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_MINOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 30
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 8
+    aggression: 5
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+ 
+  - type: STR_SANGHEILI_MAJOR
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 80
+      stamina: 95
+      health: 45
+      bravery: 100
+      reactions: 45
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_MAJOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 35
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 8
+    aggression: 5
+    builtInWeaponSets:
+     -
+       - STR_NEEDLE_RIFLE
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_PLASMA_GRENADE
+     -
+       - STR_PLASMA_REPEATER
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_PLASMA_REPEATER
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_ULTRA
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 90
+      stamina: 95
+      health: 50
+      bravery: 100
+      reactions: 45
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_ULTRA_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 50
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 10
+    aggression: 5
+    builtInWeaponSets:
+     -
+       - STR_NEEDLE_RIFLE
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
+     -
+       - STR_CONCUSSION_RIFLE
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_ZEALOT
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 100
+      stamina: 95
+      health: 55
+      bravery: 120
+      reactions: 50
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_ZEALOT_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 100
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 10
+    aggression: 10
+    builtInWeaponSets:
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+     -
+       - STR_CONCUSSION_RIFLE
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_SPECOPS
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 100
+      stamina: 95
+      health: 55
+      bravery: 120
+      reactions: 50
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_SPECOPS_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 120
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 10
+    aggression: 10
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_ELITE       
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY       
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_CONCUSSION_RIFLE
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_STEALTH
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 120
+      stamina: 120
+      health: 45
+      bravery: 120
+      reactions: 65
+      firing: 50
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_SANGHEILI_STEALTH_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 40
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 10
+    aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE       
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY     
+       - STR_PLASMA_RIFLE_ELITE
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_RIFLE_CELL
+       - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_SHIPMASTER
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 90
+      stamina: 95
+      health: 50
+      bravery: 150
+      reactions: 45
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 70
+    armor: STR_SANGHEILI_SHIPMASTER_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 150
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 10
+    aggression: 5
+    builtInWeaponSets:
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
+     -
+       - STR_CONCUSSION_RIFLE
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_PLASMA_GRENADE
+
+  - type: STR_SANGHEILI_FLEETMASTER
+    race: STR_SANGHEILI
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 100
+      stamina: 95
+      health: 55
+      bravery: 160
+      reactions: 60
+      firing: 70
+      throwing: 50
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 80
+    armor: STR_SANGHEILI_FLEETMASTER_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 200
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 10
+    aggression: 10
+    builtInWeaponSets:
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_REPEATER_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_ENERGY_SWORD
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_ENERGY_SWORD_BATTERY
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+     -
+       - STR_CONCUSSION_RIFLE
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_CONCUSSION_RIFLE_BATTERY
+       - STR_PLASMA_GRENADE
+
+  - type: STR_KIG_YAR_MINOR
+    race: STR_KIG_YAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 90
+      stamina: 120
+      health: 30
+      bravery: 60
+      reactions: 90
+      firing: 70
+      throwing: 30
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_KIG_YAR_MINOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 15
+    aggroSound: 1536
+    berserkSound: [1545, 1546, 1547, 1548]
+    deathSound: [1554, 1555, 1556]
+    panicSound: [1563, 1564, 1565, 1566]
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_MINOR_SHIELD_GAUNTLET
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+     -
+       - STR_MINOR_SHIELD_GAUNTLET
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+     -
+       - STR_MINOR_SHIELD_GAUNTLET
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+
+  - type: STR_KIG_YAR_MAJOR
+    race: STR_KIG_YAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 90
+      stamina: 120
+      health: 35
+      bravery: 60
+      reactions: 90
+      firing: 70
+      throwing: 30
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_KIG_YAR_MAJOR_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 20
+    aggroSound: 1536
+    berserkSound: [1545, 1546, 1547, 1548]
+    deathSound: [1554, 1555, 1556]
+    panicSound: [1563, 1564, 1565, 1566]
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_MAJOR_SHIELD_GAUNTLET
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+     -
+       - STR_MAJOR_SHIELD_GAUNTLET
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+     -
+       - STR_MAJOR_SHIELD_GAUNTLET
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+
+  - type: STR_KIG_YAR_SNIPER
+    race: STR_KIG_YAR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 90
+      stamina: 120
+      health: 30
+      bravery: 60
+      reactions: 90
+      firing: 70
+      throwing: 30
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_KIG_YAR_SNIPER_ARMOR
+    standHeight: 19
+    kneelHeight: 15
+    value: 25
+    aggroSound: 1536
+    berserkSound: [1545, 1546, 1547, 1548]
+    deathSound: [1554, 1555, 1556]
+    panicSound: [1563, 1564, 1565, 1566]
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_NEEDLE_RIFLE
+       - STR_NEEDLE_RIFLE_CANISTER
+       - STR_NEEDLE_RIFLE_CANISTER
+     -
+       - STR_PLASMA_CARBINE
+       - STR_PLASMA_CARBINE_MAG
+       - STR_PLASMA_CARBINE_MAG
+     -
+       - STR_PLASMA_CARBINE
+       - STR_PLASMA_CARBINE_MAG
+       - STR_PLASMA_CARBINE_MAG
+
+  - type: STR_UNGGOY_MINOR
+    race: STR_UNGGOY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 50
+      health: 30
+      bravery: 30
+      reactions: 20
+      firing: 30
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_UNGGOY_MINOR_ARMOR
+    standHeight: 16
+    kneelHeight: 15
+    value: 10
+    aggroSound: 1572
+    berserkSound: [1581, 1582, 1583]
+    deathSound: [1590, 1591, 1592]
+    panicSound: [1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607]
+    spotter: 2
+    intelligence: 3
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+
+  - type: STR_UNGGOY_MAJOR
+    race: STR_UNGGOY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 50
+      health: 30
+      bravery: 40
+      reactions: 25
+      firing: 40
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_UNGGOY_MAJOR_ARMOR
+    standHeight: 16
+    kneelHeight: 15
+    value: 15
+    aggroSound: 1572
+    berserkSound: [1581, 1582, 1583]
+    deathSound: [1590, 1591, 1592]
+    panicSound: [1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607]
+    spotter: 2
+    intelligence: 4
+    aggression: 3
+    builtInWeaponSets:
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+
+  - type: STR_UNGGOY_HEAVY
+    race: STR_UNGGOY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 50
+      health: 35
+      bravery: 45
+      reactions: 30
+      firing: 50
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_UNGGOY_HEAVY_ARMOR
+    standHeight: 16
+    kneelHeight: 15
+    value: 20
+    aggroSound: 1572
+    berserkSound: [1581, 1582, 1583]
+    deathSound: [1590, 1591, 1592]
+    panicSound: [1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607]
+    spotter: 2
+    sniper: 8
+    intelligence: 4
+    aggression: 4
+    builtInWeaponSets:
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+
+  - type: STR_UNGGOY_ULTRA
+    race: STR_UNGGOY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 50
+      health: 40
+      bravery: 70
+      reactions: 45
+      firing: 60
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_UNGGOY_ULTRA_ARMOR
+    standHeight: 16
+    kneelHeight: 15
+    value: 25
+    aggroSound: 1572
+    berserkSound: [1581, 1582, 1583]
+    deathSound: [1590, 1591, 1592]
+    panicSound: [1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607]
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 4
+    builtInWeaponSets:
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+
+  - type: STR_GHOST_SANGHEILI_TERRORIST
+    race: STR_GHOST
+    rank: STR_LIVE_TERRORIST
+    liveAlien: ""
+    stats:
+      tu: 90
+      stamina: 150
+      health: 120
+      bravery: 150
+      reactions: 70
+      firing: 80
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+      mana: 200
+    armor: STR_SANGHEILI_GHOST_ARMOR
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
+    value: 20
+    deathSound: 1705
+    moveSound: 1703
+    intelligence: 5
+    aggression: 8
+    energyRecovery: 50
+    specab: 1
+    #livingWeapon: true
+    capturable: false
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_GHOST_CANNON
+       - STR_PLASMA_GHOST_CANNON
+
+  - type: STR_GHOST_UNGGOY_TERRORIST
+    race: STR_GHOST
+    rank: STR_LIVE_TERRORIST
+    liveAlien: ""
+    stats:
+      tu: 62
+      stamina: 150
+      health: 120
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 90
+      psiStrength: 100
+      psiSkill: 0
+      melee: 0
+    armor: STR_GHOST_ARMOR
+    standHeight: 15
+    kneelHeight: 15
+    floatHeight: 2
+    value: 20
+    deathSound: 1705
+    moveSound: 1703
+    intelligence: 5
+    aggression: 8
+    energyRecovery: 50
+    specab: 1
+    #livingWeapon: true
+    capturable: false
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_GHOST_CANNON
+       - STR_PLASMA_GHOST_CANNON
+### Jiralhanae ###
+  - type: STR_JIRALHANAE_MINOR
+    race: STR_JIRALHANAE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 110
+      health: 60
+      bravery: 100
+      reactions: 35
+      firing: 35
+      throwing: 40
+      strength: 70
+      psiStrength: 40
+      psiSkill: 0
+      melee: 70
+    armor: STR_JIRALHANAE_MINOR_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 35
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 4
+    aggression: 8
+    builtInWeaponSets:
+     -
+       - STR_SPIKER
+       - STR_SPIKER_MAG
+       - STR_SPIKER_MAG
+       - STR_SPIKE_GRENADE
+     -
+       - STR_SPIKER
+       - STR_SPIKER_MAG
+       - STR_SPIKER_MAG
+       - STR_SPIKE_GRENADE
+     -
+       - STR_MAULER
+       - STR_MAULER_MAG
+       - STR_MAULER_MAG
+       - STR_SPIKE_GRENADE
+
+  - type: STR_JIRALHANAE_MAJOR
+    race: STR_JIRALHANAE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 115
+      health: 70
+      bravery: 110
+      reactions: 38
+      firing: 42
+      throwing: 42
+      strength: 75
+      psiStrength: 45
+      psiSkill: 0
+      melee: 80
+    armor: STR_JIRALHANAE_MAJOR_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 45
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 4
+    aggression: 8
+    builtInWeaponSets:
+     -
+       - STR_SPIKER
+       - STR_SPIKER_MAG
+       - STR_SPIKER_MAG
+       - STR_SPIKE_GRENADE
+     -
+       - STR_PLASMA_RIFLE_BRUTE
+       - STR_PLASMA_RIFLE_BRUTE_CELL
+       - STR_PLASMA_RIFLE_BRUTE_CELL
+       - STR_SPIKE_GRENADE
+     -
+       - STR_MAULER
+       - STR_MAULER_MAG
+       - STR_MAULER_MAG
+       - STR_SPIKE_GRENADE
+
+  - type: STR_JIRALHANAE_ULTRA
+    race: STR_JIRALHANAE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 120
+      health: 80
+      bravery: 120
+      reactions: 40
+      firing: 50
+      throwing: 45
+      strength: 80
+      psiStrength: 50
+      psiSkill: 0
+      melee: 90
+    armor: STR_JIRALHANAE_ULTRA_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 60
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 5
+    aggression: 9
+    builtInWeaponSets:
+     -
+       - STR_PLASMA_RIFLE_BRUTE
+       - STR_PLASMA_RIFLE_BRUTE_CELL
+       - STR_PLASMA_RIFLE_BRUTE_CELL
+       - STR_SPIKE_GRENADE
+     -
+       - STR_BRUTE_SHOT
+       - STR_BRUTE_SHOT_GRENADE_RACK
+       - STR_BRUTE_SHOT_GRENADE_RACK
+       - STR_INCENDIARY_GRENADE
+     -
+       - STR_SPIKER
+       - STR_SPIKER_MAG
+       - STR_SPIKER_MAG
+       - STR_SPIKE_GRENADE
+
+  - type: STR_JIRALHANAE_STALKER
+    race: STR_JIRALHANAE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 85
+      stamina: 130
+      health: 70
+      bravery: 115
+      reactions: 55
+      firing: 45
+      throwing: 50
+      strength: 75
+      psiStrength: 50
+      psiSkill: 0
+      melee: 100
+    armor: STR_JIRALHANAE_STALKER_ARMOR
+    standHeight: 20
+    kneelHeight: 15
+    value: 70
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 7
+    aggression: 4
+    builtInWeaponSets:
+     -
+       - STR_MAULER
+       - STR_MAULER_MAG
+       - STR_MAULER_MAG
+       - STR_SPIKE_GRENADE
+     -
+       - STR_BEAM_RIFLE
+       - STR_BEAM_RIFLE_BATTERY
+       - STR_BEAM_RIFLE_BATTERY
+       - STR_SPIKE_GRENADE
+     -
+       - STR_MAULER
+       - STR_MAULER_MAG
+       - STR_MAULER_MAG
+       - STR_SPIKE_GRENADE
+
+  - type: STR_JIRALHANAE_CAPTAIN_MINOR
+    race: STR_JIRALHANAE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 75
+      stamina: 125
+      health: 90
+      bravery: 130
+      reactions: 45
+      firing: 60
+      throwing: 50
+      strength: 85
+      psiStrength: 55
+      psiSkill: 0
+      melee: 95
+    armor: STR_JIRALHANAE_CAPTAIN_MINOR_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 90
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 6
+    aggression: 8
+    builtInWeaponSets:
+     -
+       - STR_BRUTE_SHOT
+       - STR_BRUTE_SHOT_GRENADE_RACK
+       - STR_BRUTE_SHOT_GRENADE_RACK
+       - STR_INCENDIARY_GRENADE
+     -
+       - STR_PLASMA_RIFLE_BRUTE
+       - STR_PLASMA_RIFLE_BRUTE_CELL
+       - STR_PLASMA_RIFLE_BRUTE_CELL
+       - STR_SPIKE_GRENADE
+     -
+       - STR_SPIKER
+       - STR_SPIKER_MAG
+       - STR_SPIKER_MAG
+       - STR_SPIKE_GRENADE
+
+  - type: STR_JIRALHANAE_CAPTAIN_MAJOR
+    race: STR_JIRALHANAE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 80
+      stamina: 130
+      health: 100
+      bravery: 145
+      reactions: 48
+      firing: 65
+      throwing: 52
+      strength: 90
+      psiStrength: 55
+      psiSkill: 0
+      melee: 105
+    armor: STR_JIRALHANAE_CAPTAIN_MAJOR_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 130
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 7
+    aggression: 9
+    builtInWeaponSets:
+     -
+       - STR_BRUTE_SHOT
+       - STR_BRUTE_SHOT_GRENADE_RACK
+       - STR_BRUTE_SHOT_GRENADE_RACK
+       - STR_INCENDIARY_GRENADE
+     -
+       - STR_GRAVITY_HAMMER
+       - STR_GRAVITY_HAMMER_BATTERY
+       - STR_GRAVITY_HAMMER_BATTERY
+       - STR_INCENDIARY_GRENADE
+     -
+       - STR_SKEWER
+       - STR_SKEWER_SPIKE
+       - STR_SKEWER_SPIKE
+       - STR_INCENDIARY_GRENADE
+
+  - type: STR_JIRALHANAE_CAPTAIN_ULTRA
+    race: STR_JIRALHANAE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 90
+      stamina: 140
+      health: 115
+      bravery: 160
+      reactions: 52
+      firing: 70
+      throwing: 55
+      strength: 100
+      psiStrength: 60
+      psiSkill: 0
+      melee: 120
+    armor: STR_JIRALHANAE_CAPTAIN_ULTRA_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 200
+    aggroSound: 1800
+    berserkSound: [1809, 1810, 1811, 1812]
+    deathSound: [1818, 1819, 1820, 1821]
+    panicSound: [1827, 1828, 1829, 1830]
+    spotter: 2
+    intelligence: 8
+    aggression: 10
+    builtInWeaponSets:
+     -
+       - STR_GRAVITY_HAMMER
+       - STR_GRAVITY_HAMMER_BATTERY
+       - STR_GRAVITY_HAMMER_BATTERY
+       - STR_INCENDIARY_GRENADE
+     -
+       - STR_SKEWER
+       - STR_SKEWER_SPIKE
+       - STR_SKEWER_SPIKE
+       - STR_INCENDIARY_GRENADE
+     -
+       - STR_GRAVITY_HAMMER
+       - STR_GRAVITY_HAMMER_BATTERY
+       - STR_GRAVITY_HAMMER_BATTERY
+       - STR_INCENDIARY_GRENADE
+
+
+extraSprites:
+  - type: SANGHEILI_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_SPRITESHEET.png
+  - type: SANGHEILI_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_SPRITESHEET.png
+  - type: SANGHEILI_ULTRA_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_SPRITESHEET.png
+  - type: SANGHEILI_ZEALOT_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_SPRITESHEET.png
+  - type: SANGHEILI_SPECOPS_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_SPRITESHEET.png
+  - type: SANGHEILI_STEALTH_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_SPRITESHEET.png
+
+  - type: KIG_YAR_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_SPRITESHEET.png
+  - type: KIG_YAR_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_SPRITESHEET.png
+  - type: KIG_YAR_SNIPER_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_SPRITESHEET.png
+
+  - type: UNGGOY_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_SPRITESHEET.png
+  - type: UNGGOY_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_SPRITESHEET.png
+  - type: UNGGOY_HEAVY_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_SPRITESHEET.png
+  - type: UNGGOY_ULTRA_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_SPRITESHEET.png
+  - type: GHOST_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Vehicles/GHOST_SPRITESHEET.png
+  - type: SANGHEILI_GHOST_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 320
+    files:
+      0: Resources/Vehicles/SANGHEILI_GHOST_SPRITESHEET.png
+
+  - type: INSURGENT_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_SPRITESHEET.png
+  - type: INSURGENT_LIGHT_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_LIGHT_SPRITESHEET.png
+  - type: INSURGENT_MEDIUM_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_SPRITESHEET.png
+
+  - type: INSURGENT_LEADER_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_SPRITESHEET.png
+
+  - type: JIRALHANAE_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MINOR_SPRITESHEET.png
+  - type: JIRALHANAE_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MAJOR_SPRITESHEET.png
+  - type: JIRALHANAE_ULTRA_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_ULTRA_SPRITESHEET.png
+  - type: JIRALHANAE_STALKER_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_STALKER_SPRITESHEET.png
+  - type: JIRALHANAE_CAPTAIN_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MINOR_SPRITESHEET.png
+  - type: JIRALHANAE_CAPTAIN_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MAJOR_SPRITESHEET.png
+  - type: JIRALHANAE_CAPTAIN_ULTRA_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_ULTRA_SPRITESHEET.png
+
+
+  - type: SANGHEILI_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_INVENTORY.png
+  - type: SANGHEILI_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_INVENTORY.png
+  - type: SANGHEILI_ULTRA_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_INVENTORY.png
+  - type: SANGHEILI_ZEALOT_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_INVENTORY.png
+  - type: SANGHEILI_SPECOPS_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_INVENTORY.png
+  - type: SANGHEILI_STEALTH_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_INVENTORY.png
+
+  - type: KIG_YAR_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_INVENTORY.png
+  - type: KIG_YAR_SNIPER_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_INVENTORY.png      
+  - type: KIG_YAR_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_INVENTORY.png
+
+  - type: UNGGOY_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_INVENTORY.png
+  - type: UNGGOY_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_INVENTORY.png
+  - type: UNGGOY_HEAVY_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_INVENTORY.png
+  - type: UNGGOY_ULTRA_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_INVENTORY.png
+
+  - type: GHOST_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/Vehicles/INVENTORY/GHOST_INVENTORY.png
+  - type: SANGHEILI_GHOST_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/Vehicles/INVENTORY/SANGHEILI_GHOST_INVENTORY.png
+
+
+  - type: INSURGENT_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_INVENTORY.png
+  - type: INSURGENT_MEDIUM_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_INVENTORY.png
+  - type: INSURGENT_LIGHT_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_LIGHT_INVENTORY.png
+  - type: INSURGENT_LEADER_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_INVENTORY.png
+
+  - type: JIRALHANAE_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MINOR_INVENTORY.png
+  - type: JIRALHANAE_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MAJOR_INVENTORY.png
+  - type: JIRALHANAE_ULTRA_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_ULTRA_INVENTORY.png
+  - type: JIRALHANAE_STALKER_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_STALKER_INVENTORY.png
+  - type: JIRALHANAE_CAPTAIN_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MINOR_INVENTORY.png
+  - type: JIRALHANAE_CAPTAIN_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MAJOR_INVENTORY.png
+  - type: JIRALHANAE_CAPTAIN_ULTRA_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_ULTRA_INVENTORY.png
+
+  - type: BIGOBS.PCK
+    files:
+      2000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_BIGOB.png
+      2001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_BIGOB.png
+      2002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_BIGOB.png
+      2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_BIGOB.png
+#      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_BIGOB.png
+      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_BIGOB.png
+      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_CORPSE_BIGOB.png
+      2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_BIGOB.png
+      2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_BIGOB.png
+      2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_BIGOB.png
+      2010: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_CORPSE_BIGOB.png
+      2011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_BIGOB.png
+      2012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_BIGOB.png
+      2013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_BIGOB.png
+      2014: Resources/Vehicles/BigGhostPlasmaCannon.png
+      #2015: Resources/Vehicles/FloorGhostWreck0.png
+      #2016: Resources/Vehicles/FloorGhostWreck0.png
+      #2017: Resources/Vehicles/FloorGhostWreck0.png
+      2030: Resources/HumanArmors/Insurgents/INSURGENT_CORPSE_BIGOB.png
+      2031: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_BIGOB.png
+      2032: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_BIGOB.png
+      2033: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_CORPSE_BIGOB.png
+      2034: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MINOR_CORPSE_BIGOB.png
+      2035: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MAJOR_CORPSE_BIGOB.png
+      2036: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_ULTRA_CORPSE_BIGOB.png
+      2037: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_STALKER_CORPSE_BIGOB.png
+      2038: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MINOR_CORPSE_BIGOB.png
+      2039: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MAJOR_CORPSE_BIGOB.png
+      2040: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_ULTRA_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      2000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_FLOOROB.png
+      2001: Resources/CovenantArmors/Sangheili/SANGHEILI_MAJOR_CORPSE_FLOOROB.png
+      2002: Resources/CovenantArmors/Sangheili/SANGHEILI_ULTRA_CORPSE_FLOOROB.png
+      2003: Resources/CovenantArmors/Sangheili/SANGHEILI_ZEALOT_CORPSE_FLOOROB.png
+#      2004: Resources/CovenantArmors/Sangheili/SANGHEILI_RANGER_CORPSE_FLOOROB.png
+      2005: Resources/CovenantArmors/Sangheili/SANGHEILI_SPECOPS_CORPSE_FLOOROB.png
+      2006: Resources/CovenantArmors/Sangheili/SANGHEILI_STEALTH_CORPSE_FLOOROB.png
+      2007: Resources/CovenantArmors/Unggoy/UNGGOY_MINOR_CORPSE_FLOOROB.png
+      2008: Resources/CovenantArmors/Unggoy/UNGGOY_MAJOR_CORPSE_FLOOROB.png
+      2009: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_CORPSE_FLOOROB.png
+      2010: Resources/CovenantArmors/Unggoy/UNGGOY_HEAVY_CORPSE_FLOOROB.png
+      2011: Resources/CovenantArmors/KigYar/KIG_YAR_MINOR_CORPSE_FLOOROB.png
+      2012: Resources/CovenantArmors/KigYar/KIG_YAR_MAJOR_CORPSE_FLOOROB.png
+      2013: Resources/CovenantArmors/KigYar/KIG_YAR_SNIPER_CORPSE_FLOOROB.png
+      2014: Resources/Vehicles/FloorGhostWreck0.png
+      2015: Resources/Vehicles/FloorGhostWreck1.png
+      2016: Resources/Vehicles/FloorGhostWreck2.png
+      2017: Resources/Vehicles/FloorGhostWreck3.png
+      2018: Resources/Vehicles/FloorSangheiliGhostWreck0.png
+      2019: Resources/Vehicles/FloorSangheiliGhostWreck1.png
+      2020: Resources/Vehicles/FloorSangheiliGhostWreck2.png
+      2021: Resources/Vehicles/FloorSangheiliGhostWreck3.png
+      2030: Resources/HumanArmors/Insurgents/INSURGENT_CORPSE_FLOOROB.png
+      2031: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_FLOOROB.png
+      2032: Resources/HumanArmors/Insurgents/INSURGENT_LIGHT_CORPSE_FLOOROB.png
+      2033: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_CORPSE_FLOOROB.png
+      2034: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MINOR_CORPSE_FLOOROB.png
+      2035: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MAJOR_CORPSE_FLOOROB.png
+      2036: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_ULTRA_CORPSE_FLOOROB.png
+      2037: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_STALKER_CORPSE_FLOOROB.png
+      2038: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MINOR_CORPSE_FLOOROB.png
+      2039: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MAJOR_CORPSE_FLOOROB.png
+      2040: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_ULTRA_CORPSE_FLOOROB.png
+
+alienRaces:
+  - delete: STR_FLOATER
+  - delete: STR_SNAKEMAN
+  - delete: STR_MUTON
+  - delete: STR_ETHEREAL
+  - delete: STR_MIXED
+
+  - id: STR_SANGHEILI_LANCE
+    membersRandom:
+      - [STR_SANGHEILI_ZEALOT]
+      - [STR_SANGHEILI_ULTRA, STR_SANGHEILI_STEALTH]
+      - [STR_SANGHEILI_MAJOR]
+      - [STR_SANGHEILI_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MAJOR, STR_UNGGOY_HEAVY]
+      - [STR_KIG_YAR_MAJOR, STR_UNGGOY_MAJOR, STR_UNGGOY_MINOR]
+      - [STR_GHOST_SANGHEILI_TERRORIST]
+      - [STR_GHOST_UNGGOY_TERRORIST, STR_UNGGOY_HEAVY]
+
+  - id: STR_SHIPMASTER_CREW
+    membersRandom:
+      - [STR_SANGHEILI_SHIPMASTER]
+      - [STR_SANGHEILI_STEALTH, STR_SANGHEILI_STEALTH]
+      - [STR_SANGHEILI_MAJOR, STR_KIG_YAR_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_SANGHEILI_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MINOR, STR_UNGGOY_MAJOR]
+      - [STR_UNGGOY_MINOR]
+      - [STR_UNGGOY_HEAVY]
+      - [STR_SANGHEILI_STEALTH]
+
+  - id: STR_FLEETMASTER_CREW
+    membersRandom:
+      - [STR_SANGHEILI_FLEETMASTER]
+      - [STR_SANGHEILI_SPECOPS]
+      - [STR_SANGHEILI_ULTRA, STR_SANGHEILI_MAJOR]
+      - [STR_KIG_YAR_SNIPER, STR_SANGHEILI_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MINOR, STR_UNGGOY_MAJOR]
+      - [STR_UNGGOY_MINOR]
+      - [STR_UNGGOY_HEAVY]
+      - [STR_SANGHEILI_STEALTH]
+
+  - id: STR_STANDARD_LANCE
+    membersRandom:
+      - [STR_SANGHEILI_MAJOR, STR_SANGHEILI_STEALTH]
+      - [STR_SANGHEILI_MINOR, STR_SANGHEILI_MINOR, STR_SANGHEILI_MAJOR]
+      - [STR_KIG_YAR_MINOR, STR_UNGGOY_HEAVY]
+      - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MAJOR]
+      - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MINOR, STR_UNGGOY_MAJOR]
+      - [STR_UNGGOY_MINOR]
+      - [STR_GHOST_UNGGOY_TERRORIST, STR_UNGGOY_HEAVY]
+      - [STR_GHOST_UNGGOY_TERRORIST]
+
+  - id: STR_UNGGOY_LANCE
+    membersRandom:
+      - [STR_SANGHEILI_MAJOR, STR_SANGHEILI_MAJOR, STR_SANGHEILI_MINOR]
+      - [STR_SANGHEILI_MINOR, STR_UNGGOY_ULTRA]
+      - [STR_UNGGOY_ULTRA, STR_UNGGOY_HEAVY]
+      - [STR_UNGGOY_HEAVY]
+      - [STR_UNGGOY_MAJOR]
+      - [STR_UNGGOY_MINOR]
+      - [STR_KIG_YAR_SNIPER]
+      - [STR_KIG_YAR_MINOR]
+  - id: STR_INSURGENTS
+    membersRandom:
+      - [STR_INSURGENT_LEADER]
+      - [STR_INSURGENT_LEADER]
+      - [STR_INSURGENT_MEDIUM, STR_INSURGENT_HEAVY, STR_INSURGENT_MEDIUM]
+      - [STR_INSURGENT_LIGHT, STR_INSURGENT_HEAVY, STR_INSURGENT_MEDIUM]
+      - [STR_INSURGENT_MEDIUM]
+      - [STR_INSURGENT_LIGHT, STR_INSURGENT_HEAVY, STR_INSURGENT_MEDIUM]
+      - [STR_INSURGENT_HEAVY]
+      - [STR_INSURGENT_HEAVY]
+
+  - id: STR_JIRALHANAE_PACK
+    membersRandom:
+      - [STR_JIRALHANAE_CAPTAIN_MAJOR]
+      - [STR_JIRALHANAE_CAPTAIN_MINOR, STR_JIRALHANAE_STALKER]
+      - [STR_JIRALHANAE_ULTRA]
+      - [STR_JIRALHANAE_MAJOR, STR_JIRALHANAE_MINOR]
+      - [STR_JIRALHANAE_MINOR, STR_JIRALHANAE_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_UNGGOY_HEAVY]
+      - [STR_UNGGOY_MAJOR, STR_UNGGOY_MINOR]
+      - [STR_GHOST_UNGGOY_TERRORIST, STR_UNGGOY_HEAVY]
+
+  - id: STR_JIRALHANAE_WARPARTY
+    membersRandom:
+      - [STR_JIRALHANAE_CAPTAIN_ULTRA]
+      - [STR_JIRALHANAE_CAPTAIN_MAJOR, STR_JIRALHANAE_CAPTAIN_MINOR]
+      - [STR_JIRALHANAE_STALKER, STR_JIRALHANAE_STALKER]
+      - [STR_JIRALHANAE_ULTRA, STR_JIRALHANAE_MAJOR]
+      - [STR_JIRALHANAE_MAJOR, STR_JIRALHANAE_MINOR]
+      - [STR_JIRALHANAE_MINOR]
+      - [STR_KIG_YAR_SNIPER, STR_KIG_YAR_MAJOR]
+      - [STR_UNGGOY_HEAVY]
