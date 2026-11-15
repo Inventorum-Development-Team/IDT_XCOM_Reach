@@ -2630,50 +2630,50 @@ extraSprites:
   - type: JIRALHANAE_MINOR_SPRITESHEET.PCK
     subX: 32
     subY: 40
-    width: 512
-    height: 720
+    width: 256
+    height: 1360
     files:
       0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MINOR_SPRITESHEET.png
   - type: JIRALHANAE_MAJOR_SPRITESHEET.PCK
     subX: 32
     subY: 40
-    width: 512
-    height: 720
+    width: 256
+    height: 1360
     files:
       0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_MAJOR_SPRITESHEET.png
   - type: JIRALHANAE_ULTRA_SPRITESHEET.PCK
     subX: 32
     subY: 40
-    width: 512
-    height: 720
+    width: 256
+    height: 1360
     files:
       0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_ULTRA_SPRITESHEET.png
   - type: JIRALHANAE_STALKER_SPRITESHEET.PCK
     subX: 32
     subY: 40
-    width: 512
-    height: 720
+    width: 256
+    height: 1360
     files:
       0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_STALKER_SPRITESHEET.png
   - type: JIRALHANAE_CAPTAIN_MINOR_SPRITESHEET.PCK
     subX: 32
     subY: 40
-    width: 512
-    height: 720
+    width: 256
+    height: 1360
     files:
       0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MINOR_SPRITESHEET.png
   - type: JIRALHANAE_CAPTAIN_MAJOR_SPRITESHEET.PCK
     subX: 32
     subY: 40
-    width: 512
-    height: 720
+    width: 256
+    height: 1360
     files:
       0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_MAJOR_SPRITESHEET.png
   - type: JIRALHANAE_CAPTAIN_ULTRA_SPRITESHEET.PCK
     subX: 32
     subY: 40
-    width: 512
-    height: 720
+    width: 256
+    height: 1360
     files:
       0: Resources/CovenantArmors/Jiralhanae/JIRALHANAE_CAPTAIN_ULTRA_SPRITESHEET.png
 
