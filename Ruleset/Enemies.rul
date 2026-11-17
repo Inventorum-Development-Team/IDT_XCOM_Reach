@@ -186,6 +186,103 @@ items:
     armor: 40
     listOrder: 1000
 
+  - type: STR_YANMEE_QUEEN_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2041
+    floorSprite: 2041
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_YANMEE_HIVEGUARD_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2042
+    floorSprite: 2042
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_YANMEE_CAPTAIN_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2043
+    floorSprite: 2043
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_YANMEE_ULTRA_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2044
+    floorSprite: 2044
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_YANMEE_MAJOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2045
+    floorSprite: 2045
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_YANMEE_MINOR_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2046
+    floorSprite: 2046
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_YANMEE_PUPA_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2047
+    floorSprite: 2047
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+  - type: STR_HURAGOK_CORPSE
+    size: 0.4
+    costSell: 30000
+    weight: 25
+    bigSprite: 2048
+    floorSprite: 2048
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: false
+    armor: 40
+    listOrder: 1000
+
   - type: STR_GHOST_CORPSE
     size: 1
     costSell: 20000
@@ -753,6 +850,191 @@ armors:
       - 0.6 #STUN
       - 1.2 #MELEE
       - 0.5 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+
+  - type: STR_YANMEE_QUEEN_ARMOR
+    spriteSheet: YANMEE_QUEEN_SPRITESHEET.PCK
+    spriteInv: YANMEE_QUEEN_INVENTORY
+    corpseBattle:
+      - STR_YANMEE_QUEEN_CORPSE
+    frontArmor: 32
+    sideArmor: 24
+    rearArmor: 16
+    underArmor: 20
+    drawingRoutine: 1 #Floater
+    movementType: 1 #Fly
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #INC
+      - 1.0 #HE Resistance
+      - 1.0 #LAS
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_YANMEE_HIVEGUARD_ARMOR
+    spriteSheet: YANMEE_HIVEGUARD_SPRITESHEET.PCK
+    spriteInv: YANMEE_HIVEGUARD_INVENTORY
+    corpseBattle:
+      - STR_YANMEE_HIVEGUARD_CORPSE
+    frontArmor: 24
+    sideArmor: 18
+    rearArmor: 12
+    underArmor: 16
+    drawingRoutine: 1 #Floater
+    movementType: 1 #Fly
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #INC
+      - 1.0 #HE Resistance
+      - 1.0 #LAS
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_YANMEE_CAPTAIN_ARMOR
+    spriteSheet: YANMEE_CAPTAIN_SPRITESHEET.PCK
+    spriteInv: YANMEE_CAPTAIN_INVENTORY
+    corpseBattle:
+      - STR_YANMEE_CAPTAIN_CORPSE
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 14
+    drawingRoutine: 1 #Floater
+    movementType: 1 #Fly
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #INC
+      - 1.0 #HE Resistance
+      - 1.0 #LAS
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_YANMEE_ULTRA_ARMOR
+    spriteSheet: YANMEE_ULTRA_SPRITESHEET.PCK
+    spriteInv: YANMEE_ULTRA_INVENTORY
+    corpseBattle:
+      - STR_YANMEE_ULTRA_CORPSE
+    frontArmor: 16
+    sideArmor: 12
+    rearArmor: 8
+    underArmor: 12
+    drawingRoutine: 1 #Floater
+    movementType: 1 #Fly
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #INC
+      - 1.0 #HE Resistance
+      - 1.0 #LAS
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_YANMEE_MAJOR_ARMOR
+    spriteSheet: YANMEE_MAJOR_SPRITESHEET.PCK
+    spriteInv: YANMEE_MAJOR_INVENTORY
+    corpseBattle:
+      - STR_YANMEE_MAJOR_CORPSE
+    frontArmor: 12
+    sideArmor: 9
+    rearArmor: 6
+    underArmor: 12
+    drawingRoutine: 1 #Floater
+    movementType: 1 #Fly
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #INC
+      - 1.0 #HE Resistance
+      - 1.0 #LAS
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_YANMEE_MINOR_ARMOR
+    spriteSheet: YANMEE_MINOR_SPRITESHEET.PCK
+    spriteInv: YANMEE_MINOR_INVENTORY
+    corpseBattle:
+      - STR_YANMEE_MINOR_CORPSE
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 4
+    underArmor: 12
+    drawingRoutine: 1 #Floater
+    movementType: 1 #Fly
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #INC
+      - 1.0 #HE Resistance
+      - 1.0 #LAS
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_YANMEE_PUPA_ARMOR
+    spriteSheet: YANMEE_PUPA_SPRITESHEET.PCK
+    spriteInv: YANMEE_PUPA_INVENTORY
+    corpseBattle:
+      - STR_YANMEE_PUPA_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 6
+    drawingRoutine: 1 #Floater
+    movementType: 1 #Fly
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #INC
+      - 1.0 #HE Resistance
+      - 1.0 #LAS
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.6 #ACID
+      - 0.0 #SMOKE
+    loftempsSet: [ 3 ]
+  - type: STR_HURAGOK_ARMOR
+    spriteSheet: HURAGOK_SPRITESHEET.PCK
+    spriteInv: HURAGOK_INVENTORY
+    corpseBattle:
+      - STR_HURAGOK_CORPSE
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 4
+    underArmor: 12
+    drawingRoutine: 1 #Floater
+    movementType: 1 #Fly
+    damageModifier: # ARMOR
+      - 1.0 #none
+      - 1.0 #AP
+      - 1.0 #INC
+      - 1.0 #HE Resistance
+      - 1.0 #LAS
+      - 1.0 #PLASMA
+      - 1.0 #STUN
+      - 1.2 #MELEE
+      - 1.6 #ACID
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
 
@@ -1811,6 +2093,306 @@ units:
        - STR_NEEDLER_CANISTER
        - STR_PLASMA_GRENADE
 
+  - type: STR_YANMEE_QUEEN
+    race: STR_YANMEE
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 100
+      stamina: 100
+      health: 100
+      bravery: 150
+      reactions: 65
+      firing: 70
+      throwing: 45
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: STR_YANMEE_QUEEN_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 120
+    spotter: 2
+    sniper: 8
+    intelligence: 10
+    aggression: 3
+    builtInWeaponSets:
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+
+  - type: STR_YANMEE_HIVEGUARD
+    race: STR_YANMEE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 90
+      stamina: 90
+      health: 70
+      bravery: 110
+      reactions: 60
+      firing: 70
+      throwing: 40
+      strength: 55
+      psiStrength: 80
+      psiSkill: 0
+      melee: 70
+    armor: STR_YANMEE_HIVEGUARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 60
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 6
+    builtInWeaponSets:
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+
+  - type: STR_YANMEE_CAPTAIN
+    race: STR_YANMEE
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 90
+      stamina: 80
+      health: 50
+      bravery: 90
+      reactions: 60
+      firing: 65
+      throwing: 40
+      strength: 40
+      psiStrength: 80
+      psiSkill: 0
+      melee: 45
+    armor: STR_YANMEE_CAPTAIN_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 40
+    spotter: 2
+    sniper: 8
+    intelligence: 8
+    aggression: 4
+    builtInWeaponSets:
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+
+  - type: STR_YANMEE_ULTRA
+    race: STR_YANMEE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 85
+      stamina: 70
+      health: 40
+      bravery: 70
+      reactions: 55
+      firing: 60
+      throwing: 35
+      strength: 35
+      psiStrength: 80
+      psiSkill: 0
+      melee: 35
+    armor: STR_YANMEE_ULTRA_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 25
+    spotter: 2
+    sniper: 8
+    intelligence: 6
+    aggression: 4
+    builtInWeaponSets:
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+     -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+
+  - type: STR_YANMEE_MAJOR
+    race: STR_YANMEE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 65
+      health: 30
+      bravery: 45
+      reactions: 45
+      firing: 50
+      throwing: 30
+      strength: 30
+      psiStrength: 80
+      psiSkill: 0
+      melee: 30
+    armor: STR_YANMEE_MAJOR_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 15
+    spotter: 2
+    intelligence: 4
+    aggression: 3
+    builtInWeaponSets:
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+
+  - type: STR_YANMEE_MINOR
+    race: STR_YANMEE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 75
+      stamina: 60
+      health: 25
+      bravery: 35
+      reactions: 40
+      firing: 40
+      throwing: 30
+      strength: 25
+      psiStrength: 80
+      psiSkill: 0
+      melee: 25
+    armor: STR_YANMEE_MINOR_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 10
+    spotter: 2
+    intelligence: 3
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_GRENADE
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+       - STR_PLASMA_GRENADE
+
+  - type: STR_YANMEE_PUPA
+    race: STR_YANMEE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 40
+      health: 15
+      bravery: 20
+      reactions: 30
+      firing: 25
+      throwing: 20
+      strength: 15
+      psiStrength: 80
+      psiSkill: 0
+      melee: 15
+    armor: STR_YANMEE_PUPA_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 5
+    spotter: 2
+    intelligence: 1
+    aggression: 2
+    builtInWeaponSets:
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+     -
+       - STR_TYPE_25_PLASMA_PISTOL
+       - STR_PLASMA_PISTOL_CELL
+       - STR_PLASMA_PISTOL_CELL
+     -
+       - STR_NEEDLER
+       - STR_NEEDLER_CANISTER
+       - STR_NEEDLER_CANISTER
+
+  - type: STR_HURAGOK
+    race: STR_HURAGOK
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 50
+      stamina: 90
+      health: 35
+      bravery: 80
+      reactions: 50
+      firing: 0
+      throwing: 0
+      strength: 40
+      psiStrength: 80
+      psiSkill: 0
+      melee: 0
+    armor: STR_HURAGOK_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 18
+    intelligence: 7
+    aggression: 0
+
   - type: STR_GHOST_SANGHEILI_TERRORIST
     race: STR_GHOST
     rank: STR_LIVE_TERRORIST
@@ -1974,6 +2556,62 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_SPRITESHEET.png
+  - type: YANMEE_QUEEN_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_QUEEN_SPRITESHEET.png
+  - type: YANMEE_HIVEGUARD_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_SPRITESHEET.png
+  - type: YANMEE_CAPTAIN_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_SPRITESHEET.png
+  - type: YANMEE_ULTRA_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_SPRITESHEET.png
+  - type: YANMEE_MAJOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_MAJOR_SPRITESHEET.png
+  - type: YANMEE_MINOR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_MINOR_SPRITESHEET.png
+  - type: YANMEE_PUPA_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_PUPA_SPRITESHEET.png
+  - type: HURAGOK_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/CovenantArmors/Huragok/HURAGOK_SPRITESHEET.png
   - type: GHOST_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -2075,6 +2713,40 @@ extraSprites:
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_INVENTORY.png
 
+  - type: YANMEE_QUEEN_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_QUEEN_INVENTORY.png
+  - type: YANMEE_HIVEGUARD_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_INVENTORY.png
+  - type: YANMEE_CAPTAIN_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_INVENTORY.png
+  - type: YANMEE_ULTRA_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_INVENTORY.png
+  - type: YANMEE_MAJOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_MAJOR_INVENTORY.png
+  - type: YANMEE_MINOR_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_MINOR_INVENTORY.png
+  - type: YANMEE_PUPA_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Yanmee/YANMEE_PUPA_INVENTORY.png
+
+  - type: HURAGOK_INVENTORY
+    singleImage: true
+    files:
+      0: Resources/CovenantArmors/Huragok/HURAGOK_INVENTORY.png
+
   - type: GHOST_INVENTORY
     singleImage: true
     files:
@@ -2126,6 +2798,14 @@ extraSprites:
       2031: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_BIGOB.png
       2032: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_BIGOB.png
       2033: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_CORPSE_BIGOB.png
+      2041: Resources/CovenantArmors/Yanmee/YANMEE_QUEEN_CORPSE_BIGOB.png
+      2042: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_CORPSE_BIGOB.png
+      2043: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_CORPSE_BIGOB.png
+      2044: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_CORPSE_BIGOB.png
+      2045: Resources/CovenantArmors/Yanmee/YANMEE_MAJOR_CORPSE_BIGOB.png
+      2046: Resources/CovenantArmors/Yanmee/YANMEE_MINOR_CORPSE_BIGOB.png
+      2047: Resources/CovenantArmors/Yanmee/YANMEE_PUPA_CORPSE_BIGOB.png
+      2048: Resources/CovenantArmors/Huragok/HURAGOK_CORPSE_BIGOB.png
   - type: FLOOROB.PCK
     files:
       2000: Resources/CovenantArmors/Sangheili/SANGHEILI_MINOR_CORPSE_FLOOROB.png
@@ -2154,6 +2834,14 @@ extraSprites:
       2031: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_FLOOROB.png
       2032: Resources/HumanArmors/Insurgents/INSURGENT_LIGHT_CORPSE_FLOOROB.png
       2033: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_CORPSE_FLOOROB.png
+      2041: Resources/CovenantArmors/Yanmee/YANMEE_QUEEN_CORPSE_FLOOROB.png
+      2042: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_CORPSE_FLOOROB.png
+      2043: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_CORPSE_FLOOROB.png
+      2044: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_CORPSE_FLOOROB.png
+      2045: Resources/CovenantArmors/Yanmee/YANMEE_MAJOR_CORPSE_FLOOROB.png
+      2046: Resources/CovenantArmors/Yanmee/YANMEE_MINOR_CORPSE_FLOOROB.png
+      2047: Resources/CovenantArmors/Yanmee/YANMEE_PUPA_CORPSE_FLOOROB.png
+      2048: Resources/CovenantArmors/Huragok/HURAGOK_CORPSE_FLOOROB.png
 
 alienRaces:
   - delete: STR_FLOATER
@@ -2216,6 +2904,26 @@ alienRaces:
       - [STR_UNGGOY_MINOR]
       - [STR_KIG_YAR_SNIPER]
       - [STR_KIG_YAR_MINOR]
+  - id: STR_YANMEE_SWARM
+    membersRandom:
+      - [STR_YANMEE_QUEEN]
+      - [STR_YANMEE_HIVEGUARD]
+      - [STR_YANMEE_CAPTAIN]
+      - [STR_YANMEE_ULTRA, STR_YANMEE_MAJOR]
+      - [STR_YANMEE_MAJOR]
+      - [STR_YANMEE_MINOR]
+      - [STR_YANMEE_MINOR, STR_YANMEE_PUPA]
+      - [STR_YANMEE_PUPA]
+  - id: STR_HURAGOK_CREW
+    membersRandom:
+      - [STR_HURAGOK]
+      - [STR_HURAGOK]
+      - [STR_HURAGOK]
+      - [STR_HURAGOK]
+      - [STR_HURAGOK]
+      - [STR_HURAGOK]
+      - [STR_HURAGOK]
+      - [STR_HURAGOK]
   - id: STR_INSURGENTS
     membersRandom:
       - [STR_INSURGENT_LEADER]
