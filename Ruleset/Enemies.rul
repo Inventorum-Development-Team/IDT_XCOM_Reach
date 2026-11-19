@@ -186,7 +186,7 @@ items:
     armor: 40
     listOrder: 1000
 
-  - type: STR_YANMEE_QUEEN_CORPSE
+  - type: STR_MGALEKGOLO_CORPSE
     size: 0.4
     costSell: 30000
     weight: 25
@@ -853,20 +853,20 @@ armors:
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
 
-  - type: STR_YANMEE_QUEEN_ARMOR
-    spriteSheet: YANMEE_QUEEN_SPRITESHEET.PCK
-    spriteInv: YANMEE_QUEEN_INVENTORY
+  - type: STR_MGALEKGOLO_ARMOR
+    spriteSheet: MGALEKGOLO_SPRITESHEET.PCK
+    spriteInv: MGALEKGOLO_INVENTORY
     corpseBattle:
-      - STR_YANMEE_QUEEN_CORPSE
-    frontArmor: 32
-    sideArmor: 24
+      - STR_MGALEKGOLO_CORPSE
+    frontArmor: 100
+    sideArmor: 70
     rearArmor: 16
     underArmor: 20
-    drawingRoutine: 1 #Floater
-    movementType: 1 #Fly
+    drawingRoutine: 0 #soldier/human
+    movementType: 0 #grounf
     damageModifier: # ARMOR
       - 1.0 #none
-      - 1.0 #AP
+      - 0.8 #AP
       - 1.0 #INC
       - 1.0 #HE Resistance
       - 1.0 #LAS
@@ -2093,22 +2093,22 @@ units:
        - STR_NEEDLER_CANISTER
        - STR_PLASMA_GRENADE
 
-  - type: STR_YANMEE_QUEEN
-    race: STR_YANMEE
-    rank: STR_LIVE_COMMANDER
+  - type: STR_MGALEKGOLO
+    race: STR_MGALEKGOLO
+    rank: STR_LIVE_TERRORIST
     stats:
-      tu: 100
+      tu: 50
       stamina: 100
       health: 100
       bravery: 150
       reactions: 65
       firing: 70
       throwing: 45
-      strength: 60
+      strength: 200
       psiStrength: 100
       psiSkill: 0
       melee: 80
-    armor: STR_YANMEE_QUEEN_ARMOR
+    armor: STR_MGALEKGOLO_ARMOR
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
@@ -2116,23 +2116,20 @@ units:
     spotter: 2
     sniper: 8
     intelligence: 10
-    aggression: 3
+    aggression: 4
     builtInWeaponSets:
-     -
-       - STR_NEEDLER
-       - STR_NEEDLER_CANISTER
-       - STR_NEEDLER_CANISTER
-       - STR_PLASMA_GRENADE
      -
        - STR_FUEL_ROD_GUN
        - STR_FUEL_ROD_GUN_RACK
        - STR_FUEL_ROD_GUN_RACK
-       - STR_PLASMA_GRENADE
      -
-       - STR_NEEDLER
-       - STR_NEEDLER_CANISTER
-       - STR_NEEDLER_CANISTER
-       - STR_PLASMA_GRENADE
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
+      -
+       - STR_FUEL_ROD_GUN
+       - STR_FUEL_ROD_GUN_RACK
+       - STR_FUEL_ROD_GUN_RACK
 
   - type: STR_YANMEE_HIVEGUARD
     race: STR_YANMEE
@@ -2556,13 +2553,13 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_SPRITESHEET.png
-  - type: YANMEE_QUEEN_SPRITESHEET.PCK
+  - type: MGALEKGOLO_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
     height: 720
     files:
-      0: Resources/CovenantArmors/Yanmee/YANMEE_QUEEN_SPRITESHEET.png
+      0: Resources/CovenantArmors/Yanmee/MGALEKGOLO_SPRITESHEET.png
   - type: YANMEE_HIVEGUARD_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -2713,10 +2710,10 @@ extraSprites:
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_INVENTORY.png
 
-  - type: YANMEE_QUEEN_INVENTORY
+  - type: MGALEKGOLO_INVENTORY
     singleImage: true
     files:
-      0: Resources/CovenantArmors/Yanmee/YANMEE_QUEEN_INVENTORY.png
+      0: Resources/CovenantArmors/Yanmee/MGALEKGOLO_INVENTORY.png
   - type: YANMEE_HIVEGUARD_INVENTORY
     singleImage: true
     files:
@@ -2798,7 +2795,7 @@ extraSprites:
       2031: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_BIGOB.png
       2032: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_BIGOB.png
       2033: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_CORPSE_BIGOB.png
-      2041: Resources/CovenantArmors/Yanmee/YANMEE_QUEEN_CORPSE_BIGOB.png
+      2041: Resources/CovenantArmors/Yanmee/MGALEKGOLO_CORPSE_BIGOB.png
       2042: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_CORPSE_BIGOB.png
       2043: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_CORPSE_BIGOB.png
       2044: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_CORPSE_BIGOB.png
@@ -2834,7 +2831,7 @@ extraSprites:
       2031: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_FLOOROB.png
       2032: Resources/HumanArmors/Insurgents/INSURGENT_LIGHT_CORPSE_FLOOROB.png
       2033: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_CORPSE_FLOOROB.png
-      2041: Resources/CovenantArmors/Yanmee/YANMEE_QUEEN_CORPSE_FLOOROB.png
+      2041: Resources/CovenantArmors/Yanmee/MGALEKGOLO_CORPSE_FLOOROB.png
       2042: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_CORPSE_FLOOROB.png
       2043: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_CORPSE_FLOOROB.png
       2044: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_CORPSE_FLOOROB.png
@@ -2906,7 +2903,7 @@ alienRaces:
       - [STR_KIG_YAR_MINOR]
   - id: STR_YANMEE_SWARM
     membersRandom:
-      - [STR_YANMEE_QUEEN]
+      - [STR_MGALEKGOLO]
       - [STR_YANMEE_HIVEGUARD]
       - [STR_YANMEE_CAPTAIN]
       - [STR_YANMEE_ULTRA, STR_YANMEE_MAJOR]
