@@ -858,24 +858,25 @@ armors:
     spriteInv: MGALEKGOLO_INVENTORY
     corpseBattle:
       - STR_MGALEKGOLO_CORPSE
-    frontArmor: 100
+    frontArmor: 120
     sideArmor: 70
-    rearArmor: 16
+    rearArmor: 20
     underArmor: 20
     drawingRoutine: 0 #soldier/human
-    movementType: 0 #grounf
+    movementType: 0 #ground
     damageModifier: # ARMOR
       - 1.0 #none
       - 0.8 #AP
       - 1.0 #INC
       - 1.0 #HE Resistance
       - 1.0 #LAS
-      - 1.0 #PLASMA
+      - 0.7 #PLASMA
       - 1.0 #STUN
       - 1.2 #MELEE
       - 1.6 #ACID
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
+
   - type: STR_YANMEE_HIVEGUARD_ARMOR
     spriteSheet: YANMEE_HIVEGUARD_SPRITESHEET.PCK
     spriteInv: YANMEE_HIVEGUARD_INVENTORY
@@ -1014,6 +1015,7 @@ armors:
       - 1.6 #ACID
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
+
   - type: STR_HURAGOK_ARMOR
     spriteSheet: HURAGOK_SPRITESHEET.PCK
     spriteInv: HURAGOK_INVENTORY
@@ -2559,7 +2561,7 @@ extraSprites:
     width: 512
     height: 720
     files:
-      0: Resources/CovenantArmors/Yanmee/MGALEKGOLO_SPRITESHEET.png
+      0: Resources/CovenantArmors/Mgalekgolo/MGALEKGOLO_SPRITESHEET.png
   - type: YANMEE_HIVEGUARD_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -2713,7 +2715,7 @@ extraSprites:
   - type: MGALEKGOLO_INVENTORY
     singleImage: true
     files:
-      0: Resources/CovenantArmors/Yanmee/MGALEKGOLO_INVENTORY.png
+      0: Resources/CovenantArmors/Mgalekgolo/MGALEKGOLO_INVENTORY.png
   - type: YANMEE_HIVEGUARD_INVENTORY
     singleImage: true
     files:
@@ -2795,7 +2797,7 @@ extraSprites:
       2031: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_BIGOB.png
       2032: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_BIGOB.png
       2033: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_CORPSE_BIGOB.png
-      2041: Resources/CovenantArmors/Yanmee/MGALEKGOLO_CORPSE_BIGOB.png
+      2041: Resources/CovenantArmors/Mgalekgolo/MGALEKGOLO_CORPSE_BIGOB.png
       2042: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_CORPSE_BIGOB.png
       2043: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_CORPSE_BIGOB.png
       2044: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_CORPSE_BIGOB.png
@@ -2831,7 +2833,7 @@ extraSprites:
       2031: Resources/HumanArmors/Insurgents/INSURGENT_MEDIUM_CORPSE_FLOOROB.png
       2032: Resources/HumanArmors/Insurgents/INSURGENT_LIGHT_CORPSE_FLOOROB.png
       2033: Resources/HumanArmors/Insurgents/INSURGENT_LEADER_CORPSE_FLOOROB.png
-      2041: Resources/CovenantArmors/Yanmee/MGALEKGOLO_CORPSE_FLOOROB.png
+      2041: Resources/CovenantArmors/Mgalekgolo/MGALEKGOLO_CORPSE_FLOOROB.png
       2042: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_CORPSE_FLOOROB.png
       2043: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_CORPSE_FLOOROB.png
       2044: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_CORPSE_FLOOROB.png
@@ -2903,14 +2905,24 @@ alienRaces:
       - [STR_KIG_YAR_MINOR]
   - id: STR_YANMEE_SWARM
     membersRandom:
-      - [STR_MGALEKGOLO]
+      - [STR_YANMEE_HIVEGUARD]
       - [STR_YANMEE_HIVEGUARD]
       - [STR_YANMEE_CAPTAIN]
       - [STR_YANMEE_ULTRA, STR_YANMEE_MAJOR]
       - [STR_YANMEE_MAJOR]
       - [STR_YANMEE_MINOR]
-      - [STR_YANMEE_MINOR, STR_YANMEE_PUPA]
-      - [STR_YANMEE_PUPA]
+      - [STR_YANMEE_MINOR]
+      - [STR_YANMEE_ULTRA]
+ - id: STR_YANMEE_HIVE
+    membersRandom:
+      - [STR_YANMEE_HIVEGUARD]
+      - [STR_YANMEE_HIVEGUARD]
+      - [STR_YANMEE_CAPTAIN]
+      - [STR_YANMEE_ULTRA, STR_YANMEE_MAJOR]
+      - [STR_YANMEE_MINOR, STR_YANMEE_MAJOR]
+      - [STR_YANMEE_PUPA, STR_YANMEE_PUPA]
+      - [STR_YANMEE_PUPA, STR_YANMEE_PUPA]
+      - [STR_YANMEE_ULTRA]
   - id: STR_HURAGOK_CREW
     membersRandom:
       - [STR_HURAGOK]
