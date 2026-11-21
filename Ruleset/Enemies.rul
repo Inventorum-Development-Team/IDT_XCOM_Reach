@@ -2128,7 +2128,7 @@ units:
        - STR_FUEL_ROD_GUN
        - STR_FUEL_ROD_GUN_RACK
        - STR_FUEL_ROD_GUN_RACK
-      -
+     -
        - STR_FUEL_ROD_GUN
        - STR_FUEL_ROD_GUN_RACK
        - STR_FUEL_ROD_GUN_RACK
@@ -2925,7 +2925,7 @@ alienRaces:
       - [STR_YANMEE_MINOR]
       - [STR_YANMEE_MINOR]
       - [STR_YANMEE_ULTRA]
- - id: STR_YANMEE_HIVE
+  - id: STR_YANMEE_HIVE
     membersRandom:
       - [STR_YANMEE_HIVEGUARD]
       - [STR_YANMEE_HIVEGUARD]
