@@ -2555,6 +2555,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/Unggoy/UNGGOY_ULTRA_SPRITESHEET.png
+
   - type: MGALEKGOLO_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -2562,55 +2563,58 @@ extraSprites:
     height: 720
     files:
       0: Resources/CovenantArmors/Mgalekgolo/MGALEKGOLO_SPRITESHEET.png
+
   - type: YANMEE_HIVEGUARD_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
-    height: 720
+    height: 280
     files:
       0: Resources/CovenantArmors/Yanmee/YANMEE_HIVEGUARD_SPRITESHEET.png
   - type: YANMEE_CAPTAIN_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
-    height: 720
+    height: 280
     files:
       0: Resources/CovenantArmors/Yanmee/YANMEE_CAPTAIN_SPRITESHEET.png
   - type: YANMEE_ULTRA_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
-    height: 720
+    height: 280
     files:
       0: Resources/CovenantArmors/Yanmee/YANMEE_ULTRA_SPRITESHEET.png
   - type: YANMEE_MAJOR_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
-    height: 720
+    height: 280
     files:
       0: Resources/CovenantArmors/Yanmee/YANMEE_MAJOR_SPRITESHEET.png
   - type: YANMEE_MINOR_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
-    height: 720
+    height: 280
     files:
       0: Resources/CovenantArmors/Yanmee/YANMEE_MINOR_SPRITESHEET.png
   - type: YANMEE_PUPA_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
-    height: 720
+    height: 280
     files:
       0: Resources/CovenantArmors/Yanmee/YANMEE_PUPA_SPRITESHEET.png
+
   - type: HURAGOK_SPRITESHEET.PCK
     subX: 32
     subY: 40
     width: 512
-    height: 720
+    height: 280
     files:
       0: Resources/CovenantArmors/Huragok/HURAGOK_SPRITESHEET.png
+
   - type: GHOST_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -2716,6 +2720,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/CovenantArmors/Mgalekgolo/MGALEKGOLO_INVENTORY.png
+
   - type: YANMEE_HIVEGUARD_INVENTORY
     singleImage: true
     files:
