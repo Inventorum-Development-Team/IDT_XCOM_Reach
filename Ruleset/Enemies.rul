@@ -992,6 +992,7 @@ armors:
       - 1.6 #ACID
       - 0.0 #SMOKE
     loftempsSet: [ 3 ]
+    
   - type: STR_YANMEE_PUPA_ARMOR
     spriteSheet: YANMEE_PUPA_SPRITESHEET.PCK
     spriteInv: YANMEE_PUPA_INVENTORY
