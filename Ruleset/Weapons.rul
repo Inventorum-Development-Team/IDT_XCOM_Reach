@@ -1918,6 +1918,61 @@ items:
     invWidth: 2
     invHeight: 3
 
+  - type: STR_HUNTER_SHIELD
+    categories: [STR_WEAPONS, STR_MELEE, STR_COVENANT_EQUIPMENT]
+    size: 0.5
+    weight: 50
+    costSell: 22000
+    bigSprite: 808
+    handSprite: 808
+    floorSprite: 808
+    flatRate: true
+    hidePower: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+
+  - type: STR_ASSAULT_CANNON
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_ARTILLERY, STR_COVENANT_EQUIPMENT]
+    size: 0.3
+    costSell: 14400
+    weight: 90
+    bigSprite: 800
+    floorSprite: 800
+    handSprite: 800
+    bulletSprite: 17
+    fireSound: 238
+    accuracyAimed: 130
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+    hitSound: 0
+    power: 400
+    blastRadius: 2
+    powerForAnimation: 80
+    hitAnimation: 220
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.75
+      ToArmorPre: 0.5
+      RadiusReduction: 50
+      IgnoreSelfDestruct: true
+      ToWound: 1.3
+      RandomWound: true
+      ToTile: 0.90
+      ToStun: 1.2
+      ToMana: 2.0
+      ToMorale: 0.5
+    clipSize: -1
+#    listOrder: 248
+
   - type: STR_PLASMA_GHOST_CANNON       #Type 2 Plasma Cannon
     categories: [STR_WEAPONS, STR_FIREARMS, STR_ASSAULT_RIFLES, STR_COVENANT_EQUIPMENT]
     #costBuy: 1     #--DEBUG--
@@ -2043,8 +2098,8 @@ extraSprites:
       776: Resources/CovenantEquipment/BigPlasmaPistol_noammo.png
       784: Resources/CovenantEquipment/BigPlasmaPistol_ammo.png
       792: Resources/CovenantEquipment/BigPlasmaPistolBattery.png
-#      800: Resources/CovenantEquipment/BigFocusRifle_noammo.png
-#      808: Resources/CovenantEquipment/BigFocusRifle_ammo.png
+      800: Resources/CovenantEquipment/BigAssaultCannon.png
+      808: Resources/CovenantEquipment/BigHunterShield.png
 #      816: Resources/CovenantEquipment/BigFocusRifleBattery.png
       824: Resources/CovenantEquipment/BigFuelRodGun_noammo.png
       832: Resources/CovenantEquipment/BigFuelRodGun_ammo.png
@@ -2164,8 +2219,8 @@ extraSprites:
       776: Resources/CovenantEquipment/FloorPlasmaPistol_noammo.png
       784: Resources/CovenantEquipment/FloorPlasmaPistol_ammo.png
       792: Resources/CovenantEquipment/FloorPlasmaPistolBattery.png
-#      800: Resources/CovenantEquipment/FloorFocusRifle_noammo.png
-#      808: Resources/CovenantEquipment/FloorFocusRifle_ammo.png
+      800: Resources/CovenantEquipment/FloorAssaultCannon.png
+      808: Resources/CovenantEquipment/FloorHunterShield.png
 #      816: Resources/CovenantEquipment/FloorFocusRifleBattery.png
       824: Resources/CovenantEquipment/FloorFuelRodGun_noammo.png
       832: Resources/CovenantEquipment/FloorFuelRodGun_ammo.png
@@ -2283,8 +2338,8 @@ extraSprites:
 #      768: Resources/CovenantEquipment/HandSpikerAmmo.png
       776: Resources/CovenantEquipment/HandPlasmaPistol_noammo.png
       784: Resources/CovenantEquipment/HandPlasmaPistol_ammo.png
-#      800: Resources/CovenantEquipment/HandFocusRifle_noammo.png
-#      808: Resources/CovenantEquipment/HandFocusRifle_ammo.png
+      800: Resources/CovenantEquipment/HandAssaultCannon.png
+      808: Resources/CovenantEquipment/HandHunterShield.png
 #      816: Resources/CovenantEquipment/HandFocusRifleBattery.png
       824: Resources/CovenantEquipment/HandFuelRodGun_noammo.png
       832: Resources/CovenantEquipment/HandFuelRodGun_ammo.png

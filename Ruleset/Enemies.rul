@@ -2101,9 +2101,9 @@ units:
     stats:
       tu: 50
       stamina: 100
-      health: 100
+      health: 120
       bravery: 150
-      reactions: 65
+      reactions: 50
       firing: 70
       throwing: 45
       strength: 200
@@ -2121,17 +2121,8 @@ units:
     aggression: 4
     builtInWeaponSets:
      -
-       - STR_FUEL_ROD_GUN
-       - STR_FUEL_ROD_GUN_RACK
-       - STR_FUEL_ROD_GUN_RACK
-     -
-       - STR_FUEL_ROD_GUN
-       - STR_FUEL_ROD_GUN_RACK
-       - STR_FUEL_ROD_GUN_RACK
-     -
-       - STR_FUEL_ROD_GUN
-       - STR_FUEL_ROD_GUN_RACK
-       - STR_FUEL_ROD_GUN_RACK
+       - STR_ASSAULT_CANNON
+       - STR_HUNTER_SHIELD
 
   - type: STR_YANMEE_HIVEGUARD
     race: STR_YANMEE
@@ -2853,6 +2844,17 @@ alienRaces:
   - delete: STR_MUTON
   - delete: STR_ETHEREAL
   - delete: STR_MIXED
+
+  - id: STR_HUNTER_TEST
+    membersRandom:
+      - [STR_SANGHEILI_ZEALOT]
+      - [STR_SANGHEILI_ULTRA, STR_SANGHEILI_STEALTH]
+      - [STR_MGALEKGOLO]
+      - [STR_MGALEKGOLO]
+      - [STR_MGALEKGOLO, STR_KIG_YAR_MAJOR, STR_UNGGOY_HEAVY]
+      - [STR_MGALEKGOLO, STR_UNGGOY_MAJOR, STR_UNGGOY_MINOR]
+      - [STR_MGALEKGOLO, STR_MGALEKGOLO]
+      - [STR_MGALEKGOLO, STR_MGALEKGOLO]
 
   - id: STR_SANGHEILI_LANCE
     membersRandom:

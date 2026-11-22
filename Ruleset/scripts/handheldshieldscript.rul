@@ -5,6 +5,9 @@ items:
   - type: STR_MAJOR_SHIELD_GAUNTLET # ignoreDuplicate
     tags:
       Shield: 1
+  - type: STR_HUNTER_SHIELD # ignoreDuplicate
+    tags:
+      Shield: 1
 
 extended:
   tags:
