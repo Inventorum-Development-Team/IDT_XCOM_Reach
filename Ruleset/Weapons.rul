@@ -1926,6 +1926,7 @@ items:
     bigSprite: 808
     handSprite: 808
     floorSprite: 808
+    twoHanded: false
     flatRate: true
     hidePower: true
     battleType: 3
@@ -1946,8 +1947,8 @@ items:
     accuracyAimed: 130
     tuAimed: 75
     battleType: 1
-    twoHanded: true
-    arcingShot: true
+    twoHanded: false
+    arcingShot: false
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -1971,6 +1972,9 @@ items:
       ToMana: 2.0
       ToMorale: 0.5
     clipSize: -1
+    vaporColorSurface: 14
+    vaporDensitySurface: 5
+    vaporProbabilitySurface: 100
 #    listOrder: 248
 
   - type: STR_PLASMA_GHOST_CANNON       #Type 2 Plasma Cannon

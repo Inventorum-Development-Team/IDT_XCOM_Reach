@@ -38,18 +38,18 @@ ufopaedia:
     image_id: JACKAL_MINOR_REPORT_IMAGE
     text: STR_KIGYAR_REPORT_UFOPEDIA
     text_width: 150
-  - id: STR_YANMEE_REPORT
-    type_id: 7
-    section: STR_UNIT_REPORTS
-    image_id: DRONE_MINOR_REPORT_IMAGE
-    text: STR_YANMEE_REPORT_UFOPEDIA
-    text_width: 150
-  - id: STR_HURAGOK_REPORT
-    type_id: 7
-    section: STR_UNIT_REPORTS
-    image_id: ENGINEER_REPORT_IMAGE
-    text: STR_HURAGOK_REPORT_UFOPEDIA
-    text_width: 150
+#  - id: STR_YANMEE_REPORT
+#    type_id: 7
+#    section: STR_UNIT_REPORTS
+#    image_id: DRONE_MINOR_REPORT_IMAGE
+#    text: STR_YANMEE_REPORT_UFOPEDIA
+#    text_width: 150
+#  - id: STR_HURAGOK_REPORT
+#    type_id: 7
+#    section: STR_UNIT_REPORTS
+#    image_id: ENGINEER_REPORT_IMAGE
+#    text: STR_HURAGOK_REPORT_UFOPEDIA
+#    text_width: 150
   - id: STR_UNGGOY_REPORT
     type_id: 7
     section: STR_UNIT_REPORTS
@@ -718,18 +718,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Pedia/GRUNT_MINOR_REPORT_IMAGE.PNG
-  - type: DRONE_MINOR_REPORT_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Pedia/DRONE_MINOR_REPORT_IMAGE.PNG
-  - type: ENGINEER_REPORT_IMAGE
-    singleImage: true
-    width: 320
-    height: 200
-    files:
-      0: Resources/Pedia/ENGINEER_REPORT_IMAGE.PNG
+#  - type: DRONE_MINOR_REPORT_IMAGE
+#    singleImage: true
+#    width: 320
+#    height: 200
+#    files:
+#      0: Resources/Pedia/DRONE_MINOR_REPORT_IMAGE.PNG
+#  - type: ENGINEER_REPORT_IMAGE
+#    singleImage: true
+#    width: 320
+#    height: 200
+#    files:
+#      0: Resources/Pedia/ENGINEER_REPORT_IMAGE.PNG
 ####################################
   - type: ODST_DROPPOD_TACTIC_IMAGE
     singleImage: true

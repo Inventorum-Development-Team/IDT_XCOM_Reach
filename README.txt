@@ -46,6 +46,7 @@ Credits:
 * LordHayabusa357: Marine report image
 * Martin O'Donnell: original Halo Reach, Halo 3 and Halo 3: ODST soundtrack
 * Michael Salvatori: Halo Reach, Halo 3 and Halo 3: ODST soundtrack
+* N8endo: Brute inventory images (adapted)
 * ohartenstein23: SPI spritesheets template
 * starslab: adapted Amiga fontset and ruleset
 * Stephen Rippy: original Halo Wars soundtrack
