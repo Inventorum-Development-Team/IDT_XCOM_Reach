@@ -14,7 +14,7 @@ alienDeployments:
     isHidden: true
     width: 10
     length: 10
-    height: 10
+    height: 15
     terrains:
       - CULTA
     script: STR_CRAFT_DEPLOYMENT_PREVIEW

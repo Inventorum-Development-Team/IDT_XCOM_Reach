@@ -1,3 +1,13 @@
+X-December-2026: v2.0
+Changes made:
+* Added custom desaturated palettes, by efrenespartano
+* Added new Geoscape background, by efrenespartano
+* Added Covenant units, by efrenespartano
+- Huragok/Engineer
+- Yanme'e/Bugger (Minor, Major, Ultra, Captain, Hiveguard)
+- Mgalekgolo/Hunter
+* Added avatars, heads and hands by The Xcom Files team, by efrenespartano and b1ackwolf
+
 2-November-2026: v1.4
 Changes made:
 * Updated to OXCE v8.7.1
