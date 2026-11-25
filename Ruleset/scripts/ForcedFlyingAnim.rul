@@ -1,0 +1,51 @@
+armors:
+
+  - type: STR_YANMEE_HIVEGUARD_ARMOR
+    tags:
+      ForcedFlyAnim: 1
+  - type: STR_YANMEE_ULTRA_ARMOR
+    tags:
+      ForcedFlyAnim: 1
+  - type: STR_YANMEE_MAJOR_ARMOR
+    tags:
+      ForcedFlyAnim: 1
+  - type: STR_YANMEE_MINOR_ARMOR
+    tags:
+      ForcedFlyAnim: 1
+  - type: STR_YANMEE_PUPA_ARMOR
+    tags:
+      ForcedFlyAnim: 1
+
+extended:
+  tags:
+    RuleArmor:
+      ForcedFlyAnim: int
+  scripts:
+    selectUnitSprite:
+      - offset: 1
+        code: |
+          var int forcedflyanim;
+          var int flying;
+          var int floating;
+          var int frametemp;
+          var int facing;
+
+          unit.getTag forcedflyanim Tag.ForcedFlyAnim;
+          if and eq forcedflyanim 1 eq blit_part blit_torso;
+
+            unit.isFlying flying;
+            unit.isFloating floating;
+            if or eq flying 1 eq floating 1;
+              set sprite_index 16;
+              unit.getDirection facing;
+              mul facing 5;
+              add facing 8;
+              add sprite_index facing;
+              set frametemp anim_frame;
+              mod frametemp 5;
+              add sprite_index frametemp;
+              debug_log sprite_index;
+            end;
+          end;
+
+          return sprite_index;
