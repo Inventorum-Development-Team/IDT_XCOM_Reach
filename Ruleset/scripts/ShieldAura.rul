@@ -1,0 +1,81 @@
+armors:
+  - type: STR_HURAGOK_ARMOR
+    tags:
+      ShieldAura: 10
+
+extended:
+  tags:
+    RuleArmor:
+      ShieldAura: int #this tag doubles as the distance the aura is effective in
+  scripts:
+    newTurnUnit:
+    
+      - offset: 1 #this script resets the manapool to its normal value
+        code: |
+          
+          var int maxmana;
+          var ptr RuleArmor rule_armor;
+
+          if neq side FACTION_HOSTILE;
+            return;
+          end;
+
+          unit.getRuleArmor rule_armor;
+          rule_armor.Stats.getManaPool maxmana;
+          unit.Stats.setManaPool maxmana;
+
+          return;
+      - offset: 2
+        code: |
+          var int faction;
+          var int ownfaction;
+          var int radius;
+          var int health;
+          var int maxmana;
+          var int x;
+          var int y;
+          var int z;
+          var int shieldaura;
+          var ptr RuleArmor rule_armor;
+          var ptr Tile own_tile;
+          var ptr Tile target_tile;
+
+          if neq side FACTION_HOSTILE;
+            return;
+          end;
+
+            loop var target_unit battle_game.getUnits.list;
+
+              target_unit.getTag shieldaura Tag.ShieldAura;
+
+              if ge shieldaura 1;
+
+                unit.getFaction ownfaction;
+                target_unit.getFaction faction;
+                target_unit.getHealth health;
+
+                if and eq ownfaction faction gt health 0;
+
+                  unit.getPosition.getX x;
+                  unit.getPosition.getY y;
+                  unit.getPosition.getZ z;
+                  battle_game.getTile own_tile x y z;
+                  
+                  target_unit.getPosition.getX x;
+                  target_unit.getPosition.getY y;
+                  target_unit.getPosition.getZ z;
+                  battle_game.getTile target_tile x y z;
+                  own_tile.getDistanceTile radius target_tile;
+                  if le radius shieldaura;
+                    unit.getRuleArmor rule_armor;
+                    rule_armor.Stats.getManaPool maxmana;
+                    add maxmana 50; #adjust to change how much mana the aura gives
+                    unit.Stats.setManaPool maxmana;
+                    unit.addMana 50; #extra shield regen granted by aura
+                  end;
+
+                end;
+              end;
+            end;
+
+          return;

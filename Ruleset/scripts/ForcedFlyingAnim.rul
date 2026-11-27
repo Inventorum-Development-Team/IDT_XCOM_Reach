@@ -44,7 +44,6 @@ extended:
               set frametemp anim_frame;
               mod frametemp 5;
               add sprite_index frametemp;
-              debug_log sprite_index;
             end;
           end;
 

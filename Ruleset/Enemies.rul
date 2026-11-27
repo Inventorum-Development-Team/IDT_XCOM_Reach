@@ -2953,6 +2953,16 @@ alienRaces:
       - [STR_HURAGOK]
       - [STR_HURAGOK]
       - [STR_HURAGOK]
+  - id: STR_HURAGOK_SHIELD_TEST
+    membersRandom:
+      - [STR_HURAGOK]
+      - [STR_UNGGOY_MINOR]
+      - [STR_HURAGOK]
+      - [STR_UNGGOY_MINOR]
+      - [STR_HURAGOK]
+      - [STR_UNGGOY_MINOR]
+      - [STR_HURAGOK]
+      - [STR_UNGGOY_MINOR]
   - id: STR_INSURGENTS
     membersRandom:
       - [STR_INSURGENT_LEADER]
