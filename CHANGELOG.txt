@@ -2,11 +2,14 @@ X-December-2026: v2.0
 Changes made:
 * Added custom desaturated palettes, by efrenespartano
 * Added new Geoscape background, by efrenespartano
+* Added new Geoscape textures
 * Added Covenant units, by efrenespartano
 - Huragok/Engineer
 - Yanme'e/Bugger (Minor, Major, Ultra, Captain, Hiveguard)
 - Mgalekgolo/Hunter
 * Added avatars, heads and hands by The Xcom Files team, by efrenespartano and b1ackwolf
+* Added HQ Sounds by Daedalus and Hellrazor
+* Rearranged initial crafts, Falcon is first, Paris-class Heavy Frigate is second 
 
 2-November-2026: v1.4
 Changes made:
