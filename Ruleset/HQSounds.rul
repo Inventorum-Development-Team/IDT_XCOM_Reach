@@ -146,24 +146,7 @@ items:
   - type: CELATID_WEAPON
     fireSound: 50
     hitSound: 78
-facilities:
-  - type: STR_LASER_DEFENSES
-    fireSound: 14
-craftWeapons:
-  - type: STR_STINGRAY
-    sound: 15
-  # - type: STR_AVALANCHE
-    # sound: 5
-  # - type: STR_STORMLANCE
-    # sound: 5
-  # - type: STR_CANNON_UC
-    # sound: 4
-  # - type: STR_PLASMA_BEAM_UC
-    # sound: 9
-  # - type: STR_FUSION_BALL_UC
-    # sound: 7
-  - type: STR_LASER_CANNON_UC
-    sound: 14
+
 extraSounds:
   - type: GEO.CAT
     files:
